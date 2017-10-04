@@ -15,7 +15,6 @@ git config user.name "Hiroaki KAWAI Trais"
 git config user.email "hiroaki.kawai@gmail.com"
 
 git checkout master
-make
 git add docs/*
 git commit -m "auto"
 git push "https://hkwi:${GH_TOKEN}@github.com/hkwi/shuin48pre.git" master:master > /dev/null 2>&1
