@@ -1,4 +1,6 @@
 language: C
 script: make
+before_install:
+- "pip install lxml"
 after_success:
 - "./auto.sh"
