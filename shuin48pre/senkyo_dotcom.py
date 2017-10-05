@@ -14,7 +14,7 @@ def run(fp):
 	js.get("http://shugiin.go2senkyo.com/")
 	urls = [a.get_attribute("href") for a
 		in js.find_elements_by_xpath('.//div[@class="cts_search"]//a')]
-	for url in set(urls):
+	for url in sorted(set(urls)):
 		pc = urllib.parse.urlparse(url)
 		if pc.netloc != "shugiin.go2senkyo.com":
 			continue
