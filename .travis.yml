@@ -4,9 +4,9 @@ python:
 install:
 - pip install -r requirements.txt
 before_script:
-- apt-get install -y nodejs
+- sudo apt-get install -y nodejs
 - ln -s $HOME/.local/bin/node /usr/bin/nodejs
-- apt-get install -y npm
+- sudo apt-get install -y npm
 - npm install phantomjs
 - export PATH=$PATH:$HOME/node_modules/.bin
 script: nosetests
