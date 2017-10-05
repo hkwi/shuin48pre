@@ -9,6 +9,7 @@ addons:
     - nodejs
     - npm
 before_script:
+- mkdir -p .local/bin
 - ln -s /usr/bin/nodejs $HOME/.local/bin/node
 - npm install phantomjs
 - export PATH=$PATH:$HOME/node_modules/.bin
