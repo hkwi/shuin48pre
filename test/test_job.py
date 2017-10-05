@@ -1,5 +1,6 @@
 import threading
 import shuin48pre.kyousanto_official
+import shuin48pre.senkyo_dotcom
 
 def test_jobs():
 	def wrap():
@@ -8,4 +9,13 @@ def test_jobs():
 	
 	th = threading.Thread(target=wrap)
 	th.start()
+	
+	def wrap2():
+		with open("docs/senkyo_dotcom.csv", "w") as fp:
+			shuin48pre.senkyo_dotcom.run(fp)
+	
+	th2 = threading.Thread(target=wrap)
+	th2.start()
+	
 	th.join()
+	th2.join()
