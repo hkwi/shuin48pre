@@ -13,4 +13,6 @@ targets = {
 }
 for fn,sh in targets.items():
 	s = gs.open_by_key(sh)
-	csv.writer(open("docs/%s" % fn, "w")).writerows(s.sheet1.get_all_values())
+	rows = s.sheet1.get_all_values()
+	skip = [r[0] for r in rows].index("wikidata")+1
+	csv.writer(open("docs/%s" % fn, "w")).writerows(rows[:skip]+sorted(rows[skip:]))
