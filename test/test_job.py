@@ -14,7 +14,7 @@ def test_jobs():
 		with open("docs/senkyo_dotcom.csv", "w") as fp:
 			shuin48pre.senkyo_dotcom.run(fp)
 	
-	th2 = threading.Thread(target=wrap)
+	th2 = threading.Thread(target=wrap2)
 	th2.start()
 	
 	th.join()
