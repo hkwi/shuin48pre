@@ -19,7 +19,8 @@ def hiragana_split(s):
 	ret = [""]
 	hiragana = True
 	for c in s:
-		n = unicodedata.name(c).startswith("HIRAGANA")
+		nm = unicodedata.name(c)
+		n = nm.startswith("HIRAGANA") or nm.startswith("KATAKANA")
 		if n:
 			if hiragana:
 				ret[-1] += c
@@ -93,16 +94,28 @@ def run(fp):
 				t1 = hiragana_split(n1[0])
 				t2 = hiragana_split(n2[0])
 				t = t1[1::2] + t2[1::2]
-				row["family_name"] = "".join(t[::2] + t[1::2])
+				nokana = "".join(t[::2] + t[1::2])
 				t = t1[::2] + t2[::2]
-				row["family_hira"] = "".join(t[::2] + t[1::2])
+				kana = "".join(t[::2] + t[1::2])
+				if nokana and kana:
+					row["family_name"] = nokana
+					row["family_hira"] = kana
+				elif kana:
+					row["family_name"] = "".join(t[::2])
+					row["family_hira"] = "".join(t[::2])
 				
 				t1 = hiragana_split(n1[1])
 				t2 = hiragana_split(n2[1])
 				t = t1[1::2] + t2[1::2]
-				row["given_name"] = "".join(t[::2] + t[1::2])
+				nokana = "".join(t[::2] + t[1::2])
 				t = t1[::2] + t2[::2]
-				row["given_hira"] = "".join(t[::2] + t[1::2])
+				kana = "".join(t[::2] + t[1::2])
+				if nokana and kana:
+					row["given_name"] = nokana
+					row["given_hira"] = kana
+				elif kana:
+					row["given_name"] = "".join(t[::2])
+					row["given_hira"] = "".join(t[::2])
 				
 				row["name"] = row["family_name"]+row["given_name"]
 			else:
