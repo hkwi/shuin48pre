@@ -17,8 +17,8 @@ def run(fp):
 	for url in urls:
 		pc = urllib.parse.urlparse(url)
 		pcc = pc.path.split("/")
-		if pcc[0] == "hirei"
-		h1.add(pcc[1])
+		if pcc[0] == "hirei":
+			h1.add(pcc[1])
 	for h in h1:
 		for i in range(1,20):
 			urls.append("http://shugiin.go2senkyo.com/hirei/%s/%d/" % (h,i))
