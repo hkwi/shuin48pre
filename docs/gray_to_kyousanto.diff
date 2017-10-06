@@ -1123,20 +1123,16 @@
      ns1:名前 "平川道也" ;
      ns1:小選挙区 "埼玉2区" ;
 -    ns1:年齢 "" ;
--    ns1:比例区 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:前回 "" ;
 +    ns1:年齢 "45" ;
-+    ns1:比例区 "" .
-+
-+[] ns1:facebook "" ;
-+    ns1:twitter "jhiramatu" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "jhiramatu" ;
+-    ns1:前回 "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "平松順子" ;
      ns1:小選挙区 "兵庫2区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "67" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;

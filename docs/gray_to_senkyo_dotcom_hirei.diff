@@ -5,16 +5,14 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100013946827100&fref=ts" ;
-+    ns1:twitter "" ;
-+    ns1:公式サイト "http://ichijoyoshihiro.com/" ;
+     ns1:twitter "" ;
+     ns1:公式サイト "http://ichijoyoshihiro.com/" ;
+-    ns1:前回 "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "一條芳弘" ;
--    ns1:年齢 "" ;
--    ns1:政党 "民進" ;
+-    ns1:年齢 "46" ;
+-    ns1:政党 "希望" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
@@ -5971,8 +5969,8 @@
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
+-    ns1:twitter "jhiramatu" ;
+-    ns1:公式サイト "http://www.jcp.or.jp/web_senkyo/cat1/cat128/" ;
 -    ns1:前回 "" ;
 +    ns1:年齢 "45" ;
 +    ns1:政党 "共産" ;
@@ -5983,16 +5981,14 @@
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "平松順子" ;
--    ns1:年齢 "" ;
--    ns1:政党 "共産" ;
+     ns1:年齢 "67" ;
+     ns1:政党 "共産" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
-+    ns1:年齢 "67" ;
-+    ns1:政党 "共産" ;
 +    ns1:比例区 "兵庫県 2区" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100015517326981&fref=ts" ;
