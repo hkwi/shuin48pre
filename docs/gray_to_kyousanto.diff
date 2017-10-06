@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 共産党公式
-@@ -6,1620 +6,1617 @@
+@@ -6,1622 +6,1617 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -237,8 +237,10 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-[] ns1:facebook "",
+-        "https://www.facebook.com/tatsuya.jcp.g" ;
+-    ns1:twitter "",
+-        "tatsuya_jcp" ;
 -    ns1:前回 "",
 -        "現職" ;
 +    ns1:年齢 "43" ;

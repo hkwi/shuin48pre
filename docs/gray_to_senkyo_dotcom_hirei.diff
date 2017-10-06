@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 選挙ドットコム（比例）
-@@ -4,7876 +4,7882 @@
+@@ -4,7878 +4,7882 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -555,7 +555,7 @@
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "中川民英" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "50" ;
 -    ns1:政党 "共産" ;
 -    ns1:比例区 "" .
 -
@@ -1445,8 +1445,10 @@
 -    ns1:政党 "共産" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-[] ns1:facebook "",
+-        "https://www.facebook.com/tatsuya.jcp.g" ;
+-    ns1:twitter "",
+-        "tatsuya_jcp" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "",
 -        "現職" ;
@@ -5721,16 +5723,12 @@
      ns1:年齢 "55" ;
      ns1:政党 "民進" ;
 -    ns1:比例区 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "現職" ;
 +    ns1:比例区 "鹿児島県 1区" .
-+
-+[] ns1:facebook "" ;
-+    ns1:twitter "" ;
-+    ns1:公式サイト "http://www.kawasaki-jiro.ne.jp/" ;
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:公式サイト "http://www.kawasaki-jiro.ne.jp/" ;
+-    ns1:前回 "現職" ;
 +    ns1:前回 "前" ;
      ns1:名前 "川崎二郎" ;
      ns1:年齢 "69" ;
