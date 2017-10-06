@@ -3,16 +3,6 @@ python:
 - 3.5
 install:
 - pip install -r requirements.txt
-addons:
-  apt:
-    packages:
-    - nodejs
-    - npm
-before_script:
-- mkdir -p $HOME/.local/bin
-- ln -s /usr/bin/nodejs $HOME/.local/bin/node
-- npm install phantomjs
-- export PATH=$PATH:$HOME/node_modules/.bin
 script: nosetests
 after_success:
 - "./auto.sh"

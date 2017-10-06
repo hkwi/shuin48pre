@@ -4,21 +4,31 @@ import lxml.etree
 import lxml.html
 import csv
 import urllib.request
-import selenium.webdriver
+import requests
 
 def run(fp):
 	fieldnames = "namel name sei mei party cls age_n tw fb site bio age".split()
 	out = csv.writer(fp)
 	
-	js = selenium.webdriver.PhantomJS()
-	js.get("http://shugiin.go2senkyo.com/")
-	urls = [a.get_attribute("href") for a
-		in js.find_elements_by_xpath('.//div[@class="cts_search"]//a')]
+	d = lxml.etree.parse("http://shugiin.go2senkyo.com/sitemap.xml")
+	urls = d.xpath(".//s:loc/text()", namespaces={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"})
+	
+	h1 = set()
+	for url in urls:
+		pc = urllib.parse.urlparse(url)
+		pcc = pc.path.split("/")
+		h1.add(pcc[1])
+	for h in h1:
+		for i in range(1,20):
+			urls.append("http://shugiin.go2senkyo.com/%s/%d/" % (h,i))
+	
 	for url in sorted(set(urls)):
 		pc = urllib.parse.urlparse(url)
 		if pc.netloc != "shugiin.go2senkyo.com":
 			continue
 		if pc.path == "/":
+			continue
+		if requests.head(url).status_code != 200:
 			continue
 		
 		doc = lxml.html.parse(url)
@@ -30,7 +40,6 @@ def run(fp):
 		for p in doc.xpath('.//div[@class="list_peason"]'):
 			bulk = dict(
 				namel = p.xpath('.//p[@class="list_peason_name"]/text()'),
-				party = p.xpath('.//span[@class="pname"]/text()'),
 				cls = p.xpath('.//p[@class="list_peason_txts_d_class"]/text()'),
 				age = p.xpath('.//p[@class="list_peason_txts_d_age"]/text()'),
 				bio = p.xpath('.//dl[@class="list_person_detail_upper"]/dd/p/text()'),
@@ -38,6 +47,11 @@ def run(fp):
 				fb = p.xpath('.//p[@class="list_person_detail_sites_facebook"]/a/@href'),
 				tw = p.xpath('.//p[@class="list_person_detail_sites_twitter"]/a/@href'),
 			)
+			if pc.path.startswith("/hirei/"):
+				bulk["party"] = doc.xpath('.//p[@class="hirei_sttl_party"]/text()')
+			else:
+				bulk["party"] = p.xpath('.//span[@class="pname"]/text()')
+			
 			for k,v in bulk.items():
 				bulk[k] = [n.strip() for n in v if n.strip()]
 			for k,v in bulk.items():
@@ -58,7 +72,6 @@ def run(fp):
 				bulk["name"] = "".join(seimei)
 			else:
 				bulk["name"] = seimei
-			
 			out.writerow([bulk.get(k) for k in fieldnames])
 
 if __name__=="__main__":
