@@ -41,6 +41,10 @@ def ttl_out(dbkeys, dbdata, keys, names):
 				m = re.match("(\d{4})(\d{2})(\d{2})", v)
 				if m:
 					v = "-".join(m.groups())
+				m = re.match("(\d{4})/(\d{2})/(\d{2})", v)
+				if m:
+					v = "-".join(m.groups())
+				
 			elif k == "性別":
 				if not v.endswith("性") and len(v)==1:
 					v += "性"
@@ -74,13 +78,14 @@ def gray_to_kyousanto():
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
 	db = [tuple(r) for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = list(set(db))
-	gray_db = load_gdoc("docs/gdoc_gray_db.csv")
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
 	
-	keys = set(ks).intersection(set(gray_db[0]))
-	names = set([row[ks.index("名前")] for row in db]).intersection(
-		[row[gray_db[0].index("名前")] for row in gray_db[1]])
+	keys = set(ks).intersection(set(gk))
+	names = set([row[ks.index("名前")] for row in db]+
+		[row[gk.index("名前")] for row in gdb])
 	
-	lines = difflib.unified_diff(ttl_out(gray_db[0], gray_db[1], keys, names),
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys, names),
 		ttl_out(ks, db, keys, names),
 		fromfile="GrayDB", tofile="共産党公式", lineterm='\r\n')
 	open("docs/gray_to_kyousanto.diff", "w").writelines(lines)
@@ -117,7 +122,25 @@ def gray_to_senkyo_dotcom_hirei():
 		fromfile="GrayDB", tofile="選挙ドットコム（比例）", lineterm='\r\n')
 	open("docs/gray_to_senkyo_dotcom_hirei.diff", "w").writelines(lines)
 
-gray_to_seijinavi()
-gray_to_kyousanto()
-gray_to_senkyo_dotcom()
-gray_to_senkyo_dotcom_hirei()
+def gray_to_ishin():
+	ks = ["候補名","名前","ふりがな","前回","小選挙区","比例区","肩書"]
+	db = [tuple(r) for r in csv.reader(open("docs/ishin_official.csv")) if "".join(r)]
+	db = list(set(db))
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
+	
+	keys = set(ks).intersection(set(gk))
+	names = set([row[ks.index("名前")] for row in db]+
+		[row[gk.index("名前")] for row in gdb])
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys, names),
+		ttl_out(ks, db, keys, names),
+		fromfile="GrayDB", tofile="維新公式", lineterm='\r\n')
+	open("docs/gray_to_ishin.diff", "w").writelines(lines)
+
+if __name__=="__main__":
+	gray_to_seijinavi()
+	gray_to_kyousanto()
+	gray_to_senkyo_dotcom()
+	gray_to_senkyo_dotcom_hirei()
+	gray_to_ishin()
