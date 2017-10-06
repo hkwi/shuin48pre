@@ -33,9 +33,6 @@ def ttl_out(dbkeys, dbdata, keys, names):
 			continue
 		e = rdflib.BNode(name)
 		for k,v in m.items():
-			if not v:
-				continue
-			
 			if k == "twitter":
 				v = v.split("?")[0].lower()
 			elif k == "facebook":
