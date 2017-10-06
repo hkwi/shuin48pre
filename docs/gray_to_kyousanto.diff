@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 共産党公式
-@@ -6,2193 +6,1953 @@
+@@ -6,2201 +6,1953 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -2314,16 +2314,25 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "現職" ;
+-    ns1:名前 "清水ただし" ;
+-    ns1:小選挙区 "" ;
 +    ns1:年齢 "69" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/tadashi.shimizu.90" ;
 +    ns1:twitter "tadashishimizu" ;
 +    ns1:前回 "現" ;
-     ns1:名前 "清水忠史" ;
--    ns1:小選挙区 "" ;
++    ns1:名前 "清水忠史" ;
 +    ns1:小選挙区 "大阪4区" ;
      ns1:年齢 "49" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "現職" ;
+-    ns1:名前 "清水忠史" ;
+-    ns1:小選挙区 "" ;
+-    ns1:年齢 "49" ;
 -    ns1:比例区 "近畿ブロック" .
 -
 -[] ns1:facebook "" ;

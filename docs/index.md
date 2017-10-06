@@ -10,7 +10,7 @@
 twitter, facebook ページの有無や、wikidata への登録を進めています。
 
 - [GrayDB / 政治ナビ](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_seijinavi.diff)
-- [GrayDB / 選挙ドットコム（小選挙区）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_senkyo_dotcom.diff)
-- [GrayDB / 選挙ドットコム（比例代表）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_senkyo_dotcom_hirei.diff)
+- [GrayDB / 選挙ドットコム](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_senkyo_dotcom.diff)
 - [GrayDB / 共産党公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_kyousanto.diff)
 - [GrayDB / 維新公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_ishin.diff)
+- [GrayDB / 公明公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_koumei.diff)

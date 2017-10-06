@@ -132,8 +132,34 @@ def gray_to_ishin():
 		fromfile="GrayDB", tofile="維新公式", lineterm='\r\n')
 	open("docs/gray_to_ishin.diff", "w").writelines(lines)
 
+def gray_to_koumei():
+	ks1 = "名前 小選挙区 twitter facebook youtube line 肩書".split()
+	db1 = [tuple(r) for r in csv.reader(open("docs/koumei_official.csv")) if "".join(r)]
+	db1 = list(set(db1))
+	
+	ks2 = "名前 比例区 twitter facebook youtube line 肩書".split()
+	db2 = [tuple(r) for r in csv.reader(open("docs/koumei_official_hirei.csv")) if "".join(r)]
+	db2 = list(set(db2))
+	
+	ks = "名前 小選挙区 比例区 twitter facebook youtube line 肩書".split()
+	db = [tuple([dict(zip(ks1, n)).get(k, "") for k in ks]) for n in db1
+		] + [tuple([dict(zip(ks2, n)).get(k, "") for k in ks]) for n in db2]
+	db = list(set(db))
+	
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if r[gk.index("政党")] == "公明"]
+	
+	keys = set(ks).intersection(set(gk))
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
+		fromfile="GrayDB", tofile="公明党公式", lineterm='\r\n')
+	open("docs/gray_to_koumei.diff", "w").writelines(lines)
+
+
 if __name__=="__main__":
 	gray_to_seijinavi()
 	gray_to_kyousanto()
 	gray_to_senkyo_dotcom()
 	gray_to_ishin()
+	gray_to_koumei()

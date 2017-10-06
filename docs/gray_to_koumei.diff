@@ -1,0 +1,459 @@
+--- GrayDB
++++ 公明党公式
+@@ -4,21 +4,39 @@
+ @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ 
+-[] ns1:facebook "https://www.facebook.com/isamu.ueda.77" ;
+-    ns1:twitter "isamuueda" ;
+-    ns1:名前 "上田勇" ;
++[] ns1:facebook "https://www.facebook.com/isashinichi.1341/" ;
++    ns1:twitter "https://twitter.com/isashinichi" ;
++    ns1:名前 "いさ進一" ;
++    ns1:小選挙区 "大阪6区" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/inatsu.komei/" ;
++    ns1:twitter "https://twitter.com/inatsuhisashi" ;
++    ns1:名前 "いなつ久" ;
++    ns1:小選挙区 "北海道10区" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "上地崇" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/isamu.ueda.77/" ;
++    ns1:twitter "https://twitter.com/isamuueda" ;
++    ns1:名前 "上田いさむ" ;
+     ns1:小選挙区 "神奈川6区" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
++[] ns1:facebook "https://www.facebook.com/nakagawakomei" ;
++    ns1:twitter "https://twitter.com/nakagawa_komei" ;
+     ns1:名前 "中川康洋" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "東海ブロック" .
+ 
+ [] ns1:facebook "https://www.facebook.com/nakanohiromasa.office" ;
+-    ns1:twitter "hiro_nakano_" ;
+-    ns1:名前 "中野洋昌" ;
++    ns1:twitter "" ;
++    ns1:名前 "中野ひろまさ" ;
+     ns1:小選挙区 "兵庫8区" ;
+     ns1:比例区 "" .
+ 
+@@ -29,200 +47,278 @@
+     ns1:比例区 "東北ブロック" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "isashinichi" ;
+-    ns1:名前 "伊佐進一" ;
+-    ns1:小選挙区 "大阪6区" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "ito_wataru" ;
++    ns1:twitter "" ;
++    ns1:名前 "井川泰雄" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "南関東ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "井筒伸幸" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東海ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/komei.itowataru/?hc_ref=ARQLM7_QnZwLWKJaGugItnrONJhb41Zo21B6z6MLN1CeL_Qtck0hg_QrUlC0T6BkBzw&fref=nf" ;
++    ns1:twitter "https://twitter.com/ito_wataru" ;
+     ns1:名前 "伊藤渉" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "東海ブロック" .
+ 
+-[] ns1:facebook "" ;
+-    ns1:twitter "hidemichisato" ;
++[] ns1:facebook "https://www.facebook.com/shigeki3468" ;
++    ns1:twitter "https://twitter.com/shigeki3468" ;
++    ns1:名前 "佐藤しげき" ;
++    ns1:小選挙区 "大阪3区" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/hidemichi.sato.7" ;
++    ns1:twitter "https://twitter.com/hidemichisato" ;
+     ns1:名前 "佐藤英道" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "北海道ブロック" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "shigeki3468" ;
+-    ns1:名前 "佐藤茂樹" ;
+-    ns1:小選挙区 "大阪3区" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "https://www.facebook.com/kitagawasakai" ;
+-    ns1:twitter "kitagawa_kazuo" ;
+-    ns1:名前 "北側一雄" ;
++    ns1:twitter "" ;
++    ns1:名前 "佐近康昌" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東京都ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/kitagawasakai/" ;
++    ns1:twitter "https://twitter.com/kitagawa_kazuo" ;
++    ns1:名前 "北がわ一雄" ;
+     ns1:小選挙区 "大阪16区" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/noriko.furuya514" ;
+-    ns1:twitter "noriko_furuya" ;
++[] ns1:facebook "https://www.facebook.com/noriko.furuya.jp" ;
++    ns1:twitter "https://twitter.com/noriko_furuya/" ;
+     ns1:名前 "古屋範子" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "南関東ブロック" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
++    ns1:名前 "吉田久美子" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/nobuhiro.yoshida.940" ;
++    ns1:twitter "https://twitter.com/yoshida_komei" ;
+     ns1:名前 "吉田宣弘" ;
+     ns1:小選挙区 "" ;
+-    ns1:比例区 "九州ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "国重徹" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/toru.kunishige" ;
++    ns1:twitter "https://twitter.com/torukunishige" ;
++    ns1:名前 "国重とおる" ;
+     ns1:小選挙区 "大阪5区" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "" ;
+-    ns1:twitter "torukunishige" ;
+-    ns1:名前 "國重徹" ;
+-    ns1:小選挙区 "大阪5区" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/OguchiYoshinori/" ;
+     ns1:twitter "" ;
+     ns1:名前 "大口善徳" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "東海ブロック" .
+ 
+-[] ns1:facebook "https://www.facebook.com/teamohta" ;
+-    ns1:twitter "teamohta" ;
+-    ns1:名前 "太田昭宏" ;
++[] ns1:facebook "https://www.facebook.com/teamohta/" ;
++    ns1:twitter "https://twitter.com/teamohta" ;
++    ns1:名前 "太田あきひろ" ;
+     ns1:小選挙区 "東京12区" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
++    ns1:名前 "太田昌孝" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "北陸信越ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:名前 "富田茂之" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "南関東ブロック" .
+ 
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
++[] ns1:facebook "https://www.facebook.com/okamoto.office/" ;
++    ns1:twitter "https://twitter.com/okamotooffice" ;
+     ns1:名前 "岡本三成" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "北関東ブロック" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "saitotetsuo" ;
++    ns1:twitter "" ;
++    ns1:名前 "布施正行" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "南関東ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/komei.tetsuosaito/" ;
++    ns1:twitter "https://twitter.com/saitotetsuo" ;
+     ns1:名前 "斉藤鉄夫" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "中国ブロック" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
++    ns1:名前 "日下正喜" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "中国ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "星英一郎" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東京都ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "村上知己" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "北関東ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:名前 "桝屋敬悟" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "中国ブロック" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
+-    ns1:名前 "樋口尚也" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "近畿ブロック" .
+-
+-[] ns1:facebook "" ;
++    ns1:名前 "武田久之" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "北海道ブロック" .
++
++[] ns1:facebook "https://ja-jp.facebook.com/edayasuyuki.official/" ;
+     ns1:twitter "" ;
+     ns1:名前 "江田康幸" ;
+     ns1:小選挙区 "" ;
+-    ns1:比例区 "九州ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "浜地雅一" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "九州ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "tomo_ukishima" ;
+-    ns1:名前 "浮島とも子" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/ukishimatomoko/?hc_ref=ARRJtcfyrObvO2mI5D_TkSF0w_1SH11tlR1tPRQCBJ2I715KZbnaTNHXYzN_ZAcAIrc&fref=nf" ;
++    ns1:twitter "https://twitter.com/tomo_ukishima" ;
+     ns1:名前 "浮島智子" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "近畿ブロック" .
+ 
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
+-    ns1:名前 "漆原良夫" ;
++    ns1:名前 "渡邊大" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東北ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
++    ns1:twitter "https://twitter.com/hamamurasusumu" ;
++    ns1:名前 "濱村進" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/hamachi.masakazu" ;
++    ns1:twitter "https://twitter.com/hamachi_m" ;
++    ns1:名前 "濵地雅一" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "田中博之" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "田丸義高" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/%E7%9C%9F%E5%B1%B1%E7%A5%90%E4%B8%80-%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-424176007747296/" ;
++    ns1:twitter "https://twitter.com/yuichi_mayama" ;
++    ns1:名前 "真山祐一" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東北ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "石井啓一" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "北関東ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/noritoshi.ishida.komei/" ;
++    ns1:twitter "https://twitter.com/ishidanoritoshi" ;
++    ns1:名前 "石田祝稔" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "四国ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/takeuchi.yuzuru" ;
++    ns1:twitter "https://twitter.com/takeuchi_yuzuru" ;
++    ns1:名前 "竹内譲" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/hideo.tsunoda.53" ;
++    ns1:twitter "" ;
++    ns1:名前 "角田秀穂" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "南関東ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/akabakazuyoshi/" ;
++    ns1:twitter "https://twitter.com/akbhyogo2ku" ;
++    ns1:名前 "赤羽かずよし" ;
++    ns1:小選挙区 "兵庫2区" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "越野優一" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東海ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/koshimizu.keiichi/" ;
++    ns1:twitter "https://www.facebook.com/koshimizu.keiichi/" ;
++    ns1:名前 "輿水恵一" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "北関東ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
++    ns1:twitter "https://twitter.com/kiyohiko_toyama" ;
++    ns1:名前 "遠山清彦" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "九州・沖縄ブロック" .
++
++[] ns1:facebook "https://www.facebook.com/michiyo.takagi.komei/" ;
++    ns1:twitter "" ;
++    ns1:名前 "高木美智代" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東京都ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "高木陽介" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "東京都ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "高村宗男" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "四国ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "高橋秀明" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "北陸信越ブロック" .
+ 
+-[] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
+-    ns1:twitter "hamamurasusumu" ;
+-    ns1:名前 "濱村進" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "近畿ブロック" .
+-
+-[] ns1:facebook "https://www.facebook.com/%E7%9C%9F%E5%B1%B1%E7%A5%90%E4%B8%80-%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-424176007747296/" ;
+-    ns1:twitter "yuichi_mayama" ;
+-    ns1:名前 "真山祐一" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "東北ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "石井啓一" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "北関東ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "石田祝稔" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "四国ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "稲津久" ;
+-    ns1:小選挙区 "北海道 10区" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "竹内譲" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "近畿ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "角田秀穂" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "南関東ブロック" .
+-
+-[] ns1:facebook "https://www.facebook.com/kazuyoshi.akaba" ;
+-    ns1:twitter "akbhyogo2ku" ;
+-    ns1:名前 "赤羽一嘉" ;
+-    ns1:小選挙区 "兵庫2区" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "輿水恵一" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "北関東ブロック" .
+-
+-[] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
+-    ns1:twitter "kiyohiko_toyama" ;
+-    ns1:名前 "遠山清彦" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "九州ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "高木美智代" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "東京ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:名前 "高木陽介" ;
+-    ns1:小選挙区 "" ;
+-    ns1:比例区 "東京ブロック" .
+-
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "高橋雅也" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "鰐淵洋子" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:名前 "鷲岡秀明" ;
++    ns1:小選挙区 "" ;
++    ns1:比例区 "近畿ブロック" .
++
