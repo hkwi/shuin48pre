@@ -65,8 +65,8 @@
      ns1:政党 "自民" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/tomoyuki.miwa3" ;
+-    ns1:twitter "1975_miwa" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
 +    ns1:比例区 "福岡県 9区" .
@@ -191,18 +191,14 @@
 -    ns1:年齢 "" ;
 -    ns1:政党 "自民" ;
 -    ns1:比例区 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "" ;
 +    ns1:年齢 "42" ;
 +    ns1:政党 "自民" ;
 +    ns1:比例区 "福島県 3区" .
-+
-+[] ns1:facebook "https://www.facebook.com/vasutoshi.kamimura" ;
-+    ns1:twitter "" ;
-+    ns1:公式サイト "" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/vasutoshi.kamimura" ;
+     ns1:twitter "" ;
+     ns1:公式サイト "" ;
+-    ns1:前回 "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "上村泰稔" ;
 -    ns1:年齢 "" ;
@@ -549,14 +545,12 @@
      ns1:年齢 "67" ;
      ns1:政党 "民進" ;
 -    ns1:比例区 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "" ;
 +    ns1:比例区 "三重県 2区" .
-+
-+[] ns1:facebook "https://www.facebook.com/tamihide.nakagawa" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/tamihide.nakagawa" ;
+-    ns1:twitter "tamihide123456" ;
+-    ns1:公式サイト "http://blog.goo.ne.jp/jcp-mie_nakagawa" ;
+-    ns1:前回 "" ;
 +    ns1:twitter "https://twitter.com/tamihide123456" ;
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;
@@ -798,8 +792,7 @@
 +    ns1:公式サイト "http://www.h-maruyama.jp/" ;
 +    ns1:前回 "前" ;
      ns1:名前 "丸山穂高" ;
--    ns1:年齢 "" ;
-+    ns1:年齢 "33" ;
+     ns1:年齢 "33" ;
      ns1:政党 "維新" ;
 -    ns1:比例区 "" .
 -
@@ -842,7 +835,7 @@
 -    ns1:政党 "民進" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jcp.tokushima" ;
 -    ns1:twitter "" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -1013,30 +1006,24 @@
 -    ns1:年齢 "" ;
 -    ns1:政党 "共産" ;
 -    ns1:比例区 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "現職" ;
 +    ns1:年齢 "49" ;
 +    ns1:政党 "共産" ;
 +    ns1:比例区 "岐阜県 3区" .
-+
-+[] ns1:facebook "https://www.facebook.com/inouetakahirojimusho" ;
-+    ns1:twitter "" ;
-+    ns1:公式サイト "" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/inouetakahirojimusho" ;
+     ns1:twitter "" ;
+     ns1:公式サイト "" ;
+-    ns1:前回 "現職" ;
 +    ns1:前回 "前" ;
      ns1:名前 "井上貴博" ;
--    ns1:年齢 "" ;
--    ns1:政党 "自民" ;
+     ns1:年齢 "55" ;
+     ns1:政党 "自民" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-    ns1:twitter "yousei_ide" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "現職" ;
-+    ns1:年齢 "55" ;
-+    ns1:政党 "自民" ;
 +    ns1:比例区 "福岡県 1区" .
 +
 +[] ns1:facebook "https://www.facebook.com/yousei.ide.jimoto.Shinshu.NAGANO/" ;
@@ -1044,7 +1031,7 @@
 +    ns1:公式サイト "https://yousei-ide.com/" ;
 +    ns1:前回 "前" ;
      ns1:名前 "井出庸生" ;
--    ns1:年齢 "" ;
+     ns1:年齢 "39" ;
 -    ns1:政党 "民進" ;
 -    ns1:比例区 "" .
 -
@@ -1052,7 +1039,6 @@
 -    ns1:twitter "" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
-+    ns1:年齢 "39" ;
 +    ns1:政党 "希望" ;
 +    ns1:比例区 "長野県 3区" .
 +
@@ -1607,7 +1593,7 @@
 +    ns1:公式サイト "http://www.sata-genichiro.jp/" ;
 +    ns1:前回 "前" ;
      ns1:名前 "佐田玄一郎" ;
--    ns1:年齢 "65" ;
+     ns1:年齢 "64" ;
 -    ns1:政党 "自民" ;
 -    ns1:比例区 "" .
 -
@@ -1615,7 +1601,6 @@
 -    ns1:twitter "satoyukari" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "現職" ;
-+    ns1:年齢 "64" ;
 +    ns1:政党 "無所属" ;
 +    ns1:比例区 "群馬県 1区" .
 +
