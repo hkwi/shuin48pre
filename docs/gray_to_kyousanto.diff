@@ -1,10 +1,34 @@
 --- GrayDB
 +++ 共産党公式
-@@ -6,1622 +6,1617 @@
+@@ -6,2193 +6,1953 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
 -    ns1:前回 "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "こみやま 恵美子" ;
++    ns1:小選挙区 "岐阜4区" ;
++    ns1:年齢 "62" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "たかむら 直也" ;
++    ns1:小選挙区 "宮城4区" ;
++    ns1:年齢 "34" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "のざわ 康幸" ;
++    ns1:小選挙区 "愛知15区" ;
++    ns1:年齢 "29" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "一色一正" ;
      ns1:小選挙区 "愛媛2区" ;
@@ -48,7 +72,30 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "上田幸子" ;
 +    ns1:年齢 "31" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "上田子幸" ;
+     ns1:小選挙区 "兵庫7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "上野公悦" ;
+-    ns1:小選挙区 "新潟6区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "69" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -87,6 +134,14 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:facebook "https://www.facebook.com/tamihide.nakagawa" ;
+-    ns1:twitter "tamihide123456" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "中川民英" ;
+-    ns1:小選挙区 "三重1区" ;
+-    ns1:年齢 "50" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
@@ -110,8 +165,24 @@
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:前回 "新" ;
++    ns1:名前 "中野武史" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "42" ;
++    ns1:比例区 "東海" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
      ns1:名前 "中野渡旬" ;
      ns1:小選挙区 "神奈川14区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "串田真吾" ;
+-    ns1:小選挙区 "愛知15区" ;
 -    ns1:年齢 "" ;
 +    ns1:年齢 "69" ;
      ns1:比例区 "" .
@@ -226,6 +297,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "今村あゆみ" ;
+-    ns1:小選挙区 "神奈川6区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
@@ -235,31 +314,61 @@
      ns1:名前 "伊藤誠" ;
      ns1:小選挙区 "新潟3区" ;
 -    ns1:年齢 "" ;
--    ns1:比例区 "" .
--
--[] ns1:facebook "",
--        "https://www.facebook.com/tatsuya.jcp.g" ;
--    ns1:twitter "",
--        "tatsuya_jcp" ;
--    ns1:前回 "",
--        "現職" ;
 +    ns1:年齢 "43" ;
-+    ns1:比例区 "" .
-+
-+[] ns1:facebook "https://www.facebook.com/tatsuya.jcp.g" ;
-+    ns1:twitter "tatsuya_jcp" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/tatsuya.jcp.g" ;
+     ns1:twitter "tatsuya_jcp" ;
+-    ns1:前回 "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "伊藤達也" ;
--    ns1:小選挙区 "東京22区",
--        "群馬5区" ;
--    ns1:年齢 "",
--        "56" ;
+     ns1:小選挙区 "群馬5区" ;
+-    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
-+    ns1:小選挙区 "群馬5区" ;
+-    ns1:名前 "佐々木とし子" ;
+-    ns1:小選挙区 "北海道 11区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "佐々木明美" ;
+-    ns1:小選挙区 "北海道 4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "佐藤克之" ;
+-    ns1:小選挙区 "宮城2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "佐藤清" ;
+-    ns1:小選挙区 "神奈川4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "余江雪央" ;
+-    ns1:小選挙区 "岡山1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "34" ;
 +    ns1:比例区 "" .
 +
@@ -274,7 +383,23 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "内藤弘一" ;
+-    ns1:小選挙区 "三重2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "63" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "内田静雄" ;
++    ns1:小選挙区 "宮崎1区" ;
++    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -288,7 +413,31 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "冨田直樹" ;
+-    ns1:小選挙区 "東京1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "65" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "冨岡昭" ;
++    ns1:小選挙区 "秋田3区" ;
++    ns1:年齢 "67" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "力重智之" ;
++    ns1:小選挙区 "兵庫1区" ;
++    ns1:年齢 "39" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100010277866022" ;
@@ -512,6 +661,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "土岐一郎" ;
+-    ns1:小選挙区 "香川3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "65" ;
 +    ns1:比例区 "" .
 +
@@ -528,6 +685,14 @@
 -    ns1:前回 "" ;
 +    ns1:年齢 "44" ;
 +    ns1:比例区 "近畿" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "坂井和歌子" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "39" ;
++    ns1:比例区 "東京" .
 +
 +[] ns1:facebook "https://www.facebook.com/55hiroshi/" ;
 +    ns1:twitter "hi_sakamoto" ;
@@ -634,9 +799,32 @@
 -
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
--    ns1:前回 "現職" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "大内久美子" ;
 +    ns1:年齢 "67" ;
 +    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "大内子久美" ;
+     ns1:小選挙区 "茨城1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "大塚光義" ;
+-    ns1:小選挙区 "大分3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "現職" ;
++    ns1:年齢 "68" ;
++    ns1:比例区 "北関東" .
 +
 +[] ns1:facebook "https://www.facebook.com/yoshinobu.ohira" ;
 +    ns1:twitter "tekuteku_diary" ;
@@ -762,6 +950,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "女鹿武" ;
+-    ns1:小選挙区 "北海道 10区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "57" ;
 +    ns1:比例区 "" .
 +
@@ -789,9 +985,24 @@
 -
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
--    ns1:前回 "現職" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "宮嶋つや子" ;
 +    ns1:小選挙区 "愛知12区" ;
 +    ns1:年齢 "63" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/tsuyako.miyazima" ;
++    ns1:twitter "tsuyako1127" ;
++    ns1:前回 "新" ;
++    ns1:名前 "宮嶋子" ;
+     ns1:小選挙区 "福岡8区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "現職" ;
++    ns1:年齢 "66" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/takeshi.miyamoto.5661" ;
@@ -820,6 +1031,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "宮本栄" ;
+-    ns1:小選挙区 "東京5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:比例区 "東京" .
 +
 +[] ns1:facebook "" ;
@@ -839,6 +1058,14 @@
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:前回 "新" ;
++    ns1:名前 "小手川恵" ;
++    ns1:小選挙区 "大分1区" ;
++    ns1:年齢 "61" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
      ns1:名前 "小松久" ;
      ns1:小選挙区 "大阪14区" ;
 -    ns1:年齢 "" ;
@@ -847,7 +1074,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "小林解子" ;
 +    ns1:年齢 "60" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "小林子解" ;
+     ns1:小選挙区 "福岡6区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "37" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -917,8 +1159,47 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "尾崎宏子" ;
 +    ns1:年齢 "64" ;
 +    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/people/Hiroko-Ozaki/100005889727144" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "尾崎子宏" ;
+     ns1:小選挙区 "岡山3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "山下登美子" ;
+-    ns1:小選挙区 "福岡11区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "山元建" ;
+-    ns1:小選挙区 "大阪9区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "61" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "山下魁" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "40" ;
++    ns1:比例区 "九州・沖縄" .
 +
 +[] ns1:facebook "" ;
 +    ns1:twitter "kyamauchi2" ;
@@ -931,7 +1212,23 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "山口広延" ;
+-    ns1:小選挙区 "鹿児島1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "49" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "山口ゆうた" ;
++    ns1:小選挙区 "鹿児島3区" ;
++    ns1:年齢 "26" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -939,6 +1236,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "山口湧人" ;
      ns1:小選挙区 "福岡3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "山口陽規" ;
+-    ns1:小選挙区 "鹿児島3区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -973,7 +1278,31 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "山本悠子" ;
+-    ns1:小選挙区 "埼玉5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "山田満" ;
+-    ns1:小選挙区 "滋賀2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "68" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/noboru.shibayama.9" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "山柴昇" ;
++    ns1:小選挙区 "大阪1区" ;
++    ns1:年齢 "63" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/yamakoshi.toru" ;
@@ -1009,6 +1338,22 @@
 +    ns1:前回 "新" ;
      ns1:名前 "岩本康嗣" ;
      ns1:小選挙区 "山形2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "岩田剛" ;
+-    ns1:小選挙区 "島根1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "岸武志" ;
+-    ns1:小選挙区 "東京6区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1085,7 +1430,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "川崎篤子" ;
 +    ns1:年齢 "61" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "jyuuouumare" ;
++    ns1:前回 "新" ;
++    ns1:名前 "川崎子篤" ;
+     ns1:小選挙区 "茨城5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "64" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100005961273973" ;
@@ -1150,10 +1510,41 @@
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "shiikazuo" ;
--    ns1:前回 "現職" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "平野厚子" ;
+-    ns1:小選挙区 "埼玉3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "広次忠彦" ;
+-    ns1:小選挙区 "大分1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "店橋世津子" ;
 +    ns1:年齢 "62" ;
 +    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/setuko2525" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "店橋子世津" ;
+     ns1:小選挙区 "群馬1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "shiikazuo" ;
+-    ns1:前回 "現職" ;
++    ns1:年齢 "56" ;
++    ns1:比例区 "北関東" .
 +
 +[] ns1:facebook "" ;
 +    ns1:twitter "shiikazuo " ;
@@ -1174,6 +1565,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "戸口佐一" ;
      ns1:小選挙区 "埼玉6区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "戸津川永" ;
+-    ns1:小選挙区 "宮城4区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1208,6 +1607,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "斉藤大悟" ;
+-    ns1:小選挙区 "秋田1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:比例区 "南関東" .
 +
 +[] ns1:facebook "" ;
@@ -1221,9 +1628,32 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "斎藤朝興" ;
+-    ns1:小選挙区 "福島1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "斎藤温" ;
 +    ns1:小選挙区 "" ;
 +    ns1:年齢 "59" ;
 +    ns1:比例区 "近畿" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "斉藤温" ;
+     ns1:小選挙区 "神奈川9区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "26" ;
++    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
 +    ns1:twitter "over_wash" ;
@@ -1250,6 +1680,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "新町美千代" ;
+-    ns1:小選挙区 "兵庫9区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "57" ;
 +    ns1:比例区 "" .
 +
@@ -1264,7 +1702,38 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "明石行夫" ;
+-    ns1:小選挙区 "神奈川1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "星野文雄" ;
 +    ns1:年齢 "62" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "星野 文雄" ;
+     ns1:小選挙区 "茨城2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "月東義博" ;
+-    ns1:小選挙区 "愛知5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "69" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -1279,6 +1748,14 @@
 -    ns1:twitter "" ;
 -    ns1:前回 "現職" ;
 +    ns1:年齢 "67" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "本多信弘" ;
++    ns1:小選挙区 "愛知11区" ;
++    ns1:年齢 "41" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/nobuko.motomura.3" ;
@@ -1305,6 +1782,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "本間勝美" ;
+-    ns1:小選挙区 "北海道 8区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
@@ -1319,7 +1804,30 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "村口久美子" ;
 +    ns1:年齢 "68" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/kumiko.muraguchi.7" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "村口子久美" ;
+     ns1:小選挙区 "大阪7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "松井秀明" ;
+-    ns1:小選挙区 "宮城1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "45" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -1333,7 +1841,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "松尾律子" ;
 +    ns1:年齢 "55" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/rm11104" ;
++    ns1:twitter "matsuo_ritsuko" ;
++    ns1:前回 "新" ;
++    ns1:名前 "松尾子律" ;
+     ns1:小選挙区 "福岡2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "45" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -1347,8 +1870,24 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "松本隆" ;
+-    ns1:小選挙区 "宮崎1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "58" ;
 +    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/mtok48" ;
++    ns1:twitter "monsmsg2" ;
++    ns1:前回 "新" ;
++    ns1:名前 "松岡勝" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "44" ;
++    ns1:比例区 "九州・沖縄" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100013854768106" ;
 +    ns1:twitter "matsu_en" ;
@@ -1460,6 +1999,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "柴山昇" ;
+-    ns1:小選挙区 "大阪1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "43" ;
 +    ns1:比例区 "" .
 +
@@ -1473,8 +2020,24 @@
 -
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
+-    ns1:前回 "現職" ;
+-    ns1:名前 "梅村さえこ" ;
+-    ns1:小選挙区 "" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "北関東ブロック" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
 -    ns1:前回 "" ;
 +    ns1:年齢 "33" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "柿沼 はるき" ;
++    ns1:小選挙区 "埼玉10区" ;
++    ns1:年齢 "34" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/umemurasaeko" ;
@@ -1495,6 +2058,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "森桜房義" ;
      ns1:小選挙区 "岐阜2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "森英士" ;
+-    ns1:小選挙区 "北海道 1区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1599,6 +2170,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "橋本繁樹" ;
+-    ns1:小選挙区 "東京18区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "橋田芳昭" ;
+-    ns1:小選挙区 "熊本4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "69" ;
 +    ns1:比例区 "" .
 +
@@ -1607,6 +2194,22 @@
 +    ns1:前回 "新" ;
      ns1:名前 "毛利栄子" ;
      ns1:小選挙区 "長野4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "水野力夫" ;
+-    ns1:小選挙区 "長野5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "永田義人" ;
+-    ns1:小選挙区 "鹿児島4区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1623,6 +2226,14 @@
      ns1:小選挙区 "福岡7区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "現職" ;
+-    ns1:名前 "池内さおり" ;
+-    ns1:小選挙区 "" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "東京ブロック" .
 -
 -[] ns1:facebook "https://www.facebook.com/saolyn.ikeuchi/" ;
 +    ns1:年齢 "43" ;
@@ -1656,11 +2267,35 @@
 +    ns1:年齢 "54" ;
 +    ns1:比例区 "" .
 +
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "沢田 しゅんじ" ;
++    ns1:小選挙区 "東京16区" ;
++    ns1:年齢 "66" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100008264835156" ;
 +    ns1:twitter "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "河村整" ;
      ns1:小選挙区 "香川2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "沼上常生" ;
+-    ns1:小選挙区 "神奈川15区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "浦野真" ;
+-    ns1:小選挙区 "千葉6区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1709,6 +2344,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "清沢達也" ;
+-    ns1:小選挙区 "長野2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "70" ;
 +    ns1:比例区 "" .
 +
@@ -1717,6 +2360,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "渋沢哲男" ;
      ns1:小選挙区 "群馬3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "渡辺正二" ;
+-    ns1:小選挙区 "千葉5区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1779,6 +2430,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "為仁史" ;
+-    ns1:小選挙区 "大阪15区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "65" ;
 +    ns1:比例区 "" .
 +
@@ -1794,6 +2453,14 @@
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
 +    ns1:年齢 "37" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "爲仁史" ;
++    ns1:小選挙区 "大阪15区" ;
++    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100009414735635" ;
@@ -1835,6 +2502,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "田中浩美" ;
+-    ns1:小選挙区 "大阪16区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "66" ;
 +    ns1:比例区 "" .
 +
@@ -1843,6 +2518,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "田中陽二" ;
      ns1:小選挙区 "福岡5区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "田川豊" ;
+-    ns1:小選挙区 "東京21区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -1907,6 +2590,14 @@
 -    ns1:前回 "" ;
 +    ns1:年齢 "45" ;
 +    ns1:比例区 "北海道" .
++
++[] ns1:facebook "https://www.facebook.com/SirakawaYouko" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "白川子容" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "50" ;
++    ns1:比例区 "四国" .
 +
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
@@ -2060,6 +2751,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "石谷尚子" ;
+-    ns1:小選挙区 "大阪2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "30" ;
 +    ns1:比例区 "" .
 +
@@ -2112,6 +2811,14 @@
      ns1:小選挙区 "鳥取2区" ;
 -    ns1:年齢 "" ;
 +    ns1:年齢 "41" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "稲村知" ;
++    ns1:小選挙区 "兵庫11区" ;
++    ns1:年齢 "57" ;
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/kokutakeiji" ;
@@ -2197,6 +2904,14 @@
 +    ns1:年齢 "60" ;
 +    ns1:比例区 "" .
 +
++[] ns1:facebook "https://ja-jp.facebook.com/funayama.yumi.haiji" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "舩山由美" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "48" ;
++    ns1:比例区 "東北" .
++
 +[] ns1:facebook "https://www.facebook.com/kyoko.nae" ;
 +    ns1:twitter "" ;
 +    ns1:前回 "新" ;
@@ -2222,6 +2937,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "荻生和敏" ;
+-    ns1:小選挙区 "北海道 6区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:小選挙区 "" ;
 +    ns1:年齢 "32" ;
 +    ns1:比例区 "南関東" .
@@ -2231,6 +2954,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "菅原誠" ;
 -    ns1:小選挙区 "北海道 12区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "菊池幸夫" ;
+-    ns1:小選挙区 "岩手3区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -2326,11 +3057,35 @@
 +    ns1:年齢 "46" ;
 +    ns1:比例区 "北陸信越" .
 +
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "西中孝男" ;
++    ns1:小選挙区 "兵庫5区" ;
++    ns1:年齢 "68" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "西井直人" ;
++    ns1:小選挙区 "愛媛4区" ;
++    ns1:年齢 "60" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/jcp.yamaguti.seibu" ;
 +    ns1:twitter "" ;
 +    ns1:前回 "新" ;
      ns1:名前 "西岡広伸" ;
      ns1:小選挙区 "山口4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "西沢博" ;
+-    ns1:小選挙区 "新潟5区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -2351,7 +3106,38 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "谷中三好" ;
 +    ns1:年齢 "39" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/hiroshi.nishizawa.3910" ;
++    ns1:twitter "melf4511" ;
++    ns1:前回 "新" ;
++    ns1:名前 "西澤博" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "36" ;
++    ns1:比例区 "北陸信越" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "西田 とし子" ;
++    ns1:小選挙区 "愛知4区" ;
++    ns1:年齢 "63" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100005911840765" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "谷中みよし" ;
+     ns1:小選挙区 "三重4区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "57" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100001997661120" ;
@@ -2359,6 +3145,14 @@
 +    ns1:前回 "新" ;
      ns1:名前 "谷川智行" ;
 -    ns1:小選挙区 "東京7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "赤岸雅治" ;
+-    ns1:小選挙区 "埼玉13区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -2420,6 +3214,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "近藤秀子" ;
+-    ns1:小選挙区 "兵庫1区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
@@ -2462,7 +3264,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "野沢正司" ;
 +    ns1:年齢 "61" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "野澤正司" ;
+     ns1:小選挙区 "静岡7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "68" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "https://www.facebook.com/kanakuramasatoshi" ;
@@ -2617,7 +3434,22 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "長沼チネ" ;
 +    ns1:年齢 "48" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "長沼ちね" ;
+     ns1:小選挙区 "埼玉7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "67" ;
 +    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
@@ -2705,6 +3537,14 @@
 +    ns1:年齢 "56" ;
 +    ns1:比例区 "" .
 +
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
++    ns1:前回 "新" ;
++    ns1:名前 "青山 了介" ;
++    ns1:小選挙区 "富山1区" ;
++    ns1:年齢 "42" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://ja-jp.facebook.com/kohei.aoyama.90" ;
 +    ns1:twitter "iyaiya_55" ;
 +    ns1:前回 "新" ;
@@ -2730,6 +3570,14 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "飯島誠之助" ;
+-    ns1:小選挙区 "千葉3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
 +    ns1:年齢 "56" ;
 +    ns1:比例区 "" .
 +
@@ -2744,8 +3592,23 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
+-    ns1:名前 "香西克介" ;
 +    ns1:年齢 "57" ;
 +    ns1:比例区 "東京" .
++
++[] ns1:facebook "https://ja-jp.facebook.com/katusuke.kouzai" ;
++    ns1:twitter "kouzai2007" ;
++    ns1:前回 "新" ;
++    ns1:名前 "香西介克" ;
+     ns1:小選挙区 "東京3区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:前回 "" ;
++    ns1:年齢 "41" ;
++    ns1:比例区 "" .
 +
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
@@ -2756,10 +3619,26 @@
 -    ns1:比例区 "" .
 -
 -[] ns1:facebook "" ;
+-    ns1:twitter "chiduko916" ;
+-    ns1:前回 "現職" ;
+-    ns1:名前 "高橋千鶴子" ;
+-    ns1:小選挙区 "" ;
+-    ns1:年齢 "58" ;
+-    ns1:比例区 "東北ブロック" .
+-
+-[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:前回 "" ;
 +    ns1:年齢 "47" ;
 +    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
++    ns1:twitter "chiduko916 " ;
++    ns1:前回 "現" ;
++    ns1:名前 "高橋子千鶴子" ;
++    ns1:小選挙区 "" ;
++    ns1:年齢 "57" ;
++    ns1:比例区 "東北" .
 +
 +[] ns1:facebook "https://www.facebook.com/megumi.toba.5" ;
 +    ns1:twitter "toba_megumi" ;
@@ -2812,5 +3691,13 @@
 -    ns1:比例区 "" .
 -
 +    ns1:年齢 "69" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "https://www.facebook.com/s.k.daigo" ;
++    ns1:twitter "hana_daichan" ;
++    ns1:前回 "新" ;
++    ns1:名前 "齊藤大悟" ;
++    ns1:小選挙区 "秋田1区" ;
++    ns1:年齢 "38" ;
 +    ns1:比例区 "" .
 +
