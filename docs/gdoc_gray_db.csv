@@ -1,8 +1,8 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,,,,,,,,Wikidataの更新、登録,,
 ,,,,,,,,,,,,,,,,,,,
-,name,party short name,,prefecuture code for sort key,area 1,area 2,gender,birthday,age(calculated),,,official site,biography,memorandom,,,,,
+,name,party short name,,prefecuture code for sort key,area 1,area 2,gender,birthday,age(calculated),,facebook URL,official site,biography,memorandom,Wikidata ID,Wikipedia URL,,,
 wikdiata_concept,label,Q7278,,Q646425,Q13365595,Q1052894,P21,P569,,P2002,P2013,P856,P69,,,,,,
-wikidata,名前,政党,前回,都道府県,比例区,小選挙区,性別,誕生日,年齢,twitter,facebook,公式サイト,学歴,メモ,,,担当,作業予定日,完了日
+wikidata,名前,政党,前回,都道府県,比例区,小選挙区,性別,誕生日,年齢,twitter,facebook,公式サイト,学歴,メモ,Wikidata URL,Wikipedia URL,担当,作業予定日,完了日
 ,あかま二郎,自民,現職,14,,神奈川県 14区,,,,,,,,,,,,,
 ,あべ俊子,自民,現職,,中国ブロック,,,,,,,,,,,,,,
 ,うえの賢一郎,自民,現職,25,,滋賀県 2区,,,,,,,,,,,,,
