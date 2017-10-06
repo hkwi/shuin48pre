@@ -57,10 +57,7 @@ def ttl_out(dbkeys, dbdata, keys, names):
 					v = "".join(m.groups())
 			
 			if k in keys:
-				if k=="名前":
-					g.add((e, EX["_"+k], rdflib.Literal(v)))
-				else:
-					g.add((e, EX[k], rdflib.Literal(v)))
+				g.add((e, EX[k], rdflib.Literal(v)))
 	return [l for l in io.StringIO(g.serialize(format="turtle").decode("UTF-8"))]
 
 def gray_to_seijinavi():
