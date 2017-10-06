@@ -28,7 +28,21 @@ def test_jobs():
 	th4 = threading.Thread(target=wrap4)
 	th4.start()
 	
+	def wrap5():
+		with open("docs/koumei_official.csv", "w") as fp:
+			shuin48pre.koumei_official.run(fp)
+	th5 = threading.Thread(target=wrap5)
+	th5.start()
+	
+	def wrap6():
+		with open("docs/koumei_official_hirei.csv", "w") as fp:
+			shuin48pre.koumei_official_hirei.run(fp)
+	th6 = threading.Thread(target=wrap6)
+	th6.start()
+	
 	th.join()
 	th2.join()
 	th3.join()
 	th4.join()
+	th5.join()
+	th6.join()
