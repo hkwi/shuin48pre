@@ -2,6 +2,8 @@ import threading
 import shuin48pre.kyousanto_official
 import shuin48pre.senkyo_dotcom
 import shuin48pre.ishin_official
+import shuin48pre.koumei_official
+import shuin48pre.koumei_official_hirei
 
 def test_jobs():
 	def wrap():
