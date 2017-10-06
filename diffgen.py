@@ -20,17 +20,18 @@ key_conv = {
 
 def load_gdoc(filename):
 	db = [r for r in csv.reader(open(filename)) if "".join(r)]
-	i = [r[0] for r in db].index("wikidata")
+	for i, r in enumerate(db):
+		if "wikidata" in r:
+			break
 	keys = [key_conv.get(e,e) for e in db[i]] # normalize keys
 	return keys, db[i+1:]
 
-def ttl_out(dbkeys, dbdata, keys, names):
+def ttl_out(dbkeys, dbdata, keys):
 	g = rdflib.Graph()
 	for row in sorted(dbdata):
 		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
 		name = m["名前"]
-		if name not in names:
-			continue
+		
 		e = rdflib.BNode(name)
 		for k,v in m.items():
 			if k == "twitter":
@@ -57,19 +58,24 @@ def ttl_out(dbkeys, dbdata, keys, names):
 					v = "".join(m.groups())
 			
 			if k in keys:
-				g.add((e, EX[k], rdflib.Literal(v)))
+				objs = list(g.objects(e, EX[k]))
+				if objs and not objs[0].value:
+					g.set((e, EX[k], rdflib.Literal(v)))
+				else:
+					g.add((e, EX[k], rdflib.Literal(v)))
 	return [l for l in io.StringIO(g.serialize(format="turtle").decode("UTF-8"))]
 
 def gray_to_seijinavi():
-	seiji_navi = load_gdoc("docs/gdoc_seiji_navi.csv")
-	gray_db = load_gdoc("docs/gdoc_gray_db.csv")
+	sk, sdb = load_gdoc("docs/gdoc_seiji_navi.csv")
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	
+	# filter-out
+	qnames = [r[sk.index("wikidata")] for r in sdb]
+	gdb = [r for r in gdb if r[gk.index("wikidata")] in qnames]
 
-	keys = set(seiji_navi[0]).intersection(set(gray_db[0]))
-	names = set([row[seiji_navi[0].index("名前")] for row in seiji_navi[1]]).intersection(
-		[row[gray_db[0].index("名前")] for row in gray_db[1]])
-
-	lines = difflib.unified_diff(ttl_out(gray_db[0], gray_db[1], keys, names),
-		ttl_out(seiji_navi[0], seiji_navi[1], keys, names),
+	keys = set(sk).intersection(set(gk))
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(sk, sdb, keys),
 		fromfile="GrayDB", tofile="政治ナビ", lineterm='\r\n')
 	open("docs/gray_to_seijinavi.diff", "w").writelines(lines)
 
@@ -82,45 +88,35 @@ def gray_to_kyousanto():
 	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
 	
 	keys = set(ks).intersection(set(gk))
-	names = set([row[ks.index("名前")] for row in db]+
-		[row[gk.index("名前")] for row in gdb])
 	
-	lines = difflib.unified_diff(ttl_out(gk, gdb, keys, names),
-		ttl_out(ks, db, keys, names),
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
 		fromfile="GrayDB", tofile="共産党公式", lineterm='\r\n')
 	open("docs/gray_to_kyousanto.diff", "w").writelines(lines)
 
 def gray_to_senkyo_dotcom():
-	ks = ["候補名","名前","姓","名","政党","小選挙区", "前回","年齢",
+	ks1 = ["候補名","名前","姓","名","政党","小選挙区", "前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
-	db = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
+	db1 = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
+
+	ks2 = ["候補名","名前","姓","名","政党","比例区", "前回","年齢",
+		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
+	db2 = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom_hirei.csv")) if "".join(r)]
+	
+	ks = ["候補名","名前","姓","名","政党","比例区","小選挙区","前回","年齢",
+		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
+	db = [tuple([dict(zip(ks1, n)).get(k, "") for k in ks]) for n in db1
+		] + [tuple([dict(zip(ks2, n)).get(k, "") for k in ks]) for n in db2]
 	db = list(set(db))
-	gray_db = load_gdoc("docs/gdoc_gray_db.csv")
+
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
-	keys = set(ks).intersection(set(gray_db[0]))
-	names = set([row[ks.index("名前")] for row in db]).intersection(
-		[row[gray_db[0].index("名前")] for row in gray_db[1]])
+	keys = set(ks).intersection(set(gk))
 	
-	lines = difflib.unified_diff(ttl_out(gray_db[0], gray_db[1], keys, names),
-		ttl_out(ks, db, keys, names),
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
 		fromfile="GrayDB", tofile="選挙ドットコム", lineterm='\r\n')
 	open("docs/gray_to_senkyo_dotcom.diff", "w").writelines(lines)
-
-def gray_to_senkyo_dotcom_hirei():
-	ks = ["候補名","名前","姓","名","政党","比例区", "前回","年齢",
-		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
-	db = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
-	db = list(set(db))
-	gray_db = load_gdoc("docs/gdoc_gray_db.csv")
-	
-	keys = set(ks).intersection(set(gray_db[0]))
-	names = set([row[ks.index("名前")] for row in db]).intersection(
-		[row[gray_db[0].index("名前")] for row in gray_db[1]])
-	
-	lines = difflib.unified_diff(ttl_out(gray_db[0], gray_db[1], keys, names),
-		ttl_out(ks, db, keys, names),
-		fromfile="GrayDB", tofile="選挙ドットコム（比例）", lineterm='\r\n')
-	open("docs/gray_to_senkyo_dotcom_hirei.diff", "w").writelines(lines)
 
 def gray_to_ishin():
 	ks = ["候補名","名前","ふりがな","前回","小選挙区","比例区","肩書"]
@@ -130,11 +126,9 @@ def gray_to_ishin():
 	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
 	
 	keys = set(ks).intersection(set(gk))
-	names = set([row[ks.index("名前")] for row in db]+
-		[row[gk.index("名前")] for row in gdb])
 	
-	lines = difflib.unified_diff(ttl_out(gk, gdb, keys, names),
-		ttl_out(ks, db, keys, names),
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
 		fromfile="GrayDB", tofile="維新公式", lineterm='\r\n')
 	open("docs/gray_to_ishin.diff", "w").writelines(lines)
 
@@ -142,5 +136,4 @@ if __name__=="__main__":
 	gray_to_seijinavi()
 	gray_to_kyousanto()
 	gray_to_senkyo_dotcom()
-	gray_to_senkyo_dotcom_hirei()
 	gray_to_ishin()
