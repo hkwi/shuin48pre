@@ -75,7 +75,7 @@ def run(fp, hirei=True):
 				bulk["mei"] = seimei[1]
 				bulk["name"] = "".join(seimei)
 			else:
-				bulk["name"] = seimei
+				bulk["name"] = seimei[0]
 			out.writerow([bulk.get(k) for k in fieldnames])
 
 if __name__=="__main__":
