@@ -48,6 +48,9 @@ def ttl_out(dbkeys, dbdata, keys, names):
 				m = re.match("(.*)[県府]\s*(\d+区)", v)
 				if m:
 					v = "".join(m.groups())
+				m = re.match("(東京)都\s*(\d+区)", v)
+				if m:
+					v = "".join(m.groups())
 			
 			if k in keys:
 				g.add((e, EX[k], rdflib.Literal(v)))
