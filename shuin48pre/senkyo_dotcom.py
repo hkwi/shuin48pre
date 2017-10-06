@@ -6,8 +6,8 @@ import csv
 import urllib.request
 import requests
 
-def run(fp):
-	fieldnames = "namel name sei mei party cls age_n tw fb site bio age".split()
+def run(fp, hirei=True):
+	fieldnames = "namel name sei mei party area cls age_n tw fb site bio age".split()
 	out = csv.writer(fp)
 	
 	d = lxml.etree.parse("http://shugiin.go2senkyo.com/sitemap.xml")
@@ -17,8 +17,9 @@ def run(fp):
 	for url in urls:
 		pc = urllib.parse.urlparse(url)
 		pcc = pc.path.split("/")
-		if pcc[0] == "hirei":
-			h1.add(pcc[1])
+		if pcc[1] == "hirei":
+			h1.add(pcc[2])
+	
 	for h in h1:
 		for i in range(1,20):
 			urls.append("http://shugiin.go2senkyo.com/hirei/%s/%d/" % (h,i))
@@ -29,17 +30,19 @@ def run(fp):
 			continue
 		if pc.path == "/":
 			continue
+		if hirei != pc.path.startswith("/hirei/"):
+			continue
+		
 		if requests.head(url).status_code != 200:
 			continue
 		
 		doc = lxml.html.parse(url)
 		
 		areas = doc.xpath('.//span[@class="ttl_txt"]/text()')
-		assert len(areas)==1, url
-		area = areas.pop().strip()
 		
 		for p in doc.xpath('.//div[@class="list_peason"]'):
 			bulk = dict(
+				area = areas,
 				namel = p.xpath('.//p[@class="list_peason_name"]/text()'),
 				cls = p.xpath('.//p[@class="list_peason_txts_d_class"]/text()'),
 				age = p.xpath('.//p[@class="list_peason_txts_d_age"]/text()'),
@@ -76,4 +79,5 @@ def run(fp):
 			out.writerow([bulk.get(k) for k in fieldnames])
 
 if __name__=="__main__":
-	run(sys.stdout)
+	run(sys.stdout, False)
+	run(sys.stdout, True)
