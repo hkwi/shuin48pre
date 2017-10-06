@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 選挙ドットコム
-@@ -5,4562 +5,7092 @@
+@@ -5,4563 +5,7092 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
  [] ns1:_名前 "一條芳弘" ;
@@ -3793,7 +3793,7 @@
 +    ns1:twitter "https://twitter.com/tommykun01" ;
 +    ns1:公式サイト "http://kinoshita-tomohiko.net/" ;
 +    ns1:前回 "前" ;
-+    ns1:小選挙区 "大阪8区" ;
+     ns1:小選挙区 "大阪8区" ;
      ns1:年齢 "48" ;
      ns1:政党 "維新" .
  
@@ -3855,7 +3855,7 @@
 +    ns1:twitter "https://twitter.com/kimurataketsuka" ;
 +    ns1:公式サイト "http://www.kimutake.jp/" ;
 +    ns1:前回 "元" ;
-     ns1:小選挙区 "東京14区" ;
++    ns1:小選挙区 "東京14区" ;
      ns1:年齢 "46" ;
      ns1:政党 "維新" .
  
@@ -4210,7 +4210,7 @@
 +    ns1:twitter "https://twitter.com/matsunamikenta" ;
 +    ns1:公式サイト "http://www.kentakenta.org/" ;
 +    ns1:前回 "前" ;
-+    ns1:小選挙区 "大阪10区" ;
+     ns1:小選挙区 "大阪10区" ;
      ns1:年齢 "46" ;
      ns1:政党 "維新" .
  

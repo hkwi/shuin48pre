@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 選挙ドットコム（比例）
-@@ -5,3918 +5,7092 @@
+@@ -5,3917 +5,7092 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
  [] ns1:_名前 "一條芳弘" ;
@@ -4376,8 +4376,8 @@
 +    ns1:公式サイト "http://kinoshita-tomohiko.net/" ;
 +    ns1:前回 "前" ;
      ns1:年齢 "48" ;
-     ns1:政党 "維新" ;
--    ns1:比例区 "近畿ブロック" .
+-    ns1:政党 "維新" .
++    ns1:政党 "維新" ;
 +    ns1:比例区 "大阪府 8区" .
  
  [] ns1:_名前 "木下順子" ;
@@ -4445,8 +4445,8 @@
 +    ns1:公式サイト "http://www.kimutake.jp/" ;
 +    ns1:前回 "元" ;
      ns1:年齢 "46" ;
--    ns1:政党 "維新" .
-+    ns1:政党 "維新" ;
+     ns1:政党 "維新" ;
+-    ns1:比例区 "東京都ブロック" .
 +    ns1:比例区 "東京都 14区" .
  
  [] ns1:_名前 "木村哲也" ;
@@ -4850,7 +4850,23 @@
 -    ns1:政党 "自民" .
 -
 -[] ns1:_名前 "松本大輔" ;
--    ns1:年齢 "46" ;
++    ns1:政党 "共産" ;
++    ns1:比例区 "東京都 23区" .
++
++[] ns1:_名前 "松橋千春" ;
++    ns1:facebook "https://www.facebook.com/profile.php?id=100008887746844" ;
++    ns1:公式サイト "https://ameblo.jp/matsuhashi-chiharu/" ;
++    ns1:前回 "新" ;
++    ns1:年齢 "35" ;
++    ns1:政党 "共産" ;
++    ns1:比例区 "北海道 9区" .
++
++[] ns1:_名前 "松浪健太" ;
++    ns1:facebook "https://www.facebook.com/matsunami.kenta/" ;
++    ns1:twitter "https://twitter.com/matsunamikenta" ;
++    ns1:公式サイト "http://www.kentakenta.org/" ;
++    ns1:前回 "前" ;
+     ns1:年齢 "46" ;
 -    ns1:政党 "民進" .
 -
 -[] ns1:_名前 "松本文明" ;
@@ -4869,76 +4885,35 @@
 -[] ns1:_名前 "松本純" ;
 -    ns1:twitter "junmatsumoto411" ;
 -    ns1:前回 "現職" ;
--    ns1:年齢 "67" ;
--    ns1:政党 "自民" .
--
--[] ns1:_名前 "松本顕治" ;
--    ns1:政党 "共産" .
--
--[] ns1:_名前 "松村亮佑" ;
--    ns1:政党 "共産" .
-+    ns1:政党 "共産" ;
-+    ns1:比例区 "東京都 23区" .
- 
- [] ns1:_名前 "松橋千春" ;
--    ns1:政党 "共産" .
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100008887746844" ;
-+    ns1:公式サイト "https://ameblo.jp/matsuhashi-chiharu/" ;
-+    ns1:前回 "新" ;
-+    ns1:年齢 "35" ;
-+    ns1:政党 "共産" ;
-+    ns1:比例区 "北海道 9区" .
- 
- [] ns1:_名前 "松浪健太" ;
--    ns1:twitter "matsunamikenta" ;
--    ns1:前回 "現職" ;
-+    ns1:facebook "https://www.facebook.com/matsunami.kenta/" ;
-+    ns1:twitter "https://twitter.com/matsunamikenta" ;
-+    ns1:公式サイト "http://www.kentakenta.org/" ;
-+    ns1:前回 "前" ;
-     ns1:年齢 "46" ;
-     ns1:政党 "維新" ;
--    ns1:比例区 "近畿ブロック" .
++    ns1:政党 "維新" ;
 +    ns1:比例区 "大阪府 10区" .
- 
- [] ns1:_名前 "松田一志" ;
--    ns1:政党 "共産" .
++
++[] ns1:_名前 "松田一志" ;
 +    ns1:facebook "https://www.facebook.com/KazushiMatsuda53" ;
 +    ns1:公式サイト "http://www.matsudakazushi53.com/" ;
 +    ns1:前回 "新" ;
 +    ns1:年齢 "59" ;
 +    ns1:政党 "共産" ;
 +    ns1:比例区 "山口県 2区" .
- 
- [] ns1:_名前 "松田直久" ;
--    ns1:前回 "現職" ;
++
++[] ns1:_名前 "松田直久" ;
 +    ns1:facebook "https://www.facebook.com/naohisa.matsuda.39" ;
 +    ns1:twitter "https://twitter.com/naohisamatsuda" ;
 +    ns1:公式サイト "http://www.n-matsuda.jp/" ;
 +    ns1:前回 "前" ;
-     ns1:年齢 "63" ;
-     ns1:政党 "民進" ;
--    ns1:比例区 "東海ブロック" .
++    ns1:年齢 "63" ;
++    ns1:政党 "民進" ;
 +    ns1:比例区 "三重県 1区" .
- 
- [] ns1:_名前 "松野博一" ;
--    ns1:facebook "https://www.facebook.com/matsunohirokazu" ;
--    ns1:前回 "現職" ;
--    ns1:年齢 "55" ;
--    ns1:政党 "自民" .
++
++[] ns1:_名前 "松野博一" ;
 +    ns1:facebook "https://www.facebook.com/%E6%9D%BE%E9%87%8E%E5%8D%9A%E4%B8%80-326565974070639/?fref=ts" ;
 +    ns1:公式サイト "http://www.hiro-matsuno.net/" ;
 +    ns1:前回 "前" ;
 +    ns1:年齢 "54" ;
 +    ns1:政党 "自民" ;
 +    ns1:比例区 "千葉県 3区" .
- 
- [] ns1:_名前 "松野頼久" ;
--    ns1:facebook "https://www.facebook.com/matsunoyorihisa" ;
--    ns1:前回 "現職" ;
--    ns1:年齢 "57" ;
--    ns1:政党 "民進" ;
--    ns1:比例区 "九州ブロック" .
++
++[] ns1:_名前 "松野頼久" ;
 +    ns1:facebook "https://www.facebook.com/yorihisamatsunoishin/" ;
 +    ns1:twitter "https://twitter.com/matsunoyorihisa" ;
 +    ns1:公式サイト "https://www.matsuno-yorihisa.com/" ;
@@ -4946,20 +4921,62 @@
 +    ns1:年齢 "56" ;
 +    ns1:政党 "希望" ;
 +    ns1:比例区 "熊本県 1区" .
- 
- [] ns1:_名前 "板倉正文" ;
--    ns1:政党 "共産" .
++
++[] ns1:_名前 "板倉正文" ;
 +    ns1:facebook "https://www.facebook.com/masafumi.itakura.5" ;
 +    ns1:twitter "https://twitter.com/2b28a3370fae4f9" ;
 +    ns1:前回 "新" ;
 +    ns1:年齢 "59" ;
 +    ns1:政党 "共産" ;
 +    ns1:比例区 "愛知県 10区" .
- 
- [] ns1:_名前 "林京" ;
--    ns1:政党 "共産" .
++
++[] ns1:_名前 "林京" ;
 +    ns1:前回 "新" ;
-+    ns1:年齢 "67" ;
+     ns1:年齢 "67" ;
+-    ns1:政党 "自民" .
+-
+-[] ns1:_名前 "松本顕治" ;
+-    ns1:政党 "共産" .
+-
+-[] ns1:_名前 "松村亮佑" ;
+-    ns1:政党 "共産" .
+-
+-[] ns1:_名前 "松橋千春" ;
+-    ns1:政党 "共産" .
+-
+-[] ns1:_名前 "松浪健太" ;
+-    ns1:twitter "matsunamikenta" ;
+-    ns1:前回 "現職" ;
+-    ns1:年齢 "46" ;
+-    ns1:政党 "維新" .
+-
+-[] ns1:_名前 "松田一志" ;
+-    ns1:政党 "共産" .
+-
+-[] ns1:_名前 "松田直久" ;
+-    ns1:前回 "現職" ;
+-    ns1:年齢 "63" ;
+-    ns1:政党 "民進" ;
+-    ns1:比例区 "東海ブロック" .
+-
+-[] ns1:_名前 "松野博一" ;
+-    ns1:facebook "https://www.facebook.com/matsunohirokazu" ;
+-    ns1:前回 "現職" ;
+-    ns1:年齢 "55" ;
+-    ns1:政党 "自民" .
+-
+-[] ns1:_名前 "松野頼久" ;
+-    ns1:facebook "https://www.facebook.com/matsunoyorihisa" ;
+-    ns1:前回 "現職" ;
+-    ns1:年齢 "57" ;
+-    ns1:政党 "民進" ;
+-    ns1:比例区 "九州ブロック" .
+-
+-[] ns1:_名前 "板倉正文" ;
+-    ns1:政党 "共産" .
+-
+-[] ns1:_名前 "林京" ;
+-    ns1:政党 "共産" .
 +    ns1:政党 "共産" ;
 +    ns1:比例区 "茨城県 3区" .
  
