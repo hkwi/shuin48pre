@@ -17,7 +17,7 @@ def run(fp):
 			bio = p.xpath('.//li[@class="block"]/text()'),
 		)
 		for k,v in r.items():
-			r[k] = "".join(v)
+			r[k] = "".join(v).strip()
 		
 		r["name"] = re.sub("[　 ]", "", r["namel"])
 		
