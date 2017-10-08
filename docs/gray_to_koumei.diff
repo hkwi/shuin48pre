@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 公明党公式
-@@ -4,178 +4,268 @@
+@@ -4,17 +4,32 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -33,14 +33,13 @@
 -    ns1:比例区 "比例東海ブロック" .
 -
 -[] ns1:twitter "hiro_nakano_" ;
--    ns1:候補名 "中野洋昌" ;
 +    ns1:比例区 "東海ブロック" .
 +
 +[] ns1:twitter "" ;
-+    ns1:候補名 "中野ひろまさ" ;
+     ns1:候補名 "中野ひろまさ" ;
      ns1:小選挙区 "兵庫8区" ;
      ns1:比例区 "" .
- 
+@@ -22,160 +37,235 @@
  [] ns1:twitter "" ;
      ns1:候補名 "井上義久" ;
      ns1:小選挙区 "" ;
