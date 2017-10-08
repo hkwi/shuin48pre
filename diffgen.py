@@ -33,11 +33,13 @@ def load_gdoc(filename):
 
 def ttl_out(dbkeys, dbdata, keys):
 	g = rdflib.Graph()
+	bnodes = {}
 	for row in dbdata:
 		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
 		name = m.get("候補名",m.get("名前"))
 		
-		e = rdflib.BNode(name)
+		e = bnodes.get(name, rdflib.BNode(name))
+		bnodes[name] = e
 		for k,v in m.items():
 			if k == "twitter":
 				v = v.split("?")[0].lower()
@@ -64,10 +66,13 @@ def ttl_out(dbkeys, dbdata, keys):
 			
 			if k in keys:
 				objs = list(g.objects(e, EX[k]))
-				if objs and not objs[0].value:
-					g.set((e, EX[k], rdflib.Literal(v)))
-				else:
+				if len(objs) == 0:
 					g.add((e, EX[k], rdflib.Literal(v)))
+				elif v:
+					if "".join([o.value for o in objs]):
+						g.add((e, EX[k], rdflib.Literal(v)))
+					else:
+						g.set((e, EX[k], rdflib.Literal(v)))
 	return [l for l in io.StringIO(g.serialize(format="turtle").decode("UTF-8"))]
 
 def gray_to_seijinavi():
@@ -97,7 +102,7 @@ def gray_to_kyousanto():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
+	gdb = [r for r in gdb if "共産" in r[gk.index("政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -145,7 +150,7 @@ def gray_to_ishin():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
+	gdb = [r for r in gdb if "維新" in r[gk.index("政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -172,7 +177,7 @@ def gray_to_koumei():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if r[gk.index("政党")] == "公明"]
+	gdb = [r for r in gdb if "公明" in r[gk.index("政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
