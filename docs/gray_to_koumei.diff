@@ -4,14 +4,12 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
--[] ns1:twitter "isamuueda" ;
--    ns1:候補名 "上田勇" ;
-+[] ns1:twitter "https://twitter.com/isashinichi" ;
++[] ns1:twitter "isashinichi" ;
 +    ns1:候補名 "いさ進一" ;
 +    ns1:小選挙区 "大阪6区" ;
 +    ns1:比例区 "" .
 +
-+[] ns1:twitter "https://twitter.com/inatsuhisashi" ;
++[] ns1:twitter "inatsuhisashi" ;
 +    ns1:候補名 "いなつ久" ;
 +    ns1:小選挙区 "北海道10区" ;
 +    ns1:比例区 "" .
@@ -21,13 +19,13 @@
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "九州・沖縄ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/isamuueda" ;
+ [] ns1:twitter "isamuueda" ;
+-    ns1:候補名 "上田勇" ;
 +    ns1:候補名 "上田いさむ" ;
      ns1:小選挙区 "神奈川6区" ;
      ns1:比例区 "" .
  
--[] ns1:twitter "nakagawa_komei" ;
-+[] ns1:twitter "https://twitter.com/nakagawa_komei" ;
+ [] ns1:twitter "nakagawa_komei" ;
      ns1:候補名 "中川康洋" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例東海ブロック" .
@@ -49,8 +47,6 @@
 -    ns1:候補名 "伊佐進一" ;
 -    ns1:小選挙区 "大阪6区" ;
 -    ns1:比例区 "" .
--
--[] ns1:twitter "ito_wataru" ;
 +    ns1:比例区 "東北ブロック" .
 +
 +[] ns1:twitter "" ;
@@ -62,21 +58,19 @@
 +    ns1:候補名 "井筒伸幸" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "東海ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/ito_wataru" ;
+ 
+ [] ns1:twitter "ito_wataru" ;
      ns1:候補名 "伊藤渉" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例東海ブロック" .
--
--[] ns1:twitter "hidemichisato" ;
 +    ns1:比例区 "東海ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/shigeki3468" ;
++[] ns1:twitter "shigeki3468" ;
 +    ns1:候補名 "佐藤しげき" ;
 +    ns1:小選挙区 "大阪3区" ;
 +    ns1:比例区 "" .
-+
-+[] ns1:twitter "https://twitter.com/hidemichisato" ;
+ 
+ [] ns1:twitter "hidemichisato" ;
      ns1:候補名 "佐藤英道" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道ブロック" .
@@ -85,21 +79,18 @@
 -    ns1:候補名 "佐藤茂樹" ;
 -    ns1:小選挙区 "大阪3区" ;
 -    ns1:比例区 "" .
--
--[] ns1:twitter "kitagawa_kazuo" ;
--    ns1:候補名 "北側一雄" ;
 +[] ns1:twitter "" ;
 +    ns1:候補名 "佐近康昌" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "東京都ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/kitagawa_kazuo" ;
+ 
+ [] ns1:twitter "kitagawa_kazuo" ;
+-    ns1:候補名 "北側一雄" ;
 +    ns1:候補名 "北がわ一雄" ;
      ns1:小選挙区 "大阪16区" ;
      ns1:比例区 "" .
  
--[] ns1:twitter "noriko_furuya" ;
-+[] ns1:twitter "https://twitter.com/noriko_furuya/" ;
+ [] ns1:twitter "noriko_furuya" ;
      ns1:候補名 "古屋範子" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例南関東ブロック" .
@@ -112,7 +103,7 @@
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "九州・沖縄ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/yoshida_komei" ;
++[] ns1:twitter "yoshida_komei" ;
      ns1:候補名 "吉田宣弘" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例九州ブロック" .
@@ -121,7 +112,7 @@
 -    ns1:候補名 "国重徹" ;
 +    ns1:比例区 "九州・沖縄ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/torukunishige" ;
++[] ns1:twitter "torukunishige" ;
 +    ns1:候補名 "国重とおる" ;
      ns1:小選挙区 "大阪5区" ;
      ns1:比例区 "" .
@@ -135,12 +126,10 @@
      ns1:候補名 "大口善徳" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例東海ブロック" .
--
--[] ns1:twitter "teamohta" ;
--    ns1:候補名 "太田昭宏" ;
 +    ns1:比例区 "東海ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/teamohta" ;
+ 
+ [] ns1:twitter "teamohta" ;
+-    ns1:候補名 "太田昭宏" ;
 +    ns1:候補名 "太田あきひろ" ;
      ns1:小選挙区 "東京12区" ;
      ns1:比例区 "" .
@@ -158,20 +147,18 @@
 -[] ns1:twitter "" ;
 +    ns1:比例区 "南関東ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/okamotooffice" ;
++[] ns1:twitter "okamotooffice" ;
      ns1:候補名 "岡本三成" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例北関東ブロック" .
--
--[] ns1:twitter "saitotetsuo" ;
 +    ns1:比例区 "北関東ブロック" .
 +
 +[] ns1:twitter "" ;
 +    ns1:候補名 "布施正行" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "南関東ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/saitotetsuo" ;
+ 
+ [] ns1:twitter "saitotetsuo" ;
      ns1:候補名 "斉藤鉄夫" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例中国ブロック" .
@@ -217,11 +204,9 @@
 -    ns1:候補名 "浜地雅一" ;
 -    ns1:小選挙区 "" ;
 -    ns1:比例区 "比例九州ブロック" .
--
--[] ns1:twitter "tomo_ukishima" ;
 +    ns1:比例区 "九州・沖縄ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/tomo_ukishima" ;
+ 
+ [] ns1:twitter "tomo_ukishima" ;
      ns1:候補名 "浮島智子" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例近畿ブロック" .
@@ -230,24 +215,20 @@
 -    ns1:候補名 "漆原良夫" ;
 -    ns1:小選挙区 "" ;
 -    ns1:比例区 "比例北陸信越ブロック" .
--
--[] ns1:twitter "hamamurasusumu" ;
 +    ns1:比例区 "近畿ブロック" .
 +
 +[] ns1:twitter "" ;
 +    ns1:候補名 "渡邊大" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "東北ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/hamamurasusumu" ;
+ 
+ [] ns1:twitter "hamamurasusumu" ;
      ns1:候補名 "濱村進" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例近畿ブロック" .
--
--[] ns1:twitter "yuichi_mayama" ;
 +    ns1:比例区 "近畿ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/hamachi_m" ;
++[] ns1:twitter "hamachi_m" ;
 +    ns1:候補名 "濵地雅一" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "九州・沖縄ブロック" .
@@ -261,8 +242,8 @@
 +    ns1:候補名 "田丸義高" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "近畿ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/yuichi_mayama" ;
+ 
+ [] ns1:twitter "yuichi_mayama" ;
      ns1:候補名 "真山祐一" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例東北ブロック" .
@@ -276,7 +257,7 @@
 -[] ns1:twitter "" ;
 +    ns1:比例区 "北関東ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/ishidanoritoshi" ;
++[] ns1:twitter "ishidanoritoshi" ;
      ns1:候補名 "石田祝稔" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例四国ブロック" .
@@ -287,7 +268,7 @@
 -    ns1:比例区 "" .
 +    ns1:比例区 "四国ブロック" .
 +
-+[] ns1:twitter "https://twitter.com/takeuchi_yuzuru" ;
++[] ns1:twitter "takeuchi_yuzuru" ;
 +    ns1:候補名 "竹内譲" ;
 +    ns1:小選挙区 "" ;
 +    ns1:比例区 "近畿ブロック" .
@@ -296,12 +277,10 @@
      ns1:候補名 "角田秀穂" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例南関東ブロック" .
--
--[] ns1:twitter "akbhyogo2ku" ;
--    ns1:候補名 "赤羽一嘉" ;
 +    ns1:比例区 "南関東ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/akbhyogo2ku" ;
+ 
+ [] ns1:twitter "akbhyogo2ku" ;
+-    ns1:候補名 "赤羽一嘉" ;
 +    ns1:候補名 "赤羽かずよし" ;
      ns1:小選挙区 "兵庫2区" ;
      ns1:比例区 "" .
@@ -315,11 +294,9 @@
      ns1:候補名 "輿水恵一" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例北関東ブロック" .
--
--[] ns1:twitter "kiyohiko_toyama" ;
 +    ns1:比例区 "北関東ブロック" .
-+
-+[] ns1:twitter "https://twitter.com/kiyohiko_toyama" ;
+ 
+ [] ns1:twitter "kiyohiko_toyama" ;
      ns1:候補名 "遠山清彦" ;
      ns1:小選挙区 "" ;
 -    ns1:比例区 "比例九州ブロック" .
