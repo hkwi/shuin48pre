@@ -70,6 +70,10 @@ def ttl_out(dbkeys, dbdata, keys):
 				if m:
 					v = "".join(m.groups())
 				v = re.sub("[　 ]+", "", v)
+			elif k == "比例区":
+				m = re.match("^(比例)?(.*?)(ブロック)?$", v)
+				if m:
+					v = m.group(2)
 			
 			if k in keys:
 				objs = list(g.objects(e, EX[k]))
