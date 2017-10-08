@@ -63,6 +63,7 @@ def ttl_out(dbkeys, dbdata, keys):
 				m = re.match("(東京)都\s*(\d+区)", v)
 				if m:
 					v = "".join(m.groups())
+				v = re.sub("[　 ]+", "", v)
 			
 			if k in keys:
 				objs = list(g.objects(e, EX[k]))
