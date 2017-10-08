@@ -33,7 +33,7 @@ def load_gdoc(filename):
 
 def ttl_out(dbkeys, dbdata, keys):
 	g = rdflib.Graph()
-	for row in sorted(dbdata):
+	for row in dbdata:
 		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
 		name = m.get("候補名",m.get("名前"))
 		
@@ -106,25 +106,28 @@ def gray_to_kyousanto():
 	open("docs/gray_to_kyousanto.diff", "w").writelines(lines)
 
 def gray_to_senkyo_dotcom():
-	ks1 = ["候補名","名前","姓","名","政党","小選挙区", "前回","年齢",
+	ks1 = ["名前","候補名","姓","名","政党","小選挙区", "前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
-	db1 = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
+	db1 = [r for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
 
-	ks2 = ["候補名","名前","姓","名","政党","比例区", "前回","年齢",
+	ks2 = ["名前","候補名","姓","名","政党","比例区", "前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
-	db2 = [tuple(r) for r in csv.reader(open("docs/senkyo_dotcom_hirei.csv")) if "".join(r)]
+	db2 = [r for r in csv.reader(open("docs/senkyo_dotcom_hirei.csv")) if "".join(r)]
 	
-	ks = ["候補名","名前","姓","名","政党","比例区","小選挙区","前回","年齢",
+	ks = ["名前","候補名","姓","名","政党","比例区","小選挙区","前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
-	db = [tuple([dict(zip(ks1, n)).get(k, "") for k in ks]) for n in db1
-		] + [tuple([dict(zip(ks2, n)).get(k, "") for k in ks]) for n in db2]
-	db = list(set(db))
+	db = [[dict(zip(ks1, n)).get(k, "") for k in ks] for n in db1
+		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
+	for r in db:
+		tw = ks.index("twitter")
+		if r[tw] and r[tw].startswith("https://twitter.com/"):
+			r[tw] = r[tw][len("https://twitter.com/"):]
+	db = [list(r) for r in set([tuple(r) for r in db])]
 
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	
 	try:
 		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] in ("取りやめ","引退")]
+		gdb = [r for r in gdb if r[flag] not in ("取りやめ","引退")]
 	except ValueError:
 		pass
 	
@@ -155,17 +158,20 @@ def gray_to_ishin():
 
 def gray_to_koumei():
 	ks1 = "候補名 小選挙区 twitter facebook youtube line 肩書".split()
-	db1 = [tuple(r) for r in csv.reader(open("docs/koumei_official.csv")) if "".join(r)]
-	db1 = list(set(db1))
+	db1 = [r for r in csv.reader(open("docs/koumei_official.csv")) if "".join(r)]
 	
 	ks2 = "候補名 比例区 twitter facebook youtube line 肩書".split()
-	db2 = [tuple(r) for r in csv.reader(open("docs/koumei_official_hirei.csv")) if "".join(r)]
-	db2 = list(set(db2))
+	db2 = [r for r in csv.reader(open("docs/koumei_official_hirei.csv")) if "".join(r)]
 	
 	ks = "候補名 小選挙区 比例区 twitter facebook youtube line 肩書".split()
-	db = [tuple([dict(zip(ks1, n)).get(k, "") for k in ks]) for n in db1
-		] + [tuple([dict(zip(ks2, n)).get(k, "") for k in ks]) for n in db2]
-	db = list(set(db))
+	db = [[dict(zip(ks1, n)).get(k, "") for k in ks] for n in db1
+		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
+	for r in db:
+		tw = ks.index("twitter")
+		m = re.match("https?://twitter.com/([^/]+)(/.*)?", r[tw])
+		if m:
+			r[tw] = m.group(1)
+	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "公明"]
