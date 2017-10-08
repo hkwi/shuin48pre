@@ -16,6 +16,7 @@ twitter, facebook ページの有無や、wikidata への登録を進めてい�
 - [GrayDB / 公明公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_koumei.diff)
 - [GrayDB / 自民公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_jimin.diff)
 - [GrayDB / 立憲民主（報道）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_ritsumin.diff)
+- [GrayDB / 幸福公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_koufuku.diff)
 
 総合サイトとの差分
 
