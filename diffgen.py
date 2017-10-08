@@ -221,6 +221,20 @@ def gray_to_ritsumin():
 		fromfile="GrayDB", tofile="立憲民主（報道）", lineterm='\r\n')
 	open("docs/gray_to_ritsumin.diff", "w").writelines(lines)
 
+def gray_to_koufuku():
+	ks = ["候補名",None]+"よみ 小選挙区 比例区 facebook twitter 公式サイト 職歴 立候補".split()
+	db = [r+["党発表"] for r in csv.reader(open("docs/koufuku_official.csv")) if not is_empty(r)]
+	
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if "幸福" in r[gk.index("政党")]]
+	
+	keys = set(ks).intersection(set(gk))
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
+		fromfile="GrayDB", tofile="幸福公式", lineterm='\r\n')
+	open("docs/gray_to_koufuku.diff", "w").writelines(lines)
+
 
 if __name__=="__main__":
 	gray_to_seijinavi()
@@ -230,3 +244,4 @@ if __name__=="__main__":
 	gray_to_koumei()
 	gray_to_jimin()
 	gray_to_ritsumin()
+	gray_to_koufuku()
