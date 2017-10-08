@@ -1,9 +1,8 @@
-解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,※データ整備の優先度が高そうな順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
-進捗率(完了日をカウント)→,13.57%,,,,,,※グレーの項目は既にwikidataにあるもの,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
+進捗率(完了日をカウント)→,13.58%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,name in hiragana,party short name,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,official site,e-mail,official blog,described at URL,place of birth,biography,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,alias,P1814,Q7278,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,P2002,P2013,P4003,P554-P553,P2397,P856,P968,P1581,P973,P19,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前,選挙用表記名/別名,かな,政党,推薦,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,一條芳弘,,いちじょう よしひろ,希望,,,,4,,宮城県 3区,,,,1971-06-17,46,,,,,,http://ichijoyoshihiro.com/,,,,,,,,,,,,,,,,,,
 ,一色一正,,,共産,,,,38,,愛媛県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,三和智之,,,共産,,,,27,,大阪府 11区,,,,,,1975_miwa,https://www.facebook.com/tomoyuki.miwa3,,,,,,,,,,,,,,,,,,,,,,
@@ -505,11 +504,10 @@ Q11412937,吉川元,,よしかわ はじめ,社民,,,現職,61,比例九州ブ�
 Q11413102,吉川赳,,,自民,,,,22,,静岡県 5区,,,男性,1982-04-07,35,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11413102,,,,,,,
 Q11413941,吉田治,,,民進,,,,27,,大阪府 4区,,,男性,1962-03-16,55,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11413941,,,,,,,
 Q11414054,吉田統彦,,,立民,,,,23,,愛知県 1区,,,男性,1974-11-14,42,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11414054,,,,,,,
-Q11422694,國場幸之助,,,自民,,,現職,61,比例九州ブロック,,,,男性,1973-01-10,44,kokubkonosuke,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11422694,,,,,,,
 Q11422694,國場幸之助,国場幸之助,こくば こうのすけ,"無所属
 自民
 無所属
-自民",,,,47,,沖縄県 1区,"2000年沖縄県議会議員選挙
+自民",,,現職,47,比例九州ブロック,沖縄県 1区,"2000年沖縄県議会議員選挙
 第43回衆議院議員総選挙
 2004年沖縄県議会議員選挙
 第45回衆議院議員総選挙
