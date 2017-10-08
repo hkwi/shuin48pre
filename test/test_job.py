@@ -4,6 +4,7 @@ import shuin48pre.senkyo_dotcom
 import shuin48pre.ishin_official
 import shuin48pre.koumei_official
 import shuin48pre.koumei_official_hirei
+import shuin48pre.koufuku_official
 
 def test_jobs():
 	def wrap():
@@ -42,9 +43,17 @@ def test_jobs():
 	th6 = threading.Thread(target=wrap6)
 	th6.start()
 	
+	def wrap7():
+		with open("docs/koufuku_official.csv", "w") as fp:
+			shuin48pre.koufuku_official.run(fp)
+	
+	th7 = threading.Thread(target=wrap7)
+	th7.start()
+	
 	th.join()
 	th2.join()
 	th3.join()
 	th4.join()
 	th5.join()
 	th6.join()
+	th7.join()
