@@ -19,6 +19,12 @@ key_conv = {
 	"メモ": None
 }
 
+def is_empty(row):
+	s = "".join(row)
+	if not s or s.startswith("※"):
+		return True
+	return False
+
 def load_gdoc(filename):
 	db = [r for r in csv.reader(open(filename)) if "".join(r)]
 	for i, r in enumerate(db):
@@ -202,8 +208,8 @@ def gray_to_jimin():
 	open("docs/gray_to_jimin.diff", "w").writelines(lines)
 
 def gray_to_ritsumin():
-	ks = "小選挙区 名前 前回".split()
-	db = [r for r in csv.reader(open("docs/ritsumin_media.csv")) if "".join(r)]
+	ks = "小選挙区 名前 前回 立候補".split()
+	db = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "立民" in r[gk.index("政党")]]
