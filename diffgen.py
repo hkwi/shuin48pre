@@ -240,8 +240,8 @@ def gray_to_koufuku():
 	open("docs/gray_to_koufuku.diff", "w").writelines(lines)
 
 def gray_to_kibou():
-	ks = "小選挙区 名前 前回 立候補".split()
-	db = [r+["党発表"] for r in csv.reader(open("docs/kibou_media.csv")) if not is_empty(r)]
+	ks = "小選挙区 比例区 メモ 名前 前回 立候補".split()
+	db = [r+["党発表"] for r in csv.reader(open("docs/kibou_media2.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "希望" in r[gk.index("政党")]]
@@ -251,7 +251,7 @@ def gray_to_kibou():
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
 		ttl_out(ks, db, keys),
 		fromfile="GrayDB", tofile="希望（報道）", lineterm='\r\n')
-	open("docs/gray_to_kibo.diff", "w").writelines(lines)
+	open("docs/gray_to_kibou.diff", "w").writelines(lines)
 
 
 if __name__=="__main__":
