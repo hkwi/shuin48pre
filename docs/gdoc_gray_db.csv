@@ -3,6 +3,7 @@
 Wikidata ID,name,,name in hiragana,party short name,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,official site,e-mail,official blog,described at URL,place of birth,biography,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,alias,P1814,Q7278,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,P2002,P2013,P4003,P554-P553,P2397,P856,P968,P1581,P973,P19,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前,選挙用表記名/別名,かな,政党,推薦,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,一條芳弘,,いちじょう よしひろ,希望,,,,4,,宮城県 3区,,,,1971-06-17,46,,,,,,http://ichijoyoshihiro.com/,,,,,,,,,,,,,,,,,,
 ,一色一正,,,共産,,,,38,,愛媛県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,三和智之,,,共産,,,,27,,大阪府 11区,,,,,,1975_miwa,https://www.facebook.com/tomoyuki.miwa3,,,,,,,,,,,,,,,,,,,,,,
@@ -38,7 +39,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",,,,,,,,
 ,伊藤正樹,,,民進,,,,13,,東京都 17区,,,男性,,,itomasaki,,,,,,,,,,,,,,,,,,,,,,,
 ,伊藤誠,,,共産,,,,15,,新潟県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,伊藤達也,,,共産,,,,10,,群馬県 5区,,,,,,tatsuya_jcp,https://www.facebook.com/tatsuya.jcp.g,,,,,,,,,,,,,,,,,,,,,,
-,佐々木とし子,,ささき としこ,共産,,取りやめ,,1,,北海道 11区,"帯広市議会議員選挙(1999)
+,佐々木とし子,,ささき としこ,共産,,取り下げ,,1,,北海道 11区,"帯広市議会議員選挙(1999)
 帯広市議会議員選挙(2003)
 帯広市議会議員選挙(2007)
 帯広市議会議員選挙(2011)
@@ -983,7 +984,7 @@ Q388496,馬淵澄夫,,,民進,,,現職,29,,奈良県 1区,,,男性,1960-08-23,57
 Q405085,平沼赳夫,,,自民,,,現職,33,,岡山県 3区,,,男性,1939-08-03,78,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q405085,,,,,,,
 Q405527,衛藤征士郎,,,自民,,,現職,44,,大分県 2区,,,男性,1941-04-29,76,etoseishiro,https://www.facebook.com/SeishiroEto,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q405527,,,,,,,
 Q405533,辻元清美,,,立民,,,現職,27,,大阪府 10区,,,女性,1960-04-28,57,tsujimotokiyomi,https://www.facebook.com/100005838250019,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q405533,,,,,,,
-Q41583708,女鹿武,,めが たけし,共産,,取りやめ,,1,,北海道 10区,,,男性,1949-1-1,68,,,,,,,,,,,,,,,,"年齢のみ公開
+Q41583708,女鹿武,,めが たけし,共産,,取り下げ,,1,,北海道 10区,,,男性,1949-1-1,68,,,,,,,,,,,,,,,,"年齢のみ公開
 http://www.jcp.or.jp/web_senkyo/cat1/",https://www.wikidata.org/wiki/Q41583708,,higa4,10/4,10/4,higa4,10/4,10/4
 Q41618899,神谷裕,,かみや ひろし,立民,,,,1,,北海道 10区,"第47回衆議院議員総選挙(得票：71,219)",,男性,1968-08-10,49,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41618899,,higa4,10/5,10/5,higa4,10/5,10/5
 Q41685236,山下登美子,,,共産,,,,40,,福岡県 11区,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41685236,,,,,,,
