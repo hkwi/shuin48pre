@@ -25,6 +25,10 @@ def load_gdoc(filename):
 		if "wikidata" in r:
 			break
 	keys = [key_conv.get(e,e) for e in db[i]] # normalize keys
+	if "候補名" in keys:
+		for r in db:
+			if not r[keys.index("候補名")]:
+				r[keys.index("候補名")] = r[keys.index("名前")]
 	return keys, db[i+1:]
 
 def ttl_out(dbkeys, dbdata, keys):
@@ -87,7 +91,7 @@ def gray_to_seijinavi():
 	open("docs/gray_to_seijinavi.diff", "w").writelines(lines)
 
 def gray_to_kyousanto():
-	ks = ["候補名",None,"名前","姓","名","せい","めい","年齢",
+	ks = ["名前",None,"候補名","姓","名","せい","めい","年齢",
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
 	db = [tuple(r) for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = list(set(db))
@@ -141,10 +145,6 @@ def gray_to_ishin():
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
-	for r in gdb:
-		i = gk.index("候補名")
-		if not r[i]:
-			r[i] = r[gk.index("名前")]
 	
 	keys = set(ks).intersection(set(gk))
 	
