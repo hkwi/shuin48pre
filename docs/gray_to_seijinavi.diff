@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 政治ナビ
-@@ -4,9 +4,2831 @@
+@@ -4,6 +4,372 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -370,13 +370,13 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1959-06-08" .
 +
-+[] ns1:twitter "" ;
-+    ns1:wikidata "Q786752" ;
-+    ns1:名前 "保岡興治" ;
-+    ns1:性別 "男性" ;
-+    ns1:生年月日 "1939-05-11" .
-+
-+[] ns1:twitter "" ;
+ [] ns1:twitter "" ;
+     ns1:wikidata "Q786752" ;
+     ns1:名前 "保岡興治" ;
+@@ -11,8 +377,2458 @@
+     ns1:生年月日 "1939-05-11" .
+ 
+ [] ns1:twitter "" ;
 +    ns1:wikidata "Q11391317" ;
 +    ns1:名前 "八木哲也" ;
 +    ns1:性別 "男性" ;
@@ -1564,7 +1564,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1950-11-06" .
 +
- [] ns1:twitter "" ;
++[] ns1:twitter "" ;
      ns1:wikidata "Q130856" ;
      ns1:名前 "横路孝弘" ;
      ns1:性別 "男性" ;
