@@ -187,7 +187,7 @@ def gray_to_koumei():
 	open("docs/gray_to_koumei.diff", "w").writelines(lines)
 
 def gray_to_jimin():
-	ks = "比例区 小選挙区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名".split()
+	ks = "小選挙区 比例区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名".split()
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in csv.reader(open("docs/jimin_official.csv")) if "".join(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
