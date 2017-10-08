@@ -15,7 +15,7 @@ def is_kana(s):
 def dels(s):
 	return re.sub("[　 ]+", "", s)
 
-def proc(out, filename, push):
+def proc(out, filename, std, sup):
 	book = xlrd.open_workbook(filename)
 	for sheet_n, sheet in enumerate(book.sheets()):
 		index_row = None
@@ -145,11 +145,11 @@ def proc(out, filename, push):
 				hirei = area
 				area = None
 			
-			out.writerow((area, hirei, sei, mei, sei_hira, mei_hira, gender, birth, prev, bio))
+			out.writerow((area, hirei, std, sup, sei, mei, sei_hira, mei_hira, gender, birth, prev, bio))
 
 
 if __name__=="__main__":
 	out = csv.writer(open("docs/jimin_official.csv", "w"))
-	proc(out, "docs/135811_1.xlsx", "公認")
-	proc(out, "docs/135811_2.xlsx", "推薦予定")
-	proc(out, "docs/135811_3.xlsx", "推薦")
+	proc(out, "docs/135811_1.xlsx", "公認", "")
+	proc(out, "docs/135811_2.xlsx", "", "推薦予定")
+	proc(out, "docs/135811_3.xlsx", "", "推薦")
