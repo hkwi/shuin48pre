@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
-進捗率(完了日をカウント)→,6.69%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,6.69%,,,,,,※データ整備の優先度が高そうな順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,name in hiragana,party short name,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,official site,e-mail,official blog,described at URL,place of birth,biography,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,alias,P1814,Q7278,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,P2002,P2013,P4003,P554-P553,P2397,P856,P968,P1581,P973,P19,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前,選挙用表記名/別名,かな,政党,推薦,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
@@ -468,7 +468,7 @@ Q11364762,中川俊直,,,無所属,,,現職,34,,広島県 4区,,,男性,1970-04-
 Q11365989,中村裕之,,,自民,,,現職,1,,北海道 4区,,,男性,1961-02-23,56,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11365989,,,,,,,
 Q11366226,中根康浩,,,民進,,,現職,57,比例東海ブロック,,,,男性,1962-08-17,55,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11366226,,,,,,,
 Q11366452,中津川博郷,,,維新,,,,13,,東京都 16区,,,男性,1949-04-12,68,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11366452,,,,,,,
-Q11367646,中野洋昌,,,公明,,,現職,28,,兵庫県 8区,,,男性,1978-01-04,39,Hiro_NAKANO_,https://www.facebook.com/nakanohiromasa.office,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11367646,,,,,,,
+Q11367646,中野洋昌,中野ひろまさ,,公明,,,現職,28,,兵庫県 8区,,,男性,1978-01-04,39,Hiro_NAKANO_,https://www.facebook.com/nakanohiromasa.office,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11367646,,,,,,,
 Q11368259,丸山穂高,,,維新,,,現職,27,,大阪府 19区,,,男性,1984-01-10,33,maruyamahodaka,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11368259,,,,,,,
 Q11368828,乃木涼介,,,民進,,,,27,,大阪府 7区,,,男性,1964-08-23,53,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11368828,,,,,,,
 Q11373203,井上英孝,井上ひでたか,,維新,,,現職,27,,大阪府 1区,,,男性,1971-10-25,45,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11373203,,,,,,,
