@@ -1,10 +1,13 @@
 --- GrayDB
 +++ 選挙ドットコム
-@@ -5,21 +5,10647 @@
+@@ -4,23 +4,10648 @@
+ @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
- [] ns1:twitter "" ;
+-[] ns1:twitter "",
+-        "t_sasaki2" ;
 -    ns1:候補名 "" ;
++[] ns1:twitter "" ;
 +    ns1:候補名 "ししど　ちえ" ;
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;

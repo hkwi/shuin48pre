@@ -1,14 +1,27 @@
 --- GrayDB
 +++ 共産党公式
-@@ -4,568 +4,1939 @@
+@@ -4,593 +4,1939 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
--[] ns1:twitter "akamineseiken",
+-[] ns1:twitter "",
+-        "akamineseiken",
 -        "akibacsi",
 -        "chiduko916",
+-        "hatayama_kazuya",
+-        "ikeuchi_saori",
+-        "jhiramatu",
 -        "kokutakeiji",
--        "shiokawatetsuya" ;
+-        "saitokazuko",
+-        "shiikazuo",
+-        "shiokawatetsuya",
+-        "sugawara_makoto",
+-        "syouzoumajima",
+-        "t_sasaki2",
+-        "tamihide123456",
+-        "tamuratakaaki",
+-        "tatsuya_jcp",
+-        "tsunetomori" ;
 -    ns1:候補名 "" ;
 -    ns1:前回 "",
 -        "現職" ;
@@ -274,6 +287,7 @@
 -        "阿藤和之",
 -        "阿部真",
 -        "霜鳥純一",
+-        "青山 了介",
 -        "青山昂平",
 -        "青木弘",
 -        "飯島誠之助",
@@ -372,6 +386,7 @@
 -        "宮崎1区",
 -        "宮崎2区",
 -        "宮崎3区",
+-        "富山1区",
 -        "富山3区",
 -        "山口1区",
 -        "山口2区",
@@ -559,9 +574,19 @@
 -        "68",
 -        "69",
 -        "70" ;
--    ns1:比例区 "比例北関東ブロック" .
+-    ns1:比例区 "",
+-        "北海道ブロック",
+-        "比例中国ブロック",
+-        "比例九州ブロック",
+-        "比例北関東ブロック",
+-        "比例北陸信越ブロック",
+-        "比例南関東ブロック",
+-        "比例東京ブロック",
+-        "比例東北ブロック",
+-        "比例東海ブロック",
+-        "比例近畿ブロック" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "saorijimusyo" ;
 -    ns1:候補名 "池内さおり" ;
 -    ns1:前回 "現職" ;
 +[] ns1:twitter "akamineseiken" ;
@@ -1993,11 +2018,10 @@
 +    ns1:前回 "現" ;
      ns1:名前 "池内沙織" ;
 -    ns1:小選挙区 "" ;
--    ns1:年齢 "" ;
++    ns1:小選挙区 "東京12区" ;
+     ns1:年齢 "35" ;
 -    ns1:比例区 "比例東京ブロック" .
 -
-+    ns1:小選挙区 "東京12区" ;
-+    ns1:年齢 "35" ;
 +    ns1:比例区 "東京" .
 +
 +[] ns1:twitter "" ;
