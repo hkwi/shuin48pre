@@ -213,11 +213,12 @@
 -    ns1:職歴 "(株)大分銀行" .
 -
 -[] ns1:twitter "" ;
+-    ns1:候補名 "下地レイコ" ;
+-    ns1:公式サイト "" ;
 +    ns1:職歴 "幸福実現党 大分第2選挙区支部長" .
 +
 +[] ns1:twitter "https://twitter.com/reikoshimoji" ;
-     ns1:候補名 "下地レイコ" ;
--    ns1:公式サイト "" ;
++    ns1:候補名 "下地れいこ" ;
 +    ns1:公式サイト "http://shimojireiko.ti-da.net/" ;
      ns1:小選挙区 "沖縄1区" ;
      ns1:比例区 "" ;
