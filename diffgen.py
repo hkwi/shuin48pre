@@ -201,6 +201,20 @@ def gray_to_jimin():
 		fromfile="GrayDB", tofile="自民党公式", lineterm='\r\n')
 	open("docs/gray_to_jimin.diff", "w").writelines(lines)
 
+def gray_to_ritsumin():
+	ks = "小選挙区 名前 前回".split()
+	db = [r for r in csv.reader(open("docs/ritsumin_media.csv")) if "".join(r)]
+	
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if "立民" in r[gk.index("政党")]]
+	
+	keys = set(ks).intersection(set(gk))
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
+		fromfile="GrayDB", tofile="立憲民主（報道）", lineterm='\r\n')
+	open("docs/gray_to_ritsumin.diff", "w").writelines(lines)
+
 
 if __name__=="__main__":
 	gray_to_seijinavi()
@@ -209,3 +223,4 @@ if __name__=="__main__":
 	gray_to_ishin()
 	gray_to_koumei()
 	gray_to_jimin()
+	gray_to_ritsumin()
