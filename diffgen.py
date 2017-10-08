@@ -94,12 +94,6 @@ def gray_to_kyousanto():
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
 	
-	try:
-		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] in ("党発表",)]
-	except ValueError:
-		pass
-	
 	keys = set(ks).intersection(set(gk))
 	
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
@@ -138,17 +132,19 @@ def gray_to_senkyo_dotcom():
 	open("docs/gray_to_senkyo_dotcom.diff", "w").writelines(lines)
 
 def gray_to_ishin():
-	ks = ["候補名","名前","ふりがな","前回","小選挙区","比例区","肩書"]
+	ks = ["名前","候補名","ふりがな","前回","小選挙区","比例区","肩書"]
 	db = [tuple(r) for r in csv.reader(open("docs/ishin_official.csv")) if "".join(r)]
 	db = list(set(db))
+	
+	ks += ["立候補"]
+	db = [r+("党発表",) for r in db]
+	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
-	
-	try:
-		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] in ("党発表",)]
-	except ValueError:
-		pass
+	for r in gdb:
+		i = gk.index("候補名")
+		if not r[i]:
+			r[i] = r[gk.index("名前")]
 	
 	keys = set(ks).intersection(set(gk))
 	
