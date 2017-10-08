@@ -14,3 +14,4 @@ twitter, facebook ページの有無や、wikidata への登録を進めてい�
 - [GrayDB / 共産党公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_kyousanto.diff)
 - [GrayDB / 維新公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_ishin.diff)
 - [GrayDB / 公明公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_koumei.diff)
+- [GrayDB / 自民公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_jimin.diff)
