@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 公明党公式
-@@ -4,183 +4,268 @@
+@@ -4,178 +4,268 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -26,7 +26,7 @@
      ns1:小選挙区 "神奈川6区" ;
      ns1:比例区 "" .
  
--[] ns1:twitter "" ;
+-[] ns1:twitter "nakagawa_komei" ;
 +[] ns1:twitter "https://twitter.com/nakagawa_komei" ;
      ns1:名前 "中川康洋" ;
      ns1:小選挙区 "" ;
@@ -227,7 +227,7 @@
 -    ns1:小選挙区 "" ;
 -    ns1:比例区 "比例北陸信越ブロック" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "hamachi_m" ;
 -    ns1:名前 "濱地雅一" ;
 -    ns1:小選挙区 "" ;
 -    ns1:比例区 "比例九州ブロック" .
@@ -286,14 +286,11 @@
 -    ns1:名前 "稲津久" ;
 -    ns1:小選挙区 "北海道 10区" ;
 -    ns1:比例区 "" .
--
--[] ns1:twitter "" ;
 +    ns1:比例区 "四国ブロック" .
 +
 +[] ns1:twitter "https://twitter.com/takeuchi_yuzuru" ;
-     ns1:名前 "竹内譲" ;
-     ns1:小選挙区 "" ;
--    ns1:比例区 "比例近畿ブロック" .
++    ns1:名前 "竹内譲" ;
++    ns1:小選挙区 "" ;
 +    ns1:比例区 "近畿ブロック" .
  
  [] ns1:twitter "" ;
