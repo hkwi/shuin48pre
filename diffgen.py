@@ -93,8 +93,9 @@ def gray_to_seijinavi():
 def gray_to_kyousanto():
 	ks = ["名前",None,"候補名","姓","名","せい","めい","年齢",
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
-	db = [tuple(r) for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
-	db = list(set(db))
+	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
+	db = [list(r) for r in set([tuple(r) for r in db])]
+	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
 	
@@ -139,12 +140,9 @@ def gray_to_senkyo_dotcom():
 	open("docs/gray_to_senkyo_dotcom.diff", "w").writelines(lines)
 
 def gray_to_ishin():
-	ks = ["名前","候補名","ふりがな","前回","小選挙区","比例区","肩書"]
-	db = [tuple(r) for r in csv.reader(open("docs/ishin_official.csv")) if "".join(r)]
-	db = list(set(db))
-	
-	ks += ["立候補"]
-	db = [r+("党発表",) for r in db]
+	ks = "名前 候補名 ふりがな 前回 小選挙区 比例区 肩書 党発表".split()
+	db = [r+["立候補"] for r in csv.reader(open("docs/ishin_official.csv")) if "".join(r)]
+	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
