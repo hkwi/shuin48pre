@@ -127,8 +127,11 @@ def proc(out, filename, push):
 						if bd[0] == "昭和":
 							birth = "%d-%02d-%02d" % (1925+int(bd[1]), int(bd[2]), int(bd[3]))
 						continue
+					
 					if dels(c.value) in "男女":
 						gender = dels(c.value)
+						continue
+					
 					if gender is None:
 						prev = dels(c.value)
 					elif bio is None:
