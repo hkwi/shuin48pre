@@ -8,6 +8,7 @@ EX = rdflib.Namespace("http://ns.example.org/")
 
 key_conv = {
 	"誕生日":"生年月日",
+	"選挙用表記名/別名":"候補名",
 	"担当":None,
 	"作業予定日":None,
 	"完了日":None,
@@ -30,7 +31,7 @@ def ttl_out(dbkeys, dbdata, keys):
 	g = rdflib.Graph()
 	for row in sorted(dbdata):
 		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
-		name = m["名前"]
+		name = m.get("候補名",m.get("名前"))
 		
 		e = rdflib.BNode(name)
 		for k,v in m.items():
@@ -69,6 +70,12 @@ def gray_to_seijinavi():
 	sk, sdb = load_gdoc("docs/gdoc_seiji_navi.csv")
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
+	try:
+		flag = gk.index("立候補")
+		gdb = [r for r in gdb if r[flag] in ("取りやめ","引退")]
+	except ValueError:
+		pass
+	
 	# filter-out
 	qnames = [r[sk.index("wikidata")] for r in sdb]
 	gdb = [r for r in gdb if r[gk.index("wikidata")] in qnames]
@@ -86,6 +93,12 @@ def gray_to_kyousanto():
 	db = list(set(db))
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "共産"]
+	
+	try:
+		flag = gk.index("立候補")
+		gdb = [r for r in gdb if r[flag] in ("党発表",)]
+	except ValueError:
+		pass
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -111,6 +124,12 @@ def gray_to_senkyo_dotcom():
 
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
+	try:
+		flag = gk.index("立候補")
+		gdb = [r for r in gdb if r[flag] in ("取りやめ","引退")]
+	except ValueError:
+		pass
+	
 	keys = set(ks).intersection(set(gk))
 	
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
@@ -125,6 +144,12 @@ def gray_to_ishin():
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if r[gk.index("政党")] == "維新"]
 	
+	try:
+		flag = gk.index("立候補")
+		gdb = [r for r in gdb if r[flag] in ("党発表",)]
+	except ValueError:
+		pass
+	
 	keys = set(ks).intersection(set(gk))
 	
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
@@ -133,15 +158,15 @@ def gray_to_ishin():
 	open("docs/gray_to_ishin.diff", "w").writelines(lines)
 
 def gray_to_koumei():
-	ks1 = "名前 小選挙区 twitter facebook youtube line 肩書".split()
+	ks1 = "候補名 小選挙区 twitter facebook youtube line 肩書".split()
 	db1 = [tuple(r) for r in csv.reader(open("docs/koumei_official.csv")) if "".join(r)]
 	db1 = list(set(db1))
 	
-	ks2 = "名前 比例区 twitter facebook youtube line 肩書".split()
+	ks2 = "候補名 比例区 twitter facebook youtube line 肩書".split()
 	db2 = [tuple(r) for r in csv.reader(open("docs/koumei_official_hirei.csv")) if "".join(r)]
 	db2 = list(set(db2))
 	
-	ks = "名前 小選挙区 比例区 twitter facebook youtube line 肩書".split()
+	ks = "候補名 小選挙区 比例区 twitter facebook youtube line 肩書".split()
 	db = [tuple([dict(zip(ks1, n)).get(k, "") for k in ks]) for n in db1
 		] + [tuple([dict(zip(ks2, n)).get(k, "") for k in ks]) for n in db2]
 	db = list(set(db))
