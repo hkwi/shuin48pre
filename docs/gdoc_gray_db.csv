@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,※データ整備の優先度が高そうな順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
-進捗率(完了日をカウント)→,13.17%,,,,,,※グレーの項目は既にwikidataにあるもの,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,13.27%,,,,,,※グレーの項目は既にwikidataにあるもの,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,name in hiragana,party short name,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,official site,e-mail,official blog,described at URL,place of birth,biography,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,alias,P1814,Q7278,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,P2002,P2013,P4003,P554-P553,P2397,P856,P968,P1581,P973,P19,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前,選挙用表記名/別名,かな,政党,推薦,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
@@ -83,7 +83,7 @@ http://tkc-jcp.blogspot.jp/2017/10/blog-post.html",,,Yfuruchin,10/7,10/7,,,
 ,国光文乃,,,自民,,,,8,,茨城県 6区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,国田睦,,,共産,,,,38,,愛媛県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,土岐一郎,,,共産,,,,37,,香川県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,地坂拓晃,,,共産,,,,26,,京都府 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,地坂拓晃,ちさか拓晃,ちさか たくあき,共産,,党発表,,26,近畿,京都府 2区,第47回衆議院選挙,,男性,,44,chitak21,https://www.facebook.com/chisaka.takuaki/,,,,http://chisaka.net/,,,,,京都精華大学美術学部・版画専攻卒業,,,,,,,,,,,,,
 ,圷孝行,,,労働,,,,14,,神奈川県 11区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,坂本洋史,坂本ひろし,さかもと ひろし,共産,,党発表,,16,,富山県 3区,"第47回衆議院議員総選挙,富山3区",,男性,1970-7-24,47,,,,,,,,,,富山県,金沢経済大学経済学部卒,,,,,,,,,,,,,
 ,坂東毅彦,,,民進,,,,4,,宮城県 4区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1153,7 +1153,9 @@ Q704345,山口壯,山口壮,,自民,,,現職,28,,兵庫県 12区,,,男性,1954-1
 Q7051265,古屋範子,,,公明,,,現職,54,比例南関東ブロック,,,,女性,1956-05-14,61,Noriko_Furuya,noriko.furuya514,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7051265,,,,,,,
 Q7051315,三ツ矢憲生,,,自民,,,現職,24,,三重県 4区,,,男性,1950-12-13,66,mitsuya_office,https://www.facebook.com/mitsuya.norio328/,,,,http://www.mitsuya-norio.com/,,,,,東京大学教養学部、米・コロンビア大学修士号取得,,,,,,https://www.wikidata.org/wiki/Q7051315,,,,,,,
 Q7051352,石田祝稔,,,公明,,,現職,60,比例四国ブロック,,,,男性,1951-09-01,66,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7051352,,,,,,,
-Q729599,伊吹文明,,いぶき ぶんめい,自民,,党発表,現職,26,,京都府 1区,,,男性,1938-01-09,79,,伊吹-文明-306388919504640,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q729599,,,,,,,
+Q729599,伊吹文明,,いぶき ぶんめい,自民,,党発表,現職,26,,京都府 1区,第37~47衆議院選挙,第37~47衆議院選挙,男性,1938-01-09,79,,伊吹-文明-306388919504640,,,,http://www.ibuki-bunmei.org/,,,,京都府京都市下京区,京都大学経済学部卒業,大蔵省在英大使館書記官、主計局主査、国庫課長、大蔵大臣秘書官,"衆議院議長、政権構想会議座長、財務大臣、党幹事長、文部科学大臣、国務大臣 国家公安委員長、防災・危機管理担当大臣、労働大臣
+
+",,,,https://www.wikidata.org/wiki/Q729599,,grck1004,10/9/2017,10/9/2017,,,
 Q730991,鴨下一郎,,,自民,,,現職,13,,東京都 13区,,,男性,1949-01-16,68,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q730991,,,,,,,
 Q732087,枝野幸男,,,立民,,,現職,11,,埼玉県 5区,,,男性,1964-05-31,53,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q732087,,,,,,,
 Q7385320,赤澤亮正,赤沢亮正,,自民,,,現職,31,,鳥取県 2区,,,男性,1960-12-18,56,ryosei_akazawa,https://www.facebook.com/akazawa.ryosei,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7385320,,,,,,,
