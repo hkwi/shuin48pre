@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 政治ナビ
-@@ -4,9 +4,2832 @@
+@@ -4,9 +4,2831 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -2560,8 +2560,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1961-02-27" .
 +
-+[] ns1:twitter "",
-+        "kanekomegu" ;
++[] ns1:twitter "kanekomegu" ;
 +    ns1:wikidata "Q11646784",
 +        "Q5371065" ;
 +    ns1:名前 "金子恵美" ;
