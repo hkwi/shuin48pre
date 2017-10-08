@@ -186,6 +186,20 @@ def gray_to_koumei():
 		fromfile="GrayDB", tofile="公明党公式", lineterm='\r\n')
 	open("docs/gray_to_koumei.diff", "w").writelines(lines)
 
+def gray_to_jimin():
+	ks = "比例区 小選挙区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名".split()
+	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in csv.reader(open("docs/jimin_official.csv")) if "".join(r)]
+	
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if "自民" in r[gk.index("政党")]]
+	
+	keys = set(ks).intersection(set(gk))
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
+		fromfile="GrayDB", tofile="自民党公式", lineterm='\r\n')
+	open("docs/gray_to_jimin.diff", "w").writelines(lines)
+
 
 if __name__=="__main__":
 	gray_to_seijinavi()
@@ -193,3 +207,4 @@ if __name__=="__main__":
 	gray_to_senkyo_dotcom()
 	gray_to_ishin()
 	gray_to_koumei()
+	gray_to_jimin()
