@@ -4,6 +4,9 @@ import re
 import xlrd
 import unicodedata
 
+# PDFs were downloaded from https://www.jimin.jp/news/activities/135811.html
+# and then, converted to XSLX format by https://smallpdf.com/jp
+
 def is_kana(s):
 	for ss in s:
 		n = unicodedata.name(ss)
