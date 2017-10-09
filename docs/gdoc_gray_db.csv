@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
-進捗率(完了日をカウント)→,15.98%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,16.08%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,,,alias,P1814,Q7278,,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,,P2002,P2013,P4003,P554-P553,P2397,,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前（フル）,名前（姓）,名前（名）,選挙用表記名/別名,かな,公認政党,推薦政党,以前の政党,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,誕生年,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,Instagram,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴（履歴）,学歴（最新）,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
@@ -386,7 +386,15 @@ Q11361823,不破弘樹,,,,,希望,,,,,10,,群馬県 4区,,,男性,1966-07-09,51,
 Q11364144,中山展宏,,,,,自民,,,,現職,54,比例南関東ブロック,,,,男性,1968-09-16,49,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11364144,,,,,,,
 Q11364418,中島克仁,,,,,民進,,,,現職,19,,山梨県 1区,,,男性,1967-09-27,50,,KatsuNakajima,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11364418,,,,,,,
 Q11364762,中川俊直,,,,,無所属,,,,現職,34,,広島県 4区,,,男性,1970-04-25,47,,,https://www.facebook.com/syunchoku,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11364762,,,,,,,
-Q11365989,中村裕之,中村,裕之,,なかむら ひろゆき,自民,,,,現職,1,,北海道 4区,,,男性,1961-02-23,56,,nakamurahiro3,hiroyuki.nakamura.1466126,,,UCShAseGI8Ncv4oerrH2xfRw,,http://www.hiro-nakamura.jp/,,http://www.hiro-nakamura.jp/?page_id=12,http://www.hiro-nakamura.jp/?page_id=9,北海道余市郡余市町,北海学園大学,,北海道庁,,,,,https://www.wikidata.org/wiki/Q11365989,https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E8%A3%95%E4%B9%8B,Yfuruchin,10/9,,,,
+Q11365989,中村裕之,中村,裕之,,なかむら ひろゆき,自民,,,党発表,現職,1,,北海道 4区,"北海道議会議員選挙後志管内選挙区(2003)
+北海道議会議員選挙後志管内選挙区(2007)
+北海道議会議員選挙後志管内選挙区(2011)
+第46回衆議院議員総選挙(2012)
+第47回衆議院議員総選挙(2014)","北海道議会議員選挙後志管内選挙区(2003)
+北海道議会議員選挙後志管内選挙区(2007)
+北海道議会議員選挙後志管内選挙区(2011)
+第46回衆議院議員総選挙(2012)
+第47回衆議院議員総選挙(2014)",男性,1961-02-23,56,,nakamurahiro3,hiroyuki.nakamura.1466126,,,UCShAseGI8Ncv4oerrH2xfRw,,http://www.hiro-nakamura.jp/,,http://www.hiro-nakamura.jp/?page_id=12,http://www.hiro-nakamura.jp/?page_id=9,北海道余市郡余市町,北海学園大学,,北海道庁,,,,,https://www.wikidata.org/wiki/Q11365989,https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%91%E8%A3%95%E4%B9%8B,Yfuruchin,10/9,10/9,,,
 Q11366226,中根康浩,,,,,民進,,,,現職,57,比例東海ブロック,,,,男性,1962-08-17,55,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11366226,,,,,,,
 Q11366452,中津川博郷,,,,,維新,,,,,13,,東京都 16区,,,男性,1949-04-12,68,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11366452,,,,,,,
 Q11367646,中野洋昌,,,中野ひろまさ,,公明,,,,現職,28,,兵庫県 8区,,,男性,1978-01-04,39,,Hiro_NAKANO_,https://www.facebook.com/nakanohiromasa.office,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11367646,,,,,,,
