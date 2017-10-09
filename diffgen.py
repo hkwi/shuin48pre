@@ -31,6 +31,11 @@ def load_gdoc(filename):
 		if "wikidata" in r:
 			break
 	keys = [key_conv.get(e,e) for e in db[i]] # normalize keys
+	
+	if "立候補" in keys:
+		flag = keys.index("立候補")
+		db = [r for r in db if r[flag] not in ("取りやめ","引退", "不出馬")]
+	
 	if "候補名" in keys:
 		for r in db:
 			if not r[keys.index("候補名")]:
@@ -74,6 +79,11 @@ def ttl_out(dbkeys, dbdata, keys):
 				m = re.match("^(比例)?(.*?)(ブロック)?$", v)
 				if m:
 					v = m.group(2)
+			elif k == "前回":
+				if v in ("現職", "現"):
+					v = "前"
+			else:
+				v = re.sub("[　 ]+", "", v)
 			
 			if k in keys:
 				objs = list(g.objects(e, EX[k]))
@@ -90,12 +100,6 @@ def gray_to_seijinavi():
 	sk, sdb = load_gdoc("docs/gdoc_seiji_navi.csv")
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
-	try:
-		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] in ("取りやめ","引退")]
-	except ValueError:
-		pass
-	
 	# filter-out
 	qnames = [r[sk.index("wikidata")] for r in sdb]
 	gdb = [r for r in gdb if r[gk.index("wikidata")] in qnames]
@@ -107,7 +111,7 @@ def gray_to_seijinavi():
 	open("docs/gray_to_seijinavi.diff", "w").writelines(lines)
 
 def gray_to_kyousanto():
-	ks = ["名前",None,"候補名","姓","名","せい","めい","年齢",
+	ks = ["候補名",None,"名前","姓","名","せい","めい","年齢",
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
 	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
@@ -240,7 +244,7 @@ def gray_to_koufuku():
 	open("docs/gray_to_koufuku.diff", "w").writelines(lines)
 
 def gray_to_kibou():
-	ks = "小選挙区 比例区 メモ 候補名 前回 立候補".split()
+	ks = "小選挙区 比例区 メモ 候補名".split()+ [None, "立候補"]
 	db = [r+["党発表"] for r in csv.reader(open("docs/kibou_media2.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
