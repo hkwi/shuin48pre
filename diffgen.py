@@ -56,7 +56,7 @@ def ttl_out(dbkeys, dbdata, keys, prefer_ez=True):
 		bnodes[name] = e
 		for k,v in m.items():
 			if k == "twitter":
-				v = v.split("?")[0].lower()
+				v = v.strip().split("?")[0].lower()
 				m = re.match("https://twitter.com/([^/\?]+)", v)
 				if m:
 					v = m.group(1)
