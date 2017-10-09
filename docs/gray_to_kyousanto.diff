@@ -1360,7 +1360,7 @@
      ns1:年齢 "45" ;
      ns1:比例区 "東京" .
  
--[] ns1:twitter "" ;
+-[] ns1:twitter "miyamoto_sakae" ;
 -    ns1:候補名 "宮本栄" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "宮本栄" ;
@@ -3005,7 +3005,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "akahira1990" ;
 -    ns1:候補名 "赤平勇人" ;
 -    ns1:前回 "" ;
 +    ns1:小選挙区 "" ;
