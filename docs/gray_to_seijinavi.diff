@@ -3268,7 +3268,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1971-04-13" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "onishi_hiroyuki" ;
 -    ns1:wikidata "Q20039110" ;
 -    ns1:名前 "大西宏幸" ;
 -    ns1:性別 "男性" ;
