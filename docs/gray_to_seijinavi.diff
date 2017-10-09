@@ -3070,7 +3070,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1966-9-28" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "yoshida_komei" ;
 -    ns1:wikidata "Q21703015" ;
 -    ns1:名前 "吉田宣弘" ;
 -    ns1:性別 "男性" ;
@@ -3250,7 +3250,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1946-09-06" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tekuteku_diary" ;
 -    ns1:wikidata "Q30144920" ;
 -    ns1:名前 "大平喜信" ;
 -    ns1:性別 "男性" ;
@@ -4969,10 +4969,12 @@
  
  [] ns1:twitter "" ;
      ns1:wikidata "Q11661236" ;
-@@ -2713,6 +2713,12 @@
+@@ -2712,7 +2712,13 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1960-08-23" .
  
- [] ns1:twitter "" ;
+-[] ns1:twitter "t_takai" ;
++[] ns1:twitter "" ;
 +    ns1:wikidata "Q3136350" ;
 +    ns1:名前 "馳浩" ;
 +    ns1:性別 "男性" ;
