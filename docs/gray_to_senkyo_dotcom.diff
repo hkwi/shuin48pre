@@ -10737,7 +10737,7 @@
 -    ns1:公式サイト "http://www.okumatoshiaki.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "大熊利昭" ;
--    ns1:小選挙区 "東京2区" ;
+-    ns1:小選挙区 "茨城4区" ;
 -    ns1:年齢 "54" ;
 -    ns1:比例区 "" .
 -
@@ -15172,7 +15172,7 @@
 -    ns1:年齢 "42" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "簗和生" ;
 -    ns1:公式サイト "http://www.yanakazuo.jp/index.html" ;
 -    ns1:前回 "前" ;
