@@ -3,6 +3,7 @@ import re
 import csv
 import rdflib
 import difflib
+import unicodedata
 
 EX = rdflib.Namespace("http://ns.example.org/")
 
@@ -75,6 +76,7 @@ def ttl_out(dbkeys, dbdata, keys, prefer_ez=True):
 				if not v.endswith("性") and len(v)==1:
 					v += "性"
 			elif k == "小選挙区":
+				v = unicodedata.normalize("NFKC", v)
 				m = re.match("(.*)[県府]\s*(\d+区)", v)
 				if m:
 					v = "".join(m.groups())
@@ -223,8 +225,13 @@ def gray_to_jimin():
 	open("docs/gray_to_jimin.diff", "w").writelines(lines)
 
 def gray_to_ritsumin():
-	ks = "小選挙区 名前 前回 立候補".split()
-	db = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media.csv")) if not is_empty(r)]
+	ks1 = "小選挙区 名前 前回 立候補".split()
+	db1 = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media.csv")) if not is_empty(r)]
+	ks2 = "公認 小選挙区 比例区 名前 前回 立候補".split()
+	db2 = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media2.csv")) if not is_empty(r)]
+	ks = "公認 小選挙区 比例区 名前 前回 立候補".split()
+	db = [[dict(zip(ks1,r)).get(k,"") for k in ks] for r in db1
+		] + [[dict(zip(ks2,r)).get(k,"") for k in ks] for r in db2 ]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "立民" in r[gk.index("公認政党")]]
