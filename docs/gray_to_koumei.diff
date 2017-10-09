@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 公明党公式
-@@ -4,8 +4,23 @@
+@@ -4,6 +4,21 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -20,11 +20,8 @@
 +    ns1:比例区 "九州・沖縄" .
 +
  [] ns1:twitter "isamuueda" ;
--    ns1:候補名 "上田勇" ;
-+    ns1:候補名 "上田いさむ" ;
+     ns1:候補名 "上田いさむ" ;
      ns1:小選挙区 "神奈川6区" ;
-     ns1:比例区 "" .
- 
 @@ -14,7 +29,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" .
