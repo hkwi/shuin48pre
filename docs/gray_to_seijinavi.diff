@@ -2452,6 +2452,12 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1964-01-04" .
 -
+-[] ns1:twitter "inatsuhisashi" ;
+-    ns1:wikidata "Q11596723" ;
+-    ns1:名前 "稲津久" ;
+-    ns1:性別 "男性" ;
+-    ns1:生年月日 "1958-02-09" .
+-
 -[] ns1:twitter "ueno_kenichiro" ;
 -    ns1:wikidata "Q6389276" ;
 -    ns1:名前 "上野賢一郎" ;
@@ -4545,12 +4551,6 @@
 -    ns1:名前 "秋葉賢也" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1962-07-03" .
--
--[] ns1:twitter "inatsuhisashi" ;
--    ns1:wikidata "Q11596723" ;
--    ns1:名前 "稲津久" ;
--    ns1:性別 "男性" ;
--    ns1:生年月日 "1958-02-09" .
 -
 -[] ns1:twitter "" ;
 -    ns1:wikidata "Q1654408" ;
