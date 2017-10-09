@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,
-進捗率(完了日をカウント)→,21.11%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,21.39%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),,candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,※小選挙区はsenkyokus.idを参照する,,,,submission_order,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,Q646425,,P768(Q13365595),P768(Q1052894),,P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,
@@ -654,7 +654,7 @@ Q337762,森山𥙿,森山,𥙿,森山裕,もりやま ひろし,自民,,,,現職
 農林水産大臣
 財務副大臣
 財務大臣政務官",,,,https://www.wikidata.org/wiki/Q337762,,higa4,10/8,10/8,,,,819
-Q3435725,福田昭夫,福田,昭夫,,ふくだ あきお,無所属,,民進,,現職,9,2,,栃木県 2区,,,,男性,1948-04-17,69,1948,,,,,,,,http://www16.plala.or.jp/akio417/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q3435725,,,,,,,,133
+Q3435725,福田昭夫,福田,昭夫,,ふくだ あきお,無所属,,民進,,現職,9,2,,栃木県 2区,,,,男性,1948-04-17,69,1948,,-,-,,,,,https://www.fukudaa-houtoku.com/,,,,栃木県日光市小百,,東北大学教育学部,,,,,,https://www.wikidata.org/wiki/Q3435725,,,,10/9,,,,133
 Q3482658,鈴木俊一,鈴木,俊一,,すずき しゅんいち,自民,,,,現職,3,2,,岩手県 2区,,,,男性,1953-04-13,64,1953,,,,,,,,http://www.suzukishunichi.jp,,,,,,,,,,,,https://www.wikidata.org/wiki/Q3482658,,,,,,,,56
 Q3547232,横光克彦,横光,克彦,,よこみつ かつひこ,立民,,,,元,44,3,,大分県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,995
 Q359480,岸田文雄,岸田,文雄,,きしだ ふみお,自民,,,,現職,34,1,,広島県 1区,,,,男性,1957-07-29,60,1957,,,https://www.facebook.com/fkishida,,,,,http://www.kishida.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q359480,,,,,,,,670
@@ -733,7 +733,7 @@ Q5517695,橋本岳,橋本,岳,,はしもと がく,自民,,,,現職,33,4,,岡山
 Q5530859,中谷元,中谷,元,,なかたに げん,自民,,,,現職,39,1,,高知県 1区,,,,男性,1957-10-14,59,1957,,,https://www.facebook.com/gen.nakatani.1,,,,,http://www.nakatanigen.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5530859,,,,,,,,726
 Q5533162,佐田玄一郎,佐田,玄一郎,,さた げんいちろう,自民,,,,現職,10,1,,群馬県 1区,,,,男性,1952-12-22,64,1952,,,,,,,,http://www.sata-genichiro.jp/index.html,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5533162,,,,,,,,145
 Q5637084,小此木八郎,小此木,八郎,,おこのぎ はちろう,自民,,,,現職,14,3,,神奈川県 3区,,,,男性,1965-06-22,52,1965,,,https://www.facebook.com/hachirouokonogi,,,,,http://www.hachirou.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5637084,,,,,,,,342
-Q5639959,船田元,船田,元,,ふなだ はじめ,自民,,,,現職,9,1,,栃木県 1区,,,,男性,1953-01-01,64,1953,,,https://www.facebook.com/hajime.funada,,,,,http://www.funada.org/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5639959,,,,,,,,131
+Q5639959,船田元,船田,元,,ふなだ はじめ,自民,,,,現職,9,1,,栃木県 1区,,,,男性,1953-01-01,64,1953,,,https://www.facebook.com/hajime.funada,,,,,http://www.funada.org/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5639959,,,,10/9,,,,131
 Q5639964,広田一,広田,一,,ひろた はじめ,民進,,,,,39,2,,高知県 2区,,,,男性,1968-10-10,48,1968,,,,,,,,http://www.hirota1.com/index.html,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5639964,,,,,,,,728
 Q5680924,松本洋平,松本,洋平,,まつもと ようへい,自民,,,,現職,13,19,,東京都 19区,,,,男性,1973-08-31,44,1973,,matsumoto_yohei,https://www.facebook.com/matsumoto.yohei.7,,,,,http://www012.upp.so-net.ne.jp/yohei/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5680924,,,,,,,,267
 Q5752395,牧原秀樹,牧原,秀樹,,まきはら ひでき,自民,,,,現職,53,,比例北関東ブロック,,,,,男性,1971-01-01,46,1971,,hmakihara,HidekiMacky,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5752395,,,,,,,,854
@@ -976,7 +976,6 @@ Q926370,林幹雄,林,幹雄,,はやし もとお,自民,,,,現職,12,10,,千葉
 Q935199,塩谷立,塩谷,立,,しおのや りゅう,自民,,,,現職,22,8,,静岡県 8区,,,,男性,1950-02-18,67,1950,,,,,,,,http://www.ryu48.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q935199,,,,,,,,460
 Q978256,小沢鋭仁,小沢,鋭仁,,おざわ さきひと,希望,,維新,,現職,13,25,,東京都 25区,,,,男性,1954-05-31,63,1954,,OzawaSakihito,https://www.facebook.com/pages/%E5%B0%8F%E6%B2%A2%E3%81%95%E3%81%8D%E3%81%B2%E3%81%A8%E8%A1%86%E8%AD,,,,,http://shiiki-tamotsu.jp,,,,,,,,,,,,https://www.wikidata.org/wiki/Q978256,,,,,,,,945
 Q992930,石原伸晃,石原,伸晃,,いしはら のぶてる,自民,,,,現職,13,8,,東京都 8区,,,,男性,1957-04-19,60,1957,,IshiharaNobu,https://www.facebook.com/ishihara.nobuteru,,,,,http://www.nobuteru.or.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q992930,,,,,,,,310
-未登録,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 未登録,一條芳弘,一條,芳弘,,いちじょう よしひろ,希望,,,,,4,3,,宮城県 3区,,,,,1971-06-17,46,1971,,,,,,,,http://ichijoyoshihiro.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,69
 未登録,一色一正,一色,一正,,いっしき かずまさ,共産,,,党発表,新人,38,2,,愛媛県 2区,,,,男性,1950-1-1,67,1950,,,,,,,,,,,,,,,,,,,年齢(67)のみ公開,https://www.wikidata.org/wiki/未登録,,higa4,10/9,10/9,,,,716
 未登録,三和智之,三和,智之,,,共産,,,,,27,11,,大阪府 11区,,,,,,,,,1975_miwa,https://www.facebook.com/tomoyuki.miwa3,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,539
@@ -1123,7 +1122,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",https://www.wikidata.org/wiki/
 未登録,小林学,小林,学,,,維新,,,,,13,5,東京都ブロック,東京都 5区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,301
 未登録,小林弘幸,小林,弘幸,,,立民,,,,,19,2,,山梨県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,405
 未登録,小林解子,小林,解子,,こばやし ときこ,共産,,,,,40,6,,福岡県 6区,,,,女性,1979-11-24,37,1979,,tokikobayashi,https://www.facebook.com/tkoba1979,,,,,,,,http://www.fjcp.jp/election/syuinsen/2520/,福岡県,,福岡大学人文学部,民青同盟福岡県委員会専従、日本共産党専従,,,,,https://www.wikidata.org/wiki/未登録,,keisuke,10/8,10/8,,,,750
-未登録,小池一徳,小池,一徳,,,共産,,,,,9,2,,栃木県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,132
+未登録,小池一徳,小池,一徳,,こいけ かずのり,共産,,,,,9,2,,栃木県 2区,,,,男性,1961-01-19,56,1961,,koike_kazunori,-,,,,,,,,,栃木県,,東北大学文学部中退,,,,,,https://www.wikidata.org/wiki/未登録,,,,10/9,,,,132
 未登録,小野里定良,小野里,定良,,,共産,,,,,12,8,,千葉県 8区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,234
 未登録,小金沢由佳,小金沢,由佳,,,共産,,,,,20,3,,長野県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,414
 未登録,尾崎光,尾崎,光,,,共産,,,,,34,5,,広島県 5区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,684
@@ -1303,7 +1302,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",https://www.wikidata.org/wiki/
 未登録,白石寛樹,白石,寛樹,,しらいし ひろき,自民,,,,新人,38,3,,愛媛県 3区,,,,男性,1988-1-23,29,1988,,,,,,,,,,,,新居浜市,"愛媛県立新居浜工業高校
 ",国士舘大学,白石徹秘書,,白石徹,,,https://www.wikidata.org/wiki/未登録,,higa4,10/9,10/9,,,,722
 未登録,皆川眞一郎,皆川,眞一郎,,,社民,,,,,12,12,,千葉県 12区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,207
-未登録,真白リョウ,真白,リョウ,,,希望,,自由,,,27,10,,大阪府 10区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,545
+未登録,真白リョウ,真白,リョウ,,,希望,,自由,,,14,11,,神奈川県 11区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,545
 未登録,矢野忠重,矢野,忠重,,,共産,,,,,27,18,,大阪府 18区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,559
 未登録,石丸完治,石丸,完治,,いしまる かんじ,共産,,,,,42,3,,長崎県 3区,,,,男性,1949-1-1,68,1949,,,,,,,,,,,,,,,,,,,年齢(68)のみ公開,https://www.wikidata.org/wiki/未登録,,higa4,10/8,10/8,,,,770
 未登録,石堂淳士,石堂,淳士,,,共産,,,,,25,3,,滋賀県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,513
@@ -1410,6 +1409,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",https://www.wikidata.org/wiki/
 未登録,鈴木千佳,鈴木,千佳,鈴木ちか,すずきちか,共産,,,,新人,22,1,,静岡県 1区,,,,女性,,,,,chikachika_gogo,https://www.facebook.com/chikachikagogo/,,,,,,,https://ameblo.jp/chikachika-gogo/,,静岡県川根本町,,静岡大学法経短期大学,,,,,,https://www.wikidata.org/wiki/未登録,,kudarisenmon,2017/10/9,2017/10/9,,,,438
 未登録,鈴木宏太,鈴木,宏太,鈴木こうた,すずきこうた,共産,,,党発表,,17,3,,石川県 3区,,,,男性,,,,,,https://www.facebook.com/kota.suzuki.1656,,,,,,,,,静岡県,"静岡西高等学校
 金沢工業大学",,城北病院,,,,,https://www.wikidata.org/wiki/未登録,,tominari,10/9,10/9,,,,392
+未登録,鈴木宏治,鈴木,宏治,鈴木こうじ,すずき こうじ,希望,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 未登録,鈴木庸介,鈴木,庸介,,,立民,,,,,13,10,,東京都 10区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,240
 未登録,鈴木麻理子,鈴木,麻理子,,,自由,,,,,26,5,,京都府 5区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,535
 未登録,長内史子,長内,史子,,,共産,,,,,13,8,,東京都 8区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,308
