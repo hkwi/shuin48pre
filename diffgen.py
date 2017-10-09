@@ -42,12 +42,15 @@ def load_gdoc(filename):
 				r[keys.index("候補名")] = r[keys.index("名前")]
 	return keys, db[i+1:]
 
-def ttl_out(dbkeys, dbdata, keys):
+def ttl_out(dbkeys, dbdata, keys, prefer_ez=True):
 	g = rdflib.Graph()
 	bnodes = {}
 	for row in dbdata:
 		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
-		name = m.get("候補名",m.get("名前"))
+		if prefer_ez:
+			name = m.get("候補名",m.get("名前"))
+		else:
+			name = m.get("名前",m.get("候補名"))
 		
 		e = bnodes.get(name, rdflib.BNode(name))
 		bnodes[name] = e
@@ -224,8 +227,8 @@ def gray_to_ritsumin():
 	
 	keys = set(ks).intersection(set(gk))
 	
-	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
-		ttl_out(ks, db, keys),
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys, prefer_ez=False),
+		ttl_out(ks, db, keys, prefer_ez=False),
 		fromfile="GrayDB", tofile="立憲民主（報道）", lineterm='\r\n')
 	open("docs/gray_to_ritsumin.diff", "w").writelines(lines)
 
