@@ -4354,7 +4354,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1970-07-11" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tajimaissei" ;
 -    ns1:wikidata "Q6088170" ;
 -    ns1:名前 "田島一成" ;
 -    ns1:性別 "男性" ;

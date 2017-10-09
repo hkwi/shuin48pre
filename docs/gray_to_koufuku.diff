@@ -1,11 +1,8 @@
 --- GrayDB
 +++ 幸福公式
-@@ -4,56 +4,69 @@
- @prefix xml: <http://www.w3.org/XML/1998/namespace> .
- @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@@ -6,54 +6,67 @@
  
--[] ns1:twitter "" ;
-+[] ns1:twitter "ikiaiko" ;
+ [] ns1:twitter "ikiaiko" ;
      ns1:候補名 "いき愛子" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/ikiaiko/" ;
@@ -14,7 +11,7 @@
      ns1:立候補 "党発表" ;
 -    ns1:職歴 "コージャパン(株)" .
 -
--[] ns1:twitter "ishiwatatsuyo" ;
+-[] ns1:twitter "-" ;
 +    ns1:職歴 "幸福実現党神奈川第3選挙区支部長" .
 +
 +[] ns1:twitter "" ;
