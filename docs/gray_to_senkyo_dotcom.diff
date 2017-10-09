@@ -8371,6 +8371,15 @@
 -    ns1:年齢 "58" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "sasaki_stop_tpp" ;
+-    ns1:候補名 "ささき隆博" ;
+-    ns1:公式サイト "http://sasaki.tesio.net/" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "佐々木隆博" ;
+-    ns1:小選挙区 "北海道6区" ;
+-    ns1:年齢 "68" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:twitter "shiiki_tamotsu_" ;
 -    ns1:候補名 "しいき保" ;
 -    ns1:公式サイト "http://shiiki-tamotsu.jp" ;
@@ -9434,7 +9443,7 @@
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
--    ns1:候補名 "伊東良孝" ;
+-    ns1:候補名 "伊東よしたか" ;
 -    ns1:公式サイト "http://ito-yoshitaka.jp/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "伊東良孝" ;
@@ -9559,15 +9568,6 @@
 -    ns1:小選挙区 "" ;
 -    ns1:年齢 "56" ;
 -    ns1:比例区 "北海道" .
--
--[] ns1:twitter "sasaki_stop_tpp" ;
--    ns1:候補名 "佐々木隆博" ;
--    ns1:公式サイト "http://sasaki.tesio.net/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "佐々木隆博" ;
--    ns1:小選挙区 "北海道6区" ;
--    ns1:年齢 "68" ;
--    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "佐伯てつや" ;

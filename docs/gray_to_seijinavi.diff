@@ -2488,6 +2488,12 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1959-06-14" .
 -
+-[] ns1:twitter "sasaki_stop_tpp" ;
+-    ns1:wikidata "Q7677066" ;
+-    ns1:名前 "佐々木隆博" ;
+-    ns1:性別 "男性" ;
+-    ns1:生年月日 "1949-03-10" .
+-
 -[] ns1:twitter "shiiki_tamotsu_" ;
 -    ns1:wikidata "Q11647123" ;
 -    ns1:名前 "椎木保" ;
@@ -2841,12 +2847,6 @@
 -    ns1:名前 "佐々木紀" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1974-10-18" .
--
--[] ns1:twitter "sasaki_stop_tpp" ;
--    ns1:wikidata "Q7677066" ;
--    ns1:名前 "佐々木隆博" ;
--    ns1:性別 "男性" ;
--    ns1:生年月日 "1949-03-10" .
 -
 -[] ns1:twitter "" ;
 -    ns1:wikidata "Q5533162" ;
