@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,
-進捗率(完了日をカウント)→,21.39%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,21.49%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),,candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,※小選挙区はsenkyokus.idを参照する,,,,submission_order,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,Q646425,,P768(Q13365595),P768(Q1052894),,P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,
@@ -654,7 +654,7 @@ Q337762,森山𥙿,森山,𥙿,森山裕,もりやま ひろし,自民,,,,現職
 農林水産大臣
 財務副大臣
 財務大臣政務官",,,,https://www.wikidata.org/wiki/Q337762,,higa4,10/8,10/8,,,,819
-Q3435725,福田昭夫,福田,昭夫,,ふくだ あきお,無所属,,民進,,現職,9,2,,栃木県 2区,,,,男性,1948-04-17,69,1948,,-,-,,,,,https://www.fukudaa-houtoku.com/,,,,栃木県日光市小百,,東北大学教育学部,,,,,,https://www.wikidata.org/wiki/Q3435725,,,,10/9,,,,133
+Q3435725,福田昭夫,福田,昭夫,,ふくだ あきお,無所属,,民進,,現職,9,2,,栃木県 2区,,,,男性,1948-04-17,69,1948,,-,akio417fukuda,,,,,https://www.fukudaa-houtoku.com/,,,,栃木県日光市小百,,東北大学教育学部,,,,,,https://www.wikidata.org/wiki/Q3435725,,,,10/9,,,,133
 Q3482658,鈴木俊一,鈴木,俊一,,すずき しゅんいち,自民,,,,現職,3,2,,岩手県 2区,,,,男性,1953-04-13,64,1953,,,,,,,,http://www.suzukishunichi.jp,,,,,,,,,,,,https://www.wikidata.org/wiki/Q3482658,,,,,,,,56
 Q3547232,横光克彦,横光,克彦,,よこみつ かつひこ,立民,,,,元,44,3,,大分県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,995
 Q359480,岸田文雄,岸田,文雄,,きしだ ふみお,自民,,,,現職,34,1,,広島県 1区,,,,男性,1957-07-29,60,1957,,,https://www.facebook.com/fkishida,,,,,http://www.kishida.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q359480,,,,,,,,670
@@ -1237,7 +1237,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",https://www.wikidata.org/wiki/
 未登録,椎名史明,椎名,史明,,,共産,,,,,12,11,,千葉県 11区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,203
 未登録,楠本文郎,楠本,文郎,,,共産,,,,,30,3,,和歌山県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,643
 未登録,榛野博,榛野,博,はたの博,,維新,,,,,11,14,,埼玉県 14区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,169
-未登録,槙昌三,槙,昌三,,,共産,,,,,9,3,,栃木県 3区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,134
+未登録,槙昌三,槙,昌三,,まき しょうぞう,共産,,,,,9,3,,栃木県 3区,,,,男性,1943-09-13,74,1943,,-,-,,,,,-,,,,栃木県塩谷町,,宇都宮大学 学芸学部,,,,,,https://www.wikidata.org/wiki/未登録,,,,10/9,,,,134
 未登録,樋口博康,樋口,博康,,,立民,,,,,12,2,,千葉県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,215
 未登録,横山征吾,横山,征吾,,,共産,,,,,14,5,,神奈川県 5区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,346
 未登録,横田有史,横田,有史,,,共産,,,,,4,6,,宮城県 6区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,75
@@ -1316,7 +1316,7 @@ http://www.nkt-tv.co.jp/sp-news/news8694296.html",https://www.wikidata.org/wiki/
 年齢(33)のみ公開",https://www.wikidata.org/wiki/未登録,,Yfuruchin,10/7,10/7,,,,5
 未登録,石本憲一,石本,憲一,,いしもと けんいち,共産,,,党発表,新人,38,1,,愛媛県 1区,,,,男性,1947-1-1,70,1947,,,,,,,,,,,,,,,,,,,年齢(70)のみ公開,https://www.wikidata.org/wiki/未登録,,higa4,10/9,10/9,,,,713
 未登録,石沢憲之,石沢,憲之,,,共産,,,,,13,2,,東京都 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,290
-未登録,石渡剛,石渡,剛,いしわた剛,いしわた つよし,幸福,,,党発表,,9,3,,栃木県 3区,,,,男性,1969-2-2,48,1969,,,,,,,,,,,,千葉県,敬愛大学経済学部,,"塾経営
+未登録,石渡剛,石渡,剛,いしわた剛,いしわた つよし,幸福,,,党発表,,9,3,,栃木県 3区,,,,男性,1969-2-2,48,1969,,ishiwatatsuyo,,,,,,,,,,千葉県,敬愛大学経済学部,,"塾経営
 自動車販売会社員",,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,,135
 未登録,石谷尚子,石谷,尚子,,,共産,,,,,27,2,,大阪府 2区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,568
 未登録,祖父江元希,祖父江,元希,,,共産,,,,,13,13,,東京都 13区,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録,,,,,,,,246

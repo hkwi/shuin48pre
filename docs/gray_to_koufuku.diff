@@ -13,9 +13,11 @@
      ns1:比例区 "" ;
      ns1:立候補 "党発表" ;
 -    ns1:職歴 "コージャパン(株)" .
+-
+-[] ns1:twitter "ishiwatatsuyo" ;
 +    ns1:職歴 "幸福実現党神奈川第3選挙区支部長" .
- 
- [] ns1:twitter "" ;
++
++[] ns1:twitter "" ;
      ns1:候補名 "いしわた剛" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://ameblo.jp/ishiwata-tsuyoshi/" ;
