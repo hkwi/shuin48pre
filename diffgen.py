@@ -59,7 +59,7 @@ def ttl_out(dbkeys, dbdata, keys, prefer_ez=True):
 				v = v.split("?")[0].lower()
 				m = re.match("https://twitter.com/([^/\?]+)", v)
 				if m:
-					v = re.group(1)
+					v = m.group(1)
 			elif k == "facebook":
 				v = v.replace("https://facebook.com/","https://www.facebook.com/")
 			elif k == "生年月日":
