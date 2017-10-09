@@ -216,7 +216,7 @@
      ns1:立候補 "党発表" ;
 -    ns1:職歴 "医療法人青天会下地内科理事" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 +    ns1:職歴 "幸福実現党沖縄県本部代表（兼）沖縄第1選挙区支部長" .
 +
 +[] ns1:twitter "" ;
@@ -229,8 +229,7 @@
 +
 +[] ns1:twitter "nakaokamaki" ;
      ns1:候補名 "中岡まき" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "https://ameblo.jp/maki-hrp/" ;
+     ns1:公式サイト "https://ameblo.jp/maki-hrp/" ;
      ns1:小選挙区 "東京6区" ;
      ns1:比例区 "" ;
      ns1:立候補 "党発表" ;
