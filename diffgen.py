@@ -12,6 +12,7 @@ key_conv = {
 	"担当":None,
 	"作業予定日":None,
 	"完了日":None,
+	"名前（フル）":"名前",
 	"名（フリガナ）":"メイ",
 	"姓（フリガナ）":"セイ",
 	"Twitterアドレス":"twitter",
@@ -123,7 +124,7 @@ def gray_to_kyousanto():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "共産" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "共産" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -171,7 +172,7 @@ def gray_to_ishin():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "維新" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "維新" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -198,7 +199,7 @@ def gray_to_koumei():
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "公明" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "公明" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -212,7 +213,7 @@ def gray_to_jimin():
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in csv.reader(open("docs/jimin_official.csv")) if "".join(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "自民" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "自民" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -226,7 +227,7 @@ def gray_to_ritsumin():
 	db = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "立民" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "立民" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -240,7 +241,7 @@ def gray_to_koufuku():
 	db = [r+["党発表"] for r in csv.reader(open("docs/koufuku_official.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "幸福" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "幸福" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
@@ -254,7 +255,7 @@ def gray_to_kibou():
 	db = [r+["党発表"] for r in csv.reader(open("docs/kibou_media2.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "希望" in r[gk.index("政党")] or "民進" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if "希望" in r[gk.index("公認政党")] or "民進" in r[gk.index("公認政党")]]
 	
 	keys = set(ks).intersection(set(gk))
 	
