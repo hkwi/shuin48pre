@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,
-進捗率(完了日をカウント)→,14.99%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,14.97%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,name in hiragana,party short name,,,current position,prefecuture code for sort key,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,official site,e-mail,official blog,described at URL,place of birth,biography,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,
 wikdiata_concept,label,alias,P1814,Q7278,,,,Q646425,Q13365595,Q1052894,P3602,P2715,P21,P569,,P2002,P2013,P4003,P554-P553,P2397,P856,P968,P1581,P973,P19,P69,P106,P39,P22,P26,,,,,,,,,
 wikidata,名前,選挙用表記名/別名,かな,政党,推薦,立候補,前回,都道府県,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日
@@ -610,6 +610,7 @@ Q11523193,村岡敏英,,,民進,,,現職,52,比例東北ブロック,,,,男性,1
 Q11523550,村越祐民,,,民進,,,,12,,千葉県 5区,,,男性,1974-02-13,43,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11523550,,,,,,,
 Q11529448,松原聡,松原さとし,まつばら さとし,共産,,,新人,22,,静岡県 4区,,,男性,1954-11-01,62,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11529448,,,,,,,
 Q11533657,柏倉祐司,,,民進,,,,9,,栃木県 1区,,,男性,1969-04-10,48,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11533657,,,,,,,
+Q11534806,柴田巧,しばた巧,しばたたくみ,希望,,党発表,,16,,富山県3区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Q11535033,柿沢未途,,,無所属,,,現職,13,,東京都 15区,,,男性,1971-01-21,46,310kakizawa,https://www.facebook.com/mito.kakizawa,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11535033,,,,,,,
 Q11536382,根本幸典,,,自民,,,現職,23,,愛知県 15区,,,男性,1965-02-21,52,nemotoyukinori,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11536382,,,,,,,
 Q11538822,梶原康弘,,,民進,,,,28,,兵庫県 5区,,,男性,1956-10-14,60,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11538822,,,,,,,
@@ -623,7 +624,7 @@ Q11544282,橘慶一郎,たちばな慶一郎,たちばなけいいちろう,自�
 第46回衆議院議員総選挙,富山3区
 第47回衆議院議員総選挙,富山3区","第45回衆議院議員総選挙,富山3区
 第46回衆議院議員総選挙,富山3区
-第47回衆議院議員総選挙,富山3区",男性,1961-01-23,56,,,https://www.facebook.com/tachibana.keiichirou/,,,http://www.t-k1.net,,,,,東京大学法学部卒,"北海道開発庁
+第47回衆議院議員総選挙,富山3区",男性,1961-01-23,56,,,https://www.facebook.com/tachibana.keiichirou/,,,http://www.t-k1.net,office@t-k1.net,,,富山県,東京大学法学部卒,"北海道開発庁
 伏木海陸運送株式会社",高岡市長(2004年5月～2009年6月),"橘康太郎(元衆議院議員, 元富山県議会議員)",,,https://www.wikidata.org/wiki/Q11544282,https://ja.wikipedia.org/wiki/橘慶一郎,tominari,,,,,
 Q11544691,櫛渕万里,,,民進,,,,13,,東京都 23区,,,女性,1967-10-15,49,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11544691,,,,,,,
 Q11545768,武井俊輔,,,自民,,,現職,45,,宮崎県 1区,,,男性,1975-03-29,42,syunsuke_takei,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11545768,,,,,,,
@@ -932,7 +933,7 @@ Q20041786,中川康洋,,,公明,,,現職,57,比例東海ブロック,,,,男性,1
 Q212400,安住淳,,,民進,,,現職,4,,宮城県 5区,,,男性,1962-01-17,55,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q212400,,,,,,,
 Q21655809,真山祐一,,,公明,,,現職,52,比例東北ブロック,,,,男性,1981-06-04,36,yuichi_mayama,https://www.facebook.com/%E7%9C%9F%E5%B1%B1%E7%A5%90%E4%B8%80-%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-424176007747296/,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q21655809,,,,,,,
 Q21655823,宮路拓馬,,みやじ たくま,自民,,,現職,61,比例九州ブロック,,,,男性,1979-12-6,37,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q21655823,,,,,,,
-Q21655857,吉田豊史,,よしだ とよふみ,維新,,党発表,現職,16,北信越ブロック,富山県1区,"第46回衆議院議員総選挙,富山1区
+Q21655857,吉田豊史,吉田豊史,よしだ とよふみ,維新,,党発表,現職,16,北信越ブロック,富山県1区,"第46回衆議院議員総選挙,富山1区
 第47回衆議院議員総選挙,富山1区","第47回衆議院議員総選挙,比例,北信越ブロック",男性,1970-04-10,47,toyo23office,,,,,http://toyo23.net/,,,,富山県,早稲田大学法学部法学科,自営業,,吉田良三(元富山県議会議員),,,https://www.wikidata.org/wiki/Q21655857,https://ja.wikipedia.org/wiki/%E5%90%89%E7%94%B0%E8%B1%8A%E5%8F%B2,tominari,,,,,
 Q21703015,吉田宣弘,,よしだ のぶひろ,公明,,,現職,61,比例九州ブロック,,第47回衆議院議員総選挙(比例九州ブロック),第47回衆議院議員総選挙(比例九州ブロック),男性,1967-12-8,49,,,,,,http://komei-kyushu.net/yoshida/,,,,荒尾市,"熊本県立玉名高等学校
 九州大学法学部","大牟田市役所
@@ -1380,9 +1381,9 @@ HS政経塾",(株)キーエンス,,,,,https://www.wikidata.org/wiki/未登録,,h
 鹿児島大学教育学部音楽科",教員,,,,生年以下は不明,https://www.wikidata.org/wiki/未登録,,higa4,10/8,10/8,,,
 未登録,野村昌央,,のむら まさてる,幸福,,党発表,,34,,広島県 3区,,,男性,1982-8-2,35,,,,,,,,,,広島県,"広島国際大学医療福祉学部
 HS政経塾",,,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,
-未登録,金城竜郎,,きんじょう たつろう,幸福,,党発表,新人,47,,沖縄県 3区,,,男性,1964-5-7,53,,,,,,,,,,沖縄県,沖縄国際大学文学部,沖縄気象台,,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,
+未登録,金城竜郎,金城タツロー,きんじょう たつろう,幸福,,党発表,新人,47,,沖縄県 3区,,,男性,1964-5-7,53,,,,,,,,,,沖縄県,沖縄国際大学文学部,沖縄気象台,,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,
 未登録,関根静香,せきねしずか,せきね しずか,共産,,,,43,,熊本県 3区,,,女性,1990-1-1,27,,,,,,,,,,,,保育士,,,,年齢(27)のみ公開,https://www.wikidata.org/wiki/未登録,,higa4,10/8,10/8,,,
-未登録,飯田剛,,いいだ たけし,幸福,,党発表,,11,,埼玉県 3区,,,男性,1959-7-13,58,,,,,,,,,,東京都,東京都立大学経済学部,会社役員,,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,
+未登録,飯田剛,飯田たけし,いいだ たけし,幸福,,党発表,,11,,埼玉県 3区,,,男性,1959-7-13,58,,,,,,,,,,東京都,東京都立大学経済学部,会社役員,,,,,https://www.wikidata.org/wiki/未登録,,higa4,10/7,10/7,,,
 未登録,鬼木誠,,おにき まこと,自民,,,現職,40,,福岡県 2区,,,男性,1972-10-16,44,,https://www.facebook.com/onikidon,https://www.facebook.com/office.onikidon/,https://line.me/R/ti/p/%40yrc4090i,,https://www.onikidon.com/,,,https://www.onikidon.com/prof.html,福岡県,九州大学法学部,西日本銀行,福岡県議会議員,,,,https://www.wikidata.org/wiki/未登録,,keisuke,10/8,10/8,,,
 未登録,黒木万治,,くろき まんじ,共産,,党発表,新人,45,,宮崎県 2区,,,男性,1948-1-1,69,,,,,,,,,http://www.jcp.or.jp/web_senkyo/cat1/index_7.html,,,,日向市議会議員,,,年齢(69)のみ公開,https://www.wikidata.org/wiki/未登録,,,,,,,
 未登録→登録しない,大塚光義,,,共産,,取り下げ,,44,,大分県 3区,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/未登録→登録しない,,higa4,10/8,10/8,,,
