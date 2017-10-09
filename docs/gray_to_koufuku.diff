@@ -5,7 +5,7 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
 -[] ns1:twitter "" ;
-+[] ns1:twitter "https://twitter.com/ikiaiko" ;
++[] ns1:twitter "ikiaiko" ;
      ns1:候補名 "いき愛子" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/ikiaiko/" ;
@@ -28,7 +28,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党栃木第3選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/egasiratosimitu" ;
++[] ns1:twitter "egasiratosimitu" ;
 +    ns1:候補名 "えがしら俊満" ;
 +    ns1:公式サイト "http://blogs.yahoo.co.jp/tosimitu1962/MYBLOG/yblog.html" ;
 +    ns1:小選挙区 "" ;
@@ -44,7 +44,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党京都第4選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/miwako_hrp" ;
++[] ns1:twitter "miwako_hrp" ;
      ns1:候補名 "かわい美和子" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/kawaimiwako/" ;
@@ -57,7 +57,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党山口第1選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/kawabekenichi" ;
++[] ns1:twitter "kawabekenichi" ;
      ns1:候補名 "かわべ賢一" ;
      ns1:公式サイト "" ;
      ns1:小選挙区 "茨城1区" ;
@@ -69,7 +69,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党茨城県本部代表(兼)茨城第1選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/hrpkonoichiro" ;
++[] ns1:twitter "hrpkonoichiro" ;
      ns1:候補名 "こうの一郎" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/konoichiro" ;
@@ -78,7 +78,7 @@
      ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党宮崎第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/ryotashirotori" ;
++[] ns1:twitter "ryotashirotori" ;
 +    ns1:候補名 "しろとり良太" ;
 +    ns1:公式サイト "http://ameblo.jp/shirotori-ryota/" ;
 +    ns1:小選挙区 "山形3区" ;
@@ -86,7 +86,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党山形県本部代表(兼)山形県第3支部長" .
 +
-+[] ns1:twitter "https://twitter.com/mihotanii" ;
++[] ns1:twitter "mihotanii" ;
 +    ns1:候補名 "せいいみほ" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "東京14区" ;
@@ -94,7 +94,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党東京第14選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/tanabe_yuji" ;
++[] ns1:twitter "tanabe_yuji" ;
 +    ns1:候補名 "たなべ雄治" ;
 +    ns1:公式サイト "http://ameblo.jp/tanabe-yuji/" ;
 +    ns1:小選挙区 "岡山2区" ;
@@ -102,7 +102,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党岡山県本部代表（兼）岡山第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/ainishiwaki" ;
++[] ns1:twitter "ainishiwaki" ;
 +    ns1:候補名 "にしわき愛" ;
 +    ns1:公式サイト "http://ameblo.jp/ai-nishiwaki/" ;
 +    ns1:小選挙区 "山梨1区" ;
@@ -160,7 +160,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "近畿比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/satoshimiyamoto" ;
++[] ns1:twitter "satoshimiyamoto" ;
 +    ns1:候補名 "みやもとさとし" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "石川2区" ;
@@ -168,7 +168,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党石川県本部代表代行（兼）石川県第2支部長" .
 +
-+[] ns1:twitter "https://twitter.com/@yanaihissho" ;
++[] ns1:twitter "@yanaihissho" ;
 +    ns1:候補名 "やない筆勝" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -176,7 +176,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党総務会長（兼）出版局長" .
 +
-+[] ns1:twitter "https://twitter.com/yoshitomi_kazue" ;
++[] ns1:twitter "yoshitomi_kazue" ;
 +    ns1:候補名 "よしとみ和枝" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -184,7 +184,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/hiroko_nanami" ;
++[] ns1:twitter "hiroko_nanami" ;
 +    ns1:候補名 "七海ひろこ" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -192,7 +192,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党財務局長" .
 +
-+[] ns1:twitter "https://twitter.com/mikuni_yuki" ;
++[] ns1:twitter "mikuni_yuki" ;
 +    ns1:候補名 "三国ゆうき" ;
 +    ns1:公式サイト "http://ameblo.jp/mikuniyuki/" ;
      ns1:小選挙区 "青森3区" ;
@@ -203,7 +203,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党青森第4選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/xdauib5hhmwisqv" ;
++[] ns1:twitter "xdauib5hhmwisqv" ;
      ns1:候補名 "上田あつこ" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/uedaatsuko" ;
@@ -217,7 +217,7 @@
 -    ns1:公式サイト "" ;
 +    ns1:職歴 "幸福実現党大分第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/reikoshimoji" ;
++[] ns1:twitter "reikoshimoji" ;
 +    ns1:候補名 "下地れいこ" ;
 +    ns1:公式サイト "http://shimojireiko.ti-da.net/" ;
      ns1:小選挙区 "沖縄1区" ;
@@ -236,7 +236,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "南関東比例ブロック副支部長、幸福の科学伊勢原支部長" .
 +
-+[] ns1:twitter "https://twitter.com/nakaokamaki" ;
++[] ns1:twitter "nakaokamaki" ;
      ns1:候補名 "中岡まき" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://ameblo.jp/maki-hrp/" ;
@@ -248,7 +248,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党東京第6選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/toru_nakashima_" ;
++[] ns1:twitter "toru_nakashima_" ;
      ns1:候補名 "中島とおる" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/nakashimatoru" ;
@@ -269,7 +269,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "北海道比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/nakanehiromi" ;
++[] ns1:twitter "nakanehiromi" ;
 +    ns1:候補名 "中根ひろみ" ;
 +    ns1:公式サイト "http://nakanehiromi.blog.fc2.com/" ;
 +    ns1:小選挙区 "" ;
@@ -309,7 +309,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/asebora" ;
++[] ns1:twitter "asebora" ;
 +    ns1:候補名 "加納有輝彦" ;
 +    ns1:公式サイト "http://ameblo.jp/papadad" ;
 +    ns1:小選挙区 "" ;
@@ -365,7 +365,7 @@
 -    ns1:公式サイト "" ;
 +    ns1:職歴 "幸福実現党外務局長幸福実現党長野県本部代表（兼）長野第3選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/yuzofurukawa" ;
++[] ns1:twitter "yuzofurukawa" ;
 +    ns1:候補名 "古川ゆうぞう" ;
 +    ns1:公式サイト "http://ameblo.jp/yuzo0617/" ;
 +    ns1:小選挙区 "" ;
@@ -373,7 +373,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "南関東比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/toshi_yoshii777" ;
++[] ns1:twitter "toshi_yoshii777" ;
 +    ns1:候補名 "吉井としみつ" ;
 +    ns1:公式サイト "http://ameblo.jp/toshi-yoshii777/" ;
      ns1:小選挙区 "東京10区" ;
@@ -402,7 +402,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党青年局長（兼）選対委員長代理（兼）中国比例ブロック支部長" .
 +
-+[] ns1:twitter "https://twitter.com/maki1868/with_replies" ;
++[] ns1:twitter "maki1868" ;
 +    ns1:候補名 "坂本マキ" ;
 +    ns1:公式サイト "http://sakamotomakii.blog.fc2.com/" ;
      ns1:小選挙区 "三重3区" ;
@@ -431,7 +431,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党東京都本部幹事長" .
 +
-+[] ns1:twitter "https://twitter.com/_tomikawa" ;
++[] ns1:twitter "_tomikawa" ;
 +    ns1:候補名 "富川やすまさ" ;
 +    ns1:公式サイト "https://ameblo.jp/tomikawa-yasumasa/" ;
      ns1:小選挙区 "沖縄4区" ;
@@ -452,7 +452,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/kojimaichiro" ;
++[] ns1:twitter "kojimaichiro" ;
 +    ns1:候補名 "小島一郎" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -460,7 +460,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党総務会部長(兼)北関東比例ブロック支部長" .
 +
-+[] ns1:twitter "https://twitter.com/kazumokeigo" ;
++[] ns1:twitter "kazumokeigo" ;
 +    ns1:候補名 "数森けいご" ;
 +    ns1:公式サイト "http://ameblo.jp/nfk-go/" ;
      ns1:小選挙区 "大阪5区" ;
@@ -516,7 +516,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党党首特別補佐（兼）東海比例ブロック支部長" .
 +
-+[] ns1:twitter "https://twitter.com/yosshiimoriyama" ;
++[] ns1:twitter "yosshiimoriyama" ;
 +    ns1:候補名 "森山よしのり" ;
 +    ns1:公式サイト "http://moriyama-yoshinori-hrp.blogspot.jp/" ;
      ns1:小選挙区 "北海道5区" ;
@@ -546,7 +546,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "北関東比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/yoshio7_m" ;
++[] ns1:twitter "yoshio7_m" ;
      ns1:候補名 "水野善丈" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://ameblo.jp/mizumizu-yoshi/" ;
@@ -558,7 +558,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党広島県本部代表代行（兼）広島第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/enatsumasatoshi" ;
++[] ns1:twitter "enatsumasatoshi" ;
 +    ns1:候補名 "江夏正敏" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -566,7 +566,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党政務調査会長（兼）HS政経塾塾長（兼）九州比例ブロック支部長" .
 +
-+[] ns1:twitter "https://twitter.com/yuitetsushi" ;
++[] ns1:twitter "yuitetsushi" ;
      ns1:候補名 "油井哲史" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/tetsushiyui/" ;
@@ -629,7 +629,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "東北比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/realjimmu_hrp" ;
++[] ns1:twitter "realjimmu_hrp" ;
 +    ns1:候補名 "神武桜子" ;
 +    ns1:公式サイト "" ;
 +    ns1:小選挙区 "" ;
@@ -637,7 +637,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党副党首(兼)広報本部長" .
 +
-+[] ns1:twitter "https://twitter.com/seitikawashima" ;
++[] ns1:twitter "seitikawashima" ;
 +    ns1:候補名 "福山まさとし" ;
 +    ns1:公式サイト "http://ameblo.jp/ma-fukuyama/" ;
      ns1:小選挙区 "徳島2区" ;
@@ -648,7 +648,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党徳島県本部代表代行（兼）徳島第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/kasahara_reika" ;
++[] ns1:twitter "kasahara_reika" ;
      ns1:候補名 "笠原れいか" ;
      ns1:公式サイト "" ;
      ns1:小選挙区 "新潟5区" ;
@@ -667,7 +667,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党新潟第5選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/mkynet1975" ;
++[] ns1:twitter "mkynet1975" ;
      ns1:候補名 "荒川まさし" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://ameblo.jp/kerykeion777/" ;
@@ -679,7 +679,7 @@
 -[] ns1:twitter "" ;
 +    ns1:職歴 "幸福実現党滋賀第2選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/nishihara_tada" ;
++[] ns1:twitter "nishihara_tada" ;
      ns1:候補名 "西原ただひろ" ;
      ns1:公式サイト "" ;
      ns1:小選挙区 "福岡6区" ;
@@ -706,7 +706,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党和歌山県本部代表（兼）近畿比例ブロック副支部長" .
 +
-+[] ns1:twitter "https://twitter.com/shakuryoko" ;
++[] ns1:twitter "shakuryoko" ;
 +    ns1:候補名 "釈量子" ;
 +    ns1:公式サイト "http://shaku-ryoko.net/" ;
 +    ns1:小選挙区 "" ;
@@ -722,7 +722,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党北海道本部代表(兼)北海道比例ブロック支部長" .
 +
-+[] ns1:twitter "https://twitter.com/nomuramasateru" ;
++[] ns1:twitter "nomuramasateru" ;
      ns1:候補名 "野村昌央" ;
      ns1:公式サイト "" ;
      ns1:小選挙区 "広島3区" ;
@@ -735,7 +735,7 @@
 -    ns1:公式サイト "" ;
 +    ns1:職歴 "幸福実現党広島第3選挙区支部長" .
 +
-+[] ns1:twitter "https://twitter.com/kinjou_tatsurou" ;
++[] ns1:twitter "kinjou_tatsurou" ;
 +    ns1:候補名 "金城タツロー" ;
 +    ns1:公式サイト "http://ishin0507.ti-da.net/" ;
      ns1:小選挙区 "沖縄3区" ;
