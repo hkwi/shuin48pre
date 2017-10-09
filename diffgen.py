@@ -74,6 +74,11 @@ def ttl_out(dbkeys, dbdata, keys):
 				m = re.match("^(比例)?(.*?)(ブロック)?$", v)
 				if m:
 					v = m.group(2)
+			elif k == "前回":
+				if v in ("現職", "現"):
+					v = "前"
+			else:
+				v = re.sub("[　 ]+", "", v)
 			
 			if k in keys:
 				objs = list(g.objects(e, EX[k]))
@@ -107,7 +112,7 @@ def gray_to_seijinavi():
 	open("docs/gray_to_seijinavi.diff", "w").writelines(lines)
 
 def gray_to_kyousanto():
-	ks = ["名前",None,"候補名","姓","名","せい","めい","年齢",
+	ks = ["候補名",None,"名前","姓","名","せい","めい","年齢",
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
 	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
