@@ -237,7 +237,7 @@ def gray_to_ritsumin():
 	open("docs/gray_to_ritsumin.diff", "w").writelines(lines)
 
 def gray_to_koufuku():
-	ks = ["候補名",None]+"よみ 小選挙区 比例区 facebook twitter 公式サイト 職歴 立候補".split()
+	ks = ["候補名",None]+"よみ 小選挙区 比例区 facebook twitter 公式ブログ 職歴 立候補".split()
 	db = [r+["党発表"] for r in csv.reader(open("docs/koufuku_official.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
