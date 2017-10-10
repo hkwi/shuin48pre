@@ -8517,7 +8517,7 @@
 -
 -[] ns1:twitter "ikunotennohji" ;
 -    ns1:候補名 "しば山のぼる" ;
--    ns1:公式サイト "https://www.twitter.com/ikunotennohji" ;
+-    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "柴山昇" ;
 -    ns1:小選挙区 "大阪1区" ;
@@ -9109,7 +9109,7 @@
 -    ns1:年齢 "62" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "不破弘樹" ;
 -    ns1:公式サイト "http://www.minshin-fuwa.com/" ;
 -    ns1:前回 "" ;
@@ -10533,7 +10533,7 @@
 -    ns1:年齢 "45" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "y0shida0samu" ;
 -    ns1:候補名 "吉田治" ;
 -    ns1:公式サイト "http://www.y-osamu.com/" ;
 -    ns1:前回 "" ;
@@ -11804,7 +11804,7 @@
 -    ns1:年齢 "65" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "小渕優子" ;
 -    ns1:公式サイト "http://www.obuchiyuko.com/" ;
 -    ns1:前回 "前" ;
@@ -11912,7 +11912,7 @@
 -    ns1:年齢 "56" ;
 -    ns1:比例区 "北関東" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "otsujikanako" ;
 -    ns1:候補名 "尾辻かな子" ;
 -    ns1:公式サイト "http://www.otsuji-k.com/" ;
 -    ns1:前回 "" ;
@@ -15373,7 +15373,7 @@
 -
 -[] ns1:twitter "tatsuofukuda" ;
 -    ns1:候補名 "福田達夫" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://tatsuo-f.jp/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "福田達夫" ;
 -    ns1:小選挙区 "群馬4区" ;
@@ -17809,9 +17809,9 @@
 -    ns1:年齢 "58" ;
 -    ns1:比例区 "東北" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "高橋宣之" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "-" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "高橋宣之" ;
 -    ns1:小選挙区 "群馬5区" ;
