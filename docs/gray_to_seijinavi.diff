@@ -2554,6 +2554,12 @@
 -    ns1:名前 "島津幸広" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1956-10-19" .
+-
+-[] ns1:twitter "sugawitter" ;
+-    ns1:wikidata "Q122465" ;
+-    ns1:名前 "菅義偉" ;
+-    ns1:性別 "男性" ;
+-    ns1:生年月日 "1948-12-06" .
 +[] ns1:twitter "ichiroaisawa" ;
 +    ns1:wikidata "Q467453" ;
 +    ns1:名前 "逢沢一郎" ;
@@ -5069,12 +5075,6 @@
 -    ns1:名前 "菅直人" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1946-10-10" .
--
--[] ns1:twitter "sugawitter" ;
--    ns1:wikidata "Q122465" ;
--    ns1:名前 "菅義偉" ;
--    ns1:性別 "男性" ;
--    ns1:生年月日 "1948-12-06" .
 -
 -[] ns1:twitter "kikuta_official" ;
 -    ns1:wikidata "Q6739516" ;

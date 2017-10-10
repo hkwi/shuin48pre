@@ -8683,6 +8683,15 @@
 -    ns1:年齢 "40" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "sugawitter" ;
+-    ns1:候補名 "すが義偉" ;
+-    ns1:公式サイト "http://www.sugayoshihide.gr.jp/" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "菅義偉" ;
+-    ns1:小選挙区 "神奈川2区" ;
+-    ns1:年齢 "68" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:twitter "mihotanii" ;
 -    ns1:候補名 "せいいみほ" ;
 -    ns1:公式サイト "http://seii-miho.net/" ;
@@ -16004,15 +16013,6 @@
 -    ns1:名前 "菅直人" ;
 -    ns1:小選挙区 "東京18区" ;
 -    ns1:年齢 "71" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "sugawitter" ;
--    ns1:候補名 "菅義偉" ;
--    ns1:公式サイト "http://www.sugayoshihide.gr.jp/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "菅義偉" ;
--    ns1:小選挙区 "神奈川2区" ;
--    ns1:年齢 "68" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
