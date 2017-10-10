@@ -9271,13 +9271,13 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "kazuma_nakatani" ;
 -    ns1:候補名 "中谷一馬" ;
--    ns1:公式サイト "http://kazumanakatani.com/home" ;
+-    ns1:公式サイト "http://kazumanakatani.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "中谷一馬" ;
 -    ns1:小選挙区 "神奈川7区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "34" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -14561,7 +14561,7 @@
 -    ns1:年齢 "54" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "gemmakentaro" ;
 -    ns1:候補名 "源馬謙太郎" ;
 -    ns1:公式サイト "http://gemma-kentaro.com/" ;
 -    ns1:前回 "" ;
