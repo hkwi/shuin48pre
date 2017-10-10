@@ -12225,9 +12225,9 @@
 -    ns1:年齢 "60" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "jcptokyo10" ;
 -    ns1:候補名 "岸良信" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://senkyo.jcp-tokyo.net/kishi/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "岸良信" ;
 -    ns1:小選挙区 "東京10区" ;

@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,
-進捗率(完了日をカウント)→,28.72%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,28.82%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,
@@ -757,7 +757,7 @@ Q41768440,石川香織,石川,香織,,いしかわ かおり,立民,,"無所属
 民進党",報道発表,,,,1,11,,北海道 11区,,,女性,1984-1-1,33,1984,,,,,,,,,,,,,,,元アナウンサー,,,石川知裕,"https://www.nikkei.com/article/DGXMZO21841230T01C17A0PP8000/
 年齢(33)のみ公開",https://www.wikidata.org/wiki/Q41768440,,Yfuruchin,10/7,10/7,,,,5
 Q41769795,鈴木庸介,鈴木,庸介,,,立民,,,,,,,13,10,,東京都 10区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769795,,,,,,,,240
-Q41769890,岸良信,岸,良信,,きし よしのぶ,共産,,,,,,,13,10,,東京都 10区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769890,,,,,,,,237
+Q41769890,岸良信,岸,良信,,きし よしのぶ,共産,,,,,,,13,10,,東京都 10区,,,男性,,,1955,,jcptokyo10,-,岸良信-衆院東京10区日本共産党予定候補-472646869788614,,,,http://senkyo.jcp-tokyo.net/kishi/,,http://senkyo.jcp-tokyo.net/kishi/blog/,http://senkyo.jcp-tokyo.net/kishi/policy/,群馬県,,東京都立大学,,,,,,https://www.wikidata.org/wiki/Q41769890,,,,10/9,,,,237
 Q41769891,吉井利光,吉井,利光,,よしい としみつ,幸福,,,党発表,,,,13,10,,東京都 10区,,,男性,1982-7-30,35,1982,,,,,,,,,,,,東京都,"慶應義塾大学理工学部
 ",HS政経塾,,,,,,https://www.wikidata.org/wiki/Q41769891,,higa4,10/7,10/7,,,,239
 Q41769946,小堤東,小堤,東,,こづつみ あづま,共産,,,,,,,13,11,,東京都 11区,,,,,,,,azua_und_f,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769946,,,,,,,,241
