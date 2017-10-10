@@ -80,7 +80,7 @@
      ns1:比例区 "東海" .
  
 -[] ns1:twitter "" ;
-+[] ns1:twitter "https://www.facebook.com/koshimizu.keiichi/" ;
++[] ns1:twitter "koshimizu_k1" ;
      ns1:候補名 "輿水恵一" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北関東" .
