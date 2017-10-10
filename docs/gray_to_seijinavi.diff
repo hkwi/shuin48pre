@@ -2488,6 +2488,12 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1959-06-14" .
 -
+-[] ns1:twitter "saitokazuko" ;
+-    ns1:wikidata "Q18817567" ;
+-    ns1:名前 "斉藤和子" ;
+-    ns1:性別 "女性" ;
+-    ns1:生年月日 "1974-09-29" .
+-
 -[] ns1:twitter "sasaki_stop_tpp" ;
 -    ns1:wikidata "Q7677066" ;
 -    ns1:名前 "佐々木隆博" ;
@@ -2500,7 +2506,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1966-07-04" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "u_simazu" ;
 -    ns1:wikidata "Q18817650" ;
 -    ns1:名前 "島津幸広" ;
 -    ns1:性別 "男性" ;
@@ -3795,12 +3801,6 @@
 -    ns1:名前 "志位和夫" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1954-07-29" .
--
--[] ns1:twitter "saitokazuko" ;
--    ns1:wikidata "Q18817567" ;
--    ns1:名前 "斉藤和子" ;
--    ns1:性別 "女性" ;
--    ns1:生年月日 "1974-09-29" .
 -
 -[] ns1:twitter "saitotetsuo" ;
 -    ns1:wikidata "Q926287" ;
