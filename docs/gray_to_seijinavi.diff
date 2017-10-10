@@ -2722,7 +2722,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1971-10-25" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "shinrai_seiji" ;
 -    ns1:wikidata "Q7497583" ;
 -    ns1:名前 "井上信治" ;
 -    ns1:性別 "男性" ;
@@ -4747,7 +4747,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1983-08-02" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "fujinofujinooo" ;
 -    ns1:wikidata "Q18818065" ;
 -    ns1:名前 "藤野保史" ;
 -    ns1:性別 "男性" ;
