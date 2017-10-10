@@ -5,6 +5,7 @@ import shuin48pre.ishin_official
 import shuin48pre.koumei_official
 import shuin48pre.koumei_official_hirei
 import shuin48pre.koufuku_official
+import shuin48pre.asahi
 
 def test_jobs():
 	def wrap():
@@ -50,6 +51,13 @@ def test_jobs():
 	th7 = threading.Thread(target=wrap7)
 	th7.start()
 	
+	def wrap8():
+		with open("docs/asahi.csv", "w") as fp:
+			shuin48pre.asahi.run(fp)
+	
+	th8 = threading.Thread(target=wrap8)
+	th8.start()
+	
 	th.join()
 	th2.join()
 	th3.join()
@@ -57,3 +65,4 @@ def test_jobs():
 	th5.join()
 	th6.join()
 	th7.join()
+	th8.join()
