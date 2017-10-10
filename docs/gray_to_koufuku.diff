@@ -21,7 +21,7 @@
  
  [] ns1:twitter "egasiratosimitu" ;
      ns1:候補名 "えがしら俊満" ;
-@@ -27,16 +26,23 @@
+@@ -27,7 +26,15 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" ;
      ns1:立候補 "党発表" ;
@@ -38,8 +38,7 @@
  
  [] ns1:twitter "miwako_hrp" ;
      ns1:候補名 "かわい美和子" ;
--    ns1:公式ブログ "https://ameblo.jp/cokucoku2525/" ;
-+    ns1:公式ブログ "http://ameblo.jp/kawaimiwako/" ;
+@@ -35,8 +42,7 @@
      ns1:小選挙区 "山口1区" ;
      ns1:比例区 "" ;
      ns1:立候補 "党発表" ;
@@ -49,7 +48,7 @@
  
  [] ns1:twitter "kawabekenichi" ;
      ns1:候補名 "かわべ賢一" ;
-@@ -44,24 +50,23 @@
+@@ -44,8 +50,7 @@
      ns1:小選挙区 "茨城1区" ;
      ns1:比例区 "" ;
      ns1:立候補 "党発表" ;
@@ -59,8 +58,7 @@
  
  [] ns1:twitter "hrpkonoichiro" ;
      ns1:候補名 "こうの一郎" ;
--    ns1:公式ブログ "" ;
-+    ns1:公式ブログ "http://ameblo.jp/konoichiro" ;
+@@ -53,15 +58,15 @@
      ns1:小選挙区 "宮崎2区" ;
      ns1:比例区 "" ;
      ns1:立候補 "党発表" ;
