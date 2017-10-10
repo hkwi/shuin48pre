@@ -5567,11 +5567,17 @@
  
  [] ns1:twitter "taro_aso_" ;
      ns1:wikidata "Q132596" ;
-@@ -2805,7 +2826,7 @@
+@@ -2799,7 +2820,13 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1953-10-14" .
+     ns1:生年月日 "1970-10-13" .
  
 -[] ns1:twitter "kuroiwatakahir1" ;
++[] ns1:twitter "" ;
++    ns1:wikidata "Q7827415" ;
++    ns1:名前 "黄川田徹" ;
++    ns1:性別 "男性" ;
++    ns1:生年月日 "1953-10-14" .
++
 +[] ns1:twitter "" ;
      ns1:wikidata "Q11678114" ;
      ns1:名前 "黒岩宇洋" ;
