@@ -12,7 +12,10 @@ targets = {
 	"gdoc_seiji_navi.csv":"1T6BhIk_TU9KAOmBou8buvMkj_yK4c72jcJMGMOFUAg0",
 }
 for fn,sh in targets.items():
-	s = gs.open_by_key(sh)
-	rows = s.sheet1.get_all_values()
-	skip = [r[0] for r in rows].index("wikidata")+1
-	csv.writer(open("docs/%s" % fn, "w")).writerows(rows[:skip]+sorted(rows[skip:]))
+	ss = gs.open_by_key(sh)
+	for sh in ss.worksheets():
+		rows = sh.get_all_values()
+		wd = [j for j,r in enumerate(rows) if "wikidta" in r]
+		if wd:
+			skip = wd[0]
+			csv.writer(open("docs/%s" % fn, "w")).writerows(rows[:skip]+sorted(rows[skip:]))
