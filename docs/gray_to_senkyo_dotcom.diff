@@ -9551,7 +9551,7 @@
 -
 -[] ns1:twitter "itomasaki" ;
 -    ns1:候補名 "伊藤正樹" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://itomasaki.com/ma/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "伊藤正樹" ;
 -    ns1:小選挙区 "東京17区" ;
@@ -12729,13 +12729,13 @@
 -    ns1:年齢 "50" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "v_a" ;
+-[] ns1:twitter "over_wash" ;
 -    ns1:候補名 "新井杉生" ;
 -    ns1:公式サイト "http://overwash.blog7.fc2.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "新井杉生" ;
 -    ns1:小選挙区 "東京17区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "58" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
