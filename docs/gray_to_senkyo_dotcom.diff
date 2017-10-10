@@ -9081,7 +9081,7 @@
 -    ns1:年齢 "55" ;
 -    ns1:比例区 "東海" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "h_nakatsugawa" ;
 -    ns1:候補名 "中津川博郷" ;
 -    ns1:公式サイト "http://www.naktsugawa.net/" ;
 -    ns1:前回 "" ;
@@ -10315,7 +10315,7 @@
 -    ns1:年齢 "49" ;
 -    ns1:比例区 "九州" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "yoshida_toshio" ;
 -    ns1:候補名 "吉田年男" ;
 -    ns1:公式サイト "http://www.koto-minpo.jp/jcp-yoshidatoshio/" ;
 -    ns1:前回 "" ;
@@ -10999,7 +10999,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "大西英男" ;
 -    ns1:公式サイト "http://www.onishi-hideo.com/" ;
 -    ns1:前回 "前" ;
@@ -14577,13 +14577,13 @@
 -    ns1:年齢 "59" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "-" ;
 -    ns1:候補名 "猪野隆" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.inoko.biz/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "猪野隆" ;
 -    ns1:小選挙区 "東京15区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "52" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -16116,13 +16116,13 @@
 -    ns1:年齢 "63" ;
 -    ns1:比例区 "九州" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "miyamashinji" ;
 -    ns1:候補名 "見山伸路" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://miyamashinji.jp/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "見山伸路" ;
 -    ns1:小選挙区 "東京15区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "37" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;

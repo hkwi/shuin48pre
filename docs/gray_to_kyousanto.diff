@@ -976,7 +976,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "yoshida_toshio" ;
 -    ns1:候補名 "吉田年男" ;
 -    ns1:前回 "" ;
 +    ns1:年齢 "35" ;
