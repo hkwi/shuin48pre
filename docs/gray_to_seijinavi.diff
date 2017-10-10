@@ -2830,7 +2830,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1969-11-13" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tatsuyaito0501" ;
 -    ns1:wikidata "Q614476" ;
 -    ns1:名前 "伊藤達也" ;
 -    ns1:性別 "男性" ;
