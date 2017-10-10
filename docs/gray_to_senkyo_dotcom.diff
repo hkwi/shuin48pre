@@ -11000,7 +11000,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "aaa_a" ;
+-[] ns1:twitter "wataame_hare" ;
 -    ns1:候補名 "大西航" ;
 -    ns1:公式サイト "http://www.facebook.com/wataame.hare" ;
 -    ns1:前回 "" ;
@@ -11063,7 +11063,7 @@
 -    ns1:年齢 "48" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "kdnka" ;
+-[] ns1:twitter "koredeiinoka" ;
 -    ns1:候補名 "大野隆" ;
 -    ns1:公式サイト "http://korede.iinoka.net/" ;
 -    ns1:前回 "" ;
@@ -11226,7 +11226,7 @@
 -    ns1:年齢 "59" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "gnyau1982" ;
+-[] ns1:twitter "genmiyauchi1982" ;
 -    ns1:候補名 "宮内現" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -11325,7 +11325,7 @@
 -    ns1:年齢 "57" ;
 -    ns1:比例区 "近畿" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "miyamototooru" ;
 -    ns1:候補名 "宮本徹" ;
 -    ns1:公式サイト "http://www7.ocn.ne.jp/~miyamoto/" ;
 -    ns1:前回 "前" ;
@@ -11713,7 +11713,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "kganzaayuka" ;
+-[] ns1:twitter "koganezawayuka" ;
 -    ns1:候補名 "小金沢由佳" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -11983,7 +11983,7 @@
 -    ns1:年齢 "45" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "yaa0102" ;
+-[] ns1:twitter "yamachi0102" ;
 -    ns1:候補名 "山本千代子" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -12271,7 +12271,7 @@
 -    ns1:年齢 "47" ;
 -    ns1:比例区 "東海" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "sima_omi" ;
 -    ns1:候補名 "島﨑保臣" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -13468,7 +13468,7 @@
 -    ns1:年齢 "51" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "baka_yua" ;
+-[] ns1:twitter "shibaoka_yuma" ;
 -    ns1:候補名 "柴岡祐真" ;
 -    ns1:公式サイト "http://www.shibaoka-yuma.jp/" ;
 -    ns1:前回 "" ;
@@ -14326,6 +14326,15 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "tadashishimizu" ;
+-    ns1:候補名 "清水ただし" ;
+-    ns1:公式サイト "http://www.shimizu-tadashi.jp/" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "清水忠史" ;
+-    ns1:小選挙区 "" ;
+-    ns1:年齢 "49" ;
+-    ns1:比例区 "近畿" .
+-
 -[] ns1:twitter "-" ;
 -    ns1:候補名 "清水啓史" ;
 -    ns1:公式サイト "http://www.shimizuhiroshi.com/" ;
@@ -14334,15 +14343,6 @@
 -    ns1:小選挙区 "東京14区" ;
 -    ns1:年齢 "42" ;
 -    ns1:比例区 "" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "清水忠史" ;
--    ns1:公式サイト "http://www.shimizu-tadashi.jp/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "清水忠史" ;
--    ns1:小選挙区 "" ;
--    ns1:年齢 "49" ;
--    ns1:比例区 "近畿" .
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "清水貞子" ;
@@ -15253,8 +15253,8 @@
 -    ns1:年齢 "64" ;
 -    ns1:比例区 "四国" .
 -
--[] ns1:twitter "fukuzu" ;
--    ns1:候補名 "福住英行" ;
+-[] ns1:twitter "fukuzumih" ;
+-    ns1:候補名 "福住ひでゆき" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "福住英行" ;
@@ -15676,6 +15676,15 @@
 -    ns1:年齢 "56" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "wakayasu1985" ;
+-    ns1:候補名 "若林やすひさ" ;
+-    ns1:公式サイト "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "若林靖久" ;
+-    ns1:小選挙区 "神奈川7区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:twitter "" ;
 -    ns1:候補名 "若林健太" ;
 -    ns1:公式サイト "" ;
@@ -15684,15 +15693,6 @@
 -    ns1:小選挙区 "" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "北陸信越" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "若林靖久" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "" ;
--    ns1:名前 "若林靖久" ;
--    ns1:小選挙区 "神奈川7区" ;
--    ns1:年齢 "" ;
--    ns1:比例区 "" .
 -
 -[] ns1:twitter "-" ;
 -    ns1:候補名 "若狭勝" ;
@@ -15910,21 +15910,21 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "fupo_cgsm" ;
+-    ns1:候補名 "藤本ゆり" ;
+-    ns1:公式サイト "" ;
+-    ns1:前回 "" ;
+-    ns1:名前 "藤本友里" ;
+-    ns1:小選挙区 "秋田2区" ;
+-    ns1:年齢 "" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:twitter "1218fuji" ;
 -    ns1:候補名 "藤本一規" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "藤本一規" ;
 -    ns1:小選挙区 "山口3区" ;
--    ns1:年齢 "" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "fu_g" ;
--    ns1:候補名 "藤本友里" ;
--    ns1:公式サイト "" ;
--    ns1:前回 "" ;
--    ns1:名前 "藤本友里" ;
--    ns1:小選挙区 "秋田2区" ;
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
@@ -17391,7 +17391,7 @@
  
  [] ns1:twitter "iyaiya_55" ;
      ns1:候補名 "青山昂平" ;
--    ns1:公式サイト "https://ja-jp.facebook.com/kohei.aoyama.90" ;
+-    ns1:公式サイト "http://kouhei.jcp-ota.jp/" ;
 -    ns1:前回 "" ;
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;
@@ -17502,7 +17502,7 @@
  
  [] ns1:twitter "kouzai2007" ;
      ns1:候補名 "香西克介" ;
--    ns1:公式サイト "https://ja-jp.facebook.com/katusuke.kouzai" ;
+-    ns1:公式サイト "-" ;
 -    ns1:前回 "" ;
 +    ns1:公式サイト "" ;
 +    ns1:前回 "新" ;

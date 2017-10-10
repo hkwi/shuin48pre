@@ -3382,7 +3382,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1959-12-25" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "miyamototooru" ;
 -    ns1:wikidata "Q18818200" ;
 -    ns1:名前 "宮本徹" ;
 -    ns1:性別 "男性" ;
@@ -4225,7 +4225,7 @@
 -    ns1:性別 "女性" ;
 -    ns1:生年月日 "1963-02-01" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tadashishimizu" ;
 -    ns1:wikidata "Q11560960" ;
 -    ns1:名前 "清水忠史" ;
 -    ns1:性別 "男性" ;
