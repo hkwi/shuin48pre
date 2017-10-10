@@ -3136,7 +3136,7 @@
 -    ns1:性別 "女性" ;
 -    ns1:生年月日 "1952-02-09" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tsuchiyamasatad" ;
 -    ns1:wikidata "Q6782686" ;
 -    ns1:名前 "土屋正忠" ;
 -    ns1:性別 "男性" ;
