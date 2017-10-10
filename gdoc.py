@@ -13,9 +13,10 @@ targets = {
 }
 for fn,sh in targets.items():
 	ss = gs.open_by_key(sh)
-	for sh in ss.worksheets():
+	for si,sh in enumerate(ss.worksheets()):
 		rows = sh.get_all_values()
-		wd = [j for j,r in enumerate(rows) if "wikidta" in r]
-		if wd:
-			skip = wd[0]
+		wd = [j for j,r in enumerate(rows) if "wikidata" in r]
+		if wd and sh.title.startswith("候補者(candidates)"):
+			skip = wd[0]+1
 			csv.writer(open("docs/%s" % fn, "w")).writerows(rows[:skip]+sorted(rows[skip:]))
+		csv.writer(open("docs/%s_%d.csv" % (fn.split(".")[0],si), "w")).writerows(rows)
