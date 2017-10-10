@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,
-進捗率(完了日をカウント)→,29.20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,29.58%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,
@@ -555,7 +555,7 @@ Q1654408,稲田朋美,稲田,朋美,,いなだ ともみ,自民,,,,現職,,,18,1
 第46回衆議院議員総選挙,福井1区
 第47回衆議院議員総選挙,福井1区",女性,1959-02-20,58,1959,,,https://www.facebook.com/tomomi.inada.5,,,,,http://www.inada-tomomi.com/,,,,福井県,早稲田大学法学部卒,早稲田大学法学部卒,弁護士,,,,,https://www.wikidata.org/wiki/Q1654408,https://ja.wikipedia.org/wiki/稲田朋美,tominari,10/9,10/9,,,,397
 Q1654639,岩屋毅,岩屋,毅,,いわや たけし,自民,,,,現職,,,44,3,,大分県 3区,,,男性,1957-08-24,60,1957,,takeshi108,https://www.facebook.com/iwayajimusho,,,,,http://www.t-iwaya.com,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1654639,,,,,,,,795
-Q1655220,下村博文,下村,博文,,しもむら はくぶん,自民,,,,現職,,,13,11,,東京都 11区,,,男性,1954-05-23,63,1954,,-,https://www.facebook.com/hakubun.shimomura,,,https://www.youtube.com/channel/UCRosCw_cyoKzySzqP36FcXQ,,http://www.hakubun.biz/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1655220,,,,,,,,243
+Q1655220,下村博文,下村,博文,,しもむら はくぶん,自民,,,,現職,,,13,11,,東京都 11区,,,男性,1954-05-23,63,1954,,-,https://www.facebook.com/hakubun.shimomura,,,https://www.youtube.com/channel/UCRosCw_cyoKzySzqP36FcXQ,,http://www.hakubun.biz/,,,,群馬県高崎市,,,,,,,,https://www.wikidata.org/wiki/Q1655220,,,,10/9,,,,243
 Q1655453,茂木敏充,茂木,敏充,,もてぎ としみつ,自民,,,,現職,,,9,5,,栃木県 5区,,,男性,1955-10-07,62,1955,,moteging,moteging,,,,,http://www.motegi.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1655453,,,,,,,,142
 Q1655755,中川郁子,中川,郁子,中川 ゆうこ,なかがわ ゆうこ,自民,,,,現職,,,1,11,,北海道 11区,"第46回衆議院議員総選挙
 第47回衆議院議員総選挙","第46回衆議院議員総選挙(北海道第11区)
@@ -609,7 +609,7 @@ Q1761759,下地幹郎,下地,幹郎,下地ミキオ,しもじ みきお,維新,,
 Q18458881,源馬謙太郎,源馬,謙太郎,,げんま けんたろう,希望,民進,,,,,,22,8,,静岡県 8区,,,男性,1972-12-21,44,1972,,,,,,,,http://gemma-kentaro.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18458881,,,,,,,,459
 Q18669603,池内沙織,池内,沙織,池内さおり,いけうち さおり,共産,,,,現職,,,13,12,東京ブロック,東京都 12区,"第45回衆議院議員総選挙
 第46回衆議院議員総選挙
-第47回衆議院議員総選挙",第47回衆議院議員総選挙(比例東京ブロック),女性,1982-09-15,35,1982,,ikeuchi_saori,https://www.facebook.com/saolyn.ikeuchi/,https://www.facebook.com/saorioshitai,,,,http://www.saori-ikeuchi.com/,,,,松山市,愛媛県立松山東高等学校,中央大学法学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18669603,,,,,,,,245
+第47回衆議院議員総選挙",第47回衆議院議員総選挙(比例東京ブロック),女性,1982-09-15,35,1982,,ikeuchi_saori,https://www.facebook.com/saolyn.ikeuchi/,https://www.facebook.com/saorioshitai,,,,http://www.saori-ikeuchi.com/,,,,松山市,愛媛県立松山東高等学校,中央大学法学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18669603,,,,10/9,,,,245
 Q18669603,池内沙織,池内,沙織,池内さおり,いけうち さおり,共産,,,,現職,,,55,,比例東京ブロック,,"第45回衆議院議員総選挙
 第46回衆議院議員総選挙
 第47回衆議院議員総選挙",第47回衆議院議員総選挙(比例東京ブロック),女性,1982-9-15,35,1982,,saorijimusyo,saorioshitai,,,,,http://www.saori-ikeuchi.com/,,,,松山市,"愛媛県立松山東高等学校
@@ -703,7 +703,7 @@ Q3136350,馳浩,馳,浩,はせ浩,はせひろし,自民,,,党発表,現職,,,17
 第47回衆議院議員総選挙,石川1区",男性,1961-05-05,56,1961,,,https://www.facebook.com/hiroshi.hase,https://www.facebook.com/hasehiroshi.kousiki,,https://www.youtube.com/channel/UCnQm-UmN54kVOeQlD-TeSTQ,,http://www.hasenet.org/,,https://ameblo.jp/hase-hiroshi/,,富山県,"星稜高校
 ",専修大学,"星稜高校国語科教諭
 プロレスラー","参議院議員,1995年 7月～2000年 5月",,,ロス五輪レスリンググレコローマン90ｋｇ出場,https://www.wikidata.org/wiki/Q3136350,https://ja.wikipedia.org/wiki/馳浩,tominari,10/9,10/9,,,,387
-Q337406,太田昭宏,太田,昭宏,太田あきひろ,おおた あきひろ,公明,,,,現職,,,13,12,,東京都 12区,,,男性,1945-10-06,72,1945,,teamohta,https://www.facebook.com/teamohta,,,,,http://www.akihiro-ohta.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q337406,,,,,,,,244
+Q337406,太田昭宏,太田,昭宏,太田あきひろ,おおた あきひろ,公明,,,,現職,,,13,12,,東京都 12区,,,男性,1945-10-06,72,1945,,teamohta,-,https://www.facebook.com/teamohta,,https://www.youtube.com/user/ohtaakihiroCH/,,http://www.akihiro-ohta.com/,,,,愛知県,,京都大学大学院,,,,,,https://www.wikidata.org/wiki/Q337406,,,,10/9,,,,244
 Q337507,志位和夫,志位,和夫,,しい かずお,共産,,,,現職,,,54,,比例南関東ブロック,,,,男性,1954-07-29,63,1954,,shiikazuo,,,,,,http://fukudamineyuki.com,,,,,,,,,,,,https://www.wikidata.org/wiki/Q337507,,,,,,,,863
 Q337762,森山𥙿,森山,𥙿,森山裕,もりやま ひろし,自民,,,,現職,,,46,5,,鹿児島県 4区,"1975年鹿児島市議会議員補欠選挙
 第18回参議院議員通常選挙
@@ -762,7 +762,7 @@ Q41769891,吉井利光,吉井,利光,,よしい としみつ,幸福,,,党発表,
 ",HS政経塾,,,,,,https://www.wikidata.org/wiki/Q41769891,,higa4,10/7,10/7,,,,239
 Q41769946,小堤東,小堤,東,,こづつみ あづま,共産,,,,,,,13,11,,東京都 11区,,,男性,1989-4-27,28,1989,,azuma_united_fc,azuma.kozutsumi,,,,,http://senkyo.jcp-tokyo.net/kozutsumi/,,http://senkyo.jcp-tokyo.net/kozutsumi/blog/,http://senkyo.jcp-tokyo.net/kozutsumi/policy/,京都府京都市,,中央大学 法学部法律学科,,,,,,https://www.wikidata.org/wiki/Q41769946,,,,10/9,,,,241
 Q41769947,前田順一郎,前田,順一郎,,まえだ じゅんいちろう,立民,,,党発表,,,,13,11,,東京都 11区,,,男性,1975-03-02,42,1975,,maejun_jp,-,https://www.facebook.com/maejun.jp/,,,,https://www.maejun.com/,info@maejun.com,http://maejun.main.jp/,,神奈川県川崎市,,東京大学 経済学部,,,,,,https://www.wikidata.org/wiki/Q41769947,,,,10/9,,,,242
-Q41769948,祖父江元希,祖父江,元希,,そぶえ もとき,共産,,,,,,,13,13,,東京都 13区,,,,,,,,bukda,,,,,,http://blog.goo.ne.jp/motokisobue,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769948,,,,,,,,246
+Q41769948,祖父江元希,祖父江,元希,,そぶえ もとき,共産,,,,,,,13,13,,東京都 13区,,,男性,1975-01-01,42,1975,,sobuemotoki,profile.php?id=100015441914773,,,,,http://blog.goo.ne.jp/motokisobue,,,,愛知県,,東京農工大学大学院農学研究科,,,,,,https://www.wikidata.org/wiki/Q41769948,,,,10/9,,,,246
 Q41769950,北條智彦,北條,智彦,,きたじょう ともひこ,民進,,,,,,,13,13,,東京都 13区,,,,,,,,,,,,,,http://kitajo.org/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769950,,,,,,,,247
 Q41769951,阿藤和之,阿藤,和之,,あとう かずゆき,共産,,,,,,,13,14,,東京都 14区,,,,,,,,aukazuyuk?lang=ja,,,,,,http://plaza.rakuten.co.jp/atoukazuyuki/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769951,,,,,,,,249
 Q41769952,清井美穂,清井,美穂,せいいみほ,せいい みほ,幸福,,,党発表,,,,13,14,,東京都 14区,,,女性,1962-11-2,54,1962,,mihotanii,,,,,,,,,,東京都,東京音楽大学音楽学部,,"教員
