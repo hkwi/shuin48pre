@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,
-進捗率(完了日をカウント)→,28.82%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,29.20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,
@@ -436,7 +436,7 @@ Q11614128,船橋利実,船橋,利実,,ふなはし としみつ,自民,,,,,,,1,1
 ",北海商科大学大学院商学研究科(2015-),,"北見市議会議員(1991-1995)
 北海道議会議員(1995-2012)
 衆議院議員(2012-12-16 - 2014-11-21)",,,,https://www.wikidata.org/wiki/Q11614128,,higa4,10/7,10/7,,,,13
-Q11616618,若狭勝,若狭,勝,,わかさ まさる,希望,,,,現職,,,13,10,,東京都 10区,,,男性,1956-12-06,60,1956,,,https://www.facebook.com/wakasamasaru,,,,,https://www.wakasamasaru.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11616618,,,,,,,,238
+Q11616618,若狭勝,若狭,勝,,わかさ まさる,希望,,,,現職,,,13,10,,東京都 10区,,,男性,1956-12-06,60,1956,,-,https://www.facebook.com/wakasamasaru,,,,,https://www.wakasamasaru.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11616618,,,,10/9,,,,238
 Q11619136,菅原一秀,菅原,一秀,,すがわら いっしゅう,自民,,,取り下げ,現職,,,13,9,,東京都 9区,,,男性,1962-01-07,55,1962,,sugawaraisshu,https://www.facebook.com/sugawaraisshu,,,,,http://www.isshu.net/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11619136,,,,,,,,312
 Q11619261,菅家一郎,菅家,一郎,,かんけ いちろう,自民,,,,現職,,,52,,比例東北ブロック,福島4区,,,男性,1955-05-20,62,1955,,kanke_ichirou,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11619261,,,,,,,,837
 Q11622647,藤丸敏,藤丸,敏,,ふじまる さとし,自民,,,,現職,,,40,7,,福岡県 7区,,,男性,1960-01-19,57,1960,,,https://www.facebook.com/fujimaru.satoshi,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11622647,,,,,,,,756
@@ -555,7 +555,7 @@ Q1654408,稲田朋美,稲田,朋美,,いなだ ともみ,自民,,,,現職,,,18,1
 第46回衆議院議員総選挙,福井1区
 第47回衆議院議員総選挙,福井1区",女性,1959-02-20,58,1959,,,https://www.facebook.com/tomomi.inada.5,,,,,http://www.inada-tomomi.com/,,,,福井県,早稲田大学法学部卒,早稲田大学法学部卒,弁護士,,,,,https://www.wikidata.org/wiki/Q1654408,https://ja.wikipedia.org/wiki/稲田朋美,tominari,10/9,10/9,,,,397
 Q1654639,岩屋毅,岩屋,毅,,いわや たけし,自民,,,,現職,,,44,3,,大分県 3区,,,男性,1957-08-24,60,1957,,takeshi108,https://www.facebook.com/iwayajimusho,,,,,http://www.t-iwaya.com,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1654639,,,,,,,,795
-Q1655220,下村博文,下村,博文,,しもむら はくぶん,自民,,,,現職,,,13,11,,東京都 11区,,,男性,1954-05-23,63,1954,,,https://www.facebook.com/hakubun.shimomura,,,,,http://www.hakubun.biz/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1655220,,,,,,,,243
+Q1655220,下村博文,下村,博文,,しもむら はくぶん,自民,,,,現職,,,13,11,,東京都 11区,,,男性,1954-05-23,63,1954,,-,https://www.facebook.com/hakubun.shimomura,,,https://www.youtube.com/channel/UCRosCw_cyoKzySzqP36FcXQ,,http://www.hakubun.biz/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1655220,,,,,,,,243
 Q1655453,茂木敏充,茂木,敏充,,もてぎ としみつ,自民,,,,現職,,,9,5,,栃木県 5区,,,男性,1955-10-07,62,1955,,moteging,moteging,,,,,http://www.motegi.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1655453,,,,,,,,142
 Q1655755,中川郁子,中川,郁子,中川 ゆうこ,なかがわ ゆうこ,自民,,,,現職,,,1,11,,北海道 11区,"第46回衆議院議員総選挙
 第47回衆議院議員総選挙","第46回衆議院議員総選挙(北海道第11区)
@@ -756,12 +756,12 @@ Q41768435,縁田有紀,縁田,有紀,,えんだ ゆき,幸福,,,党発表,,,,26,
 Q41768440,石川香織,石川,香織,,いしかわ かおり,立民,,"無所属
 民進党",報道発表,,,,1,11,,北海道 11区,,,女性,1984-1-1,33,1984,,,,,,,,,,,,,,,元アナウンサー,,,石川知裕,"https://www.nikkei.com/article/DGXMZO21841230T01C17A0PP8000/
 年齢(33)のみ公開",https://www.wikidata.org/wiki/Q41768440,,Yfuruchin,10/7,10/7,,,,5
-Q41769795,鈴木庸介,鈴木,庸介,,,立民,,,,,,,13,10,,東京都 10区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769795,,,,,,,,240
+Q41769795,鈴木庸介,鈴木,庸介,,すずき ようすけ,立民,,,,,,,13,10,,東京都 10区,,,男性,1975-11-21,41,1975,,-,profile.php?id=100010780419010,yosuke.suzuki.tokyo10,,,,http://yosukesuzuki.net/,,,http://yosukesuzuki.net/#blog,東京都豊島区北大塚,,立教大学経済学部,,,,,,https://www.wikidata.org/wiki/Q41769795,,,,10/9,,,,240
 Q41769890,岸良信,岸,良信,,きし よしのぶ,共産,,,,,,,13,10,,東京都 10区,,,男性,,,1955,,jcptokyo10,-,岸良信-衆院東京10区日本共産党予定候補-472646869788614,,,,http://senkyo.jcp-tokyo.net/kishi/,,http://senkyo.jcp-tokyo.net/kishi/blog/,http://senkyo.jcp-tokyo.net/kishi/policy/,群馬県,,東京都立大学,,,,,,https://www.wikidata.org/wiki/Q41769890,,,,10/9,,,,237
 Q41769891,吉井利光,吉井,利光,,よしい としみつ,幸福,,,党発表,,,,13,10,,東京都 10区,,,男性,1982-7-30,35,1982,,,,,,,,,,,,東京都,"慶應義塾大学理工学部
 ",HS政経塾,,,,,,https://www.wikidata.org/wiki/Q41769891,,higa4,10/7,10/7,,,,239
-Q41769946,小堤東,小堤,東,,こづつみ あづま,共産,,,,,,,13,11,,東京都 11区,,,,,,,,azua_und_f,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769946,,,,,,,,241
-Q41769947,前田順一郎,前田,順一郎,,,立民,,,党発表,,,,13,11,,東京都 11区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769947,,,,,,,,242
+Q41769946,小堤東,小堤,東,,こづつみ あづま,共産,,,,,,,13,11,,東京都 11区,,,男性,1989-4-27,28,1989,,azuma_united_fc,azuma.kozutsumi,,,,,http://senkyo.jcp-tokyo.net/kozutsumi/,,http://senkyo.jcp-tokyo.net/kozutsumi/blog/,http://senkyo.jcp-tokyo.net/kozutsumi/policy/,京都府京都市,,中央大学 法学部法律学科,,,,,,https://www.wikidata.org/wiki/Q41769946,,,,10/9,,,,241
+Q41769947,前田順一郎,前田,順一郎,,まえだ じゅんいちろう,立民,,,党発表,,,,13,11,,東京都 11区,,,男性,1975-03-02,42,1975,,maejun_jp,-,https://www.facebook.com/maejun.jp/,,,,https://www.maejun.com/,info@maejun.com,http://maejun.main.jp/,,神奈川県川崎市,,東京大学 経済学部,,,,,,https://www.wikidata.org/wiki/Q41769947,,,,10/9,,,,242
 Q41769948,祖父江元希,祖父江,元希,,そぶえ もとき,共産,,,,,,,13,13,,東京都 13区,,,,,,,,bukda,,,,,,http://blog.goo.ne.jp/motokisobue,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769948,,,,,,,,246
 Q41769950,北條智彦,北條,智彦,,きたじょう ともひこ,民進,,,,,,,13,13,,東京都 13区,,,,,,,,,,,,,,http://kitajo.org/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769950,,,,,,,,247
 Q41769951,阿藤和之,阿藤,和之,,あとう かずゆき,共産,,,,,,,13,14,,東京都 14区,,,,,,,,aukazuyuk?lang=ja,,,,,,http://plaza.rakuten.co.jp/atoukazuyuki/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41769951,,,,,,,,249
