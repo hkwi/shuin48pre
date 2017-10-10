@@ -5226,7 +5226,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1964-02-27" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "koshimizu_k1" ;
 -    ns1:wikidata "Q11637774" ;
 -    ns1:名前 "輿水恵一" ;
 -    ns1:性別 "男性" ;

@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,,,,,,,,
-進捗率(完了日をカウント)→,42.80%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,42.90%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,,,,朝日結果から確認,,,,
@@ -575,23 +575,16 @@ Q20040516,篠原豪,篠原,豪,,しのはら ごう,立民,"みんなの党
 第47回衆議院議員総選挙(比例南関東ブロック)",男性,1975-2-12,42,1975,,go_shinohara,Go.Shinohara.Go,,,,,http://lets-go-yokohama.jp/,,,,磯子区,,早稲田大学,,"横浜市議会議員
 衆議院議員",,,,https://www.wikidata.org/wiki/Q20040516,,,,,,,,870,しのはら ごう,http://google.co.jp/search?q=篠原豪,神奈川1区,比例,,1,1_小選挙区
 Q6311513,松本純,松本,純,,まつもと じゅん,自民,,,確定,現職,,,14,1,,神奈川県 1区,,,男性,1950-04-11,67,1950,,junmatsumoto411,,,,,,http://www.jun.or.jp/,,,,神奈川県,,,,,,,,https://www.wikidata.org/wiki/Q6311513,,,,,,,,335,まつもと じゅん,http://google.co.jp/search?q=松本純,神奈川1区,比例,,2,1_小選挙区
-Q41770740,大貫清文,大貫,清文,おおぬき 清文,おおぬき きよふみ,共産,,,確定,,,,14,2,,神奈川県 2区,,,男性,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770740,,mae,10/11,,,,,336,おおぬき きよふみ,http://google.co.jp/search?q=大貫清文,神奈川2区,,,,1_小選挙区
-Q41770741,高橋野枝,高橋,野枝,,たかはし のえ,立民,,,確定,,,,14,2,,神奈川県 2区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770741,,mae,10/11,,,,,337,たかはし のえ,http://google.co.jp/search?q=高橋野枝,神奈川2区,比例,,1,1_小選挙区
-Q122465,菅義偉,菅,義偉,,すが よしひで,自民,,,確定,現職,,,14,2,,神奈川県 2区,,,男性,1948-12-06,68,1948,,sugawitter,https://www.facebook.com/yoshihide.suga,,,,,http://www.sugayoshihide.gr.jp/,,https://ameblo.jp/suga-yoshihide/,,秋田県,,法政大学 法学部,,"衆議院議員 小此木 彦三郎 秘書
-通産大臣秘書官
+Q41770740,大貫清文,大貫,清文,おおぬき 清文,おおぬき きよふみ,共産,,,確定,,,,14,2,,神奈川県 2区,,,男性,1957-1-29,60,1957,https://i0.wp.com/www.jcp-kanagawa.jp/wp-content/uploads/2016/12/5f2423b8f064b850932e601d89950df5.jpg?zoom=1.25&resize=133%2C166,https://twitter.com/kiyofumi_ohnuki,,,,,,http://jcpoonuki.blogspot.jp,,,,神奈川県,,都立大学理学部生物学科,"ABA教育研究会
+エルムアカデミー",,,,,https://www.wikidata.org/wiki/Q41770740,,mae,10/11,10/11,,,,336,おおぬき きよふみ,http://google.co.jp/search?q=大貫清文,神奈川2区,,,,1_小選挙区
+Q41770741,高橋野枝,高橋,野枝,高橋 のえ,たかはし のえ,立民,,,確定,,,,14,2,,神奈川県 2区,,,女性,1974-10-6,43,1974,http://cdp-japan.jp/candidates/img/19.jpg,https://twitter.com/takahashinoe,https://www.facebook.com/takahashinoe,,,,,https://noe-takahashi.site/,,,,東京都港区六本木,,イェール大学・女性のための選挙スクール修了,,,,,,https://www.wikidata.org/wiki/Q41770741,,mae,10/11,,,,,337,たかはし のえ,http://google.co.jp/search?q=高橋野枝,神奈川2区,比例,,1,1_小選挙区
+Q122465,菅義偉,菅,義偉,,すが よしひで,自民,,,確定,現職,,,14,2,,神奈川県 2区,,,男性,1948-12-06,68,1948,,sugawitter,https://www.facebook.com/yoshihide.suga,,,,,http://www.sugayoshihide.gr.jp/,,https://ameblo.jp/suga-yoshihide/,,秋田県,,法政大学 法学部,,"衆議院議員
 横浜市会議員
-自民党副幹事長
 国土交通大臣政務官
-自民党横浜市支部連合会会長
 経済産業大臣政務官
-国会対策委員会副委員長
 総務副大臣
 総務大臣
-選挙対策副委員長
-衆議院議員運営委員会筆頭理事
-自民党組織運動本部長
-自民党幹事長代行
-自民党神奈川県支部連合会会長",,,,https://www.wikidata.org/wiki/Q122465,,mae,10/11,10/11,,,,338,すが よしひで,http://google.co.jp/search?q=菅義偉,神奈川2区,比例,,2,1_小選挙区
+衆議院議員運営委員会筆頭理事",,,,https://www.wikidata.org/wiki/Q122465,,mae,10/11,10/11,,,,338,すが よしひで,http://google.co.jp/search?q=菅義偉,神奈川2区,比例,,2,1_小選挙区
 Q41770742,釘丸進,釘丸,進,くぎまる進,くぎまる すすむ,共産,,,確定,,,,14,3,,神奈川県 3区,,,,,,,,kugimarususumu,https://www.facebook.com/susumu.kugimaru,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770742,,,,,,,,339,くぎまる すすむ,http://google.co.jp/search?q=釘丸進,神奈川3区,,,,1_小選挙区
 Q41770743,壱岐愛子,壱岐,愛子,いき愛子,いき あいこ,幸福,,,確定,,,,14,3,,神奈川県 3区,,,女性,1985-9-14,32,1985,,ikiaiko,,,,,,,,http://ameblo.jp/ikiaiko/,,神奈川県,"多摩大学経営情報学部
 ",HS政経塾,コージャパン(株),,,,,https://www.wikidata.org/wiki/Q41770743,,higa4,10/7,10/7,,,,340,いき あいこ,http://google.co.jp/search?q=壱岐愛子,神奈川3区,,,,1_小選挙区
@@ -1426,7 +1419,7 @@ Q41777959,梶護,,,,かじ まもる,立民,,,確定,,,,52,,東北,,,,,,,,,,,,,,
 Q41770599,松井秀明,松井,秀明,,まつい ひであき,共産,,,確定,,,,52,,,宮城県 1区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770599,,,,,,,,60,まつい ひであき,http://google.co.jp/search?q=松井秀明,,,東北,4,2_比例
 Q41770661,中曽根康隆,中曽根,康隆,,なかそね やすたか,無所属,,,確定,,,,53,,,群馬県 1区,,,男性,1982-01-19,35,1982,,,nakasone0119,,,,,http://yasu-nakasone.com/,,,http://yasu-nakasone.com/?page_id=19080,,慶應義塾大学 法学部,,,,,,,https://www.wikidata.org/wiki/Q41770661,,,,10/9,,,,144,なかそね やすたか,http://google.co.jp/search?q=中曽根康隆,,,北関東,30,2_比例
 Q41770652,小池一徳,小池,一徳,,こいけ かずのり,共産,,,確定,,,,53,,,栃木県 2区,,,男性,1961-01-19,56,1961,,koike_kazunori,-,,,,,,,,,栃木県,,東北大学文学部中退,,,,,,https://www.wikidata.org/wiki/Q41770652,,,,10/9,,,,132,こいけ かずのり,http://google.co.jp/search?q=小池一徳,,,北関東,5,2_比例
-Q11637774,輿水恵一,輿水,恵一,,こしみず けいいち,公明,,,確定,現職,,,53,,比例北関東ブロック,,,,男性,1962-02-04,55,1962,,,koshimizu.keiichi,,,,,http://www.k-koshimizu.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11637774,,,,,,,,839,こしみず けいいち,http://google.co.jp/search?q=輿水恵一,,,北関東,3,2_比例
+Q11637774,輿水恵一,輿水,恵一,,こしみず けいいち,公明,,,確定,現職,,,53,,比例北関東ブロック,,,,男性,1962-02-04,55,1962,,koshimizu_k1,koshimizu.keiichi,,,,,http://www.k-koshimizu.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11637774,,,,,,,,839,こしみず けいいち,http://google.co.jp/search?q=輿水恵一,,,北関東,3,2_比例
 Q16264927,岡本三成,岡本,三成,,おかもと みつなり,公明,,,確定,現職,,,53,,比例北関東ブロック,,,,男性,1965-05-05,52,1965,,okamotooffice,,,,,,http://www.m-okamoto.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q16264927,,,,,,,,840,おかもと みつなり,http://google.co.jp/search?q=岡本三成,,,北関東,2,2_比例
 Q1737905,石井啓一,石井,啓一,,いしい けいいち,公明,,,確定,現職,,,53,,比例北関東ブロック,,,,男性,1958-03-20,59,1958,,,,,,,,http://www.k1-ishii.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1737905,,,,,,,,841,いしい けいいち,http://google.co.jp/search?q=石井啓一,,,北関東,1,2_比例
 Q7706956,塩川鉄也,塩川,鉄也,,しおかわ てつや,共産,,,確定,現職,,,53,,比例北関東ブロック,,,,男性,1961-12-18,55,1961,,ShiokawaTetsuya,shiokawa.jcp,,,,,http://www.shiokawa-tetsuya.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7706956,,,,,,,,842,しおかわ てつや,http://google.co.jp/search?q=塩川鉄也,,,北関東,1,2_比例
