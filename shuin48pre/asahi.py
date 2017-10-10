@@ -5,7 +5,7 @@ import csv
 urls = [("http://www.asahi.com/senkyo/senkyo2017/koho/A%02d.html" % i, False) for i in range(1, 48)]
 urls += [("http://www.asahi.com/senkyo/senkyo2017/koho/O%02d.html" % i, True) for i in range(1, 12)]
 
-keys = "area hirei hirei_num_posts sei mei sei_hira mei_hira age party support status tousenkaisu w career".split()
+keys = "area hirei num hirei_num_posts sei mei sei_hira mei_hira age party support status tousenkaisu w career".split()
 
 def run(fp):
 	out = csv.writer(fp)
@@ -26,6 +26,7 @@ def run(fp):
 					career = p.xpath('.//td[@class="Career"]//p/text()'),
 				)
 				if hirei:
+					r["num"] = p.xpath('.//td[@class="lstNum"]/div/text()')
 					r["hirei"] = doc.xpath('.//div[@class="Title"]/p/text()')
 					r["party"] = area_or_party.xpath('.//h2/text()')
 				else:
