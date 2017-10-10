@@ -9,9 +9,9 @@ import lxml.html
 import unicodedata
 
 urls = ["http://www.jcp.or.jp/web_senkyo/cat1/"]
-urls += ["http://www.jcp.or.jp/web_senkyo/cat1/index_%d.html" % s for s in range(2,10)]
+urls += ["http://www.jcp.or.jp/web_senkyo/cat1/index_%d.html" % s for s in range(2,8)]
 urls += ["http://www.jcp.or.jp/web_senkyo/cat/"]
-urls += ["http://www.jcp.or.jp/web_senkyo/cat/index_2.html"]
+urls += ["http://www.jcp.or.jp/web_senkyo/cat/index_%d.html" % s for s in (2,3)]
 
 fieldnames="koho_namel koho_kana name family_name given_name family_hira given_hira age flag block small koho_kata twitter facebook site syubetsu".split()
 
@@ -65,7 +65,7 @@ def run(fp):
 			
 			# convert senkyo_ku to (block, small)
 			if "重複" in row.get("syubetsu", ""):
-				ab = row["senkyo_ku"].split("、")
+				ab = row["senkyo_ku"].split("、", 1)
 				if len(ab) == 1 and row["senkyo_ku"].startswith("北海道"):
 					a = "北海道"
 					b = ab[0]
