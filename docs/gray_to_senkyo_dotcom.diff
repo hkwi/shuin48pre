@@ -9522,13 +9522,13 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "shunsuke_ishin" ;
 -    ns1:候補名 "伊藤俊輔" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.i-shunsuke.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "伊藤俊輔" ;
 -    ns1:小選挙区 "東京23区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "38" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -11418,7 +11418,7 @@
 -
 -[] ns1:twitter "masanobu_ogura" ;
 -    ns1:候補名 "小倉将信" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://ogura-m.jp/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "小倉將信" ;
 -    ns1:小選挙区 "東京23区" ;
@@ -13306,13 +13306,13 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "akagaa" ;
+-[] ns1:twitter "akahigepapa" ;
 -    ns1:候補名 "松村亮佑" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "松村亮佑" ;
 -    ns1:小選挙区 "東京23区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "37" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -13874,7 +13874,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "kushibuchi" ;
 -    ns1:候補名 "櫛渕万里" ;
 -    ns1:公式サイト "http://www.kushibuchi-mari.jp/" ;
 -    ns1:前回 "" ;
