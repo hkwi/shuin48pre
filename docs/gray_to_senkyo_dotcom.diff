@@ -9838,13 +9838,13 @@
 -    ns1:年齢 "62" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "tomita_naoki" ;
 -    ns1:候補名 "冨田直樹" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.tomita-naoki.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "冨田直樹" ;
 -    ns1:小選挙区 "東京1区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "41" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -10090,9 +10090,9 @@
 -    ns1:年齢 "58" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "mikiharaguchi" ;
 -    ns1:候補名 "原口実季" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "https://www.haraguchi-miki.net/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "原口実季" ;
 -    ns1:小選挙区 "東京1区" ;
@@ -14298,7 +14298,7 @@
 -    ns1:年齢 "54" ;
 -    ns1:比例区 "近畿" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "banrikaieda" ;
 -    ns1:候補名 "海江田万里" ;
 -    ns1:公式サイト "http://kaiedabanri.jp/" ;
 -    ns1:前回 "" ;
@@ -15450,7 +15450,7 @@
 -    ns1:年齢 "76" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "takeda.mitsuaki" ;
 -    ns1:候補名 "竹田光明" ;
 -    ns1:公式サイト "http://www.takeda-mitsuaki.net/" ;
 -    ns1:前回 "" ;
