@@ -3423,17 +3423,17 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1959-07-02" .
 -
--[] ns1:twitter "harada_kenji" ;
--    ns1:wikidata "Q11409844" ;
--    ns1:名前 "原田憲治" ;
--    ns1:性別 "男性" ;
--    ns1:生年月日 "1948-06-09" .
--
 -[] ns1:twitter "yoshiaki_harada" ;
 -    ns1:wikidata "Q8055970" ;
 -    ns1:名前 "原田義昭" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1944-10-01" .
+-
+-[] ns1:twitter "harada_kenji" ;
+-    ns1:wikidata "Q11409844" ;
+-    ns1:名前 "原田憲治" ;
+-    ns1:性別 "男性" ;
+-    ns1:生年月日 "1948-06-09" .
 -
 -[] ns1:twitter "" ;
 -    ns1:wikidata "Q1704969" ;

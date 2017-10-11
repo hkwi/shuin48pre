@@ -10475,6 +10475,15 @@
 -    ns1:年齢 "39" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "yoshiaki_harada" ;
+-    ns1:候補名 "原田よしあき" ;
+-    ns1:公式サイト "http://www.y-harada.com/" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "原田義昭" ;
+-    ns1:小選挙区 "福岡5区" ;
+-    ns1:年齢 "73" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:twitter "harada_kenji" ;
 -    ns1:候補名 "原田憲治" ;
 -    ns1:公式サイト "http://haradakenji.sakura.ne.jp/" ;
@@ -10482,15 +10491,6 @@
 -    ns1:名前 "原田憲治" ;
 -    ns1:小選挙区 "大阪9区" ;
 -    ns1:年齢 "69" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "yoshiaki_harada" ;
--    ns1:候補名 "原田義昭" ;
--    ns1:公式サイト "http://www.y-harada.com/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "原田義昭" ;
--    ns1:小選挙区 "福岡5区" ;
--    ns1:年齢 "73" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -11556,6 +11556,15 @@
 -    ns1:年齢 "59" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "miyauchihideki" ;
+-    ns1:候補名 "宮内ひでき" ;
+-    ns1:公式サイト "http://miyauchihideki.jp/" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "宮内秀樹" ;
+-    ns1:小選挙区 "福岡4区" ;
+-    ns1:年齢 "54" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:twitter "genmiyauchi1982" ;
 -    ns1:候補名 "宮内現" ;
 -    ns1:公式サイト "" ;
@@ -11563,15 +11572,6 @@
 -    ns1:名前 "宮内現" ;
 -    ns1:小選挙区 "山梨1区" ;
 -    ns1:年齢 "" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "miyauchihideki" ;
--    ns1:候補名 "宮内秀樹" ;
--    ns1:公式サイト "http://miyauchihideki.jp/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "宮内秀樹" ;
--    ns1:小選挙区 "福岡4区" ;
--    ns1:年齢 "54" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;
@@ -14009,7 +14009,7 @@
 -[] ns1:twitter "" ;
 -    ns1:候補名 "楠田大蔵" ;
 -    ns1:公式サイト "http://www.daizoo.com/" ;
--    ns1:前回 "" ;
+-    ns1:前回 "元職" ;
 -    ns1:名前 "楠田大蔵" ;
 -    ns1:小選挙区 "福岡5区" ;
 -    ns1:年齢 "42" ;
