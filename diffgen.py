@@ -149,6 +149,7 @@ def ttl_out(dbkeys, dbdata, keys):
 						v = m.group(2)
 					v = {
 						"北陸信越":"北信越",
+						"九州・沖縄":"九州",
 					}.get(v, v)
 				elif k == "前回":
 					if v in ("現職", "現"):
@@ -166,6 +167,10 @@ def ttl_out(dbkeys, dbdata, keys):
 						"立憲":"立憲民主",
 						"無所":"無所属",
 						"日本共産党":"共産",
+					}.get(v, v)
+				elif k == "前回":
+					v = {
+						"新人":"新",
 					}.get(v, v)
 				elif v:
 					v = re.sub("[　 ]+", "", v)

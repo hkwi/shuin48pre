@@ -307,11 +307,9 @@
 +    ns1:小選挙区 "" ;
 +    ns1:年齢 "29" ;
      ns1:政党 "公明" ;
--    ns1:比例区 "九州・沖縄" .
--
+     ns1:比例区 "九州" .
+ 
 -[] ns1:twitter "" ;
-+    ns1:比例区 "九州" .
-+
 +[] ns1:twitter "kamikawa_yoko" ;
      ns1:候補名 "上川陽子" ;
      ns1:公式サイト "http://www.kamikawayoko.net/" ;
@@ -2780,8 +2778,7 @@
 +    ns1:小選挙区 "" ;
 +    ns1:年齢 "54" ;
      ns1:政党 "公明" ;
--    ns1:比例区 "九州・沖縄" .
-+    ns1:比例区 "九州" .
+     ns1:比例区 "九州" .
  
  [] ns1:twitter "gogoyoshidago" ;
 -    ns1:候補名 "吉田ごう" ;
