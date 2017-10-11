@@ -4556,8 +4556,8 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1960-07-01" .
 -
--[] ns1:twitter "ikeuchi_saori",
--        "saorijimusyo" ;
+-[] ns1:twitter """saorijimusyo
+-ikeuchi_saori""" ;
 -    ns1:wikidata "Q18669603" ;
 -    ns1:名前 "池内沙織" ;
 -    ns1:性別 "女性" ;

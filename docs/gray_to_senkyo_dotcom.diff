@@ -8623,7 +8623,7 @@
 -
 -[] ns1:twitter "saitokazuko" ;
 -    ns1:候補名 "さいとう和子" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://saitokazuko.jp/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "斉藤和子" ;
 -    ns1:小選挙区 "千葉13区" ;
@@ -14756,8 +14756,8 @@
 -    ns1:年齢 "57" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "ikeuchi_saori",
--        "saorijimusyo" ;
+-[] ns1:twitter """saorijimusyo
+-ikeuchi_saori""" ;
 -    ns1:候補名 "池内さおり" ;
 -    ns1:公式サイト "http://www.saori-ikeuchi.com/" ;
 -    ns1:前回 "前" ;
