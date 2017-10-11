@@ -398,7 +398,8 @@ def gray_to_kibou():
 	open("docs/gray_to_kibou.diff", "w").writelines(lines)
 
 def gray_to_asahi():
-	ks = ["小選挙区","比例区", None, None] + "姓 名 せい めい 年齢 政党 推薦".split()+ [None, None, None,"経歴"]
+	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい","年齢","政党","推薦",None, None, None,"経歴"]
+	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい",None,"政党","推薦",None, None, None,"経歴"]
 	db = [r for r in csv.reader(open("docs/asahi.csv")) if not is_empty(r)]
 	ks += ["名前"]
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in db]
