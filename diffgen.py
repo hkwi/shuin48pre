@@ -245,11 +245,6 @@ def gray_to_senkyo_dotcom():
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	try:
-		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] not in ("取りやめ","引退")]
-	except ValueError:
-		pass
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
@@ -413,11 +408,6 @@ def gray_to_asahi():
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in db]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	try:
-		flag = gk.index("立候補")
-		gdb = [r for r in gdb if r[flag] not in ("取りやめ","引退")]
-	except ValueError:
-		pass
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
