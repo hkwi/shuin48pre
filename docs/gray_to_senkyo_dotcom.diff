@@ -10621,7 +10621,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "南関東" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "akihatsushika" ;
 -    ns1:候補名 "初鹿明博" ;
 -    ns1:公式サイト "http://www.hatsushika.net/" ;
 -    ns1:前回 "前" ;
@@ -12046,7 +12046,7 @@
 -
 -[] ns1:twitter "miyamototooru" ;
 -    ns1:候補名 "宮本徹" ;
--    ns1:公式サイト "http://www7.ocn.ne.jp/~miyamoto/" ;
+-    ns1:公式サイト "http://miyamototooru.info/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "宮本徹" ;
 -    ns1:小選挙区 "東京20区" ;
@@ -12387,13 +12387,13 @@
 -    ns1:年齢 "53" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "team_koito2017" ;
 -    ns1:候補名 "小糸健介" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "https://www.koito.tokyo/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "小糸健介" ;
 -    ns1:小選挙区 "東京21区" ;
--    ns1:年齢 "" ;
+-    ns1:年齢 "35" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "" ;

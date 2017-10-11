@@ -3349,7 +3349,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1955-04-27" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "akihatsushika" ;
 -    ns1:wikidata "Q11396609" ;
 -    ns1:名前 "初鹿明博" ;
 -    ns1:性別 "男性" ;
