@@ -8747,6 +8747,15 @@
 -    ns1:比例区 "北陸信越" .
 -
 -[] ns1:twitter "" ;
+-    ns1:候補名 "たけうち信昭" ;
+-    ns1:公式サイト "http://www.sdp-fukuoka.jpn.org/shuin48" ;
+-    ns1:前回 "新人" ;
+-    ns1:名前 "竹内信昭" ;
+-    ns1:小選挙区 "福岡11区" ;
+-    ns1:年齢 "64" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:twitter "" ;
 -    ns1:候補名 "たけだ良太" ;
 -    ns1:公式サイト "http://www.ryota.gr.jp/" ;
 -    ns1:前回 "前" ;
@@ -15725,15 +15734,6 @@
 -    ns1:名前 "竹下亘" ;
 -    ns1:小選挙区 "島根2区" ;
 -    ns1:年齢 "70" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "竹内信昭" ;
--    ns1:公式サイト "http://www.sdp-fukuoka.jpn.org/shuin48" ;
--    ns1:前回 "新人" ;
--    ns1:名前 "竹内信昭" ;
--    ns1:小選挙区 "福岡11区" ;
--    ns1:年齢 "64" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "takeuchi_yuzuru" ;
