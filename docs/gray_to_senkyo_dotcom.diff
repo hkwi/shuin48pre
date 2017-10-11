@@ -9684,7 +9684,7 @@
 -    ns1:年齢 "55" ;
 -    ns1:比例区 "東海" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "nakanehiromi" ;
 -    ns1:候補名 "中根裕美" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
