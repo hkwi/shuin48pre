@@ -150,6 +150,7 @@ def ttl_out(dbkeys, dbdata, keys):
 					v = {
 						"北陸信越":"北信越",
 						"九州・沖縄":"九州",
+						"東京都":"東京",
 					}.get(v, v)
 				elif k == "前回":
 					if v in ("現職", "現"):
