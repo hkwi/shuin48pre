@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 政治ナビ
-@@ -4,2788 +4,2809 @@
+@@ -4,2789 +4,2809 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -2941,7 +2941,8 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1963-01-12" .
 -
--[] ns1:twitter "ezzdxpqwoyfkdvh" ;
+-[] ns1:twitter """miharaasahiko
+-ezzdxpqwoyfkdvh""" ;
 -    ns1:wikidata "Q4803390" ;
 -    ns1:名前 "三原朝彦" ;
 -    ns1:性別 "男性" ;
@@ -5562,7 +5563,7 @@
  
  [] ns1:twitter "taro_aso_" ;
      ns1:wikidata "Q132596" ;
-@@ -2799,7 +2820,13 @@
+@@ -2800,7 +2820,13 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-10-13" .
  
