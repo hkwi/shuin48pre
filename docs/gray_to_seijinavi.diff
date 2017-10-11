@@ -2962,7 +2962,7 @@
 -    ns1:性別 "女性" ;
 -    ns1:生年月日 "1972-10-20" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "takamori_yoshi" ;
 -    ns1:wikidata "Q7677156" ;
 -    ns1:名前 "吉川貴盛" ;
 -    ns1:性別 "男性" ;
@@ -3259,7 +3259,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1948-11-24" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "shintaroito205" ;
 -    ns1:wikidata "Q7497782" ;
 -    ns1:名前 "伊藤信太郎" ;
 -    ns1:性別 "男性" ;
@@ -5410,7 +5410,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1962-02-17" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "kotaro_nagasaki" ;
 -    ns1:wikidata "Q6433881" ;
 -    ns1:名前 "長崎幸太郎" ;
 -    ns1:性別 "男性" ;
@@ -5530,7 +5530,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1942-03-15" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "takahina7777" ;
 -    ns1:wikidata "Q11671375" ;
 -    ns1:名前 "高橋比奈子" ;
 -    ns1:性別 "女性" ;
