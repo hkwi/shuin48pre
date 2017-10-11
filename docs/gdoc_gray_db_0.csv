@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,,,,,,,,
-進捗率(完了日をカウント)→,45.74%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,45.83%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,is_ candidate,current_position,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,winner_history,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,,,,朝日結果から確認,,,,
@@ -15,7 +15,7 @@ Q11614128,船橋利実,船橋,利実,,ふなはし としみつ,自民,,,確定,
 北海学園大学工学部土木工学科(-1983)",北海商科大学大学院商学研究科(2015-),,"北見市議会議員(1991-1995)
 北海道議会議員(1995-2012)
 衆議院議員(2012-12-16 - 2014-11-21)",,,,https://www.wikidata.org/wiki/Q11614128,,higa4,10/7,10/7,,,,13,ふなはし としみつ,http://google.co.jp/search?q=船橋利実,北海道1区,比例,,3,1_小選挙区
-Q41770571,金倉昌俊,金倉,昌俊,金倉まさとし,かなくら まさとし,共産,,,確定,,,,1,2,比例北海道ブロック,北海道 2区,"第47回衆議院議員総選挙(得票：36,277)",,男性,,,1974,,kanakuramasato,,,,,,http://www.kanakura.net/,,http://www.kanakura.net/,,,,,,,,,年齢(43)のみ公開,https://www.wikidata.org/wiki/Q41770571,,higa4,10/7,10/7,,,,14,かなくら まさとし,http://google.co.jp/search?q=金倉昌俊,北海道2区,比例,,3,1_小選挙区
+Q41770571,金倉昌俊,金倉,昌俊,金倉まさとし,かなくら まさとし,共産,,,確定,,,,1,2,比例北海道ブロック,北海道 2区,"第47回衆議院議員総選挙(得票：36,277)",,男性,,43,1974,,kanakuramasato,,,,,,http://www.kanakura.net/,,http://www.kanakura.net/,,,,,,,,,年齢(43)のみ公開,https://www.wikidata.org/wiki/Q41770571,,higa4,10/7,10/7,,,,14,かなくら まさとし,http://google.co.jp/search?q=金倉昌俊,北海道2区,比例,,3,1_小選挙区
 Q41770572,小和田康文,小和田,康文,こわだ 康文,こわだ やすふみ,維新,,,確定,,,,1,2,,北海道 2区,"第46回衆議院議員総選挙(2012)
 第47回衆議院議員総選挙(2014)",,男性,1970-08-27,47,,,kujira0827,yasufumi.kowada,,,,,,,,https://o-ishin.jp/member/detail/kowada_yasufumi.html,東京都,,千葉大法科院,行政書士,,,,,https://www.wikidata.org/wiki/Q41770572,,Yfuruchin,10/8,10/8,,,,15,こわだ やすふみ,http://google.co.jp/search?q=小和田康文,北海道2区,比例,,1,1_小選挙区
 Q6389412,松木謙公,松木,謙公,松木 けんこう,まつき しずひろ,希望,,"自民
@@ -59,7 +59,7 @@ Q11670038,高木宏壽,高木,宏壽,高木 ひろひさ,たかぎ ひろひさ,
 第46回衆議院議員総選挙(2012)
 第47回衆議院議員総選挙(2014)","北海道議会議員選挙東区選挙区(2007)
 第46回衆議院議員総選挙(2012)
-第47回衆議院議員総選挙(2014)",男性,1960-04-09,57,1960,,takagi_hirohisa,takagi.hirohisa,,,,,http://www.hirohisa-takagi.jp/,,,http://www.hirohisa-takagi.jp/profile.html,北海道札幌市,,"慶應義塾大学法学部
+第47回衆議院議員総選挙(2014)",男性,1960-04-09,57,,,takagi_hirohisa,takagi.hirohisa,,,,,http://www.hirohisa-takagi.jp/,,,http://www.hirohisa-takagi.jp/profile.html,北海道札幌市,,"慶應義塾大学法学部
 ウエスタンワシントン大学",KPMG FAS,内閣府大臣政務官兼復興大臣政務官,高木繁光,,,https://www.wikidata.org/wiki/Q11670038,https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%AE%8F%E5%A3%BD,Yfuruchin,10/8,10/8,,,,19,たかぎ ひろひさ,http://google.co.jp/search?q=高木宏壽,北海道3区,比例,,3,1_小選挙区
 Q1478311,荒井聰,荒井,聰,,あらい さとし,立民,,,確定,現職,,,1,3,,北海道 3区,"第40回衆議院議員総選挙(1993)
 第41回衆議院議員総選挙(1996)
@@ -133,7 +133,7 @@ Q41770581,石川明美,石川,明美,,いしかわ あけみ,共産,,,確定,,,,
 釧路市議選挙(2011)","釧路市議選挙(1997)
 釧路市議選挙(2001)
 釧路市議選挙(2007)
-釧路市議選挙(2011)",男性,1951-01-01,66,1951,,,,,,,,http://www2.plala.or.jp/ishiishi/,,,,埼玉県,,埼玉県立川越工業高校,日本電気エンジニアリング(株),,,,年齢(66)のみ,https://www.wikidata.org/wiki/Q41770581,,Yfuruchin,10/9,10/9,,,,28,いしかわ あけみ,http://google.co.jp/search?q=石川明美,北海道7区,,,,1_小選挙区
+釧路市議選挙(2011)",男性,,66,1951,,,,,,,,http://www2.plala.or.jp/ishiishi/,,,,埼玉県,,埼玉県立川越工業高校,日本電気エンジニアリング(株),,,,年齢(66)のみ,https://www.wikidata.org/wiki/Q41770581,,Yfuruchin,10/9,10/9,,,,28,いしかわ あけみ,http://google.co.jp/search?q=石川明美,北海道7区,,,,1_小選挙区
 Q11379575,伊東良孝,伊東,良孝,伊東 よしたか,いとう よしたか,自民,,,確定,現職,,,1,7,,北海道 7区,"釧路市議選挙(1985)
 釧路市議選挙(1989)
 釧路市議選挙(1993)
@@ -1324,7 +1324,7 @@ Q337762,森山𥙿,森山,𥙿,森山裕,もりやま ひろし,自民,,,確定,
 財務副大臣
 財務大臣政務官",,,,https://www.wikidata.org/wiki/Q337762,,higa4,10/8,10/8,,,,819,もりやま ひろし,http://google.co.jp/search?q=森山𥙿,鹿児島4区,比例,,4,1_小選挙区
 Q1761759,下地幹郎,下地,幹郎,下地ミキオ,しもじ みきお,維新,,,確定,現職,,,47,1,九州,沖縄1区,,,男性,1961-08-14,56,1961,,mikioshimoji,,,,,,http://www.mikio.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q1761759,,,,,,,,982,しもじ みきお,http://google.co.jp/search?q=下地幹郎,沖縄1区,比例,,1,1_小選挙区
-Q7446761,赤嶺政賢,赤嶺,政賢,あかみね政賢,あかみね せいけん,共産,,,確定,現職,,,47,1,比例九州ブロック,沖縄県 1区,,,男性,1947-12-18,69,1947,,akamineseiken,akamineseiken,,,,,http://akamine-seiken.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7446761,,,,,,,,820,あかみね せいけん,http://google.co.jp/search?q=赤嶺政賢,沖縄1区,比例,,1,1_小選挙区
+Q7446761,赤嶺政賢,赤嶺,政賢,あかみね政賢,あかみね せいけん,共産,,,確定,現職,,,47,1,比例九州ブロック,沖縄県 1区,,,男性,1947-12-18,69,1947,,akamineseiken,akamineseiken,https://www.facebook.com/akamineseiken/,,,,http://akamine-seiken.jp/,,,,沖縄県,,東京教育大学文学部,高校教師,衆議院議員,,,,https://www.wikidata.org/wiki/Q7446761,,churu110,10/11,10/11,,,,820,あかみね せいけん,http://google.co.jp/search?q=赤嶺政賢,沖縄1区,比例,,1,1_小選挙区
 Q41771057,下地玲子,下地,玲子,下地れいこ,しもじ れいこ,幸福,,,確定,新人,,,47,1,,沖縄県 1区,,,女性,1958-1-29,59,1958,,reikoshimoji,,,,,,,,,,沖縄県,,神奈川歯科大学歯学部,医療法人青天会 下地内科 理事,,,,,https://www.wikidata.org/wiki/Q41771057,,higa4,10/7,10/7,,,,821,しもじ れいこ,http://google.co.jp/search?q=下地玲子,沖縄1区,,,,1_小選挙区
 Q11422694,國場幸之助,國場,幸之助,国場幸之助,こくば こうのすけ,"
 自民",,"無所属
