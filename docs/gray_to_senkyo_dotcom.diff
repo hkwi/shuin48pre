@@ -10412,7 +10412,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "katoayuko_and_s" ;
 -    ns1:候補名 "加藤鮎子" ;
 -    ns1:公式サイト "http://kato-ayuko.net" ;
 -    ns1:前回 "前" ;
