@@ -3017,7 +3017,7 @@
 -    ns1:性別 "女性" ;
 -    ns1:生年月日 "1983-04-30" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "mikioshimoji" ;
 -    ns1:wikidata "Q1761759" ;
 -    ns1:名前 "下地幹郎" ;
 -    ns1:性別 "男性" ;
@@ -3029,7 +3029,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1954-05-23" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "norihiron" ;
 -    ns1:wikidata "Q11364144" ;
 -    ns1:名前 "中山展宏" ;
 -    ns1:性別 "男性" ;

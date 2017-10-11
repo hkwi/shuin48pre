@@ -9371,7 +9371,7 @@
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "上野寛治" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "https://www.uenokanji.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "上野寛治" ;
 -    ns1:小選挙区 "" ;
@@ -9396,7 +9396,7 @@
 -    ns1:年齢 "59" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "mikioshimoji" ;
 -    ns1:候補名 "下地ミキオ" ;
 -    ns1:公式サイト "http://www.mikio.gr.jp/" ;
 -    ns1:前回 "前" ;
@@ -9423,7 +9423,7 @@
 -    ns1:年齢 "63" ;
 -    ns1:比例区 "東京" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "wvzurewxzk7lisw" ;
 -    ns1:候補名 "下村雅洋" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -9450,7 +9450,7 @@
 -    ns1:年齢 "51" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "yokunihideyuki" ;
 -    ns1:候補名 "与国秀行" ;
 -    ns1:公式サイト "" ;
 -    ns1:前回 "" ;
@@ -9495,7 +9495,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "北信越" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "norihiron" ;
 -    ns1:候補名 "中山展宏" ;
 -    ns1:公式サイト "http://norihiro.org/" ;
 -    ns1:前回 "前" ;
@@ -10259,7 +10259,7 @@
 -    ns1:名前 "伊藤達也" ;
 -    ns1:小選挙区 "群馬5区" ;
 -    ns1:年齢 "56" ;
--    ns1:比例区 "" .
+-    ns1:比例区 "東京" .
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "伴野豊" ;
