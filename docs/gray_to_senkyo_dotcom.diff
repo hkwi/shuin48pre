@@ -9117,6 +9117,15 @@
 -    ns1:年齢 "57" ;
 -    ns1:比例区 "" .
 -
+-[] ns1:twitter "" ;
+-    ns1:候補名 "テルヤ寛徳" ;
+-    ns1:公式サイト "http://terukan.ti-da.net" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "照屋寛徳" ;
+-    ns1:小選挙区 "沖縄2区" ;
+-    ns1:年齢 "72" ;
+-    ns1:比例区 "九州" .
+-
 -[] ns1:twitter "office_hiranao" ;
 -    ns1:候補名 "ホンダ平直" ;
 -    ns1:公式サイト "http://www.hiranao.com/" ;
@@ -11809,7 +11818,7 @@
 -    ns1:年齢 "72" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "ota_kazumi" ;
 -    ns1:候補名 "太田和美" ;
 -    ns1:公式サイト "http://www.kazumi.ms/" ;
 -    ns1:前回 "前" ;
@@ -14874,9 +14883,9 @@
 -    ns1:年齢 "55" ;
 -    ns1:比例区 "北陸信越" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "1hatanorina" ;
 -    ns1:候補名 "波多野里奈" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://hatanorina.jp/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "波多野里奈" ;
 -    ns1:小選挙区 "千葉7区" ;
@@ -15197,15 +15206,6 @@
 -    ns1:小選挙区 "香川2区" ;
 -    ns1:年齢 "52" ;
 -    ns1:比例区 "四国" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "照屋寛徳" ;
--    ns1:公式サイト "http://terukan.blog44.fc2.com/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "照屋寛徳" ;
--    ns1:小選挙区 "沖縄2区" ;
--    ns1:年齢 "72" ;
--    ns1:比例区 "九州" .
 -
 -[] ns1:twitter "kumadahiromichi" ;
 -    ns1:候補名 "熊田裕通" ;

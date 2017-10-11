@@ -2983,6 +2983,12 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1977-01-03" .
 -
+-[] ns1:twitter "" ;
+-    ns1:wikidata "Q1724004" ;
+-    ns1:名前 "照屋寛徳" ;
+-    ns1:性別 "男性" ;
+-    ns1:生年月日 "1945-07-24" .
+-
 -[] ns1:twitter "hiromitsubayasi" ;
 -    ns1:wikidata "Q11353993" ;
 -    ns1:名前 "三ッ林裕巳" ;
@@ -3733,7 +3739,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1945-10-06" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "ota_kazumi" ;
 -    ns1:wikidata "Q6381578" ;
 -    ns1:名前 "太田和美" ;
 -    ns1:性別 "女性" ;
@@ -4671,12 +4677,6 @@
 -    ns1:名前 "瀬戸隆一" ;
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1965-08-02" .
--
--[] ns1:twitter "" ;
--    ns1:wikidata "Q1724004" ;
--    ns1:名前 "照屋寛徳" ;
--    ns1:性別 "男性" ;
--    ns1:生年月日 "1945-07-24" .
 -
 -[] ns1:twitter "kumadahiromichi" ;
 -    ns1:wikidata "Q11568677" ;
