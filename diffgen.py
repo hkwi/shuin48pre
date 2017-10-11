@@ -426,13 +426,13 @@ def gray_to_asahi():
 
 
 if __name__=="__main__":
-#	gray_to_seijinavi()
-#	gray_to_kyousanto()
-#	gray_to_senkyo_dotcom()
-#	gray_to_ishin()
-#	gray_to_koumei()
-#	gray_to_jimin()
-#	gray_to_ritsumin()
-#	gray_to_koufuku()
-#	gray_to_kibou()
+	gray_to_seijinavi()
+	gray_to_kyousanto()
+	gray_to_senkyo_dotcom()
+	gray_to_ishin()
+	gray_to_koumei()
+	gray_to_jimin()
+	gray_to_ritsumin()
+	gray_to_koufuku()
+	gray_to_kibou()
 	gray_to_asahi()
