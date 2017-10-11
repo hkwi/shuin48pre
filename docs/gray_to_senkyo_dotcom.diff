@@ -9072,7 +9072,7 @@
 -    ns1:年齢 "48" ;
 -    ns1:比例区 "東海" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "takamori_yoshi" ;
 -    ns1:候補名 "よしかわ貴盛" ;
 -    ns1:公式サイト "http://tyoshikawa.com/" ;
 -    ns1:前回 "前" ;
@@ -10233,7 +10233,7 @@
 -    ns1:年齢 "38" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "shintaroito205" ;
 -    ns1:候補名 "伊藤信太郎" ;
 -    ns1:公式サイト "http://www.ito-sintaro.jp/" ;
 -    ns1:前回 "前" ;
@@ -10767,7 +10767,7 @@
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "勝沼栄明" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.s-katsunuma.com/" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "勝沼栄明" ;
 -    ns1:小選挙区 "宮城5区" ;
@@ -17670,15 +17670,6 @@
  [] ns1:twitter "nagashima21" ;
      ns1:候補名 "長島昭久" ;
      ns1:公式サイト "http://www.nagashima21.net/" ;
-@@ -9150,7 +8917,7 @@
-     ns1:年齢 "55" ;
-     ns1:比例区 "" .
- 
--[] ns1:twitter "" ;
-+[] ns1:twitter "kotaro_nagasaki" ;
-     ns1:候補名 "長崎幸太郎" ;
-     ns1:公式サイト "http://nagasakikotaro.jp/" ;
-     ns1:前回 "前" ;
 @@ -9160,40 +8927,67 @@
      ns1:比例区 "" .
  
@@ -18288,10 +18279,6 @@
 -    ns1:名前 "高橋英明" ;
 -    ns1:小選挙区 "埼玉15区" ;
 -    ns1:年齢 "" ;
--    ns1:比例区 "" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "高橋ひなこ" ;
 +[] ns1:twitter "chiduko916" ;
 +    ns1:候補名 "高橋千鶴子" ;
 +    ns1:公式サイト "http://www.chiduko.gr.jp/" ;
@@ -18326,9 +18313,10 @@
 +    ns1:名前 "高橋斉久" ;
 +    ns1:小選挙区 "東京24区" ;
 +    ns1:年齢 "44" ;
-+    ns1:比例区 "" .
-+
-+[] ns1:twitter "takahina7777" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:twitter "takahina7777" ;
+-    ns1:候補名 "高橋ひなこ" ;
 +    ns1:候補名 "高橋比奈子" ;
      ns1:公式サイト "http://takahashihinako.jp/" ;
      ns1:前回 "前" ;
