@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,,,,,,,,
-進捗率(完了日をカウント)→,42.99%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,43.09%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,,,,朝日結果から確認,,,,
@@ -576,18 +576,18 @@ Q20040516,篠原豪,篠原,豪,,しのはら ごう,立民,"みんなの党
 衆議院議員",,,,https://www.wikidata.org/wiki/Q20040516,,,,,,,,870,しのはら ごう,http://google.co.jp/search?q=篠原豪,神奈川1区,比例,,1,1_小選挙区
 Q6311513,松本純,松本,純,,まつもと じゅん,自民,,,確定,現職,,,14,1,,神奈川県 1区,,,男性,1950-04-11,67,1950,,junmatsumoto411,,,,,,http://www.jun.or.jp/,,,,神奈川県,,,,,,,,https://www.wikidata.org/wiki/Q6311513,,,,,,,,335,まつもと じゅん,http://google.co.jp/search?q=松本純,神奈川1区,比例,,2,1_小選挙区
 Q41770740,大貫清文,大貫,清文,おおぬき 清文,おおぬき きよふみ,共産,,,確定,,,,14,2,,神奈川県 2区,,,男性,1957-1-29,60,1957,https://i0.wp.com/www.jcp-kanagawa.jp/wp-content/uploads/2016/12/5f2423b8f064b850932e601d89950df5.jpg?zoom=1.25&resize=133%2C166,https://twitter.com/kiyofumi_ohnuki,,,,,,http://jcpoonuki.blogspot.jp,,,,神奈川県,,都立大学理学部生物学科,"ABA教育研究会
-エルムアカデミー",,,,,https://www.wikidata.org/wiki/Q41770740,,mae,10/11,10/11,,,,336,おおぬき きよふみ,http://google.co.jp/search?q=大貫清文,神奈川2区,,,,1_小選挙区
+エルムアカデミー",,,,,https://www.wikidata.org/wiki/Q41770740,,2&3,10/11,10/11,,,,336,おおぬき きよふみ,http://google.co.jp/search?q=大貫清文,神奈川2区,,,,1_小選挙区
 Q41770741,高橋野枝,高橋,野枝,高橋 のえ,たかはし のえ,立民,,,確定,,,,14,2,,神奈川県 2区,,,女性,1974-10-6,43,1974,http://cdp-japan.jp/candidates/img/19.jpg,https://twitter.com/takahashinoe,https://www.facebook.com/takahashinoe,,,,,https://noe-takahashi.site/,info@noe-takahashi.site,,,東京都港区六本木,"九州大学法学部卒
 立教大学大学院異文化コミュニケーション研究科修了
 米国シモンズ経営大学院・女性のための戦略的なリーダーシップコース修了
-ハーバード・ケネディスクール・女性リーダーシップコース修了",イェール大学・女性のための選挙スクール修了,株式会社NTTドコモ,,,,,https://www.wikidata.org/wiki/Q41770741,,mae,10/11,10/11,,,,337,たかはし のえ,http://google.co.jp/search?q=高橋野枝,神奈川2区,比例,,1,1_小選挙区
+ハーバード・ケネディスクール・女性リーダーシップコース修了",イェール大学・女性のための選挙スクール修了,株式会社NTTドコモ,,,,,https://www.wikidata.org/wiki/Q41770741,,2&3,10/11,10/11,,,,337,たかはし のえ,http://google.co.jp/search?q=高橋野枝,神奈川2区,比例,,1,1_小選挙区
 Q122465,菅義偉,菅,義偉,すが 義偉,すが よしひで,自民,,,確定,現職,,,14,2,,神奈川県 2区,,,男性,1948-12-06,68,1948,http://www.sugayoshihide.gr.jp/_src/sc1820/837c83x835e815b9399.jpg,sugawitter,https://www.facebook.com/yoshihide.suga,,,,,http://www.sugayoshihide.gr.jp/,,https://ameblo.jp/suga-yoshihide/,,秋田県,,法政大学 法学部,,"衆議院議員
 横浜市会議員
 国土交通大臣政務官
 経済産業大臣政務官
 総務副大臣
 総務大臣
-衆議院議員運営委員会筆頭理事",,,,https://www.wikidata.org/wiki/Q122465,,mae,10/11,10/11,,,,338,すが よしひで,http://google.co.jp/search?q=菅義偉,神奈川2区,比例,,2,1_小選挙区
+衆議院議員運営委員会筆頭理事",,,,https://www.wikidata.org/wiki/Q122465,,2&3,10/11,10/11,,,,338,すが よしひで,http://google.co.jp/search?q=菅義偉,神奈川2区,比例,,2,1_小選挙区
 Q41770742,釘丸進,釘丸,進,くぎまる進,くぎまる すすむ,共産,,,確定,,,,14,3,,神奈川県 3区,,,,,,,,kugimarususumu,https://www.facebook.com/susumu.kugimaru,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770742,,,,,,,,339,くぎまる すすむ,http://google.co.jp/search?q=釘丸進,神奈川3区,,,,1_小選挙区
 Q41770743,壱岐愛子,壱岐,愛子,いき愛子,いき あいこ,幸福,,,確定,,,,14,3,,神奈川県 3区,,,女性,1985-9-14,32,1985,,ikiaiko,,,,,,,,http://ameblo.jp/ikiaiko/,,神奈川県,"多摩大学経営情報学部
 ",HS政経塾,コージャパン(株),,,,,https://www.wikidata.org/wiki/Q41770743,,higa4,10/7,10/7,,,,340,いき あいこ,http://google.co.jp/search?q=壱岐愛子,神奈川3区,,,,1_小選挙区
@@ -1210,7 +1210,8 @@ Q11554229,河野正美,河野,正美,かわの正美,かわの まさみ,維新,
 愛知医科大学医学部医学科
 ",九州大学大学院医学研究科内科系専攻,精神科医,衆議院議員,河野正,,,https://www.wikidata.org/wiki/Q11554229,,higa4,10/8,10/8,,,,983,かわの まさみ,http://google.co.jp/search?q=河野正美,福岡4区,比例,,1,1_小選挙区
 Q41771012,新留清隆,新留,清隆,,しんどめ きよたか,共産,,,確定,,,,40,4,,福岡県 4区,第47回衆議院議員選挙,,男性,1955-07-28,62,1955,,,https://www.facebook.com/jcp.munakasu,,,,,,,,http://www.fjcp.jp/election/syuinsen/2516/,福岡県,,鹿児島県立鹿児島水産高校,NTT新宮無線送信所、日本共産党専従,,,,,https://www.wikidata.org/wiki/Q41771012,,keisuke,10/8,10/8,,,,745,しんどめ きよたか,http://google.co.jp/search?q=新留清隆,福岡4区,,,,1_小選挙区
-Q11453336,宮内秀樹,宮内,秀樹,,みやうち ひでき,自民,,,確定,現職,,,40,4,,福岡県 4区,,,男性,1962-10-19,54,1962,,miyauchihideki,https://www.facebook.com/MiyauchiHideki,,,,,http://miyauchihideki.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11453336,,,,,,,,746,みやうち ひでき,http://google.co.jp/search?q=宮内秀樹,福岡4区,比例,,4,1_小選挙区
+Q11453336,宮内秀樹,宮内,秀樹,,みやうち ひでき,自民,,,確定,現職,,,40,4,,福岡県 4区,,第46回衆議院議員総選挙、第47回衆議院議員総選挙,男性,1962-10-19,54,1962,,"
+MiyauchiHideki",MiyauchiHideki,https://www.facebook.com/MiyauchiHideki,,,,http://miyauchihideki.jp/,,,https://miyauchihideki.jp,愛知県,,青山学院大学入学経済学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q11453336,,churu110,10/11,10/11,,,,746,みやうち ひでき,http://google.co.jp/search?q=宮内秀樹,福岡4区,比例,,4,1_小選挙区
 Q41771013,田中陽二,田中,陽二,,たなか ようじ,共産,,,確定,,,,40,5,,福岡県 5区,,,男性,1956-07-16,61,1956,,tanakayoji,https://www.facebook.com/profile.php?id=100007628881907,,,,,,,,http://www.fjcp.jp/election/syuinsen/2518/,,,九州大学文学部,民医連・医療法人親仁会米の山病院医事課、日本共産党福岡県委員会専従,,,,,https://www.wikidata.org/wiki/Q41771013,,keisuke,10/8,10/8,,,,747,たなか ようじ,http://google.co.jp/search?q=田中陽二,福岡5区,,,,1_小選挙区
 Q8055970,原田義昭,原田,義昭,,はらだ よしあき,自民,,,確定,現職,,,40,5,,福岡県 5区,,,男性,1944-10-01,73,1944,,yoshiaki_harada,,,,,,http://www.y-harada.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q8055970,,,,,,,,749,はらだ よしあき,http://google.co.jp/search?q=原田義昭,福岡5区,比例,,4,1_小選挙区
 Q5209856,楠田大蔵,楠田,大蔵,,くすだ だいぞう,希望,,民進,確定,,,,40,5,,福岡県 5区,,,男性,1975-01-01,42,1975,,,,,,,,http://www.daizoo.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q5209856,,,,,,,,748,くすだ だいぞう,http://google.co.jp/search?q=楠田大蔵,福岡5区,比例,,2,1_小選挙区
