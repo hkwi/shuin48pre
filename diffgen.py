@@ -147,6 +147,9 @@ def ttl_out(dbkeys, dbdata, keys):
 					m = re.match("^(比例)?(.*?)(ブロック)?$", v)
 					if m:
 						v = m.group(2)
+					v = {
+						"北陸信越":"北信越",
+					}.get(v, v)
 				elif k == "前回":
 					if v in ("現職", "現"):
 						v = "前"
