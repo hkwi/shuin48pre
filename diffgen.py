@@ -13,7 +13,6 @@ key_conv = {
 	"選挙用表記名/別名":"候補名",
 	"名前（姓）":"姓",
 	"名前（名）":"名",
-	"かな":"ふりがな",
 	"公認政党":"政党",
 	"担当":None,
 	"作業予定日":None,
@@ -47,6 +46,20 @@ def load_gdoc(filename):
 		for r in db:
 			if not r[keys.index("候補名")]:
 				r[keys.index("候補名")] = r[keys.index("名前")]
+	if "かな" in keys:
+		if "よみがな" not in keys:
+			keys += ["よみがな"]
+			db = [r+[re.sub("[　 ]+","",r[keys.index("かな")])] for r in db]
+		if "せい" not in keys and "めい" not in keys:
+			keys += ["せい","めい"]
+			ndb = []
+			for j,r in enumerate(db):
+				seimei = re.split("[　 ]+", jaconv.kata2hira(r[keys.index("かな")]))
+				if j>i and len(seimei)==2:
+					ndb += [r + seimei]
+				else:
+					ndb += [r + ["",""]]
+			db = ndb
 	return keys, db[i+1:]
 
 def match_names(keys, row):
@@ -61,7 +74,7 @@ def match_names(keys, row):
 	for fields in "名前 候補名 姓+名 姓+めい せい+めい せい+名 よみがな".split():
 		nm = ""
 		for field in fields.split("+"):
-			if field in r:
+			if r.get(field):
 				nm += r[field]
 			else:
 				nm = None

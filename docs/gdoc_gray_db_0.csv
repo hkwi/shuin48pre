@@ -1,25 +1,24 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,,,,,,,,
-進捗率(完了日をカウント)→,43.28%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,43.79%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,,,,,,,,
-UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,,,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
+UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,is_ candidate,current_position,,,※小選挙区はsenkyokus.idを参照する,,,,candidacy_history,winner_history,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,,,,朝日結果から確認,,,,
 wikidata,名前（フル）,名前（姓）,名前（名）,選挙用表記名/別名,かな,公認政党,推薦政党,以前の政党,立候補,前回,届け出順,比例名簿順位,都道府県,小選挙区番号,比例区,小選挙区,過去の立候補歴,過去の当選歴,性別,誕生日,年齢,誕生年,写真,twitter,フェイスブックID,公式Facebookページ,LINEアカウント,youtube channel,Instagram,公式サイト,メールアドレス,公式ブログ,詳細情報URL,出生地,学歴（履歴）,学歴（最新）,職歴,公職,父親,配偶者,メモ,Wikidata URL,Wikipedia URL,担当,予定日,完了日,担当,予定日,完了日,GrayDBId,,,小選挙区,重複立候補,比例のみ,比例名簿順,マッチング情報
 Q41770570,道下大樹,道下,大樹,,みちした だいき,立民,,民進,確定,,,,1,1,,北海道 1区,"2007年北海道議会議員選挙
 2011年北海道議会議員選挙
 2015年北海道議会議員選挙","2007年北海道議会議員選挙
 2011年北海道議会議員選挙
-2015年北海道議会議員選挙",男性,1975-12-24,41,1975,,,,,,,,https://www.michishita-daiki.jp/,,,,北海道新得町,"北海道旭川東高等学校
+2015年北海道議会議員選挙",男性,1975-12-24,41,,,,,,,,,https://www.michishita-daiki.jp/,,,,北海道新得町,"北海道旭川東高等学校
 ",中央大学法学部法律学科,衆議院議員横路孝弘公設秘書,北海道議会議員,,,https://www.minshin.or.jp/member/1382,https://www.wikidata.org/wiki/Q41770570,,higa4,10/7,10/7,,,,12,みちした だいき,http://google.co.jp/search?q=道下大樹,北海道1区,比例,,1,1_小選挙区
 Q11614128,船橋利実,船橋,利実,,ふなはし としみつ,自民,,,確定,,,,1,1,,北海道 1区,"第46回衆議院議員総選挙(2012)
-第47回衆議院議員総選挙",第46回衆議院議員総選挙(2012),男性,1960-11-20,56,1960,,,funahashi.toshimitsu,,,,,https://funahashi-toshimitsu.jp/,,,,北海道北見市,"北海道北見柏陽高等学校(-1979)
-北海学園大学工学部土木工学科(-1983)
-",北海商科大学大学院商学研究科(2015-),,"北見市議会議員(1991-1995)
+第47回衆議院議員総選挙",第46回衆議院議員総選挙(2012),男性,1960-11-20,56,,,,funahashi.toshimitsu,,,,,https://funahashi-toshimitsu.jp/,,,,北海道北見市,"北海道北見柏陽高等学校(-1979)
+北海学園大学工学部土木工学科(-1983)",北海商科大学大学院商学研究科(2015-),,"北見市議会議員(1991-1995)
 北海道議会議員(1995-2012)
 衆議院議員(2012-12-16 - 2014-11-21)",,,,https://www.wikidata.org/wiki/Q11614128,,higa4,10/7,10/7,,,,13,ふなはし としみつ,http://google.co.jp/search?q=船橋利実,北海道1区,比例,,3,1_小選挙区
-Q41770571,金倉昌俊,金倉,昌俊,金倉まさとし,かなくら まさとし,共産,,,確定,,,,1,2,比例北海道ブロック,北海道 2区,"第47回衆議院議員総選挙(得票：36,277)",,男性,1974-1-1,43,1974,,kanakuramasato,,,,,,http://www.kanakura.net/,,http://www.kanakura.net/,,,,,,,,,年齢(43)のみ公開,https://www.wikidata.org/wiki/Q41770571,,higa4,10/7,10/7,,,,14,かなくら まさとし,http://google.co.jp/search?q=金倉昌俊,北海道2区,比例,,3,1_小選挙区
+Q41770571,金倉昌俊,金倉,昌俊,金倉まさとし,かなくら まさとし,共産,,,確定,,,,1,2,比例北海道ブロック,北海道 2区,"第47回衆議院議員総選挙(得票：36,277)",,男性,,,1974,,kanakuramasato,,,,,,http://www.kanakura.net/,,http://www.kanakura.net/,,,,,,,,,年齢(43)のみ公開,https://www.wikidata.org/wiki/Q41770571,,higa4,10/7,10/7,,,,14,かなくら まさとし,http://google.co.jp/search?q=金倉昌俊,北海道2区,比例,,3,1_小選挙区
 Q41770572,小和田康文,小和田,康文,こわだ 康文,こわだ やすふみ,維新,,,確定,,,,1,2,,北海道 2区,"第46回衆議院議員総選挙(2012)
-第47回衆議院議員総選挙(2014)",,男性,1970-08-27,47,1970,,kujira0827,yasufumi.kowada,,,,,,,,https://o-ishin.jp/member/detail/kowada_yasufumi.html,東京都,,千葉大法科院,行政書士,,,,,https://www.wikidata.org/wiki/Q41770572,,Yfuruchin,10/8,10/8,,,,15,こわだ やすふみ,http://google.co.jp/search?q=小和田康文,北海道2区,比例,,1,1_小選挙区
-Q6389412,松木謙公,松木,謙公,松木 けんこう,まつき けんこう,希望,,"自民
+第47回衆議院議員総選挙(2014)",,男性,1970-08-27,47,,,kujira0827,yasufumi.kowada,,,,,,,,https://o-ishin.jp/member/detail/kowada_yasufumi.html,東京都,,千葉大法科院,行政書士,,,,,https://www.wikidata.org/wiki/Q41770572,,Yfuruchin,10/8,10/8,,,,15,こわだ やすふみ,http://google.co.jp/search?q=小和田康文,北海道2区,比例,,1,1_小選挙区
+Q6389412,松木謙公,松木,謙公,松木 けんこう,まつき しずひろ,希望,,"自民
 自由
 民主
 大地
@@ -35,7 +34,7 @@ Q6389412,松木謙公,松木,謙公,松木 けんこう,まつき けんこう,�
 第47回衆議院議員総選挙(2014)","第43回衆議院議員総選挙(2003)
 第44回衆議院議員総選挙(2005)
 第45回衆議院議員総選挙(2009)
-第47回衆議院議員総選挙(2014)",男性,1959-02-22,58,1959,,kenkou64865187,松木けんこう-870688479616480,,,UCWg-ZmlgKmRMJkwN8iHhDfg,,http://kenko-matsuki.jp/,,,http://kenko-matsuki.jp/#profile,北海道札幌市,,青山学院大学,会社役員,農林水産大臣政務官,,,本名しずひろ、政治活動時はけんこう,https://www.wikidata.org/wiki/Q6389412,https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%9C%A8%E8%AC%99%E5%85%AC,Yfuruchin,10/8,10/8,,,,16,まつき けんこう,http://google.co.jp/search?q=松木謙公,北海道2区,比例,,1,1_小選挙区
+第47回衆議院議員総選挙(2014)",男性,1959-02-22,58,,,kenkou64865187,松木けんこう-870688479616480,,,UCWg-ZmlgKmRMJkwN8iHhDfg,,http://kenko-matsuki.jp/,,,http://kenko-matsuki.jp/#profile,北海道札幌市,,青山学院大学,会社役員,農林水産大臣政務官,,,本名しずひろ、政治活動時はけんこう,https://www.wikidata.org/wiki/Q6389412,https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%9C%A8%E8%AC%99%E5%85%AC,Yfuruchin,10/8,10/8,,,,16,まつき しずひろ,http://google.co.jp/search?q=松木謙公,,#N/A,,,3_該当なし
 Q7677156,吉川貴盛,吉川,貴盛,よしかわ 貴盛,よしかわ たかもり,自民,,,確定,現職,,,1,2,,北海道 2区,"北海道議会議員選挙東区選挙区(1978)
 北海道議会議員選挙東区選挙区(1982)
 北海道議会議員選挙東区選挙区(1986)
@@ -52,7 +51,7 @@ Q7677156,吉川貴盛,吉川,貴盛,よしかわ 貴盛,よしかわ たかも�
 第42回衆議院議員総選挙(2000)
 第44回衆議院議員総選挙(2005)
 第46回衆議院議員総選挙(2012)
-第47回衆議院議員総選挙(2014)",男性,1950-01-01,67,1950,,,takamori.yoshikawa,,,UCgl_EmrPgpCoKVOCVVhcUAA,,http://tyoshikawa.com/,,,http://tyoshikawa.com/profile.html,東京都,,日本大学経済学部,議員秘書,"北海道開発政務次官
+第47回衆議院議員総選挙(2014)",男性,1950-10-20,66,,,,takamori.yoshikawa,,,UCgl_EmrPgpCoKVOCVVhcUAA,,http://tyoshikawa.com/,,,http://tyoshikawa.com/profile.html,東京都,,日本大学経済学部,議員秘書,"北海道開発政務次官
 経済産業副大臣
 農林水産副大臣
 自民党経理局長",,,,https://www.wikidata.org/wiki/Q7677156,https://ja.wikipedia.org/wiki/%E5%90%89%E5%B7%9D%E8%B2%B4%E7%9B%9B,Yfuruchin,10/8,10/8,,,,17,よしかわ たかもり,http://google.co.jp/search?q=吉川貴盛,北海道2区,比例,,3,1_小選挙区
@@ -272,7 +271,7 @@ Q7862709,土井亨,土井,亨,,どい とおる,自民,,,確定,現職,,,4,1,,�
 Q41770603,畠山昌樹,畠山,昌樹,畠山まさき,はたけやま まさき,維新,,,確定,,,,4,1,,宮城県 1区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770603,,higa4,,10/10,,,,63,はたけやま まさき,http://google.co.jp/search?q=畠山昌樹,宮城1区,比例,,1,1_小選挙区
 Q49996,秋葉賢也,秋葉,賢也,,あきば けんや,自民,,,確定,現職,,,4,2,,宮城県 2区,,,男性,1962-07-03,55,1962,,akibakenya,,,,,,http://www.akiba21.net/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q49996,,,,,,,,67,あきば けんや,http://google.co.jp/search?q=秋葉賢也,宮城2区,比例,,2,1_小選挙区
 Q11651021,鎌田さゆり,鎌田,さゆり,,かまた さゆり,無所属,,,確定,,,,4,2,,宮城県 2区,,,女性,1965-01-08,52,1965,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11651021,,higa4,,10/10,,,,66,かまた さゆり,http://google.co.jp/search?q=鎌田さゆり,宮城2区,,,,1_小選挙区
-Q41770606,一條芳弘,一條,芳弘,,いちじょう よしひろ,希望,,,確定,,,,4,3,,宮城県 3区,,,,1971-06-17,46,1971,,,,,,,,http://ichijoyoshihiro.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770606,,,,,,,,69,いちじょう よしひろ,http://google.co.jp/search?q=一條芳弘,宮城3区,比例,,2,1_小選挙区
+Q41770606,一條芳弘,一條,芳弘,,いちじょう よしひろ,希望,,,確定,,,,4,3,東北,宮城県 3区,,,,1971-06-17,46,1971,,,,,,,,http://ichijoyoshihiro.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770606,,,,,,,,69,いちじょう よしひろ,http://google.co.jp/search?q=一條芳弘,宮城3区,比例,,2,1_小選挙区
 Q4700938,西村明宏,西村,明宏,,にしむら あきひろ,自民,,,確定,現職,,,4,3,,宮城県 3区,,,男性,1960-07-16,57,1960,,,,,,,,http://www.a-nishimura.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q4700938,,,,,,,,70,にしむら あきひろ,http://google.co.jp/search?q=西村明宏,宮城3区,比例,,2,1_小選挙区
 Q41770605,吉田剛,吉田,剛,吉田ごう,よしだ ごう,共産,,,確定,,,,4,3,,宮城県 3区,,,男性,,,,,gogoyoshidago,,,,,,http://yoshida-go.jugem.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770605,,higa4,,10/10,,,,68,よしだ ごう,http://google.co.jp/search?q=吉田剛,宮城3区,,,,1_小選挙区
 Q41770609,坂東毅彦,坂東,毅彦,,ばんどう たけひこ,希望,,民進,確定,,,,4,4,,宮城県 4区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770609,,,,,,,,72,ばんどう たけひこ,http://google.co.jp/search?q=坂東毅彦,宮城4区,比例,,2,1_小選挙区
@@ -407,12 +406,12 @@ Q11462582,小泉龍司,小泉,龍司,,こいずみ りゅうじ,無所属,,,確�
 Q41770670,林秀洋,林,秀洋,,はやし ひでひろ,共産,,,確定,,,,11,12,,埼玉県 12区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770670,,,,,,,,160,はやし ひでひろ,http://google.co.jp/search?q=林秀洋,埼玉12区,,,,1_小選挙区
 Q41770671,森田俊和,森田,俊和,,もりた としかず,希望,,民進,確定,,,,11,12,,埼玉県 12区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770671,,,,,,,,161,もりた としかず,http://google.co.jp/search?q=森田俊和,埼玉12区,比例,,1,1_小選挙区
 Q11645002,野中厚,野中,厚,,のなか あつし,自民,,,確定,現職,,,11,12,,埼玉県 12区,,,男性,1976-11-17,40,1976,,,,,,,,http://www.nonaka-atsushi.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11645002,,,,,,,,162,のなか あつし,http://google.co.jp/search?q=野中厚,埼玉12区,比例,,1,1_小選挙区
-Q41770673,三角創太,三角,創太,,みすみ そうた,希望,,民進,確定,,,,11,13,,埼玉県 13区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770673,,,,,,,,164,みすみ そうた,http://google.co.jp/search?q=三角創太,埼玉11区,比例,,1,1_小選挙区
+Q41770673,三角創太,三角,創太,,みすみ そうた,希望,,民進,確定,,,,11,13,北関東,埼玉県 13区,,,,1988-01-01,29,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770673,,,,,,,,164,みすみ そうた,http://google.co.jp/search?q=三角創太,埼玉11区,比例,,1,1_小選挙区
 Q41770675,池田万佐代,池田,万佐代,,いけだ まさよ,社民,,,確定,,,,11,13,,埼玉県 13区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770675,,,,,,,,165,いけだ まさよ,http://google.co.jp/search?q=池田万佐代,埼玉13区,比例,,1,1_小選挙区
 Q11423241,土屋品子,土屋,品子,,つちや しなこ,自民,,,確定,現職,,,11,13,,埼玉県 13区,,,女性,1952-02-09,65,1952,,,,,,,,http://www.owls.co.jp/shinako/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11423241,,,,,,,,166,つちや しなこ,http://google.co.jp/search?q=土屋品子,埼玉13区,比例,,1,1_小選挙区
 Q41770677,苗村京子,苗村,京子,,なえむら きょうこ,共産,,,確定,,,,11,14,,埼玉県 14区,,,,,,,,,,,,,,http://tcat.easymyweb.jp/member/mtk2-nae/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770677,,,,,,,,167,なえむら きょうこ,http://google.co.jp/search?q=苗村京子,埼玉14区,,,,1_小選挙区
 Q11649189,鈴木義弘,鈴木,義弘,,すずき よしひろ,希望,,民進,確定,現職,,,11,14,,埼玉県 14区,,,男性,1962-11-10,54,1962,,,,,,,,http://www.yosshisuzuki.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11649189,,,,,,,,168,すずき よしひろ,http://google.co.jp/search?q=鈴木義弘,埼玉14区,比例,,1,1_小選挙区
-Q11353993,三ッ林裕巳,三ッ林,裕巳,,みつばやし ひろみ,自民,,,確定,現職,,,11,14,,埼玉県 14区,,,女性,1955-09-07,62,1955,,hiromitsubayasi,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11353993,,,,,,,,170,みつばやし ひろみ,http://google.co.jp/search?q=三ッ林裕巳,埼玉14区,比例,,1,1_小選挙区
+Q11353993,三ッ林裕巳,三ッ林,裕巳,,みつばやし ひろみ,自民,,,確定,現職,,,11,14,北関東,埼玉県 14区,,,女性,1955-09-07,62,1955,,hiromitsubayasi,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11353993,,,,,,,,170,みつばやし ひろみ,http://google.co.jp/search?q=三ッ林裕巳,埼玉14区,比例,,1,1_小選挙区
 Q41770678,榛野博,榛野,博,はたの博,はたの ひろし,維新,,,確定,,,,11,14,,埼玉県 14区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770678,,,,,,,,169,はたの ひろし,http://google.co.jp/search?q=榛野博,埼玉14区,比例,,2,1_小選挙区
 Q41777900,高橋英明,,,高橋ひであき,たかはし ひであき,維新,,,確定,新,,,11,15,,埼玉 15区,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,998,たかはし ひであき,http://google.co.jp/search?q=高橋英明,埼玉15区,比例,,2,1_小選挙区
 Q18700742,梅村早江子,梅村,早江子,"梅村さえこ
@@ -1068,7 +1067,7 @@ Q11431868,大串正樹,大串,正樹,,おおぐし まさき,自民,,,確定,現
 Q41770933,上田幸子,上田,幸子,,うえだ さちこ,共産,,,確定,,,,28,7,,兵庫県 7区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770933,,,,,,,,620,うえだ さちこ,http://google.co.jp/search?q=上田幸子,兵庫7区,,,,1_小選挙区
 Q11578596,畠中光成,畠中,光成,,はたなか みつなり,希望,,民進,確定,,,,28,7,,兵庫県 7区,,,男性,1972-06-30,45,1972,,,,,,,,http://hatanaka.cdx.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11578596,,,,,,,,621,はたなか みつなり,http://google.co.jp/search?q=畠中光成,兵庫7区,比例,,3,1_小選挙区
 Q11470671,山田賢司,山田,賢司,,やまだ けんじ,自民,,,確定,現職,,,28,7,,兵庫県 7区,,,男性,1966-04-20,51,1966,,ymd_knj,,,,,,http://yamada-kenji.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11470671,,,,,,,,623,やまだ けんじ,http://google.co.jp/search?q=山田賢司,兵庫7区,比例,,2,1_小選挙区
-Q11355593,三木圭恵,三木,圭恵,三木けえ,みき けえ,維新,,,確定,,,,28,7,,兵庫県 7区,,,女性,1966-07-07,51,1966,,,,,,,,http://www.55miki.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11355593,,,,,,,,622,みき けえ,http://google.co.jp/search?q=三木圭恵,兵庫7区,比例,,2,1_小選挙区
+Q11355593,三木圭恵,三木,圭恵,三木けえ,みき けえ,維新,,,確定,,,,28,7,近畿,兵庫県 7区,,,女性,1966-07-07,51,1966,,,,,,,,http://www.55miki.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11355593,,,,,,,,622,みき けえ,http://google.co.jp/search?q=三木圭恵,兵庫7区,比例,,2,1_小選挙区
 Q18818101,堀内照文,堀内,照文,,ほりうち てるふみ,共産,,,確定,現職,,,28,8,比例近畿ブロック,,,,男性,1972-11-02,44,1972,,teruhoriuchi,https://www.facebook.com/terufumi.horiuchi,,,https://www.youtube.com/channel/UCq1m_nFC-tQXqIGNV9L9vxw,,http://www.teru-horiuchi.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18818101,,mshk,10/9,10/9,,,,934,ほりうち てるふみ,http://google.co.jp/search?q=堀内照文,兵庫8区,比例,,4,1_小選挙区
 Q11367646,中野洋昌,中野,洋昌,中野ひろまさ,なかの ひろまさ,公明,,,確定,現職,,,28,8,,兵庫県 8区,,,男性,1978-01-04,39,1978,,Hiro_NAKANO_,https://www.facebook.com/nakanohiromasa.office,,,,,http://www.nakano-hiromasa.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11367646,,,,,,,,624,なかの ひろまさ,http://google.co.jp/search?q=中野洋昌,兵庫8区,,,,1_小選挙区
 Q41770936,菊地憲之,菊地,憲之,,きくち のりゆき,新社,,,確定,,,,28,9,,兵庫県 9区,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770936,,,,,,,,626,きくち のりゆき,http://google.co.jp/search?q=菊地憲之,兵庫9区,,,,1_小選挙区
@@ -1218,18 +1217,18 @@ Q5209856,楠田大蔵,楠田,大蔵,,くすだ だいぞう,希望,,民進,確�
 Q41771014,小林解子,小林,解子,,こばやし ときこ,共産,,,確定,,,,40,6,,福岡県 6区,,,女性,1979-11-24,37,1979,,tokikobayashi,https://www.facebook.com/tkoba1979,,,,,,,,http://www.fjcp.jp/election/syuinsen/2520/,福岡県,,福岡大学人文学部,民青同盟福岡県委員会専従、日本共産党専従,,,,,https://www.wikidata.org/wiki/Q41771014,,keisuke,10/8,10/8,,,,750,こばやし ときこ,http://google.co.jp/search?q=小林解子,福岡6区,,,,1_小選挙区
 Q41771016,西原忠弘,西原,忠弘,西原ただひろ,にしはら ただひろ,幸福,,,確定,新人,,,40,6,,福岡県 6区,,,男性,1955-7-29,62,1955,,,,,,,,,,,,福岡県,,法政大学経済学部,バイエル薬品(株),,,,,https://www.wikidata.org/wiki/Q41771016,,higa4,10/7,10/7,,,,751,にしはら ただひろ,http://google.co.jp/search?q=西原忠弘,福岡6区,,,,1_小選挙区
 Q41771018,新井富美子,新井,富美子,,あらい ふみこ,民進,,,確定,,,,40,6,,福岡県 6区,,,女性,1967-04-18,50,1967,,,,https://www.facebook.com/arasuppo/,,,,http://www.araifumiko.jp/,,http://www.araifumiko.jp/,,福岡県,,早稲田大学,日本語補修校教員、日本商工会職員、在インド日本国総領事館,,,,,https://www.wikidata.org/wiki/Q41771018,,keisuke,10/8,10/8,,,,752,あらい ふみこ,http://google.co.jp/search?q=新井富美子,福岡6区,,,,1_小選挙区
-Q17219387,鳩山二郎,鳩山,二郎,,はとやま じろう,自民,,,確定,現職,,,40,6,,福岡県 6区,,,男性,1979-01-13,38,1979,,,https://www.facebook.com/%E9%B3%A9%E5%B1%B1-%E4%BA%8C%E9%83%8E-611761022337730/,,,,,https://www.facebook.com/%E9%B3%A9%E5%B1%B1-%E4%BA%8C%E9%83%8E-611761022337730/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q17219387,,,,,,,,753,はとやま じろう,http://google.co.jp/search?q=鳩山二郎,福岡6区,比例,,4,1_小選挙区
-Q41771019,江口学,江口,学,,えぐち まなぶ,共産,,,確定,,,,40,7,,福岡県 7区,,,男性,1974-06-27,43,1974,,omuta_eguchi,https://www.facebook.com/profile.php?id=100008827811511,,,,,,,,http://www.fjcp.jp/election/syuinsen/2522/,福岡県,,吉備国際大学社会学部,民間企業勤務、日本共産党専従,,,,,https://www.wikidata.org/wiki/Q41771019,,keisuke,10/8,10/8,,,,754,えぐち まなぶ,http://google.co.jp/search?q=江口学,福岡7区,,,,1_小選挙区
-Q41771020,原圭助,原,圭助,,はら けいすけ,希望,,民進,確定,,,,40,7,,福岡県 7区,,,男性,1978-05-06,39,1978,,harakeikei,,https://www.facebook.com/harakeifukuoka,,,,http://harakei.net/,,,,福岡県,,東京大学法学部,会社経営、衆参両院での政策担当秘書JEC 連合総研政策部長,,,,,https://www.wikidata.org/wiki/Q41771020,,keisuke,10/8,10/8,,,,755,はら けいすけ,http://google.co.jp/search?q=原圭助,福岡7区,比例,,2,1_小選挙区
-Q11622647,藤丸敏,藤丸,敏,,ふじまる さとし,自民,,,確定,現職,,,40,7,,福岡県 7区,,,男性,1960-01-19,57,1960,,,https://www.facebook.com/fujimaru.satoshi,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11622647,,,,,,,,756,ふじまる さとし,http://google.co.jp/search?q=藤丸敏,福岡7区,比例,,4,1_小選挙区
+Q17219387,鳩山二郎,鳩山,二郎,はとやま二郎,はとやま じろう,自民,,,確定,現職,,,40,6,,福岡県 6区,,,男性,1979-01-13,38,1979,,,鳩山-二郎-611761022337730,https://www.facebook.com/鳩山-二郎-611761022337730/,,,,https://www.facebook.com/%E9%B3%A9%E5%B1%B1-%E4%BA%8C%E9%83%8E-611761022337730/,,,,東京都,青山学院高等部中退、オーストラリア・サウスポートスクール卒業、杏林大学院総合政策学研究科博士前期課程（修士課程）中退,杏林大学総合政策学部,,衆議院議員,,,元・福岡県大川市長,https://www.wikidata.org/wiki/Q17219387,,churu110,10/11,10/11,,,,753,はとやま じろう,http://google.co.jp/search?q=鳩山二郎,福岡6区,比例,,4,1_小選挙区
+Q41771019,江口学,江口,学,,えぐち まなぶ,共産,,,確定,新人,,,40,7,,福岡県 7区,,,男性,1974-06-27,43,1974,,omuta_eguchi,https://www.facebook.com/profile.php?id=100008827811511,,,,,,,,http://www.fjcp.jp/election/syuinsen/2522/,福岡県,,吉備国際大学社会学部,民間企業勤務、日本共産党専従,,,,,https://www.wikidata.org/wiki/Q41771019,,keisuke,10/8,10/8,,,,754,えぐち まなぶ,http://google.co.jp/search?q=江口学,福岡7区,,,,1_小選挙区
+Q41771020,原圭助,原,圭助,,はら けいすけ,希望,,民進,確定,新人,,,40,7,,福岡県 7区,,,男性,1978-05-06,39,1978,,harakeikei,,https://www.facebook.com/harakeifukuoka,,,,http://harakei.net/,,,,福岡県,,東京大学法学部,会社経営、衆参両院での政策担当秘書JEC 連合総研政策部長,,,,,https://www.wikidata.org/wiki/Q41771020,,keisuke,10/8,10/8,,,,755,はら けいすけ,http://google.co.jp/search?q=原圭助,福岡7区,比例,,2,1_小選挙区
+Q11622647,藤丸敏,藤丸,敏,藤丸さとし,ふじまる さとし,自民,,,確定,現職,,,40,7,,福岡県 7区,,,男性,1960-01-19,57,1960,,,fujimaru.satoshi,https://www.facebook.com/fujimaru.satoshi/,,,,http://www.fujimaru-satoshi.net,,,,福岡県,,東京学芸大学教育学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q11622647,,churu110,10/11,10/11,,,,756,ふじまる さとし,http://google.co.jp/search?q=藤丸敏,福岡7区,比例,,4,1_小選挙区
 Q41771021,宮嶋つや子,宮嶋,つや子,,みやじま つやこ,共産,,,確定,,,,40,8,,福岡県 8区,,,女性,1950-11-27,66,1950,,tsuyako1127,https://www.facebook.com/tsuyako.miyazima,,,,,,,,http://www.fjcp.jp/election/syuinsen/2525/,福岡県,,福岡県立嘉穂東高校,食品会社勤務,穂波町議会議員、飯塚市議会議員,,,,https://www.wikidata.org/wiki/Q41771021,,keisuke,10/8,10/8,,,,757,みやじま つやこ,http://google.co.jp/search?q=宮嶋つや子,福岡8区,,,,1_小選挙区
-Q132596,麻生太郎,麻生,太郎,,あそう たろう,自民,,,確定,現職,,,40,8,,福岡県 8区,,,男性,1940-09-20,77,1940,,taro_aso_,,,,,,http://www.aso-taro.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q132596,,,,,,,,758,あそう たろう,http://google.co.jp/search?q=麻生太郎,福岡8区,,,,1_小選挙区
-Q18818124,真島省三,真島,省三,まじま省三,まじま しょうぞう,共産,,,確定,現職,,,40,9,比例九州ブロック,,,,男性,1963-01-12,54,1963,,syouzoumajima,majimasyouzou.jcp,,,,,http://jcp-majimasyouzo.jp,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18818124,,,,,,,,976,まじま しょうぞう,http://google.co.jp/search?q=真島省三,福岡9区,比例,,3,1_小選挙区
-Q4803390,三原朝彦,三原,朝彦,,みはら あさひこ,自民,,,確定,現職,,,40,9,,福岡県 9区,,,男性,1947-05-23,70,1947,,,,,,,,http://www.mihara.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q4803390,,,,,,,,759,みはら あさひこ,http://google.co.jp/search?q=三原朝彦,福岡9区,比例,,4,1_小選挙区
-Q18817798,田村貴昭,田村,貴昭,,たむら たかあき,共産,,,確定,現職,,,40,10,比例九州ブロック,,,,男性,1961-04-30,56,1961,,TAMURATAKAAKI,tamuratakaaki,,,,,http://tamura-takaaki.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18817798,,,,,,,,975,たむら たかあき,http://google.co.jp/search?q=田村貴昭,福岡10区,比例,,2,1_小選挙区
-Q11425971,城井崇,城井,崇,,きい たかし,希望,,民進,確定,,,,40,10,,福岡県 10区,,,男性,1973-06-23,44,1973,,,,,,,,http://www.kiitaka.net/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q11425971,,,,,,,,730,きい たかし,http://google.co.jp/search?q=城井崇,福岡10区,比例,,2,1_小選挙区
-Q6435368,山本幸三,山本,幸三,,やまもと こうぞう,自民,,,確定,現職,,,40,10,,福岡県 10区,,,男性,1948-08-08,69,1948,,,,,,,,http://www.yamamotokozo.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q6435368,,,,,,,,731,やまもと こうぞう,http://google.co.jp/search?q=山本幸三,福岡10区,比例,,4,1_小選挙区
-Q6140382,緒方林太郎,緒方,林太郎,,おがた りんたろう,希望,,民進,確定,現職,,,40,10,,福岡県 10区,,,男性,1973-01-08,44,1973,,,,,,,,http://rinta.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q6140382,,,,,,,,979,おがた りんたろう,http://google.co.jp/search?q=緒方林太郎,福岡9区,比例,,2,1_小選挙区
+Q132596,麻生太郎,麻生,太郎,,あそう たろう,自民,,,確定,現職,,,40,8,,福岡県 8区,,,男性,1940-09-20,77,1940,,taro_aso_,,,,,,http://www.aso-taro.jp/,,,,福岡県,,学習院大学政経学部,麻生産業株式会、麻生セメント株式会社代表取締役社長,副総理、財務大臣、金融担当大臣,,,,https://www.wikidata.org/wiki/Q132596,,churu110,10/11,10/11,,,,758,あそう たろう,http://google.co.jp/search?q=麻生太郎,福岡8区,,,,1_小選挙区
+Q18818124,真島省三,真島,省三,まじま省三,まじま しょうぞう,共産,,,確定,現職,,,40,9,比例九州ブロック,福岡県 9区,,第47回衆議院議員総選挙（比例区当選）,男性,1963-01-12,54,1963,,syouzoumajima,majimasyouzou.jcp,https://www.facebook.com/majimasyouzou.jcp,,,,http://jcp-majimasyouzo.jp,,,,長崎県,九州工業大学中退,,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18818124,,churu110,10/11,10/11,,,,976,まじま しょうぞう,http://google.co.jp/search?q=真島省三,福岡9区,比例,,3,1_小選挙区
+Q4803390,三原朝彦,三原,朝彦,みはら朝彦,みはら あさひこ,自民,,,確定,現職,,,40,9,,福岡県 9区,,,男性,1947-05-23,70,1947,,EzZdXPQWoYFkDVH,asahiko2017,https://www.facebook.com/asahiko2017/,,,,http://www.mihara.gr.jp/,,https://ameblo.jp/miharashi1192/,,福岡県,一橋大学法学部,カナダ・カールトン大学国際関係学部修士課程修了,,,,,,https://www.wikidata.org/wiki/Q4803390,,churu110,10/11,10/11,,,,759,みはら あさひこ,http://google.co.jp/search?q=三原朝彦,福岡9区,比例,,4,1_小選挙区
+Q18817798,田村貴昭,田村,貴昭,,たむら たかあき,共産,,,確定,現職,,,40,10,比例九州ブロック,福岡県 10区,,,男性,1961-04-30,56,1961,,TAMURATAKAAKI,tamuratakaaki,https://www.facebook.com/tamuratakaaki/,,,,http://tamura-takaaki.com/,,,,大阪府,,北九州市立大学法学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18817798,,churu110,10/11,10/11,,,,975,たむら たかあき,http://google.co.jp/search?q=田村貴昭,福岡10区,比例,,2,1_小選挙区
+Q11425971,城井崇,城井,崇,きいたかし,きい たかし,希望,,民進,確定,元職,,,40,10,比例九州ブロック,福岡県 10区,,,男性,1973-06-23,44,1973,,kiitakashi,takashi.kii,https://www.facebook.com/takashi.kii,,,,http://www.kiitaka.net/,,http://kiitakashi2009.blog119.fc2.com,,,,,,,,,,https://www.wikidata.org/wiki/Q11425971,,churu110,10/11,,,,,730,きい たかし,http://google.co.jp/search?q=城井崇,福岡10区,比例,,2,1_小選挙区
+Q6435368,山本幸三,山本,幸三,,やまもと こうぞう,自民,,,確定,現職,,,40,10,,福岡県 10区,,,男性,1948-08-08,69,1948,,yamamotogiin,yamamotokozogiin,https://www.facebook.com/yamamotokozogiin,,,,http://www.yamamotokozo.com/,,,,福岡県,,東京大学経済学部,,内閣府特命担当大臣,,,,https://www.wikidata.org/wiki/Q6435368,,churu110,10/11,10/11,,,,731,やまもと こうぞう,http://google.co.jp/search?q=山本幸三,福岡10区,比例,,4,1_小選挙区
+Q6140382,緒方林太郎,緒方,林太郎,おがた林太郎,おがた りんたろう,希望,,民進,確定,現職,,,40,10,比例九州ブロック,福岡県 10区,,,男性,1973-01-08,44,1973,,,rintaro.ogata.official,https://www.facebook.com/rintaro.ogata.official/,,,https://www.instagram.com/ogata_rintaro_official/,http://rinta.jp/,,,,福岡県,東京大学法学部中退,,外務省,衆議院議員,,,,https://www.wikidata.org/wiki/Q6140382,,churu110,10/11,10/11,,,,979,おがた りんたろう,http://google.co.jp/search?q=緒方林太郎,福岡9区,比例,,2,1_小選挙区
 Q41771008,竹内信昭,竹内,信昭,,たけうち のぶあき,社民,,,確定,新人,,,40,11,,福岡県 11区,第24回参議院議員選挙,,男性,1952-11-22,64,1952,,,https://www.facebook.com/sdp.takeuchi,,,,,http://www.sdp-fukuoka.jpn.org/shuin48,,,,福岡県,,熊本大学大学院文学研究科,福岡県立高校教諭、社民党福岡県連合副代表,,,,,https://www.wikidata.org/wiki/Q41771008,,keisuke,10/8,10/8,,,,734,たけうち のぶあき,http://google.co.jp/search?q=竹内信昭,福岡11区,比例,,1,1_小選挙区
 Q7385342,武田良太,武田,良太,,たけだ りょうた,自民,,,確定,現職,,,40,11,,福岡県 11区,,,男性,1968-04-01,49,1968,,,,,,,,http://www.ryota.gr.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q7385342,,,,,,,,735,たけだ りょうた,http://google.co.jp/search?q=武田良太,福岡11区,比例,,4,1_小選挙区
 Q11475456,岩田和親,岩田,和親,,いわた かずちか,自民,,,確定,現職,,,41,1,比例九州ブロック,佐賀1区,,,男性,1973-9-20,44,1973,,Kazuchika_Iwata,kazuchika.iwata,https://www.facebook.com/kazuchika.iwata,,,,http://www.k-iwata.jp/,,http://www.k-iwata.jp/blog,,佐賀県,,九州大学法学部,大前研一事務所,,,,,https://www.wikidata.org/wiki/Q11475456,,churu110,10/10,10/10,,,,990,いわた かずちか,http://google.co.jp/search?q=岩田和親,佐賀1区,比例,,4,1_小選挙区
@@ -1522,7 +1521,7 @@ Q41777949,田丸義高,,,,たまる よしたか,公明,,,確定,,,,58,,近畿,,
 Q41777956,高橋雅也,,,,たかはし まさや,公明,,,確定,,,,58,,近畿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1030,たかはし まさや,http://google.co.jp/search?q=高橋雅也,,,近畿,7,2_比例
 Q8054597,鰐淵洋子,,,,わにぶち ようこ,公明,,,確定,,,,58,,近畿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1031,わにぶち ようこ,http://google.co.jp/search?q=鰐淵洋子,,,近畿,4,2_比例
 Q41777958,鷲岡秀明,,,,わしおか ひであき,公明,,,確定,,,,58,,近畿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1032,わしおか ひであき,http://google.co.jp/search?q=鷲岡秀明,,,近畿,6,2_比例
-Q41770878,三和智之,三和,智之,みわ智之,みわ ともゆき,共産,,,確定,,,,58,,,大阪府 11区,,,,,,,,1975_miwa,https://www.facebook.com/tomoyuki.miwa3,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770878,,grck1004,10/9/2017,10/9/2017,,,,539,みわ ともゆき,http://google.co.jp/search?q=三和智之,,,近畿,11,2_比例
+Q41770878,三和智之,三和,智之,みわ智之,みわ ともゆき,共産,,,確定,,,,58,,近畿,大阪府 11区,,,,1975-01-01,42,,,1975_miwa,https://www.facebook.com/tomoyuki.miwa3,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770878,,grck1004,10/9/2017,10/9/2017,,,,539,みわ ともゆき,http://google.co.jp/search?q=三和智之,,,近畿,11,2_比例
 Q462308,樽床伸二,樽床,伸二,たるとこ伸二,たるとこ しんじ,希望,,無所属,確定,,,,58,,比例近畿ブロック,,第39~47衆議院選挙,"第40~43,45衆議院選挙、",男性,1959-08-06,58,1959,,,https://www.facebook.com/tarutokoshinji/,,,,,http://www.tarutoko.jp/,,,,島根県,,大阪大学経済学部卒業,,衆議院銀、総務大臣、内閣特命大臣(沖縄及び北方対策・地域主権推進),,,,https://www.wikidata.org/wiki/Q462308,,grck1004,10/9/2017,10/9/2017,,,,542,たるとこ しんじ,http://google.co.jp/search?q=樽床伸二,,,近畿,1,2_比例
 Q41770984,藤本一規,藤本,一規,,ふじもと かずのり,共産,,,確定,,,,59,,,山口県 3区,,,,,,,,1218fuji,,,,,,,,,,,,,,,,,,https://www.wikidata.org/wiki/Q41770984,,,,,,,,697,ふじもと かずのり,http://google.co.jp/search?q=藤本一規,,,中国,3,2_比例
 Q6383605,桝屋敬悟,桝屋,敬悟,,ますや けいご,公明,,,確定,現職,,,59,,比例中国ブロック,,,,男性,1951-04-03,66,1951,,,,,,,,http://www.komei.or.jp/km/masuya-keigo/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q6383605,,mshk,10/9,10/9,,,,955,ますや けいご,http://google.co.jp/search?q=桝屋敬悟,,,中国,2,2_比例
@@ -1704,3 +1703,24 @@ Q11360103,上西小百合,上西,小百合,,うえにし さゆり,無所属,,,�
 Q41777968,塩見俊次,,,,しおみ しゅんいち,立民,,,党発表,,,,58,,近畿,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1043,しおみ しゅんいち,http://google.co.jp/search?q=塩見俊次,,,,,3_該当なし
 Q472792,高木義明,高木,義明,,たかき よしあき,民進,,,,現職,,,61,,比例九州ブロック,,,,男性,1945-12-22,71,1945,,,,,,,,http://www.y-takaki.jp/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q472792,,,,,,,,977,たかき よしあき,http://google.co.jp/search?q=高木義明,,,,,3_該当なし
 Q41777969,仲間昌信,,,,なかま まさのぶ,立民,,,党発表,,,,61,,九州,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1046,なかま まさのぶ,http://google.co.jp/search?q=仲間昌信,,,,,3_該当なし
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,七海ひろこ,七海,ひろこ,,,幸福,,,,,,,,,東京,,,,,1984-01-01,33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,三上武志,三上,武志,,,社民,,,,,,,,,東北,,,,,1951-01-01,66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,三好新治,三好,新治,,,希望,,,,,,,,,北海道,,,,,1960-01-01,57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,三村誉一,三村,誉一,,,無所属,,,,,,,,,,新潟3区,,,,1946-01-01,71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,三枝英彦,三枝,英彦,,,希望,,,,,,,,,北陸信越,,,,,1967-01-01,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,三浦靖,三浦,靖,,,自民,,,,,,,,,中国,,,,,1973-01-01,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
