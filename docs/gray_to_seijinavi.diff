@@ -3994,7 +3994,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1947-09-04" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "yamamotogiin" ;
 -    ns1:wikidata "Q6435368" ;
 -    ns1:名前 "山本幸三" ;
 -    ns1:性別 "男性" ;
