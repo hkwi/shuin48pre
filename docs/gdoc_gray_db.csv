@@ -1,5 +1,5 @@
 解説→,https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA,,,,,,,,,※データ整備の優先度が高そうな項目順にオレンジ→黄色となっています。グレーのセルはwikidataに登録済みであることを表しますが、後日用なので気にしないでください。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,更新予定と実績,,,Wikidataの更新、登録（現時点ではいったん作業停止）,,,,,,,,,,
-進捗率(完了日をカウント)→,49.77%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+進捗率(完了日をカウント)→,49.68%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wikidata ID,name,,,,name in hiragana,party short name,parliamentary_group,,,current position,,,prefecuture code for sort key,,area 1(proportionally represented constituency),area 2(small electoral district),candidacy in election,elected in,gender,birthday,age(calculated),,image,,Facebook profile ID,official Facebook page,LINE,YouTube channel ID,,official site,e-mail,official blog,described at URL,place of birth,biography,,occupation,position held,father,spouse,memorandom,Wikidata ID（参考情報）,Wikipedia URL（参考情報）,,,,,,,,,,,,,,
 UI用DBカラム名,name_full,name_last,name_first,name_alias,name_full_furigana,pary_id,,party_history,is_ candidate,current_position,,,pref_code,senkyoku_no,,,candidacy_history,winner_history,gender,birth_day,,birth_year,,twitter_id,facebook_id,facebook_page_id,line_id,youtube_channel_id,instagram_id,offiicial_website_url,email,official_blog_url,reference_url,birth_place,educational_background,,occupation,position_held,father,spouse,,url_wikidata,url_wikipedia,,,,,,,,,,,,,,
 wikdiata_concept,label,,,alias,P1814,P102,P4100,P102,P3602,,,,Q646425,,P768(Q13365595),P768(Q1052894),P3602,P2715,P21,P569,,P569,P18,P2002,P2013,P4003,P553-P554,P2397,P553-P554,P856,P968,P1581,P973,P19,P69,P69,P106,P39,P22,P26,,,,,,,,,,,,,朝日結果から確認,,,,
@@ -684,19 +684,13 @@ Q18458881,源馬謙太郎,源馬,謙太郎,,げんま けんたろう,希望,民
 静岡f大学教育学部附属浜松中学校
 国際基督大学高等学校
 成蹊大学法学部政治学科","American University, Washington D.C. USA",,,,,,https://www.wikidata.org/wiki/Q18458881,,,,,,,,459,げんま けんたろう,http://google.co.jp/search?q=源馬謙太郎,静岡8区,比例,,1,1_小選挙区
-Q18669603,池内沙織,池内,沙織,池内さおり,いけうち さおり,共産,,,確定,現職,,,13,12,東京ブロック,東京都 12区,"第45回衆議院議員総選挙
-第46回衆議院議員総選挙
-第47回衆議院議員総選挙",第47回衆議院議員総選挙(比例東京ブロック),女性,1982-09-15,35,1982,,,https://www.facebook.com/saolyn.ikeuchi/,https://www.facebook.com/saorioshitai,,,,http://www.saori-ikeuchi.com/,,,,松山市,愛媛県立松山東高等学校,中央大学法学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18669603,,,,10/9,,,,245,いけうち さおり,http://google.co.jp/search?q=池内沙織,東京12区,比例,,3,1_小選挙区
 Q18669603,池内沙織,池内,沙織,池内さおり,いけうち さおり,共産,,,確定,現職,,,13,12,比例東京ブロック,東京都 12区,"第45回衆議院議員総選挙
 第46回衆議院議員総選挙
 第47回衆議院議員総選挙",第47回衆議院議員総選挙(比例東京ブロック),女性,1982-9-15,35,1982,,"saorijimusyo
-ikeuchi_saori",https://www.facebook.com/saolyn.ikeuchi/,,,,,http://www.saori-ikeuchi.com/,,,,松山市,"愛媛県立松山東高等学校
+ikeuchi_saori",https://www.facebook.com/saolyn.ikeuchi/,https://www.facebook.com/saorioshitai,,,,http://www.saori-ikeuchi.com/,,,,松山市,"愛媛県立松山東高等学校
 ",中央大学法学部,,衆議院議員,,,,https://www.wikidata.org/wiki/Q18669603,,,,10/11,,,,883,いけうち さおり,http://google.co.jp/search?q=池内沙織,東京12区,比例,,3,1_小選挙区
 Q18700742,梅村早江子,梅村,早江子,"梅村さえこ
-関口早江子",うめむら さえこ,共産,,,確定,,,,11,15,比例北関東ブロック,埼玉県 15区,"第46回衆議院議員総選挙(比例北関東ブロック)
-第47回衆議院議員総選挙(比例北関東ブロック)",第47回衆議院議員総選挙(比例北関東ブロック),女性,1964-06-28,53,1964,,umemura_saeko,saeko.umemura.3,,,,,http://www.jcp-umemura.jp/,,,,名古屋市,,立命館大学,,,,,,https://www.wikidata.org/wiki/Q18700742,,higa4,10/8,10/8,,,,171,うめむら さえこ,http://google.co.jp/search?q=梅村早江子,埼玉15区,比例,,2,1_小選挙区
-Q18700742,梅村早江子,梅村,早江子,"梅村さえこ
-関口早江子",うめむら さえこ,共産,,,確定,現職,,,11,15,比例北関東ブロック,,"第46回衆議院議員総選挙(比例北関東ブロック)
+関口早江子",うめむら さえこ,共産,,,確定,現職,,,11,15,比例北関東ブロック,埼玉県 15区,"第46回衆議院議員総選挙(比例北関東ブロック)
 第47回衆議院議員総選挙(比例北関東ブロック)",第47回衆議院議員総選挙(比例北関東ブロック),女性,1964-6-28,53,1964,,umemura_saeko,saeko.umemura.3,,,,,http://www.jcp-umemura.jp/,,,,名古屋市,,立命館大学,,,,,,https://www.wikidata.org/wiki/Q18700742,,higa4,10/8,10/8,,,,843,うめむら さえこ,http://google.co.jp/search?q=梅村早江子,埼玉15区,比例,,2,1_小選挙区
 Q18700919,落合貴之,落合,貴之,,おちあい たかゆき,立民,,民進,確定,現職,,,13,6,,東京都 6区,,,男性,1979-08-17,38,1979,,ochiaitakayuki,https://www.facebook.com/pages/%E8%90%BD%E5%90%88%E8%B2%B4%E4%B9%8B-%E4%BA%8B%E5%8B%99%E6%89%80%E7%B6%AD%E6%96%B0%E3%81%AE%E5%85%9A-%E6%9D%B1%E4%BA%AC6%E5%8C%BA%E6%94%AF%E9%83%A8-%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA/1000693033304452,,,,,http://www.ochiaitakayuki.com/,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18700919,,,,,,,,887,おちあい たかゆき,http://google.co.jp/search?q=落合貴之,東京6区,比例,,1,1_小選挙区
 Q18701018,加藤鮎子,加藤,鮎子,,かとう あゆこ,自民,,,確定,現職,,,6,3,,山形県 3区,,,女性,1979-04-19,38,1979,,katoayuko_and_s,,https://www.facebook.com/katoayuko.and.supporters,,,,http://kato-ayuko.net,,,,,,,,,,,,https://www.wikidata.org/wiki/Q18701018,,higa4,,10/11,,,,91,かとう あゆこ,http://google.co.jp/search?q=加藤鮎子,山形3区,比例,,2,1_小選挙区
