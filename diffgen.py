@@ -32,7 +32,7 @@ def is_empty(row):
 	return False
 
 def load_gdoc(filename):
-	db = [r for r in csv.reader(open(filename)) if "".join(r)]
+	db = [r for r in csv.reader(open(filename, encoding="UTF-8")) if "".join(r)]
 	for i, r in enumerate(db):
 		if "wikidata" in r:
 			break
@@ -103,7 +103,7 @@ def ttl_out(dbkeys, dbdata, keys):
 	g = rdflib.Graph()
 	bnodes = {}
 	for row in dbdata:
-		m = dict([(k,v) for k,v in zip(dbkeys, row) if k])
+		m = dict([(k,v) for k,v in zip(dbkeys, row) if k and v])
 		for k in reversed("mkey 候補名 名前".split()):
 			nm = m.get(k)
 			if nm:
@@ -404,7 +404,7 @@ def gray_to_kibou():
 def gray_to_asahi():
 	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい","年齢","政党","推薦",None, None, None,"経歴"]
 	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい",None,"政党","推薦",None, None, None,"経歴"]
-	db = [r for r in csv.reader(open("docs/asahi.csv")) if not is_empty(r)]
+	db = [r for r in csv.reader(open("docs/asahi.csv", encoding="UTF-8")) if not is_empty(r)]
 	ks += ["名前"]
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in db]
 	
@@ -422,17 +422,17 @@ def gray_to_asahi():
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
 		ttl_out(ks, db, keys),
 		fromfile="GrayDB", tofile="朝日.com", lineterm='\r\n')
-	open("docs/gray_to_asahi.diff", "w").writelines(lines)
+	open("docs/gray_to_asahi.diff", "w", encoding="UTF-8").writelines(lines)
 
 
 if __name__=="__main__":
-	gray_to_seijinavi()
-	gray_to_kyousanto()
-	gray_to_senkyo_dotcom()
-	gray_to_ishin()
-	gray_to_koumei()
-	gray_to_jimin()
-	gray_to_ritsumin()
-	gray_to_koufuku()
-	gray_to_kibou()
+#	gray_to_seijinavi()
+#	gray_to_kyousanto()
+#	gray_to_senkyo_dotcom()
+#	gray_to_ishin()
+#	gray_to_koumei()
+#	gray_to_jimin()
+#	gray_to_ritsumin()
+#	gray_to_koufuku()
+#	gray_to_kibou()
 	gray_to_asahi()
