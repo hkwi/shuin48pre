@@ -15187,7 +15187,7 @@
 -    ns1:年齢 "" ;
 -    ns1:比例区 "" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "hata_kouji" ;
 -    ns1:候補名 "畑浩治" ;
 -    ns1:公式サイト "http://hata-kouji.com/" ;
 -    ns1:前回 "" ;
@@ -17985,7 +17985,6 @@
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "高橋ひなこ" ;
--    ns1:公式サイト "" ;
 +[] ns1:twitter "chiduko916" ;
 +    ns1:候補名 "高橋千鶴子" ;
 +    ns1:公式サイト "http://www.chiduko.gr.jp/" ;
@@ -18024,7 +18023,7 @@
 +
 +[] ns1:twitter "takahina7777" ;
 +    ns1:候補名 "高橋比奈子" ;
-+    ns1:公式サイト "http://takahashihinako.jp/" ;
+     ns1:公式サイト "http://takahashihinako.jp/" ;
      ns1:前回 "前" ;
      ns1:名前 "高橋比奈子" ;
      ns1:小選挙区 "岩手1区" ;
