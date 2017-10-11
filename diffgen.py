@@ -135,11 +135,11 @@ def ttl_out(dbkeys, dbdata, keys):
 					if not v.endswith("性") and len(v)==1:
 						v += "性"
 				elif k == "小選挙区":
-					v = unicodedata.normalize("NFKC", v)
-					m = re.match("(.*)[県府]\s*(\d+区)", v)
+					v = unicodedata.normalize("NFKC", v.strip())
+					m = re.match("^(.*)[県府]\s*(\d+区)$", v)
 					if m:
 						v = "".join(m.groups())
-					m = re.match("(東京)都\s*(\d+区)", v)
+					m = re.match("^(東京)都\s*(\d+区)$", v)
 					if m:
 						v = "".join(m.groups())
 					v = re.sub("[　 ]+", "", v)
