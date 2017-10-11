@@ -3841,7 +3841,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1953-10-01" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "teratamanabu" ;
 -    ns1:wikidata "Q6746585" ;
 -    ns1:名前 "寺田学" ;
 -    ns1:性別 "男性" ;
