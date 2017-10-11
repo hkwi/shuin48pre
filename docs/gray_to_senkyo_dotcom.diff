@@ -9126,6 +9126,15 @@
 -    ns1:年齢 "72" ;
 -    ns1:比例区 "九州" .
 -
+-[] ns1:twitter "" ;
+-    ns1:候補名 "ニシメ恒三郎" ;
+-    ns1:公式サイト "http://nishime-k.com" ;
+-    ns1:前回 "前" ;
+-    ns1:名前 "西銘恒三郎" ;
+-    ns1:小選挙区 "沖縄4区" ;
+-    ns1:年齢 "63" ;
+-    ns1:比例区 "九州" .
+-
 -[] ns1:twitter "office_hiranao" ;
 -    ns1:候補名 "ホンダ平直" ;
 -    ns1:公式サイト "http://www.hiranao.com/" ;
@@ -10645,7 +10654,7 @@
 -    ns1:前回 "" ;
 -    ns1:名前 "前川清成" ;
 -    ns1:小選挙区 "奈良3区" ;
--    ns1:年齢 "55" ;
+-    ns1:年齢 "54" ;
 -    ns1:比例区 "" .
 -
 -[] ns1:twitter "donanmaeda" ;
@@ -14631,7 +14640,7 @@
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "比嘉なつみ" ;
--    ns1:公式サイト "http://natsumi-smile.com/index.html" ;
+-    ns1:公式サイト "http://natsumi-smile.com" ;
 -    ns1:前回 "前" ;
 -    ns1:名前 "比嘉奈津美" ;
 -    ns1:小選挙区 "沖縄3区" ;
@@ -16244,7 +16253,7 @@
 -
 -[] ns1:twitter "" ;
 -    ns1:候補名 "船川治郎" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.funakawajiro.com/" ;
 -    ns1:前回 "" ;
 -    ns1:名前 "船川治郎" ;
 -    ns1:小選挙区 "兵庫2区" ;
@@ -16709,15 +16718,6 @@
 -    ns1:小選挙区 "熊本2区" ;
 -    ns1:年齢 "39" ;
 -    ns1:比例区 "" .
--
--[] ns1:twitter "" ;
--    ns1:候補名 "西銘恒三郎" ;
--    ns1:公式サイト "http://nishime-k.com/" ;
--    ns1:前回 "前" ;
--    ns1:名前 "西銘恒三郎" ;
--    ns1:小選挙区 "沖縄4区" ;
--    ns1:年齢 "63" ;
--    ns1:比例区 "九州" .
 -
 -[] ns1:twitter "miyamashinji" ;
 -    ns1:候補名 "見山伸路" ;
