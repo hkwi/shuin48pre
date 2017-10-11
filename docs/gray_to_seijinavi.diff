@@ -2999,7 +2999,7 @@
 -    ns1:性別 "男性" ;
 -    ns1:生年月日 "1950-12-13" .
 -
--[] ns1:twitter "" ;
+-[] ns1:twitter "kamikawa_yoko" ;
 -    ns1:wikidata "Q276275" ;
 -    ns1:名前 "上川陽子" ;
 -    ns1:性別 "女性" ;
