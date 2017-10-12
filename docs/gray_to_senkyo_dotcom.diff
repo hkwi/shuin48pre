@@ -570,7 +570,7 @@
  
 -[] ns1:twitter "nakaokamaki" ;
 -    ns1:候補名 "中岡まき" ;
--    ns1:公式サイト "-" ;
+-    ns1:公式サイト "http://nakamaki.net" ;
 -    ns1:前回 "" ;
 +[] ns1:twitter "" ;
 +    ns1:候補名 "中岡茉妃" ;
