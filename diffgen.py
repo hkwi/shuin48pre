@@ -411,7 +411,7 @@ def gray_to_kibou():
 
 def gray_to_asahi():
 	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい","年齢","政党","推薦",None, None, None,"経歴"]
-	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい",None,"政党","推薦",None, None, None,"経歴"]
+#	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい",None,"政党","推薦",None, None, None,"経歴"]
 	db = [r for r in csv.reader(open("docs/asahi.csv", encoding="UTF-8")) if not is_empty(r)]
 	ks += ["名前"]
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in db]
@@ -438,6 +438,7 @@ def gray_to_asahi():
 
 def gray_to_mainichi():
 	ks = ["小選挙区","比例区",None,"候補名","姓","名","年齢","政党","経歴"]
+#	ks = ["小選挙区","比例区",None,"候補名","姓","名",None,"政党","経歴"]
 	db = [r for r in csv.reader(open("docs/mainichi.csv", encoding="UTF-8")) if not is_empty(r)]
 	tmp = []
 	for r in db:
