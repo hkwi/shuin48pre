@@ -3328,6 +3328,18 @@
      ns1:候補名 "小沢一郎" ;
      ns1:公式サイト "http://www.ozawa-ichiro.jp/" ;
      ns1:前回 "前" ;
+@@ -4837,9 +4965,9 @@
+     ns1:政党 "希望" ;
+     ns1:比例区 "東京" .
+ 
+-[] ns1:twitter "koizumitoshiaki" ;
++[] ns1:twitter "" ;
+     ns1:候補名 "小泉俊明" ;
+-    ns1:公式サイト "http://www.koizumi.gr.jp/" ;
++    ns1:公式サイト "" ;
+     ns1:前回 "元" ;
+     ns1:名 "俊明" ;
+     ns1:名前 "小泉俊明" ;
 @@ -4851,19 +4979,19 @@
  
  [] ns1:twitter "" ;
