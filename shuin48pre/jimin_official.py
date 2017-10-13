@@ -90,8 +90,21 @@ def proc(out, filename, std, sup):
 				sei = dels(yomi_names[0][1])
 				mei = dels(yomi_names[1][1])
 			elif len(yomi_names)==1:
-				ns1 = re.split("[　 ]+", yomi_names[0][0], 1)
-				ns2 = re.split("[　 ]+", yomi_names[0][1], 1)
+				def white_split(s):
+					x = re.split("(\W+)", s)
+					w = -1
+					wi = None
+					for i,t in enumerate(x):
+						if re.match("^\s*$", t) and len(t)>w:
+							w = len(t)
+							wi = i
+					if wi is not None:
+						return ["".join([c for c in x[:wi] if c.strip()]),
+							"".join([c for c in x[wi:] if c.strip()])]
+					return re.split("[　 ]+", s, 1)
+				
+				ns1 = white_split(yomi_names[0][0])
+				ns2 = white_split(yomi_names[0][1])
 				if len(ns1)==2 and len(ns2)==2:
 					sei_hira = dels(ns1[0])
 					mei_hira = dels(ns1[1])
