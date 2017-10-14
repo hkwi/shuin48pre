@@ -2,9 +2,11 @@ import io
 import re
 import csv
 import rdflib
+import functools
 import difflib
 import unicodedata
 import jaconv
+import yaml
 
 EX = rdflib.Namespace("http://ns.example.org/")
 
@@ -22,6 +24,7 @@ key_conv = {
 	"姓（フリガナ）":"セイ",
 	"Twitterアドレス":"twitter",
 	"Facebookページアドレス":"facebook",
+	"フェイスブックID":"facebook",
 	"メモ": None
 }
 
@@ -254,6 +257,10 @@ def gray_to_senkyo_dotcom():
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	if "公式Facebookページ" in gk:
+		gk[gk.index("公式Facebookページ")] = "facebook"
+	if "公式ブログ" in gk:
+		gk[gk.index("公式ブログ")] = "公式サイト"
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
@@ -372,7 +379,7 @@ def gray_to_koufuku():
 	db = [r+["党発表"] for r in csv.reader(open("docs/koufuku_official.csv")) if not is_empty(r)]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	gdb = [r for r in gdb if "幸福" in r[gk.index("政党")]]
+	gdb = [r for r in gdb if set(["幸福","諸派"]).intersection(r[gk.index("政党")].split("\n"))]
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
@@ -388,9 +395,56 @@ def gray_to_koufuku():
 		fromfile="GrayDB", tofile="幸福公式", lineterm='\r\n')
 	open("docs/gray_to_koufuku.diff", "w").writelines(lines)
 
-def gray_to_kibou():
+def gray_to_kibou_media():
 	ks = "小選挙区 比例区 メモ 候補名".split()+ [None, "立候補"]
 	db = [r+["党発表"] for r in csv.reader(open("docs/kibou_media2.csv")) if not is_empty(r)]
+	
+	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
+	gdb = [r for r in gdb if "希望" in r[gk.index("政党")] or "民進" in r[gk.index("政党")]]
+	
+	kname = [match_names(ks,r) for r in db]
+	gname = [match_names(gk,r) for r in gdb]
+	ks += ["mkey"]
+	db = [r+[nm] for r,nm in zip(db,create_mkey(kname, gname))]
+	gk += ["mkey"]
+	gdb = [r+[nm] for r,nm in zip(gdb,create_mkey(gname, kname))]
+	
+	keys = set(ks).intersection(set(gk))
+	
+	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
+		ttl_out(ks, db, keys),
+		fromfile="GrayDB", tofile="希望（報道）", lineterm='\r\n')
+	open("docs/gray_to_kibou_media.diff", "w").writelines(lines)
+
+def gray_to_kibou():
+	bulk = list(yaml.load_all(open("docs/kibou_official.yaml")))
+	opt_keys = set(functools.reduce(lambda a,b:a+b, [[o["title"] for o in r["opts"]] for r in bulk]))
+	opt_keys = list(sorted(opt_keys))
+	def extract(r):
+		r["kana"] = jaconv.kata2hira(r["kana"])
+		sei_kana, mei_kana = re.split("[　 ]+", r["kana"])
+		sei = mei = area = hirei = ""
+		seimei = re.split("[　 ]+", r["name"])
+		if len(seimei)==2:
+			sei, mei = seimei
+		
+		pos = r["pos"].split("\n")[0]
+		if pos.startswith("比例"):
+			hirei = re.match("(.*)ブロック", r["block_name"]).group(1)
+		else:
+			area = pos
+		
+		opt_values = [""]*len(opt_keys)
+		for o in r["opts"]:
+			v = o["val"]
+			if o["title"] == "生年月日":
+				v = "%04d-%02d-%02d" % tuple(map(int,
+					re.match("(\d+)年(\d+)月(\d+)日", v).groups()))
+			opt_values[opt_keys.index(o["title"])] = v
+		
+		return [r["name"],sei,mei,r["kana"],sei_kana,mei_kana,area,hirei]+opt_values
+	ks = "名前 姓 名 よみがな せい めい 小選挙区 比例区".split() + opt_keys
+	db = [extract(r) for r in bulk]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "希望" in r[gk.index("政党")] or "民進" in r[gk.index("政党")]]
@@ -478,6 +532,7 @@ if __name__=="__main__":
 	gray_to_jimin()
 	gray_to_ritsumin()
 	gray_to_koufuku()
+	gray_to_kibou_media()
 	gray_to_kibou()
 	gray_to_asahi()
 	gray_to_mainichi()
