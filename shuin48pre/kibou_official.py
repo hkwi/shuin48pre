@@ -1,6 +1,5 @@
 import yaml
 import io
-import csv
 import lxml.html
 import urllib.request
 import urllib.parse
@@ -8,7 +7,6 @@ import urllib.parse
 def run(fp):
 	fieldnames = "name area twitter facebook youtube line bio".split()
 	
-	out = csv.writer(fp)
 	urls = ["https://kibounotou.jp/election/lists/bid:%d" % i for i in range(1,12)]
 	for url in urls:
 		d = lxml.html.parse(urllib.request.urlopen(url))
