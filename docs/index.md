@@ -23,7 +23,8 @@ twitter, facebook ページの有無や、wikidata への登録を進めてい�
 - [GrayDB / 自民公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_jimin.diff)
 - [GrayDB / 立憲民主（報道）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_ritsumin.diff)
 - [GrayDB / 幸福公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_koufuku.diff)
-- [GrayDB / 希望（報道）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_kibou.diff)
+- [GrayDB / 希望公式](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_kibou.diff)
+- [GrayDB / 希望（報道）](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_kibou_media.diff)
 
 前衆議院議員データとの差分
 - [GrayDB / 政治ナビ](https://github.com/hkwi/shuin48pre/blob/master/docs/gray_to_seijinavi.diff)
