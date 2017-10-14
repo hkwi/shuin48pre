@@ -25,6 +25,7 @@ key_conv = {
 	"Twitterアドレス":"twitter",
 	"Facebookページアドレス":"facebook",
 	"フェイスブックID":"facebook",
+	"公式Facebookページ":"facebook",
 	"メモ": None
 }
 
@@ -113,6 +114,10 @@ def normalize(k,v):
 			v = m.group(1)
 	elif k == "facebook":
 		v = v.replace("https://facebook.com/","https://www.facebook.com/")
+		if v.startswith("/"):
+			v = "https://www.facebook.com" + v
+		elif v and not v.startswith("http"):
+			v = "https://www.facebook.com/" + v
 	elif k == "生年月日":
 		m = re.match("(\d{4})(\d{2})(\d{2})", v)
 		if m:
@@ -259,8 +264,6 @@ def gray_to_senkyo_dotcom():
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
-	if "公式Facebookページ" in gk:
-		gk[gk.index("公式Facebookページ")] = "facebook"
 	if "公式ブログ" in gk:
 		gk[gk.index("公式ブログ")] = "公式サイト"
 	
