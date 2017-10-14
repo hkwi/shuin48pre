@@ -460,7 +460,7 @@ def gray_to_kibou():
 	
 	lines = difflib.unified_diff(ttl_out(gk, gdb, keys),
 		ttl_out(ks, db, keys),
-		fromfile="GrayDB", tofile="希望（報道）", lineterm='\r\n')
+		fromfile="GrayDB", tofile="希望（公式）", lineterm='\r\n')
 	open("docs/gray_to_kibou.diff", "w").writelines(lines)
 
 def gray_to_asahi():
