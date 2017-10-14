@@ -205,7 +205,7 @@ def ttl_out(dbkeys, dbdata, keys):
 		e = bnodes.get(name, rdflib.BNode(name))
 		bnodes[name] = e
 		for k,vs in zip(dbkeys, row):
-			if k not in keys or k=="mkey":
+			if k not in keys or k in (None, "mkey"):
 				continue
 			if vs is None:
 				continue
