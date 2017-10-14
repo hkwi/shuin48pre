@@ -117,10 +117,12 @@ def normalize(k,v):
 		m = re.match("(\d{4})(\d{2})(\d{2})", v)
 		if m:
 			v = "-".join(m.groups())
-		m = re.match("(\d{4})/(\d{2})/(\d{2})", v)
+		m = re.match("(\d+)/(\d+)/(\d+)", v)
 		if m:
-			v = "-".join(m.groups())
-		
+			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
+		m = re.match("(\d+)-(\d+)-(\d+)", v)
+		if m:
+			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
 	elif k == "性別":
 		if not v.endswith("性") and len(v)==1:
 			v += "性"
