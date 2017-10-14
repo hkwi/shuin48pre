@@ -1,15 +1,18 @@
 import yaml
 import io
 import lxml.html
-import urllib.request
 import urllib.parse
+import requests
+
+def urlopen(url):
+	return io.StringIO(requests.get(url).content.decode("UTF-8"))
 
 def run(fp):
 	fieldnames = "name area twitter facebook youtube line bio".split()
 	
 	urls = ["https://kibounotou.jp/election/lists/bid:%d" % i for i in range(1,12)]
 	for url in urls:
-		d = lxml.html.parse(urllib.request.urlopen(url))
+		d = lxml.html.parse(urlopen(url))
 		block = d.xpath(".//h3")
 		for b in block:
 			for n in b.xpath("./following-sibling::*"):
@@ -18,14 +21,14 @@ def run(fp):
 					assert len(ds) == 1
 					url2 = urllib.parse.urljoin(url, ds[0])
 					
-					buf = urllib.request.urlopen(url2).read().decode("UTF-8")
-					pd = lxml.html.parse(io.StringIO(buf))
+					pd = lxml.html.parse(urlopen(url2))
 					lis = pd.xpath('.//*[@class="inner"]//dd//li')
 					p = lis[0]
 					r = dict(
 						name= p.xpath('.//*[@class="name"]/text()'),
 						kana= p.xpath('.//*[@class="name"]/span/text()'),
 						pos = p.xpath('.//*[@class="position"]/text()'),
+						block_name = b.xpath(".//text()"),
 					)
 					for k,vs in r.items():
 						v = " ".join([v.strip() for v in vs if v.strip()])
