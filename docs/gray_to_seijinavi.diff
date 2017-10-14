@@ -84,6 +84,15 @@
      ns1:wikidata "Q276275" ;
      ns1:名 "陽子" ;
      ns1:名前 "上川陽子" ;
+@@ -77,7 +76,7 @@
+     ns1:性別 "女性" ;
+     ns1:生年月日 "1953-03-01" .
+ 
+-[] ns1:facebook "https://www.facebook.com/isamu.ueda.77" ;
++[] ns1:facebook "" ;
+     ns1:twitter "isamuueda" ;
+     ns1:wikidata "Q11359720" ;
+     ns1:名 "勇" ;
 @@ -87,6 +86,15 @@
      ns1:生年月日 "1958-08-05" .
  
