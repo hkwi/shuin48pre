@@ -1,14 +1,11 @@
 --- GrayDB
 +++ 政治ナビ
-@@ -4,46 +4,50 @@
+@@ -4,12 +4,12 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/toshiko.abe.313" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/toshiko.abe.313" ;
++[] ns1:facebook "" ;
      ns1:twitter "abetoshiko" ;
      ns1:wikidata "Q7827692" ;
      ns1:名 "俊子" ;
@@ -19,10 +16,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1959-05-19" .
  
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
+@@ -17,40 +17,40 @@
      ns1:twitter "saitou_ken" ;
      ns1:wikidata "Q11679075" ;
      ns1:名 "健" ;
@@ -33,13 +27,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1959-06-14" .
  
--[] ns1: "10/13/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/naomi.tokashiki.7" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "渡嘉敷奈緒美" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/naomi.tokashiki.7" ;
++[] ns1:facebook "" ;
      ns1:twitter "naomi_tokashiki" ;
      ns1:wikidata "Q11561908" ;
 -    ns1:名 "奈緒美" ;
@@ -51,12 +40,8 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1962-07-16" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hiromi.mitsubayashi" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "公式サイトはドメイン切れ？" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hiromi.mitsubayashi" ;
++[] ns1:facebook "" ;
      ns1:twitter "hiromitsubayasi" ;
      ns1:wikidata "Q11353993" ;
      ns1:名 "裕巳" ;
@@ -68,8 +53,7 @@
 +    ns1:性別 "男性" ;
      ns1:生年月日 "1955-09-07" .
  
- [] ns1: "" ;
-@@ -51,15 +55,14 @@
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11455005" ;
      ns1:名 "博行" ;
@@ -80,64 +64,53 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-01-10" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/mitsuya.norio328" ;
+-[] ns1:facebook "https://www.facebook.com/mitsuya.norio328" ;
 -    ns1:twitter "mitsuya_office" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7051315" ;
      ns1:名 "憲生" ;
      ns1:名前 "三ツ矢憲生" ;
-@@ -67,11 +70,10 @@
+@@ -58,10 +58,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-12-13" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/asahiko2017" ;
+-[] ns1:facebook "https://www.facebook.com/asahiko.mihara",
+-        "https://www.facebook.com/asahiko2017" ;
 -    ns1:twitter "ezzdxpqwoyfkdvh",
 -        "miharaasahiko" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q4803390" ;
      ns1:名 "朝彦" ;
      ns1:名前 "三原朝彦" ;
-@@ -79,10 +81,9 @@
+@@ -69,8 +67,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-05-23" .
  
--[] ns1: "2017/10/9",
--        "kudarisenmon" ;
--    ns1:facebook "https://www.facebook.com/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-%E3%81%8B%E3%81%BF%E3%81%8B%E3%82%8F%E9%99%BD%E5%AD%90-1679504842290545" ;
+-[] ns1:facebook "https://www.facebook.com/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-%E3%81%8B%E3%81%BF%E3%81%8B%E3%82%8F%E9%99%BD%E5%AD%90-1679504842290545" ;
 -    ns1:twitter "kamikawa_yoko" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q276275" ;
      ns1:名 "陽子" ;
      ns1:名前 "上川陽子" ;
-@@ -91,7 +92,7 @@
+@@ -78,7 +76,7 @@
+     ns1:性別 "女性" ;
      ns1:生年月日 "1953-03-01" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/isamu.ueda.77" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/isamu.ueda.77" ;
++[] ns1:facebook "" ;
      ns1:twitter "isamuueda" ;
      ns1:wikidata "Q11359720" ;
      ns1:名 "勇" ;
-@@ -100,9 +101,18 @@
+@@ -87,8 +85,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-08-05" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100003561880790" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100003561880790",
+-        "https://www.facebook.com/uenokenichiro" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q11360103" ;
 +    ns1:名 "小百合" ;
@@ -146,76 +119,68 @@
 +    ns1:性別 "女性" ;
 +    ns1:生年月日 "1983-04-30" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "ueno_kenichiro" ;
      ns1:wikidata "Q6389276" ;
      ns1:名 "賢一郎" ;
-@@ -111,10 +121,9 @@
+@@ -97,8 +103,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-08-03" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/ShimojiMikio" ;
+-[] ns1:facebook "https://www.facebook.com/ShimojiMikio" ;
 -    ns1:twitter "mikioshimoji" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q1761759" ;
      ns1:名 "幹郎" ;
      ns1:名前 "下地幹郎" ;
-@@ -122,8 +131,8 @@
+@@ -106,7 +112,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-08-14" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/hakubun.shimomura" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hakubun.shimomura" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1655220" ;
      ns1:名 "博文" ;
-@@ -134,7 +143,7 @@
+@@ -115,8 +121,8 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1954-05-23" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/norihiro.nn" ;
 -    ns1:twitter "norihiron" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11364144" ;
      ns1:名 "展宏" ;
      ns1:名前 "中山展宏" ;
-@@ -142,9 +151,8 @@
+@@ -124,8 +130,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1968-09-16" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/yasuhide.nakayama" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/iloveyatchan",
+-        "https://www.facebook.com/yasuhide.nakayama" ;
++[] ns1:facebook "" ;
      ns1:twitter "iloveyatchan" ;
      ns1:wikidata "Q8049965" ;
      ns1:名 "泰秀" ;
-@@ -153,9 +161,8 @@
+@@ -134,8 +139,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-10-14" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/%E4%B8%AD%E5%B3%B6%E5%85%8B%E4%BB%81-%E4%BA%8B%E5%8B%99%E6%89%80-469293053090825" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100003030648555",
+-        "https://www.facebook.com/中島克仁-事務所-469293053090825" ;
++[] ns1:facebook "" ;
      ns1:twitter "katsunakajima" ;
      ns1:wikidata "Q11364418" ;
      ns1:名 "克仁" ;
-@@ -165,8 +172,18 @@
+@@ -144,8 +148,17 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1967-09-27" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/nakagawakomei" ;
+-[] ns1:facebook "https://www.facebook.com/nakagawakomei" ;
 -    ns1:twitter "nakagawa_komei" ;
-+    ns1:facebook "https://www.facebook.com/syunchoku" ;
++[] ns1:facebook "https://www.facebook.com/syunchoku" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q11364762" ;
 +    ns1:名 "俊直" ;
@@ -224,138 +189,76 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1970-04-25" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q20041786" ;
      ns1:名 "康洋" ;
      ns1:名前 "中川康洋" ;
-@@ -174,9 +191,8 @@
+@@ -153,7 +166,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1968-02-12" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/nakagawa.masaharu" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/nakagawa.masaharu" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1906668" ;
      ns1:名 "正春" ;
-@@ -185,9 +201,8 @@
+@@ -162,8 +175,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-06-10" .
  
--[] ns1: "10/7",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/nakagawa.office" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/nakagawa.office",
+-        "https://www.facebook.com/yuko.nakagawa.355" ;
++[] ns1:facebook "" ;
      ns1:twitter "nakagawayuko" ;
      ns1:wikidata "Q1655755" ;
      ns1:名 "郁子" ;
-@@ -196,7 +211,7 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1958-12-22" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6416606" ;
-@@ -206,10 +221,9 @@
+@@ -181,8 +193,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1949-04-10" .
  
--[] ns1: "10/9",
--        "Yfuruchin" ;
--    ns1:facebook "https://www.facebook.com/hiroyuki.nakamura.1466126" ;
+-[] ns1:facebook "https://www.facebook.com/hiroyuki.nakamura.1466126" ;
 -    ns1:twitter "nakamurahiro3" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11365989" ;
      ns1:名 "裕之" ;
      ns1:名前 "中村裕之" ;
-@@ -217,10 +231,9 @@
+@@ -190,7 +202,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-02-23" .
  
--[] ns1: "10/11",
--        "LINEアカウントがあるが取得できず",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/kazuyuki.nakane.75" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kazuyuki.nakane.75" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6381814" ;
      ns1:名 "一幸" ;
-@@ -229,8 +242,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1969-07-11" .
- 
--[] ns1: "10/13",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11366226" ;
-@@ -250,10 +262,9 @@
+@@ -217,8 +229,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-10-14" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/nakatani80" ;
+-[] ns1:facebook "https://www.facebook.com/nakatani80" ;
 -    ns1:twitter "nakatani80" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7477634" ;
      ns1:名 "真一" ;
      ns1:名前 "中谷真一" ;
-@@ -261,7 +272,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1976-09-30" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "https://www.facebook.com/nakanohiromasa.office" ;
-     ns1:twitter "hiro_nakano_" ;
-     ns1:wikidata "Q11367646" ;
-@@ -271,8 +283,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1978-01-04" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "maruyamahodaka" ;
-     ns1:wikidata "Q11368259" ;
-@@ -282,9 +293,9 @@
+@@ -244,7 +256,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1984-01-10" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/hideki.niwa.148" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hideki.niwa.148" ;
++[] ns1:facebook "" ;
      ns1:twitter "niwahideki" ;
      ns1:wikidata "Q5752415" ;
      ns1:名 "秀樹" ;
-@@ -293,8 +304,30 @@
+@@ -253,7 +265,25 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-12-20" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/yoshitami.kameoka" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yoshitami.kameoka" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q861808" ;
 +    ns1:名 "雄哉" ;
@@ -364,9 +267,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1944-04-20" .
 +
-+[] ns1: "10/4",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "kamei_shizuka" ;
 +    ns1:wikidata "Q1133463" ;
 +    ns1:名 "静香" ;
@@ -375,262 +276,132 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1936-11-01" .
 +
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "kameokayositami" ;
      ns1:wikidata "Q8056299" ;
      ns1:名 "偉民" ;
-@@ -303,7 +336,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1955-09-10" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1133880" ;
-@@ -313,9 +347,9 @@
+@@ -271,8 +301,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1939-02-17" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/inoue.s.net" ;
+-[] ns1:facebook "https://www.facebook.com/inoue.s.net" ;
 -    ns1:twitter "shinrai_seiji" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7497583" ;
      ns1:名 "信治" ;
      ns1:名前 "井上信治" ;
-@@ -323,7 +357,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1969-10-07" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q49936" ;
-@@ -333,9 +368,8 @@
+@@ -289,7 +319,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-07-24" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/hidetaka.inoue.5" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hidetaka.inoue.5" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11373203" ;
      ns1:名 "英孝" ;
-@@ -344,8 +378,9 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1971-10-25" .
- 
--[] ns1: "10/10",
--        "churu110" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "ホームページは違うのでは？" ;
-     ns1:facebook "https://www.facebook.com/inouetakahirojimusho" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11373245" ;
-@@ -365,8 +400,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1977-11-21" .
- 
--[] ns1: "10/14/2017",
--        "grck1004" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/isakanobuhiko" ;
-     ns1:twitter "isakanobuhiko" ;
-     ns1:wikidata "Q11373460" ;
-@@ -386,8 +420,8 @@
+@@ -334,7 +364,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1976-07-18" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/ino.toshiro" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ino.toshiro" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11373778" ;
      ns1:名 "俊郎" ;
-@@ -406,8 +440,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-02-21" .
- 
--[] ns1: "10/12",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6782366" ;
-@@ -417,7 +450,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1947-01-05" .
- 
--[] ns1: "" ;
-+[] ns1: "Yfuruchin" ;
-     ns1:facebook "https://www.facebook.com/pages/%E4%BB%8A%E6%9E%9D%E3%81%9D%E3%81%86%E3%81%84%E3%81%A1%E3%82%8D%E3%81" ;
-     ns1:twitter "imaeda_soichiro" ;
-     ns1:wikidata "Q11377132" ;
-@@ -427,10 +460,9 @@
-     ns1:性別 "男性" ;
+@@ -371,7 +401,7 @@
      ns1:生年月日 "1984-02-18" .
  
--[] ns1: "10/8",
--        "YFuruchin" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/imazuhiroshi164" ;
+ [] ns1:facebook "https://www.facebook.com/imazuhiroshi164" ;
 -    ns1:twitter "imazu164" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11377294" ;
      ns1:名 "寛" ;
      ns1:名前 "今津寛" ;
-@@ -439,7 +471,7 @@
+@@ -379,7 +409,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1946-09-30" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/tomohiro.konno.saitama11" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tomohiro.konno.saitama11" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q17158474" ;
      ns1:名 "智博" ;
-@@ -448,8 +480,9 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1975-07-25" .
- 
--[] ns1: "10/7",
--        "higa4" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "姓はナカ「サ」ト" ;
-     ns1:facebook "https://www.facebook.com/nakasatookinawa" ;
-     ns1:twitter "nakasatookinawa" ;
-     ns1:wikidata "Q18817877" ;
-@@ -459,8 +492,8 @@
+@@ -397,7 +427,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1937-03-16" .
  
--[] ns1: "10/12/2017" ;
--    ns1:facebook "https://www.facebook.com/isashinichi.1341" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/isashinichi.1341" ;
++[] ns1:facebook "" ;
      ns1:twitter "isashinichi" ;
      ns1:wikidata "Q11378895" ;
      ns1:名 "進一" ;
-@@ -469,9 +502,9 @@
+@@ -406,7 +436,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1974-12-10" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/伊吹-文明-306388919504640" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "https://www.facebook.com/pages/%E4%BC%8A%E5%90%B9-%E6%96%87%E6%98%8E/306388919504640" ;
+-[] ns1:facebook "https://www.facebook.com/伊吹-文明-306388919504640" ;
++[] ns1:facebook "https://www.facebook.com/pages/%E4%BC%8A%E5%90%B9-%E6%96%87%E6%98%8E/306388919504640" ;
      ns1:twitter "" ;
      ns1:wikidata "Q729599" ;
      ns1:名 "文明" ;
-@@ -480,10 +513,8 @@
+@@ -415,8 +445,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1938-01-09" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/itonobuhisa0104",
+-[] ns1:facebook "https://www.facebook.com/itonobuhisa0104",
 -        "https://www.facebook.com/nobuhisai" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/itonobuhisa0104" ;
++[] ns1:facebook "https://www.facebook.com/itonobuhisa0104" ;
      ns1:twitter "itonobuhisa" ;
      ns1:wikidata "Q11379447" ;
      ns1:名 "信久" ;
-@@ -492,9 +523,8 @@
+@@ -425,7 +454,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-01-04" .
  
--[] ns1: "10/9",
--        "Yfuruchin" ;
--    ns1:facebook "https://www.facebook.com/itoyoshitaka07" ;
-+[] ns1: "" ;
-+    ns1:facebook "http://www.facebook.com/itoyoshitaka07" ;
+-[] ns1:facebook "https://www.facebook.com/itoyoshitaka07" ;
++[] ns1:facebook "http://www.facebook.com/itoyoshitaka07" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11379575" ;
      ns1:名 "良孝" ;
-@@ -503,10 +533,9 @@
+@@ -434,8 +463,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-11-24" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/sintaro.ito.7" ;
+-[] ns1:facebook "https://www.facebook.com/sintaro.ito.7" ;
 -    ns1:twitter "shintaroito205" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7497782" ;
      ns1:名 "信太郎" ;
      ns1:名前 "伊藤信太郎" ;
-@@ -514,9 +543,8 @@
+@@ -443,7 +472,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-05-06" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/tadahikoitoh1101" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tadahikoitoh1101" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7674280" ;
      ns1:名 "忠彦" ;
-@@ -535,9 +563,9 @@
+@@ -461,8 +490,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1969-11-13" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/tatsuya.ito.18" ;
+-[] ns1:facebook "https://www.facebook.com/tatsuya.ito.18" ;
 -    ns1:twitter "tatsuyaito0501" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q614476" ;
      ns1:名 "達也" ;
      ns1:名前 "伊藤達也" ;
-@@ -555,8 +583,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1961-01-01" .
- 
--[] ns1: "10/9",
--        "tominari" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/start.sasaki.hajime" ;
-     ns1:twitter "hajime24331" ;
-     ns1:wikidata "Q17158871" ;
-@@ -566,8 +593,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1974-10-18" .
- 
--[] ns1: "10/9",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/takahiro.sasaki.54966" ;
-     ns1:twitter "sasaki_stop_tpp" ;
-     ns1:wikidata "Q7677066" ;
-@@ -577,10 +603,19 @@
+@@ -497,8 +526,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1949-03-10" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/satoyukari.japan",
+-[] ns1:facebook "https://www.facebook.com/satoyukari.japan",
 -        "https://www.facebook.com/satoyukari.jp" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q5533162" ;
 +    ns1:名 "玄一郎" ;
@@ -639,52 +410,33 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1952-12-22" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "satoyukari" ;
      ns1:wikidata "Q8060577" ;
      ns1:名 "ゆかり" ;
-@@ -589,7 +624,7 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1961-08-19" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1133360" ;
-@@ -599,9 +634,8 @@
+@@ -516,7 +553,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1952-06-20" .
  
--[] ns1: "10/7",
--        "YFuruchin" ;
--    ns1:facebook "https://www.facebook.com/hidemichi.sato.7" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hidemichi.sato.7" ;
++[] ns1:facebook "" ;
      ns1:twitter "hidemichisato" ;
      ns1:wikidata "Q11384409" ;
      ns1:名 "英道" ;
-@@ -610,9 +644,8 @@
+@@ -525,7 +562,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-09-26" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/shigeki3468" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/shigeki3468" ;
++[] ns1:facebook "" ;
      ns1:twitter "shigeki3468" ;
      ns1:wikidata "Q7496342" ;
      ns1:名 "茂樹" ;
-@@ -621,7 +654,19 @@
+@@ -534,6 +571,15 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1959-06-08" .
  
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "https://www.facebook.com/o.yasuoka" ;
++[] ns1:facebook "https://www.facebook.com/o.yasuoka" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q786752" ;
 +    ns1:名 "興治" ;
@@ -693,188 +445,122 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1939-05-11" .
 +
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11391317" ;
-@@ -641,9 +686,8 @@
+@@ -552,7 +598,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-07-04" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/h.togachan" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/h.togachan" ;
++[] ns1:facebook "" ;
      ns1:twitter "hiroyukitogash" ;
      ns1:wikidata "Q11395120" ;
      ns1:名 "博之" ;
-@@ -652,10 +696,9 @@
+@@ -561,8 +607,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1955-04-27" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/akihiro.hatsushika" ;
+-[] ns1:facebook "https://www.facebook.com/akihiro.hatsushika" ;
 -    ns1:twitter "akihatsushika" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11396609" ;
      ns1:名 "明博" ;
      ns1:名前 "初鹿明博" ;
-@@ -663,10 +706,9 @@
+@@ -570,8 +616,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1969-04-15" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/seiji.maehara21" ;
+-[] ns1:facebook "https://www.facebook.com/seiji.maehara21" ;
 -    ns1:twitter "maehara201" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q132280" ;
      ns1:名 "誠司" ;
      ns1:名前 "前原誠司" ;
-@@ -674,7 +716,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-04-30" .
- 
--[] ns1: "10/13",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-@@ -685,10 +727,9 @@
+@@ -588,8 +634,8 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1975-08-16" .
  
--[] ns1: "10/8",
--        "YFuruchin" ;
--    ns1:facebook "https://www.facebook.com/kazuo.maeda.334" ;
+-[] ns1:facebook "https://www.facebook.com/kazuo.maeda.334" ;
 -    ns1:twitter "donanmaeda" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11397382" ;
      ns1:名 "一男" ;
      ns1:名前 "前田一男" ;
-@@ -697,7 +738,7 @@
+@@ -597,7 +643,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1966-05-27" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/katsunobu.kato.7" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/katsunobu.kato.7" ;
++[] ns1:facebook "" ;
      ns1:twitter "katsunobukato" ;
      ns1:wikidata "Q6378155" ;
      ns1:名 "勝信" ;
-@@ -706,7 +747,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1955-11-22" .
- 
--[] ns1: "10/8",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-@@ -717,10 +758,9 @@
+@@ -615,8 +661,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-04-24" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/katoayuko.and.supporters" ;
+-[] ns1:facebook "https://www.facebook.com/katoayuko.and.supporters" ;
 -    ns1:twitter "katoayuko_and_s" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18701018" ;
      ns1:名 "鮎子" ;
      ns1:名前 "加藤鮎子" ;
-@@ -728,10 +768,8 @@
+@@ -624,7 +670,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1979-04-19" .
  
--[] ns1: "10/13",
--        "higa4",
--        "https://special.jimin.jp/candidate/sukeda_shigeyoshi.html" ;
--    ns1:facebook "https://www.facebook.com/sukeda.office.fukui" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/sukeda.office.fukui" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11399825" ;
      ns1:名 "重義" ;
-@@ -740,9 +778,9 @@
+@@ -633,7 +679,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-01-10" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/mutai.shunsuke" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/mutai.shunsuke" ;
++[] ns1:facebook "" ;
      ns1:twitter "mutaishunsuke" ;
      ns1:wikidata "Q7505129" ;
      ns1:名 "俊介" ;
-@@ -751,10 +789,9 @@
+@@ -642,8 +688,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1956-07-03" .
  
--[] ns1: "10/11/2017",
--        "ypresto" ;
--    ns1:facebook "https://www.facebook.com/people/Katsumata-Takaaki/100002449220587" ;
+-[] ns1:facebook "https://www.facebook.com/people/Katsumata-Takaaki/100002449220587" ;
 -    ns1:twitter "takaaki_katsu" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11400147" ;
      ns1:名 "孝明" ;
      ns1:名前 "勝俣孝明" ;
-@@ -762,9 +799,8 @@
+@@ -651,7 +697,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1976-04-07" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/shigeaki.katsunuma" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/shigeaki.katsunuma" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11400372" ;
      ns1:名 "栄明" ;
-@@ -773,8 +809,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1974-11-26" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/kitagawasakai" ;
-     ns1:twitter "kitagawa_kazuo" ;
-     ns1:wikidata "Q6381645" ;
-@@ -784,9 +819,8 @@
+@@ -669,7 +715,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-03-02" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/tomokatsu.kitagawa" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tomokatsu.kitagawa" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q265174" ;
      ns1:名 "知克" ;
-@@ -795,7 +829,18 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1951-11-08" .
+@@ -680,6 +726,15 @@
  
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
-+    ns1:twitter "" ;
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
 +    ns1:wikidata "Q7496361" ;
 +    ns1:名 "茂男" ;
 +    ns1:名前 "北村茂男" ;
@@ -882,184 +568,100 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1945-11-08" .
 +
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q7446686" ;
-@@ -805,9 +850,8 @@
+     ns1:名 "誠吾" ;
+     ns1:名前 "北村誠吾" ;
+@@ -687,7 +742,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-01-29" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "http://www.facebook.com/kitagamikeiro" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "http://www.facebook.com/kitagamikeiro" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6383814" ;
      ns1:名 "圭朗" ;
-@@ -826,8 +870,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1957-06-05" .
- 
--[] ns1: "10/10",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/kharagucih" ;
-     ns1:twitter "kharaguchi" ;
-     ns1:wikidata "Q548239" ;
-@@ -847,9 +890,8 @@
+@@ -723,7 +778,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-06-09" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/Yoshiaki4192" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/Yoshiaki4192" ;
++[] ns1:facebook "" ;
      ns1:twitter "yoshiaki_harada" ;
      ns1:wikidata "Q8055970" ;
      ns1:名 "義昭" ;
-@@ -858,9 +900,8 @@
+@@ -732,7 +787,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1944-10-01" .
  
--[] ns1: "10/8/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/furuyakeiji" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/furuyakeiji" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1704969" ;
      ns1:名 "圭司" ;
-@@ -869,9 +910,8 @@
+@@ -741,7 +796,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1952-11-01" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/noriko.furuya514" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/noriko.furuya514" ;
++[] ns1:facebook "" ;
      ns1:twitter "noriko_furuya" ;
      ns1:wikidata "Q7051265" ;
      ns1:名 "範子" ;
-@@ -890,8 +930,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1965-12-06" .
- 
--[] ns1: "10/10",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/55furukawa.yasushi" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q2576940" ;
-@@ -921,8 +960,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1965-03-11" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q18817349" ;
-@@ -942,7 +980,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1972-07-14" .
- 
--[] ns1: "10/8",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "yoshikawahajime" ;
-@@ -953,10 +991,10 @@
-     ns1:性別 "男性" ;
+@@ -814,7 +869,7 @@
      ns1:生年月日 "1966-09-28" .
  
--[] ns1: "10/8",
--        "Yfuruchin" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "https://www.facebook.com/takamori.yoshikawa" ;
+ [] ns1:facebook "https://www.facebook.com/takamori.yoshikawa" ;
 -    ns1:twitter "takamori_yoshi" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7677156" ;
      ns1:名 "貴盛" ;
      ns1:名前 "吉川貴盛" ;
-@@ -964,10 +1002,9 @@
-     ns1:性別 "男性" ;
+@@ -823,7 +878,7 @@
      ns1:生年月日 "1950-10-20" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "yoshida_komei" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q21703015" ;
      ns1:名 "宣弘" ;
      ns1:名前 "吉田宣弘" ;
-@@ -975,8 +1012,8 @@
+@@ -831,7 +886,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1967-12-08" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/yoshidaizumi01" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yoshidaizumi01" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6102348" ;
      ns1:名 "泉" ;
-@@ -985,10 +1022,9 @@
-     ns1:性別 "男性" ;
+@@ -841,7 +896,7 @@
      ns1:生年月日 "1949-02-26" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "toyo23office" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q21655857" ;
      ns1:名 "豊史" ;
      ns1:名前 "吉田豊史" ;
-@@ -1006,7 +1042,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1958-03-16" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q49949" ;
-@@ -1016,10 +1052,9 @@
+@@ -867,8 +922,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-08-08" .
  
--[] ns1: "10/9",
--        "Yfuruchin" ;
--    ns1:facebook "https://www.facebook.com/wadayoshiaki5" ;
+-[] ns1:facebook "https://www.facebook.com/wadayoshiaki5" ;
 -    ns1:twitter "ywada_hokkaido5" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q23907516" ;
      ns1:名 "義明" ;
      ns1:名前 "和田義明" ;
-@@ -1027,30 +1062,29 @@
+@@ -876,21 +931,21 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-10-10" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/kokubakonosuke" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kokubakonosuke" ;
++[] ns1:facebook "" ;
      ns1:twitter "kokubkonosuke" ;
      ns1:wikidata "Q11422694" ;
      ns1:名 "幸之助" ;
@@ -1070,12 +672,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1973-01-10" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/toru.kunishige" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/toru.kunishige" ;
++[] ns1:facebook "" ;
      ns1:twitter "torukunishige" ;
      ns1:wikidata "Q11422753" ;
      ns1:名 "徹" ;
@@ -1086,176 +684,109 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1974-11-23" .
  
--[] ns1: "10/12",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q457774" ;
-@@ -1060,9 +1094,8 @@
+@@ -903,7 +958,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1942-02-19" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/doitooru" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/doitooru" ;
++[] ns1:facebook "" ;
      ns1:twitter "doitooru812" ;
      ns1:wikidata "Q7862709" ;
      ns1:名 "亨" ;
-@@ -1071,9 +1104,10 @@
+@@ -912,8 +967,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-08-12" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/%E5%9C%9F%E5%B1%8B%E5%93%81%E5%AD%90%E3%81%A4%E3%81%A1%E3%82%84%E5%93%81%E5%AD%90%E4%BA%8B%E5%8B%99%E6%89%80-329738140769748" ;
+-[] ns1:facebook "https://www.facebook.com/%E5%9C%9F%E5%B1%8B%E5%93%81%E5%AD%90%E3%81%A4%E3%81%A1%E3%82%84%E5%93%81%E5%AD%90%E4%BA%8B%E5%8B%99%E6%89%80-329738140769748" ;
 -    ns1:twitter "shinako_jimusho" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11423241" ;
      ns1:名 "品子" ;
      ns1:名前 "土屋品子" ;
-@@ -1081,10 +1115,9 @@
-     ns1:性別 "女性" ;
+@@ -922,7 +977,7 @@
      ns1:生年月日 "1952-02-09" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "tsuchiyamasatad" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6782686" ;
      ns1:名 "正忠" ;
      ns1:名前 "土屋正忠" ;
-@@ -1093,7 +1126,7 @@
+@@ -930,7 +985,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1942-01-13" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/sakaimanabu.yokohama" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/sakaimanabu.yokohama" ;
++[] ns1:facebook "" ;
      ns1:twitter "sakai_manabu" ;
      ns1:wikidata "Q6746574" ;
      ns1:名 "学" ;
-@@ -1123,7 +1156,7 @@
+@@ -957,7 +1012,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1955-01-30" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kiuchi0419" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kiuchi0419" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11425985" ;
      ns1:名 "実" ;
-@@ -1132,9 +1165,8 @@
+@@ -966,7 +1021,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-04-19" .
  
--[] ns1: "10/9",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/jimusyo.horiimanabu" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jimusyo.horiimanabu" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1131407" ;
      ns1:名 "学" ;
-@@ -1143,10 +1175,9 @@
+@@ -975,8 +1030,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-02-19" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/terufumi.horiuchi" ;
+-[] ns1:facebook "https://www.facebook.com/terufumi.horiuchi" ;
 -    ns1:twitter "teruhoriuchi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18818101" ;
      ns1:名 "照文" ;
      ns1:名前 "堀内照文" ;
-@@ -1154,8 +1185,7 @@
+@@ -1011,7 +1066,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1972-11-02" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11427301" ;
-@@ -1186,7 +1216,7 @@
      ns1:生年月日 "1961-12-18" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/shionoya.ryu" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/shionoya.ryu" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q935199" ;
      ns1:名 "立" ;
-@@ -1195,10 +1225,9 @@
+@@ -1020,8 +1075,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-02-18" .
  
--[] ns1: "10/10",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/oogushihiroshi" ;
+-[] ns1:facebook "https://www.facebook.com/oogushihiroshi" ;
 -    ns1:twitter "oogushihiroshi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q5771003" ;
      ns1:名 "博志" ;
      ns1:名前 "大串博志" ;
-@@ -1227,7 +1256,7 @@
+@@ -1047,7 +1102,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1955-09-05" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/otsukataku.jimin" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/otsukataku.jimin" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7678536" ;
      ns1:名 "拓" ;
-@@ -1246,8 +1275,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-09-11" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11434738" ;
-@@ -1257,7 +1285,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1972-04-16" .
- 
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-@@ -1268,7 +1296,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1956-12-21" .
- 
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/tadamori.oshima" ;
-     ns1:twitter "tadamori_oshima" ;
-     ns1:wikidata "Q49998" ;
-@@ -1278,16 +1306,26 @@
+@@ -1092,14 +1147,23 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-09-06" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/ohirayoshinobu" ;
+-[] ns1:facebook "https://www.facebook.com/ohirayoshinobu" ;
 -    ns1:twitter "tekuteku_diary" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q30144920" ;
      ns1:名 "喜信" ;
@@ -1264,9 +795,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1978-02-28" .
 +
-+[] ns1: "10/5",
-+        "221daisuke" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q418119" ;
 +    ns1:名 "章宏" ;
@@ -1275,294 +804,181 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1947-10-05" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
-@@ -1299,10 +1337,9 @@
+ [] ns1:facebook "" ;
+     ns1:twitter "oniken0024" ;
+@@ -1110,8 +1174,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-04-13" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/hiroyuki.onishi.37" ;
+-[] ns1:facebook "https://www.facebook.com/hiroyuki.onishi.37" ;
 -    ns1:twitter "onishi_hiroyuki" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q20039110" ;
      ns1:名 "宏幸" ;
      ns1:名前 "大西宏幸" ;
-@@ -1310,7 +1347,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1967-07-15" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/0024hideo" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11438916" ;
-@@ -1320,10 +1357,9 @@
+@@ -1128,8 +1192,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-08-28" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/100011041118044" ;
+-[] ns1:facebook "https://www.facebook.com/100011041118044" ;
 -    ns1:twitter "" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "ohmisei" ;
      ns1:wikidata "Q11438945" ;
      ns1:名 "正" ;
      ns1:名前 "大見正" ;
-@@ -1341,9 +1377,8 @@
+@@ -1146,7 +1210,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1968-11-01" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/okuma10" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/okuma10" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q20039047" ;
      ns1:名 "和英" ;
-@@ -1352,10 +1387,10 @@
+@@ -1155,8 +1219,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1969-08-23" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/kazumi.ms" ;
+-[] ns1:facebook "https://www.facebook.com/kazumi.ms" ;
 -    ns1:twitter "ota_kazumi" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6381578" ;
      ns1:名 "和美" ;
      ns1:名前 "太田和美" ;
-@@ -1363,9 +1398,9 @@
+@@ -1164,8 +1228,8 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1979-08-28" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/teamohta" ;
+-[] ns1:facebook "https://www.facebook.com/teamohta" ;
 -    ns1:twitter "teamohta" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q337406" ;
      ns1:名 "昭宏" ;
      ns1:名前 "太田昭宏" ;
-@@ -1373,9 +1408,8 @@
+@@ -1173,7 +1237,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1945-10-06" .
  
--[] ns1: "10/13/2017",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/okuno.shinsuke" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/okuno.shinsuke" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7497769" ;
      ns1:名 "信亮" ;
-@@ -1385,8 +1419,8 @@
+@@ -1182,8 +1246,8 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1944-03-05" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/s.okuno2" ;
+-[] ns1:facebook "https://www.facebook.com/s.okuno2" ;
 -    ns1:twitter "sokuno2" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11446165" ;
      ns1:名 "総一郎" ;
      ns1:名前 "奥野総一郎" ;
-@@ -1394,8 +1428,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-07-15" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q212400" ;
-@@ -1405,8 +1438,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-01-17" .
- 
--[] ns1: "10/12",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/abeshinzo" ;
-     ns1:twitter "abeshinzo" ;
-     ns1:wikidata "Q132345" ;
-@@ -1416,9 +1448,8 @@
+@@ -1209,7 +1273,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-09-21" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/office.ando.hiroshi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/office.ando.hiroshi" ;
++[] ns1:facebook "" ;
      ns1:twitter "andouhiroshi" ;
      ns1:wikidata "Q11451405" ;
      ns1:名 "裕" ;
-@@ -1427,10 +1458,9 @@
+@@ -1218,8 +1282,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-03-28" .
  
--[] ns1: "10/10/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100008489673816" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100008489673816" ;
 -    ns1:twitter "munekiyooffice" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18818207" ;
      ns1:名 "皇一" ;
      ns1:名前 "宗清皇一" ;
-@@ -1448,8 +1478,7 @@
+@@ -1245,8 +1309,8 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1958-08-01" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/MiyauchiHideki" ;
-     ns1:twitter "miyauchihideki" ;
-     ns1:wikidata "Q11453336" ;
-@@ -1460,8 +1489,8 @@
      ns1:生年月日 "1962-10-19" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/takeshi.miyazaki.961" ;
+-[] ns1:facebook "https://www.facebook.com/takeshi.miyazaki.961" ;
 -    ns1:twitter "miyazaki_takesh" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11454258" ;
      ns1:名 "岳志" ;
      ns1:名前 "宮崎岳志" ;
-@@ -1469,10 +1498,9 @@
+@@ -1254,8 +1318,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-02-14" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/masahisa.miyazaki.9" ;
+-[] ns1:facebook "https://www.facebook.com/masahisa.miyazaki.9" ;
 -    ns1:twitter "miyazaki_kirin" ;
-+[] ns1: "" ;
-+    ns1:facebook "http://www.facebook.com/masahisa.miyazaki.9" ;
++[] ns1:facebook "http://www.facebook.com/masahisa.miyazaki.9" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11454333" ;
      ns1:名 "政久" ;
      ns1:名前 "宮崎政久" ;
-@@ -1480,10 +1508,9 @@
+@@ -1263,8 +1327,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-08-08" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/noriko.miyagawa.50" ;
+-[] ns1:facebook "https://www.facebook.com/noriko.miyagawa.50" ;
 -    ns1:twitter "norikomiya" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11454668" ;
      ns1:名 "典子" ;
      ns1:名前 "宮川典子" ;
-@@ -1491,8 +1518,7 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1979-04-05" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11454828" ;
-@@ -1502,10 +1528,9 @@
+@@ -1281,8 +1345,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1959-12-25" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/miyamototooru.jcp" ;
+-[] ns1:facebook "https://www.facebook.com/miyamototooru.jcp" ;
 -    ns1:twitter "miyamototooru" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18818200" ;
      ns1:名 "徹" ;
      ns1:名前 "宮本徹" ;
-@@ -1513,9 +1538,9 @@
+@@ -1290,7 +1354,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-01-22" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/miyakoshi.mitsuhiro" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/miyakoshi.mitsuhiro" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1656896" ;
      ns1:名 "光寛" ;
-@@ -1524,8 +1549,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1950-12-21" .
- 
--[] ns1: "10/12",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/miyaji.takuma" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q21655823" ;
-@@ -1535,8 +1559,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1979-12-06" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7496423" ;
-@@ -1546,10 +1569,10 @@
+@@ -1317,8 +1381,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-10-01" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/teratamanabu" ;
+-[] ns1:facebook "https://www.facebook.com/teratamanabu" ;
 -    ns1:twitter "teratamanabu" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6746585" ;
      ns1:名 "学" ;
      ns1:名前 "寺田学" ;
-@@ -1558,7 +1581,7 @@
+@@ -1326,7 +1390,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1976-09-20" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/TeradaMinoru.page" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/TeradaMinoru.page" ;
++[] ns1:facebook "" ;
      ns1:twitter "terada124" ;
      ns1:wikidata "Q6869306" ;
      ns1:名 "稔" ;
-@@ -1567,20 +1590,19 @@
+@@ -1335,17 +1399,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-01-24" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/masanobu.ogura.9",
+-[] ns1:facebook "https://www.facebook.com/masanobu.ogura.9",
 -        "https://www.facebook.com/ogura.masanobu" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "https://www.facebook.com/ogura.masanobu" ;
++[] ns1:facebook "https://www.facebook.com/ogura.masanobu" ;
      ns1:twitter "masanobu_ogura" ;
      ns1:wikidata "Q11458942" ;
 -    ns1:名 "將信" ;
@@ -1573,149 +989,85 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1981-05-30" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/yasko.komiyama" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yasko.komiyama" ;
++[] ns1:facebook "" ;
      ns1:twitter "komiyama_yasko" ;
      ns1:wikidata "Q8050022" ;
      ns1:名 "泰子" ;
-@@ -1599,9 +1621,8 @@
+@@ -1363,7 +1426,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-12-26" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/kojimatoshifumi.fp" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kojimatoshifumi.fp" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11460163" ;
      ns1:名 "敏文" ;
-@@ -1610,9 +1631,9 @@
+@@ -1372,7 +1435,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-09-07" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/people/%E5%B0%8F%E5%B7%9D%E6%B7%B3%E4%B9%9F/100002343830458" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E5%B0%8F%E5%B7%9D%E6%B7%B3%E4%B9%9F/100002343830458" ;
++[] ns1:facebook "" ;
      ns1:twitter "junyaog" ;
      ns1:wikidata "Q6314413" ;
      ns1:名 "淳也" ;
-@@ -1621,9 +1642,9 @@
+@@ -1381,7 +1444,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-04-18" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/komatsu.yutaka" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/komatsu.yutaka" ;
++[] ns1:facebook "" ;
      ns1:twitter "komatsu_yutaka" ;
      ns1:wikidata "Q11461246" ;
      ns1:名 "裕" ;
-@@ -1632,8 +1653,9 @@
+@@ -1390,7 +1453,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-12-03" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/fumiaki.kobayashi0408" ;
-+[] ns1: "10/5",
-+        "ninofku" ;
-+    ns1:facebook "https://www.facebook.com/fumiaki.kobayashi.2012" ;
+-[] ns1:facebook "https://www.facebook.com/fumiaki.kobayashi0408" ;
++[] ns1:facebook "https://www.facebook.com/fumiaki.kobayashi.2012" ;
      ns1:twitter "kb2474" ;
      ns1:wikidata "Q11461458" ;
      ns1:名 "史明" ;
-@@ -1643,7 +1665,7 @@
+@@ -1399,7 +1462,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1983-04-08" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hawk.kobayashi" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hawk.kobayashi" ;
++[] ns1:facebook "" ;
      ns1:twitter "kobahawk" ;
      ns1:wikidata "Q11461955" ;
      ns1:名 "鷹之" ;
-@@ -1653,7 +1675,7 @@
+@@ -1408,7 +1471,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1974-11-29" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hachirouokonogi" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hachirouokonogi" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q5637084" ;
      ns1:名 "八郎" ;
-@@ -1662,8 +1684,7 @@
+@@ -1444,7 +1507,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1965-06-22" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "ozawa_jimusho" ;
-     ns1:wikidata "Q459998" ;
-@@ -1673,8 +1694,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1942-05-24" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/pages/%E5%B0%8F%E6%B2%A2%E3%81%95%E3%81%8D%E3%81%B2%E3%81%A8%E8%A1%86%E8%AD" ;
-     ns1:twitter "ozawasakihito" ;
-     ns1:wikidata "Q978256" ;
-@@ -1684,7 +1704,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1954-05-31" .
- 
--[] ns1: "" ;
-+[] ns1: "10/6",
-+        "ninofku" ;
-     ns1:facebook "https://www.facebook.com/shinjiro.koizumi" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q661410" ;
-@@ -1695,7 +1716,7 @@
      ns1:生年月日 "1981-04-14" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/koizumiryuuji" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/koizumiryuuji" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11462582" ;
      ns1:名 "龍司" ;
-@@ -1704,7 +1725,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1952-09-17" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q455848" ;
-@@ -1714,8 +1735,8 @@
+@@ -1462,7 +1525,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1973-12-11" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/shinji.oguma.5" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/shinji.oguma.5" ;
++[] ns1:facebook "" ;
      ns1:twitter "oguma_shinji" ;
      ns1:wikidata "Q11462766" ;
      ns1:名 "慎司" ;
-@@ -1724,12 +1745,13 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1968-06-16" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "https://www.facebook.com/%E5%B0%8F%E7%94%B0%E5%8E%9F%E3%81%8D%E3%82%88%E3%81%97-319460971405607" ;
+@@ -1474,8 +1537,8 @@
+ [] ns1:facebook "https://www.facebook.com/%E5%B0%8F%E7%94%B0%E5%8E%9F%E3%81%8D%E3%82%88%E3%81%97-319460971405607" ;
      ns1:twitter "odawarakiyoshi" ;
      ns1:wikidata "Q11462993" ;
 -    ns1:名 "潔" ;
@@ -1725,209 +1077,133 @@
      ns1:姓 "小田原" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-05-23" .
-@@ -1744,8 +1766,7 @@
+@@ -1498,7 +1561,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1958-09-29" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "itsunori510" ;
-     ns1:wikidata "Q49969" ;
-@@ -1756,7 +1777,7 @@
      ns1:生年月日 "1960-05-05" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/AsakoOmi.jp" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/AsakoOmi.jp" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11465449" ;
      ns1:名 "朝子" ;
-@@ -1775,9 +1796,8 @@
+@@ -1516,7 +1579,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-09-08" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/yamanoikazunori" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yamanoikazunori" ;
++[] ns1:facebook "" ;
      ns1:twitter "yamanoikazunori" ;
      ns1:wikidata "Q11466249" ;
      ns1:名 "和則" ;
-@@ -1796,8 +1816,9 @@
+@@ -1534,7 +1597,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-02-28" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/yamaguchi244" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yamaguchi244" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q704345" ;
      ns1:名 "壯" ;
-@@ -1806,9 +1827,8 @@
+@@ -1543,8 +1606,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-10-03" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/taimei.yamaguchi",
+-[] ns1:facebook "https://www.facebook.com/taimei.yamaguchi",
 -        "https://www.facebook.com/yamaguchitaimei" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "taimei1" ;
      ns1:wikidata "Q7676160" ;
      ns1:名 "泰明" ;
-@@ -1817,9 +1837,8 @@
+@@ -1553,7 +1615,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-11-10" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/yamaoshiori" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yamaoshiori" ;
++[] ns1:facebook "" ;
      ns1:twitter "shioriyamao" ;
      ns1:wikidata "Q11467778" ;
      ns1:名 "志桜里" ;
-@@ -1828,7 +1847,8 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1974-07-24" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6426244" ;
-@@ -1838,10 +1858,9 @@
+@@ -1571,8 +1633,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-09-04" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/yamamotokozogiin" ;
+-[] ns1:facebook "https://www.facebook.com/yamamotokozogiin" ;
 -    ns1:twitter "yamamotogiin" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6435368" ;
      ns1:名 "幸三" ;
      ns1:名前 "山本幸三" ;
-@@ -1849,8 +1868,8 @@
+@@ -1598,7 +1660,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1948-08-08" .
- 
--[] ns1: "10/8",
--        "higa4" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-     ns1:facebook "https://www.facebook.com/takunetwork" ;
-     ns1:twitter "yamamoto_taku" ;
-     ns1:wikidata "Q7678543" ;
-@@ -1871,7 +1890,7 @@
      ns1:生年月日 "1952-05-11" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/polepole.ty" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/polepole.ty" ;
++[] ns1:facebook "" ;
      ns1:twitter "ty_polepole" ;
      ns1:wikidata "Q11469130" ;
      ns1:名 "朋広" ;
-@@ -1880,8 +1899,8 @@
+@@ -1607,7 +1669,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-06-20" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/mikiprofile" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/mikiprofile" ;
++[] ns1:facebook "" ;
      ns1:twitter "yamada_miki" ;
      ns1:wikidata "Q11470608" ;
      ns1:名 "美樹" ;
-@@ -1910,8 +1929,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1968-09-12" .
+@@ -1644,7 +1706,7 @@
+     ns1:生年月日 "1975-03-08" .
  
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q20039172" ;
-@@ -1923,7 +1941,7 @@
- 
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "okamotooffice" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q16264927" ;
      ns1:名 "三成" ;
      ns1:名前 "岡本三成" ;
-@@ -1941,8 +1959,7 @@
+@@ -1670,8 +1732,8 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1971-06-18" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/katsuyaokada" ;
-     ns1:twitter "okada_katsuya" ;
-     ns1:wikidata "Q513317" ;
-@@ -1953,8 +1970,8 @@
      ns1:生年月日 "1953-07-14" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/iwayajimusho" ;
+-[] ns1:facebook "https://www.facebook.com/iwayajimusho" ;
 -    ns1:twitter "takeshi108" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q1654639" ;
      ns1:名 "毅" ;
      ns1:名前 "岩屋毅" ;
-@@ -1962,9 +1979,8 @@
+@@ -1679,7 +1741,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-08-24" .
  
--[] ns1: "10/10",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/kazuchika.iwata" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kazuchika.iwata" ;
++[] ns1:facebook "" ;
      ns1:twitter "kazuchika_iwata" ;
      ns1:wikidata "Q11475456" ;
      ns1:名 "和親" ;
-@@ -1974,7 +1990,7 @@
+@@ -1688,7 +1750,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1973-09-20" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kishinobuo" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kishinobuo" ;
++[] ns1:facebook "" ;
      ns1:twitter "kishinobuo" ;
      ns1:wikidata "Q1995125" ;
      ns1:名 "信夫" ;
-@@ -1994,7 +2010,7 @@
+@@ -1706,7 +1768,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1956-07-12" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/fkishida" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/fkishida" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q359480" ;
      ns1:名 "文雄" ;
-@@ -2003,15 +2019,17 @@
-     ns1:性別 "男性" ;
+@@ -1716,13 +1778,13 @@
      ns1:生年月日 "1957-07-29" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "u_simazu" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "公式サイトやウィキペディアでは「1956年10月19日生まれ」" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18817650" ;
      ns1:名 "幸広" ;
@@ -1937,26 +1213,14 @@
 -    ns1:生年月日 "1956-10-19" .
 +    ns1:生年月日 "1956-10-01" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
-@@ -2023,7 +2041,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1970-05-08" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
-     ns1:wikidata "Q1689655" ;
-@@ -2033,8 +2052,17 @@
+@@ -1741,6 +1803,15 @@
+     ns1:姓 "川崎" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-11-15" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q1131518" ;
 +    ns1:名 "達夫" ;
@@ -1964,33 +1228,24 @@
 +    ns1:姓 "川端" ;
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1945-01-24" .
-+
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/kudoshozo" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/kudoshozo" ;
      ns1:twitter "kudoshozo" ;
-     ns1:wikidata "Q11479573" ;
-@@ -2044,9 +2072,8 @@
+@@ -1751,7 +1822,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-12-08" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/jimusyo.satoakira" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jimusyo.satoakira" ;
++[] ns1:facebook "" ;
      ns1:twitter "310akirasato" ;
      ns1:wikidata "Q9067667" ;
      ns1:名 "章" ;
-@@ -2055,17 +2082,20 @@
+@@ -1760,11 +1831,11 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1951-07-12" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hiraitakuya" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "平井卓也" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hiraitakuya" ;
++[] ns1:facebook "" ;
      ns1:twitter "hiratakuchan" ;
      ns1:wikidata "Q7678622" ;
 -    ns1:名 "卓也" ;
@@ -2000,46 +1255,23 @@
      ns1:姓 "平井" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-01-25" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q5770815" ;
-@@ -2075,10 +2105,8 @@
+@@ -1778,8 +1849,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-08-01" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/masaaki.taira.7",
+-[] ns1:facebook "https://www.facebook.com/masaaki.taira.7",
 -        "https://www.facebook.com/tairamasaaki" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "tairamasaaki" ;
      ns1:wikidata "Q6782264" ;
      ns1:名 "将明" ;
-@@ -2087,7 +2115,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1967-02-21" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/hirasawakatuei" ;
-     ns1:twitter "katsueihirasawa" ;
-     ns1:wikidata "Q6378065" ;
-@@ -2097,10 +2125,20 @@
+@@ -1797,8 +1867,17 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1945-09-04" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/hhirano.jp" ;
+-[] ns1:facebook "https://www.facebook.com/hhirano.jp" ;
 -    ns1:twitter "hiranohirofumi" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q405085" ;
 +    ns1:名 "赳夫" ;
@@ -2048,381 +1280,222 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1939-08-03" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q1155448" ;
      ns1:名 "博文" ;
      ns1:名前 "平野博文" ;
-@@ -2110,7 +2148,7 @@
+@@ -1807,7 +1886,7 @@
+     ns1:生年月日 "1949-03-19" .
  
- [] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/gotoda.masazumi" ;
+ [] ns1:facebook "https://www.facebook.com/gotoda.masazumi" ;
 -    ns1:twitter "gotodamasazumi" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6782819" ;
      ns1:名 "正純" ;
      ns1:名前 "後藤田正純" ;
-@@ -2138,7 +2176,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1955-12-09" .
- 
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-@@ -2149,8 +2187,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-05-25" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "shiikazuo" ;
-     ns1:wikidata "Q337507" ;
-@@ -2160,8 +2197,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1954-07-29" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/saito9kazuko" ;
-     ns1:twitter "saitokazuko" ;
-     ns1:wikidata "Q18817567" ;
-@@ -2171,9 +2207,8 @@
+@@ -1860,7 +1939,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1974-09-29" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/komei.tetsuosaito" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/komei.tetsuosaito" ;
++[] ns1:facebook "" ;
      ns1:twitter "saitotetsuo" ;
      ns1:wikidata "Q926287" ;
      ns1:名 "鉄夫" ;
-@@ -2182,9 +2217,8 @@
+@@ -1869,7 +1948,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1952-02-05" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/saitohiroaki2" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/saitohiroaki2" ;
++[] ns1:facebook "" ;
      ns1:twitter "saito_hiroaki_" ;
      ns1:wikidata "Q17158549" ;
      ns1:名 "洋明" ;
-@@ -2194,7 +2228,7 @@
+@@ -1878,7 +1957,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1976-12-08" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/100005256916522" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/100005256916522" ;
++[] ns1:facebook "" ;
      ns1:twitter "shindo_y" ;
      ns1:wikidata "Q529792" ;
      ns1:名 "義孝" ;
-@@ -2203,8 +2237,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1958-01-20" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/shintani.officialpage" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q15220933" ;
-@@ -2224,9 +2257,9 @@
+@@ -1905,7 +1984,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1963-08-08" .
  
--[] ns1: "2017/10/9",
--        "kudarisenmon" ;
--    ns1:facebook "https://www.facebook.com/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-%E6%9C%9B%E6%9C%88%E7%BE%A9%E5%A4%AB%E4%BA%8B%E5%8B%99%E6%89%80-320691041291324" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-%E6%9C%9B%E6%9C%88%E7%BE%A9%E5%A4%AB%E4%BA%8B%E5%8B%99%E6%89%80-320691041291324" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q8056243" ;
      ns1:名 "義夫" ;
-@@ -2265,8 +2298,9 @@
+@@ -1941,7 +2020,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1966-08-30" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kiharaminoru.official" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kiharaminoru.official" ;
++[] ns1:facebook "" ;
      ns1:twitter "kihara_minoru" ;
      ns1:wikidata "Q11518220" ;
      ns1:名 "稔" ;
-@@ -2275,8 +2309,9 @@
+@@ -1950,7 +2029,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1969-08-12" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/seiji.kihara" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/seiji.kihara" ;
++[] ns1:facebook "" ;
      ns1:twitter "kihara_seiji" ;
      ns1:wikidata "Q11518222" ;
      ns1:名 "誠二" ;
-@@ -2285,8 +2320,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1970-06-08" .
+@@ -1969,7 +2048,7 @@
+     ns1:生年月日 "1965-08-11" .
  
--[] ns1: "10/12/2017",
--        "grck1004" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q20039675" ;
-@@ -2298,7 +2332,7 @@
- 
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "motomura_nobuko" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18818221" ;
      ns1:名 "伸子" ;
      ns1:名前 "本村伸子" ;
-@@ -2336,8 +2370,7 @@
+@@ -2013,8 +2092,8 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1980-05-14" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "muraoka_toshi" ;
-     ns1:wikidata "Q11523193" ;
-@@ -2348,8 +2381,8 @@
      ns1:生年月日 "1960-07-25" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/matsubara.jin.office" ;
+-[] ns1:facebook "https://www.facebook.com/matsubara.jin.office" ;
 -    ns1:twitter "matsubarajin731" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q1336805" ;
      ns1:名 "仁" ;
      ns1:名前 "松原仁" ;
-@@ -2357,9 +2390,8 @@
+@@ -2022,8 +2101,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1956-07-31" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/LDPmatsumido",
+-[] ns1:facebook "https://www.facebook.com/LDPmatsumido",
 -        "https://www.facebook.com/matsushimamidori" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "matusimamidori" ;
      ns1:wikidata "Q6842917" ;
      ns1:名 "みどり" ;
-@@ -2368,11 +2400,9 @@
+@@ -2032,8 +2110,8 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1956-07-15" .
  
--[] ns1: "10/8",
--        "Yfuruchin",
--        "本名しずひろ、政治活動時はけんこう" ;
--    ns1:facebook "https://www.facebook.com/松木けんこう-870688479616480" ;
+-[] ns1:facebook "https://www.facebook.com/松木けんこう-870688479616480" ;
 -    ns1:twitter "kenkou64865187" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6389412" ;
      ns1:名 "謙公" ;
      ns1:名前 "松木謙公" ;
-@@ -2381,7 +2411,7 @@
+@@ -2041,7 +2119,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1959-02-22" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/takeaki.matsumoto.94" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/takeaki.matsumoto.94" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1315762" ;
      ns1:名 "剛明" ;
-@@ -2391,8 +2421,8 @@
+@@ -2050,8 +2128,8 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1959-04-25" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/matsumoto.fumiaki" ;
+-[] ns1:facebook "https://www.facebook.com/matsumoto.fumiaki" ;
 -    ns1:twitter "matsumoto_7ku" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q5508556" ;
      ns1:名 "文明" ;
      ns1:名前 "松本文明" ;
-@@ -2400,8 +2430,8 @@
+@@ -2059,7 +2137,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1949-03-25" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/matsumoto.yohei.7" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/matsumoto.yohei.7" ;
++[] ns1:facebook "" ;
      ns1:twitter "matsumoto_yohei" ;
      ns1:wikidata "Q5680924" ;
      ns1:名 "洋平" ;
-@@ -2440,8 +2470,9 @@
+@@ -2095,7 +2173,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-05-08" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/matsunohirokazu" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "https://www.facebook.com/pages/%E6%9D%BE%E9%87%8E%E5%8D%9A%E4%B8%80/326565974070639" ;
+-[] ns1:facebook "https://www.facebook.com/matsunohirokazu" ;
++[] ns1:facebook "https://www.facebook.com/pages/%E6%9D%BE%E9%87%8E%E5%8D%9A%E4%B8%80/326565974070639" ;
      ns1:twitter "" ;
      ns1:wikidata "Q5770251" ;
      ns1:名 "博一" ;
-@@ -2451,7 +2482,7 @@
+@@ -2104,7 +2182,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1962-09-13" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/matsunoyorihisa" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/matsunoyorihisa" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q8055323" ;
      ns1:名 "頼久" ;
-@@ -2460,7 +2491,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1960-09-19" .
- 
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q926370" ;
-@@ -2470,10 +2501,9 @@
-     ns1:性別 "男性" ;
+@@ -2123,7 +2201,7 @@
      ns1:生年月日 "1947-01-03" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "edanoyukio0531" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q732087" ;
      ns1:名 "幸男" ;
      ns1:名前 "枝野幸男" ;
-@@ -2481,10 +2511,9 @@
+@@ -2131,8 +2209,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-05-31" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/michiyohi.yunoki" ;
+-[] ns1:facebook "https://www.facebook.com/michiyohi.yunoki" ;
 -    ns1:twitter "yunoki_m" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6837954" ;
      ns1:名 "道義" ;
      ns1:名前 "柚木道義" ;
-@@ -2492,9 +2521,8 @@
+@@ -2140,7 +2218,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-05-28" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/549728848437286" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/549728848437286" ;
++[] ns1:facebook "" ;
      ns1:twitter "shiba_masa" ;
      ns1:wikidata "Q6782350" ;
      ns1:名 "昌彦" ;
-@@ -2503,8 +2531,8 @@
+@@ -2149,7 +2227,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-12-05" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/mito.kakizawa" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/mito.kakizawa" ;
++[] ns1:facebook "" ;
      ns1:twitter "310kakizawa" ;
      ns1:wikidata "Q11535033" ;
      ns1:名 "未途" ;
-@@ -2513,7 +2541,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1971-01-21" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/Nemoto.Official" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1704924" ;
-@@ -2533,7 +2561,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1965-02-21" .
- 
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "http://www.facebook.com/yoshitaka.sakurada" ;
-     ns1:twitter "ysakurada" ;
-@@ -2544,8 +2572,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1949-12-20" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6383605" ;
-@@ -2555,10 +2582,9 @@
+@@ -2194,8 +2272,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1951-04-03" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/saeko.umemura.3" ;
+-[] ns1:facebook "https://www.facebook.com/saeko.umemura.3" ;
 -    ns1:twitter "umemura_saeko" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18700742" ;
      ns1:名 "早江子" ;
      ns1:名前 "梅村早江子" ;
-@@ -2566,8 +2592,9 @@
+@@ -2203,7 +2281,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1964-06-28" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/kajiyama.hiroshi" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kajiyama.hiroshi" ;
++[] ns1:facebook "" ;
      ns1:twitter "kajiyamahiroshi" ;
      ns1:wikidata "Q5770884" ;
      ns1:名 "弘志" ;
-@@ -2576,8 +2603,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1955-10-18" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1340817" ;
-@@ -2587,13 +2613,13 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1963-02-11" .
- 
--[] ns1: "10/8",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "" ;
+@@ -2224,8 +2302,8 @@
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q337762" ;
 -    ns1:名 "𥙿" ;
@@ -2432,29 +1505,23 @@
      ns1:姓 "森山" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1945-04-08" .
-@@ -2608,10 +2634,9 @@
+@@ -2239,8 +2317,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-08-31" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/ishin.shiiki.tamotsu" ;
+-[] ns1:facebook "https://www.facebook.com/ishin.shiiki.tamotsu" ;
 -    ns1:twitter "shiiki_tamotsu_" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11647123" ;
      ns1:名 "保" ;
      ns1:名前 "椎木保" ;
-@@ -2619,9 +2644,18 @@
+@@ -2248,7 +2326,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1966-07-04" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/hiroyuki.yokoyama.12" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hiroyuki.yokoyama.12" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q11542092" ;
 +    ns1:名 "尚也" ;
@@ -2463,19 +1530,16 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1971-04-11" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q18818315" ;
      ns1:名 "博幸" ;
-@@ -2629,6 +2663,17 @@
+@@ -2256,6 +2343,15 @@
      ns1:姓 "横山" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-11-06" .
 +
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q130856" ;
 +    ns1:名 "孝弘" ;
@@ -2484,80 +1548,33 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1941-01-03" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
-@@ -2640,9 +2685,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1974-02-05" .
- 
--[] ns1: "10/13",
--        "higa4",
--        "https://special.jimin.jp/candidate/hashimoto_hidenori.html" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11544051" ;
-@@ -2652,9 +2695,8 @@
+ [] ns1:facebook "" ;
+     ns1:twitter "ga9_h" ;
+@@ -2275,7 +2371,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1967-08-28" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/tachibana.keiichirou" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tachibana.keiichirou" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11544282" ;
      ns1:名 "慶一郎" ;
-@@ -2664,8 +2706,7 @@
+@@ -2284,8 +2380,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1961-01-23" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/syunsuke.takei",
+-[] ns1:facebook "https://www.facebook.com/syunsuke.takei",
 -        "https://www.facebook.com/takeisyunsuke" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "syunsuke_takei" ;
      ns1:wikidata "Q11545768" ;
      ns1:名 "俊輔" ;
-@@ -2674,8 +2715,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1975-03-29" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "nobu_takemura" ;
-     ns1:wikidata "Q11546026" ;
-@@ -2695,8 +2735,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1961-03-23" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7385342" ;
-@@ -2706,8 +2745,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1968-04-01" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "mutouyouji" ;
-     ns1:wikidata "Q8054534" ;
-@@ -2717,9 +2755,18 @@
+@@ -2330,7 +2425,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1955-10-18" .
  
--[] ns1: "10/7",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/takebearata" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/takebearata" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "takaya_mutou" ;
 +    ns1:wikidata "Q11546528" ;
 +    ns1:名 "貴也" ;
@@ -2566,30 +1583,26 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1979-05-25" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "takebearata" ;
      ns1:wikidata "Q11546586" ;
      ns1:名 "新" ;
-@@ -2728,9 +2775,8 @@
+@@ -2339,7 +2443,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-07-20" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/natsumi.smile" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/natsumi.smile" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11547421" ;
      ns1:名 "奈津美" ;
-@@ -2740,8 +2786,17 @@
+@@ -2348,8 +2452,16 @@
+     ns1:性別 "女性" ;
      ns1:生年月日 "1958-10-03" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/%E3%81%AA%E3%81%8C%E3%81%8A%E3%81%8B%E6%A1%82%E5%AD%90-%E5%BE%8C%E6%8F%B4%E4%BC%9A-361582137587658",
+-[] ns1:facebook "https://www.facebook.com/%E3%81%AA%E3%81%8C%E3%81%8A%E3%81%8B%E6%A1%82%E5%AD%90-%E5%BE%8C%E6%8F%B4%E4%BC%9A-361582137587658",
 -        "https://www.facebook.com/profile.php?id=100002781598616" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q6782673" ;
 +    ns1:名 "将史" ;
@@ -2598,179 +1611,109 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1962-07-28" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6383690" ;
      ns1:名 "桂子" ;
-@@ -2750,7 +2805,8 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1953-12-08" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7706881" ;
-@@ -2760,8 +2816,7 @@
+@@ -2385,7 +2497,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1943-09-17" .
- 
--[] ns1: "10/9",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "eto_akinori" ;
-     ns1:wikidata "Q49999" ;
-@@ -2771,8 +2826,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1955-10-12" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q8050128" ;
-@@ -2783,7 +2837,7 @@
      ns1:生年月日 "1956-03-19" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/edakenji" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/edakenji" ;
++[] ns1:facebook "" ;
      ns1:twitter "edaoffice" ;
      ns1:wikidata "Q6389323" ;
      ns1:名 "憲司" ;
-@@ -2802,11 +2856,10 @@
+@@ -2403,10 +2515,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-07-01" .
  
--[] ns1: "10/11" ;
--    ns1:facebook "https://www.facebook.com/saolyn.ikeuchi",
+-[] ns1:facebook "https://www.facebook.com/saolyn.ikeuchi",
 -        "https://www.facebook.com/saorioshitai" ;
 -    ns1:twitter "ikeuchi_saori",
 -        "saorijimusyo" ;
-+[] ns1: "10/5",
-+        "ninofku" ;
-+    ns1:facebook "https://www.facebook.com/saolyn.ikeuchi" ;
++[] ns1:facebook "https://www.facebook.com/saolyn.ikeuchi" ;
 +    ns1:twitter "ikeuchi_saori" ;
      ns1:wikidata "Q18669603" ;
      ns1:名 "沙織" ;
      ns1:名前 "池内沙織" ;
-@@ -2824,8 +2877,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1966-06-20" .
+@@ -2433,7 +2543,7 @@
+     ns1:生年月日 "1947-02-09" .
  
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11552157" ;
-@@ -2837,7 +2890,7 @@
- 
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "katsukawai" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11553342" ;
      ns1:名 "克行" ;
      ns1:名前 "河井克行" ;
-@@ -2845,9 +2898,9 @@
-     ns1:性別 "男性" ;
+@@ -2442,7 +2552,7 @@
      ns1:生年月日 "1963-03-11" .
  
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/tspark.net" ;
+ [] ns1:facebook "https://www.facebook.com/tspark.net" ;
 -    ns1:twitter "takeokawamura" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q382311" ;
      ns1:名 "建夫" ;
      ns1:名前 "河村建夫" ;
-@@ -2856,7 +2909,7 @@
+@@ -2450,7 +2560,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1942-11-10" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/河野太郎-168727046514485" ;
-+    ns1:facebook "https://www.facebook.com/pages/%E6%B2%B3%E9%87%8E%E5%A4%AA%E9%83%8E/168727046514485" ;
+-[] ns1:facebook "https://www.facebook.com/河野太郎-168727046514485" ;
++[] ns1:facebook "https://www.facebook.com/pages/%E6%B2%B3%E9%87%8E%E5%A4%AA%E9%83%8E/168727046514485" ;
      ns1:twitter "konotarogomame" ;
      ns1:wikidata "Q1161024" ;
      ns1:名 "太郎" ;
-@@ -2865,10 +2918,9 @@
+@@ -2459,8 +2569,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1963-01-10" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/MasamiKawano.MD.PhD" ;
+-[] ns1:facebook "https://www.facebook.com/MasamiKawano.MD.PhD" ;
 -    ns1:twitter "mkawano2416" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11554229" ;
      ns1:名 "正美" ;
      ns1:名前 "河野正美" ;
-@@ -2876,10 +2928,9 @@
+@@ -2468,8 +2578,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-06-30" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/office.ikenta" ;
+-[] ns1:facebook "https://www.facebook.com/office.ikenta" ;
 -    ns1:twitter "office50824963" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6391984" ;
      ns1:名 "健太" ;
      ns1:名前 "泉健太" ;
-@@ -2887,9 +2938,8 @@
+@@ -2477,7 +2587,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1974-07-29" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/jun.tsushima.5" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jun.tsushima.5" ;
++[] ns1:facebook "" ;
      ns1:twitter "tsushimajun" ;
      ns1:wikidata "Q11556075" ;
      ns1:名 "淳" ;
-@@ -2898,10 +2948,10 @@
-     ns1:性別 "男性" ;
+@@ -2487,7 +2597,7 @@
      ns1:生年月日 "1966-10-18" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "tsumura_keisuke" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6383911" ;
      ns1:名 "啓介" ;
      ns1:名前 "津村啓介" ;
-@@ -2910,7 +2960,7 @@
+@@ -2495,7 +2605,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1971-10-27" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/KeiichiroASAO" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/KeiichiroASAO" ;
++[] ns1:facebook "" ;
      ns1:twitter "asao_keiichiro" ;
      ns1:wikidata "Q1737907" ;
      ns1:名 "慶一郎" ;
-@@ -2919,14 +2969,14 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-02-11" .
- 
--[] ns1: "10/8",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "https://www.facebook.com/hamachi.masakazu" ;
+@@ -2508,8 +2618,8 @@
      ns1:twitter "hamachi_m" ;
      ns1:wikidata "Q17220479" ;
      ns1:名 "雅一" ;
@@ -2781,22 +1724,12 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-05-08" .
  
-@@ -2940,8 +2990,7 @@
+@@ -2531,21 +2641,20 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1955-10-21" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/urano.yasuto" ;
-     ns1:twitter "uranoyasuto" ;
-     ns1:wikidata "Q11558377" ;
-@@ -2952,28 +3001,28 @@
      ns1:生年月日 "1973-04-04" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/ukishimatomoko" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ukishimatomoko" ;
++[] ns1:facebook "" ;
      ns1:twitter "tomo_ukishima" ;
      ns1:wikidata "Q7820173" ;
 -    ns1:名 "智子" ;
@@ -2807,14 +1740,10 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1963-02-01" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/shimizu.tadashi.jcp",
+-[] ns1:facebook "https://www.facebook.com/shimizu.tadashi.jcp",
 -        "https://www.facebook.com/tadashishimizu" ;
 -    ns1:twitter "tadashishimizu" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11560960" ;
 -    ns1:名 "忠史" ;
@@ -2824,51 +1753,39 @@
      ns1:姓 "清水" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1968-05-05" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1133136" ;
-@@ -2984,7 +3033,7 @@
+@@ -2559,7 +2668,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1948-02-11" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hiromichi.watanabe.524" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hiromichi.watanabe.524" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11562133" ;
      ns1:名 "博道" ;
-@@ -2994,7 +3043,7 @@
+@@ -2568,7 +2677,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1950-08-03" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/watanabeshugiin" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/watanabeshugiin" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7504421" ;
      ns1:名 "周" ;
-@@ -3003,9 +3052,8 @@
+@@ -2577,7 +2686,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-12-11" .
  
--[] ns1: "10/8",
--        "YFuruchin" ;
--    ns1:facebook "https://www.facebook.com/watanabekoichi1957" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/watanabekoichi1957" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11562188" ;
      ns1:名 "孝一" ;
-@@ -3014,8 +3062,18 @@
+@@ -2586,7 +2695,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-11-25" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q8056255" ;
 +    ns1:名 "良夫" ;
@@ -2877,803 +1794,442 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1944-11-18" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "hamamurasusumu" ;
      ns1:wikidata "Q11566187" ;
      ns1:名 "進" ;
-@@ -3024,9 +3082,8 @@
+@@ -2595,7 +2713,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-09-30" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/takakazu.seto" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/takakazu.seto" ;
++[] ns1:facebook "" ;
      ns1:twitter "setotakakazu" ;
      ns1:wikidata "Q11566681" ;
      ns1:名 "隆一" ;
-@@ -3035,8 +3092,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1965-08-02" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1724004" ;
-@@ -3056,7 +3112,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-08-28" .
- 
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "https://www.facebook.com/HidekiMacky" ;
-     ns1:twitter "hmakihara" ;
-@@ -3087,8 +3143,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1958-01-14" .
- 
--[] ns1: "10/4",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q58213" ;
-@@ -3098,9 +3153,8 @@
+@@ -2658,7 +2776,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-05-20" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/denny.tamaki" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/denny.tamaki" ;
++[] ns1:facebook "" ;
      ns1:twitter "tamakidenny" ;
      ns1:wikidata "Q11572466" ;
      ns1:名 "デニー" ;
-@@ -3120,7 +3174,7 @@
+@@ -2676,7 +2794,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1969-05-01" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/amariakiragenkikun" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/amariakiragenkikun" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q418675" ;
      ns1:名 "明" ;
-@@ -3140,7 +3194,7 @@
+@@ -2694,7 +2812,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1949-01-21" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/ryosei.tanaka.7" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ryosei.tanaka.7" ;
++[] ns1:facebook "" ;
      ns1:twitter "tanaka_ryosei" ;
      ns1:wikidata "Q7385322" ;
      ns1:名 "良生" ;
-@@ -3149,10 +3203,9 @@
+@@ -2703,8 +2821,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1963-11-11" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/hideyuki.tanaka.790" ;
+-[] ns1:facebook "https://www.facebook.com/hideyuki.tanaka.790" ;
 -    ns1:twitter "tanaka_hide" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q17160872" ;
      ns1:名 "英之" ;
      ns1:名前 "田中英之" ;
-@@ -3160,10 +3213,9 @@
+@@ -2712,8 +2830,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-07-11" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/tajimaisseioffice" ;
+-[] ns1:facebook "https://www.facebook.com/tajimaisseioffice" ;
 -    ns1:twitter "tajimaissei" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6088170" ;
      ns1:名 "一成" ;
      ns1:名前 "田島一成" ;
-@@ -3171,8 +3223,9 @@
+@@ -2721,7 +2839,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1962-06-15" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/tajimakaname" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tajimakaname" ;
++[] ns1:facebook "" ;
      ns1:twitter "kanametajima" ;
      ns1:wikidata "Q6360573" ;
      ns1:名 "要" ;
-@@ -3181,8 +3234,8 @@
+@@ -2730,7 +2848,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-09-22" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/tadokoroyoshi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tadokoroyoshi" ;
++[] ns1:facebook "" ;
      ns1:twitter "tadokoro_yoshi" ;
      ns1:wikidata "Q11576787" ;
      ns1:名 "嘉徳" ;
-@@ -3191,8 +3244,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1954-01-19" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1656878" ;
-@@ -3202,10 +3254,9 @@
-     ns1:性別 "男性" ;
+@@ -2749,7 +2867,7 @@
      ns1:生年月日 "1964-12-15" .
  
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/tamuratakaaki" ;
+ [] ns1:facebook "https://www.facebook.com/tamuratakaaki" ;
 -    ns1:twitter "tamuratakaaki" ;
 +    ns1:twitter "@tamuratakaaki" ;
      ns1:wikidata "Q18817798" ;
      ns1:名 "貴昭" ;
      ns1:名前 "田村貴昭" ;
-@@ -3223,9 +3274,8 @@
+@@ -2766,7 +2884,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-05-02" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/hiroaki.tabata.37" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hiroaki.tabata.37" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11577205" ;
      ns1:名 "裕明" ;
-@@ -3244,9 +3294,11 @@
+@@ -2784,8 +2902,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1974-07-04" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kimie.hatano.9" ;
+-[] ns1:facebook "https://www.facebook.com/kimie.hatano.9" ;
 -    ns1:twitter "hatanokimie" ;
-+[] ns1: "10/5",
-+        "higa4",
-+        "ウィキペディアでは「1957年1月28日」生まれ" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11578505" ;
      ns1:名 "君枝" ;
      ns1:名前 "畑野君枝" ;
-@@ -3254,10 +3306,9 @@
+@@ -2793,8 +2911,8 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1957-01-19" .
  
--[] ns1: "10/7",
--        "YFuruchin" ;
--    ns1:facebook "https://www.facebook.com/kazuya.hatayama.1" ;
+-[] ns1:facebook "https://www.facebook.com/kazuya.hatayama.1" ;
 -    ns1:twitter "hatayama_kazuya" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18817972" ;
      ns1:名 "和也" ;
      ns1:名前 "畠山和也" ;
-@@ -3266,7 +3317,7 @@
+@@ -2802,7 +2920,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1971-08-20" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/people/%E7%99%BD%E9%A0%88%E8%B3%80%E8%B2%B4%E6%A8%B9/100006715721289" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E7%99%BD%E9%A0%88%E8%B3%80%E8%B2%B4%E6%A8%B9/100006715721289" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11580448" ;
      ns1:名 "貴樹" ;
-@@ -3275,8 +3326,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1975-03-16" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6782391" ;
-@@ -3286,8 +3336,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1953-12-14" .
- 
--[] ns1: "10/13",
--        "higa4" ;
-+[] ns1: "10/6",
-+        "ninofku" ;
-     ns1:facebook "https://www.facebook.com/%E7%9C%9F%E5%B1%B1%E7%A5%90%E4%B8%80-%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-424176007747296" ;
-     ns1:twitter "yuichi_mayama" ;
-     ns1:wikidata "Q21655809" ;
-@@ -3297,8 +3347,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1981-06-04" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/majimasyouzou.jcp" ;
-     ns1:twitter "syouzoumajima" ;
-     ns1:wikidata "Q18818124" ;
-@@ -3318,7 +3367,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1958-03-20" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/ishihara.nobuteru" ;
-     ns1:twitter "ishiharanobu" ;
-     ns1:wikidata "Q992930" ;
-@@ -3328,9 +3377,8 @@
+@@ -2856,7 +2974,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-04-19" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/ishihara.hirotaka.18" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ishihara.hirotaka.18" ;
++[] ns1:facebook "" ;
      ns1:twitter "ishiharahirotak" ;
      ns1:wikidata "Q506730" ;
      ns1:名 "宏高" ;
-@@ -3339,10 +3387,9 @@
-     ns1:性別 "男性" ;
+@@ -2866,7 +2984,7 @@
      ns1:生年月日 "1964-06-19" .
  
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/ishizaki.tohru" ;
+ [] ns1:facebook "https://www.facebook.com/ishizaki.tohru" ;
 -    ns1:twitter "tohruishizaki" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11585604" ;
      ns1:名 "徹" ;
      ns1:名前 "石崎徹" ;
-@@ -3352,7 +3399,7 @@
+@@ -2875,7 +2993,7 @@
+     ns1:生年月日 "1984-01-25" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "iakimasa1" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11585840" ;
      ns1:名 "昭政" ;
      ns1:名前 "石川昭政" ;
-@@ -3360,7 +3407,9 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1972-09-18" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "FBはアクセス不可",
-+        "hig4" ;
-     ns1:facebook "https://www.facebook.com/pages/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1-%E7%9F%B3%E7%94%B0%E7%9" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q6782738" ;
-@@ -3370,10 +3419,9 @@
-     ns1:性別 "男性" ;
+@@ -2893,7 +3011,7 @@
      ns1:生年月日 "1952-04-11" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "ishidanoritoshi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7051352" ;
      ns1:名 "祝稔" ;
      ns1:名前 "石田祝稔" ;
-@@ -3392,7 +3440,7 @@
+@@ -2910,7 +3028,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1957-02-04" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/ishizekitakashi1972" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ishizekitakashi1972" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7677320" ;
      ns1:名 "貴史" ;
-@@ -3402,7 +3450,7 @@
+@@ -2919,7 +3037,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1972-02-18" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100008470713752" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100008470713752" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11589528" ;
      ns1:名 "佐市" ;
-@@ -3431,8 +3479,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1963-02-19" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q20039502" ;
-@@ -3442,8 +3489,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1949-04-12" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7705291" ;
-@@ -3453,8 +3500,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1953-12-14" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11592023" ;
-@@ -3474,7 +3520,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1970-08-08" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "https://www.facebook.com/fukudamineyuki" ;
-     ns1:twitter "fukudamineyuki" ;
-     ns1:wikidata "Q6864590" ;
-@@ -3484,8 +3531,9 @@
+@@ -2991,7 +3109,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-04-08" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/akio417fukuda" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/akio417fukuda" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q3435725" ;
      ns1:名 "昭夫" ;
-@@ -3494,10 +3542,9 @@
+@@ -3000,9 +3118,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-04-17" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/tatsuo.fukuda.9",
+-[] ns1:facebook "https://www.facebook.com/tatsuo.fukuda.9",
 -        "https://www.facebook.com/tatsuo.fukuda.page" ;
 -    ns1:twitter "tatsuofukuda" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/tatsuo.fukuda.page" ;
++[] ns1:facebook "https://www.facebook.com/tatsuo.fukuda.page" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q2506910" ;
      ns1:名 "達夫" ;
      ns1:名前 "福田達夫" ;
-@@ -3505,9 +3552,8 @@
+@@ -3010,7 +3127,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1967-03-05" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/tsukasa.akimoto" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/pages/%E3%81%82%E3%81%8D%E3%82%82%E3%81%A8-%E5%8F%B8/223238454405419" ;
+-[] ns1:facebook "https://www.facebook.com/tsukasa.akimoto" ;
++[] ns1:facebook "https://www.facebook.com/pages/%E3%81%82%E3%81%8D%E3%82%82%E3%81%A8-%E5%8F%B8/223238454405419" ;
      ns1:twitter "akimoto_tsukasa" ;
      ns1:wikidata "Q7850039" ;
      ns1:名 "司" ;
-@@ -3526,9 +3572,8 @@
+@@ -3028,7 +3145,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-08-10" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/akibakenya" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/akibakenya" ;
++[] ns1:facebook "" ;
      ns1:twitter "akibakenya" ;
      ns1:wikidata "Q49996" ;
      ns1:名 "賢也" ;
-@@ -3537,11 +3582,9 @@
+@@ -3037,9 +3154,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1962-07-03" .
  
--[] ns1: "10/4",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/inatsu.komei",
+-[] ns1:facebook "https://www.facebook.com/inatsu.komei",
 -        "https://www.facebook.com/inatsu.news" ;
 -    ns1:twitter "inatsuhisashi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11596723" ;
      ns1:名 "久" ;
      ns1:名前 "稲津久" ;
-@@ -3549,9 +3592,8 @@
+@@ -3047,7 +3163,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-02-09" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/tomomi.inada.5" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tomomi.inada.5" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q1654408" ;
      ns1:名 "朋美" ;
-@@ -3560,8 +3602,8 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1959-02-20" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "https://www.facebook.com/kokutakeiji" ;
-     ns1:twitter "kokutakeiji" ;
-     ns1:wikidata "Q6383646" ;
-@@ -3581,7 +3623,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1969-07-24" .
- 
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q2484652" ;
-@@ -3591,9 +3633,8 @@
+@@ -3083,7 +3199,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-11-03" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/takeuchi.yuzuru" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/takeuchi.yuzuru" ;
++[] ns1:facebook "" ;
      ns1:twitter "takeuchi_yuzuru" ;
      ns1:wikidata "Q11598974" ;
      ns1:名 "譲" ;
-@@ -3602,9 +3643,9 @@
+@@ -3092,7 +3208,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1958-06-25" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/TakemotoNaokazu" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/TakemotoNaokazu" ;
++[] ns1:facebook "" ;
      ns1:twitter "naokazutakemoto" ;
      ns1:wikidata "Q614464" ;
      ns1:名 "直一" ;
-@@ -3633,8 +3674,8 @@
+@@ -3119,7 +3235,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-01-03" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/hirohiro.genki.sasagawa" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hirohiro.genki.sasagawa" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11602573" ;
      ns1:名 "博義" ;
-@@ -3643,7 +3684,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1966-08-29" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7677369" ;
-@@ -3653,10 +3695,9 @@
+@@ -3137,8 +3253,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-07-17" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/Go.Shinohara.Go" ;
+-[] ns1:facebook "https://www.facebook.com/Go.Shinohara.Go" ;
 -    ns1:twitter "go_shinohara" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q20040516" ;
      ns1:名 "豪" ;
      ns1:名前 "篠原豪" ;
-@@ -3664,8 +3705,8 @@
+@@ -3146,7 +3262,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1975-02-12" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/Yanakazuo" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/Yanakazuo" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11603860" ;
      ns1:名 "和生" ;
-@@ -3674,9 +3715,8 @@
+@@ -3155,7 +3271,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1979-04-22" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100008738145092" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100008738145092" ;
++[] ns1:facebook "" ;
      ns1:twitter "hosoda_kenichi" ;
      ns1:wikidata "Q11606064" ;
      ns1:名 "健一" ;
-@@ -3685,7 +3725,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1964-07-11" .
- 
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "hosodahiroyuki" ;
-     ns1:wikidata "Q1133192" ;
-@@ -3695,9 +3735,8 @@
+@@ -3173,7 +3289,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1944-04-05" .
  
--[] ns1: "10/11/2017",
--        "ypresto" ;
--    ns1:facebook "https://www.facebook.com/hosono54" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hosono54" ;
++[] ns1:facebook "" ;
      ns1:twitter "hosono_54" ;
      ns1:wikidata "Q1135729" ;
      ns1:名 "豪志" ;
-@@ -3706,9 +3745,8 @@
+@@ -3182,7 +3298,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-08-21" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/rintaro.ogata.official" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/rintaro.ogata.official" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6140382" ;
      ns1:名 "林太郎" ;
-@@ -3727,7 +3765,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1971-03-31" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "10/5",
-+        "hig4" ;
-     ns1:facebook "https://www.facebook.com/hajime.funada" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q5639959" ;
-@@ -3737,9 +3776,9 @@
+@@ -3209,7 +3325,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-11-22" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/wakamiyakenji" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/wakamiyakenji" ;
++[] ns1:facebook "" ;
      ns1:twitter "wakamiya7788" ;
      ns1:wikidata "Q6389383" ;
      ns1:名 "健嗣" ;
-@@ -3748,7 +3787,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1961-09-02" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/wakasamasaru" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11616618" ;
-@@ -3768,10 +3807,9 @@
-     ns1:性別 "男性" ;
+@@ -3237,7 +3353,7 @@
      ns1:生年月日 "1955-10-07" .
  
--[] ns1: "10/8",
--        "YFuruchin" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "https://www.facebook.com/Satoshi.Arai21" ;
+ [] ns1:facebook "https://www.facebook.com/Satoshi.Arai21" ;
 -    ns1:twitter "satoshisatoshia" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q1478311" ;
      ns1:名 "聰" ;
      ns1:名前 "荒井聰" ;
-@@ -3779,8 +3817,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1946-05-27" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/sugawaraisshu" ;
-     ns1:twitter "sugawaraisshu" ;
-     ns1:wikidata "Q11619136" ;
-@@ -3800,9 +3837,8 @@
+@@ -3263,7 +3379,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1955-05-20" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/naoto.kan" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "https://www.facebook.com/naoto.kan.offical" ;
+-[] ns1:facebook "https://www.facebook.com/naoto.kan" ;
++[] ns1:facebook "https://www.facebook.com/naoto.kan.offical" ;
      ns1:twitter "naotokan" ;
      ns1:wikidata "Q47846" ;
      ns1:名 "直人" ;
-@@ -3811,10 +3847,9 @@
+@@ -3272,8 +3388,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-10-10" .
  
--[] ns1: "10/11",
--        "2&3" ;
--    ns1:facebook "https://www.facebook.com/yoshihide.suga" ;
+-[] ns1:facebook "https://www.facebook.com/yoshihide.suga" ;
 -    ns1:twitter "sugawitter" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q122465" ;
      ns1:名 "義偉" ;
      ns1:名前 "菅義偉" ;
-@@ -3822,10 +3857,9 @@
-     ns1:性別 "男性" ;
+@@ -3282,7 +3398,7 @@
      ns1:生年月日 "1948-12-06" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "kikuta_official" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6739516" ;
      ns1:名 "真紀子" ;
      ns1:名前 "菊田真紀子" ;
-@@ -3833,8 +3867,8 @@
+@@ -3290,7 +3406,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1969-10-24" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/koichi.hagiuda" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/koichi.hagiuda" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6426211" ;
      ns1:名 "光一" ;
-@@ -3853,7 +3887,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1979-08-17" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q8049977" ;
-@@ -3873,8 +3908,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1972-06-03" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/fujimaru.satoshi" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11622647" ;
-@@ -3894,9 +3928,8 @@
+@@ -3344,7 +3460,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-09-11" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100004477178223" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100004477178223" ;
++[] ns1:facebook "" ;
      ns1:twitter "iwate_fujiwara" ;
      ns1:wikidata "Q11623218" ;
      ns1:名 "崇" ;
-@@ -3907,7 +3940,7 @@
+@@ -3354,7 +3470,7 @@
+     ns1:生年月日 "1983-08-02" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "fujinofujinooo" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q18818065" ;
      ns1:名 "保史" ;
      ns1:名前 "藤野保史" ;
-@@ -3915,7 +3948,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1970-06-04" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "https://www.facebook.com/SeishiroEto" ;
-     ns1:twitter "etoseishiro" ;
-     ns1:wikidata "Q405527" ;
-@@ -3925,9 +3959,8 @@
+@@ -3371,8 +3487,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1941-04-29" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/%E8%A5%BF%E5%B7%9D%E5%85%AC%E4%B9%9F-114526819227349",
+-[] ns1:facebook "https://www.facebook.com/%E8%A5%BF%E5%B7%9D%E5%85%AC%E4%B9%9F-114526819227349",
 -        "https://www.facebook.com/nishikawakoya" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6435116" ;
      ns1:名 "公也" ;
-@@ -3946,8 +3979,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-10-15" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q4700938" ;
-@@ -3957,10 +3989,9 @@
+@@ -3399,8 +3514,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-07-16" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/official.nishimura.chinami" ;
+-[] ns1:facebook "https://www.facebook.com/official.nishimura.chinami" ;
 -    ns1:twitter "chinami_niigata" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q5100105" ;
      ns1:名 "智奈美" ;
      ns1:名前 "西村智奈美" ;
-@@ -3968,9 +3999,8 @@
+@@ -3408,7 +3523,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1967-01-13" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/kousaburou.nishime" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kousaburou.nishime" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11629931" ;
      ns1:名 "恒三郎" ;
-@@ -3979,9 +4009,8 @@
+@@ -3417,7 +3532,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-08-07" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/hideo.tsunoda.53" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/hideo.tsunoda.53" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q20041482" ;
      ns1:名 "秀穂" ;
-@@ -4000,9 +4029,18 @@
+@@ -3435,7 +3550,16 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1952-01-28" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/tanigawa.tom" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tanigawa.tom" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "tanigaki_s" ;
 +    ns1:wikidata "Q463331" ;
 +    ns1:名 "禎一" ;
@@ -3682,71 +2238,24 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1945-03-07" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q20041303" ;
      ns1:名 "とむ" ;
-@@ -4011,7 +4049,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1976-04-27" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q8046971" ;
-@@ -4021,8 +4060,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1941-08-12" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q7677383" ;
-@@ -4032,8 +4071,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1947-01-10" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/mayuko.toyota2012" ;
-     ns1:twitter "toyota_mayuko" ;
-     ns1:wikidata "Q11634137" ;
-@@ -4043,9 +4081,9 @@
+@@ -3471,7 +3595,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1974-10-10" .
  
--[] ns1: "10/11",
--        "churu110" ;
--    ns1:facebook "https://www.facebook.com/akamineseiken" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/akamineseiken" ;
++[] ns1:facebook "" ;
      ns1:twitter "akamineseiken" ;
      ns1:wikidata "Q7446761" ;
      ns1:名 "政賢" ;
-@@ -4054,8 +4092,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1947-12-18" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q582685" ;
-@@ -4065,18 +4102,29 @@
+@@ -3489,16 +3613,25 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1948-05-03" .
  
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q11635735" ;
 +    ns1:名 "恒雄" ;
@@ -3755,8 +2264,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1944-03-16" .
 +
- [] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/akazawa.ryosei" ;
+ [] ns1:facebook "https://www.facebook.com/akazawa.ryosei" ;
      ns1:twitter "ryosei_akazawa" ;
      ns1:wikidata "Q7385320" ;
      ns1:名 "亮正" ;
@@ -3767,35 +2275,26 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-12-18" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kazuyoshi.akaba" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kazuyoshi.akaba" ;
++[] ns1:facebook "" ;
      ns1:twitter "akbhyogo2ku" ;
      ns1:wikidata "Q6381788" ;
      ns1:名 "一嘉" ;
-@@ -4095,8 +4143,8 @@
+@@ -3516,7 +3649,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1968-03-27" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/takao.ochi.9" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/takao.ochi" ;
+-[] ns1:facebook "https://www.facebook.com/takao.ochi.9" ;
++[] ns1:facebook "https://www.facebook.com/takao.ochi" ;
      ns1:twitter "ochitakao" ;
      ns1:wikidata "Q7677226" ;
      ns1:名 "隆雄" ;
-@@ -4105,20 +4153,20 @@
+@@ -3525,17 +3658,17 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-02-27" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/issue.net" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/issue.net" ;
++[] ns1:facebook "" ;
      ns1:twitter "adachiyasushi" ;
      ns1:wikidata "Q11637002" ;
 -    ns1:名 "康史" ;
@@ -3806,154 +2305,94 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-10-14" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/koshimizu.keiichi" ;
+-[] ns1:facebook "https://www.facebook.com/koshimizu.keiichi" ;
 -    ns1:twitter "koshimizu_k1" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11637774" ;
      ns1:名 "恵一" ;
      ns1:名前 "輿水恵一" ;
-@@ -4126,10 +4174,9 @@
+@@ -3543,8 +3676,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1962-02-04" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/100005838250019" ;
+-[] ns1:facebook "https://www.facebook.com/100005838250019" ;
 -    ns1:twitter "tsujimotokiyomi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q405533" ;
      ns1:名 "清美" ;
      ns1:名前 "辻元清美" ;
-@@ -4137,8 +4184,7 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1960-04-28" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/kiyototsujitokyo2nd" ;
-     ns1:twitter "tujikiyoto" ;
-     ns1:wikidata "Q11638274" ;
-@@ -4158,10 +4204,9 @@
-     ns1:性別 "男性" ;
+@@ -3571,7 +3704,7 @@
      ns1:生年月日 "1958-05-26" .
  
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/kondo21" ;
+ [] ns1:facebook "https://www.facebook.com/kondo21" ;
 -    ns1:twitter "kondoyosuke21" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q49943" ;
      ns1:名 "洋介" ;
      ns1:名前 "近藤洋介" ;
-@@ -4169,11 +4214,9 @@
+@@ -3579,9 +3712,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1965-05-19" .
  
--[] ns1: "10/10",
--        "YFuruchin" ;
--    ns1:facebook "https://www.facebook.com/Seiji.Ohsaka",
+-[] ns1:facebook "https://www.facebook.com/Seiji.Ohsaka",
 -        "https://www.facebook.com/ohsakaseiji" ;
 -    ns1:twitter "seiji_ohsaka" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7446737" ;
      ns1:名 "誠二" ;
      ns1:名前 "逢坂誠二" ;
-@@ -4182,7 +4225,7 @@
+@@ -3589,7 +3721,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1959-04-24" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/IchiroAISAWA" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/IchiroAISAWA" ;
++[] ns1:facebook "" ;
      ns1:twitter "ichiroaisawa" ;
      ns1:wikidata "Q467453" ;
      ns1:名 "一郎" ;
-@@ -4191,9 +4234,8 @@
+@@ -3598,7 +3730,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-06-10" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
++[] ns1:facebook "" ;
      ns1:twitter "kiyohiko_toyama" ;
      ns1:wikidata "Q6418998" ;
      ns1:名 "清彦" ;
-@@ -4202,7 +4244,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1969-06-05" .
+@@ -3635,7 +3767,7 @@
+     ns1:生年月日 "1970-12-21" .
  
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "https://www.facebook.com/endo.toshiaki0117" ;
-     ns1:twitter "" ;
-@@ -4213,8 +4255,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1950-01-17" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11642258" ;
-@@ -4236,7 +4277,7 @@
- 
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "nonakajimusho" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11645002" ;
      ns1:名 "厚" ;
      ns1:名前 "野中厚" ;
-@@ -4246,7 +4287,7 @@
+@@ -3644,7 +3776,7 @@
+     ns1:生年月日 "1976-11-17" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "nodayoshi55" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q57647" ;
      ns1:名 "佳彦" ;
      ns1:名前 "野田佳彦" ;
-@@ -4254,7 +4295,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1957-05-20" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11646016" ;
-@@ -4264,9 +4306,8 @@
+@@ -3661,7 +3793,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1941-10-03" .
  
--[] ns1: "10/8/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/seiko.noda.73" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/seiko.noda.73" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q459698" ;
      ns1:名 "聖子" ;
-@@ -4285,7 +4326,18 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1958-10-08" .
+@@ -3681,6 +3813,15 @@
  
--[] ns1: "" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
-+    ns1:twitter "" ;
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
 +    ns1:wikidata "Q382231" ;
 +    ns1:名 "一義" ;
 +    ns1:名前 "金子一義" ;
@@ -3961,56 +2400,44 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1942-12-20" .
 +
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q16770033" ;
-@@ -4305,10 +4357,10 @@
-     ns1:性別 "男性" ;
+     ns1:名 "万寿夫" ;
+     ns1:名前 "金子万寿夫" ;
+@@ -3698,7 +3839,7 @@
      ns1:生年月日 "1961-02-27" .
  
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "https://www.facebook.com/megukin" ;
+ [] ns1:facebook "https://www.facebook.com/megukin" ;
 -    ns1:twitter "megumi_kaneko4" ;
 +    ns1:twitter "kanekomegu" ;
      ns1:wikidata "Q11646784",
          "Q5371065" ;
      ns1:名 "恵美" ;
-@@ -4318,9 +4370,8 @@
+@@ -3708,7 +3849,7 @@
      ns1:生年月日 "1965-07-07",
          "1978-02-27" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/kaneda.katsutoshi" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kaneda.katsutoshi" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11647681" ;
      ns1:名 "勝年" ;
-@@ -4329,9 +4380,8 @@
+@@ -3717,7 +3858,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1949-10-04" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/people/%E9%88%B4%E6%9C%A8%E4%BF%8A%E4%B8%80/100016937237040" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E9%88%B4%E6%9C%A8%E4%BF%8A%E4%B8%80/100016937237040" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q3482658" ;
      ns1:名 "俊一" ;
-@@ -4340,8 +4390,18 @@
+@@ -3725,6 +3866,15 @@
+     ns1:姓 "鈴木" ;
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-04-13" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++
++[] ns1:facebook "" ;
 +    ns1:twitter "katumasa1411" ;
 +    ns1:wikidata "Q129149" ;
 +    ns1:名 "克昌" ;
@@ -4018,216 +2445,113 @@
 +    ns1:姓 "鈴木" ;
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1943-11-14" .
-+
-+[] ns1: "10/5",
-+        "ninofku" ;
-     ns1:facebook "https://www.facebook.com/suzuki.norikazu.official" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/suzuki.norikazu.official" ;
      ns1:twitter "norikazu_suzuki" ;
-     ns1:wikidata "Q11648868" ;
-@@ -4352,7 +4412,7 @@
+@@ -3735,7 +3885,7 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1982-01-30" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/suzuki.jyunji" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/suzuki.jyunji" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11649031" ;
      ns1:名 "淳司" ;
-@@ -4371,8 +4431,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-11-10" .
- 
--[] ns1: "10/8",
--        "YFuruchin" ;
-+[] ns1: "10/5",
-+        "Yfuruchin" ;
-     ns1:facebook "https://www.facebook.com/takakosuzukidaichi" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q17160031" ;
-@@ -4382,9 +4442,8 @@
+@@ -3762,7 +3912,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1986-01-05" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/suzukihayato.jp" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/suzukihayato.jp" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q20040828" ;
      ns1:名 "隼人" ;
-@@ -4393,8 +4452,8 @@
+@@ -3771,7 +3921,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1977-08-08" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/suzukikeisuke.jp" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/suzukikeisuke.jp" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q6383909" ;
      ns1:名 "馨祐" ;
-@@ -4403,8 +4462,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1977-02-09" .
- 
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q11651619" ;
-@@ -4414,7 +4472,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1957-04-10" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/nagatsumaakira" ;
-     ns1:twitter "nagatsumaakira" ;
-     ns1:wikidata "Q263777" ;
-@@ -4424,10 +4482,9 @@
+@@ -3798,8 +3948,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-06-14" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/tnagao21" ;
+-[] ns1:facebook "https://www.facebook.com/tnagao21" ;
 -    ns1:twitter "takashinagao" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11651845" ;
      ns1:名 "敬" ;
      ns1:名前 "長尾敬" ;
-@@ -4435,8 +4492,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1962-11-29" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "" ;
-     ns1:facebook "https://www.facebook.com/aki.nagashima21" ;
-     ns1:twitter "nagashima21" ;
-     ns1:wikidata "Q4700952" ;
-@@ -4446,10 +4502,9 @@
+@@ -3816,8 +3966,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1962-02-17" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/nagasakikotaro.jp" ;
+-[] ns1:facebook "https://www.facebook.com/nagasakikotaro.jp" ;
 -    ns1:twitter "kotaro_nagasaki" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q6433881" ;
      ns1:名 "幸太郎" ;
      ns1:名前 "長崎幸太郎" ;
-@@ -4457,8 +4512,7 @@
+@@ -3843,7 +3993,7 @@
      ns1:性別 "男性" ;
-     ns1:生年月日 "1968-08-18" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "kado_wakayama" ;
-     ns1:wikidata "Q11654965" ;
-@@ -4479,7 +4533,7 @@
      ns1:生年月日 "1964-09-03" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/sekiyoshihiro" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/sekiyoshihiro" ;
++[] ns1:facebook "" ;
      ns1:twitter "sekiyoshihiro" ;
      ns1:wikidata "Q8056061" ;
      ns1:名 "芳弘" ;
-@@ -4488,7 +4542,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1965-06-07" .
- 
--[] ns1: "" ;
-+[] ns1: "10/5",
-+        "221daisuke" ;
-     ns1:facebook "" ;
-     ns1:twitter "abe_tomoko" ;
-     ns1:wikidata "Q516232" ;
-@@ -4498,9 +4553,9 @@
+@@ -3861,7 +4011,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1948-04-24" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/takeshi.shina" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/takeshi.shina" ;
++[] ns1:facebook "" ;
      ns1:twitter "shinatakeshi" ;
      ns1:wikidata "Q49875" ;
      ns1:名 "猛" ;
-@@ -4529,7 +4584,7 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1969-08-29" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "ikt2y" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:wikidata "Q1207174" ;
-@@ -4539,10 +4594,9 @@
-     ns1:性別 "男性" ;
+@@ -3898,7 +4048,7 @@
      ns1:生年月日 "1944-01-11" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "baba_ishin" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11667848" ;
      ns1:名 "伸幸" ;
      ns1:名前 "馬場伸幸" ;
-@@ -4560,11 +4614,8 @@
+@@ -3915,8 +4065,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-08-23" .
  
--[] ns1: "10/9",
--        "tominari",
--        "ロス五輪レスリンググレコローマン90ｋｇ出場" ;
--    ns1:facebook "https://www.facebook.com/hasehiroshi.kousiki",
+-[] ns1:facebook "https://www.facebook.com/hasehiroshi.kousiki",
 -        "https://www.facebook.com/hiroshi.hase" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/hasehiroshi.kousiki" ;
++[] ns1:facebook "https://www.facebook.com/hasehiroshi.kousiki" ;
      ns1:twitter "" ;
      ns1:wikidata "Q3136350" ;
      ns1:名 "浩" ;
-@@ -4573,10 +4624,9 @@
+@@ -3925,8 +4074,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-05-05" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/takaitakashi.ugokebakawaru" ;
+-[] ns1:facebook "https://www.facebook.com/takaitakashi.ugokebakawaru" ;
 -    ns1:twitter "t_takai" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11668691" ;
      ns1:名 "崇志" ;
      ns1:名前 "高井崇志" ;
-@@ -4594,20 +4644,20 @@
+@@ -3943,16 +4092,16 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1961-03-07" .
  
--[] ns1: "10/8",
--        "Yfuruchin" ;
--    ns1:facebook "https://www.facebook.com/takagi.hirohisa" ;
+-[] ns1:facebook "https://www.facebook.com/takagi.hirohisa" ;
 -    ns1:twitter "takagi_hirohisa" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11670038" ;
 -    ns1:名 "宏壽" ;
@@ -4238,22 +2562,15 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-04-09" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/高木つよし支援のｗａ-732835663451367" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/高木つよし支援のｗａ-732835663451367" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7850389" ;
      ns1:名 "毅" ;
-@@ -4626,6 +4676,16 @@
-     ns1:性別 "女性" ;
-     ns1:生年月日 "1952-09-13" .
+@@ -3972,6 +4121,15 @@
  
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
-+    ns1:twitter "" ;
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
 +    ns1:wikidata "Q472792" ;
 +    ns1:名 "義明" ;
 +    ns1:名前 "高木義明" ;
@@ -4261,17 +2578,16 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1945-12-22" .
 +
- [] ns1: "" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-@@ -4636,19 +4696,30 @@
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:wikidata "Q8062685" ;
+     ns1:名 "陽介" ;
+     ns1:名前 "高木陽介" ;
+@@ -3979,16 +4137,25 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1959-12-16" .
  
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "ikt2y" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q697969" ;
 +    ns1:名 "正彦" ;
@@ -4280,10 +2596,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1942-03-15" .
 +
-+[] ns1: "10/5",
-+        "higa4",
-+        "高橋比奈子" ;
-     ns1:facebook "https://www.facebook.com/TakahashiHinako" ;
+ [] ns1:facebook "https://www.facebook.com/TakahashiHinako" ;
 -    ns1:twitter "takahina7777" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11671375" ;
@@ -4295,48 +2608,36 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1958-01-19" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
++[] ns1:facebook "" ;
      ns1:twitter "chiduko916" ;
      ns1:wikidata "Q5102671" ;
      ns1:名 "千鶴子" ;
-@@ -4657,9 +4728,9 @@
+@@ -3997,7 +4164,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1959-09-16" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/shuichi.takatori" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/shuichi.takatori" ;
++[] ns1:facebook "" ;
      ns1:twitter "takatorishuichi" ;
      ns1:wikidata "Q7504756" ;
      ns1:名 "修一" ;
-@@ -4668,10 +4739,8 @@
+@@ -4006,8 +4173,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-09-29" .
  
--[] ns1: "10/8",
--        "keisuke" ;
--    ns1:facebook "https://www.facebook.com/office.onikidon",
+-[] ns1:facebook "https://www.facebook.com/office.onikidon",
 -        "https://www.facebook.com/onikidon" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/office.onikidon" ;
++[] ns1:facebook "https://www.facebook.com/office.onikidon" ;
      ns1:twitter "" ;
      ns1:wikidata "Q11673487" ;
      ns1:名 "誠" ;
-@@ -4680,21 +4749,19 @@
+@@ -4016,17 +4182,17 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1972-10-16" .
  
--[] ns1: "10/11",
--        "churu110",
--        "元・福岡県大川市長" ;
--    ns1:facebook "https://www.facebook.com/鳩山-二郎-611761022337730" ;
-+[] ns1: "" ;
-+    ns1:facebook "https://www.facebook.com/%E9%B3%A9%E5%B1%B1-%E4%BA%8C%E9%83%8E-611761022337730" ;
+-[] ns1:facebook "https://www.facebook.com/鳩山-二郎-611761022337730" ;
++[] ns1:facebook "https://www.facebook.com/%E9%B3%A9%E5%B1%B1-%E4%BA%8C%E9%83%8E-611761022337730" ;
      ns1:twitter "" ;
      ns1:wikidata "Q17219387" ;
      ns1:名 "二郎" ;
@@ -4345,51 +2646,31 @@
      ns1:性別 "男性" ;
 -    ns1:生年月日 "1979-01-13" .
 -
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/かもした一郎-362335094179877" ;
+-[] ns1:facebook "https://www.facebook.com/かもした一郎-362335094179877" ;
 -    ns1:twitter "dr_kamo" ;
 +    ns1:生年月日 "1979-01-01" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q730991" ;
      ns1:名 "一郎" ;
      ns1:名前 "鴨下一郎" ;
-@@ -4702,10 +4769,10 @@
-     ns1:性別 "男性" ;
+@@ -4035,7 +4201,7 @@
      ns1:生年月日 "1949-01-16" .
  
--[] ns1: "10/11",
-+[] ns1: "10/5",
-         "higa4" ;
-     ns1:facebook "https://www.facebook.com/pages/%E9%B7%B2%E5%B0%BE-%E8%8B%B1%E4%B8%80%E9%83%8E/211206912260888" ;
+ [] ns1:facebook "https://www.facebook.com/pages/%E9%B7%B2%E5%B0%BE-%E8%8B%B1%E4%B8%80%E9%83%8E/211206912260888" ;
 -    ns1:twitter "washioeiichirou" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q5349200" ;
      ns1:名 "英一郎" ;
      ns1:名前 "鷲尾英一郎" ;
-@@ -4713,8 +4780,8 @@
-     ns1:性別 "男性" ;
-     ns1:生年月日 "1977-01-03" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "10/5",
-+        "higa4" ;
-     ns1:facebook "" ;
-     ns1:twitter "taro_aso_" ;
-     ns1:wikidata "Q132596" ;
-@@ -4734,10 +4801,19 @@
+@@ -4061,8 +4227,17 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-10-13" .
  
--[] ns1: "10/11",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/takahiro.kuroiwa.94" ;
+-[] ns1:facebook "https://www.facebook.com/takahiro.kuroiwa.94" ;
 -    ns1:twitter "kuroiwatakahir1" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:wikidata "Q7827415" ;
 +    ns1:名 "徹" ;
@@ -4398,8 +2679,7 @@
 +    ns1:性別 "男性" ;
 +    ns1:生年月日 "1953-10-14" .
 +
-+[] ns1: "" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q11678114" ;
      ns1:名 "宇洋" ;
