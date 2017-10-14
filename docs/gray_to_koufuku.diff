@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 幸福公式
-@@ -4,53 +4,50 @@
+@@ -4,238 +4,221 @@
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  
@@ -14,7 +14,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "コージャパン(株)" .
 -
--[] ns1:facebook "-" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "-" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党神奈川第3選挙区支部長" .
@@ -72,12 +72,14 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "山口放送興産(株)",
 -        "明治安田生命保険相互会社" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党山口第1選挙区支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/profile.php?id=100002921750076" ;
++
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100002921750076" ;
      ns1:twitter "kawabekenichi" ;
-@@ -58,184 +55,170 @@
+     ns1:候補名 "かわべ賢一" ;
      ns1:公式ブログ "" ;
      ns1:小選挙区 "茨城1区" ;
      ns1:比例区 "" ;
@@ -112,7 +114,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/seii.miho" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党山形県本部代表(兼)山形県第3支部長" .
 +
@@ -182,13 +184,15 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "(株)三友",
 -        "英語塾講師" .
-+    ns1:立候補 "党発表" ;
-+    ns1:職歴 "北関東比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/miw.wld" ;
+-
+-[] ns1:facebook "" ;
 -    ns1:twitter "minatoyuko" ;
 -    ns1:候補名 "湊侑子" ;
 -    ns1:公式ブログ "https://ameblo.jp/minatoyuko/" ;
++    ns1:立候補 "党発表" ;
++    ns1:職歴 "北関東比例ブロック副支部長" .
++
++[] ns1:facebook "https://www.facebook.com/miw.wld" ;
 +    ns1:twitter "" ;
 +    ns1:候補名 "みなと侑子" ;
 +    ns1:公式ブログ "http://ameblo.jp/minatoyuko/" ;
@@ -196,10 +200,12 @@
      ns1:比例区 "近畿" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "近畿比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/satoshi.miyamoto.52" ;
++
++[] ns1:facebook "https://www.facebook.com/satoshi.miyamoto.52" ;
      ns1:twitter "satoshimiyamoto" ;
      ns1:候補名 "みやもとさとし" ;
 -    ns1:公式ブログ "http://miyamoto-satoshi.com/blog" ;
@@ -208,12 +214,14 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "金沢大学非常勤講師" .
-+    ns1:立候補 "党発表" ;
-+    ns1:職歴 "幸福実現党石川県本部代表代行（兼）石川県第2支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/yanaifm" ;
+-
+-[] ns1:facebook "" ;
 -    ns1:twitter "" ;
 -    ns1:候補名 "矢内筆勝" ;
++    ns1:立候補 "党発表" ;
++    ns1:職歴 "幸福実現党石川県本部代表代行（兼）石川県第2支部長" .
++
++[] ns1:facebook "https://www.facebook.com/yanaifm" ;
 +    ns1:twitter "yanaihissho" ;
 +    ns1:候補名 "やない筆勝" ;
      ns1:公式ブログ "" ;
@@ -231,7 +239,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "近畿比例ブロック副支部長" .
 -
--[] ns1:facebook "https://www.facebook.com/kazue.yoshitomi" ;
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党総務会長（兼）出版局長" .
 +
@@ -244,12 +252,10 @@
      ns1:比例区 "九州" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "公立小学校教諭" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/nanami.hiroko/" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/nanami.hiroko/" ;
      ns1:twitter "hiroko_nanami" ;
      ns1:候補名 "七海ひろこ" ;
 -    ns1:公式ブログ "http://nanami-hiroko.net/" ;
@@ -319,7 +325,7 @@
 -    ns1:職歴 "中華そば中川社長",
 -        "幸福の科学伊勢原支部長" .
 -
--[] ns1:facebook "-" ;
+-[] ns1:facebook "https://www.facebook.com/maki.nakaoka.98" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "南関東比例ブロック副支部長、幸福の科学伊勢原支部長" .
 +
@@ -367,10 +373,12 @@
 -    ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "北海道比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/nakane.hiromi" ;
++
++[] ns1:facebook "https://www.facebook.com/nakane.hiromi" ;
      ns1:twitter "nakanehiromi" ;
 -    ns1:候補名 "中根裕美" ;
 +    ns1:候補名 "中根ひろみ" ;
@@ -380,13 +388,16 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党愛知県本部代表",
 -        "私立保育園園長" .
-+    ns1:立候補 "党発表" ;
-+    ns1:職歴 "幸福実現党愛知県本部代表（兼）東海比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/nakanishirie.hrp" ;
-     ns1:twitter "" ;
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
 -    ns1:候補名 "中西利恵" ;
 -    ns1:公式ブログ "https://ameblo.jp/nakanishirie/" ;
++    ns1:立候補 "党発表" ;
++    ns1:職歴 "幸福実現党愛知県本部代表（兼）東海比例ブロック副支部長" .
++
++[] ns1:facebook "https://www.facebook.com/nakanishirie.hrp" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "中西りえ" ;
 +    ns1:公式ブログ "http://ameblo.jp/nakanishirie/" ;
      ns1:小選挙区 "" ;
@@ -394,7 +405,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党香川県本部副代表" .
 -
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100007874922516" ;
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "四国比例ブロック支部長" .
 +
@@ -430,10 +441,12 @@
      ns1:比例区 "九州" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福の科学南九州本部長" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/yukihiko.kanoh" ;
++
++[] ns1:facebook "https://www.facebook.com/yukihiko.kanoh" ;
      ns1:twitter "asebora" ;
      ns1:候補名 "加納有輝彦" ;
 -    ns1:公式ブログ "https://ameblo.jp/papadad" ;
@@ -474,7 +487,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -341,83 +307,71 @@
+@@ -341,64 +307,53 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北陸信越" ;
@@ -482,7 +495,7 @@
 -    ns1:職歴 "学習塾経営",
 -        "幸福実現党新潟県本部幹事長" .
 -
--[] ns1:facebook "profile.php?id=100022300025896" ;
+-[] ns1:facebook "https://www.facebook.com/Haraguchi.Miki.HRP" ;
 -    ns1:twitter "mikiharaguchi" ;
 -    ns1:候補名 "原口実季" ;
 +    ns1:立候補 "党発表" ;
@@ -497,7 +510,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "-" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "tw_matayoshi" ;
 -    ns1:候補名 "又吉光雄" ;
 -    ns1:公式ブログ "" ;
@@ -520,7 +533,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "https://www.facebook.com/aini.tekinashi.yuzo" ;
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党外務局長幸福実現党長野県本部代表（兼）長野第3選挙区支部長" .
 +
@@ -536,7 +549,7 @@
 +    ns1:立候補 "党発表" ;
      ns1:職歴 "南関東比例ブロック副支部長" .
  
--[] ns1:facebook "https://www.facebook.com/yoshiitoshimitsu/" ;
+-[] ns1:facebook "" ;
 +[] ns1:facebook "https://www.facebook.com/toshimitsu.yoshii.7" ;
      ns1:twitter "toshi_yoshii777" ;
 -    ns1:候補名 "吉井利光" ;
@@ -547,10 +560,12 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党東京都本部代表（兼）東京第10選挙区支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/kaworu.yoshida.9" ;
++
++[] ns1:facebook "https://www.facebook.com/kaworu.yoshida.9" ;
      ns1:twitter "" ;
      ns1:候補名 "吉田かをる" ;
 -    ns1:公式ブログ "https://ameblo.jp/yoshida-kaworu" ;
@@ -560,14 +575,12 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "富山県立高等学校講師",
 -        "幸福実現党富山県本部代表" .
--
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100012396186318" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党富山県本部代表（兼）北信越比例ブロック支部長" .
-+
-+[] ns1:facebook "" ;
+ 
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
-     ns1:候補名 "国領ぶんた" ;
+@@ -406,18 +361,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "中国" ;
@@ -615,7 +628,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "(株)NTTフィールドテクノ" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/tsune0024" ;
 -    ns1:twitter "tsune0024" ;
 -    ns1:候補名 "大西恒樹" ;
 -    ns1:公式ブログ "" ;
@@ -653,18 +666,20 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -472,8 +397,8 @@
+@@ -472,75 +397,53 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "NTT支店長" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "九州比例ブロック副支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/kojima.ichiro" ;
++
++[] ns1:facebook "https://www.facebook.com/kojima.ichiro" ;
      ns1:twitter "kojimaichiro" ;
-@@ -481,66 +406,44 @@
+     ns1:候補名 "小島一郎" ;
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北関東" ;
@@ -757,7 +772,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -548,74 +451,80 @@
+@@ -548,53 +451,53 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "四国" ;
@@ -809,7 +824,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "古川製作所（株）" .
 -
--[] ns1:facebook "https://www.facebook.com/MoritaTakayuki777" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "paul_morimori" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党愛媛第3選挙区支部長" .
@@ -837,14 +852,12 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党広島県本部代表代行（兼）広島第2選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/Enatsu.Masatoshi.HR" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/Enatsu.Masatoshi.HR" ;
      ns1:twitter "enatsumasatoshi" ;
-     ns1:候補名 "江夏正敏" ;
+@@ -602,20 +505,26 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" ;
@@ -898,16 +911,13 @@
 -    ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:候補名 "田中孝子" ;
--    ns1:公式ブログ "https://ameblo.jp/tanakatakako/" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "近畿比例ブロック副支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/jitsugen.takako" ;
-+    ns1:twitter "" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/jitsugen.takako" ;
+     ns1:twitter "" ;
+-    ns1:候補名 "田中孝子" ;
+-    ns1:公式ブログ "https://ameblo.jp/tanakatakako/" ;
 +    ns1:候補名 "田中たかこ" ;
 +    ns1:公式ブログ "http://ameblo.jp/tanakatakako/" ;
      ns1:小選挙区 "" ;
@@ -927,16 +937,13 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党福井県本部代表",
 -        "建設業(自営)" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:候補名 "石川幹子" ;
--    ns1:公式ブログ "https://ameblo.jp/mikikomay/" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党福井県本部代表（兼）北信越比例ブロック副支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100005122571380" ;
-+    ns1:twitter "" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100005122571380" ;
+     ns1:twitter "" ;
+-    ns1:候補名 "石川幹子" ;
+-    ns1:公式ブログ "https://ameblo.jp/mikikomay/" ;
 +    ns1:候補名 "石川みき子" ;
 +    ns1:公式ブログ "http://ameblo.jp/mikikomay/" ;
      ns1:小選挙区 "" ;
@@ -950,7 +957,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "realjimmu_hrp" ;
-@@ -672,17 +568,17 @@
+@@ -672,61 +568,61 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" ;
@@ -972,12 +979,14 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "(株)クボタ" .
+-
+-[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党徳島県本部代表代行（兼）徳島第2選挙区支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/kasahara.reika/" ;
++
++[] ns1:facebook "https://www.facebook.com/kasahara.reika/" ;
      ns1:twitter "kasahara_reika" ;
-@@ -690,43 +586,43 @@
+     ns1:候補名 "笠原れいか" ;
      ns1:公式ブログ "" ;
      ns1:小選挙区 "新潟5区" ;
      ns1:比例区 "" ;
@@ -1012,24 +1021,25 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "バイエル薬品(株)" .
+-
+-[] ns1:facebook "" ;
+-    ns1:twitter "" ;
+-    ns1:候補名 "西本篤" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党福岡県本部総務会長（兼）福岡第6選挙区支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/Atsushi.Nishimoto7" ;
-     ns1:twitter "" ;
--    ns1:候補名 "西本篤" ;
++
++[] ns1:facebook "https://www.facebook.com/Atsushi.Nishimoto7" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "西本あつし" ;
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党和歌山県本部代表（兼）近畿比例ブロック副支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/shakuryoko" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/shakuryoko" ;
      ns1:twitter "shakuryoko" ;
      ns1:候補名 "釈量子" ;
 -    ns1:公式ブログ "" ;
@@ -1082,20 +1092,18 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -763,38 +658,26 @@
+@@ -763,8 +658,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党東京都本部青年局長" .
--
--[] ns1:facebook "https://www.facebook.com/people/%E7%A5%9E%E5%A5%88%E5%B7%9D-%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%84/100017183265706" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福の科学理事(兼)青年局長" .
-+
-+[] ns1:facebook "" ;
+ 
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
-     ns1:候補名 "長村康博" ;
+@@ -772,29 +667,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" ;
@@ -1105,7 +1113,7 @@
 -        "神奈川県信用保証協会",
 -        "鉄鋼メーカー商社" .
 -
--[] ns1:facebook "-" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "-" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "南関東比例ブロック副支部長" .
