@@ -4490,7 +4490,7 @@
  
  [] ns1:twitter "" ;
      ns1:候補名 "木村次郎" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://www.jiro-k.jp" ;
 +    ns1:公式サイト "http://www.jiro-k.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "次郎" ;
