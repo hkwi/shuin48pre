@@ -1,12 +1,7 @@
 --- GrayDB
 +++ 共産党公式
-@@ -4,80 +4,77 @@
- @prefix xml: <http://www.w3.org/XML/1998/namespace> .
- @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
- 
--[] ns1: "" ;
-+[] ns1: "たかはし千鶴子" ;
-     ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
+@@ -7,38 +7,38 @@
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
      ns1:twitter "chiduko916" ;
      ns1:せい "たかはし" ;
 -    ns1:めい "ちづこ" ;
@@ -24,8 +19,7 @@
 +    ns1:年齢 "57" ;
      ns1:比例区 "東北" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
 -    ns1:せい "こみやま" ;
 -    ns1:めい "えみこ" ;
@@ -45,10 +39,7 @@
      ns1:年齢 "62" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10",
--        "higa4" ;
-+[] ns1: "柴やま昇" ;
-     ns1:facebook "https://www.facebook.com/noboru.shibayama.9" ;
+ [] ns1:facebook "https://www.facebook.com/noboru.shibayama.9" ;
 -    ns1:twitter "ikunotennohji" ;
 +    ns1:twitter "" ;
      ns1:せい "しばやま" ;
@@ -63,10 +54,7 @@
      ns1:小選挙区 "大阪1区" ;
      ns1:年齢 "63" ;
      ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "しまさき保臣" ;
-     ns1:facebook "https://www.facebook.com/yasuomi.shimasaki" ;
+@@ -47,24 +47,24 @@
      ns1:twitter "sima_omi" ;
      ns1:せい "しまさき" ;
      ns1:めい "やすおみ" ;
@@ -82,14 +70,10 @@
      ns1:年齢 "34" ;
      ns1:比例区 "四国" .
  
--[] ns1: "10/14",
--        "YFuruchin" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "tak1381" ;
 -    ns1:せい "たかむら" ;
 -    ns1:めい "なおや" ;
-+[] ns1: "高村" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
@@ -104,14 +88,7 @@
      ns1:小選挙区 "宮城4区" ;
      ns1:年齢 "34" ;
      ns1:比例区 "" .
- 
--[] ns1: "10/10/2017",
--        "grck1004" ;
-+[] ns1: "爲きみひと" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "ため" ;
-@@ -85,45 +82,71 @@
+@@ -76,21 +76,21 @@
      ns1:候補名 "ため仁史" ;
      ns1:前回 "新" ;
      ns1:名 "仁史" ;
@@ -123,8 +100,7 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "jkabucp" ;
 -    ns1:せい "のざわ" ;
 -    ns1:めい "やすゆき" ;
@@ -133,8 +109,6 @@
 -    ns1:名 "康幸" ;
 -    ns1:名前 "野沢康幸" ;
 -    ns1:姓 "野沢" ;
-+[] ns1: "野澤やすゆき" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
@@ -146,10 +120,7 @@
      ns1:小選挙区 "愛知15区" ;
      ns1:年齢 "29" ;
      ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "野澤まさじ" ;
-     ns1:facebook "" ;
+@@ -99,17 +99,43 @@
      ns1:twitter "" ;
      ns1:せい "のざわ" ;
      ns1:めい "まさじ" ;
@@ -165,13 +136,8 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "higa4",
--        "年齢(67)のみ公開" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "issikikazumasa" ;
-+[] ns1: "照屋かんとく" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "テルヤ" ;
 +    ns1:めい "かんとく" ;
@@ -184,8 +150,7 @@
 +    ns1:年齢 "72" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "仲里としのぶ" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "ナカザト" ;
 +    ns1:めい "としのぶ" ;
@@ -198,41 +163,25 @@
 +    ns1:年齢 "80" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "いっしきかずまさ" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "いっしき" ;
      ns1:めい "かずまさ" ;
      ns1:候補名 "一色一正" ;
-@@ -135,8 +158,7 @@
-     ns1:年齢 "67" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9/2017",
--        "grck1004" ;
-+[] ns1: "三和ともゆき" ;
-     ns1:facebook "https://www.facebook.com/tomoyuki.miwa3" ;
-     ns1:twitter "1975_miwa" ;
-     ns1:せい "みわ" ;
-@@ -150,8 +172,7 @@
+@@ -134,7 +160,7 @@
      ns1:年齢 "42" ;
      ns1:比例区 "近畿" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
-+[] ns1: "上條りょういち" ;
-     ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ryoichikamijo" ;
++[] ns1:facebook "" ;
      ns1:twitter "ryoichikamijo" ;
      ns1:せい "かみじょう" ;
-@@ -165,26 +186,26 @@
-     ns1:年齢 "31" ;
+     ns1:めい "りょういち" ;
+@@ -148,23 +174,23 @@
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "satiueda29" ;
-+[] ns1: "うえだ幸こ" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "うえだ" ;
      ns1:めい "さちこ" ;
@@ -249,10 +198,8 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/ueno.hirotsugu" ;
-+[] ns1: "うえの洋嗣" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ueno.hirotsugu" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "うえの" ;
      ns1:めい "ひろつぐ" ;
@@ -261,22 +208,10 @@
      ns1:前回 "新" ;
      ns1:名 "洋嗣" ;
      ns1:名前 "上野洋嗣" ;
-@@ -193,7 +214,7 @@
-     ns1:年齢 "40" ;
+@@ -187,10 +213,10 @@
      ns1:比例区 "" .
  
--[] ns1: "" ;
-+[] ns1: "しもじまりょういち" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "しもじま" ;
-@@ -207,12 +228,12 @@
-     ns1:年齢 "71" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "しもむら雅洋" ;
-     ns1:facebook "https://www.facebook.com/shimomura.masahiro.54" ;
+ [] ns1:facebook "https://www.facebook.com/shimomura.masahiro.54" ;
 -    ns1:twitter "wvzurewxzk7lisw" ;
 +    ns1:twitter "" ;
      ns1:せい "しもむら" ;
@@ -286,15 +221,11 @@
      ns1:前回 "新" ;
      ns1:名 "雅洋" ;
      ns1:名前 "下村雅洋" ;
-@@ -221,12 +242,12 @@
-     ns1:年齢 "62" ;
+@@ -200,10 +226,10 @@
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "ojskdc90t9hnbra" ;
-+[] ns1: "なかいし仁" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "なかいし" ;
      ns1:めい "ひとし" ;
@@ -303,14 +234,7 @@
      ns1:前回 "新" ;
      ns1:名 "仁" ;
      ns1:名前 "中石仁" ;
-@@ -235,27 +256,26 @@
-     ns1:年齢 "54" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/11/2017",
--        "ypresto" ;
-+[] ns1: "なかの武史" ;
-     ns1:facebook "" ;
+@@ -216,20 +242,20 @@
      ns1:twitter "" ;
      ns1:せい "なかの" ;
      ns1:めい "たけし" ;
@@ -325,10 +249,8 @@
 +    ns1:年齢 "42" ;
      ns1:比例区 "東海" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/jun.nakanowatari.9" ;
-+[] ns1: "なかのわたり旬" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jun.nakanowatari.9" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "なかのわたり" ;
      ns1:めい "じゅん" ;
@@ -337,13 +259,7 @@
      ns1:前回 "新" ;
      ns1:名 "旬" ;
      ns1:名前 "中野渡旬" ;
-@@ -264,12 +284,12 @@
-     ns1:年齢 "69" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "くぼ孝之" ;
-     ns1:facebook "https://www.facebook.com/jcp.tokushima" ;
+@@ -242,7 +268,7 @@
      ns1:twitter "" ;
      ns1:せい "くぼ" ;
      ns1:めい "たかゆき" ;
@@ -352,35 +268,16 @@
      ns1:前回 "新" ;
      ns1:名 "孝之" ;
      ns1:名前 "久保孝之" ;
-@@ -278,10 +298,9 @@
-     ns1:年齢 "54" ;
+@@ -252,7 +278,7 @@
      ns1:比例区 "" .
  
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "いがらし健彦" ;
-     ns1:facebook "https://www.facebook.com/profile.php?id=100004099751374" ;
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100004099751374" ;
 -    ns1:twitter "efisgfiseeedhde" ;
 +    ns1:twitter "" ;
      ns1:せい "いがらし" ;
      ns1:めい "たけひこ" ;
      ns1:候補名 "五十嵐たけひこ" ;
-@@ -293,7 +312,7 @@
-     ns1:年齢 "37" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "ごとうひろし" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "ごとう" ;
-@@ -307,12 +326,12 @@
-     ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "いのうえ宣" ;
-     ns1:facebook "https://www.facebook.com/takashi.inoue.jcp" ;
+@@ -281,7 +307,7 @@
      ns1:twitter "inoue_9" ;
      ns1:せい "いのうえ" ;
      ns1:めい "たかし" ;
@@ -389,66 +286,25 @@
      ns1:前回 "新" ;
      ns1:名 "宣" ;
      ns1:名前 "井上宣" ;
-@@ -321,8 +340,8 @@
+@@ -290,7 +316,7 @@
      ns1:年齢 "43" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "いのうえよしこ" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100008607883601" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100008607883601" ;
      ns1:twitter "" ;
      ns1:せい "いのうえ" ;
      ns1:めい "よしこ" ;
-@@ -335,8 +354,7 @@
-     ns1:年齢 "53" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "いのうえ諭" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いのうえ" ;
-@@ -350,9 +368,8 @@
+@@ -316,7 +342,7 @@
      ns1:年齢 "50" ;
      ns1:比例区 "" .
  
--[] ns1: "10/11/2017",
--        "ypresto" ;
--    ns1:facebook "" ;
-+[] ns1: "いぐち昌彦" ;
-+    ns1:facebook "https://www.facebook.com/iguchi.shizuoka" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/iguchi.shizuoka" ;
      ns1:twitter "" ;
      ns1:せい "いぐち" ;
      ns1:めい "まさひこ" ;
-@@ -365,9 +382,7 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(68)のみ公表" ;
-+[] ns1: "いふくみとし" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いふく" ;
-@@ -381,7 +396,7 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "いまむらあゆみ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いまむら" ;
-@@ -395,12 +410,12 @@
-     ns1:年齢 "52" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1: "" ;
-+[] ns1: "伊藤まこと" ;
-     ns1:facebook "" ;
+@@ -359,7 +385,7 @@
      ns1:twitter "" ;
      ns1:せい "いとう" ;
      ns1:めい "まこと" ;
@@ -457,13 +313,7 @@
      ns1:前回 "新" ;
      ns1:名 "誠" ;
      ns1:名前 "伊藤誠" ;
-@@ -409,12 +424,12 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "北陸信越" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "いとう達也" ;
-     ns1:facebook "https://www.facebook.com/tatsuya.jcp.g" ;
+@@ -372,7 +398,7 @@
      ns1:twitter "tatsuya_jcp" ;
      ns1:せい "いとう" ;
      ns1:めい "たつや" ;
@@ -472,15 +322,10 @@
      ns1:前回 "新" ;
      ns1:名 "達也" ;
      ns1:名前 "伊藤達也" ;
-@@ -423,14 +438,12 @@
-     ns1:年齢 "34" ;
+@@ -382,10 +408,10 @@
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "Yfuruchin",
--        "年齢のみ公表" ;
-+[] ns1: "ささき明美" ;
-     ns1:facebook "https://www.facebook.com/akemi.sasaki.1656" ;
+ [] ns1:facebook "https://www.facebook.com/akemi.sasaki.1656" ;
 -    ns1:twitter "peace12wave" ;
 +    ns1:twitter "" ;
      ns1:せい "ささき" ;
@@ -490,34 +335,7 @@
      ns1:前回 "新" ;
      ns1:名 "明美" ;
      ns1:名前 "佐々木明美" ;
-@@ -439,8 +452,7 @@
-     ns1:年齢 "56" ;
-     ns1:比例区 "北海道" .
- 
--[] ns1: "10/11/2017",
--        "ypresto" ;
-+[] ns1: "うちだ豊" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "うちだ" ;
-@@ -454,9 +466,7 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(68)のみ公開" ;
-+[] ns1: "うちだしずお" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "うちだ" ;
-@@ -470,12 +480,12 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "冨士谷かえこ" ;
-     ns1:facebook "" ;
+@@ -424,7 +450,7 @@
      ns1:twitter "" ;
      ns1:せい "ふじたに" ;
      ns1:めい "かえこ" ;
@@ -526,13 +344,7 @@
      ns1:前回 "新" ;
      ns1:名 "香恵子" ;
      ns1:名前 "冨士谷香恵子" ;
-@@ -484,12 +494,12 @@
-     ns1:年齢 "65" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "とみおか昭" ;
-     ns1:facebook "" ;
+@@ -437,7 +463,7 @@
      ns1:twitter "" ;
      ns1:せい "とみおか" ;
      ns1:めい "あきら" ;
@@ -541,13 +353,7 @@
      ns1:前回 "新" ;
      ns1:名 "昭" ;
      ns1:名前 "冨岡昭" ;
-@@ -498,12 +508,12 @@
-     ns1:年齢 "67" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "とみた直樹" ;
-     ns1:facebook "https://www.facebook.com/naoki.tomita.503" ;
+@@ -450,7 +476,7 @@
      ns1:twitter "tomita_naoki" ;
      ns1:せい "とみた" ;
      ns1:めい "なおき" ;
@@ -556,16 +362,13 @@
      ns1:前回 "新" ;
      ns1:名 "直樹" ;
      ns1:名前 "冨田直樹" ;
-@@ -512,13 +522,12 @@
+@@ -459,11 +485,11 @@
      ns1:年齢 "41" ;
      ns1:比例区 "東京" .
  
--[] ns1: "10/14/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/people/%E5%8A%9B%E9%87%8D%E6%99%BA%E4%B9%8B/100006856698727" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E5%8A%9B%E9%87%8D%E6%99%BA%E4%B9%8B/100006856698727" ;
 -    ns1:twitter "rikiriki1005" ;
-+[] ns1: "力重ともゆき" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "りきしげ" ;
      ns1:めい "ともゆき" ;
@@ -574,14 +377,12 @@
      ns1:前回 "新" ;
      ns1:名 "智之" ;
      ns1:名前 "力重智之" ;
-@@ -527,11 +536,11 @@
+@@ -472,10 +498,10 @@
      ns1:年齢 "39" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/rikakatoh" ;
-+[] ns1: "かとうりか" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100010277866022" ;
+-[] ns1:facebook "https://www.facebook.com/rikakatoh" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100010277866022" ;
      ns1:twitter "" ;
      ns1:せい "かとう" ;
 -    ns1:めい "りか" ;
@@ -589,45 +390,21 @@
      ns1:候補名 "加藤リカ" ;
      ns1:前回 "新" ;
      ns1:名 "リカ" ;
-@@ -541,7 +550,7 @@
-     ns1:年齢 "45" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "かとうたいち" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "かとう" ;
-@@ -555,9 +564,8 @@
+@@ -498,7 +524,7 @@
      ns1:年齢 "66" ;
      ns1:比例区 "" .
  
--[] ns1: "10/12/2017",
--        "grck1004" ;
--    ns1:facebook "" ;
-+[] ns1: "きたやまりょうぞう" ;
-+    ns1:facebook "https://www.facebook.com/kitayamasupport" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/kitayamasupport" ;
      ns1:twitter "jcpkitayama" ;
      ns1:せい "きたやま" ;
      ns1:めい "りょうぞう" ;
-@@ -570,8 +578,7 @@
-     ns1:年齢 "65" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10/2017",
--        "grck1004" ;
-+[] ns1: "きたむらみき" ;
-     ns1:facebook "https://www.facebook.com/miki.t.kitamura" ;
-     ns1:twitter "0620_appletree" ;
-     ns1:せい "きたむら" ;
-@@ -585,21 +592,21 @@
+@@ -524,17 +550,17 @@
      ns1:年齢 "51" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "はら矢寸久" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=1209855673" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=1209855673" ;
      ns1:twitter "" ;
      ns1:せい "はら" ;
      ns1:めい "やすひさ" ;
@@ -642,18 +419,8 @@
 +    ns1:年齢 "66" ;
      ns1:比例区 "近畿" .
  
--[] ns1: "10/10" ;
-+[] ns1: "はらじゅんこ" ;
-     ns1:facebook "https://www.facebook.com/kukure.hara" ;
-     ns1:twitter "harachanj" ;
-     ns1:せい "はら" ;
-@@ -613,12 +620,12 @@
-     ns1:年齢 "53" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "ふるかわ芳憲" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "https://www.facebook.com/kukure.hara" ;
+@@ -554,7 +580,7 @@
      ns1:twitter "" ;
      ns1:せい "ふるかわ" ;
      ns1:めい "よしのり" ;
@@ -662,13 +429,7 @@
      ns1:前回 "新" ;
      ns1:名 "芳憲" ;
      ns1:名前 "古川芳憲" ;
-@@ -627,12 +634,12 @@
-     ns1:年齢 "66" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "ふるさわ喜幸" ;
-     ns1:facebook "" ;
+@@ -567,7 +593,7 @@
      ns1:twitter "" ;
      ns1:せい "ふるさわ" ;
      ns1:めい "よしゆき" ;
@@ -677,27 +438,22 @@
      ns1:前回 "新" ;
      ns1:名 "喜幸" ;
      ns1:名前 "古沢喜幸" ;
-@@ -641,9 +648,8 @@
+@@ -576,7 +602,7 @@
      ns1:年齢 "71" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "" ;
-+[] ns1: "よしだ剛" ;
-+    ns1:facebook "https://www.facebook.com/5555yoshida" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/5555yoshida" ;
      ns1:twitter "gogoyoshidago" ;
      ns1:せい "よしだ" ;
      ns1:めい "ごう" ;
-@@ -656,12 +662,12 @@
+@@ -589,11 +615,11 @@
      ns1:年齢 "35" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/jcp.yosida.toshio" ;
+-[] ns1:facebook "https://www.facebook.com/jcp.yosida.toshio" ;
 -    ns1:twitter "yoshida_toshio" ;
-+[] ns1: "よしだ年男" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "よしだ" ;
      ns1:めい "としお" ;
@@ -706,46 +462,30 @@
      ns1:前回 "新" ;
      ns1:名 "年男" ;
      ns1:名前 "吉田年男" ;
-@@ -670,9 +676,8 @@
+@@ -602,7 +628,7 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/koichiyoshida.jcp" ;
-+[] ns1: "よしだこういち" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/koichiyoshida.jcp" ;
++[] ns1:facebook "" ;
      ns1:twitter "koichiyoshida4" ;
      ns1:せい "よしだ" ;
      ns1:めい "こういち" ;
-@@ -685,7 +690,7 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "よしだきょうこ" ;
-     ns1:facebook "" ;
-     ns1:twitter "kyoko_yosida" ;
-     ns1:せい "よしだ" ;
-@@ -699,8 +704,8 @@
+@@ -628,7 +654,7 @@
      ns1:年齢 "36" ;
      ns1:比例区 "東北" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "向瀬しんいち" ;
-+    ns1:facebook "https://www.facebook.com/shinichi.mukose" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/shinichi.mukose" ;
      ns1:twitter "mukose3" ;
      ns1:せい "むこせ" ;
      ns1:めい "しんいち" ;
-@@ -713,12 +718,12 @@
+@@ -641,11 +667,11 @@
      ns1:年齢 "46" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "四ツ谷めぐみ" ;
-+    ns1:facebook "https://www.facebook.com/cyuubutiku" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/cyuubutiku" ;
      ns1:twitter "" ;
      ns1:せい "よつや" ;
      ns1:めい "めぐみ" ;
@@ -754,43 +494,25 @@
      ns1:前回 "新" ;
      ns1:名 "恵" ;
      ns1:名前 "四ツ谷恵" ;
-@@ -727,9 +732,7 @@
+@@ -667,7 +693,7 @@
      ns1:年齢 "65" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "higa4",
--        "年齢(65)のみ公開" ;
-+[] ns1: "くにた睦" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "くにた" ;
-@@ -743,9 +746,8 @@
-     ns1:年齢 "65" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/chisaka.takuaki" ;
-+[] ns1: "地坂たくあき" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/chisaka.takuaki" ;
++[] ns1:facebook "" ;
      ns1:twitter "chitak21" ;
      ns1:せい "ちさか" ;
      ns1:めい "たくあき" ;
-@@ -758,9 +760,9 @@
-     ns1:年齢 "44" ;
+@@ -681,7 +707,7 @@
      ns1:比例区 "近畿" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "waka929" ;
-+[] ns1: "さかいわかこ" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "さかい" ;
      ns1:めい "わかこ" ;
      ns1:候補名 "坂井和歌子" ;
-@@ -769,11 +771,10 @@
+@@ -690,7 +716,7 @@
      ns1:名前 "坂井和歌子" ;
      ns1:姓 "坂井" ;
      ns1:小選挙区 "" ;
@@ -798,22 +520,8 @@
 +    ns1:年齢 "39" ;
      ns1:比例区 "東京" .
  
--[] ns1: "10/9",
--        "tominari" ;
-+[] ns1: "さかもと洋史" ;
-     ns1:facebook "https://www.facebook.com/55hiroshi" ;
-     ns1:twitter "hi_sakamoto" ;
-     ns1:せい "さかもと" ;
-@@ -787,7 +788,7 @@
-     ns1:年齢 "47" ;
-     ns1:比例区 "北陸信越" .
- 
--[] ns1: "" ;
-+[] ns1: "かきうちきょうみ" ;
-     ns1:facebook "https://www.facebook.com/gu.jingmei" ;
-     ns1:twitter "haruka_tubasa" ;
-     ns1:せい "かきうち" ;
-@@ -798,11 +799,10 @@
+ [] ns1:facebook "https://www.facebook.com/55hiroshi" ;
+@@ -716,7 +742,7 @@
      ns1:名前 "垣内京美" ;
      ns1:姓 "垣内" ;
      ns1:小選挙区 "岡山2区" ;
@@ -821,19 +529,8 @@
 +    ns1:年齢 "51" ;
      ns1:比例区 "中国" .
  
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "ほりうちてるふみ" ;
-     ns1:facebook "https://www.facebook.com/terufumi.horiuchi" ;
-     ns1:twitter "teruhoriuchi" ;
-     ns1:せい "ほりうち" ;
-@@ -816,12 +816,12 @@
-     ns1:年齢 "44" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "" ;
-+[] ns1: "ほりえ鶴治" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "https://www.facebook.com/terufumi.horiuchi" ;
+@@ -736,7 +762,7 @@
      ns1:twitter "" ;
      ns1:せい "ほりえ" ;
      ns1:めい "かくじ" ;
@@ -842,13 +539,7 @@
      ns1:前回 "新" ;
      ns1:名 "鶴治" ;
      ns1:名前 "堀江鶴治" ;
-@@ -830,12 +830,12 @@
-     ns1:年齢 "75" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "ほり譲" ;
-     ns1:facebook "" ;
+@@ -749,7 +775,7 @@
      ns1:twitter "" ;
      ns1:せい "ほり" ;
      ns1:めい "ゆずる" ;
@@ -857,13 +548,7 @@
      ns1:前回 "新" ;
      ns1:名 "譲" ;
      ns1:名前 "堀譲" ;
-@@ -844,12 +844,12 @@
-     ns1:年齢 "67" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "つかだ成幸" ;
-     ns1:facebook "" ;
+@@ -762,7 +788,7 @@
      ns1:twitter "aozoranaru" ;
      ns1:せい "つかだ" ;
      ns1:めい "なるゆき" ;
@@ -872,16 +557,7 @@
      ns1:前回 "新" ;
      ns1:名 "成幸" ;
      ns1:名前 "塚田成幸" ;
-@@ -858,7 +858,7 @@
-     ns1:年齢 "53" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "しおかわてつや" ;
-     ns1:facebook "https://www.facebook.com/shiokawa.jcp" ;
-     ns1:twitter "shiokawatetsuya" ;
-     ns1:せい "しおかわ" ;
-@@ -869,10 +869,10 @@
+@@ -781,7 +807,7 @@
      ns1:名前 "塩川鉄也" ;
      ns1:姓 "塩川" ;
      ns1:小選挙区 "" ;
@@ -889,18 +565,8 @@
 +    ns1:年齢 "54" ;
      ns1:比例区 "北関東" .
  
--[] ns1: "" ;
-+[] ns1: "おおくぼれいこ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "おおくぼ" ;
-@@ -886,38 +886,35 @@
-     ns1:年齢 "67" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "おおうち久美こ" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
+@@ -801,10 +827,10 @@
      ns1:twitter "" ;
      ns1:せい "おおうち" ;
      ns1:めい "くみこ" ;
@@ -915,12 +581,7 @@
      ns1:姓 "大内" ;
      ns1:小選挙区 "茨城1区" ;
      ns1:年齢 "68" ;
-     ns1:比例区 "北関東" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "おおひら喜信" ;
-     ns1:facebook "https://www.facebook.com/ohirayoshinobu" ;
+@@ -814,13 +840,13 @@
      ns1:twitter "tekuteku_diary" ;
      ns1:せい "おおひら" ;
      ns1:めい "よしのぶ" ;
@@ -935,20 +596,8 @@
 +    ns1:年齢 "38" ;
      ns1:比例区 "中国" .
  
--[] ns1: "10/8",
--        "higa4",
--        "年齢(62)のみ公開" ;
-+[] ns1: "おおもり斉" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "おおもり" ;
-@@ -931,12 +928,12 @@
-     ns1:年齢 "62" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "大椙てつお" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
+@@ -840,7 +866,7 @@
      ns1:twitter "" ;
      ns1:せい "おおすぎ" ;
      ns1:めい "てつお" ;
@@ -957,14 +606,12 @@
      ns1:前回 "新" ;
      ns1:名 "鉄夫" ;
      ns1:名前 "大椙鉄夫" ;
-@@ -945,12 +942,12 @@
+@@ -849,11 +875,11 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/osamu.onishi.739" ;
-+[] ns1: "おおにし理" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/osamu.onishi.739" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "おおにし" ;
 -    ns1:めい "おさむ" ;
@@ -974,14 +621,12 @@
      ns1:前回 "新" ;
      ns1:名 "理" ;
      ns1:名前 "大西理" ;
-@@ -959,12 +956,12 @@
+@@ -862,11 +888,11 @@
      ns1:年齢 "51" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/wataame.hare" ;
-+[] ns1: "おおにし航" ;
-+    ns1:facebook "http://www.facebook.com/wataame.hare" ;
+-[] ns1:facebook "https://www.facebook.com/wataame.hare" ;
++[] ns1:facebook "http://www.facebook.com/wataame.hare" ;
      ns1:twitter "wataame_hare" ;
      ns1:せい "おおにし" ;
      ns1:めい "わたる" ;
@@ -990,28 +635,21 @@
      ns1:前回 "新" ;
      ns1:名 "航" ;
      ns1:名前 "大西航" ;
-@@ -973,10 +970,9 @@
-     ns1:年齢 "36" ;
+@@ -876,7 +902,7 @@
      ns1:比例区 "南関東" .
  
--[] ns1: "10/11",
--        "2&3" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "kiyofumi_ohnuki" ;
-+[] ns1: "大貫きよふみ" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "おおぬき" ;
      ns1:めい "きよふみ" ;
      ns1:候補名 "おおぬき清文" ;
-@@ -988,12 +984,12 @@
+@@ -888,11 +914,11 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "おおの宙光" ;
-+    ns1:facebook "https://www.facebook.com/hiromitsu.ohno.7" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/hiromitsu.ohno.7" ;
      ns1:twitter "" ;
      ns1:せい "おおの" ;
      ns1:めい "ひろみつ" ;
@@ -1020,14 +658,12 @@
      ns1:前回 "新" ;
      ns1:名 "宙光" ;
      ns1:名前 "大野宙光" ;
-@@ -1002,12 +998,12 @@
+@@ -901,11 +927,11 @@
      ns1:年齢 "54" ;
      ns1:比例区 "東海" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/oono.takasi.jcp" ;
-+[] ns1: "おおの隆" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/oono.takasi.jcp" ;
++[] ns1:facebook "" ;
      ns1:twitter "koredeiinoka" ;
      ns1:せい "おおの" ;
      ns1:めい "たかし" ;
@@ -1036,17 +672,12 @@
      ns1:前回 "新" ;
      ns1:名 "隆" ;
      ns1:名前 "大野隆" ;
-@@ -1016,14 +1012,12 @@
-     ns1:年齢 "48" ;
+@@ -915,11 +941,10 @@
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "okumotonaomi",
 -        "pekoandnaomi" ;
-+[] ns1: "おくもと菜保巳" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "おくもと" ;
      ns1:めい "なおみ" ;
@@ -1055,14 +686,7 @@
      ns1:前回 "新" ;
      ns1:名 "菜保巳" ;
      ns1:名前 "奥本菜保巳" ;
-@@ -1032,13 +1026,12 @@
-     ns1:年齢 "57" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "みやうち現" ;
-     ns1:facebook "https://www.facebook.com/gen.miyauchi" ;
+@@ -932,7 +957,7 @@
      ns1:twitter "genmiyauchi1982" ;
      ns1:せい "みやうち" ;
      ns1:めい "げん" ;
@@ -1071,13 +695,7 @@
      ns1:前回 "新" ;
      ns1:名 "現" ;
      ns1:名前 "宮内現" ;
-@@ -1047,12 +1040,12 @@
-     ns1:年齢 "35" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1: "" ;
-+[] ns1: "みやち勲" ;
-     ns1:facebook "" ;
+@@ -945,7 +970,7 @@
      ns1:twitter "" ;
      ns1:せい "みやち" ;
      ns1:めい "いさお" ;
@@ -1086,14 +704,8 @@
      ns1:前回 "新" ;
      ns1:名 "勲" ;
      ns1:名前 "宮地勲" ;
-@@ -1061,38 +1054,35 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "keisuke" ;
-+[] ns1: "みやじまつやこ" ;
-     ns1:facebook "https://www.facebook.com/tsuyako.miyazima" ;
+@@ -957,27 +982,27 @@
+ [] ns1:facebook "https://www.facebook.com/tsuyako.miyazima" ;
      ns1:twitter "tsuyako1127" ;
      ns1:せい "みやじま" ;
 -    ns1:めい "つやこ" ;
@@ -1109,11 +721,8 @@
      ns1:年齢 "66" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "" ;
-+[] ns1: "みやもと岳志" ;
-+    ns1:facebook "https://www.facebook.com/takeshi.miyamoto.5661" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/takeshi.miyamoto.5661" ;
      ns1:twitter "" ;
      ns1:せい "みやもと" ;
      ns1:めい "たけし" ;
@@ -1128,19 +737,8 @@
 +    ns1:年齢 "56" ;
      ns1:比例区 "近畿" .
  
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "みやもととおる" ;
-     ns1:facebook "https://www.facebook.com/miyamototooru.jcp" ;
-     ns1:twitter "miyamototooru" ;
-     ns1:せい "みやもと" ;
-@@ -1106,25 +1096,25 @@
-     ns1:年齢 "45" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "" ;
-+[] ns1: "てらだ明充" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "https://www.facebook.com/miyamototooru.jcp" ;
+@@ -997,19 +1022,19 @@
      ns1:twitter "" ;
      ns1:せい "てらだ" ;
      ns1:めい "あきみつ" ;
@@ -1152,14 +750,10 @@
      ns1:姓 "寺田" ;
      ns1:小選挙区 "広島6区" ;
 -    ns1:年齢 "66" ;
--    ns1:比例区 "" .
--
--[] ns1: "" ;
 +    ns1:年齢 "65" ;
-+    ns1:比例区 "" .
-+
-+[] ns1: "こづつみあづま" ;
-     ns1:facebook "" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
      ns1:twitter "azuma_united_fc" ;
      ns1:せい "こづつみ" ;
 -    ns1:めい "あずま" ;
@@ -1167,37 +761,13 @@
      ns1:候補名 "小堤東" ;
      ns1:前回 "新" ;
      ns1:名 "東" ;
-@@ -1134,9 +1124,7 @@
-     ns1:年齢 "28" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(61)のみ公開" ;
-+[] ns1: "こてがわ恵" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "こてがわ" ;
-@@ -1150,8 +1138,7 @@
-     ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10/2017",
--        "grck1004" ;
-+[] ns1: "こまつ久" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "こまつ" ;
-@@ -1165,24 +1152,23 @@
+@@ -1045,21 +1070,21 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "keisuke" ;
--    ns1:facebook "https://www.facebook.com/tkoba1979" ;
+-[] ns1:facebook "https://www.facebook.com/tkoba1979" ;
 -    ns1:twitter "tokikobayashi" ;
-+[] ns1: "こばやし解こ" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "こばやし" ;
      ns1:めい "ときこ" ;
@@ -1214,23 +784,18 @@
      ns1:年齢 "37" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "koike_kazunori" ;
-+[] ns1: "こいけかずのり" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "こいけ" ;
      ns1:めい "かずのり" ;
      ns1:候補名 "小池一徳" ;
-@@ -1194,12 +1180,12 @@
+@@ -1071,11 +1096,11 @@
      ns1:年齢 "56" ;
      ns1:比例区 "北関東" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100008467158841" ;
-+[] ns1: "おのざと定良" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100008467158841" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "おのざと" ;
      ns1:めい "ていりょう" ;
@@ -1239,14 +804,12 @@
      ns1:前回 "新" ;
      ns1:名 "定良" ;
      ns1:名前 "小野里定良" ;
-@@ -1208,12 +1194,12 @@
+@@ -1084,11 +1109,11 @@
      ns1:年齢 "70" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "こがねざわ由佳" ;
-+    ns1:facebook "https://www.facebook.com/yuka.koganezawa.1" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/yuka.koganezawa.1" ;
      ns1:twitter "koganezawayuka" ;
      ns1:せい "こがねざわ" ;
      ns1:めい "ゆか" ;
@@ -1255,23 +818,7 @@
      ns1:前回 "新" ;
      ns1:名 "由佳" ;
      ns1:名前 "小金沢由佳" ;
-@@ -1222,8 +1208,7 @@
-     ns1:年齢 "34" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "小関しょうこ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "おぜき" ;
-@@ -1237,21 +1222,21 @@
-     ns1:年齢 "64" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "おざき宏こ" ;
-     ns1:facebook "https://www.facebook.com/people/Hiroko-Ozaki/100005889727144" ;
+@@ -1114,10 +1139,10 @@
      ns1:twitter "" ;
      ns1:せい "おざき" ;
      ns1:めい "ひろこ" ;
@@ -1286,20 +833,7 @@
      ns1:姓 "尾崎" ;
      ns1:小選挙区 "岡山3区" ;
      ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "おざき光" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "おざき" ;
-@@ -1265,12 +1250,12 @@
-     ns1:年齢 "64" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "やました魁" ;
-     ns1:facebook "" ;
+@@ -1140,7 +1165,7 @@
      ns1:twitter "" ;
      ns1:せい "やました" ;
      ns1:めい "かい" ;
@@ -1308,29 +842,16 @@
      ns1:前回 "新" ;
      ns1:名 "魁" ;
      ns1:名前 "山下魁" ;
-@@ -1279,9 +1264,8 @@
+@@ -1149,7 +1174,7 @@
      ns1:年齢 "40" ;
      ns1:比例区 "九州" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/ken.yamauchi.710" ;
-+[] ns1: "やまうちけん" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ken.yamauchi.710" ;
++[] ns1:facebook "" ;
      ns1:twitter "kyamauchi2" ;
      ns1:せい "やまうち" ;
      ns1:めい "けん" ;
-@@ -1294,28 +1278,26 @@
-     ns1:年齢 "49" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(26)のみ公開" ;
-+[] ns1: "やまぐちゆうた" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "やまぐち" ;
+@@ -1168,8 +1193,8 @@
      ns1:めい "ゆうた" ;
      ns1:候補名 "山口ゆうた" ;
      ns1:前回 "新" ;
@@ -1341,11 +862,7 @@
      ns1:姓 "山口" ;
      ns1:小選挙区 "鹿児島3区" ;
      ns1:年齢 "26" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "やまざき寿彦" ;
-     ns1:facebook "" ;
+@@ -1179,7 +1204,7 @@
      ns1:twitter "" ;
      ns1:せい "やまざき" ;
      ns1:めい "としひこ" ;
@@ -1354,36 +871,21 @@
      ns1:前回 "新" ;
      ns1:名 "寿彦" ;
      ns1:名前 "山崎寿彦" ;
-@@ -1324,9 +1306,8 @@
+@@ -1188,7 +1213,7 @@
      ns1:年齢 "64" ;
      ns1:比例区 "" .
  
--[] ns1: "10/12",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/people/%E5%B1%B1%E6%9C%AC%E5%8D%83%E4%BB%A3%E5%AD%90/100005512444252" ;
-+[] ns1: "やまもとちよこ" ;
-+    ns1:facebook "https://www.facebook.com/100005512444252" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E5%B1%B1%E6%9C%AC%E5%8D%83%E4%BB%A3%E5%AD%90/100005512444252" ;
++[] ns1:facebook "https://www.facebook.com/100005512444252" ;
      ns1:twitter "yamachi0102" ;
      ns1:せい "やまもと" ;
      ns1:めい "ちよこ" ;
-@@ -1339,8 +1320,7 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "山越徹" ;
-     ns1:facebook "https://www.facebook.com/yamakoshi.toru" ;
-     ns1:twitter "" ;
-     ns1:せい "やまこし" ;
-@@ -1354,12 +1334,12 @@
+@@ -1214,11 +1239,11 @@
      ns1:年齢 "47" ;
      ns1:比例区 "東海" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "おかざき裕" ;
-+    ns1:facebook "https://www.facebook.com/jcp20141214okazaki" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/jcp20141214okazaki" ;
      ns1:twitter "" ;
      ns1:せい "おかざき" ;
      ns1:めい "ゆたか" ;
@@ -1392,13 +894,7 @@
      ns1:前回 "新" ;
      ns1:名 "裕" ;
      ns1:名前 "岡崎裕" ;
-@@ -1368,12 +1348,12 @@
-     ns1:年齢 "39" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1: "" ;
-+[] ns1: "いわもと康嗣" ;
-     ns1:facebook "" ;
+@@ -1231,7 +1256,7 @@
      ns1:twitter "" ;
      ns1:せい "いわもと" ;
      ns1:めい "こうじ" ;
@@ -1407,14 +903,12 @@
      ns1:前回 "新" ;
      ns1:名 "康嗣" ;
      ns1:名前 "岩本康嗣" ;
-@@ -1382,12 +1362,12 @@
+@@ -1240,11 +1265,11 @@
      ns1:年齢 "52" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "いわた剛" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100009478396899" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100009478396899" ;
      ns1:twitter "" ;
      ns1:せい "いわた" ;
      ns1:めい "たけし" ;
@@ -1423,14 +917,12 @@
      ns1:前回 "新" ;
      ns1:名 "剛" ;
      ns1:名前 "岩田剛" ;
-@@ -1396,12 +1376,12 @@
+@@ -1253,11 +1278,11 @@
      ns1:年齢 "36" ;
      ns1:比例区 "中国" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "" ;
-+[] ns1: "きし武志" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100011583347889" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100011583347889" ;
      ns1:twitter "kisskisi" ;
      ns1:せい "きし" ;
      ns1:めい "たけし" ;
@@ -1439,48 +931,36 @@
      ns1:前回 "新" ;
      ns1:名 "武志" ;
      ns1:名前 "岸武志" ;
-@@ -1410,9 +1390,9 @@
+@@ -1266,8 +1291,8 @@
      ns1:年齢 "46" ;
      ns1:比例区 "東京" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/岸良信-衆院東京10区日本共産党予定候補-472646869788614" ;
+-[] ns1:facebook "https://www.facebook.com/岸良信-衆院東京10区日本共産党予定候補-472646869788614" ;
 -    ns1:twitter "jcptokyo10" ;
-+[] ns1: "きしよしのぶ" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "きし" ;
      ns1:めい "よしのぶ" ;
      ns1:候補名 "岸良信" ;
-@@ -1424,8 +1404,8 @@
+@@ -1279,7 +1304,7 @@
      ns1:年齢 "62" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "島津ゆきひろ" ;
-+    ns1:facebook "https://www.facebook.com/shimazu.yukihiro.jcp" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/shimazu.yukihiro.jcp" ;
      ns1:twitter "u_simazu" ;
      ns1:せい "しまづ" ;
      ns1:めい "ゆきひろ" ;
-@@ -1438,8 +1418,8 @@
+@@ -1292,7 +1317,7 @@
      ns1:年齢 "60" ;
      ns1:比例区 "東海" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "嶋田はつえ" ;
-+    ns1:facebook "https://www.facebook.com/jcpshizu.seibu" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/jcpshizu.seibu" ;
      ns1:twitter "" ;
      ns1:せい "しまだ" ;
      ns1:めい "はつえ" ;
-@@ -1452,12 +1432,12 @@
-     ns1:年齢 "69" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "かわかみ均" ;
-     ns1:facebook "" ;
+@@ -1309,7 +1334,7 @@
      ns1:twitter "" ;
      ns1:せい "かわかみ" ;
      ns1:めい "ひとし" ;
@@ -1489,14 +969,12 @@
      ns1:前回 "新" ;
      ns1:名 "均" ;
      ns1:名前 "川上均" ;
-@@ -1466,27 +1446,26 @@
+@@ -1318,24 +1343,24 @@
      ns1:年齢 "61" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100005773051957" ;
-+[] ns1: "かわさき篤こ" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100005773051957" ;
++[] ns1:facebook "" ;
      ns1:twitter "jyuuouumare" ;
      ns1:せい "かわさき" ;
      ns1:めい "あつこ" ;
@@ -1513,11 +991,8 @@
      ns1:年齢 "64" ;
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "Yfuruchin" ;
--    ns1:facebook "https://www.facebook.com/100005961273973" ;
-+[] ns1: "川部りゅうじ" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100005961273973" ;
+-[] ns1:facebook "https://www.facebook.com/100005961273973" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100005961273973" ;
      ns1:twitter "ryujikawabe" ;
      ns1:せい "かわべ" ;
      ns1:めい "りゅうじ" ;
@@ -1526,13 +1001,7 @@
      ns1:前回 "新" ;
      ns1:名 "竜二" ;
      ns1:名前 "川部竜二" ;
-@@ -1495,12 +1474,12 @@
-     ns1:年齢 "46" ;
-     ns1:比例区 "北海道" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "平よしひこ" ;
-     ns1:facebook "" ;
+@@ -1348,7 +1373,7 @@
      ns1:twitter "" ;
      ns1:せい "たいら" ;
      ns1:めい "よしひこ" ;
@@ -1541,14 +1010,12 @@
      ns1:前回 "新" ;
      ns1:名 "善彦" ;
      ns1:名前 "平善彦" ;
-@@ -1509,12 +1488,12 @@
+@@ -1357,11 +1382,11 @@
      ns1:年齢 "65" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/michiya.hirakawa" ;
-+[] ns1: "ひらかわ道也" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/michiya.hirakawa" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "ひらかわ" ;
      ns1:めい "みちや" ;
@@ -1557,31 +1024,7 @@
      ns1:前回 "新" ;
      ns1:名 "道也" ;
      ns1:名前 "平川道也" ;
-@@ -1523,7 +1502,7 @@
-     ns1:年齢 "45" ;
-     ns1:比例区 "" .
- 
--[] ns1: "http://www.jcp.or.jp/web_senkyo/cat1/cat128/" ;
-+[] ns1: "ひらまつじゅんこ" ;
-     ns1:facebook "" ;
-     ns1:twitter "jhiramatu" ;
-     ns1:せい "ひらまつ" ;
-@@ -1537,7 +1516,7 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "" ;
-+[] ns1: "ひらばやしあきなり" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "ひらばやし" ;
-@@ -1551,22 +1530,21 @@
-     ns1:年齢 "62" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "店橋世津こ" ;
-     ns1:facebook "https://www.facebook.com/setuko2525" ;
+@@ -1400,10 +1425,10 @@
      ns1:twitter "" ;
      ns1:せい "たなはし" ;
      ns1:めい "せつこ" ;
@@ -1596,15 +1039,7 @@
      ns1:姓 "店橋" ;
      ns1:小選挙区 "群馬1区" ;
      ns1:年齢 "56" ;
-     ns1:比例区 "北関東" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "しいかずお" ;
-     ns1:facebook "" ;
-     ns1:twitter "shiikazuo" ;
-     ns1:せい "しい" ;
-@@ -1577,10 +1555,10 @@
+@@ -1419,7 +1444,7 @@
      ns1:名前 "志位和夫" ;
      ns1:姓 "志位" ;
      ns1:小選挙区 "" ;
@@ -1612,19 +1047,13 @@
 +    ns1:年齢 "62" ;
      ns1:比例区 "南関東" .
  
--[] ns1: "" ;
-+[] ns1: "とぐちさいち" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "とぐち" ;
-@@ -1594,12 +1572,12 @@
+ [] ns1:facebook "" ;
+@@ -1435,11 +1460,11 @@
      ns1:年齢 "67" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "ところ進" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100009276016244" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100009276016244" ;
      ns1:twitter "" ;
      ns1:せい "ところ" ;
      ns1:めい "すすむ" ;
@@ -1633,23 +1062,7 @@
      ns1:前回 "新" ;
      ns1:名 "進" ;
      ns1:名前 "所進" ;
-@@ -1608,8 +1586,7 @@
-     ns1:年齢 "38" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/11",
--        "higa4" ;
-+[] ns1: "斉藤かずこ" ;
-     ns1:facebook "https://www.facebook.com/saito9kazuko" ;
-     ns1:twitter "saitokazuko" ;
-     ns1:せい "さいとう" ;
-@@ -1623,26 +1600,26 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1: "" ;
-+[] ns1: "斉藤さちこ" ;
-     ns1:facebook "" ;
+@@ -1465,20 +1490,20 @@
      ns1:twitter "" ;
      ns1:せい "さいとう" ;
      ns1:めい "さちこ" ;
@@ -1664,9 +1077,7 @@
 +    ns1:年齢 "59" ;
      ns1:比例区 "近畿" .
  
--[] ns1: "" ;
-+[] ns1: "さいとう温" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "さいとう" ;
      ns1:めい "のどか" ;
@@ -1675,35 +1086,16 @@
      ns1:前回 "新" ;
      ns1:名 "温" ;
      ns1:名前 "斉藤温" ;
-@@ -1651,8 +1628,8 @@
+@@ -1487,7 +1512,7 @@
      ns1:年齢 "26" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/sugio.arai" ;
-+[] ns1: "あらいすぎお" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/sugio.arai" ;
++[] ns1:facebook "" ;
      ns1:twitter "over_wash" ;
      ns1:せい "あらい" ;
      ns1:めい "すぎお" ;
-@@ -1665,8 +1642,7 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/13/2017",
--        "grck1004" ;
-+[] ns1: "新居まこと" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "あらい" ;
-@@ -1680,13 +1656,12 @@
-     ns1:年齢 "57" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "keisuke" ;
-+[] ns1: "新留きよたか" ;
-     ns1:facebook "https://www.facebook.com/jcp.munakasu" ;
+@@ -1517,7 +1542,7 @@
      ns1:twitter "" ;
      ns1:せい "しんどめ" ;
      ns1:めい "きよたか" ;
@@ -1712,18 +1104,12 @@
      ns1:前回 "新" ;
      ns1:名 "清隆" ;
      ns1:名前 "新留清隆" ;
-@@ -1695,26 +1670,26 @@
-     ns1:年齢 "62" ;
-     ns1:比例区 "" .
+@@ -1528,22 +1553,22 @@
  
--[] ns1: "10/9" ;
--    ns1:facebook "" ;
--    ns1:twitter "" ;
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
 -    ns1:せい "ほしの" ;
 -    ns1:めい "ふみお" ;
-+[] ns1: "" ;
-+    ns1:facebook "" ;
-+    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
      ns1:候補名 "星野文雄" ;
@@ -1737,11 +1123,8 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "jcpniiza" ;
-+[] ns1: "朝賀ひでよし" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "あさか" ;
      ns1:めい "ひでよし" ;
@@ -1750,15 +1133,11 @@
      ns1:前回 "新" ;
      ns1:名 "英義" ;
      ns1:名前 "朝賀英義" ;
-@@ -1723,12 +1698,12 @@
-     ns1:年齢 "67" ;
+@@ -1553,10 +1578,10 @@
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "hondanobuhiro" ;
-+[] ns1: "ほんだ信弘" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "ほんだ" ;
      ns1:めい "のぶひろ" ;
@@ -1767,38 +1146,23 @@
      ns1:前回 "新" ;
      ns1:名 "信弘" ;
      ns1:名前 "本多信弘" ;
-@@ -1737,8 +1712,8 @@
+@@ -1565,7 +1590,7 @@
      ns1:年齢 "41" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "本村のぶこ" ;
-+    ns1:facebook "https://www.facebook.com/nobuko.motomura.3" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/nobuko.motomura.3" ;
      ns1:twitter "motomura_nobuko" ;
      ns1:せい "もとむら" ;
      ns1:めい "のぶこ" ;
-@@ -1751,8 +1726,7 @@
-     ns1:年齢 "44" ;
-     ns1:比例区 "東海" .
- 
--[] ns1: "10/9",
--        "tominari" ;
-+[] ns1: "ほんだまさかず" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "ほんだ" ;
-@@ -1766,24 +1740,21 @@
+@@ -1591,19 +1616,17 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/100010830348450",
+-[] ns1:facebook "https://www.facebook.com/100010830348450",
 -        "https://www.facebook.com/honmakatsumi",
 -        "https://www.facebook.com/katsumi.honma.1" ;
-+[] ns1: "ほんま勝美" ;
-+    ns1:facebook "https://www.facebook.com/honmakatsumi" ;
++[] ns1:facebook "https://www.facebook.com/honmakatsumi" ;
      ns1:twitter "" ;
      ns1:せい "ほんま" ;
      ns1:めい "かつみ" ;
@@ -1813,21 +1177,14 @@
 +    ns1:年齢 "49" ;
      ns1:比例区 "北海道" .
  
--[] ns1: "10/10" ;
-+[] ns1: "すぎしたしげお" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "すぎした" ;
-@@ -1797,23 +1768,22 @@
+ [] ns1:facebook "" ;
+@@ -1619,20 +1642,20 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1: "10/12/2017",
--        "grck1004" ;
--    ns1:facebook "" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "" ;
-+[] ns1: "むらぐち久美こ" ;
-+    ns1:facebook "https://www.facebook.com/jcpsuitasettsukuntan" ;
++[] ns1:facebook "https://www.facebook.com/jcpsuitasettsukuntan" ;
 +    ns1:twitter "hanahanaexpress" ;
      ns1:せい "むらぐち" ;
      ns1:めい "くみこ" ;
@@ -1844,30 +1201,12 @@
      ns1:年齢 "45" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "まついひであき" ;
-+    ns1:facebook "https://www.facebook.com/matsuihideakijimusyo" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/matsuihideakijimusyo" ;
      ns1:twitter "" ;
      ns1:せい "まつい" ;
      ns1:めい "ひであき" ;
-@@ -1826,7 +1796,7 @@
-     ns1:年齢 "48" ;
-     ns1:比例区 "東北" .
- 
--[] ns1: "" ;
-+[] ns1: "まつばら聡" ;
-     ns1:facebook "" ;
-     ns1:twitter "031004gogo" ;
-     ns1:せい "まつばら" ;
-@@ -1840,24 +1810,22 @@
-     ns1:年齢 "55" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "keisuke" ;
-+[] ns1: "まつお律こ" ;
-     ns1:facebook "https://www.facebook.com/rm11104" ;
+@@ -1662,16 +1685,16 @@
      ns1:twitter "matsuo_ritsuko" ;
      ns1:せい "まつお" ;
      ns1:めい "りつこ" ;
@@ -1884,43 +1223,21 @@
      ns1:年齢 "45" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786&fref=ts" ;
-+[] ns1: "まつお正利" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786&fref=ts" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "まつお" ;
      ns1:めい "まさのり" ;
-@@ -1870,7 +1838,7 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "まつおかまさる" ;
-     ns1:facebook "https://www.facebook.com/mtok48" ;
-     ns1:twitter "monsmsg2" ;
-     ns1:せい "まつおか" ;
-@@ -1884,10 +1852,8 @@
+@@ -1697,7 +1720,7 @@
      ns1:年齢 "44" ;
      ns1:比例区 "九州" .
  
--[] ns1: "10/9",
--        "higa4",
--        "年齢(33)のみ公開" ;
--    ns1:facebook "https://www.facebook.com/matsumotokenji.kochi" ;
-+[] ns1: "まつもと顕治" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100013854768106" ;
+-[] ns1:facebook "https://www.facebook.com/matsumotokenji.kochi" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100013854768106" ;
      ns1:twitter "matsu_en" ;
      ns1:せい "まつもと" ;
      ns1:めい "けんじ" ;
-@@ -1900,12 +1866,12 @@
-     ns1:年齢 "33" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "まつむら亮佑" ;
-     ns1:facebook "https://www.facebook.com/ryosuke.matsumura.79" ;
+@@ -1714,7 +1737,7 @@
      ns1:twitter "akahigepapa" ;
      ns1:せい "まつむら" ;
      ns1:めい "りょうすけ" ;
@@ -1929,15 +1246,12 @@
      ns1:前回 "新" ;
      ns1:名 "亮佑" ;
      ns1:名前 "松村亮佑" ;
-@@ -1914,13 +1880,12 @@
+@@ -1723,11 +1746,11 @@
      ns1:年齢 "37" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "higa4" ;
--    ns1:facebook "" ;
-+[] ns1: "まつはし千春" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100008887746844" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100008887746844" ;
      ns1:twitter "" ;
      ns1:せい "まつはし" ;
      ns1:めい "ちはる" ;
@@ -1946,38 +1260,28 @@
      ns1:前回 "新" ;
      ns1:名 "千春" ;
      ns1:名前 "松橋千春" ;
-@@ -1929,8 +1894,8 @@
+@@ -1736,7 +1759,7 @@
      ns1:年齢 "35" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "まつだかずし" ;
-+    ns1:facebook "https://www.facebook.com/KazushiMatsuda53" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/KazushiMatsuda53" ;
      ns1:twitter "" ;
      ns1:せい "まつだ" ;
      ns1:めい "かずし" ;
-@@ -1943,10 +1908,9 @@
+@@ -1749,9 +1772,8 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "2b28a3370fae4f9",
 -        "itakurama" ;
-+[] ns1: "板倉まさふみ" ;
-+    ns1:facebook "https://www.facebook.com/masafumi.itakura.5" ;
++[] ns1:facebook "https://www.facebook.com/masafumi.itakura.5" ;
 +    ns1:twitter "2b28a3370fae4f9" ;
      ns1:せい "いたくら" ;
      ns1:めい "まさふみ" ;
      ns1:候補名 "いたくら正文" ;
-@@ -1958,12 +1922,12 @@
-     ns1:年齢 "59" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "はやし京" ;
-     ns1:facebook "" ;
+@@ -1767,7 +1789,7 @@
      ns1:twitter "" ;
      ns1:せい "はやし" ;
      ns1:めい "みやこ" ;
@@ -1986,15 +1290,11 @@
      ns1:前回 "新" ;
      ns1:名 "京" ;
      ns1:名前 "林京" ;
-@@ -1972,12 +1936,12 @@
-     ns1:年齢 "67" ;
+@@ -1777,10 +1799,10 @@
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "hayashihide22" ;
-+[] ns1: "はやし秀洋" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "はやし" ;
      ns1:めい "ひでひろ" ;
@@ -2003,13 +1303,7 @@
      ns1:前回 "新" ;
      ns1:名 "秀洋" ;
      ns1:名前 "林秀洋" ;
-@@ -1986,12 +1950,12 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "しばおか祐真" ;
-     ns1:facebook "https://www.facebook.com/shibaoka.yuma" ;
+@@ -1793,7 +1815,7 @@
      ns1:twitter "shibaoka_yuma" ;
      ns1:せい "しばおか" ;
      ns1:めい "ゆうま" ;
@@ -2018,11 +1312,11 @@
      ns1:前回 "新" ;
      ns1:名 "祐真" ;
      ns1:名前 "柴岡祐真" ;
-@@ -2001,27 +1965,25 @@
+@@ -1802,25 +1824,24 @@
+     ns1:年齢 "33" ;
      ns1:比例区 "" .
  
- [] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/kakinumaharuki" ;
+-[] ns1:facebook "https://www.facebook.com/kakinumaharuki" ;
 -    ns1:twitter "140829haruking" ;
 -    ns1:せい "かきぬま" ;
 -    ns1:めい "はるき" ;
@@ -2031,7 +1325,7 @@
 -    ns1:名 "遥輝" ;
 -    ns1:名前 "柿沼遥輝" ;
 -    ns1:姓 "柿沼" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
@@ -2044,11 +1338,8 @@
      ns1:年齢 "34" ;
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "higa4" ;
--    ns1:facebook "https://www.facebook.com/saeko.umemura.3" ;
-+[] ns1: "うめむら早江子" ;
-+    ns1:facebook "https://www.facebook.com/umemurasaeko" ;
+-[] ns1:facebook "https://www.facebook.com/saeko.umemura.3" ;
++[] ns1:facebook "https://www.facebook.com/umemurasaeko" ;
      ns1:twitter "umemura_saeko" ;
      ns1:せい "うめむら" ;
      ns1:めい "さえこ" ;
@@ -2058,34 +1349,16 @@
      ns1:前回 "前" ;
      ns1:名 "早江子" ;
      ns1:名前 "梅村早江子" ;
-@@ -2030,8 +1992,7 @@
-     ns1:年齢 "53" ;
-     ns1:比例区 "北関東" .
- 
--[] ns1: "10/8/2017",
--        "grck1004" ;
-+[] ns1: "もりざくら房義" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "もりざくら" ;
-@@ -2045,8 +2006,8 @@
+@@ -1842,7 +1863,7 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "しいなふみあき" ;
-+    ns1:facebook "https://www.facebook.com/fumiaki.shiina" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/fumiaki.shiina" ;
      ns1:twitter "" ;
      ns1:せい "しいな" ;
      ns1:めい "ふみあき" ;
-@@ -2059,12 +2020,12 @@
-     ns1:年齢 "60" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "楠本ふみろう" ;
-     ns1:facebook "https://www.facebook.com/profile.php?id=100012701765862" ;
+@@ -1859,7 +1880,7 @@
      ns1:twitter "" ;
      ns1:せい "くすもと" ;
      ns1:めい "ふみろう" ;
@@ -2094,13 +1367,7 @@
      ns1:前回 "新" ;
      ns1:名 "文郎" ;
      ns1:名前 "楠本文郎" ;
-@@ -2073,12 +2034,12 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "槙しょうぞう" ;
-     ns1:facebook "" ;
+@@ -1872,7 +1893,7 @@
      ns1:twitter "" ;
      ns1:せい "まき" ;
      ns1:めい "しょうぞう" ;
@@ -2109,14 +1376,12 @@
      ns1:前回 "新" ;
      ns1:名 "昌三" ;
      ns1:名前 "槙昌三" ;
-@@ -2087,12 +2048,12 @@
+@@ -1881,11 +1902,11 @@
      ns1:年齢 "74" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "よこやま征吾" ;
-+    ns1:facebook "https://www.facebook.com/seigo.yokoyama.1" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/seigo.yokoyama.1" ;
      ns1:twitter "" ;
      ns1:せい "よこやま" ;
      ns1:めい "せいご" ;
@@ -2125,33 +1390,16 @@
      ns1:前回 "新" ;
      ns1:名 "征吾" ;
      ns1:名前 "横山征吾" ;
-@@ -2101,7 +2062,7 @@
-     ns1:年齢 "46" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "よこたゆうし" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "よこた" ;
-@@ -2115,8 +2076,8 @@
+@@ -1907,7 +1928,7 @@
      ns1:年齢 "73" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "https://www.facebook.com/jcpyokotaeiji" ;
-+[] ns1: "よこたえいじ" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100004574320067" ;
+-[] ns1:facebook "https://www.facebook.com/jcpyokotaeiji" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100004574320067" ;
      ns1:twitter "" ;
      ns1:せい "よこた" ;
      ns1:めい "えいじ" ;
-@@ -2129,12 +2090,12 @@
-     ns1:年齢 "59" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "はしもと健二" ;
-     ns1:facebook "" ;
+@@ -1924,7 +1945,7 @@
      ns1:twitter "" ;
      ns1:せい "はしもと" ;
      ns1:めい "けんじ" ;
@@ -2160,26 +1408,21 @@
      ns1:前回 "新" ;
      ns1:名 "健二" ;
      ns1:名前 "橋本健二" ;
-@@ -2143,8 +2104,8 @@
+@@ -1933,7 +1954,7 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "毛利えいこ" ;
-+    ns1:facebook "https://www.facebook.com/eimouri" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/eimouri" ;
      ns1:twitter "eimouri" ;
      ns1:せい "もうり" ;
      ns1:めい "えいこ" ;
-@@ -2157,13 +2118,12 @@
+@@ -1946,11 +1967,11 @@
      ns1:年齢 "66" ;
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "keisuke" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100008827811511" ;
-+[] ns1: "えぐち学" ;
-+    ns1:facebook "https://www.facebook.com/100008827811511" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100008827811511" ;
++[] ns1:facebook "https://www.facebook.com/100008827811511" ;
      ns1:twitter "omuta_eguchi" ;
      ns1:せい "えぐち" ;
      ns1:めい "まなぶ" ;
@@ -2188,44 +1431,31 @@
      ns1:前回 "新" ;
      ns1:名 "学" ;
      ns1:名前 "江口学" ;
-@@ -2172,11 +2132,9 @@
+@@ -1959,10 +1980,8 @@
      ns1:年齢 "43" ;
      ns1:比例区 "" .
  
--[] ns1: "10/11" ;
--    ns1:facebook "https://www.facebook.com/saolyn.ikeuchi",
+-[] ns1:facebook "https://www.facebook.com/saolyn.ikeuchi",
 -        "https://www.facebook.com/saorioshitai" ;
 -    ns1:twitter "ikeuchi_saori",
 -        "saorijimusyo" ;
-+[] ns1: "いけうち沙織" ;
-+    ns1:facebook "https://www.facebook.com/saolyn.ikeuchi" ;
++[] ns1:facebook "https://www.facebook.com/saolyn.ikeuchi" ;
 +    ns1:twitter "ikeuchi_saori" ;
      ns1:せい "いけうち" ;
      ns1:めい "さおり" ;
      ns1:候補名 "池内さおり" ;
-@@ -2188,7 +2146,7 @@
-     ns1:年齢 "35" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "" ;
-+[] ns1: "いけだひろひで" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いけだ" ;
-@@ -2199,15 +2157,15 @@
+@@ -1984,14 +2003,14 @@
      ns1:名前 "池田博英" ;
      ns1:姓 "池田" ;
      ns1:小選挙区 "神奈川16区" ;
 -    ns1:年齢 "50" ;
 -    ns1:比例区 "" .
 -
--[] ns1: "" ;
--    ns1:facebook "" ;
+-[] ns1:facebook "" ;
 +    ns1:年齢 "54" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "かわむら整" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100008264835156" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100008264835156" ;
      ns1:twitter "" ;
      ns1:せい "かわむら" ;
      ns1:めい "ただし" ;
@@ -2234,13 +1464,7 @@
      ns1:前回 "新" ;
      ns1:名 "整" ;
      ns1:名前 "河村整" ;
-@@ -2216,12 +2174,12 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "ふかつ俊郎" ;
-     ns1:facebook "" ;
+@@ -2004,7 +2023,7 @@
      ns1:twitter "" ;
      ns1:せい "ふかつ" ;
      ns1:めい "としろう" ;
@@ -2249,26 +1473,17 @@
      ns1:前回 "新" ;
      ns1:名 "俊郎" ;
      ns1:名前 "深津俊郎" ;
-@@ -2230,10 +2188,8 @@
+@@ -2013,8 +2032,7 @@
      ns1:年齢 "69" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "mshk" ;
--    ns1:facebook "https://www.facebook.com/shimizu.tadashi.jcp",
+-[] ns1:facebook "https://www.facebook.com/shimizu.tadashi.jcp",
 -        "https://www.facebook.com/tadashishimizu" ;
-+[] ns1: "しみず忠史" ;
-+    ns1:facebook "https://www.facebook.com/tadashi.shimizu.90" ;
++[] ns1:facebook "https://www.facebook.com/tadashi.shimizu.90" ;
      ns1:twitter "tadashishimizu" ;
      ns1:せい "しみず" ;
      ns1:めい "ただし" ;
-@@ -2246,12 +2202,12 @@
-     ns1:年齢 "49" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "" ;
-+[] ns1: "わたなべ裕" ;
-     ns1:facebook "" ;
+@@ -2031,7 +2049,7 @@
      ns1:twitter "" ;
      ns1:せい "わたなべ" ;
      ns1:めい "ひろし" ;
@@ -2277,23 +1492,7 @@
      ns1:前回 "新" ;
      ns1:名 "裕" ;
      ns1:名前 "渡辺裕" ;
-@@ -2260,8 +2216,7 @@
-     ns1:年齢 "37" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10/2017",
--        "grck1004" ;
-+[] ns1: "渡部ゆい" ;
-     ns1:facebook "https://www.facebook.com/yui.watanabe.jcp.osk" ;
-     ns1:twitter "yuiwatanabe_osk" ;
-     ns1:せい "わたなべ" ;
-@@ -2275,12 +2230,12 @@
-     ns1:年齢 "36" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "" ;
-+[] ns1: "渡部たかお" ;
-     ns1:facebook "" ;
+@@ -2057,7 +2075,7 @@
      ns1:twitter "" ;
      ns1:せい "わたなべ" ;
      ns1:めい "たかお" ;
@@ -2302,13 +1501,7 @@
      ns1:前回 "新" ;
      ns1:名 "隆夫" ;
      ns1:名前 "渡部隆夫" ;
-@@ -2289,12 +2244,12 @@
-     ns1:年齢 "74" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "瀬戸かずひろ" ;
-     ns1:facebook "" ;
+@@ -2070,7 +2088,7 @@
      ns1:twitter "" ;
      ns1:せい "せと" ;
      ns1:めい "かずひろ" ;
@@ -2317,13 +1510,7 @@
      ns1:前回 "新" ;
      ns1:名 "和弘" ;
      ns1:名前 "瀬戸和弘" ;
-@@ -2303,12 +2258,12 @@
-     ns1:年齢 "65" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "熊谷とも" ;
-     ns1:facebook "https://www.facebook.com/kumagaitomo3" ;
+@@ -2083,7 +2101,7 @@
      ns1:twitter "h0use3" ;
      ns1:せい "くまがい" ;
      ns1:めい "とも" ;
@@ -2332,26 +1519,16 @@
      ns1:前回 "新" ;
      ns1:名 "智" ;
      ns1:名前 "熊谷智" ;
-@@ -2317,10 +2272,8 @@
+@@ -2092,7 +2110,7 @@
      ns1:年齢 "37" ;
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "higa4",
--        "年齢(60)のみ公開" ;
--    ns1:facebook "https://www.facebook.com/100009414735635" ;
-+[] ns1: "まきやまたかし" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100009414735635" ;
+-[] ns1:facebook "https://www.facebook.com/100009414735635" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100009414735635" ;
      ns1:twitter "" ;
      ns1:せい "まきやま" ;
      ns1:めい "たかし" ;
-@@ -2333,12 +2286,12 @@
-     ns1:年齢 "60" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "猿橋たくみ" ;
-     ns1:facebook "" ;
+@@ -2109,7 +2127,7 @@
      ns1:twitter "" ;
      ns1:せい "さるはし" ;
      ns1:めい "たくみ" ;
@@ -2360,14 +1537,10 @@
      ns1:前回 "新" ;
      ns1:名 "巧" ;
      ns1:名前 "猿橋巧" ;
-@@ -2347,27 +2300,40 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
+@@ -2120,22 +2138,35 @@
  
--[] ns1: "" ;
-+[] ns1: "たまきでにー" ;
-+    ns1:facebook "" ;
-+    ns1:twitter "" ;
+ [] ns1:facebook "" ;
+     ns1:twitter "" ;
 +    ns1:せい "たまき" ;
 +    ns1:めい "デニー" ;
 +    ns1:候補名 "玉城デニー" ;
@@ -2379,9 +1552,8 @@
 +    ns1:年齢 "58" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "たがみ光徳" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
      ns1:せい "たがみ" ;
      ns1:めい "みつのり" ;
 -    ns1:候補名 "田上光徳" ;
@@ -2394,14 +1566,11 @@
 -    ns1:年齢 "65" ;
 -    ns1:比例区 "" .
 -
--[] ns1: "10/8",
--        "keisuke" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100007628881907" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100007628881907" ;
 +    ns1:年齢 "66" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "たなか陽二" ;
-+    ns1:facebook "https://www.facebook.com/people/Yoji-Tanaka/100007628881907" ;
++[] ns1:facebook "https://www.facebook.com/people/Yoji-Tanaka/100007628881907" ;
      ns1:twitter "tanakayoji" ;
      ns1:せい "たなか" ;
      ns1:めい "ようじ" ;
@@ -2410,14 +1579,7 @@
      ns1:前回 "新" ;
      ns1:名 "陽二" ;
      ns1:名前 "田中陽二" ;
-@@ -2376,13 +2342,12 @@
-     ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "たむら貴昭" ;
-     ns1:facebook "https://www.facebook.com/tamuratakaaki" ;
+@@ -2148,7 +2179,7 @@
      ns1:twitter "tamuratakaaki" ;
      ns1:せい "たむら" ;
      ns1:めい "たかあき" ;
@@ -2426,26 +1588,7 @@
      ns1:前回 "前" ;
      ns1:名 "貴昭" ;
      ns1:名前 "田村貴昭" ;
-@@ -2391,7 +2356,7 @@
-     ns1:年齢 "56" ;
-     ns1:比例区 "九州" .
- 
--[] ns1: "" ;
-+[] ns1: "畑野きみえ" ;
-     ns1:facebook "https://www.facebook.com/kimie.hatano.9" ;
-     ns1:twitter "hatanokimie" ;
-     ns1:せい "はたの" ;
-@@ -2405,8 +2370,7 @@
-     ns1:年齢 "60" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1: "10/7",
--        "YFuruchin" ;
-+[] ns1: "畠山かずや" ;
-     ns1:facebook "https://www.facebook.com/kazuya.hatayama.1" ;
-     ns1:twitter "hatayama_kazuya" ;
-     ns1:せい "はたやま" ;
-@@ -2417,40 +2381,38 @@
+@@ -2180,33 +2211,33 @@
      ns1:名前 "畠山和也" ;
      ns1:姓 "畠山" ;
      ns1:小選挙区 "" ;
@@ -2453,10 +1596,8 @@
 +    ns1:年齢 "45" ;
      ns1:比例区 "北海道" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "しらかわ容こ" ;
-+    ns1:facebook "https://www.facebook.com/SirakawaYouko" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/SirakawaYouko" ;
      ns1:twitter "" ;
      ns1:せい "しらかわ" ;
      ns1:めい "ようこ" ;
@@ -2474,10 +1615,7 @@
 +    ns1:年齢 "50" ;
      ns1:比例区 "四国" .
  
--[] ns1: "10/8",
--        "higa4" ;
-+[] ns1: "益田まきこ" ;
-     ns1:facebook "https://www.facebook.com/masuda.jcp" ;
+ [] ns1:facebook "https://www.facebook.com/masuda.jcp" ;
      ns1:twitter "" ;
      ns1:せい "ますだ" ;
      ns1:めい "まきこ" ;
@@ -2492,40 +1630,11 @@
 +    ns1:年齢 "66" ;
      ns1:比例区 "九州" .
  
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "真島しょうぞう" ;
-     ns1:facebook "https://www.facebook.com/majimasyouzou.jcp" ;
-     ns1:twitter "syouzoumajima" ;
-     ns1:せい "まじま" ;
-@@ -2464,8 +2426,7 @@
-     ns1:年齢 "54" ;
-     ns1:比例区 "九州" .
- 
--[] ns1: "10/10/2017",
--        "grck1004" ;
-+[] ns1: "矢野ただしげ" ;
-     ns1:facebook "https://www.facebook.com/tadasige.yano.7" ;
-     ns1:twitter "yanotadasige" ;
-     ns1:せい "やの" ;
-@@ -2479,9 +2440,7 @@
-     ns1:年齢 "67" ;
+ [] ns1:facebook "https://www.facebook.com/majimasyouzou.jcp" ;
+@@ -2249,10 +2280,10 @@
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "higa4",
--        "年齢(68)のみ公開" ;
-+[] ns1: "いしまるかんじ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いしまる" ;
-@@ -2495,12 +2454,12 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "いしどう淳士" ;
-     ns1:facebook "https://www.facebook.com/atsushi.ishidoh" ;
+ [] ns1:facebook "https://www.facebook.com/atsushi.ishidoh" ;
 -    ns1:twitter "jcp_ishidoh" ;
 +    ns1:twitter "" ;
      ns1:せい "いしどう" ;
@@ -2535,13 +1644,7 @@
      ns1:前回 "新" ;
      ns1:名 "淳士" ;
      ns1:名前 "石堂淳士" ;
-@@ -2509,22 +2468,22 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "いしじま巌" ;
-     ns1:facebook "" ;
+@@ -2265,16 +2296,16 @@
      ns1:twitter "" ;
      ns1:せい "いしじま" ;
      ns1:めい "いわお" ;
@@ -2555,65 +1658,39 @@
 -    ns1:年齢 "57" ;
 -    ns1:比例区 "" .
 -
--[] ns1: "年齢(65)のみ公開" ;
--    ns1:facebook "https://www.facebook.com/100008387827735" ;
+-[] ns1:facebook "https://www.facebook.com/100008387827735" ;
 +    ns1:年齢 "63" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "いしかわ悟" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100008387827735" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100008387827735" ;
      ns1:twitter "tukinokawasator" ;
      ns1:せい "いしかわ" ;
      ns1:めい "さとる" ;
-@@ -2534,12 +2493,10 @@
+@@ -2284,7 +2315,7 @@
      ns1:名前 "石川悟" ;
      ns1:姓 "石川" ;
      ns1:小選挙区 "長崎4区" ;
 -    ns1:年齢 "64" ;
--    ns1:比例区 "" .
--
--[] ns1: "10/9",
--        "Yfuruchin",
--        "年齢(66)のみ" ;
 +    ns1:年齢 "65" ;
-+    ns1:比例区 "" .
-+
-+[] ns1: "いしかわあけみ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いしかわ" ;
-@@ -2553,9 +2510,9 @@
-     ns1:年齢 "66" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
-+[] ns1: "いしかわしょう" ;
-     ns1:facebook "https://www.facebook.com/shoishikawa1973" ;
+ [] ns1:facebook "" ;
+@@ -2301,7 +2332,7 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/shoishikawa1973" ;
 -    ns1:twitter "sho_ishikawa38" ;
 +    ns1:twitter "" ;
      ns1:せい "いしかわ" ;
      ns1:めい "しょう" ;
      ns1:候補名 "石川渉" ;
-@@ -2567,9 +2524,7 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9",
--        "higa4",
--        "年齢(70)のみ公開" ;
-+[] ns1: "いしもとけんいち" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いしもと" ;
-@@ -2583,12 +2538,12 @@
+@@ -2326,11 +2357,11 @@
      ns1:年齢 "70" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/noriyuki.ishizawa.7" ;
+-[] ns1:facebook "https://www.facebook.com/noriyuki.ishizawa.7" ;
 -    ns1:twitter "noriyuki_ishi" ;
-+[] ns1: "いしざわ憲之" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "いしざわ" ;
      ns1:めい "のりゆき" ;
@@ -2622,57 +1699,27 @@
      ns1:前回 "新" ;
      ns1:名 "憲之" ;
      ns1:名前 "石沢憲之" ;
-@@ -2597,9 +2552,9 @@
+@@ -2339,8 +2370,8 @@
      ns1:年齢 "30" ;
      ns1:比例区 "東京" .
  
--[] ns1: "10/9" ;
--    ns1:facebook "https://www.facebook.com/profile.php?id=100015441914773" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100015441914773" ;
 -    ns1:twitter "sobuemotoki" ;
-+[] ns1: "祖父江もとき" ;
-+    ns1:facebook "" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "sobuemotoki/media" ;
      ns1:せい "そぶえ" ;
      ns1:めい "もとき" ;
      ns1:候補名 "そぶえ元希" ;
-@@ -2611,9 +2566,7 @@
-     ns1:年齢 "42" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(74)のみ公開" ;
-+[] ns1: "いわいざこ光治" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "いわいざこ" ;
-@@ -2627,7 +2580,7 @@
-     ns1:年齢 "74" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "かんだみはる" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "かんだ" ;
-@@ -2641,8 +2594,8 @@
+@@ -2378,7 +2409,7 @@
      ns1:年齢 "63" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "ふくずみ英行" ;
-+    ns1:facebook "https://www.facebook.com/fukuzumih" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/fukuzumih" ;
      ns1:twitter "fukuzumih" ;
      ns1:せい "ふくずみ" ;
      ns1:めい "ひでゆき" ;
-@@ -2655,12 +2608,12 @@
-     ns1:年齢 "41" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "いなむら知" ;
-     ns1:facebook "" ;
+@@ -2395,7 +2426,7 @@
      ns1:twitter "" ;
      ns1:せい "いなむら" ;
      ns1:めい "さとる" ;
@@ -2681,14 +1728,7 @@
      ns1:前回 "新" ;
      ns1:名 "知" ;
      ns1:名前 "稲村知" ;
-@@ -2669,13 +2622,12 @@
-     ns1:年齢 "57" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9",
--        "mshk" ;
-+[] ns1: "穀田けいじ" ;
-     ns1:facebook "https://www.facebook.com/kokutakeiji" ;
+@@ -2408,7 +2439,7 @@
      ns1:twitter "kokutakeiji" ;
      ns1:せい "こくた" ;
      ns1:めい "けいじ" ;
@@ -2697,43 +1737,16 @@
      ns1:前回 "前" ;
      ns1:名 "恵二" ;
      ns1:名前 "穀田恵二" ;
-@@ -2684,8 +2636,7 @@
-     ns1:年齢 "70" ;
-     ns1:比例区 "近畿" .
- 
--[] ns1: "10/8",
--        "keisuke" ;
-+[] ns1: "たちかわたかひこ" ;
-     ns1:facebook "https://www.facebook.com/takahiko.tachikawa" ;
-     ns1:twitter "" ;
-     ns1:せい "たちかわ" ;
-@@ -2699,8 +2650,8 @@
+@@ -2430,7 +2461,7 @@
      ns1:年齢 "66" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "かさいあきら" ;
-+    ns1:facebook "https://www.facebook.com/akira.kasai1" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/akira.kasai1" ;
      ns1:twitter "akibacsi" ;
      ns1:せい "かさい" ;
      ns1:めい "あきら" ;
-@@ -2713,7 +2664,7 @@
-     ns1:年齢 "64" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "" ;
-+[] ns1: "かさはらまさみ" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "かさはら" ;
-@@ -2727,12 +2678,12 @@
-     ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "美見よしあき" ;
-     ns1:facebook "" ;
+@@ -2460,7 +2491,7 @@
      ns1:twitter "" ;
      ns1:せい "みいみ" ;
      ns1:めい "よしあき" ;
@@ -2742,14 +1755,12 @@
      ns1:前回 "新" ;
      ns1:名 "芳明" ;
      ns1:名前 "美見芳明" ;
-@@ -2741,23 +2692,23 @@
+@@ -2469,21 +2500,21 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "舩山ゆみ" ;
-+    ns1:facebook "https://www.facebook.com/funayama.yumi.haiji" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/funayama.yumi.haiji" ;
      ns1:twitter "" ;
      ns1:せい "ふなやま" ;
      ns1:めい "ゆみ" ;
@@ -2764,34 +1775,18 @@
 +    ns1:年齢 "48" ;
      ns1:比例区 "東北" .
  
--[] ns1: "" ;
-+[] ns1: "なえむらきょうこ" ;
-     ns1:facebook "https://www.facebook.com/kyoko.nae" ;
+ [] ns1:facebook "https://www.facebook.com/kyoko.nae" ;
 -    ns1:twitter "kyokonae" ;
 +    ns1:twitter "" ;
      ns1:せい "なえむら" ;
      ns1:めい "きょうこ" ;
      ns1:候補名 "苗村京子" ;
-@@ -2769,7 +2720,7 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "わかばやし靖久" ;
-     ns1:facebook "https://www.facebook.com/wakabayashi8" ;
-     ns1:twitter "wakayasu1985" ;
-     ns1:せい "わかばやし" ;
-@@ -2783,15 +2734,12 @@
+@@ -2508,11 +2539,11 @@
      ns1:年齢 "32" ;
      ns1:比例区 "南関東" .
  
--[] ns1: "10/7",
--        "higa4",
--        "http://www.jcp.or.jp/web_senkyo/cat1/cat101/",
--        "年齢（44）のみ公開" ;
--    ns1:facebook "https://www.facebook.com/makoto.sugawara.33" ;
-+[] ns1: "すがわら誠" ;
-+    ns1:facebook "http://www.facebook.com/makoto.sugawara.33" ;
+-[] ns1:facebook "https://www.facebook.com/makoto.sugawara.33" ;
++[] ns1:facebook "http://www.facebook.com/makoto.sugawara.33" ;
      ns1:twitter "sugawara_makoto" ;
      ns1:せい "すがわら" ;
      ns1:めい "まこと" ;
@@ -2800,13 +1795,7 @@
      ns1:前回 "新" ;
      ns1:名 "誠" ;
      ns1:名前 "菅原誠" ;
-@@ -2800,12 +2748,12 @@
-     ns1:年齢 "44" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "萩原さだお" ;
-     ns1:facebook "" ;
+@@ -2525,7 +2556,7 @@
      ns1:twitter "" ;
      ns1:せい "はぎわら" ;
      ns1:めい "さだお" ;
@@ -2815,14 +1804,12 @@
      ns1:前回 "新" ;
      ns1:名 "貞夫" ;
      ns1:名前 "萩原貞夫" ;
-@@ -2814,12 +2762,12 @@
+@@ -2534,11 +2565,11 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "ふじもと一規" ;
-+    ns1:facebook "https://www.facebook.com/kazunori.fujimoto.587" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/kazunori.fujimoto.587" ;
      ns1:twitter "1218fuji" ;
      ns1:せい "ふじもと" ;
      ns1:めい "かずのり" ;
@@ -2831,52 +1818,36 @@
      ns1:前回 "新" ;
      ns1:名 "一規" ;
      ns1:名前 "藤本一規" ;
-@@ -2828,8 +2776,8 @@
+@@ -2547,7 +2578,7 @@
      ns1:年齢 "52" ;
      ns1:比例区 "中国" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "ふじもと友里" ;
-+    ns1:facebook "https://www.facebook.com/yuri.fupo" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/yuri.fupo" ;
      ns1:twitter "fupo_cgsm" ;
      ns1:せい "ふじもと" ;
      ns1:めい "ゆり" ;
-@@ -2842,9 +2790,8 @@
+@@ -2560,7 +2591,7 @@
      ns1:年齢 "38" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10/2017",
--        "grck1004" ;
--    ns1:facebook "https://www.facebook.com/jcp.fujimotosachiko" ;
-+[] ns1: "ふじもと幸子" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/jcp.fujimotosachiko" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "ふじもと" ;
      ns1:めい "さちこ" ;
-@@ -2857,7 +2804,7 @@
-     ns1:年齢 "42" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "ふじもと聡志" ;
-     ns1:facebook "https://www.facebook.com/profile.php?id=100006891949363" ;
-     ns1:twitter "" ;
-     ns1:せい "ふじもと" ;
-@@ -2868,29 +2815,29 @@
+@@ -2583,27 +2614,27 @@
      ns1:名前 "藤本聡志" ;
      ns1:姓 "藤本" ;
      ns1:小選挙区 "広島2区" ;
 -    ns1:年齢 "62" ;
 -    ns1:比例区 "" .
 -
--[] ns1: "" ;
--    ns1:facebook "" ;
+-[] ns1:facebook "" ;
 +    ns1:年齢 "63" ;
 +    ns1:比例区 "" .
 +
-+[] ns1: "ふじの保史" ;
-+    ns1:facebook "https://www.facebook.com/fujino.yasufumi" ;
++[] ns1:facebook "https://www.facebook.com/fujino.yasufumi" ;
      ns1:twitter "fujinofujinooo" ;
      ns1:せい "ふじの" ;
      ns1:めい "やすふみ" ;
@@ -2891,9 +1862,7 @@
 +    ns1:年齢 "46" ;
      ns1:比例区 "北陸信越" .
  
--[] ns1: "" ;
-+[] ns1: "にしなか孝男" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "にしなか" ;
      ns1:めい "たかお" ;
@@ -2902,34 +1871,13 @@
      ns1:前回 "新" ;
      ns1:名 "孝男" ;
      ns1:名前 "西中孝男" ;
-@@ -2899,7 +2846,7 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "にしいなおひと" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "にしい" ;
-@@ -2913,8 +2860,7 @@
-     ns1:年齢 "60" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/12",
--        "higa4" ;
-+[] ns1: "にしおかひろのぶ" ;
-     ns1:facebook "https://www.facebook.com/jcp.yamaguti.seibu" ;
-     ns1:twitter "" ;
-     ns1:せい "にしおか" ;
-@@ -2928,12 +2874,12 @@
+@@ -2638,11 +2669,11 @@
      ns1:年齢 "54" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+-[] ns1:facebook "" ;
 -    ns1:twitter "nissyzaaaawa" ;
-+[] ns1: "にしざわ耕一" ;
-+    ns1:facebook "https://www.facebook.com/koichi.nishizawa.758" ;
++[] ns1:facebook "https://www.facebook.com/koichi.nishizawa.758" ;
 +    ns1:twitter "" ;
      ns1:せい "にしざわ" ;
      ns1:めい "こういち" ;
@@ -2938,16 +1886,7 @@
      ns1:前回 "新" ;
      ns1:名 "耕一" ;
      ns1:名前 "西沢耕一" ;
-@@ -2942,7 +2888,7 @@
-     ns1:年齢 "39" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "西澤ひろし" ;
-     ns1:facebook "https://www.facebook.com/hiroshi.nishizawa.3910" ;
-     ns1:twitter "melf4511" ;
-     ns1:せい "にしざわ" ;
-@@ -2953,40 +2899,39 @@
+@@ -2661,37 +2692,36 @@
      ns1:名前 "西澤博" ;
      ns1:姓 "西澤" ;
      ns1:小選挙区 "" ;
@@ -2955,8 +1894,7 @@
 +    ns1:年齢 "36" ;
      ns1:比例区 "北陸信越" .
  
- [] ns1: "" ;
-     ns1:facebook "" ;
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
 -    ns1:せい "にしだ" ;
 -    ns1:めい "としこ" ;
@@ -2976,10 +1914,8 @@
      ns1:年齢 "63" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "たになかみよし" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100005911840765" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100005911840765" ;
      ns1:twitter "" ;
      ns1:せい "たになか" ;
      ns1:めい "みよし" ;
@@ -2996,25 +1932,13 @@
      ns1:年齢 "57" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/JCP.TANet",
+-[] ns1:facebook "https://www.facebook.com/JCP.TANet",
 -        "https://www.facebook.com/dr.tanigawa" ;
-+[] ns1: "たにがわともゆき" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100001997661120" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100001997661120" ;
      ns1:twitter "ttanigawa3" ;
      ns1:せい "たにがわ" ;
      ns1:めい "ともゆき" ;
-@@ -2999,8 +2944,7 @@
-     ns1:年齢 "46" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "10/11",
--        "churu110" ;
-+[] ns1: "赤嶺せいけん" ;
-     ns1:facebook "https://www.facebook.com/akamineseiken" ;
-     ns1:twitter "akamineseiken" ;
-     ns1:せい "あかみね" ;
-@@ -3010,16 +2954,16 @@
+@@ -2713,15 +2743,15 @@
      ns1:名 "政賢" ;
      ns1:名前 "赤嶺政賢" ;
      ns1:姓 "赤嶺" ;
@@ -3023,11 +1947,8 @@
      ns1:年齢 "69" ;
      ns1:比例区 "九州" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "akahira1990" ;
-+[] ns1: "あかひら勇人" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "あかひら" ;
      ns1:めい "ゆうと" ;
@@ -3036,16 +1957,11 @@
      ns1:前回 "新" ;
      ns1:名 "勇人" ;
      ns1:名前 "赤平勇人" ;
-@@ -3028,13 +2972,12 @@
-     ns1:年齢 "27" ;
+@@ -2731,10 +2761,10 @@
      ns1:比例区 "" .
  
--[] ns1: "10/10",
--        "higa4" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "tsujijcp" ;
-+[] ns1: "辻源巳" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "つじ" ;
 -    ns1:めい "もとみ" ;
@@ -3055,24 +1971,10 @@
      ns1:前回 "新" ;
      ns1:名 "源巳" ;
      ns1:名前 "辻源巳" ;
-@@ -3043,9 +2986,7 @@
-     ns1:年齢 "46" ;
+@@ -2757,10 +2787,10 @@
      ns1:比例区 "" .
  
--[] ns1: "10/8",
--        "higa4",
--        "年齢(68)のみ公開" ;
-+[] ns1: "こんどう一宇" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "こんどう" ;
-@@ -3059,12 +3000,12 @@
-     ns1:年齢 "68" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "さかい健太朗" ;
-     ns1:facebook "https://www.facebook.com/kentaro.sakai.12" ;
+ [] ns1:facebook "https://www.facebook.com/kentaro.sakai.12" ;
 -    ns1:twitter "iakas_oratnek" ;
 +    ns1:twitter "" ;
      ns1:せい "さかい" ;
@@ -3083,13 +1985,7 @@
      ns1:前回 "新" ;
      ns1:名 "健太朗" ;
      ns1:名前 "酒井健太朗" ;
-@@ -3073,12 +3014,12 @@
-     ns1:年齢 "31" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "重村こうじ" ;
-     ns1:facebook "" ;
+@@ -2773,7 +2803,7 @@
      ns1:twitter "koji_1951" ;
      ns1:せい "しげむら" ;
      ns1:めい "こうじ" ;
@@ -3098,13 +1994,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸司" ;
      ns1:名前 "重村幸司" ;
-@@ -3087,12 +3028,12 @@
-     ns1:年齢 "66" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "のむら真弘" ;
-     ns1:facebook "" ;
+@@ -2786,7 +2816,7 @@
      ns1:twitter "" ;
      ns1:せい "のむら" ;
      ns1:めい "まさひろ" ;
@@ -3113,26 +2003,12 @@
      ns1:前回 "新" ;
      ns1:名 "真弘" ;
      ns1:名前 "野村真弘" ;
-@@ -3101,9 +3042,7 @@
-     ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/7",
--        "higa4",
--        "年齢(43)のみ公開" ;
-+[] ns1: "かなくら昌俊" ;
-     ns1:facebook "https://www.facebook.com/kanakuramasatoshi" ;
-     ns1:twitter "kanakuramasato" ;
-     ns1:せい "かなくら" ;
-@@ -3117,13 +3056,12 @@
+@@ -2808,11 +2838,11 @@
      ns1:年齢 "43" ;
      ns1:比例区 "北海道" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/people/%E9%87%91%E5%85%83%E5%B9%B8%E6%9E%9D/100005810323550" ;
-+[] ns1: "金元ゆきえ" ;
-+    ns1:facebook "https://www.facebook.com/profile.php?id=100005810323550" ;
+-[] ns1:facebook "https://www.facebook.com/people/%E9%87%91%E5%85%83%E5%B9%B8%E6%9E%9D/100005810323550" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100005810323550" ;
      ns1:twitter "jcp_555" ;
      ns1:せい "かねもと" ;
      ns1:めい "ゆきえ" ;
@@ -3141,13 +2017,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸枝" ;
      ns1:名前 "金元幸枝" ;
-@@ -3132,12 +3070,12 @@
-     ns1:年齢 "59" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "きんぱら信之" ;
-     ns1:facebook "" ;
+@@ -2825,7 +2855,7 @@
      ns1:twitter "" ;
      ns1:せい "きんぱら" ;
      ns1:めい "のぶゆき" ;
@@ -3156,78 +2026,40 @@
      ns1:前回 "新" ;
      ns1:名 "信之" ;
      ns1:名前 "金原信之" ;
-@@ -3146,8 +3084,7 @@
-     ns1:年齢 "57" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9/2017",
--        "grck1004" ;
-+[] ns1: "かなもり亨" ;
-     ns1:facebook "https://www.facebook.com/tooru.kanamori" ;
-     ns1:twitter "mimu_kanamori" ;
-     ns1:せい "かなもり" ;
-@@ -3161,8 +3098,8 @@
+@@ -2847,7 +2877,7 @@
      ns1:年齢 "61" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "かねだみねお" ;
-+    ns1:facebook "https://www.facebook.com/kanedamineo" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/kanedamineo" ;
      ns1:twitter "mineo_kaneda" ;
      ns1:せい "かねだ" ;
      ns1:めい "みねお" ;
-@@ -3175,7 +3112,7 @@
-     ns1:年齢 "52" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "釘丸すすむ" ;
-     ns1:facebook "https://www.facebook.com/susumu.kugimaru" ;
-     ns1:twitter "kugimarususumu" ;
-     ns1:せい "くぎまる" ;
-@@ -3189,8 +3126,7 @@
-     ns1:年齢 "44" ;
-     ns1:比例区 "" .
- 
--[] ns1: "2017/10/9",
--        "kudarisenmon" ;
-+[] ns1: "すずき千佳" ;
-     ns1:facebook "https://www.facebook.com/chikachikagogo" ;
-     ns1:twitter "chikachika_gogo" ;
-     ns1:せい "すずき" ;
-@@ -3204,9 +3140,8 @@
+@@ -2886,7 +2916,7 @@
      ns1:年齢 "46" ;
      ns1:比例区 "" .
  
--[] ns1: "10/9",
--        "tominari" ;
--    ns1:facebook "https://www.facebook.com/kota.suzuki.1656" ;
-+[] ns1: "すずき宏太" ;
-+    ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kota.suzuki.1656" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "すずき" ;
      ns1:めい "こうた" ;
-@@ -3219,9 +3154,8 @@
+@@ -2899,8 +2929,7 @@
      ns1:年齢 "36" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/fumiko.osanai",
+-[] ns1:facebook "https://www.facebook.com/fumiko.osanai",
 -        "https://www.facebook.com/osanai235" ;
-+[] ns1: "長内ふみこ" ;
-+    ns1:facebook "https://www.facebook.com/osanai235" ;
++[] ns1:facebook "https://www.facebook.com/osanai235" ;
      ns1:twitter "osanai235" ;
      ns1:せい "おさない" ;
      ns1:めい "ふみこ" ;
-@@ -3234,12 +3168,12 @@
+@@ -2913,11 +2942,11 @@
      ns1:年齢 "29" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "ながとも忠弘" ;
-+    ns1:facebook "https://www.facebook.com/tadahiro.nagatomo" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/tadahiro.nagatomo" ;
      ns1:twitter "clfcde1eljomceq" ;
      ns1:せい "ながとも" ;
      ns1:めい "ただひろ" ;
@@ -3236,25 +2068,11 @@
      ns1:前回 "新" ;
      ns1:名 "忠弘" ;
      ns1:名前 "長友忠弘" ;
-@@ -3248,8 +3182,7 @@
-     ns1:年齢 "58" ;
+@@ -2940,13 +2969,13 @@
      ns1:比例区 "" .
  
--[] ns1: "10/9/2017",
--        "grck1004" ;
-+[] ns1: "ながおか嘉一" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "ながおか" ;
-@@ -3263,21 +3196,21 @@
-     ns1:年齢 "48" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
--    ns1:facebook "" ;
+ [] ns1:facebook "" ;
 -    ns1:twitter "tinenaganuma" ;
-+[] ns1: "ながぬまちね" ;
-+    ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:せい "ながぬま" ;
      ns1:めい "ちね" ;
@@ -3269,61 +2087,21 @@
      ns1:姓 "長沼" ;
      ns1:小選挙区 "埼玉7区" ;
      ns1:年齢 "67" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "長瀬ゆきこ" ;
-     ns1:facebook "" ;
-     ns1:twitter "yukiko_nagase" ;
-     ns1:せい "ながせ" ;
-@@ -3291,7 +3224,7 @@
-     ns1:年齢 "49" ;
-     ns1:比例区 "北陸信越" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "長谷田なおゆき" ;
-     ns1:facebook "https://www.facebook.com/naoyuki.haseda" ;
-     ns1:twitter "takijidakkan" ;
-     ns1:せい "はせだ" ;
-@@ -3305,9 +3238,7 @@
-     ns1:年齢 "61" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/8",
--        "higa4",
--        "年齢(27)のみ公開" ;
-+[] ns1: "関根静香" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "せきね" ;
-@@ -3321,7 +3252,7 @@
-     ns1:年齢 "27" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "阿藤かずゆき" ;
-     ns1:facebook "" ;
-     ns1:twitter "atoukazuyuki" ;
-     ns1:せい "あとう" ;
-@@ -3335,8 +3266,8 @@
+@@ -3004,7 +3033,7 @@
      ns1:年齢 "46" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/Tokyo22abemakoto" ;
-+[] ns1: "あべまこと" ;
-+    ns1:facebook "https://www.facebook.com/makoto.abe.22" ;
+-[] ns1:facebook "https://www.facebook.com/Tokyo22abemakoto" ;
++[] ns1:facebook "https://www.facebook.com/makoto.abe.22" ;
      ns1:twitter "rhein2011" ;
      ns1:せい "あべ" ;
      ns1:めい "まこと" ;
-@@ -3349,12 +3280,12 @@
+@@ -3017,11 +3046,11 @@
      ns1:年齢 "43" ;
      ns1:比例区 "" .
  
--[] ns1: "" ;
--    ns1:facebook "" ;
-+[] ns1: "霜鳥じゅんいち" ;
-+    ns1:facebook "https://www.facebook.com/junichi.shimotori.1" ;
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/junichi.shimotori.1" ;
      ns1:twitter "" ;
      ns1:せい "しもとり" ;
      ns1:めい "じゅんいち" ;
@@ -3332,9 +2110,9 @@
      ns1:前回 "新" ;
      ns1:名 "純一" ;
      ns1:名前 "霜鳥純一" ;
-@@ -3366,23 +3297,23 @@
- [] ns1: "" ;
-     ns1:facebook "" ;
+@@ -3032,13 +3061,13 @@
+ 
+ [] ns1:facebook "" ;
      ns1:twitter "" ;
 -    ns1:せい "あおやま" ;
 -    ns1:めい "りょうすけ" ;
@@ -3350,10 +2128,8 @@
      ns1:小選挙区 "富山1区" ;
      ns1:年齢 "42" ;
      ns1:比例区 "" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "あおやま昂平" ;
-     ns1:facebook "https://www.facebook.com/kohei.aoyama.90" ;
+@@ -3046,8 +3075,8 @@
+ [] ns1:facebook "https://www.facebook.com/kohei.aoyama.90" ;
      ns1:twitter "iyaiya_55" ;
      ns1:せい "あおやま" ;
 -    ns1:めい "こうへい" ;
@@ -3363,13 +2139,7 @@
      ns1:前回 "新" ;
      ns1:名 "昂平" ;
      ns1:名前 "青山昂平" ;
-@@ -3391,12 +3322,12 @@
-     ns1:年齢 "26" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9" ;
-+[] ns1: "あおき弘" ;
-     ns1:facebook "" ;
+@@ -3060,7 +3089,7 @@
      ns1:twitter "" ;
      ns1:せい "あおき" ;
      ns1:めい "ひろし" ;
@@ -3378,14 +2148,12 @@
      ns1:前回 "新" ;
      ns1:名 "弘" ;
      ns1:名前 "青木弘" ;
-@@ -3405,12 +3336,12 @@
+@@ -3069,11 +3098,11 @@
      ns1:年齢 "56" ;
      ns1:比例区 "" .
  
--[] ns1: "10/10" ;
--    ns1:facebook "https://www.facebook.com/八法亭-みややっこ-729898467032255" ;
-+[] ns1: "いいだ美弥子" ;
-+    ns1:facebook "https://www.facebook.com/729898467032255" ;
+-[] ns1:facebook "https://www.facebook.com/八法亭-みややっこ-729898467032255" ;
++[] ns1:facebook "https://www.facebook.com/729898467032255" ;
      ns1:twitter "iidamiyako1" ;
      ns1:せい "いいだ" ;
      ns1:めい "みやこ" ;
@@ -3394,13 +2162,7 @@
      ns1:前回 "新" ;
      ns1:名 "美弥子" ;
      ns1:名前 "飯田美弥子" ;
-@@ -3419,27 +3350,26 @@
-     ns1:年齢 "57" ;
-     ns1:比例区 "東京" .
- 
--[] ns1: "10/10" ;
-+[] ns1: "こうざい克すけ" ;
-     ns1:facebook "https://www.facebook.com/katusuke.kouzai" ;
+@@ -3086,10 +3115,10 @@
      ns1:twitter "kouzai2007" ;
      ns1:せい "こうざい" ;
      ns1:めい "かつすけ" ;
@@ -3415,12 +2177,7 @@
      ns1:姓 "香西" ;
      ns1:小選挙区 "東京3区" ;
      ns1:年齢 "41" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9",
--        "higa4" ;
-+[] ns1: "たかやなぎ博明" ;
-     ns1:facebook "" ;
+@@ -3099,7 +3128,7 @@
      ns1:twitter "" ;
      ns1:せい "たかやなぎ" ;
      ns1:めい "ひろあき" ;
@@ -3429,53 +2186,7 @@
      ns1:前回 "新" ;
      ns1:名 "博明" ;
      ns1:名前 "高柳博明" ;
-@@ -3448,7 +3378,7 @@
-     ns1:年齢 "47" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "鳥羽恵" ;
-     ns1:facebook "https://www.facebook.com/megumi.toba.5" ;
-     ns1:twitter "toba_megumi" ;
-     ns1:せい "とば" ;
-@@ -3462,7 +3392,7 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "鴨志田やすしろ" ;
-     ns1:facebook "https://www.facebook.com/yasusiro.kamosida" ;
-     ns1:twitter "ky60954585" ;
-     ns1:せい "かもしだ" ;
-@@ -3476,8 +3406,7 @@
-     ns1:年齢 "62" ;
-     ns1:比例区 "" .
- 
--[] ns1: "10/9",
--        "tominari" ;
-+[] ns1: "くろさき清則" ;
-     ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:せい "くろさき" ;
-@@ -3491,7 +3420,7 @@
-     ns1:年齢 "69" ;
-     ns1:比例区 "" .
- 
--[] ns1: "年齢(69)のみ公開" ;
-+[] ns1: "くろきまんじ" ;
-     ns1:facebook "https://www.facebook.com/profile.php?id=100004194765892" ;
-     ns1:twitter "" ;
-     ns1:せい "くろき" ;
-@@ -3505,7 +3434,7 @@
-     ns1:年齢 "69" ;
-     ns1:比例区 "" .
- 
--[] ns1: "" ;
-+[] ns1: "齊藤だいご" ;
-     ns1:facebook "https://www.facebook.com/s.k.daigo" ;
-     ns1:twitter "hana_daichan" ;
-     ns1:せい "さいとう" ;
-@@ -3516,6 +3445,6 @@
+@@ -3170,6 +3199,6 @@
      ns1:名前 "齊藤大悟" ;
      ns1:姓 "齊藤" ;
      ns1:小選挙区 "秋田1区" ;
