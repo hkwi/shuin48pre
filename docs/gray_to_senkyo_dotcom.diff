@@ -2261,15 +2261,6 @@
      ns1:前回 "新" ;
      ns1:名 "千恵子" ;
      ns1:名前 "大沢千恵子" ;
-@@ -3757,7 +3760,7 @@
- 
- [] ns1:twitter "" ;
-     ns1:候補名 "大河原雅子" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "https://ookawaramasako.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "雅子" ;
-     ns1:名前 "大河原雅子" ;
 @@ -3787,13 +3790,14 @@
      ns1:名前 "大石宗" ;
      ns1:姓 "大石" ;
@@ -5354,10 +5345,13 @@
      ns1:小選挙区 "愛媛3区" ;
      ns1:年齢 "57" ;
 -    ns1:政党 "諸派" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:twitter "paul_morimori" ;
 +    ns1:政党 "幸福" ;
-     ns1:比例区 "" .
- 
- [] ns1:twitter "" ;
++    ns1:比例区 "" .
++
++[] ns1:twitter "" ;
      ns1:候補名 "森田貴行" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://ameblo.jp/moritakayuki1971/" ;
@@ -8100,8 +8094,7 @@
  
  [] ns1:twitter "ryosei_akazawa" ;
      ns1:候補名 "赤沢亮正" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://www.ryosei-akazawa.com/" ;
+     ns1:公式サイト "http://www.ryosei-akazawa.com/" ;
      ns1:前回 "前" ;
      ns1:名 "亮正" ;
 -    ns1:名前 "赤澤亮正" ;
