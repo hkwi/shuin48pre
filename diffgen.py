@@ -89,6 +89,10 @@ def match_names(keys, row):
 		if nm is not None:
 			names += [nm]
 	
+	if r.get("twitter"):
+		k,v = normalize("twitter", r["twitter"])
+		names += ["twitter://"+v.lower()]
+	
 	return names
 
 def create_mkey(a, b):
@@ -107,6 +111,9 @@ def create_mkey(a, b):
 	return mkeys
 
 def normalize(k,v):
+	if v == "-":
+		return k,""
+	
 	if k == "twitter":
 		v = v.strip().split("?")[0].lower()
 		m = re.match("https?://twitter.com/@?([^/]+)(/.*)?", v)
@@ -114,6 +121,7 @@ def normalize(k,v):
 			v = m.group(1)
 	elif k == "facebook":
 		v = v.replace("https://facebook.com/","https://www.facebook.com/")
+		v = v.replace("ja-jp.facebook.com","www.facebook.com")
 		if v.startswith("/"):
 			v = "https://www.facebook.com" + v
 		elif v and not v.startswith("http"):
