@@ -116,16 +116,23 @@ def normalize(k,v):
 	
 	if k == "twitter":
 		v = v.strip().split("?")[0].lower()
-		m = re.match("https?://twitter.com/@?([^/]+)(/.*)?", v)
+		m = re.match("https?://twitter.com/@?([^/@]+)(/.*)?", v)
 		if m:
 			v = m.group(1)
+		if v.startswith("\u200E"):
+			v = v[1:]
 	elif k == "facebook":
+		if "?" in v and "id=" not in v:
+			v = v.split("?")[0]
 		v = v.replace("https://facebook.com/","https://www.facebook.com/")
 		v = v.replace("ja-jp.facebook.com","www.facebook.com")
 		if v.startswith("/"):
 			v = "https://www.facebook.com" + v
 		elif v and not v.startswith("http"):
 			v = "https://www.facebook.com/" + v
+		
+		if v.endswith("/"):
+			v = v[:-1]
 	elif k == "生年月日":
 		m = re.match("(\d{4})(\d{2})(\d{2})", v)
 		if m:
