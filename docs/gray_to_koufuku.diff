@@ -15,12 +15,11 @@
 -    ns1:職歴 "コージャパン(株)" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "-" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党神奈川第3選挙区支部長" .
 +
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100014235768852" ;
-+    ns1:twitter "" ;
+     ns1:twitter "" ;
      ns1:候補名 "いしわた剛" ;
      ns1:公式ブログ "https://ameblo.jp/ishiwata-tsuyoshi/" ;
      ns1:小選挙区 "栃木3区" ;
@@ -1060,7 +1059,7 @@
 -        "幸福実現党北海道本部代表" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "-" ;
+-    ns1:twitter "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党北海道本部代表(兼)北海道比例ブロック支部長" .
 +
@@ -1114,12 +1113,11 @@
 -        "鉄鋼メーカー商社" .
 -
 -[] ns1:facebook "" ;
--    ns1:twitter "-" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "南関東比例ブロック副支部長" .
 +
 +[] ns1:facebook "https://www.facebook.com/takeshi.iida.90" ;
-+    ns1:twitter "" ;
+     ns1:twitter "" ;
      ns1:候補名 "飯田たけし" ;
 -    ns1:公式ブログ "" ;
 +    ns1:公式ブログ "http://iidatakeshi.blog.fc2.com/" ;

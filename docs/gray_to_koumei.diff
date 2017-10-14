@@ -1,6 +1,18 @@
 --- GrayDB
 +++ 公明党公式
-@@ -10,8 +10,7 @@
+@@ -4,9 +4,9 @@
+ @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ 
+-[] ns1:facebook "" ;
++[] ns1:facebook "https://www.facebook.com/hamachi.masakazu" ;
+     ns1:twitter "hamachi_m" ;
+-    ns1:候補名 "浜地雅一" ;
++    ns1:候補名 "濵地雅一" ;
+     ns1:小選挙区 "" ;
+     ns1:比例区 "九州" .
+ 
+@@ -16,8 +16,7 @@
      ns1:小選挙区 "大阪6区" ;
      ns1:比例区 "" .
  
@@ -10,7 +22,7 @@
      ns1:twitter "inatsuhisashi" ;
      ns1:候補名 "いなつ久" ;
      ns1:小選挙区 "北海道10区" ;
-@@ -23,20 +22,20 @@
+@@ -29,20 +28,20 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" .
  
@@ -35,7 +47,7 @@
      ns1:候補名 "中野ひろまさ" ;
      ns1:小選挙区 "兵庫8区" ;
      ns1:比例区 "" .
-@@ -48,7 +47,7 @@
+@@ -54,7 +53,7 @@
      ns1:比例区 "東北" .
  
  [] ns1:facebook "" ;
@@ -44,7 +56,7 @@
      ns1:候補名 "井川泰雄" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
-@@ -59,19 +58,19 @@
+@@ -65,19 +64,19 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" .
  
@@ -67,7 +79,7 @@
      ns1:twitter "hidemichisato" ;
      ns1:候補名 "佐藤英道" ;
      ns1:小選挙区 "" ;
-@@ -83,13 +82,13 @@
+@@ -89,13 +88,13 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" .
  
@@ -83,7 +95,7 @@
      ns1:twitter "noriko_furuya" ;
      ns1:候補名 "古屋範子" ;
      ns1:小選挙区 "" ;
-@@ -101,25 +100,25 @@
+@@ -107,25 +106,25 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" .
  
@@ -113,7 +125,7 @@
      ns1:twitter "teamohta" ;
      ns1:候補名 "太田あきひろ" ;
      ns1:小選挙区 "東京12区" ;
-@@ -137,19 +136,19 @@
+@@ -143,19 +142,19 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
  
@@ -136,29 +148,23 @@
      ns1:twitter "saitotetsuo" ;
      ns1:候補名 "斉藤鉄夫" ;
      ns1:小選挙区 "" ;
-@@ -185,19 +184,13 @@
+@@ -191,13 +190,13 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道" .
  
 -[] ns1:facebook "" ;
-+[] ns1:facebook "https://ja-jp.facebook.com/edayasuyuki.official/" ;
++[] ns1:facebook "https://www.facebook.com/edayasuyuki.official/" ;
      ns1:twitter "" ;
      ns1:候補名 "江田康幸" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "hamachi_m" ;
--    ns1:候補名 "浜地雅一" ;
--    ns1:小選挙区 "" ;
--    ns1:比例区 "九州" .
--
--[] ns1:facebook "" ;
 +[] ns1:facebook "https://www.facebook.com/ukishimatomoko/?hc_ref=ARRJtcfyrObvO2mI5D_TkSF0w_1SH11tlR1tPRQCBJ2I715KZbnaTNHXYzN_ZAcAIrc&fref=nf" ;
      ns1:twitter "tomo_ukishima" ;
      ns1:候補名 "浮島智子" ;
      ns1:小選挙区 "" ;
-@@ -209,12 +202,18 @@
+@@ -209,7 +208,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東北" .
  
@@ -167,17 +173,6 @@
      ns1:twitter "hamamurasusumu" ;
      ns1:候補名 "濱村進" ;
      ns1:小選挙区 "" ;
-     ns1:比例区 "近畿" .
- 
-+[] ns1:facebook "https://www.facebook.com/hamachi.masakazu" ;
-+    ns1:twitter "hamachi_m" ;
-+    ns1:候補名 "濵地雅一" ;
-+    ns1:小選挙区 "" ;
-+    ns1:比例区 "九州" .
-+
- [] ns1:facebook "" ;
-     ns1:twitter "" ;
-     ns1:候補名 "田中博之" ;
 @@ -227,7 +226,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
