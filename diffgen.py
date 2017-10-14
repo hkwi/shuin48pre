@@ -82,7 +82,8 @@ def match_names(keys, row):
 		nm = ""
 		for field in fields.split("+"):
 			if r.get(field):
-				nm += r[field]
+				k,v = normalize(field, r[field])
+				nm += v
 			else:
 				nm = None
 				break
@@ -102,7 +103,7 @@ def create_mkey(a, b):
 		search = []
 		for bk in b:
 			xs = set(ak).intersection(bk)
-			search += [(len(xs), xs)]
+			search += [(len(xs), tuple(sorted(xs)))]
 		hi = next(reversed(sorted(search)))
 		if hi[0] > 0:
 			mkeys += [next(reversed(sorted(hi[1])))]
@@ -201,12 +202,14 @@ def ttl_out(dbkeys, dbdata, keys):
 			if nm:
 				name = nm
 		
-		if "mkey" in m:
-			del(m["mkey"])
-		
 		e = bnodes.get(name, rdflib.BNode(name))
 		bnodes[name] = e
-		for k,vs in m.items():
+		for k,vs in zip(dbkeys, row):
+			if k not in keys or k=="mkey":
+				continue
+			if vs is None:
+				continue
+			
 			for v in vs.split("\n"):
 				k,v = normalize(k,v)
 				if k in keys:
