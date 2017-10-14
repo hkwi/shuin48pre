@@ -243,15 +243,6 @@
      ns1:公式サイト "http://www.55miki.com/" ;
      ns1:前回 "元" ;
      ns1:名 "圭恵" ;
-@@ -259,7 +229,7 @@
- [] ns1:facebook "https://www.facebook.com/kazuya.mimura.7" ;
-     ns1:twitter "" ;
-     ns1:候補名 "三村和也" ;
--    ns1:公式サイト "http://mimurakazuya.net" ;
-+    ns1:公式サイト "http://mimurakazuya.net/" ;
-     ns1:前回 "元" ;
-     ns1:名 "和也" ;
-     ns1:名前 "三村和也" ;
 @@ -324,7 +294,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "akemimitsubachi" ;
@@ -270,17 +261,15 @@
      ns1:候補名 "上杉謙太郎" ;
      ns1:公式サイト "http://uesugi.fukushima.jp/" ;
      ns1:前回 "新" ;
-@@ -401,8 +371,8 @@
+@@ -401,7 +371,7 @@
  
  [] ns1:facebook "https://www.facebook.com/ryoichikamijo" ;
      ns1:twitter "ryoichikamijo" ;
 -    ns1:候補名 "かみじょう亮一" ;
--    ns1:公式サイト "http://ryoichikamijo.com" ;
 +    ns1:候補名 "上條亮一" ;
-+    ns1:公式サイト "http://ryoichikamijo.com/" ;
+     ns1:公式サイト "http://ryoichikamijo.com/" ;
      ns1:前回 "新" ;
      ns1:名 "亮一" ;
-     ns1:名前 "上條亮一" ;
 @@ -414,8 +384,8 @@
  
  [] ns1:facebook "https://www.facebook.com/isamu.ueda.77" ;
@@ -298,7 +287,7 @@
  [] ns1:facebook "" ;
 -    ns1:twitter "xdauib5hhmwisqv" ;
 -    ns1:候補名 "上田あつこ" ;
--    ns1:公式サイト "http://ameblo.jp/uedaatsuko" ;
+-    ns1:公式サイト "http://ameblo.jp/uedaatsuko/" ;
 +    ns1:twitter "" ;
 +    ns1:候補名 "上田敦子" ;
 +    ns1:公式サイト "https://ameblo.jp/uedaatsuko/" ;
@@ -435,24 +424,6 @@
      ns1:前回 "新" ;
      ns1:名 "信" ;
      ns1:名前 "与謝野信" ;
-@@ -626,7 +593,7 @@
- [] ns1:facebook "https://www.facebook.com/masayoshi.namiki.7" ;
-     ns1:twitter "namiki2020" ;
-     ns1:候補名 "並木正芳" ;
--    ns1:公式サイト "http://www.namikimasayoshi.jp" ;
-+    ns1:公式サイト "http://www.namikimasayoshi.jp/" ;
-     ns1:前回 "元" ;
-     ns1:名 "正芳" ;
-     ns1:名前 "並木正芳" ;
-@@ -675,7 +642,7 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/nakayamanariaki.official" ;
-     ns1:twitter "nakayamanariaki" ;
-     ns1:候補名 "中山成彬" ;
-     ns1:公式サイト "http://nakayamanariaki.com/" ;
 @@ -697,12 +664,11 @@
      ns1:名前 "中山泰" ;
      ns1:姓 "中山" ;
@@ -617,26 +588,8 @@
      ns1:前回 "前" ;
      ns1:名 "裕之" ;
      ns1:名前 "中村裕之" ;
-@@ -928,10 +890,10 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "北関東" .
- 
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
-+[] ns1:facebook "https://www.facebook.com/yasuhiro.nakane.948" ;
-+    ns1:twitter "nakayasu40" ;
-     ns1:候補名 "中根康浩" ;
--    ns1:公式サイト "http://www.sun-inet.or.jp/~nakayasu/" ;
-+    ns1:公式サイト "https://www.nakane.jp/" ;
-     ns1:前回 "前" ;
-     ns1:名 "康浩" ;
-     ns1:名前 "中根康浩" ;
-@@ -954,10 +916,10 @@
-     ns1:政党 "幸福" ;
-     ns1:比例区 "東海" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/hirosato.nakatugawa" ;
+@@ -957,7 +919,7 @@
+ [] ns1:facebook "https://www.facebook.com/hirosato.nakatugawa" ;
      ns1:twitter "h_nakatsugawa" ;
      ns1:候補名 "中津川博郷" ;
 -    ns1:公式サイト "http://www.naktsugawa.net/" ;
@@ -672,15 +625,6 @@
      ns1:前回 "新" ;
      ns1:名 "仁" ;
      ns1:名前 "中石仁" ;
-@@ -994,7 +956,7 @@
-     ns1:比例区 "" .
- 
- [] ns1:facebook "https://www.facebook.com/nakanishirie.hrp" ;
--    ns1:twitter "" ;
-+    ns1:twitter "rie_nakanishi77" ;
-     ns1:候補名 "中西利恵" ;
-     ns1:公式サイト "https://ameblo.jp/nakanishirie/" ;
-     ns1:前回 "新" ;
 @@ -1006,7 +968,7 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "四国" .
@@ -6620,12 +6564,7 @@
      ns1:前回 "前" ;
      ns1:名 "慶一郎" ;
      ns1:名前 "橘慶一郎" ;
-@@ -9076,16 +9068,14 @@
-     ns1:名前 "櫛渕万里" ;
-     ns1:姓 "櫛渕" ;
-     ns1:小選挙区 "千葉3区" ;
--    ns1:年齢 "49" ;
-+    ns1:年齢 "50" ;
+@@ -9080,12 +9072,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -8438,15 +8377,6 @@
      ns1:twitter "akibacsi" ;
      ns1:候補名 "笠井亮" ;
      ns1:公式サイト "http://www.kasai-akira.jp/" ;
-@@ -11776,7 +11777,7 @@
-     ns1:名前 "笠井亮" ;
-     ns1:姓 "笠井" ;
-     ns1:小選挙区 "" ;
--    ns1:年齢 "64" ;
-+    ns1:年齢 "65" ;
-     ns1:政党 "共産" ;
-     ns1:比例区 "東京" .
- 
 @@ -11793,23 +11794,23 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
@@ -9221,7 +9151,7 @@
      ns1:名前 "西村康稔" ;
      ns1:姓 "西村" ;
      ns1:小選挙区 "兵庫9区" ;
--    ns1:年齢 "54" ;
+-    ns1:年齢 "55" ;
 +    ns1:年齢 "54",
 +        "55" ;
      ns1:政党 "自民" ;

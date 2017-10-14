@@ -233,6 +233,17 @@
      ns1:twitter "" ;
      ns1:wikidata "Q6381814" ;
      ns1:名 "一幸" ;
+@@ -199,8 +211,8 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1969-07-11" .
+ 
+-[] ns1:facebook "https://www.facebook.com/yasuhiro.nakane.948" ;
+-    ns1:twitter "nakayasu40" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:wikidata "Q11366226" ;
+     ns1:名 "康浩" ;
+     ns1:名前 "中根康浩" ;
 @@ -217,8 +229,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-10-14" .
