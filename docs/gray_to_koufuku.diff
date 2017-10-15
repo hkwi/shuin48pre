@@ -919,7 +919,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/nishihara.tada" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党滋賀第2選挙区支部長" .
 +

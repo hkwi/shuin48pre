@@ -964,6 +964,15 @@
      ns1:wikidata "Q11454668" ;
      ns1:名 "典子" ;
      ns1:名前 "宮川典子" ;
+@@ -1273,7 +1336,7 @@
+     ns1:性別 "女性" ;
+     ns1:生年月日 "1979-04-05" .
+ 
+-[] ns1:facebook "https://www.facebook.com/takeshi.miyamoto.5661" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q11454828" ;
+     ns1:名 "岳志" ;
 @@ -1282,8 +1345,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1959-12-25" .
