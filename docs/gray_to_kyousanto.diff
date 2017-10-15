@@ -1022,7 +1022,7 @@
      ns1:前回 "新" ;
      ns1:名 "清隆" ;
      ns1:名前 "新留清隆" ;
-@@ -1529,22 +1553,22 @@
+@@ -1529,13 +1553,13 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -1040,10 +1040,8 @@
      ns1:小選挙区 "茨城2区" ;
      ns1:年齢 "69" ;
      ns1:比例区 "" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "jcpniiza" ;
-+    ns1:twitter "" ;
+@@ -1544,7 +1568,7 @@
+     ns1:twitter "jcpniiza" ;
      ns1:せい "あさか" ;
      ns1:めい "ひでよし" ;
 -    ns1:候補名 "朝賀英義" ;
@@ -1894,7 +1892,12 @@
      ns1:twitter "rhein2011" ;
      ns1:せい "あべ" ;
      ns1:めい "まこと" ;
-@@ -3024,7 +3050,7 @@
+@@ -3020,11 +3046,11 @@
+     ns1:年齢 "43" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/junichi.shimotori.1" ;
++[] ns1:facebook "https://www.facebook.com/nara2shimotori" ;
      ns1:twitter "" ;
      ns1:せい "しもとり" ;
      ns1:めい "じゅんいち" ;
