@@ -1662,15 +1662,7 @@
      ns1:twitter "" ;
      ns1:せい "ふじもと" ;
      ns1:めい "さちこ" ;
-@@ -2585,27 +2614,27 @@
-     ns1:名前 "藤本聡志" ;
-     ns1:姓 "藤本" ;
-     ns1:小選挙区 "広島2区" ;
--    ns1:年齢 "62" ;
-+    ns1:年齢 "63" ;
-     ns1:比例区 "" .
- 
- [] ns1:facebook "https://www.facebook.com/fujino.yasufumi" ;
+@@ -2592,20 +2621,20 @@
      ns1:twitter "fujinofujinooo" ;
      ns1:せい "ふじの" ;
      ns1:めい "やすふみ" ;
