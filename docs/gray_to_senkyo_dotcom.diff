@@ -3694,7 +3694,7 @@
  [] ns1:facebook "https://www.facebook.com/AsakoOmi.jp" ;
      ns1:twitter "" ;
      ns1:候補名 "尾身朝子" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "https://asako-omi.jp" ;
 +    ns1:公式サイト "https://asako-omi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "朝子" ;
@@ -3703,7 +3703,7 @@
  [] ns1:facebook "https://www.facebook.com/otsujiosaka" ;
      ns1:twitter "otsujikanako" ;
      ns1:候補名 "尾辻かな子" ;
--    ns1:公式サイト "http://www.otsuji-k.com/" ;
+-    ns1:公式サイト "http://www.otsuji.club" ;
 +    ns1:公式サイト "http://www.otsuji.club/" ;
      ns1:前回 "新" ;
      ns1:名 "かな子" ;
