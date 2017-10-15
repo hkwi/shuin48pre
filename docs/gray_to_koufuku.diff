@@ -954,7 +954,7 @@
  [] ns1:facebook "https://www.facebook.com/shakuryoko" ;
      ns1:twitter "shakuryoko" ;
      ns1:候補名 "釈量子" ;
--    ns1:公式ブログ "" ;
+-    ns1:公式ブログ "http://shaku-ryoko.net" ;
 +    ns1:公式ブログ "http://shaku-ryoko.net/" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" ;
@@ -963,35 +963,31 @@
      ns1:職歴 "幸福実現党党首" .
  
  [] ns1:facebook "" ;
-@@ -739,27 +631,26 @@
+@@ -739,9 +631,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "(株)みのり",
 -        "幸福実現党北海道本部代表" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党北海道本部代表(兼)北海道比例ブロック支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/masateru.nomura" ;
-+    ns1:twitter "nomuramasateru" ;
-     ns1:候補名 "野村昌央" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/masateru.nomura" ;
+     ns1:twitter "nomuramasateru" ;
+@@ -749,17 +640,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "広島3区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/elmichiko" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党広島第3選挙区支部長" .
 +
 +[] ns1:facebook "http://facebook.com/elmichiko" ;
-+    ns1:twitter "kinjou_tatsurou" ;
+     ns1:twitter "kinjou_tatsurou" ;
      ns1:候補名 "金城タツロー" ;
 -    ns1:公式ブログ "" ;
 +    ns1:公式ブログ "http://ishin0507.ti-da.net/" ;
@@ -1032,7 +1028,7 @@
  [] ns1:facebook "https://www.facebook.com/takeshi.iida.90" ;
      ns1:twitter "" ;
      ns1:候補名 "飯田たけし" ;
--    ns1:公式ブログ "" ;
+-    ns1:公式ブログ "http://iidatakeshi.blog.fc2.com" ;
 +    ns1:公式ブログ "http://iidatakeshi.blog.fc2.com/" ;
      ns1:小選挙区 "埼玉3区" ;
      ns1:比例区 "" ;
