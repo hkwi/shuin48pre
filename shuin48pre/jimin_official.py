@@ -163,9 +163,11 @@ def proc(out, filename, std, sup):
 			
 			out.writerow((area, hirei, std, sup, sei, mei, sei_hira, mei_hira, gender, birth, prev, bio))
 
-
-if __name__=="__main__":
-	out = csv.writer(open("docs/jimin_official.csv", "w"))
+def run(fp):
+	out = csv.writer(fp)
 	proc(out, "docs/135811_1.xlsx", "公認", "")
 	proc(out, "docs/135811_2.xlsx", "", "推薦予定")
 	proc(out, "docs/135811_3.xlsx", "", "推薦")
+
+if __name__=="__main__":
+	run(sys.stdout)
