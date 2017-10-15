@@ -7581,12 +7581,9 @@
      ns1:前回 "前" ;
      ns1:名 "裕明" ;
      ns1:名前 "田畑裕明" ;
-@@ -10567,23 +10565,23 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "北陸信越" .
+@@ -10569,21 +10567,21 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
+ [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
 -    ns1:候補名 "たなべ雄治" ;
 -    ns1:公式サイト "http://ameblo.jp/tanabe-yuji/" ;
@@ -8444,7 +8441,15 @@
      ns1:公式サイト "http://rinta.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "林太郎" ;
-@@ -11978,25 +11977,25 @@
+@@ -11971,32 +11970,32 @@
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
+     ns1:twitter "" ;
+     ns1:候補名 "縁田有紀" ;
+-    ns1:公式サイト "https://ameblo.jp/cokucoku2525/" ;
++    ns1:公式サイト "" ;
+     ns1:前回 "新" ;
+     ns1:名 "有紀" ;
+     ns1:名前 "縁田有紀" ;
      ns1:姓 "縁田" ;
      ns1:小選挙区 "京都4区" ;
      ns1:年齢 "27" ;
@@ -9168,12 +9173,9 @@
      ns1:前回 "新" ;
      ns1:名 "昭二" ;
      ns1:名前 "西田昭二" ;
-@@ -12947,17 +12967,17 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "東京" .
+@@ -12949,15 +12969,15 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
+ [] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
      ns1:twitter "ainishiwaki" ;
 -    ns1:候補名 "にしわき愛" ;
 -    ns1:公式サイト "http://ameblo.jp/ai-nishiwaki/" ;

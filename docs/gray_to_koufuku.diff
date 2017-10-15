@@ -36,9 +36,8 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
      ns1:twitter "" ;
 -    ns1:候補名 "縁田有紀" ;
--    ns1:公式ブログ "" ;
 +    ns1:候補名 "えんだゆき" ;
-+    ns1:公式ブログ "https://ameblo.jp/cokucoku2525/" ;
+     ns1:公式ブログ "https://ameblo.jp/cokucoku2525/" ;
      ns1:小選挙区 "京都4区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
@@ -95,34 +94,30 @@
  
  [] ns1:facebook "https://www.facebook.com/seii.miho" ;
      ns1:twitter "mihotanii" ;
-@@ -86,158 +82,143 @@
+@@ -86,9 +82,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "東京14区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "教員",
 -        "音楽教室経営" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党東京第14選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
-     ns1:候補名 "たなべ雄治" ;
+@@ -96,8 +91,8 @@
      ns1:公式ブログ "http://ameblo.jp/tanabe-yuji/" ;
      ns1:小選挙区 "岡山2区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "(株)キーエンス" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党岡山県本部代表（兼）岡山第2選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
      ns1:twitter "ainishiwaki" ;
-     ns1:候補名 "にしわき愛" ;
+@@ -105,139 +100,125 @@
      ns1:公式ブログ "http://ameblo.jp/ai-nishiwaki/" ;
      ns1:小選挙区 "山梨1区" ;
      ns1:比例区 "" ;
