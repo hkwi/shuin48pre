@@ -2501,11 +2501,11 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/ryota.shirotori" ;
 +[] ns1:facebook "https://www.facebook.com/shirotori.ryota" ;
      ns1:twitter "ryotashirotori" ;
 -    ns1:候補名 "しろとり良太" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "https://ameblo.jp/shirotori-ryota/" ;
 +    ns1:候補名 "城取良太" ;
 +    ns1:公式サイト "http://shirotori-ryota.com/" ;
      ns1:前回 "新" ;
@@ -2593,12 +2593,9 @@
      ns1:候補名 "塩見俊次" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -3863,21 +3817,21 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "東海" .
+@@ -3865,19 +3819,19 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/iki.aiko" ;
+ [] ns1:facebook "https://www.facebook.com/iki.aiko" ;
      ns1:twitter "ikiaiko" ;
 -    ns1:候補名 "いき愛子" ;
 -    ns1:公式サイト "http://ameblo.jp/ikiaiko/" ;
@@ -6799,12 +6796,9 @@
      ns1:前回 "前" ;
      ns1:名 "拓" ;
      ns1:名前 "江藤拓" ;
-@@ -9370,11 +9361,10 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "九州" .
+@@ -9372,9 +9363,8 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/tosimitu.egasira" ;
+ [] ns1:facebook "https://www.facebook.com/tosimitu.egasira" ;
      ns1:twitter "egasiratosimitu" ;
 -    ns1:候補名 "えがしら俊満" ;
 -    ns1:公式サイト "http://blogs.yahoo.co.jp/tosimitu1962/MYBLOG/yblog.html",
@@ -6918,12 +6912,9 @@
      ns1:前回 "前" ;
      ns1:名 "克行" ;
      ns1:名前 "河井克行" ;
-@@ -9490,17 +9480,17 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "中国" .
+@@ -9492,15 +9482,15 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/miwakohrp" ;
+ [] ns1:facebook "https://www.facebook.com/miwakohrp" ;
      ns1:twitter "miwako_hrp" ;
 -    ns1:候補名 "かわい美和子" ;
 -    ns1:公式サイト "http://ameblo.jp/kawaimiwako/" ;
@@ -6949,12 +6940,9 @@
      ns1:twitter "" ;
      ns1:候補名 "河村整" ;
      ns1:公式サイト "" ;
-@@ -9529,23 +9519,23 @@
-     ns1:政党 "共産" ;
-     ns1:比例区 "" .
+@@ -9531,21 +9521,21 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
+ [] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
      ns1:twitter "hrpkonoichiro" ;
 -    ns1:候補名 "こうの一郎" ;
 -    ns1:公式サイト "http://ameblo.jp/konoichiro" ;
@@ -7638,12 +7626,9 @@
      ns1:前回 "前" ;
      ns1:名 "裕明" ;
      ns1:名前 "田畑裕明" ;
-@@ -10563,23 +10565,23 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "北陸信越" .
+@@ -10565,21 +10567,21 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
+ [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
 -    ns1:候補名 "たなべ雄治" ;
 -    ns1:公式サイト "http://ameblo.jp/tanabe-yuji/" ;
@@ -8507,15 +8492,6 @@
      ns1:公式サイト "http://rinta.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "林太郎" ;
-@@ -11963,7 +11967,7 @@
-     ns1:政党 "希望" ;
-     ns1:比例区 "九州" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
-     ns1:twitter "" ;
-     ns1:候補名 "縁田有紀" ;
-     ns1:公式サイト "" ;
 @@ -11973,25 +11977,25 @@
      ns1:姓 "縁田" ;
      ns1:小選挙区 "京都4区" ;

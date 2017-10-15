@@ -1,13 +1,6 @@
 --- GrayDB
 +++ 幸福公式
-@@ -4,14 +4,14 @@
- @prefix xml: <http://www.w3.org/XML/1998/namespace> .
- @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/iki.aiko" ;
-     ns1:twitter "ikiaiko" ;
-     ns1:候補名 "いき愛子" ;
+@@ -10,8 +10,8 @@
      ns1:公式ブログ "http://ameblo.jp/ikiaiko/" ;
      ns1:小選挙区 "神奈川3区" ;
      ns1:比例区 "" ;
@@ -18,51 +11,44 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100014235768852" ;
      ns1:twitter "" ;
-@@ -19,38 +19,35 @@
+@@ -19,9 +19,8 @@
      ns1:公式ブログ "https://ameblo.jp/ishiwata-tsuyoshi/" ;
      ns1:小選挙区 "栃木3区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "塾経営",
 -        "自動車販売会社員" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党栃木第3選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/tosimitu.egasira" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/tosimitu.egasira" ;
      ns1:twitter "egasiratosimitu" ;
-     ns1:候補名 "えがしら俊満" ;
+@@ -29,18 +28,17 @@
      ns1:公式ブログ "http://blogs.yahoo.co.jp/tosimitu1962/MYBLOG/yblog.html" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "東海比例ブロック副支部長",
 -        "航空自衛隊第2術科学校" .
--
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
--    ns1:候補名 "縁田有紀" ;
--    ns1:公式ブログ "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "東海比例ブロック副支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
-+    ns1:twitter "" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
+     ns1:twitter "" ;
+-    ns1:候補名 "縁田有紀" ;
+-    ns1:公式ブログ "" ;
 +    ns1:候補名 "えんだゆき" ;
 +    ns1:公式ブログ "https://ameblo.jp/cokucoku2525/" ;
      ns1:小選挙区 "京都4区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "保育士" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党京都第4選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/miwakohrp" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/miwakohrp" ;
      ns1:twitter "miwako_hrp" ;
-     ns1:候補名 "かわい美和子" ;
+@@ -48,9 +46,8 @@
      ns1:公式ブログ "http://ameblo.jp/kawaimiwako/" ;
      ns1:小選挙区 "山口1区" ;
      ns1:比例区 "" ;
@@ -74,35 +60,31 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100002921750076" ;
      ns1:twitter "kawabekenichi" ;
-@@ -58,27 +55,26 @@
+@@ -58,9 +55,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "茨城1区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "エバ・ジャパン(株)",
 -        "会社役員" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党茨城県本部代表(兼)茨城第1選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
      ns1:twitter "hrpkonoichiro" ;
-     ns1:候補名 "こうの一郎" ;
+@@ -68,17 +64,17 @@
      ns1:公式ブログ "http://ameblo.jp/konoichiro" ;
      ns1:小選挙区 "宮崎2区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党宮崎第2選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/ryota.shirotori" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/ryota.shirotori" ;
      ns1:twitter "ryotashirotori" ;
      ns1:候補名 "しろとり良太" ;
--    ns1:公式ブログ "" ;
+-    ns1:公式ブログ "https://ameblo.jp/shirotori-ryota/" ;
 +    ns1:公式ブログ "http://ameblo.jp/shirotori-ryota/" ;
      ns1:小選挙区 "山形3区" ;
      ns1:比例区 "" ;
@@ -113,21 +95,19 @@
  
  [] ns1:facebook "https://www.facebook.com/seii.miho" ;
      ns1:twitter "mihotanii" ;
-@@ -86,157 +82,143 @@
+@@ -86,9 +82,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "東京14区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "教員",
 -        "音楽教室経営" .
--
--[] ns1:facebook "" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党東京第14選挙区支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
-     ns1:候補名 "たなべ雄治" ;
+@@ -96,147 +91,134 @@
      ns1:公式ブログ "http://ameblo.jp/tanabe-yuji/" ;
      ns1:小選挙区 "岡山2区" ;
      ns1:比例区 "" ;
