@@ -80,3 +80,12 @@
      ns1:小選挙区 "兵庫2区" ;
      ns1:比例区 "" .
  
+@@ -319,7 +316,7 @@
+     ns1:小選挙区 "" ;
+     ns1:比例区 "近畿" .
+ 
+-[] ns1:facebook "https://www.facebook.com/hideaki.washioka" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:候補名 "鷲岡秀明" ;
+     ns1:小選挙区 "" ;
