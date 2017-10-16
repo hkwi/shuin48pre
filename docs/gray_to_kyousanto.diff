@@ -70,10 +70,11 @@
      ns1:年齢 "34" ;
      ns1:比例区 "四国" .
  
- [] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100004754730502" ;
 -    ns1:twitter "tak1381" ;
 -    ns1:せい "たかむら" ;
 -    ns1:めい "なおや" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
@@ -359,7 +360,7 @@
      ns1:年齢 "41" ;
      ns1:比例区 "東京" .
  
--[] ns1:facebook "https://www.facebook.com/people/%E5%8A%9B%E9%87%8D%E6%99%BA%E4%B9%8B/100006856698727" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100006856698727" ;
 -    ns1:twitter "rikiriki1005" ;
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
@@ -594,12 +595,7 @@
      ns1:前回 "新" ;
      ns1:名 "理" ;
      ns1:名前 "大西理" ;
-@@ -865,11 +888,11 @@
-     ns1:年齢 "51" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "https://www.facebook.com/wataame.hare" ;
-+[] ns1:facebook "http://www.facebook.com/wataame.hare" ;
+@@ -869,7 +892,7 @@
      ns1:twitter "wataame_hare" ;
      ns1:せい "おおにし" ;
      ns1:めい "わたる" ;
@@ -846,15 +842,6 @@
      ns1:前回 "新" ;
      ns1:名 "寿彦" ;
      ns1:名前 "山崎寿彦" ;
-@@ -1192,7 +1213,7 @@
-     ns1:年齢 "64" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "https://www.facebook.com/people/%E5%B1%B1%E6%9C%AC%E5%8D%83%E4%BB%A3%E5%AD%90/100005512444252" ;
-+[] ns1:facebook "https://www.facebook.com/100005512444252" ;
-     ns1:twitter "yamachi0102" ;
-     ns1:せい "やまもと" ;
-     ns1:めい "ちよこ" ;
 @@ -1219,10 +1240,10 @@
      ns1:比例区 "東海" .
  
@@ -925,7 +912,7 @@
      ns1:前回 "新" ;
      ns1:名 "均" ;
      ns1:名前 "川上均" ;
-@@ -1323,24 +1343,24 @@
+@@ -1323,14 +1343,14 @@
      ns1:年齢 "61" ;
      ns1:比例区 "" .
  
@@ -945,10 +932,7 @@
      ns1:姓 "川崎" ;
      ns1:小選挙区 "茨城5区" ;
      ns1:年齢 "64" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "https://www.facebook.com/100005961273973" ;
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100005961273973" ;
+@@ -1340,7 +1360,7 @@
      ns1:twitter "ryujikawabe" ;
      ns1:せい "かわべ" ;
      ns1:めい "りゅうじ" ;
@@ -1099,9 +1083,9 @@
      ns1:年齢 "68" ;
      ns1:比例区 "" .
  
--[] ns1:facebook "https://www.facebook.com/100010830348450",
--        "https://www.facebook.com/honmakatsumi",
--        "https://www.facebook.com/katsumi.honma.1" ;
+-[] ns1:facebook "https://www.facebook.com/honmakatsumi",
+-        "https://www.facebook.com/katsumi.honma.1",
+-        "https://www.facebook.com/profile.php?id=100010830348450" ;
 +[] ns1:facebook "https://www.facebook.com/honmakatsumi" ;
      ns1:twitter "" ;
      ns1:せい "ほんま" ;
@@ -1150,7 +1134,7 @@
      ns1:年齢 "45" ;
      ns1:比例区 "" .
  
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786&fref=ts" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786" ;
 +[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "まつお" ;
@@ -1306,12 +1290,7 @@
      ns1:前回 "新" ;
      ns1:名 "健二" ;
      ns1:名前 "橋本健二" ;
-@@ -1952,11 +1967,11 @@
-     ns1:年齢 "66" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100008827811511" ;
-+[] ns1:facebook "https://www.facebook.com/100008827811511" ;
+@@ -1956,7 +1971,7 @@
      ns1:twitter "omuta_eguchi" ;
      ns1:せい "えぐち" ;
      ns1:めい "まなぶ" ;
@@ -1405,15 +1384,6 @@
      ns1:前回 "新" ;
      ns1:名 "智" ;
      ns1:名前 "熊谷智" ;
-@@ -2098,7 +2110,7 @@
-     ns1:年齢 "37" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "https://www.facebook.com/100009414735635" ;
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100009414735635" ;
-     ns1:twitter "" ;
-     ns1:せい "まきやま" ;
-     ns1:めい "たかし" ;
 @@ -2115,7 +2127,7 @@
      ns1:twitter "" ;
      ns1:せい "さるはし" ;
@@ -1450,13 +1420,10 @@
      ns1:姓 "田上" ;
      ns1:小選挙区 "愛知6区" ;
 -    ns1:年齢 "65" ;
--    ns1:比例区 "" .
--
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100007628881907" ;
 +    ns1:年齢 "66" ;
-+    ns1:比例区 "" .
-+
-+[] ns1:facebook "https://www.facebook.com/people/Yoji-Tanaka/100007628881907" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100007628881907" ;
      ns1:twitter "tanakayoji" ;
      ns1:せい "たなか" ;
      ns1:めい "ようじ" ;
@@ -1529,7 +1496,7 @@
      ns1:前回 "新" ;
      ns1:名 "淳士" ;
      ns1:名前 "石堂淳士" ;
-@@ -2271,16 +2296,16 @@
+@@ -2271,13 +2296,13 @@
      ns1:twitter "" ;
      ns1:せい "いしじま" ;
      ns1:めい "いわお" ;
@@ -1541,16 +1508,10 @@
      ns1:姓 "石嶋" ;
      ns1:小選挙区 "茨城7区" ;
 -    ns1:年齢 "57" ;
--    ns1:比例区 "" .
--
--[] ns1:facebook "https://www.facebook.com/100008387827735" ;
 +    ns1:年齢 "63" ;
-+    ns1:比例区 "" .
-+
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100008387827735" ;
-     ns1:twitter "tukinokawasator" ;
-     ns1:せい "いしかわ" ;
-     ns1:めい "さとる" ;
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100008387827735" ;
 @@ -2290,7 +2315,7 @@
      ns1:名前 "石川悟" ;
      ns1:姓 "石川" ;
@@ -1652,12 +1613,7 @@
      ns1:せい "なえむら" ;
      ns1:めい "きょうこ" ;
      ns1:候補名 "苗村京子" ;
-@@ -2514,11 +2539,11 @@
-     ns1:年齢 "32" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1:facebook "https://www.facebook.com/makoto.sugawara.33" ;
-+[] ns1:facebook "http://www.facebook.com/makoto.sugawara.33" ;
+@@ -2518,7 +2543,7 @@
      ns1:twitter "sugawara_makoto" ;
      ns1:せい "すがわら" ;
      ns1:めい "まこと" ;
@@ -1845,12 +1801,7 @@
      ns1:前回 "新" ;
      ns1:名 "真弘" ;
      ns1:名前 "野村真弘" ;
-@@ -2814,11 +2838,11 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "北海道" .
- 
--[] ns1:facebook "https://www.facebook.com/people/%E9%87%91%E5%85%83%E5%B9%B8%E6%9E%9D/100005810323550" ;
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100005810323550" ;
+@@ -2818,7 +2842,7 @@
      ns1:twitter "jcp_555" ;
      ns1:せい "かねもと" ;
      ns1:めい "ゆきえ" ;
@@ -1991,7 +1942,7 @@
      ns1:前回 "新" ;
      ns1:名 "美弥子" ;
      ns1:名前 "飯田美弥子" ;
-@@ -3093,10 +3115,10 @@
+@@ -3093,20 +3115,20 @@
      ns1:twitter "kouzai2007" ;
      ns1:せい "こうざい" ;
      ns1:めい "かつすけ" ;
@@ -2006,7 +1957,10 @@
      ns1:姓 "香西" ;
      ns1:小選挙区 "東京3区" ;
      ns1:年齢 "41" ;
-@@ -3106,7 +3128,7 @@
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100016054359692" ;
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:せい "たかやなぎ" ;
      ns1:めい "ひろあき" ;

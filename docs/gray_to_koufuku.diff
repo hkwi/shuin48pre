@@ -234,7 +234,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党財務局長" .
 +
-+[] ns1:facebook "https://www.facebook.com/people/三国-ゆうき/100011203660602" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100011203660602" ;
      ns1:twitter "mikuni_yuki" ;
 -    ns1:候補名 "三国佑貴" ;
 -    ns1:公式ブログ "" ;
@@ -269,7 +269,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "医療法人青天会下地内科理事" .
 -
--[] ns1:facebook "https://www.facebook.com/people/与国秀行/100013473602579" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100013473602579" ;
 -    ns1:twitter "yokunihideyuki" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党沖縄県本部代表（兼）沖縄第1選挙区支部長" .
@@ -360,12 +360,10 @@
      ns1:比例区 "四国" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党香川県本部副代表" .
--
--[] ns1:facebook "https://www.facebook.com/profile.php?id=100007874922516" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "四国比例ブロック支部長" .
-+
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100007874922516&fref=ts" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100007874922516" ;
      ns1:twitter "" ;
      ns1:候補名 "佐伯知子" ;
 -    ns1:公式ブログ "https://ameblo.jp/saekitomoko/" ;
@@ -918,7 +916,7 @@
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党新潟第5選挙区支部長" .
  
- [] ns1:facebook "https://www.facebook.com/people/Masashi-Arakawa/100005211330715" ;
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100005211330715" ;
      ns1:twitter "mkynet1975" ;
      ns1:候補名 "荒川まさし" ;
 -    ns1:公式ブログ "https://ameblo.jp/kerykeion777" ;
@@ -985,12 +983,10 @@
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
--
--[] ns1:facebook "https://www.facebook.com/elmichiko" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党広島第3選挙区支部長" .
-+
-+[] ns1:facebook "http://facebook.com/elmichiko" ;
+ 
+ [] ns1:facebook "https://www.facebook.com/elmichiko" ;
      ns1:twitter "kinjou_tatsurou" ;
      ns1:候補名 "金城タツロー" ;
 -    ns1:公式ブログ "" ;
@@ -1011,7 +1007,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党東京都本部青年局長" .
 -
--[] ns1:facebook "https://www.facebook.com/people/%E7%A5%9E%E5%A5%88%E5%B7%9D-%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%84/100017183265706" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100017183265706" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福の科学理事(兼)青年局長" .
 +
