@@ -7,7 +7,7 @@ import unicodedata
 urls = [("https://mainichi.jp/senkyo/48shu/area/?kid=%02d" % i, False) for i in range(1, 48)]
 urls += [("https://mainichi.jp/senkyo/48shu/hirei/?bid=%02d" % i, True) for i in range(1,12)]
 
-keys = "area hirei num name sei mei age party state".split()
+keys = "area hirei num name sei mei age party state url".split()
 
 party_map = {
 	"希望の党": "希望",
@@ -68,6 +68,7 @@ def run(fp):
 					if m:
 						r["hirei"] = m.group(1)
 					
+					r["url"] = url
 					out.writerow([r.get(k) for k in keys])
 
 if __name__=="__main__":

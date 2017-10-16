@@ -4,7 +4,7 @@ import csv
 import re
 
 def run(fp):
-	fieldnames = ["namel","name","hira","prev","area1","area2", "bio"]
+	fieldnames = ["namel","name","hira","prev","area1","area2", "bio", "url"]
 	
 	out = csv.writer(fp)
 	d = lxml.html.parse(urllib.request.urlopen("https://o-ishin.jp/election/candidate/2017-3/"))
@@ -25,6 +25,7 @@ def run(fp):
 			r["area2"]=r["area"]
 		else:
 			r["area1"]=r["area"]
+		r["url"] = "https://o-ishin.jp/election/candidate/2017-3/"
 		out.writerow([r.get(i) for i in fieldnames])
 
 if __name__=="__main__":

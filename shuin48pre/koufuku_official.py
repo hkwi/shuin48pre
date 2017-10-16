@@ -4,7 +4,7 @@ import lxml.html
 import urllib.request
 
 def run(fp):
-	fieldnames = "name namel name_hira area hirei fb tw bl bio".split()
+	fieldnames = "name namel name_hira area hirei fb tw bl bio url".split()
 	
 	out = csv.writer(fp)
 	d = lxml.html.parse(urllib.request.urlopen("https://candidates.hr-party.jp/elections/2017/1185/"))
@@ -27,6 +27,7 @@ def run(fp):
 			r["hirei"]=r["area"]
 			del(r["area"])
 		
+		r["url"] = "https://candidates.hr-party.jp/elections/2017/1185/"
 		out.writerow([r.get(i) for i in fieldnames])
 
 if __name__=="__main__":
