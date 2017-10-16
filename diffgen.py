@@ -112,12 +112,93 @@ def create_mkey(a, b):
 	return mkeys
 
 def normalize(k,v):
-	if v == "-":
+	if v in ("-", ""):
 		return k,""
 	
 	if k == "twitter":
 		v = v.strip().split("?")[0].lower()
-		m = re.match("https?://twitter.com/@?([^/@]+)(/.*)?", v)
+		m = re.match("https?://twitter.com/@?([^/@\?]+)", v)
+		if m:
+			v = m.group(1)
+		if v.startswith("\u200E"):
+			v = v[1:]
+	elif k == "facebook":
+		if "?" in v and "id=" not in v:
+			v = v.split("?")[0]
+		v = v.replace("https://facebook.com/","https://www.facebook.com/")
+		v = v.replace("ja-jp.facebook.com","www.facebook.com")
+		if v.startswith("/"):
+			v = "https://www.facebook.com" + v
+		elif v and not v.startswith("http"):
+			v = "https://www.facebook.com/" + v
+		
+		if v.endswith("/"):
+			v = v[:-1]
+	elif k == "生年月日":
+		m = re.match("(\d{4})(\d{2})(\d{2})", v)
+		if m:
+			v = "-".join(m.groups())
+		m = re.match("(\d+)/(\d+)/(\d+)", v)
+		if m:
+			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
+		m = re.match("(\d+)-(\d+)-(\d+)", v)
+		if m:
+			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
+	elif k == "性別":
+		if not v.endswith("性") and len(v)==1:
+			v += "性"
+	elif k == "小選挙区":
+		v = unicodedata.normalize("NFKC", v.strip())
+		m = re.match("^(.*)[県府]\s*(\d+区)$", v)
+		if m:
+			v = "".join(m.groups())
+		m = re.match("^(東京)都\s*(\d+区)$", v)
+		if m:
+			v = "".join(m.groups())
+		v = re.sub("[　 ]+", "", v)
+	elif k == "比例区":
+		m = re.match("^(比例)?(.*?)(ブロック)?$", v)
+		if m:
+			v = m.group(2)
+		v = {
+			"北信越":"北陸信越",
+			"九州・沖縄":"九州",
+			"東京都":"東京",
+		}.get(v, v)
+	elif k == "前回":
+		if v in ("現職", "現"):
+			v = "前"
+	elif k == "政党":
+		v = {
+			"日本維新の会":"維新",
+			"希望の党":"希望",
+			"自由民主党":"自民",
+			"幸福実現党":"幸福",
+			"社会民主党":"社民",
+			"公明党":"公明",
+			"立憲民主党":"立憲民主",
+			"立民":"立憲民主",
+			"立憲":"立憲民主",
+			"無所":"無所属",
+			"日本共産党":"共産",
+			"日本のこころ":"こころ",
+			"新党大地":"大地",
+		}.get(v, v)
+	elif k == "前回":
+		v = {
+			"新人":"新",
+		}.get(v, v)
+	elif v:
+		v = re.sub("[　 ]+", "", v)
+	return k,v
+
+def normalize(k,v):
+	if v in ("-", ""):
+		return k,""
+	
+	if k == "twitter":
+		v = v.strip().split("?")[0].lower()
+		m = re.match("https?://twitter.com/@?([^/@\?]+)", v)
 		if m:
 			v = m.group(1)
 		if v.startswith("\u200E"):
@@ -246,9 +327,10 @@ def gray_to_seijinavi():
 
 def gray_to_kyousanto():
 	ks = ["候補名",None,"名前","姓","名","せい","めい","年齢",
-		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ"]
+		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ", "url"]
 	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "共産" in r[gk.index("政党")]]
@@ -269,17 +351,20 @@ def gray_to_kyousanto():
 
 def gray_to_senkyo_dotcom():
 	ks1 = ["名前","候補名","姓","名","政党","小選挙区", "前回","年齢",
-		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
+		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db1 = [r for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
+	assert len(ks1) == len(db1[0])
 
 	ks2 = ["名前","候補名","姓","名","政党","比例区", "前回","年齢",
-		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
+		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db2 = [r for r in csv.reader(open("docs/senkyo_dotcom_hirei.csv")) if "".join(r)]
+	assert len(ks2) == len(db2[0])
 	
 	ks = ["名前","候補名","姓","名","政党","比例区","小選挙区","前回","年齢",
-		"twitter","facebook","公式サイト","肩書","年齢（歳付き）"]
+		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db = [[dict(zip(ks1, n)).get(k, "") for k in ks] for n in db1
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	if "公式ブログ" in gk:
@@ -300,9 +385,10 @@ def gray_to_senkyo_dotcom():
 	open("docs/gray_to_senkyo_dotcom.diff", "w").writelines(lines)
 
 def gray_to_ishin():
-	ks = "名前 候補名 ふりがな 前回 小選挙区 比例区 肩書 党発表".split()
+	ks = "名前 候補名 ふりがな 前回 小選挙区 比例区 肩書 url 党発表".split()
 	db = [r+["立候補"] for r in csv.reader(open("docs/ishin_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "維新" in r[gk.index("政党")]]
@@ -322,16 +408,19 @@ def gray_to_ishin():
 	open("docs/gray_to_ishin.diff", "w").writelines(lines)
 
 def gray_to_koumei():
-	ks1 = "候補名 小選挙区 twitter facebook youtube line 肩書".split()
+	ks1 = "候補名 小選挙区 twitter facebook youtube line 肩書 url".split()
 	db1 = [r for r in csv.reader(open("docs/koumei_official.csv")) if "".join(r)]
+	assert len(ks1) == len(db1[0])
 	
-	ks2 = "候補名 比例区 twitter facebook youtube line 肩書".split()
+	ks2 = "候補名 比例区 twitter facebook youtube line 肩書 url".split()
 	db2 = [r for r in csv.reader(open("docs/koumei_official_hirei.csv")) if "".join(r)]
+	assert len(ks2) == len(db2[0])
 	
-	ks = "候補名 小選挙区 比例区 twitter facebook youtube line 肩書".split()
+	ks = "候補名 小選挙区 比例区 twitter facebook youtube line 肩書 url".split()
 	db = [[dict(zip(ks1, n)).get(k, "") for k in ks] for n in db1
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
 	db = [list(r) for r in set([tuple(r) for r in db])]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "公明" in r[gk.index("政党")]]
@@ -351,8 +440,9 @@ def gray_to_koumei():
 	open("docs/gray_to_koumei.diff", "w").writelines(lines)
 
 def gray_to_jimin():
-	ks = "小選挙区 比例区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名".split()
+	ks = "小選挙区 比例区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名 url".split()
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in csv.reader(open("docs/jimin_official.csv")) if "".join(r)]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "自民" in r[gk.index("政党")]]
@@ -374,11 +464,14 @@ def gray_to_jimin():
 def gray_to_ritsumin():
 	ks1 = "小選挙区 名前 前回 立候補".split()
 	db1 = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media.csv")) if not is_empty(r)]
+	assert len(ks1)==len(db1[0])
 	ks2 = "公認 小選挙区 比例区 名前 前回 立候補".split()
 	db2 = [r+["党発表"] for r in csv.reader(open("docs/ritsumin_media2.csv")) if not is_empty(r)]
+	assert len(ks2)==len(db2[0])
 	ks = "公認 小選挙区 比例区 名前 前回 立候補".split()
 	db = [[dict(zip(ks1,r)).get(k,"") for k in ks] for r in db1
 		] + [[dict(zip(ks2,r)).get(k,"") for k in ks] for r in db2 ]
+	assert len(ks1)==len(db1[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "立民" in r[gk.index("政党")]]
@@ -398,8 +491,9 @@ def gray_to_ritsumin():
 	open("docs/gray_to_ritsumin.diff", "w").writelines(lines)
 
 def gray_to_koufuku():
-	ks = ["候補名",None]+"よみ 小選挙区 比例区 facebook twitter 公式ブログ 職歴 立候補".split()
+	ks = ["候補名",None]+"よみ 小選挙区 比例区 facebook twitter 公式ブログ 職歴 url 立候補".split()
 	db = [r+["党発表"] for r in csv.reader(open("docs/koufuku_official.csv")) if not is_empty(r)]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if set(["幸福","諸派"]).intersection(r[gk.index("政党")].split("\n"))]
@@ -487,11 +581,12 @@ def gray_to_kibou():
 	open("docs/gray_to_kibou.diff", "w").writelines(lines)
 
 def gray_to_asahi():
-	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい","年齢","政党","推薦",None, None, None,"経歴"]
+	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい","年齢","政党","推薦",None, None, None,"経歴", "url"]
 #	ks = ["小選挙区","比例区",None,None,"姓","名","せい","めい",None,"政党","推薦",None, None, None,"経歴"]
 	db = [r for r in csv.reader(open("docs/asahi.csv", encoding="UTF-8")) if not is_empty(r)]
 	ks += ["名前"]
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in db]
+	assert len(ks)==len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
@@ -514,7 +609,7 @@ def gray_to_asahi():
 
 
 def gray_to_mainichi():
-	ks = ["小選挙区","比例区",None,"候補名","姓","名","年齢","政党","経歴"]
+	ks = ["小選挙区","比例区",None,"候補名","姓","名","年齢","政党","経歴","url"]
 #	ks = ["小選挙区","比例区",None,"候補名","姓","名",None,"政党","経歴"]
 	db = [r for r in csv.reader(open("docs/mainichi.csv", encoding="UTF-8")) if not is_empty(r)]
 	tmp = []
@@ -526,6 +621,7 @@ def gray_to_mainichi():
 			k,v = normalize(k,v)
 			t += [v]
 		tmp += [t]
+	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	
