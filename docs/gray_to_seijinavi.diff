@@ -881,6 +881,26 @@
      ns1:wikidata "Q18818101" ;
      ns1:名 "照文" ;
      ns1:名前 "堀内照文" ;
+@@ -991,8 +1039,8 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1972-11-02" .
+ 
+-[] ns1:facebook "https://www.facebook.com/noriko.horiuchi.3572" ;
+-    ns1:twitter "genkihoriuchi" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:wikidata "Q11427301" ;
+     ns1:名 "詔子" ;
+     ns1:名前 "堀内詔子" ;
+@@ -1000,7 +1048,7 @@
+     ns1:性別 "女性" ;
+     ns1:生年月日 "1965-10-28" .
+ 
+-[] ns1:facebook "https://www.facebook.com/shiozakiyasuhisa" ;
++[] ns1:facebook "" ;
+     ns1:twitter "yasu_shio" ;
+     ns1:wikidata "Q360395" ;
+     ns1:名 "恭久" ;
 @@ -1018,7 +1066,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1961-12-18" .
@@ -901,6 +921,15 @@
      ns1:wikidata "Q5771003" ;
      ns1:名 "博志" ;
      ns1:名前 "大串博志" ;
+@@ -1036,7 +1084,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1965-08-31" .
+ 
+-[] ns1:facebook "https://www.facebook.com/masaki.ogushi" ;
++[] ns1:facebook "" ;
+     ns1:twitter "ogushi_masaki" ;
+     ns1:wikidata "Q11431868" ;
+     ns1:名 "正樹" ;
 @@ -1045,7 +1093,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1966-01-20" .
@@ -919,6 +948,15 @@
      ns1:twitter "" ;
      ns1:wikidata "Q7678536" ;
      ns1:名 "拓" ;
+@@ -1072,7 +1120,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1964-09-11" .
+ 
+-[] ns1:facebook "https://www.facebook.com/toshitaka.ooka" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q11434738" ;
+     ns1:名 "敏孝" ;
 @@ -1099,14 +1147,23 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-09-06" .

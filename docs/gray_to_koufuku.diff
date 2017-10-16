@@ -71,16 +71,19 @@
  
  [] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
      ns1:twitter "hrpkonoichiro" ;
-@@ -68,17 +64,17 @@
+@@ -68,18 +64,17 @@
      ns1:公式ブログ "http://ameblo.jp/konoichiro" ;
      ns1:小選挙区 "宮崎2区" ;
      ns1:比例区 "" ;
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
+-
+-[] ns1:facebook "https://www.facebook.com/ryota.shirotori",
+-        "https://www.facebook.com/shirotori.ryota" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党宮崎第2選挙区支部長" .
- 
- [] ns1:facebook "https://www.facebook.com/ryota.shirotori" ;
++
++[] ns1:facebook "https://www.facebook.com/ryota.shirotori" ;
      ns1:twitter "ryotashirotori" ;
      ns1:候補名 "しろとり良太" ;
 -    ns1:公式ブログ "https://ameblo.jp/shirotori-ryota/" ;
@@ -94,7 +97,7 @@
  
  [] ns1:facebook "https://www.facebook.com/seii.miho" ;
      ns1:twitter "mihotanii" ;
-@@ -86,9 +82,8 @@
+@@ -87,9 +82,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "東京14区" ;
      ns1:比例区 "" ;
@@ -106,7 +109,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
-@@ -96,8 +91,8 @@
+@@ -97,8 +91,8 @@
      ns1:公式ブログ "http://ameblo.jp/tanabe-yuji/" ;
      ns1:小選挙区 "岡山2区" ;
      ns1:比例区 "" ;
@@ -117,7 +120,7 @@
  
  [] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
      ns1:twitter "ainishiwaki" ;
-@@ -105,139 +100,125 @@
+@@ -106,139 +100,125 @@
      ns1:公式ブログ "http://ameblo.jp/ai-nishiwaki/" ;
      ns1:小選挙区 "山梨1区" ;
      ns1:比例区 "" ;
@@ -314,7 +317,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -245,46 +226,35 @@
+@@ -246,46 +226,35 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道" ;
@@ -376,7 +379,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -292,9 +262,8 @@
+@@ -293,9 +262,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東北" ;
@@ -388,7 +391,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -302,19 +271,17 @@
+@@ -303,19 +271,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" ;
@@ -413,7 +416,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -322,9 +289,8 @@
+@@ -323,9 +289,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "中国" ;
@@ -425,7 +428,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -332,10 +298,8 @@
+@@ -333,10 +298,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" ;
@@ -438,7 +441,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -343,28 +307,17 @@
+@@ -344,28 +307,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北陸信越" ;
@@ -475,7 +478,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "yukiatkanagawa" ;
-@@ -372,65 +325,53 @@
+@@ -373,65 +325,53 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "長野3区" ;
      ns1:比例区 "" ;
@@ -561,7 +564,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -438,37 +379,17 @@
+@@ -439,37 +379,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" ;
@@ -604,7 +607,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -476,8 +397,8 @@
+@@ -477,8 +397,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" ;
@@ -615,7 +618,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kojima.ichiro" ;
      ns1:twitter "kojimaichiro" ;
-@@ -485,66 +406,44 @@
+@@ -486,66 +406,44 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北関東" ;
@@ -703,7 +706,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -552,44 +451,44 @@
+@@ -553,44 +451,44 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "四国" ;
@@ -768,7 +771,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yoshio.soccer.yoshi" ;
      ns1:twitter "yoshio7_m" ;
-@@ -597,8 +496,8 @@
+@@ -598,8 +496,8 @@
      ns1:公式ブログ "https://ameblo.jp/mizumizu-yoshi/" ;
      ns1:小選挙区 "広島2区" ;
      ns1:比例区 "" ;
@@ -779,7 +782,7 @@
  
  [] ns1:facebook "https://www.facebook.com/Enatsu.Masatoshi.HR" ;
      ns1:twitter "enatsumasatoshi" ;
-@@ -606,20 +505,26 @@
+@@ -607,20 +505,26 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" ;
@@ -814,7 +817,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -627,48 +532,35 @@
+@@ -628,48 +532,35 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" ;
@@ -876,7 +879,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "realjimmu_hrp" ;
-@@ -676,17 +568,17 @@
+@@ -677,17 +568,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" ;
@@ -900,7 +903,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kasahara.reika" ;
      ns1:twitter "kasahara_reika" ;
-@@ -694,43 +586,43 @@
+@@ -695,43 +586,43 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "新潟5区" ;
      ns1:比例区 "" ;
@@ -958,7 +961,7 @@
      ns1:職歴 "幸福実現党党首" .
  
  [] ns1:facebook "" ;
-@@ -739,9 +631,8 @@
+@@ -740,9 +631,8 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道" ;
@@ -970,7 +973,7 @@
  
  [] ns1:facebook "https://www.facebook.com/masateru.nomura" ;
      ns1:twitter "nomuramasateru" ;
-@@ -749,17 +640,17 @@
+@@ -750,17 +640,17 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "広島3区" ;
      ns1:比例区 "" ;
@@ -995,7 +998,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -767,38 +658,26 @@
+@@ -768,38 +658,26 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" ;
@@ -1043,7 +1046,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
-@@ -806,8 +685,6 @@
+@@ -807,8 +685,6 @@
      ns1:公式ブログ "" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" ;
