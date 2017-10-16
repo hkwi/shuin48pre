@@ -15,6 +15,7 @@ opts:
 pos: '北海道2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:1/bid:1
 ---
 block_name: 北海道ブロック
 kana: タカハシ　ミホ
@@ -30,6 +31,7 @@ opts:
 pos: '北海道4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:2/bid:1
 ---
 block_name: 北海道ブロック
 kana: ヤマオカ　タツマル
@@ -44,6 +46,7 @@ opts:
 pos: '北海道9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:3/bid:1
 ---
 block_name: 北海道ブロック
 kana: ミズカミ　ミカ
@@ -59,6 +62,7 @@ opts:
 pos: '北海道12区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:4/bid:1
 ---
 block_name: 北海道ブロック
 kana: アオキ　カズコ
@@ -71,6 +75,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:202/bid:1
 ---
 block_name: 北海道ブロック
 kana: ミヨシ　シンジ
@@ -83,6 +88,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:203/bid:1
 ---
 block_name: 東北ブロック
 kana: マスタ　セキオ
@@ -99,6 +105,7 @@ opts:
 pos: '青森県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:5/bid:2
 ---
 block_name: 東北ブロック
 kana: クドウ　タケシ
@@ -114,6 +121,7 @@ opts:
 pos: '青森県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:6/bid:2
 ---
 block_name: 東北ブロック
 kana: ヤマウチ　タカシ
@@ -129,6 +137,7 @@ opts:
 pos: '青森県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:7/bid:2
 ---
 block_name: 東北ブロック
 kana: シナ　タケシ
@@ -147,6 +156,7 @@ opts:
 pos: '岩手県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:8/bid:2
 ---
 block_name: 東北ブロック
 kana: ハタ　コウジ
@@ -172,6 +182,7 @@ opts:
 pos: '岩手県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:9/bid:2
 ---
 block_name: 東北ブロック
 kana: イトウ　ユウタ
@@ -185,6 +196,7 @@ opts:
 pos: '宮城県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:10/bid:2
 ---
 block_name: 東北ブロック
 kana: イチジョウ　ヨシヒロ
@@ -200,6 +212,7 @@ opts:
 pos: '宮城県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:11/bid:2
 ---
 block_name: 東北ブロック
 kana: バンドウ　タケヒコ
@@ -214,6 +227,7 @@ opts:
 pos: '宮城県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:12/bid:2
 ---
 block_name: 東北ブロック
 kana: マツウラ　ダイゴ
@@ -227,6 +241,7 @@ opts:
 pos: '秋田県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:13/bid:2
 ---
 block_name: 東北ブロック
 kana: ミドリカワ　タカシ
@@ -241,6 +256,7 @@ opts:
 pos: '秋田県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:14/bid:2
 ---
 block_name: 東北ブロック
 kana: ムラオカ　トシヒデ
@@ -257,6 +273,7 @@ opts:
 pos: '秋田県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:15/bid:2
 ---
 block_name: 東北ブロック
 kana: アライ　カン
@@ -273,6 +290,7 @@ opts:
 pos: '山形県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:16/bid:2
 ---
 block_name: 東北ブロック
 kana: コンドウ　ヨウスケ
@@ -293,6 +311,7 @@ opts:
 pos: '山形県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:17/bid:2
 ---
 block_name: 東北ブロック
 kana: アベ　ジュイチ
@@ -309,6 +328,7 @@ opts:
 pos: '山形県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:18/bid:2
 ---
 block_name: 東北ブロック
 kana: オカベ　ミツノリ
@@ -324,6 +344,7 @@ opts:
 pos: '福島県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:19/bid:2
 ---
 block_name: 東北ブロック
 kana: オグマ　シンジ
@@ -340,6 +361,7 @@ opts:
 pos: '福島県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:20/bid:2
 ---
 block_name: 東北ブロック
 kana: ヨシダ　イズミ
@@ -358,6 +380,7 @@ opts:
 pos: '福島県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:21/bid:2
 ---
 block_name: 東北ブロック
 kana: テラタ　マナブ
@@ -371,6 +394,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:199/bid:2
 ---
 block_name: 東北ブロック
 kana: ウサミ　ノボル
@@ -387,6 +411,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:204/bid:2
 ---
 block_name: 東北ブロック
 kana: タカマツ　カズオ
@@ -402,6 +427,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:205/bid:2
 ---
 block_name: 北関東ブロック
 kana: フクシマ　ノブユキ
@@ -421,6 +447,7 @@ opts:
 pos: '茨城県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:22/bid:3
 ---
 block_name: 北関東ブロック
 kana: イシヅ　マサオ
@@ -435,6 +462,7 @@ opts:
 pos: '茨城県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:23/bid:3
 ---
 block_name: 北関東ブロック
 kana: ヒグチ　マイ
@@ -451,6 +479,7 @@ opts:
 pos: '茨城県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:24/bid:3
 ---
 block_name: 北関東ブロック
 kana: オオクマ　トシアキ
@@ -465,6 +494,7 @@ opts:
 pos: '茨城県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:25/bid:3
 ---
 block_name: 北関東ブロック
 kana: アサノ　サトシ
@@ -480,6 +510,7 @@ opts:
 pos: '茨城県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:26/bid:3
 ---
 block_name: 北関東ブロック
 kana: アオヤマ　ヤマト
@@ -498,6 +529,7 @@ opts:
 pos: '茨城県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:27/bid:3
 ---
 block_name: 北関東ブロック
 kana: カシワクラ　ユウジ
@@ -516,6 +548,7 @@ opts:
 pos: '栃木県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:28/bid:3
 ---
 block_name: 北関東ブロック
 kana: ワタナベ　ミユキ
@@ -530,6 +563,7 @@ opts:
 pos: '栃木県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:29/bid:3
 ---
 block_name: 北関東ブロック
 kana: フジオカ　タカオ
@@ -547,6 +581,7 @@ opts:
 pos: '栃木県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:30/bid:3
 ---
 block_name: 北関東ブロック
 kana: オオマミウダ　ミノル
@@ -564,6 +599,7 @@ opts:
 pos: '栃木県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:31/bid:3
 ---
 block_name: 北関東ブロック
 kana: ミヤザキ　タケシ
@@ -580,6 +616,7 @@ opts:
 pos: '群馬県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:32/bid:3
 ---
 block_name: 北関東ブロック
 kana: イシゼキ　タカシ
@@ -598,6 +635,7 @@ opts:
 pos: '群馬県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:33/bid:3
 ---
 block_name: 北関東ブロック
 kana: フワ　ヒロキ
@@ -613,6 +651,7 @@ opts:
 pos: '群馬県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:34/bid:3
 ---
 block_name: 北関東ブロック
 kana: イノクチ　サチコ
@@ -626,6 +665,7 @@ opts:
 pos: '群馬県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:35/bid:3
 ---
 block_name: 北関東ブロック
 kana: タケマサ　コウイチ
@@ -642,6 +682,7 @@ opts:
 pos: '埼玉県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:36/bid:3
 ---
 block_name: 北関東ブロック
 kana: スガ　カツミ
@@ -657,6 +698,7 @@ opts:
 pos: '埼玉県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:37/bid:3
 ---
 block_name: 北関東ブロック
 kana: ミワ　アサミ
@@ -669,6 +711,7 @@ opts:
 pos: '埼玉県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:38/bid:3
 ---
 block_name: 北関東ブロック
 kana: ヨシダ　ヨシノリ
@@ -686,6 +729,7 @@ opts:
 pos: '埼玉県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:39/bid:3
 ---
 block_name: 北関東ブロック
 kana: タカギ　ヒデフミ
@@ -700,6 +744,7 @@ opts:
 pos: '埼玉県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:40/bid:3
 ---
 block_name: 北関東ブロック
 kana: オオシマ　アツシ
@@ -716,6 +761,7 @@ opts:
 pos: '埼玉県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:41/bid:3
 ---
 block_name: 北関東ブロック
 kana: コミヤマ　ヤスコ
@@ -732,6 +778,7 @@ opts:
 pos: '埼玉県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:42/bid:3
 ---
 block_name: 北関東ブロック
 kana: オノヅカ　マサトシ
@@ -747,6 +794,7 @@ opts:
 pos: '埼玉県8区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:43/bid:3
 ---
 block_name: 北関東ブロック
 kana: スギムラ　シンジ
@@ -762,6 +810,7 @@ opts:
 pos: '埼玉県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:44/bid:3
 ---
 block_name: 北関東ブロック
 kana: サカモト　ユウノスケ
@@ -779,6 +828,7 @@ opts:
 pos: '埼玉県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:45/bid:3
 ---
 block_name: 北関東ブロック
 kana: ミスミ　ソウタ
@@ -794,6 +844,7 @@ opts:
 pos: '埼玉県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:46/bid:3
 ---
 block_name: 北関東ブロック
 kana: モリタ　トシカズ
@@ -812,6 +863,7 @@ opts:
 pos: '埼玉県12区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:47/bid:3
 ---
 block_name: 北関東ブロック
 kana: キタズミ ヨシユキ
@@ -827,6 +879,7 @@ opts:
 pos: '埼玉県13区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:48/bid:3
 ---
 block_name: 北関東ブロック
 kana: スズキ　ヨシヒロ
@@ -844,6 +897,7 @@ opts:
 pos: '埼玉県14区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:49/bid:3
 ---
 block_name: 北関東ブロック
 kana: タカヤマ　サトシ
@@ -859,6 +913,7 @@ opts:
 pos: '埼玉県15区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:50/bid:3
 ---
 block_name: 北関東ブロック
 kana: ナガイ　ヤヨイ
@@ -871,6 +926,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:206/bid:3
 ---
 block_name: 北関東ブロック
 kana: ヤマシタ　ソウ
@@ -883,6 +939,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:207/bid:3
 ---
 block_name: 北関東ブロック
 kana: ナミキ　マサヨシ
@@ -898,6 +955,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:208/bid:3
 ---
 block_name: 南関東ブロック
 kana: タジマ　カナメ
@@ -915,6 +973,7 @@ opts:
 pos: '千葉県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:51/bid:4
 ---
 block_name: 南関東ブロック
 kana: タケガハラ　ユミコ
@@ -930,6 +989,7 @@ opts:
 pos: '千葉県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:52/bid:4
 ---
 block_name: 南関東ブロック
 kana: クシブチ　マリ
@@ -945,6 +1005,7 @@ opts:
 pos: '千葉県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:53/bid:4
 ---
 block_name: 南関東ブロック
 kana: オカノ　ジュンコ
@@ -958,6 +1019,7 @@ opts:
 pos: '千葉県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:54/bid:4
 ---
 block_name: 南関東ブロック
 kana: エンドウ　ノブヒコ
@@ -971,6 +1033,7 @@ opts:
 pos: '千葉県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:55/bid:4
 ---
 block_name: 南関東ブロック
 kana: ハタノ　リナ
@@ -984,6 +1047,7 @@ opts:
 pos: '千葉県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:56/bid:4
 ---
 block_name: 南関東ブロック
 kana: オオタ　カズミ
@@ -1001,6 +1065,7 @@ opts:
 pos: '千葉県8区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:57/bid:4
 ---
 block_name: 南関東ブロック
 kana: オクノ　ソウイチロウ
@@ -1015,6 +1080,7 @@ opts:
 pos: '千葉県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:58/bid:4
 ---
 block_name: 南関東ブロック
 kana: ヤタガワ　ハジメ
@@ -1031,6 +1097,7 @@ opts:
 pos: '千葉県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:59/bid:4
 ---
 block_name: 南関東ブロック
 kana: タガヤ　リョウ
@@ -1046,6 +1113,7 @@ opts:
 pos: '千葉県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:60/bid:4
 ---
 block_name: 南関東ブロック
 kana: ヒダカ　タケシ
@@ -1061,6 +1129,7 @@ opts:
 pos: '千葉県12区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:61/bid:4
 ---
 block_name: 南関東ブロック
 kana: ミズノ　トモヒコ
@@ -1076,6 +1145,7 @@ opts:
 pos: '千葉県13区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:62/bid:4
 ---
 block_name: 南関東ブロック
 kana: ナガシマ　カズヨシ
@@ -1095,6 +1165,7 @@ opts:
 pos: '神奈川県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:63/bid:4
 ---
 block_name: 南関東ブロック
 kana: ハシモト　クミ
@@ -1109,6 +1180,7 @@ opts:
 pos: '神奈川県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:64/bid:4
 ---
 block_name: 南関東ブロック
 kana: カツマタ　コウイチロウ
@@ -1125,6 +1197,7 @@ opts:
 pos: '神奈川県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:65/bid:4
 ---
 block_name: 南関東ブロック
 kana: カザマ　ノリコ
@@ -1138,6 +1211,7 @@ opts:
 pos: '神奈川県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:66/bid:4
 ---
 block_name: 南関東ブロック
 kana: ヨシオカ　ケンジ
@@ -1151,6 +1225,7 @@ opts:
 pos: '神奈川県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:67/bid:4
 ---
 block_name: 南関東ブロック
 kana: カワノ　アン
@@ -1163,6 +1238,7 @@ opts:
 pos: '神奈川県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:68/bid:4
 ---
 block_name: 南関東ブロック
 kana: リュウ　ヒロフミ
@@ -1179,6 +1255,7 @@ opts:
 pos: '神奈川県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:69/bid:4
 ---
 block_name: 南関東ブロック
 kana: イチカワ　ヨシコ
@@ -1195,6 +1272,7 @@ opts:
 pos: '神奈川県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:70/bid:4
 ---
 block_name: 南関東ブロック
 kana: マシロ　リョウ
@@ -1210,6 +1288,7 @@ opts:
 pos: '神奈川県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:71/bid:4
 ---
 block_name: 南関東ブロック
 kana: ハラ　テルオ
@@ -1225,6 +1304,7 @@ opts:
 pos: '神奈川県12区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:72/bid:4
 ---
 block_name: 南関東ブロック
 kana: フトリ　ヒデシ
@@ -1242,6 +1322,7 @@ opts:
 pos: '神奈川県13区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:73/bid:4
 ---
 block_name: 南関東ブロック
 kana: モトムラ　ケンタロウ
@@ -1258,6 +1339,7 @@ opts:
 pos: '神奈川県14区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:74/bid:4
 ---
 block_name: 南関東ブロック
 kana: ノギ　リョウスケ
@@ -1272,6 +1354,7 @@ opts:
 pos: '神奈川県15区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:75/bid:4
 ---
 block_name: 南関東ブロック
 kana: ゴトウ　ユウイチ
@@ -1289,6 +1372,7 @@ opts:
 pos: '神奈川県16区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:76/bid:4
 ---
 block_name: 南関東ブロック
 kana: カミヤマ　ヨウスケ
@@ -1305,6 +1389,7 @@ opts:
 pos: '神奈川県17区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:77/bid:4
 ---
 block_name: 南関東ブロック
 kana: ミムラ　カズヤ
@@ -1321,6 +1406,7 @@ opts:
 pos: '神奈川県18区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:78/bid:4
 ---
 block_name: 南関東ブロック
 kana: イゲタ　マコト
@@ -1333,6 +1419,7 @@ opts:
 pos: '山梨県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:79/bid:4
 ---
 block_name: 南関東ブロック
 kana: イシカワ　アイ
@@ -1345,6 +1432,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:224/bid:4
 ---
 block_name: 南関東ブロック
 kana: ウチヤマ　マサキ
@@ -1357,6 +1445,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:209/bid:4
 ---
 block_name: 南関東ブロック
 kana: アキヤマ　タケヒサ
@@ -1369,6 +1458,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:210/bid:4
 ---
 block_name: 東京ブロック
 kana: マツザワ　カオル
@@ -1383,6 +1473,7 @@ opts:
 pos: '東京都1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:80/bid:5
 ---
 block_name: 東京ブロック
 kana: ハトヤマ　タロウ
@@ -1397,6 +1488,7 @@ opts:
 pos: '東京都2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:81/bid:5
 ---
 block_name: 東京ブロック
 kana: マツバラ　ジン
@@ -1413,6 +1505,7 @@ opts:
 pos: '東京都3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:82/bid:5
 ---
 block_name: 東京ブロック
 kana: ナンバ　ミチヨ
@@ -1425,6 +1518,7 @@ opts:
 pos: '東京都4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:83/bid:5
 ---
 block_name: 東京ブロック
 kana: フクダ　ミネユキ
@@ -1440,6 +1534,7 @@ opts:
 pos: '東京都5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:84/bid:5
 ---
 block_name: 東京ブロック
 kana: ウエマツ　エミコ
@@ -1456,6 +1551,7 @@ opts:
 pos: '東京都6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:85/bid:5
 ---
 block_name: 東京ブロック
 kana: アラキ　アキヒロ
@@ -1470,6 +1566,7 @@ opts:
 pos: '東京都7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:86/bid:5
 ---
 block_name: 東京ブロック
 kana: キウチ　タカタネ
@@ -1482,6 +1579,7 @@ opts:
 pos: '東京都8区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:87/bid:5
 ---
 block_name: 東京ブロック
 kana: タカマツ　サトシ
@@ -1498,6 +1596,7 @@ opts:
 pos: '東京都9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:88/bid:5
 ---
 block_name: 東京ブロック
 kana: ワカサ　マサル
@@ -1515,6 +1614,7 @@ opts:
 pos: '東京都10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:89/bid:5
 ---
 block_name: 東京ブロック
 kana: シシド　チエ
@@ -1528,6 +1628,7 @@ opts:
 pos: '東京都11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:90/bid:5
 ---
 block_name: 東京ブロック
 kana: ヤハギ　アサコ
@@ -1540,6 +1641,7 @@ opts:
 pos: '東京都14区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:91/bid:5
 ---
 block_name: 東京ブロック
 kana: カキザワ　ミト
@@ -1560,6 +1662,7 @@ opts:
 pos: '東京都15区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:92/bid:5
 ---
 block_name: 東京ブロック
 kana: タムラ　ケンジ
@@ -1576,6 +1679,7 @@ opts:
 pos: '東京都16区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:93/bid:5
 ---
 block_name: 東京ブロック
 kana: ニシダ　チカラ
@@ -1588,6 +1692,7 @@ opts:
 pos: '東京都17区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:94/bid:5
 ---
 block_name: 東京ブロック
 kana: トキタ　アツシ
@@ -1601,6 +1706,7 @@ opts:
 pos: '東京都18区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:95/bid:5
 ---
 block_name: 東京ブロック
 kana: ササキ　リカ
@@ -1614,6 +1720,7 @@ opts:
 pos: '東京都19区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:96/bid:5
 ---
 block_name: 東京ブロック
 kana: カノ　アキラ
@@ -1631,6 +1738,7 @@ opts:
 pos: '東京都20区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:97/bid:5
 ---
 block_name: 東京ブロック
 kana: ナガシマ　アキヒサ
@@ -1649,6 +1757,7 @@ opts:
 pos: '東京都21区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:98/bid:5
 ---
 block_name: 東京ブロック
 kana: カナガサキ　エミ
@@ -1663,6 +1772,7 @@ opts:
 pos: '東京都22区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:99/bid:5
 ---
 block_name: 東京ブロック
 kana: イトウ　シュンスケ
@@ -1677,6 +1787,7 @@ opts:
 pos: '東京都23区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:100/bid:5
 ---
 block_name: 東京ブロック
 kana: ヨシバ　ミカ
@@ -1690,6 +1801,7 @@ opts:
 pos: '東京都24区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:101/bid:5
 ---
 block_name: 東京ブロック
 kana: オザワ　サキヒト
@@ -1705,6 +1817,7 @@ opts:
 pos: '東京都25区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:102/bid:5
 ---
 block_name: 東京ブロック
 kana: コイズミ　トシアキ
@@ -1719,6 +1832,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:211/bid:5
 ---
 block_name: 東京ブロック
 kana: イトウ　マサキ
@@ -1731,6 +1845,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:212/bid:5
 ---
 block_name: 東京ブロック
 kana: タブチ　マサフミ
@@ -1743,6 +1858,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:213/bid:5
 ---
 block_name: 東京ブロック
 kana: イシトビ　カオリ
@@ -1755,6 +1871,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:225/bid:5
 ---
 block_name: 東京ブロック
 kana: クロカワ　クミ
@@ -1767,6 +1884,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:214/bid:5
 ---
 block_name: 東京ブロック
 kana: ハタ　ジロウ
@@ -1779,6 +1897,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:226/bid:5
 ---
 block_name: 東京ブロック
 kana: タケウチ　ヒビキ
@@ -1791,6 +1910,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:227/bid:5
 ---
 block_name: 東京ブロック
 kana: クリヤマ　ユミ
@@ -1803,6 +1923,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:215/bid:5
 ---
 block_name: 東京ブロック
 kana: タケダ　ミツアキ
@@ -1818,6 +1939,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:216/bid:5
 ---
 block_name: 東京ブロック
 kana: モリムラ　ヒロム
@@ -1832,6 +1954,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:217/bid:5
 ---
 block_name: 北陸信越ブロック
 kana: シバタ　タクミ
@@ -1848,6 +1971,7 @@ opts:
 pos: '富山県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:103/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: タナカ　ミエコ
@@ -1865,6 +1989,7 @@ opts:
 pos: '石川県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:104/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: シバタ　ミキ
@@ -1883,6 +2008,7 @@ opts:
 pos: '石川県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:105/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: コンドウ　カズヤ
@@ -1899,6 +2025,7 @@ opts:
 pos: '石川県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:106/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: スズキ　コウジ
@@ -1911,6 +2038,7 @@ opts:
 pos: '福井県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:107/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: サイキ　タケシ
@@ -1924,6 +2052,7 @@ opts:
 pos: '福井県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:108/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: シモジョウ　ミツ
@@ -1939,6 +2068,7 @@ opts:
 pos: '長野県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:109/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: イデ　ヨウセイ
@@ -1956,6 +2086,7 @@ opts:
 pos: '長野県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:110/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: テラシマ　ヨシユキ
@@ -1973,6 +2104,7 @@ opts:
 pos: '長野県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:111/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: ナカジマ　コウスケ
@@ -1989,6 +2121,7 @@ opts:
 pos: '長野県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:112/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: ミヤザワ　タカヒト
@@ -2004,6 +2137,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:218/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: ヨシダ　オサム
@@ -2017,6 +2151,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:219/bid:6
 ---
 block_name: 北陸信越ブロック
 kana: サエグサ　ヒデヒコ
@@ -2029,6 +2164,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:228/bid:6
 ---
 block_name: 東海ブロック
 kana: サカグチ　ナオト
@@ -2046,6 +2182,7 @@ opts:
 pos: '岐阜県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:113/bid:7
 ---
 block_name: 東海ブロック
 kana: イマイ　マサト
@@ -2062,6 +2199,7 @@ opts:
 pos: '岐阜県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:114/bid:7
 ---
 block_name: 東海ブロック
 kana: アチハ　ヨシノブ
@@ -2077,6 +2215,7 @@ opts:
 pos: '岐阜県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:115/bid:7
 ---
 block_name: 東海ブロック
 kana: コイケ　マサナリ
@@ -2094,6 +2233,7 @@ opts:
 pos: '静岡県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:116/bid:7
 ---
 block_name: 東海ブロック
 kana: マツオ　ツトム
@@ -2107,6 +2247,7 @@ opts:
 pos: '静岡県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:117/bid:7
 ---
 block_name: 東海ブロック
 kana: スズキ　ノゾム
@@ -2120,6 +2261,7 @@ opts:
 pos: '静岡県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:118/bid:7
 ---
 block_name: 東海ブロック
 kana: タナカ　ケン
@@ -2134,6 +2276,7 @@ opts:
 pos: '静岡県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:119/bid:7
 ---
 block_name: 東海ブロック
 kana: ホソノ　ゴウシ
@@ -2147,6 +2290,7 @@ opts:
 pos: '静岡県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:120/bid:7
 ---
 block_name: 東海ブロック
 kana: ワタナベ　シュウ
@@ -2162,6 +2306,7 @@ opts:
 pos: '静岡県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:121/bid:7
 ---
 block_name: 東海ブロック
 kana: フクムラ　タカシ
@@ -2176,6 +2321,7 @@ opts:
 pos: '静岡県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:122/bid:7
 ---
 block_name: 東海ブロック
 kana: ゲンマ　ケンタロウ
@@ -2194,6 +2340,7 @@ opts:
 pos: '静岡県8区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:123/bid:7
 ---
 block_name: 東海ブロック
 kana: サトウ　ユウコ
@@ -2207,6 +2354,7 @@ opts:
 pos: '愛知県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:124/bid:7
 ---
 block_name: 東海ブロック
 kana: フルカワ　モトヒサ
@@ -2225,6 +2373,7 @@ opts:
 pos: '愛知県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:125/bid:7
 ---
 block_name: 東海ブロック
 kana: ヨゴ　サヤカ
@@ -2238,6 +2387,7 @@ opts:
 pos: '愛知県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:126/bid:7
 ---
 block_name: 東海ブロック
 kana: マキ　ヨシオ
@@ -2256,6 +2406,7 @@ opts:
 pos: '愛知県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:127/bid:7
 ---
 block_name: 東海ブロック
 kana: ノノベ　ナオアキ
@@ -2273,6 +2424,7 @@ opts:
 pos: '愛知県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:128/bid:7
 ---
 block_name: 東海ブロック
 kana: モリモト　カズヨシ
@@ -2291,6 +2443,7 @@ opts:
 pos: '愛知県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:129/bid:7
 ---
 block_name: 東海ブロック
 kana: オカモト　ミツノリ
@@ -2309,6 +2462,7 @@ opts:
 pos: '愛知県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:130/bid:7
 ---
 block_name: 東海ブロック
 kana: ヤスイ　ミサコ
@@ -2325,6 +2479,7 @@ opts:
 pos: '愛知県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:131/bid:7
 ---
 block_name: 東海ブロック
 kana: フルモト　シンイチロウ
@@ -2341,6 +2496,7 @@ opts:
 pos: '愛知県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:132/bid:7
 ---
 block_name: 東海ブロック
 kana: オオニシ　ケンスケ
@@ -2360,6 +2516,7 @@ opts:
 pos: '愛知県13区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:133/bid:7
 ---
 block_name: 東海ブロック
 kana: タナカ　カツノリ
@@ -2374,6 +2531,7 @@ opts:
 pos: '愛知県14区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:134/bid:7
 ---
 block_name: 東海ブロック
 kana: セキ　ケンイチロウ
@@ -2390,6 +2548,7 @@ opts:
 pos: '愛知県15区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:135/bid:7
 ---
 block_name: 東海ブロック
 kana: フジタ　ダイスケ
@@ -2405,6 +2564,7 @@ opts:
 pos: '三重県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:136/bid:7
 ---
 block_name: 東海ブロック
 kana: ナカネ　ヤスヒロ
@@ -2419,6 +2579,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:220/bid:7
 ---
 block_name: 東海ブロック
 kana: ナカセ　ヒロユキ
@@ -2431,6 +2592,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:229/bid:7
 ---
 block_name: 近畿ブロック
 kana: タジマ　イッセイ
@@ -2449,6 +2611,7 @@ opts:
 pos: '滋賀県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:137/bid:8
 ---
 block_name: 近畿ブロック
 kana: オガワ　ヤスエ
@@ -2466,6 +2629,7 @@ opts:
 pos: '滋賀県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:138/bid:8
 ---
 block_name: 近畿ブロック
 kana: トクナガ　ヒサシ
@@ -2480,6 +2644,7 @@ opts:
 pos: '滋賀県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:139/bid:8
 ---
 block_name: 近畿ブロック
 kana: シマムラ　セイコ
@@ -2492,6 +2657,7 @@ opts:
 pos: '京都府1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:140/bid:8
 ---
 block_name: 近畿ブロック
 kana: イズミ　ケンタ
@@ -2510,6 +2676,7 @@ opts:
 pos: '京都府3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:141/bid:8
 ---
 block_name: 近畿ブロック
 kana: キタガミ　ケイロウ
@@ -2529,6 +2696,7 @@ opts:
 pos: '京都府4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:142/bid:8
 ---
 block_name: 近畿ブロック
 kana: イノウエ　カズノリ
@@ -2541,6 +2709,7 @@ opts:
 pos: '京都府5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:143/bid:8
 ---
 block_name: 近畿ブロック
 kana: ヤマノイ　カズノリ
@@ -2557,6 +2726,7 @@ opts:
 pos: '京都府6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:144/bid:8
 ---
 block_name: 近畿ブロック
 kana: イサカ　ノブヒコ
@@ -2573,6 +2743,7 @@ opts:
 pos: '兵庫県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:145/bid:8
 ---
 block_name: 近畿ブロック
 kana: ヨコハタ　カズユキ
@@ -2588,6 +2759,7 @@ opts:
 pos: '兵庫県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:146/bid:8
 ---
 block_name: 近畿ブロック
 kana: ノグチ　タケミツ
@@ -2600,6 +2772,7 @@ opts:
 pos: '兵庫県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:147/bid:8
 ---
 block_name: 近畿ブロック
 kana: カジワラ　ヤスヒロ
@@ -2616,6 +2789,7 @@ opts:
 pos: '兵庫県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:148/bid:8
 ---
 block_name: 近畿ブロック
 kana: イクムラ　ナオコ
@@ -2628,6 +2802,7 @@ opts:
 pos: '兵庫県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:149/bid:8
 ---
 block_name: 近畿ブロック
 kana: ハタナカ　ミツナリ
@@ -2643,6 +2818,7 @@ opts:
 pos: '兵庫県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:150/bid:8
 ---
 block_name: 近畿ブロック
 kana: カワト　ヤスシ
@@ -2657,6 +2833,7 @@ opts:
 pos: '兵庫県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:151/bid:8
 ---
 block_name: 近畿ブロック
 kana: ツゲ　アツヒト
@@ -2670,6 +2847,7 @@ opts:
 pos: '兵庫県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:152/bid:8
 ---
 block_name: 近畿ブロック
 kana: ナガヤス　タカシ
@@ -2684,6 +2862,7 @@ opts:
 pos: '兵庫県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:153/bid:8
 ---
 block_name: 近畿ブロック
 kana: イケハタ　コウタロウ
@@ -2698,6 +2877,7 @@ opts:
 pos: '兵庫県12区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:154/bid:8
 ---
 block_name: 近畿ブロック
 kana: マブチ　スミオ
@@ -2715,6 +2895,7 @@ opts:
 pos: '奈良県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:155/bid:8
 ---
 block_name: 近畿ブロック
 kana: マツモト　マサユキ
@@ -2729,6 +2910,7 @@ opts:
 pos: '奈良県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:156/bid:8
 ---
 block_name: 近畿ブロック
 kana: マエカワ　キヨシゲ
@@ -2742,6 +2924,7 @@ opts:
 pos: '奈良県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:157/bid:8
 ---
 block_name: 近畿ブロック
 kana: キシモト　シュウヘイ
@@ -2760,6 +2943,7 @@ opts:
 pos: '和歌山県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:158/bid:8
 ---
 block_name: 近畿ブロック
 kana: サカタ　タカノリ
@@ -2777,6 +2961,7 @@ opts:
 pos: '和歌山県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:159/bid:8
 ---
 block_name: 近畿ブロック
 kana: タルトコ　シンジ
@@ -2791,6 +2976,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:200/bid:8
 ---
 block_name: 近畿ブロック
 kana: オオサワ　チエコ
@@ -2804,6 +2990,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:221/bid:8
 ---
 block_name: 近畿ブロック
 kana: ノナカ　コウイチ
@@ -2816,6 +3003,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:230/bid:8
 ---
 block_name: 近畿ブロック
 kana: シライシ　ジュンコ
@@ -2828,6 +3016,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:231/bid:8
 ---
 block_name: 近畿ブロック
 kana: ウケタ　シュウイチ
@@ -2840,6 +3029,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:232/bid:8
 ---
 block_name: 中国ブロック
 kana: ユハラ　シュンジ
@@ -2856,6 +3046,7 @@ opts:
 pos: '鳥取県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:160/bid:9
 ---
 block_name: 中国ブロック
 kana: ハチヤ　ヒロミ
@@ -2872,6 +3063,7 @@ opts:
 pos: '岡山県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:161/bid:9
 ---
 block_name: 中国ブロック
 kana: ツムラ　ケイスケ
@@ -2890,6 +3082,7 @@ opts:
 pos: '岡山県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:162/bid:9
 ---
 block_name: 中国ブロック
 kana: ウチヤマ　アキラ
@@ -2902,6 +3095,7 @@ opts:
 pos: '岡山県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:163/bid:9
 ---
 block_name: 中国ブロック
 kana: ユノキ　ミチヨシ
@@ -2921,6 +3115,7 @@ opts:
 pos: '岡山県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:164/bid:9
 ---
 block_name: 中国ブロック
 kana: タルイ　ヨシカズ
@@ -2937,6 +3132,7 @@ opts:
 pos: '岡山県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:165/bid:9
 ---
 block_name: 中国ブロック
 kana: マツモト　ダイスケ
@@ -2954,6 +3150,7 @@ opts:
 pos: '広島県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:166/bid:9
 ---
 block_name: 中国ブロック
 kana: ウエノ　カンジ
@@ -2970,6 +3167,7 @@ opts:
 pos: '広島県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:167/bid:9
 ---
 block_name: 中国ブロック
 kana: ハシモト　コトエ
@@ -2982,6 +3180,7 @@ opts:
 pos: '広島県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:168/bid:9
 ---
 block_name: 中国ブロック
 kana: サトウ　コウジ
@@ -2998,6 +3197,7 @@ opts:
 pos: '広島県6区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:169/bid:9
 ---
 block_name: 中国ブロック
 kana: サトウ　ヒロノリ
@@ -3014,6 +3214,7 @@ opts:
 pos: '広島県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:170/bid:9
 ---
 block_name: 中国ブロック
 kana: オオウチ　カズヤ
@@ -3030,6 +3231,7 @@ opts:
 pos: '山口県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:171/bid:9
 ---
 block_name: 中国ブロック
 kana: フジタ　トキオ
@@ -3042,6 +3244,7 @@ opts:
 pos: '山口県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:172/bid:9
 ---
 block_name: 中国ブロック
 kana: ヤマグチ　カツヤ
@@ -3054,6 +3257,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:233/bid:9
 ---
 block_name: 四国ブロック
 kana: ニキ　ヒロブミ
@@ -3066,6 +3270,7 @@ opts:
 pos: '徳島県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:173/bid:10
 ---
 block_name: 四国ブロック
 kana: オガワ　ジュンヤ
@@ -3083,6 +3288,7 @@ opts:
 pos: '香川県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:174/bid:10
 ---
 block_name: 四国ブロック
 kana: タマキ　ユウイチロウ
@@ -3099,6 +3305,7 @@ opts:
 pos: '香川県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:175/bid:10
 ---
 block_name: 四国ブロック
 kana: トミナガ　キヨ
@@ -3111,6 +3318,7 @@ opts:
 pos: '愛媛県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:176/bid:10
 ---
 block_name: 四国ブロック
 kana: ヨコヤマ　ヒロユキ
@@ -3124,6 +3332,7 @@ opts:
 pos: '愛媛県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:177/bid:10
 ---
 block_name: 四国ブロック
 kana: シライシ　ヨウイチ
@@ -3141,6 +3350,7 @@ opts:
 pos: '愛媛県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:178/bid:10
 ---
 block_name: 四国ブロック
 kana: サクラウチ　フミキ
@@ -3159,6 +3369,7 @@ opts:
 pos: '愛媛県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:179/bid:10
 ---
 block_name: 四国ブロック
 kana: オオイシ　シュウ
@@ -3174,6 +3385,7 @@ opts:
 pos: '高知県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:180/bid:10
 ---
 block_name: 四国ブロック
 kana: カマエ　イッペイ
@@ -3186,6 +3398,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:235/bid:10
 ---
 block_name: 四国ブロック
 kana: フジオカ　カヨコ
@@ -3199,6 +3412,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:222/bid:10
 ---
 block_name: 九州ブロック
 kana: イシイ　ヒデトシ
@@ -3214,6 +3428,7 @@ opts:
 pos: '福岡県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:181/bid:11
 ---
 block_name: 九州ブロック
 kana: イナトミ　シュウジ
@@ -3229,6 +3444,7 @@ opts:
 pos: '福岡県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:182/bid:11
 ---
 block_name: 九州ブロック
 kana: クスダ　ダイゾウ
@@ -3246,6 +3462,7 @@ opts:
 pos: '福岡県5区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:183/bid:11
 ---
 block_name: 九州ブロック
 kana: ハラ　ケイスケ
@@ -3260,6 +3477,7 @@ opts:
 pos: '福岡県7区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:184/bid:11
 ---
 block_name: 九州ブロック
 kana: オガタ　リンタロウ
@@ -3275,6 +3493,7 @@ opts:
 pos: '福岡県9区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:185/bid:11
 ---
 block_name: 九州ブロック
 kana: キイ　タカシ
@@ -3293,6 +3512,7 @@ opts:
 pos: '福岡県10区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:186/bid:11
 ---
 block_name: 九州ブロック
 kana: ムラカミ　トモノブ
@@ -3307,6 +3527,7 @@ opts:
 pos: '福岡県11区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:187/bid:11
 ---
 block_name: 九州ブロック
 kana: オオグシ　ヒロシ
@@ -3325,6 +3546,7 @@ opts:
 pos: '佐賀県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:188/bid:11
 ---
 block_name: 九州ブロック
 kana: ニシオカ　ヒデコ
@@ -3340,6 +3562,7 @@ opts:
 pos: '長崎県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:189/bid:11
 ---
 block_name: 九州ブロック
 kana: ヤマグチ　ハツミ
@@ -3356,6 +3579,7 @@ opts:
 pos: '長崎県2区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:190/bid:11
 ---
 block_name: 九州ブロック
 kana: スエツグ　セイイチ
@@ -3368,6 +3592,7 @@ opts:
 pos: '長崎県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:191/bid:11
 ---
 block_name: 九州ブロック
 kana: ミヤジマ　ダイスケ
@@ -3384,6 +3609,7 @@ opts:
 pos: '長崎県4区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:192/bid:11
 ---
 block_name: 九州ブロック
 kana: マツノ　ヨリヒサ
@@ -3402,6 +3628,7 @@ opts:
 pos: '熊本県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:193/bid:11
 ---
 block_name: 九州ブロック
 kana: キラ　シュウジ
@@ -3420,6 +3647,7 @@ opts:
 pos: '大分県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:194/bid:11
 ---
 block_name: 九州ブロック
 kana: トヤマ　イツキ
@@ -3432,6 +3660,7 @@ opts:
 pos: '宮崎県1区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:195/bid:11
 ---
 block_name: 九州ブロック
 kana: ハナワ　トモフミ
@@ -3445,6 +3674,7 @@ opts:
 pos: '宮崎県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:196/bid:11
 ---
 block_name: 九州ブロック
 kana: ノマ　タケシ
@@ -3462,6 +3692,7 @@ opts:
 pos: '鹿児島県3区
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:198/bid:11
 ---
 block_name: 九州ブロック
 kana: ナカヤマ　ナリアキ
@@ -3480,6 +3711,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:201/bid:11
 ---
 block_name: 九州ブロック
 kana: ナミキ　コウイチ
@@ -3492,6 +3724,7 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:234/bid:11
 ---
 block_name: 九州ブロック
 kana: モリタ　トシフミ
@@ -3507,3 +3740,4 @@ opts:
 pos: '比例代表
 
   公認'
+url: https://kibounotou.jp/election/detail/cid:223/bid:11
