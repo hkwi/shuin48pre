@@ -500,21 +500,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸一" ;
      ns1:名前 "吉田幸一" ;
-@@ -664,7 +690,7 @@
-     ns1:年齢 "43" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/kyoko.yosida.jcp.iwate" ;
-     ns1:twitter "kyoko_yosida" ;
-     ns1:せい "よしだ" ;
-     ns1:めい "きょうこ" ;
-@@ -692,11 +718,11 @@
-     ns1:年齢 "46" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/cyuubutiku" ;
+@@ -696,7 +722,7 @@
      ns1:twitter "" ;
      ns1:せい "よつや" ;
      ns1:めい "めぐみ" ;

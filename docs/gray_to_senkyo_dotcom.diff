@@ -1776,6 +1776,15 @@
      ns1:前回 "前" ;
      ns1:名 "宣弘" ;
      ns1:名前 "吉田宣弘" ;
+@@ -3171,7 +3133,7 @@
+     ns1:政党 "共産" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/kyoko.yosida.jcp.iwate" ;
++[] ns1:facebook "" ;
+     ns1:twitter "kyoko_yosida" ;
+     ns1:候補名 "吉田恭子" ;
+     ns1:公式サイト "" ;
 @@ -3184,8 +3146,8 @@
      ns1:政党 "共産" ;
      ns1:比例区 "東北" .
@@ -1906,15 +1915,6 @@
      ns1:候補名 "嘉田由紀子" ;
      ns1:公式サイト "https://kadayukiko.jp/" ;
      ns1:前回 "新" ;
-@@ -3395,7 +3357,7 @@
-     ns1:政党 "無所属" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/cyuubutiku" ;
-     ns1:twitter "" ;
-     ns1:候補名 "四ツ谷恵" ;
-     ns1:公式サイト "https://meg-yotsuya.jimdo.com/" ;
 @@ -3424,12 +3386,11 @@
  [] ns1:facebook "https://www.facebook.com/kokubakonosuke" ;
      ns1:twitter "kokubkonosuke" ;
