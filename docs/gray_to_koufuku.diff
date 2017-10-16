@@ -582,8 +582,8 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "" .
 -
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/amakinaoto" ;
+-    ns1:twitter "amakinaoto" ;
 -    ns1:候補名 "天木直人" ;
 -    ns1:公式ブログ "" ;
 -    ns1:小選挙区 "東京21区" ;
