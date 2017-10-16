@@ -9,6 +9,7 @@ import shuin48pre.asahi
 import shuin48pre.mainichi
 import shuin48pre.jimin_official
 import shuin48pre.kibou_official
+import shuin48pre.gdoc
 
 def spawn(prog, file, *args):
 	def wrap():
@@ -30,6 +31,7 @@ def test_jobs():
 		(shuin48pre.mainichi.run, "docs/mainichi.csv"),
 		(shuin48pre.jimin_official.run, "docs/jimin_official.csv"),
 		(shuin48pre.kibou_official.run, "docs/kibou_official.yaml"),
+		(shuin48pre.gdoc.run, "docs/database.csv"),
 	]
 	
 	ths = [spawn(*j) for j in jobs]
