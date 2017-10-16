@@ -18,5 +18,5 @@ for fn,sh in targets.items():
 		wd = [j for j,r in enumerate(rows) if "wikidata" in r]
 		if wd and sh.title.startswith("候補者(candidates)"):
 			skip = wd[0]+1
-			csv.writer(open("docs/%s" % fn, "w")).writerows(rows[:skip]+sorted(rows[skip:]))
+			csv.writer(open("docs/%s" % fn, "w")).writerows(rows)
 #		csv.writer(open("docs/%s_%d.csv" % (fn.split(".")[0],si), "w")).writerows(rows)
