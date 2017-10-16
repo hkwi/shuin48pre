@@ -718,10 +718,13 @@
      ns1:姓 "寺田" ;
      ns1:小選挙区 "広島6区" ;
 -    ns1:年齢 "66" ;
+-    ns1:比例区 "" .
+-
+-[] ns1:facebook "https://www.facebook.com/azuma.kozutsumi" ;
 +    ns1:年齢 "65" ;
-     ns1:比例区 "" .
- 
- [] ns1:facebook "" ;
++    ns1:比例区 "" .
++
++[] ns1:facebook "" ;
      ns1:twitter "azuma_united_fc" ;
      ns1:せい "こづつみ" ;
 -    ns1:めい "あずま" ;
@@ -729,6 +732,15 @@
      ns1:候補名 "小堤東" ;
      ns1:前回 "新" ;
      ns1:名 "東" ;
+@@ -1023,7 +1044,7 @@
+     ns1:年齢 "28" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/kotemegu" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:せい "こてがわ" ;
+     ns1:めい "めぐみ" ;
 @@ -1049,21 +1070,21 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .
