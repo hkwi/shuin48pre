@@ -286,15 +286,17 @@
      ns1:前回 "新" ;
      ns1:名 "宣" ;
      ns1:名前 "井上宣" ;
-@@ -290,7 +316,7 @@
+@@ -290,8 +316,8 @@
      ns1:年齢 "43" ;
      ns1:比例区 "" .
  
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/inoueyoshiko122" ;
+-    ns1:twitter "inoueyoshiko122" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100008607883601" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:せい "いのうえ" ;
      ns1:めい "よしこ" ;
+     ns1:候補名 "井上良子" ;
 @@ -359,7 +385,7 @@
      ns1:twitter "" ;
      ns1:せい "いとう" ;
