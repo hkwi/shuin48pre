@@ -834,6 +834,24 @@
      ns1:twitter "sakai_manabu" ;
      ns1:wikidata "Q6746574" ;
      ns1:名 "学" ;
+@@ -946,7 +994,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1965-09-04" .
+ 
+-[] ns1:facebook "https://www.facebook.com/tetusiman" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q7706925" ;
+     ns1:名 "哲志" ;
+@@ -955,7 +1003,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1950-11-06" .
+ 
+-[] ns1:facebook "https://www.facebook.com/sakamotoyunosuke" ;
++[] ns1:facebook "" ;
+     ns1:twitter "nipponniyumeo" ;
+     ns1:wikidata "Q17158714" ;
+     ns1:名 "祐之輔" ;
 @@ -964,7 +1012,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1955-01-30" .
