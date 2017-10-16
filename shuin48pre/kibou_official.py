@@ -8,7 +8,7 @@ def urlopen(url):
 	return io.StringIO(requests.get(url).content.decode("UTF-8"))
 
 def run(fp):
-	fieldnames = "name area twitter facebook youtube line bio".split()
+	fieldnames = "name area twitter facebook youtube line bio url".split()
 	
 	urls = ["https://kibounotou.jp/election/lists/bid:%d" % i for i in range(1,12)]
 	for url in urls:
@@ -45,6 +45,7 @@ def run(fp):
 						opts.append(opt)
 					
 					r["opts"] = opts
+					r["url"] = url2
 					
 					yaml.dump(r, stream=fp,
 						explicit_start=True,

@@ -7,7 +7,7 @@ import urllib.request
 import requests
 
 def run(fp, hirei=True):
-	fieldnames = "namel name sei mei party area cls age_n tw fb site bio age".split()
+	fieldnames = "namel name sei mei party area cls age_n tw fb site bio age url".split()
 	out = csv.writer(fp)
 	
 	d = lxml.etree.parse("http://shugiin.go2senkyo.com/sitemap.xml")
@@ -76,6 +76,8 @@ def run(fp, hirei=True):
 				bulk["name"] = "".join(seimei)
 			else:
 				bulk["name"] = seimei[0]
+			
+			bulk["url"] = url
 			out.writerow([bulk.get(k) for k in fieldnames])
 
 if __name__=="__main__":

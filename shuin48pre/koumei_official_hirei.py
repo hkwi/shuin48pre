@@ -4,7 +4,7 @@ import lxml.html
 import urllib.request
 
 def run(fp):
-	fieldnames = "name area twitter facebook youtube line bio".split()
+	fieldnames = "name area twitter facebook youtube line bio url".split()
 	
 	out = csv.writer(fp)
 	d = lxml.html.parse(urllib.request.urlopen("https://www.komei.or.jp/campaign/shuin2017/hireiku/"))
@@ -35,9 +35,9 @@ def run(fp):
 				na = re.split("[　 ]", bulk["na"])
 				bulk["name"] = na[0]
 				bulk["prev"] = na[1]
-				
 				bulk["area"] = h.text_content().split("（")[0].strip()
-		
+				bulk["url"] = "https://www.komei.or.jp/campaign/shuin2017/hireiku/"
+				
 				out.writerow([bulk.get(k) for k in fieldnames])
 
 if __name__=="__main__":

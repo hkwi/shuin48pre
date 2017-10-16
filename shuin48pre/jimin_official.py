@@ -161,7 +161,7 @@ def proc(out, filename, std, sup):
 				hirei = area
 				area = None
 			
-			out.writerow((area, hirei, std, sup, sei, mei, sei_hira, mei_hira, gender, birth, prev, bio))
+			out.writerow((area, hirei, std, sup, sei, mei, sei_hira, mei_hira, gender, birth, prev, bio, "https://www.jimin.jp/news/activities/135811.html"))
 
 def run(fp):
 	out = csv.writer(fp)

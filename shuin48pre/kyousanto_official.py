@@ -13,7 +13,7 @@ urls += ["http://www.jcp.or.jp/web_senkyo/cat1/index_%d.html" % s for s in range
 urls += ["http://www.jcp.or.jp/web_senkyo/cat/"]
 urls += ["http://www.jcp.or.jp/web_senkyo/cat/index_%d.html" % s for s in (2,3)]
 
-fieldnames="koho_namel koho_kana name family_name given_name family_hira given_hira age flag block small koho_kata twitter facebook site syubetsu".split()
+fieldnames="koho_namel koho_kana name family_name given_name family_hira given_hira age flag block small koho_kata twitter facebook site syubetsu url".split()
 
 def hiragana_split(s):
 	if s=="四ツ谷":
@@ -124,6 +124,7 @@ def run(fp):
 			else:
 				row["name"] = row["koho_namel"]
 			
+			row["url"] = url
 			out.writerow([row.get(f) for f in fieldnames])
 
 if __name__=="__main__":

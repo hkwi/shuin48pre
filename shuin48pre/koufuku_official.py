@@ -27,6 +27,7 @@ def run(fp):
 			r["hirei"]=r["area"]
 			del(r["area"])
 		
+		r["url"] = "https://candidates.hr-party.jp/elections/2017/1185/"
 		out.writerow([r.get(i) for i in fieldnames])
 
 if __name__=="__main__":
