@@ -7,6 +7,7 @@ import difflib
 import unicodedata
 import jaconv
 import yaml
+import urllib.parse
 
 EX = rdflib.Namespace("http://ns.example.org/")
 
@@ -123,98 +124,33 @@ def normalize(k,v):
 		if v.startswith("\u200E"):
 			v = v[1:]
 	elif k == "facebook":
-		if "?" in v and "id=" not in v:
-			v = v.split("?")[0]
-		v = v.replace("https://facebook.com/","https://www.facebook.com/")
-		v = v.replace("ja-jp.facebook.com","www.facebook.com")
 		if v.startswith("/"):
 			v = "https://www.facebook.com" + v
 		elif v and not v.startswith("http"):
 			v = "https://www.facebook.com/" + v
 		
-		if v.endswith("/"):
-			v = v[:-1]
-	elif k == "生年月日":
-		m = re.match("(\d{4})(\d{2})(\d{2})", v)
-		if m:
-			v = "-".join(m.groups())
-		m = re.match("(\d+)/(\d+)/(\d+)", v)
-		if m:
-			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
-		m = re.match("(\d+)-(\d+)-(\d+)", v)
-		if m:
-			v = "%04d-%02d-%02d" % tuple(map(int, m.groups()))
-	elif k == "性別":
-		if not v.endswith("性") and len(v)==1:
-			v += "性"
-	elif k == "小選挙区":
-		v = unicodedata.normalize("NFKC", v.strip())
-		m = re.match("^(.*)[県府]\s*(\d+区)$", v)
-		if m:
-			v = "".join(m.groups())
-		m = re.match("^(東京)都\s*(\d+区)$", v)
-		if m:
-			v = "".join(m.groups())
-		v = re.sub("[　 ]+", "", v)
-	elif k == "比例区":
-		m = re.match("^(比例)?(.*?)(ブロック)?$", v)
-		if m:
-			v = m.group(2)
-		v = {
-			"北信越":"北陸信越",
-			"九州・沖縄":"九州",
-			"東京都":"東京",
-		}.get(v, v)
-	elif k == "前回":
-		if v in ("現職", "現"):
-			v = "前"
-	elif k == "政党":
-		v = {
-			"日本維新の会":"維新",
-			"希望の党":"希望",
-			"自由民主党":"自民",
-			"幸福実現党":"幸福",
-			"社会民主党":"社民",
-			"公明党":"公明",
-			"立憲民主党":"立憲民主",
-			"立民":"立憲民主",
-			"立憲":"立憲民主",
-			"無所":"無所属",
-			"日本共産党":"共産",
-			"日本のこころ":"こころ",
-			"新党大地":"大地",
-		}.get(v, v)
-	elif k == "前回":
-		v = {
-			"新人":"新",
-		}.get(v, v)
-	elif v:
-		v = re.sub("[　 ]+", "", v)
-	return k,v
-
-def normalize(k,v):
-	if v in ("-", ""):
-		return k,""
-	
-	if k == "twitter":
-		v = v.strip().split("?")[0].lower()
-		m = re.match("https?://twitter.com/@?([^/@\?]+)", v)
-		if m:
-			v = m.group(1)
-		if v.startswith("\u200E"):
-			v = v[1:]
-	elif k == "facebook":
-		if "?" in v and "id=" not in v:
-			v = v.split("?")[0]
-		v = v.replace("https://facebook.com/","https://www.facebook.com/")
-		v = v.replace("ja-jp.facebook.com","www.facebook.com")
-		if v.startswith("/"):
-			v = "https://www.facebook.com" + v
-		elif v and not v.startswith("http"):
-			v = "https://www.facebook.com/" + v
-		
-		if v.endswith("/"):
-			v = v[:-1]
+		pc = list(urllib.parse.urlparse(v))
+		pc[1] = "www.facebook.com"
+		pc[0] = "https"
+		m = re.match("^/(\d+)$", pc[2])
+		m2 = re.match("^/people/[^/]+/(\d+)$", pc[2])
+		if pc[2] == "/profile.php":
+			assert pc[4]
+			pid = urllib.parse.parse_qs(pc[4])["id"][0]
+			pc[4] = "id=%s" % pid
+		elif m:
+			pc[2] = "/profile.php"
+			pc[4] = "id=%s" % m.group(1)
+		elif m2:
+			pc[2] = "/profile.php"
+			pc[4] = "id=%s" % m2.group(1)
+		else:
+			if ".php" not in pc[2]:
+				pc[2] = urllib.parse.unquote(pc[2])
+				pc[4] = ""
+			if pc[2].endswith("/"):
+				pc[2] = pc[2][:-1]
+		v = urllib.parse.urlunparse(pc)
 	elif k == "生年月日":
 		m = re.match("(\d{4})(\d{2})(\d{2})", v)
 		if m:
