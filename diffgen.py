@@ -118,11 +118,19 @@ def normalize(k,v):
 	
 	if k == "twitter":
 		v = v.strip().split("?")[0].lower()
-		m = re.match("https?://twitter.com/@?([^/@\?]+)", v)
+		m = re.match("https?://twitter.com/[@＠]?([^/@\?]+)", v)
 		if m:
 			v = m.group(1)
+		elif not v.startswith("/"):
+			v = v.split("/")[0]
+		
 		if v.startswith("\u200E"):
 			v = v[1:]
+	elif k == "公式サイト":
+		pc = list(urllib.parse.urlparse(v))
+		if pc[2] == "":
+			pc[2] = "/"
+			v = urllib.parse.urlunparse(pc)
 	elif k == "facebook":
 		if v.startswith("/"):
 			v = "https://www.facebook.com" + v
@@ -263,7 +271,7 @@ def gray_to_seijinavi():
 
 def gray_to_kyousanto():
 	ks = ["候補名",None,"名前","姓","名","せい","めい","年齢",
-		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式ページ", "メモ", "url"]
+		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式サイト", "メモ", "url"]
 	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
 	assert len(ks) == len(db[0])
