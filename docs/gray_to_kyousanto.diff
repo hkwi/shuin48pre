@@ -1057,15 +1057,6 @@
      ns1:前回 "新" ;
      ns1:名 "道也" ;
      ns1:名前 "平川道也" ;
-@@ -1497,7 +1517,7 @@
-     ns1:比例区 "近畿" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "3bihv3x5oh9us09" ;
-     ns1:せい "ひらばやし" ;
-     ns1:めい "あきなり" ;
-     ns1:候補名 "平林明成" ;
 @@ -1514,11 +1534,11 @@
      ns1:twitter "" ;
      ns1:せい "たなはし" ;
@@ -1110,7 +1101,7 @@
      ns1:前回 "前" ;
      ns1:名 "和子" ;
      ns1:名前 "斉藤和子" ;
-@@ -1584,22 +1604,22 @@
+@@ -1584,21 +1604,21 @@
      ns1:twitter "" ;
      ns1:せい "さいとう" ;
      ns1:めい "さちこ" ;
@@ -1126,19 +1117,16 @@
 +    ns1:年齢 "59" ;
      ns1:比例区 "近畿" .
  
--[] ns1:facebook "" ;
+ [] ns1:facebook "https://www.facebook.com/nodokajcp" ;
 -    ns1:twitter "" ;
-+[] ns1:facebook "https://www.facebook.com/nodokajcp" ;
 +    ns1:twitter "nodokajcp" ;
      ns1:せい "さいとう" ;
      ns1:めい "のどか" ;
 -    ns1:候補名 "斉藤温" ;
--    ns1:公式サイト "" ;
 +    ns1:候補名 "斉藤のどか" ;
-+    ns1:公式サイト "http://s-nodoka.net/" ;
+     ns1:公式サイト "http://s-nodoka.net/" ;
      ns1:前回 "新" ;
      ns1:名 "温" ;
-     ns1:名前 "斉藤温" ;
 @@ -1608,7 +1628,7 @@
      ns1:年齢 "26" ;
      ns1:比例区 "" .
@@ -1148,17 +1136,6 @@
      ns1:twitter "over_wash" ;
      ns1:せい "あらい" ;
      ns1:めい "すぎお" ;
-@@ -1622,8 +1642,8 @@
-     ns1:年齢 "58" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "" ;
--    ns1:twitter "" ;
-+[] ns1:facebook "https://www.facebook.com/makoto.arai.376" ;
-+    ns1:twitter "makoara0810" ;
-     ns1:せい "あらい" ;
-     ns1:めい "まこと" ;
-     ns1:候補名 "あらい真" ;
 @@ -1640,7 +1660,7 @@
      ns1:twitter "" ;
      ns1:せい "しんどめ" ;

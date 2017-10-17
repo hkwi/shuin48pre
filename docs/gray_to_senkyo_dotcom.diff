@@ -3779,17 +3779,15 @@
      ns1:比例区 "東海" .
  
  [] ns1:facebook "https://www.facebook.com/michiya.hirakawa" ;
-@@ -6721,8 +6677,8 @@
+@@ -6721,7 +6677,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "近畿" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100015517326981" ;
-+    ns1:twitter "3bihv3x5oh9us09" ;
+     ns1:twitter "3bihv3x5oh9us09" ;
      ns1:候補名 "平林明成" ;
      ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -6735,9 +6691,9 @@
      ns1:比例区 "" .
  
@@ -3955,10 +3953,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "近畿" .
  
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/nodokajcp" ;
 -    ns1:twitter "" ;
 -    ns1:候補名 "斉藤温" ;
--    ns1:公式サイト "" ;
+-    ns1:公式サイト "http://s-nodoka.net/" ;
 -    ns1:前回 "新" ;
 -    ns1:名 "温" ;
 -    ns1:名前 "斉藤温" ;
@@ -4054,11 +4052,15 @@
      ns1:twitter "" ;
      ns1:候補名 "新井富美子" ;
      ns1:公式サイト "http://www.araifumiko.jp/" ;
-@@ -7126,7 +7083,7 @@
+@@ -7124,9 +7081,9 @@
+     ns1:政党 "共産" ;
+     ns1:比例区 "" .
  
- [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/makoto.arai.376" ;
+-    ns1:twitter "makoara0810" ;
 -    ns1:候補名 "あらい真" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "新居真" ;
      ns1:公式サイト "http://arai-makoto.com/" ;
      ns1:前回 "新" ;
