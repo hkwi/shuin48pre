@@ -3160,6 +3160,15 @@
      ns1:前回 "新" ;
      ns1:名 "崇" ;
      ns1:名前 "山下崇" ;
+@@ -5654,7 +5606,7 @@
+     ns1:比例区 "中国" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "kai02yamashita" ;
++    ns1:twitter "" ;
+     ns1:候補名 "山下魁" ;
+     ns1:公式サイト "https://ameblo.jp/sobo-katamuki/" ;
+     ns1:前回 "新" ;
 @@ -5668,7 +5620,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tsuyoshi.yamanouchi1981" ;

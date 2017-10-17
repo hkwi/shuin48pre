@@ -886,12 +886,8 @@
      ns1:姓 "尾崎" ;
      ns1:小選挙区 "岡山3区" ;
      ns1:年齢 "61" ;
-@@ -1229,11 +1251,11 @@
-     ns1:比例区 "" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "kai02yamashita" ;
+@@ -1232,8 +1254,8 @@
+     ns1:twitter "kai02yamashita" ;
      ns1:せい "やました" ;
      ns1:めい "かい" ;
 -    ns1:候補名 "山下魁" ;
