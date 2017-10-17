@@ -671,7 +671,20 @@
      ns1:twitter "niwahideki" ;
      ns1:候補名 "丹羽秀樹" ;
      ns1:公式サイト "http://www.2wa.jp/" ;
-@@ -1167,11 +1148,11 @@
+@@ -1157,21 +1138,21 @@
+     ns1:政党 "共産" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/akiko.kamei.official" ;
+-    ns1:twitter "kameiakikoweb" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
+     ns1:候補名 "亀井亜紀子" ;
+-    ns1:公式サイト "http://akikokamei.com/" ;
++    ns1:公式サイト "http://akiko-kamei.home-p.info/" ;
+     ns1:前回 "新" ;
+     ns1:名 "亜紀子" ;
+     ns1:名前 "亀井亜紀子" ;
      ns1:姓 "亀井" ;
      ns1:小選挙区 "島根1区" ;
      ns1:年齢 "52" ;
