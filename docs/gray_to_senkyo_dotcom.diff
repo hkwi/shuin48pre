@@ -4028,18 +4028,16 @@
      ns1:公式サイト "http://www.kimuyayo.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "弥生" ;
-@@ -7458,9 +7421,8 @@
+@@ -7458,8 +7421,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
 -[] ns1:facebook "https://www.facebook.com/jiro.kimura.923",
 -        "https://www.facebook.com/木村次郎-496412380692421" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/木村次郎-496412380692421" ;
-+    ns1:twitter "jiro_k_tsugaru" ;
+     ns1:twitter "jiro_k_tsugaru" ;
      ns1:候補名 "木村次郎" ;
      ns1:公式サイト "http://www.jiro-k.jp/" ;
-     ns1:前回 "新" ;
 @@ -7475,21 +7437,21 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008253606732" ;
      ns1:twitter "9999suematsu" ;
@@ -5059,9 +5057,8 @@
      ns1:比例区 "南関東" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/higmai" ;
-+    ns1:twitter "higmaiku_mi_" ;
+     ns1:twitter "higmaiku_mi_" ;
      ns1:候補名 "樋口舞" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://higmai.jp/" ;
@@ -5977,15 +5974,6 @@
      ns1:前回 "前" ;
      ns1:名 "明" ;
      ns1:名前 "甘利明" ;
-@@ -10354,7 +10304,7 @@
-     ns1:比例区 "南関東" .
- 
- [] ns1:facebook "https://www.facebook.com/生方幸夫-549802768388481" ;
--    ns1:twitter "" ;
-+    ns1:twitter "ubukatayukio66" ;
-     ns1:候補名 "生方幸夫" ;
-     ns1:公式サイト "http://www.ubu2.jp/" ;
-     ns1:前回 "元" ;
 @@ -10363,26 +10313,27 @@
      ns1:姓 "生方" ;
      ns1:小選挙区 "千葉6区" ;
@@ -6486,15 +6474,6 @@
      ns1:候補名 "石本憲一" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -11209,7 +11157,7 @@
-     ns1:比例区 "東京" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "isz310" ;
-     ns1:候補名 "石津政雄" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "元" ;
 @@ -11223,21 +11171,21 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100014235768852" ;
@@ -8781,9 +8760,8 @@
      ns1:比例区 "東海" .
  
 -[] ns1:facebook "https://www.facebook.com/aoyamayamato" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/aoyamayamatooffice" ;
-+    ns1:twitter "aoyamayamato" ;
+     ns1:twitter "aoyamayamato" ;
      ns1:候補名 "青山大人" ;
 -    ns1:公式サイト "http://blog.aoyamayamato.net/",
 -        "http://www.aoyamayamato.net/" ;
