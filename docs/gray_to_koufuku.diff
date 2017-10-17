@@ -520,7 +520,8 @@
 +    ns1:職歴 "幸福実現党東京都本部代表（兼）東京第10選挙区支部長" .
  
  [] ns1:facebook "https://www.facebook.com/kaworu.yoshida.9" ;
-     ns1:twitter "" ;
+-    ns1:twitter "kawoyosida" ;
++    ns1:twitter "" ;
      ns1:候補名 "吉田かをる" ;
 -    ns1:公式ブログ "https://ameblo.jp/yoshida-kaworu" ;
 +    ns1:公式ブログ "http://ameblo.jp/yoshida-kaworu" ;

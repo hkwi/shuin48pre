@@ -49,15 +49,17 @@
      ns1:twitter "noriko_furuya" ;
      ns1:候補名 "古屋範子" ;
      ns1:小選挙区 "" ;
-@@ -132,7 +130,7 @@
+@@ -132,8 +130,8 @@
      ns1:小選挙区 "東京12区" ;
      ns1:比例区 "" .
  
 -[] ns1:facebook "https://www.facebook.com/ota.masataka" ;
+-    ns1:twitter "ootamasataka" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:候補名 "太田昌孝" ;
      ns1:小選挙区 "" ;
+     ns1:比例区 "北陸信越" .
 @@ -151,7 +149,7 @@
      ns1:比例区 "北関東" .
  
@@ -89,7 +91,13 @@
      ns1:twitter "" ;
      ns1:候補名 "高村宗男" ;
      ns1:小選挙区 "" ;
-@@ -319,7 +316,7 @@
+@@ -314,12 +311,12 @@
+     ns1:比例区 "近畿" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "wanibuchiyoko" ;
++    ns1:twitter "" ;
+     ns1:候補名 "鰐淵洋子" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  

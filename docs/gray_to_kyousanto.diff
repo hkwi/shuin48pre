@@ -357,8 +357,12 @@
      ns1:前回 "新" ;
      ns1:名 "諭" ;
      ns1:名前 "井上諭" ;
-@@ -401,7 +428,7 @@
-     ns1:twitter "" ;
+@@ -398,10 +425,10 @@
+     ns1:比例区 "南関東" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "itou_makoto1974" ;
++    ns1:twitter "" ;
      ns1:せい "いとう" ;
      ns1:めい "まこと" ;
 -    ns1:候補名 "伊藤誠" ;
@@ -1272,8 +1276,9 @@
 -[] ns1:facebook "https://www.facebook.com/honmakatsumi",
 -        "https://www.facebook.com/katsumi.honma.1",
 -        "https://www.facebook.com/profile.php?id=100010830348450" ;
+-    ns1:twitter "qn93vr" ;
 +[] ns1:facebook "https://www.facebook.com/honmakatsumi" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:せい "ほんま" ;
      ns1:めい "かつみ" ;
 -    ns1:候補名 "本間勝美" ;

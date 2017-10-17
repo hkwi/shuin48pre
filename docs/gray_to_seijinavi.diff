@@ -661,15 +661,17 @@
      ns1:wikidata "Q11400147" ;
      ns1:名 "孝明" ;
      ns1:名前 "勝俣孝明" ;
-@@ -660,7 +697,7 @@
+@@ -660,8 +697,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1976-04-07" .
  
 -[] ns1:facebook "https://www.facebook.com/shigeaki.katsunuma" ;
+-    ns1:twitter "shige_katsunuma" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q11400372" ;
      ns1:名 "栄明" ;
+     ns1:名前 "勝沼栄明" ;
 @@ -678,7 +715,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-03-02" .
@@ -2867,6 +2869,15 @@
      ns1:twitter "kiyohiko_toyama" ;
      ns1:wikidata "Q6418998" ;
      ns1:名 "清彦" ;
+@@ -3632,7 +3740,7 @@
+     ns1:生年月日 "1969-06-05" .
+ 
+ [] ns1:facebook "https://www.facebook.com/endo.toshiaki0117" ;
+-    ns1:twitter "team_e_toshiaki" ;
++    ns1:twitter "" ;
+     ns1:wikidata "Q7827620" ;
+     ns1:名 "利明" ;
+     ns1:名前 "遠藤利明" ;
 @@ -3659,7 +3767,7 @@
      ns1:生年月日 "1970-12-21" .
  
