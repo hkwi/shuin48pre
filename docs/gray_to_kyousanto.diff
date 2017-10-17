@@ -1061,6 +1061,15 @@
      ns1:前回 "新" ;
      ns1:名 "道也" ;
      ns1:名前 "平川道也" ;
+@@ -1500,7 +1516,7 @@
+     ns1:年齢 "68" ;
+     ns1:比例区 "近畿" .
+ 
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100015517326981" ;
++[] ns1:facebook "" ;
+     ns1:twitter "3bihv3x5oh9us09" ;
+     ns1:せい "ひらばやし" ;
+     ns1:めい "あきなり" ;
 @@ -1518,11 +1534,11 @@
      ns1:twitter "" ;
      ns1:せい "たなはし" ;
@@ -1076,7 +1085,7 @@
      ns1:姓 "店橋" ;
      ns1:小選挙区 "群馬1区" ;
      ns1:年齢 "56" ;
-@@ -1539,7 +1555,7 @@
+@@ -1539,10 +1555,10 @@
      ns1:名前 "志位和夫" ;
      ns1:姓 "志位" ;
      ns1:小選挙区 "" ;
@@ -1084,7 +1093,11 @@
 +    ns1:年齢 "62" ;
      ns1:比例区 "南関東" .
  
- [] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100014155634094" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:せい "とぐち" ;
+     ns1:めい "さいち" ;
 @@ -1560,7 +1576,7 @@
      ns1:twitter "" ;
      ns1:せい "ところ" ;
@@ -1121,8 +1134,7 @@
      ns1:比例区 "近畿" .
  
  [] ns1:facebook "https://www.facebook.com/nodokajcp" ;
--    ns1:twitter "" ;
-+    ns1:twitter "nodokajcp" ;
+     ns1:twitter "nodokajcp" ;
      ns1:せい "さいとう" ;
      ns1:めい "のどか" ;
 -    ns1:候補名 "斉藤温" ;
@@ -1139,8 +1151,12 @@
      ns1:twitter "over_wash" ;
      ns1:せい "あらい" ;
      ns1:めい "すぎお" ;
-@@ -1645,7 +1660,7 @@
-     ns1:twitter "" ;
+@@ -1642,10 +1657,10 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/jcp.munakasu" ;
+-    ns1:twitter "sindome7" ;
++    ns1:twitter "" ;
      ns1:せい "しんどめ" ;
      ns1:めい "きよたか" ;
 -    ns1:候補名 "新留清隆" ;
