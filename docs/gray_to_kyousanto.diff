@@ -426,6 +426,15 @@
      ns1:前回 "新" ;
      ns1:名 "リカ" ;
      ns1:名前 "加藤リカ" ;
+@@ -525,7 +551,7 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "nonbiriyo" ;
++    ns1:twitter "" ;
+     ns1:せい "かとう" ;
+     ns1:めい "たいち" ;
+     ns1:候補名 "加藤太一" ;
 @@ -543,7 +569,7 @@
      ns1:せい "きたやま" ;
      ns1:めい "りょうぞう" ;
@@ -435,8 +444,12 @@
      ns1:前回 "新" ;
      ns1:名 "良三" ;
      ns1:名前 "北山良三" ;
-@@ -570,14 +596,14 @@
-     ns1:twitter "" ;
+@@ -567,17 +593,17 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=1209855673" ;
+-    ns1:twitter "syogatani" ;
++    ns1:twitter "" ;
      ns1:せい "はら" ;
      ns1:めい "やすひさ" ;
 -    ns1:候補名 "原矢寸久" ;
@@ -1485,9 +1498,8 @@
      ns1:比例区 "" .
  
 -[] ns1:facebook "https://www.facebook.com/jcpyokotaeiji" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100004574320067" ;
-+    ns1:twitter "yokotaeiji17" ;
+     ns1:twitter "yokotaeiji17" ;
      ns1:せい "よこた" ;
      ns1:めい "えいじ" ;
      ns1:候補名 "横田英司" ;
@@ -1778,6 +1790,15 @@
      ns1:前回 "前" ;
      ns1:名 "省三" ;
      ns1:名前 "真島省三" ;
+@@ -2426,7 +2441,7 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "jcpishimaru" ;
++    ns1:twitter "" ;
+     ns1:せい "いしまる" ;
+     ns1:めい "かんじ" ;
+     ns1:候補名 "石丸完治" ;
 @@ -2443,7 +2458,7 @@
      ns1:twitter "jcp_ishidoh" ;
      ns1:せい "いしどう" ;
@@ -1966,12 +1987,7 @@
      ns1:前回 "新" ;
      ns1:名 "一規" ;
      ns1:名前 "藤本一規" ;
-@@ -2776,11 +2791,11 @@
-     ns1:比例区 "" .
- 
- [] ns1:facebook "https://www.facebook.com/jcp.fujimotosachiko" ;
--    ns1:twitter "" ;
-+    ns1:twitter "fujimotosachico" ;
+@@ -2780,7 +2795,7 @@
      ns1:せい "ふじもと" ;
      ns1:めい "さちこ" ;
      ns1:候補名 "藤本さちこ" ;
@@ -2270,17 +2286,15 @@
      ns1:前回 "新" ;
      ns1:名 "由希子" ;
      ns1:名前 "長瀬由希子" ;
-@@ -3227,8 +3238,8 @@
+@@ -3227,7 +3238,7 @@
      ns1:年齢 "61" ;
      ns1:比例区 "" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/shizuka.sekine.7" ;
-+    ns1:twitter "panpakapapico" ;
+     ns1:twitter "panpakapapico" ;
      ns1:せい "せきね" ;
      ns1:めい "しずか" ;
-     ns1:候補名 "せきねしずか" ;
 @@ -3255,13 +3266,12 @@
      ns1:年齢 "46" ;
      ns1:比例区 "" .
