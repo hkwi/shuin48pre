@@ -2415,6 +2415,15 @@
      ns1:twitter "hosoda_kenichi" ;
      ns1:wikidata "Q11606064" ;
      ns1:名 "健一" ;
+@@ -3184,7 +3280,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1964-07-11" .
+ 
+-[] ns1:facebook "https://www.facebook.com/hiroyuki.hosoda.54" ;
++[] ns1:facebook "" ;
+     ns1:twitter "hosodahiroyuki" ;
+     ns1:wikidata "Q1133192" ;
+     ns1:名 "博之" ;
 @@ -3193,7 +3289,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1944-04-05" .

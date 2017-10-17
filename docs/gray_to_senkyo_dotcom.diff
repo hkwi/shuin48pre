@@ -7271,15 +7271,6 @@
      ns1:公式サイト "http://hosoda-kenichi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "健一" ;
-@@ -11955,7 +11904,7 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "北陸信越" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/hiroyuki.hosoda.54" ;
-     ns1:twitter "hosodahiroyuki" ;
-     ns1:候補名 "細田博之" ;
-     ns1:公式サイト "http://h-hosoda.jp/" ;
 @@ -11971,8 +11920,7 @@
  [] ns1:facebook "https://www.facebook.com/hosono54" ;
      ns1:twitter "hosono_54" ;
