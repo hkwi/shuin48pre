@@ -1070,8 +1070,12 @@
      ns1:twitter "3bihv3x5oh9us09" ;
      ns1:せい "ひらばやし" ;
      ns1:めい "あきなり" ;
-@@ -1518,11 +1534,11 @@
-     ns1:twitter "" ;
+@@ -1515,14 +1531,14 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/setuko2525" ;
+-    ns1:twitter "setuko2525de15" ;
++    ns1:twitter "" ;
      ns1:せい "たなはし" ;
      ns1:めい "せつこ" ;
 -    ns1:候補名 "店橋世津子" ;
@@ -1433,6 +1437,15 @@
      ns1:前回 "新" ;
      ns1:名 "房義" ;
      ns1:名前 "森桜房義" ;
+@@ -2002,7 +2007,7 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "https://www.facebook.com/fumiaki.shiina" ;
+-    ns1:twitter "fumiakishiina" ;
++    ns1:twitter "" ;
+     ns1:せい "しいな" ;
+     ns1:めい "ふみあき" ;
+     ns1:候補名 "椎名史明" ;
 @@ -2019,8 +2024,8 @@
      ns1:twitter "" ;
      ns1:せい "くすもと" ;
@@ -2017,7 +2030,7 @@
      ns1:比例区 "北陸信越" .
  
  [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-    ns1:twitter "nisida_tosiko" ;
 -    ns1:せい "にしだ" ;
 -    ns1:めい "としこ" ;
 -    ns1:候補名 "西田敏子" ;
@@ -2026,6 +2039,7 @@
 -    ns1:名 "敏子" ;
 -    ns1:名前 "西田敏子" ;
 -    ns1:姓 "西田" ;
++    ns1:twitter "" ;
 +    ns1:せい "" ;
 +    ns1:めい "" ;
 +    ns1:候補名 "西田とし子" ;
@@ -2152,8 +2166,12 @@
      ns1:公式サイト "http://jcp-fukui.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "幸枝" ;
-@@ -3060,9 +3074,8 @@
-     ns1:twitter "" ;
+@@ -3057,12 +3071,11 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "kpf9" ;
++    ns1:twitter "" ;
      ns1:せい "きんぱら" ;
      ns1:めい "のぶゆき" ;
 -    ns1:候補名 "金原信之" ;
