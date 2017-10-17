@@ -1130,9 +1130,8 @@
      ns1:比例区 "東海" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/uchiyamaakira0303" ;
-+    ns1:twitter "uchiyama_akira_" ;
+     ns1:twitter "uchiyama_akira_" ;
      ns1:候補名 "内山晃" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://www.uchiyama-akira.com/" ;
@@ -2226,15 +2225,6 @@
      ns1:前回 "前" ;
      ns1:名 "正樹" ;
      ns1:名前 "大串正樹" ;
-@@ -3996,7 +3944,7 @@
-     ns1:比例区 "近畿" .
- 
- [] ns1:facebook "https://www.facebook.com/reiko.ookubo.33" ;
--    ns1:twitter "" ;
-+    ns1:twitter "rei500313" ;
-     ns1:候補名 "大久保令子" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -4024,7 +3972,7 @@
  [] ns1:facebook "https://www.facebook.com/ouchikazuya1010" ;
      ns1:twitter "" ;
@@ -5180,17 +5170,15 @@
      ns1:前回 "前" ;
      ns1:名 "岳" ;
      ns1:名前 "橋本岳" ;
-@@ -9069,8 +9010,8 @@
+@@ -9069,7 +9010,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "中国" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100022305480751" ;
-+    ns1:twitter "hashimotokotoe" ;
+     ns1:twitter "hashimotokotoe" ;
      ns1:候補名 "橋本琴絵" ;
      ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -9097,7 +9038,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tachibana.keiichirou" ;
@@ -8736,9 +8724,8 @@
      ns1:比例区 "北海道" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/Abejuichi1" ;
-+    ns1:twitter "abe_juichi" ;
+     ns1:twitter "abe_juichi" ;
      ns1:候補名 "阿部寿一" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://abejuichi.jimdo.com/" ;
