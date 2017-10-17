@@ -1353,15 +1353,17 @@
      ns1:twitter "yamanoikazunori" ;
      ns1:wikidata "Q11466249" ;
      ns1:名 "和則" ;
-@@ -1549,7 +1597,7 @@
+@@ -1549,8 +1597,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-02-28" .
  
 -[] ns1:facebook "https://www.facebook.com/yamaguchi244" ;
+-    ns1:twitter "244yamaguchi" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q704345" ;
      ns1:名 "壯" ;
+     ns1:名前 "山口壯" ;
 @@ -1558,8 +1606,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1954-10-03" .

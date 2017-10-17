@@ -575,8 +575,12 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "鶴治" ;
-@@ -811,7 +834,7 @@
-     ns1:twitter "" ;
+@@ -808,10 +831,10 @@
+     ns1:比例区 "" .
+ 
+ [] ns1:facebook "" ;
+-    ns1:twitter "yuzuruhori_jcp" ;
++    ns1:twitter "" ;
      ns1:せい "ほり" ;
      ns1:めい "ゆずる" ;
 -    ns1:候補名 "堀譲" ;
