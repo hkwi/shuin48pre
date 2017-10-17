@@ -278,6 +278,7 @@ def gray_to_kyousanto():
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "共産" in r[gk.index("政党")]]
+	gk[gk.index("youtube channel")] = "公式サイト"
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
