@@ -1,5 +1,6 @@
 import csv
 import re
+import xlsxwriter
 import unicodedata
 
 def normalize(k,v):
@@ -114,8 +115,13 @@ def run(fp):
 		rlim = rows[hidx].index("担当")
 		header = rows[hidx][:rlim]
 		out = csv.writer(fp)
-		out.writerow(header)
-		out.writerows([[normalize(k,v)[1] for k,v in zip(header, r[:rlim])] for r in rows[skip:]])
+		data = [header]+[[normalize(k,v)[1] for k,v in zip(header, r[:rlim])] for r in rows[skip:]]
+		out.writerows(data)
+		
+		wb = xlsxwriter.Workbook("docs/database.xlsx")
+		ws = wb.add_worksheet()
+		[[ws.write(i,j,c) for j,c in enumerate(r)] for i,r in enumerate(data)]
+		wb.close()
 
 if __name__=="__main__":
 	import sys
