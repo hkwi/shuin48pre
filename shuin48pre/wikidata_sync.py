@@ -53,8 +53,8 @@ def qualifiers(fp):
 	
 	out = csv.writer(fp)
 	out.writerow("db person area party".split())
-	out.writerows([("ours",)+r for r in gd-wd])
-	out.writerows([("wikidata",)+r for r in wd-gd])
+	out.writerows([("ours",)+r for r in sorted(gd-wd)])
+	out.writerows([("wikidata",)+r for r in sorted(wd-gd)])
 
 if __name__=="__main__":
 	import sys
