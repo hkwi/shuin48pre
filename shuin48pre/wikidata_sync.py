@@ -7,6 +7,39 @@ for k,v in csv.reader(open(os.path.join(os.path.dirname(__file__), "ns.csv"))):
 	globals()[k.upper()] = rdflib.Namespace(v)
 	ns[k] = v
 
+def candidates(fp):
+	w = rdflib.ConjunctiveGraph(store="SPARQLStore")
+	w.store.endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
+	res = w.query('''
+	SELECT ?p WHERE {
+		?p wdt:P3602 wd:Q20983100 .
+		OPTIONAL { ?p wdt:  }
+	}
+	''')
+	wd = [r[0][len(WD):] for r in res]
+
+	g = csv.reader(open("docs/gdoc_gray_db.csv"))
+	gd = []
+	fields = None
+	for r in g:
+		if fields is None:
+			if "wikidata" in r:
+				for k in "wikidata 公認政党 比例区 小選挙区".split():
+					assert k in r, r
+				fields = r
+			continue
+		if not "".join(r):
+			continue
+		
+		qname = r[fields.index("wikidata")]
+		gd.append(qname)
+	
+	out = csv.writer(fp)
+	out.writerow("db person".split())
+	out.writerows([("ours",r) for r in sorted(set(gd)-set(wd))])
+	out.writerows([("wikidata",r) for r in sorted(set(wd)-set(gd))])
+	assert set(gd)==set(wd)
+
 def qualifiers(fp):
 	w = rdflib.ConjunctiveGraph(store="SPARQLStore")
 	w.store.endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
@@ -58,4 +91,5 @@ def qualifiers(fp):
 
 if __name__=="__main__":
 	import sys
+	candidates(sys.stdout)
 	qualifiers(sys.stdout)
