@@ -2600,7 +2600,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/gen.miyauchi" ;
-@@ -4708,21 +4676,21 @@
+@@ -4708,8 +4676,8 @@
  
  [] ns1:facebook "https://www.facebook.com/MiyauchiHideki" ;
      ns1:twitter "miyauchihideki" ;
@@ -2611,13 +2611,7 @@
      ns1:前回 "前" ;
      ns1:名 "秀樹" ;
      ns1:名前 "宮内秀樹" ;
-     ns1:姓 "宮内" ;
-     ns1:小選挙区 "福岡4区" ;
--    ns1:年齢 "54" ;
-+    ns1:年齢 "55" ;
-     ns1:政党 "自民" ;
-     ns1:比例区 "九州" .
- 
+@@ -4722,7 +4690,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "宮地勲" ;
@@ -3423,7 +3417,7 @@
      ns1:前回 "新" ;
      ns1:名 "良信" ;
      ns1:名前 "岸良信" ;
-@@ -6360,15 +6324,14 @@
+@@ -6360,9 +6324,8 @@
  
  [] ns1:facebook "https://www.facebook.com/shimazu.yukihiro.jcp" ;
      ns1:twitter "u_simazu" ;
@@ -3435,13 +3429,6 @@
      ns1:前回 "前" ;
      ns1:名 "幸広" ;
      ns1:名前 "島津幸広" ;
-     ns1:姓 "島津" ;
-     ns1:小選挙区 "" ;
--    ns1:年齢 "60" ;
-+    ns1:年齢 "61" ;
-     ns1:政党 "共産" ;
-     ns1:比例区 "東海" .
- 
 @@ -6386,7 +6349,7 @@
      ns1:比例区 "東海" .
  
@@ -4011,12 +3998,8 @@
      ns1:前回 "新" ;
      ns1:名 "精一" ;
      ns1:名前 "末次精一" ;
-@@ -7499,10 +7461,10 @@
-     ns1:政党 "希望" ;
-     ns1:比例区 "九州" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/profile.php?id=100022223864056" ;
+@@ -7502,7 +7464,7 @@
+ [] ns1:facebook "https://www.facebook.com/profile.php?id=100022223864056" ;
      ns1:twitter "hondanobuhiro" ;
      ns1:候補名 "本多信弘" ;
 -    ns1:公式サイト "http://jcpweb.net/honda/" ;
@@ -7452,7 +7435,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100014876527777" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100009330173089" ;
      ns1:twitter "nisida_tosiko" ;
      ns1:候補名 "西田敏子" ;
