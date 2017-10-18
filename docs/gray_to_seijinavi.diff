@@ -1175,6 +1175,15 @@
      ns1:twitter "" ;
      ns1:wikidata "Q1656896" ;
      ns1:名 "光寛" ;
+@@ -1311,7 +1364,7 @@
+     ns1:生年月日 "1950-12-21" .
+ 
+ [] ns1:facebook "https://www.facebook.com/miyaji.takuma" ;
+-    ns1:twitter "miyajitakuma" ;
++    ns1:twitter "" ;
+     ns1:wikidata "Q21655823" ;
+     ns1:名 "拓馬" ;
+     ns1:名前 "宮路拓馬" ;
 @@ -1328,8 +1381,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1953-10-01" .

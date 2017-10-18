@@ -1282,9 +1282,8 @@
      ns1:比例区 "" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/koichi.maeda.10" ;
-+    ns1:twitter "maedakouichi777" ;
+     ns1:twitter "maedakouichi777" ;
      ns1:候補名 "前田浩一" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "http://0118ko.blog46.fc2.com/" ;
@@ -2721,15 +2720,6 @@
      ns1:前回 "前" ;
      ns1:名 "光寛" ;
      ns1:名前 "宮腰光寛" ;
-@@ -4879,7 +4845,7 @@
-     ns1:比例区 "北陸信越" .
- 
- [] ns1:facebook "https://www.facebook.com/miyaji.takuma" ;
--    ns1:twitter "" ;
-+    ns1:twitter "miyajitakuma" ;
-     ns1:候補名 "宮路拓馬" ;
-     ns1:公式サイト "http://miyaji-takuma.com/" ;
-     ns1:前回 "前" ;
 @@ -4904,19 +4870,17 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "九州" .
@@ -6220,7 +6210,7 @@
      ns1:twitter "shiraishiyoichi" ;
      ns1:候補名 "白石洋一" ;
      ns1:公式サイト "http://www.shiraishi.cc/" ;
-@@ -10827,21 +10772,22 @@
+@@ -10827,17 +10772,18 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北関東" .
  
@@ -6242,11 +6232,6 @@
      ns1:比例区 "南関東" .
  
  [] ns1:facebook "https://www.facebook.com/masuda.jcp" ;
--    ns1:twitter "" ;
-+    ns1:twitter "masudajcp" ;
-     ns1:候補名 "益田牧子" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -10853,11 +10799,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "九州" .

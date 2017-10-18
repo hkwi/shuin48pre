@@ -1790,7 +1790,8 @@
      ns1:比例区 "四国" .
  
  [] ns1:facebook "https://www.facebook.com/masuda.jcp" ;
-     ns1:twitter "" ;
+-    ns1:twitter "masudajcp" ;
++    ns1:twitter "" ;
      ns1:せい "ますだ" ;
      ns1:めい "まきこ" ;
 -    ns1:候補名 "益田牧子" ;
