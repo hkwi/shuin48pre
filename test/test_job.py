@@ -10,6 +10,7 @@ import shuin48pre.mainichi
 import shuin48pre.jimin_official
 import shuin48pre.kibou_official
 import shuin48pre.gdoc
+import shuin48pre.wikidata_sync
 
 def spawn(prog, file, *args):
 	def wrap():
@@ -37,3 +38,6 @@ def test_jobs():
 	ths = [spawn(*j) for j in jobs]
 	[th.start() for th in ths]
 	[th.join() for th in ths]
+
+def test_wikidata():
+	shuin48pre.wikidata_sync.qualifiers(open("docs/wikidata_P3602_Q20983100.csv","w"))
