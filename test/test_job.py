@@ -32,12 +32,15 @@ def test_jobs():
 		(shuin48pre.mainichi.run, "docs/mainichi.csv"),
 		(shuin48pre.jimin_official.run, "docs/jimin_official.csv"),
 		(shuin48pre.kibou_official.run, "docs/kibou_official.yaml"),
-		(shuin48pre.gdoc.run, "docs/database.csv"),
 	]
 	
 	ths = [spawn(*j) for j in jobs]
 	[th.start() for th in ths]
 	[th.join() for th in ths]
+
+def test_gdoc():
+	with open("docs/database.csv", "w", encoding="utf-8-sig") as fp:
+		shuin48pre.gdoc.run(fp)
 
 def test_wikidata():
 	shuin48pre.wikidata_sync.qualifiers(open("docs/wikidata_P3602_Q20983100.csv","w"))
