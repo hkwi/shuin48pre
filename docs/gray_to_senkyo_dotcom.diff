@@ -4106,7 +4106,8 @@
      ns1:比例区 "北海道" .
  
  [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-    ns1:twitter "sugishitashigeo" ;
++    ns1:twitter "" ;
      ns1:候補名 "杉下茂雄" ;
 -    ns1:公式サイト "http://senkyo.jcp-tokyo.net/sugishita/profile/" ;
 +    ns1:公式サイト "" ;
@@ -4888,11 +4889,13 @@
      ns1:姓 "森村" ;
      ns1:小選挙区 "" ;
      ns1:年齢 "26" ;
-@@ -8717,7 +8670,7 @@
+@@ -8716,8 +8669,8 @@
+     ns1:比例区 "東京" .
  
  [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-    ns1:twitter "morizakurafsys" ;
 -    ns1:候補名 "森桜ふさよし" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "森桜房義" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
