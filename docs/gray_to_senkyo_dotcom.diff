@@ -1365,20 +1365,15 @@
      ns1:前回 "前" ;
      ns1:名 "寛治" ;
      ns1:名前 "加藤寛治" ;
-@@ -2539,10 +2516,10 @@
+@@ -2539,7 +2516,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東北" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/Tatsuyoshi.Kato.HS" ;
-+    ns1:twitter "tatsuyoshikato" ;
+     ns1:twitter "tatsuyoshikato" ;
      ns1:候補名 "加藤龍義" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://kato-tatsuyoshi.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "龍義" ;
-     ns1:名前 "加藤龍義" ;
+     ns1:公式サイト "http://kato-tatsuyoshi.com/" ;
 @@ -2580,9 +2557,8 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100002449220587" ;
@@ -2313,15 +2308,6 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "斉" ;
-@@ -4192,7 +4151,7 @@
-     ns1:比例区 "" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "otsukitv" ;
-     ns1:候補名 "大槻文彦" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -4207,7 +4166,7 @@
  [] ns1:facebook "https://www.facebook.com/chieko.oosawa.3" ;
      ns1:twitter "" ;
@@ -8553,12 +8539,9 @@
      ns1:前回 "元" ;
      ns1:名 "直人" ;
      ns1:名前 "阪口直人" ;
-@@ -14528,9 +14492,9 @@
-     ns1:比例区 "東海" .
- 
+@@ -14530,7 +14494,7 @@
  [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "akutsuyukihiko" ;
+     ns1:twitter "akutsuyukihiko" ;
      ns1:候補名 "阿久津幸彦" ;
 -    ns1:公式サイト "" ;
 +    ns1:公式サイト "https://ameblo.jp/piteq12345/" ;
