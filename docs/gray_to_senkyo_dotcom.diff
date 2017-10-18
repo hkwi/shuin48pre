@@ -7202,17 +7202,15 @@
      ns1:twitter "fujiokatakao" ;
      ns1:候補名 "藤岡隆雄" ;
      ns1:公式サイト "http://fujioka-takao.jp/" ;
-@@ -12558,8 +12521,8 @@
+@@ -12558,7 +12521,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
 -    ns1:候補名 "藤巻けんた" ;
--    ns1:公式サイト "http://fujimaki-kenta.com/profile/" ;
 +    ns1:候補名 "藤巻健太" ;
-+    ns1:公式サイト "http://fujimaki-kenta.com/" ;
+     ns1:公式サイト "http://fujimaki-kenta.com/" ;
      ns1:前回 "新" ;
      ns1:名 "健太" ;
-     ns1:名前 "藤巻健太" ;
 @@ -12572,7 +12535,7 @@
  [] ns1:facebook "https://www.facebook.com/kazunori.fujimoto.587" ;
      ns1:twitter "1218fuji" ;
