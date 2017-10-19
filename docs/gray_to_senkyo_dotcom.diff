@@ -231,17 +231,15 @@
      ns1:前回 "前" ;
      ns1:名 "朝彦" ;
      ns1:名前 "三原朝彦" ;
-@@ -233,8 +241,8 @@
+@@ -233,7 +241,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tomoyuki.miwa3" ;
      ns1:twitter "1975_miwa" ;
 -    ns1:候補名 "みわ智之" ;
--    ns1:公式サイト "" ;
 +    ns1:候補名 "三和智之" ;
-+    ns1:公式サイト "http://shoot128.exblog.jp/" ;
+     ns1:公式サイト "http://shoot128.exblog.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "智之" ;
-     ns1:名前 "三和智之" ;
 @@ -244,7 +252,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "近畿" .
@@ -4353,7 +4351,7 @@
      ns1:比例区 "東京" .
  
 -[] ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786" ;
--    ns1:twitter "" ;
+-    ns1:twitter "matsuo_masanori" ;
 -    ns1:候補名 "松尾まさのり" ;
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
