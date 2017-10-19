@@ -402,7 +402,7 @@ def gray_to_koumei():
 	open("docs/gray_to_koumei.diff", "w").writelines(lines)
 
 def gray_to_jimin():
-	ks = "小選挙区 比例区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 候補名 url".split()
+	ks = "小選挙区 比例区 立候補 推薦 姓 名 せい めい 性別 誕生日 肩書 職歴 url 候補名".split()
 	db = [r+[r[ks.index("姓")]+r[ks.index("名")]] for r in csv.reader(open("docs/jimin_official.csv")) if "".join(r)]
 	assert len(ks) == len(db[0])
 	
