@@ -17,6 +17,7 @@ key_conv = {
 	"名前（姓）":"姓",
 	"名前（名）":"名",
 	"公認政党":"政党",
+	"推薦政党":"推薦",
 	"担当":None,
 	"作業予定日":None,
 	"完了日":None,
@@ -27,6 +28,7 @@ key_conv = {
 	"Facebookページアドレス":"facebook",
 	"フェイスブックID":"facebook",
 	"公式Facebookページ":"facebook",
+	"公式ブログ":"blog",
 	"メモ": None
 }
 
@@ -117,11 +119,12 @@ def normalize(k,v):
 		return k,""
 	
 	if k == "twitter":
+		p = v
 		v = v.strip().split("?")[0].lower()
-		m = re.match("https?://twitter.com/[@＠]?([^/@\?]+)", v)
+		m = re.match("https?://(www.)?twitter.com/[@＠]?([^/@\?]+)", v)
 		if m:
-			v = m.group(1)
-		elif not v.startswith("/"):
+			v = m.group(2)
+		elif not v.startswith("http") and not v.startswith("/"):
 			v = v.split("/")[0]
 		
 		if v.startswith("\u200E"):
@@ -131,6 +134,14 @@ def normalize(k,v):
 		if pc[2] == "":
 			pc[2] = "/"
 			v = urllib.parse.urlunparse(pc)
+		if "facebook.com" in pc[1]:
+			return normalize("facebook", v)
+		elif "youtu.be" in pc[1] or "youtube.com" in pc[1]:
+			return normalize("youtube", v)
+		elif "twitter.com" in pc[1]:
+			return normalize("twitter", v)
+		elif "ameblo.jp" == pc[1] or pc[1].endswith(".blogspot.jp") or pc[1].endswith(".fc2.com") or pc[1].endswith(".exblog.jp"):
+			return normalize("blog", v)
 	elif k == "facebook":
 		if v.startswith("/"):
 			v = "https://www.facebook.com" + v
@@ -235,17 +246,22 @@ def ttl_out(dbkeys, dbdata, keys):
 			if vs is None:
 				continue
 			
-			for v in vs.split("\n"):
-				k,v = normalize(k,v)
-				if k in keys:
-					objs = list(g.objects(e, EX[k]))
+			if k == "推薦":
+				vs = vs.split("/")
+			else:
+				vs = vs.split("\n")
+			
+			for v in vs:
+				kc,v = normalize(k,v)
+				if kc in keys:
+					objs = list(g.objects(e, EX[kc]))
 					if len(objs) == 0:
-						g.add((e, EX[k], rdflib.Literal(v)))
+						g.add((e, EX[kc], rdflib.Literal(v)))
 					elif v:
 						if "".join([o.value for o in objs]):
-							g.add((e, EX[k], rdflib.Literal(v)))
+							g.add((e, EX[kc], rdflib.Literal(v)))
 						else:
-							g.set((e, EX[k], rdflib.Literal(v)))
+							g.set((e, EX[kc], rdflib.Literal(v)))
 	return [l for l in io.StringIO(g.serialize(format="turtle").decode("UTF-8"))]
 
 def gray_to_seijinavi():
@@ -274,11 +290,12 @@ def gray_to_kyousanto():
 		"前回", "比例区", "小選挙区", "肩書", "twitter", "facebook", "公式サイト", "メモ", "url"]
 	db = [r for r in csv.reader(open("docs/kyousanto_official.csv")) if "".join(r)]
 	db = [list(r) for r in set([tuple(r) for r in db])]
+	ks += ["blog", "youtube"]
+	db = [r+["",""] for r in db]
 	assert len(ks) == len(db[0])
 	
 	gk, gdb = load_gdoc("docs/gdoc_gray_db.csv")
 	gdb = [r for r in gdb if "共産" in r[gk.index("政党")]]
-	gk[gk.index("youtube channel")] = "公式サイト"
 	
 	kname = [match_names(ks,r) for r in db]
 	gname = [match_names(gk,r) for r in gdb]
