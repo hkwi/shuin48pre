@@ -2533,15 +2533,11 @@
      ns1:前回 "前" ;
      ns1:名 "岳志" ;
      ns1:名前 "宮崎岳志" ;
-@@ -4726,11 +4700,11 @@
-     ns1:小選挙区 "群馬1区" ;
-     ns1:年齢 "47" ;
+@@ -4728,9 +4702,9 @@
      ns1:政党 "希望" ;
--    ns1:比例区 "{" .
--
+     ns1:比例区 "北関東" .
+ 
 -[] ns1:facebook "https://www.facebook.com/masahisa.miyazaki.9" ;
-+    ns1:比例区 "北関東" .
-+
 +[] ns1:facebook "https://www.facebook.com/miyazaki.masahisa" ;
      ns1:twitter "miyazaki_kirin" ;
 -    ns1:候補名 "ミヤザキ政久" ;
