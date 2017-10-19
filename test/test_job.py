@@ -44,3 +44,4 @@ def test_gdoc():
 
 def test_wikidata():
 	shuin48pre.wikidata_sync.qualifiers(open("docs/wikidata_P3602_Q20983100.csv","w"))
+	shuin48pre.wikidata_sync.properties(open("docs/wikidata_properties.csv","w"))
