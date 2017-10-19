@@ -2350,7 +2350,7 @@
      ns1:比例区 "" .
  
 -[] ns1:facebook "https://www.facebook.com/八法亭-みややっこ-729898467032255" ;
-+[] ns1:facebook "https://www.facebook.com/729898467032255" ;
++[] ns1:facebook "" ;
      ns1:twitter "iidamiyako1" ;
      ns1:せい "いいだ" ;
      ns1:めい "みやこ" ;
