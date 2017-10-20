@@ -4239,7 +4239,7 @@
      ns1:twitter "nemotoyukinori" ;
      ns1:候補名 "根本幸典" ;
      ns1:公式サイト "http://www.nemotoyukinori.jp/" ;
-@@ -8420,23 +8393,23 @@
+@@ -8420,7 +8393,7 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "四国" .
  
@@ -4247,10 +4247,8 @@
 +[] ns1:facebook "https://www.facebook.com/fsakura" ;
      ns1:twitter "fsakura" ;
      ns1:候補名 "桜内文城" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://www.sakurauchi.jp/" ;
-     ns1:前回 "元" ;
-     ns1:名 "文城" ;
+     ns1:公式サイト "http://www.sakurauchi.jp/" ;
+@@ -8429,14 +8402,14 @@
      ns1:名前 "桜内文城" ;
      ns1:姓 "桜内" ;
      ns1:小選挙区 "愛媛4区" ;
