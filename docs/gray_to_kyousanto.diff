@@ -1162,12 +1162,8 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "善彦" ;
-@@ -1587,10 +1581,10 @@
- 
- [] ns1:blog "" ;
-     ns1:facebook "https://www.facebook.com/michiya.hirakawa" ;
--    ns1:twitter "" ;
-+    ns1:twitter "jcpsaitamananbu" ;
+@@ -1590,7 +1584,7 @@
+     ns1:twitter "jcpsaitamananbu" ;
      ns1:せい "ひらかわ" ;
      ns1:めい "みちや" ;
 -    ns1:候補名 "平川道也" ;

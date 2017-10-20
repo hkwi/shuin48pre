@@ -3208,7 +3208,7 @@
      ns1:twitter "tairamasaaki" ;
      ns1:候補名 "平将明" ;
      ns1:公式サイト "http://www.taira-m.jp/" ;
-@@ -6654,7 +6620,8 @@
+@@ -6654,11 +6620,12 @@
      ns1:姓 "平山" ;
      ns1:小選挙区 "愛知6区" ;
      ns1:年齢 "69" ;
@@ -3218,6 +3218,11 @@
      ns1:比例区 "東海" .
  
  [] ns1:facebook "https://www.facebook.com/michiya.hirakawa" ;
+-    ns1:twitter "jcpsaitamananbu" ;
++    ns1:twitter "" ;
+     ns1:候補名 "平川道也" ;
+     ns1:公式サイト "http://www.cupolatown.net/" ;
+     ns1:前回 "新" ;
 @@ -6699,7 +6666,7 @@
  [] ns1:facebook "https://www.facebook.com/hirasawakatuei" ;
      ns1:twitter "katsueihirasawa" ;
