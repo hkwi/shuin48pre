@@ -3920,15 +3920,6 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "顕治" ;
-@@ -7999,7 +7954,7 @@
- [] ns1:facebook "https://www.facebook.com/ryosuke.matsumura.79" ;
-     ns1:twitter "akahigepapa" ;
-     ns1:候補名 "松村亮佑" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://senkyo.jcp-tokyo.net/matsumura/" ;
-     ns1:前回 "新" ;
-     ns1:名 "亮佑" ;
-     ns1:名前 "松村亮佑" ;
 @@ -8021,10 +7976,23 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
