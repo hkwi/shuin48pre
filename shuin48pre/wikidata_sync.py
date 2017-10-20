@@ -40,6 +40,9 @@ def properties(fp):
 			if r[k]:
 				wd.add((r["p"], WDT[v], r[k]))
 	
+	twitter_sn_conv = {r["asis"]:r["screen_name"] for r
+		in csv.DictReader(open("docs/twitter_sn_map.csv"))}
+	
 	gd = rdflib.Graph()
 	fields = None
 	for r in csv.reader(open("docs/gdoc_gray_db.csv")):
@@ -57,6 +60,10 @@ def properties(fp):
 			continue
 		
 		s = WD[qname]
+		
+		for v in r[fields.index("かな")].split("\n"):
+			gd.add((s, WDT["P1814"], rdflib.Literal(v)))
+		
 		gd.add((s, WDT["P21"], {
 			"男": WD["Q6581097"],
 			"女": WD["Q6581072"],
@@ -71,6 +78,7 @@ def properties(fp):
 			if m:
 				v = m.group(2)
 			if v and v!="-":
+				v = twitter_sn_conv.get(v, v)
 				gd.add((s, WDT["P2002"], rdflib.Literal(v)))
 		
 		for v in r[fields.index("公式ブログ")].split("\n"):
