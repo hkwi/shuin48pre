@@ -5816,20 +5816,16 @@
      ns1:前回 "新" ;
      ns1:名 "英行" ;
      ns1:名前 "石川英行" ;
-@@ -11079,10 +11043,11 @@
+@@ -11079,7 +11043,8 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/kaori.ishikawa.tokachi" ;
 +[] ns1:facebook "https://www.facebook.com/ishikawa.kaori.12",
 +        "https://www.facebook.com/kaori.ishikawa.tokachi" ;
      ns1:twitter "ishikawakaori11" ;
      ns1:候補名 "石川香織" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://ishikawa-kaori.jp/" ;
-     ns1:前回 "新" ;
-     ns1:名 "香織" ;
-     ns1:名前 "石川香織" ;
+     ns1:公式サイト "http://ishikawa-kaori.jp/" ;
 @@ -11093,7 +11058,7 @@
      ns1:比例区 "北海道" .
  
