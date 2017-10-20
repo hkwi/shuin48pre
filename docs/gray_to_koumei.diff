@@ -91,11 +91,13 @@
      ns1:twitter "" ;
      ns1:候補名 "高村宗男" ;
      ns1:小選挙区 "" ;
-@@ -314,12 +311,12 @@
+@@ -313,13 +310,13 @@
+     ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  
- [] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/yoko.wanibuchi" ;
 -    ns1:twitter "wanibuchiyoko" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:候補名 "鰐淵洋子" ;
      ns1:小選挙区 "" ;
