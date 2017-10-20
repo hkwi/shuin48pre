@@ -2201,7 +2201,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
--[] ns1:facebook "https://www.facebook.com/amakinaoto" ;
+-[] ns1:facebook "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100021549156123" ;
      ns1:twitter "amakinaoto" ;
      ns1:候補名 "天木直人" ;
@@ -5814,7 +5814,7 @@
 -    ns1:政党 "諸派" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "https://www.facebook.com/pages/衆議院議員-石田�%9" ;
+-[] ns1:facebook "" ;
 +    ns1:政党 "幸福" ;
 +    ns1:比例区 "" .
 +
