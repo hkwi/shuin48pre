@@ -4,6 +4,7 @@ import csv
 import os.path
 import itertools
 import urllib.parse
+import logging
 
 ns={}
 for k,v in csv.reader(open(os.path.join(os.path.dirname(__file__), "ns.csv"))):
@@ -20,7 +21,6 @@ def properties(fp):
 		twitter= "P2002",
 		facebook= "P2013",
 		youtube= "P2397",
-		sns= "P553",
 		site= "P856",
 		email= "P968",
 		blog= "P1581",
@@ -79,22 +79,29 @@ def properties(fp):
 			if m:
 				v = m.group(2)
 			if v and v!="-":
-				v = twitter_sn_conv.get(v, v)
-				gd.add((s, WDT["P2002"], rdflib.Literal(v)))
+				v2 = twitter_sn_conv.get(v, v)
+				if v2 and v2 != "-":
+					gd.add((s, WDT["P2002"], rdflib.Literal(v2)))
+				else:
+					logging.warn("twitter ID conversion error %s" % v)
 		
 		for v in r[fields.index("公式ブログ")].split("\n"):
 			if v and v!="-":
 				gd.add((s, WDT["1581"], rdflib.Literal(v)))
+		
+		for v in r[fields.index("公式サイト")].split("\n"):
+			if v and v!="-":
+				gd.add((s, WDT["P856"], rdflib.Literal(v)))
 	
 	for r in csv.DictReader(open("docs/fb.csv")):
-		if r["type"] != "profile":
-			continue
 		if r["dst"] == "-":
 			continue
-		path = urllib.parse.urlparse(r["dst"]).path
-		if path == "/profile.php":
-			continue
-		gd.add((WD[r["qname"]], WDT["P2013"], rdflib.Literal(path[1:])))
+		pc = urllib.parse.urlparse(r["dst"])
+		if pc.path == "/profile.php":
+			rep = urllib.parse.parse_qs(pc.query)["id"][0]
+		else:
+			rep = urllib.parse.unquote(pc.path).split("/")[1]
+		gd.add((WD[r["qname"]], WDT["P2013"], rdflib.Literal(rep)))
 	
 	out = csv.writer(fp)
 	out.writerow("db person property value".split())
