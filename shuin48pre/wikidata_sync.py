@@ -3,6 +3,7 @@ import rdflib
 import csv
 import os.path
 import itertools
+import urllib.parse
 
 ns={}
 for k,v in csv.reader(open(os.path.join(os.path.dirname(__file__), "ns.csv"))):
@@ -84,6 +85,16 @@ def properties(fp):
 		for v in r[fields.index("公式ブログ")].split("\n"):
 			if v and v!="-":
 				gd.add((s, WDT["1581"], rdflib.Literal(v)))
+	
+	for r in csv.DictReader(open("docs/fb.csv")):
+		if r["type"] != "profile":
+			continue
+		if r["dst"] == "-":
+			continue
+		path = urllib.parse.urlparse(r["dst"]).path
+		if path == "/profile.php":
+			continue
+		gd.add((WD[r["qname"]], WDT["P2013"], rdflib.Literal(path[1:])))
 	
 	out = csv.writer(fp)
 	out.writerow("db person property value".split())
