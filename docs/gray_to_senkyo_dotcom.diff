@@ -4023,17 +4023,15 @@
      ns1:twitter "" ;
      ns1:候補名 "柏倉祐司" ;
      ns1:公式サイト "http://www.kashiwakurayuji.jp/" ;
-@@ -8236,8 +8198,8 @@
+@@ -8236,7 +8198,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
  
 -[] ns1:facebook "" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100004101044381" ;
-+    ns1:twitter "atsutsuge" ;
+     ns1:twitter "atsutsuge" ;
      ns1:候補名 "柘植厚人" ;
      ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -8262,9 +8224,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "中国" .
@@ -5188,12 +5186,9 @@
      ns1:前回 "新" ;
      ns1:名 "憲勲" ;
      ns1:名前 "玉田憲勲" ;
-@@ -10276,9 +10227,9 @@
-     ns1:比例区 "" .
- 
+@@ -10278,7 +10229,7 @@
  [] ns1:facebook "https://www.facebook.com/amariakiragenkikun" ;
--    ns1:twitter "" ;
-+    ns1:twitter "akira_amari" ;
+     ns1:twitter "akira_amari" ;
      ns1:候補名 "甘利明" ;
 -    ns1:公式サイト "http://www.amari-akira.com/" ;
 +    ns1:公式サイト "http://amari-akira.com/" ;
