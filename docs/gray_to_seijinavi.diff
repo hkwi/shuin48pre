@@ -1649,15 +1649,17 @@
      ns1:twitter "" ;
      ns1:wikidata "Q7496422" ;
      ns1:名 "茂之" ;
-@@ -1853,7 +1912,7 @@
+@@ -1853,8 +1912,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1955-12-09" .
  
 -[] ns1:facebook "https://www.facebook.com/minorikawa.nobu" ;
+-    ns1:twitter "minorikawa_nobu" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q49988" ;
      ns1:名 "信英" ;
+     ns1:名前 "御法川信英" ;
 @@ -1880,7 +1939,7 @@
      ns1:性別 "女性" ;
      ns1:生年月日 "1974-09-29" .

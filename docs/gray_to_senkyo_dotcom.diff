@@ -3265,12 +3265,9 @@
      ns1:前回 "新" ;
      ns1:名 "世津子" ;
      ns1:名前 "店橋世津子" ;
-@@ -6814,9 +6781,9 @@
-     ns1:比例区 "北陸信越" .
- 
+@@ -6816,7 +6783,7 @@
  [] ns1:facebook "https://www.facebook.com/minorikawa.nobu" ;
--    ns1:twitter "" ;
-+    ns1:twitter "minorikawa_nobu" ;
+     ns1:twitter "minorikawa_nobu" ;
      ns1:候補名 "御法川信英" ;
 -    ns1:公式サイト "http://www.minorikawa.jp/" ;
 +    ns1:公式サイト "http://minorikawa.jp/" ;
