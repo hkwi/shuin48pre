@@ -6092,7 +6092,7 @@
      ns1:公式サイト "http://hosoda-kenichi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "健一" ;
-@@ -11920,10 +11881,10 @@
+@@ -11920,7 +11881,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "" .
  
@@ -6100,11 +6100,7 @@
 +[] ns1:facebook "https://www.facebook.com/緑川たかし-353651984803963" ;
      ns1:twitter "green_river15t" ;
      ns1:候補名 "緑川貴士" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://midori-kawa.jp/" ;
-     ns1:前回 "新" ;
-     ns1:名 "貴士" ;
-     ns1:名前 "緑川貴士" ;
+     ns1:公式サイト "http://midori-kawa.jp/" ;
 @@ -11935,7 +11896,7 @@
  
  [] ns1:facebook "https://www.facebook.com/rintaro.ogata.official" ;
