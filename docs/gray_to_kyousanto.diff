@@ -1476,6 +1476,23 @@
      ns1:前回 "新" ;
      ns1:名 "千春" ;
      ns1:名前 "松橋千春" ;
+@@ -2023,13 +2005,13 @@
+     ns1:年齢 "35" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:blog "http://blog.livedoor.jp/kazushi53/" ;
++[] ns1:blog "" ;
+     ns1:facebook "https://www.facebook.com/KazushiMatsuda53" ;
+-    ns1:twitter "jcpkazushi53" ;
++    ns1:twitter "" ;
+     ns1:せい "まつだ" ;
+     ns1:めい "かずし" ;
+     ns1:候補名 "松田一志" ;
+-    ns1:公式サイト "http://www.matsudakazushi53.com/" ;
++    ns1:公式サイト "http://blog.livedoor.jp/kazushi53/" ;
+     ns1:前回 "新" ;
+     ns1:名 "一志" ;
+     ns1:名前 "松田一志" ;
 @@ -2038,14 +2020,12 @@
      ns1:年齢 "60" ;
      ns1:比例区 "" .

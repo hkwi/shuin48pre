@@ -3947,19 +3947,16 @@
      ns1:前回 "新" ;
      ns1:名 "大悟" ;
      ns1:名前 "松浦大悟" ;
-@@ -8034,9 +8002,9 @@
-     ns1:政党 "希望" ;
-     ns1:比例区 "東北" .
+@@ -8036,7 +8004,7 @@
  
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/matsunami.kenta" ;
+ [] ns1:facebook "https://www.facebook.com/matsunami.kenta" ;
      ns1:twitter "matsunamikenta" ;
 -    ns1:候補名 "松浪ケンタ" ;
 +    ns1:候補名 "松浪健太" ;
      ns1:公式サイト "http://www.kentakenta.org/" ;
      ns1:前回 "前" ;
      ns1:名 "健太" ;
-@@ -8047,23 +8015,23 @@
+@@ -8047,15 +8015,15 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -3979,25 +3976,6 @@
      ns1:年齢 "39" ;
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
- 
- [] ns1:facebook "https://www.facebook.com/KazushiMatsuda53" ;
--    ns1:twitter "" ;
-+    ns1:twitter "jcpkazushi53" ;
-     ns1:候補名 "松田一志" ;
--    ns1:公式サイト "http://blog.livedoor.jp/kazushi53/" ;
-+    ns1:公式サイト "http://www.matsudakazushi53.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "一志" ;
-     ns1:名前 "松田一志" ;
-@@ -8086,7 +8054,7 @@
-     ns1:政党 "立憲民主" ;
-     ns1:比例区 "東海" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/naohisa.matsuda.39" ;
-     ns1:twitter "naohisamatsuda" ;
-     ns1:候補名 "松田直久" ;
-     ns1:公式サイト "http://www.n-matsuda.jp/" ;
 @@ -8099,7 +8067,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .

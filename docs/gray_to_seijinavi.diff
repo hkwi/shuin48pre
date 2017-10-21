@@ -1844,11 +1844,22 @@
      ns1:twitter "junmatsumoto411" ;
      ns1:wikidata "Q6311513" ;
      ns1:名 "純" ;
-@@ -2111,7 +2165,7 @@
+@@ -2101,7 +2155,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1950-04-11" .
+ 
+-[] ns1:facebook "https://www.facebook.com/matsunami.kenta" ;
++[] ns1:facebook "" ;
+     ns1:twitter "matsunamikenta" ;
+     ns1:wikidata "Q923428" ;
+     ns1:名 "健太" ;
+@@ -2110,8 +2164,8 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1971-08-17" .
  
- [] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/naohisa.matsuda.39" ;
 -    ns1:twitter "naohisamatsuda" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q17223599" ;
      ns1:名 "直久" ;
