@@ -2507,15 +2507,17 @@
      ns1:姓 "小倉" ;
      ns1:小選挙区 "東京23区" ;
      ns1:年齢 "36" ;
-@@ -4979,7 +4947,7 @@
+@@ -4979,8 +4947,8 @@
  
  [] ns1:facebook "https://www.facebook.com/yasufumi.kowada" ;
      ns1:twitter "kujira0827" ;
 -    ns1:候補名 "こわだ康文" ;
+-    ns1:公式サイト "https://ishin-kowada.jimdo.com/" ;
 +    ns1:候補名 "小和田康文" ;
-     ns1:公式サイト "" ;
++    ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "康文" ;
+     ns1:名前 "小和田康文" ;
 @@ -4991,7 +4959,7 @@
      ns1:比例区 "北海道" .
  
