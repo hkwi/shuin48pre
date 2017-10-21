@@ -369,10 +369,12 @@
 -    ns1:職歴 "古田酒造(資)",
 -        "国際電信電話(株)",
 -        "幸福実現党岐阜県本部代表" .
+-
+-[] ns1:facebook "https://www.facebook.com/ppp.ggg.ddm.w" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "幸福実現党岐阜県本部代表（兼）東海比例ブロック副支部長" .
- 
- [] ns1:facebook "" ;
++
++[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "加藤健太" ;
      ns1:小選挙区 "" ;

@@ -619,6 +619,15 @@
      ns1:twitter "katsunobukato" ;
      ns1:wikidata "Q6378155" ;
      ns1:名 "勝信" ;
+@@ -617,7 +652,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1955-11-22" .
+ 
+-[] ns1:facebook "https://www.facebook.com/katokanji0424" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q11399159" ;
+     ns1:名 "寛治" ;
 @@ -626,8 +661,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1946-04-24" .
@@ -2779,6 +2788,15 @@
      ns1:twitter "" ;
      ns1:wikidata "Q6426211" ;
      ns1:名 "光一" ;
+@@ -3351,7 +3433,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1959-10-12" .
+ 
+-[] ns1:facebook "https://www.facebook.com/sonokenn" ;
++[] ns1:facebook "" ;
+     ns1:twitter "sonourakentaro" ;
+     ns1:wikidata "Q1965622" ;
+     ns1:名 "健太郎" ;
 @@ -3378,7 +3460,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1971-09-11" .
@@ -3010,6 +3028,15 @@
      ns1:wikidata "Q7827620" ;
      ns1:名 "利明" ;
      ns1:名前 "遠藤利明" ;
+@@ -3653,7 +3748,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1950-01-17" .
+ 
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100007432056229" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q11642258" ;
+     ns1:名 "敬" ;
 @@ -3672,7 +3767,7 @@
      ns1:生年月日 "1970-12-21" .
  
