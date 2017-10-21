@@ -69,6 +69,15 @@
      ns1:候補名 "布施正行" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
+@@ -180,7 +178,7 @@
+     ns1:小選挙区 "" ;
+     ns1:比例区 "北関東" .
+ 
+-[] ns1:facebook "https://www.facebook.com/masuya.keigo.komei" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:候補名 "桝屋敬悟" ;
+     ns1:小選挙区 "" ;
 @@ -258,10 +256,9 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
