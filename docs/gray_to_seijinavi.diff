@@ -705,10 +705,13 @@
      ns1:twitter "" ;
      ns1:wikidata "Q265174" ;
      ns1:名 "知克" ;
-@@ -696,6 +726,15 @@
+@@ -694,7 +724,16 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1951-11-08" .
  
- [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100022557900462" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
 +    ns1:wikidata "Q7496361" ;
 +    ns1:名 "茂男" ;
 +    ns1:名前 "北村茂男" ;
@@ -717,10 +720,9 @@
 +    ns1:生年月日 "1945-11-08" .
 +
 +[] ns1:facebook "" ;
-+    ns1:twitter "" ;
+     ns1:twitter "" ;
      ns1:wikidata "Q7446686" ;
      ns1:名 "誠吾" ;
-     ns1:名前 "北村誠吾" ;
 @@ -703,8 +742,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1947-01-29" .
@@ -1471,6 +1473,15 @@
      ns1:twitter "yamanoikazunori" ;
      ns1:wikidata "Q11466249" ;
      ns1:名 "和則" ;
+@@ -1552,7 +1588,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1962-01-06" .
+ 
+-[] ns1:facebook "https://www.facebook.com/tokushima.yamaguchi" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q7505080" ;
+     ns1:名 "俊一" ;
 @@ -1561,9 +1597,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1950-02-28" .
@@ -3086,6 +3097,15 @@
      ns1:twitter "nishy03" ;
      ns1:wikidata "Q8050121" ;
      ns1:名 "康稔" ;
+@@ -3445,7 +3505,7 @@
+     ns1:性別 "男性" ;
+     ns1:生年月日 "1962-10-15" .
+ 
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100022364692809" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:wikidata "Q4700938" ;
+     ns1:名 "明宏" ;
 @@ -3454,8 +3514,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1960-07-16" .
