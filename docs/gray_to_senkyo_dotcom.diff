@@ -4624,7 +4624,7 @@
      ns1:公式サイト "http://www.saori-ikeuchi.com/" ;
      ns1:前回 "前" ;
      ns1:名 "沙織" ;
-@@ -9402,17 +9342,18 @@
+@@ -9402,7 +9342,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "東京" .
  
@@ -4632,11 +4632,8 @@
 +[] ns1:facebook "https://www.facebook.com/masayo.ikeda.77" ;
      ns1:twitter "masayoikeda_sdp" ;
      ns1:候補名 "池田万佐代" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://ikeda.sdp-saitama.org/" ;
-     ns1:前回 "新" ;
-     ns1:名 "万佐代" ;
-     ns1:名前 "池田万佐代" ;
+     ns1:公式サイト "http://ikeda.sdp-saitama.org/" ;
+@@ -9412,7 +9352,8 @@
      ns1:姓 "池田" ;
      ns1:小選挙区 "埼玉13区" ;
      ns1:年齢 "58" ;
