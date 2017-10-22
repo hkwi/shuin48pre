@@ -75,6 +75,7 @@ def properties(fp):
 		gd.add((s, WDT["P569"], rdflib.Literal(v, datatype=rdflib.XSD.dateTime)))
 		
 		for v in r[fields.index("twitter")].split("\n"):
+			v = v.strip()
 			m = re.match("https?://(www.)twitter.com/[@＠]?([^@/\?]+)", v)
 			if m:
 				v = m.group(2)
@@ -87,11 +88,11 @@ def properties(fp):
 		
 		for v in r[fields.index("公式ブログ")].split("\n"):
 			if v and v!="-":
-				gd.add((s, WDT["1581"], rdflib.Literal(v)))
+				gd.add((s, WDT["1581"], rdflib.Literal(v.strip())))
 		
 		for v in r[fields.index("公式サイト")].split("\n"):
 			if v and v!="-":
-				gd.add((s, WDT["P856"], rdflib.Literal(v)))
+				gd.add((s, WDT["P856"], rdflib.Literal(v.strip())))
 	
 	for r in csv.DictReader(open("docs/fb.csv")):
 		if r["dst"] == "-":
