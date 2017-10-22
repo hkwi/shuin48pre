@@ -47,6 +47,17 @@ def general_election(fp):
 		out.writerow(["codefor"]+list(t))
 
 def term(fp):
+	kaiha = {
+		'共産': "Q641600",
+		'民進': "Q23055252",
+		'公明': "Q1061354",
+		'無': "Q327591",
+		'自由': "Q2164308",
+		'維新': "Q21499745",
+		'社民': "Q835109",
+		'自民': "Q232595",
+	}
+	
 	w = rdflib.ConjunctiveGraph(store="SPARQLStore")
 	w.store.endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
 	res = w.query('''
@@ -54,19 +65,30 @@ def term(fp):
 	  ?person p:P39 ?st .
 	  ?st ps:P39 wd:Q17506823 ;
 	      pq:P2937 wd:Q41654707 .
+	  OPTIONAL { ?st pq:P4100 ?party . }
 	}
 	''')
-	wd = [r["person"][len(WD):] for r in res]
-	gd = [t["wikidata"] for t in csv.DictReader(open("docs/shuin47post.csv")) if t["wikidata"] not in ("","-")]
+	wd = []
+	for r in res:
+		if r["party"]:
+			wd.append((r["person"][len(WD):], r["party"][len(WD):]))
+		else:
+			wd.append((r["person"][len(WD):], ""))
+	
+	gd = []
+	for t in csv.DictReader(open("docs/shuin47post.csv")):
+		if t["wikidata"] in ("","-"):
+			continue
+		gd.append((t["wikidata"],kaiha.get(t["party_ref"], "")))
 	
 	out = csv.writer(fp)
 	out.writerow(("db","qname"))
 	for t in sorted(set(wd)-set(gd)):
-		out.writerow(["wikidata",t])
+		out.writerow(["wikidata"]+list(t))
 	for t in sorted(set(gd)-set(wd)):
-		out.writerow(["codefor",t])
+		out.writerow(["codefor"]+list(t))
 
 if __name__ == "__main__":
 	import sys
-#	term(sys.stdout)
+	term(sys.stdout)
 	general_election(sys.stdout)
