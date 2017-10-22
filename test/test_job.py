@@ -11,6 +11,7 @@ import shuin48pre.jimin_official
 import shuin48pre.kibou_official
 import shuin48pre.gdoc
 import shuin48pre.wikidata_sync
+import shuin48pre.wikidata47_sync
 
 def spawn(prog, file, *args):
 	def wrap():
