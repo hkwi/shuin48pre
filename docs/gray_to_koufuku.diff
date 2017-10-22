@@ -128,8 +128,8 @@
 +    ns1:立候補 "党発表" ;
      ns1:職歴 "" .
  
- [] ns1:facebook "" ;
-     ns1:twitter "" ;
+-[] ns1:facebook "https://www.facebook.com/norico.nohara" ;
+-    ns1:twitter "" ;
 -    ns1:候補名 "野原典子" ;
 -    ns1:小選挙区 "岐阜1区" ;
 -    ns1:比例区 "" ;
@@ -139,6 +139,8 @@
 -[] ns1:facebook "" ;
 -    ns1:twitter "akemimitsubachi" ;
 -    ns1:候補名 "三觜明美" ;
++[] ns1:facebook "" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "みつはし明美" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北関東" ;
@@ -577,7 +579,7 @@
 -    ns1:立候補 "確定" ;
 -    ns1:職歴 "幸福実現党総務会部長" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/skkokumi" ;
 -    ns1:twitter "" ;
 -    ns1:候補名 "小泉修平" ;
 -    ns1:小選挙区 "大阪1区" ;

@@ -9,7 +9,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "九州" .
  
-@@ -16,8 +16,7 @@
+@@ -16,14 +16,13 @@
      ns1:小選挙区 "大阪6区" ;
      ns1:比例区 "" .
  
@@ -19,6 +19,13 @@
      ns1:twitter "inatsuhisashi" ;
      ns1:候補名 "いなつ久" ;
      ns1:小選挙区 "北海道10区" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/takashi.uechi.5" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:候補名 "上地崇" ;
+     ns1:小選挙区 "" ;
 @@ -42,7 +41,7 @@
      ns1:比例区 "東海" .
  
