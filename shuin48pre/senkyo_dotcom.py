@@ -69,13 +69,14 @@ def run(fp, hirei=True):
 			if m:
 				bulk["age_n"] = m.group(1)
 			
-			seimei = re.split("　+", bulk["namel"])
-			if len(seimei) > 1:
-				bulk["sei"] = seimei[0]
-				bulk["mei"] = seimei[1]
-				bulk["name"] = "".join(seimei)
-			else:
-				bulk["name"] = seimei[0]
+			if bulk["namel"]:
+				seimei = re.split("　+", bulk["namel"])
+				if len(seimei) > 1:
+					bulk["sei"] = seimei[0]
+					bulk["mei"] = seimei[1]
+					bulk["name"] = "".join(seimei)
+				else:
+					bulk["name"] = seimei[0]
 			
 			bulk["url"] = url
 			out.writerow([bulk.get(k) for k in fieldnames])
