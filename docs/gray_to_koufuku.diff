@@ -385,7 +385,7 @@
 -    ns1:職歴 "中国比例ブロック副支部長",
 -        "陸上自衛隊自衛官" .
 -
--[] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/Tatsuyoshi.Kato.HS" ;
 -    ns1:twitter "tatsuyoshikato" ;
 +    ns1:立候補 "党発表" ;
 +    ns1:職歴 "中国比例ブロック副支部長" .
@@ -860,8 +860,9 @@
 +    ns1:職歴 "幸福実現党福岡県本部総務会長（兼）福岡第6選挙区支部長" .
  
  [] ns1:facebook "https://www.facebook.com/Atsushi.Nishimoto7" ;
-     ns1:twitter "" ;
+-    ns1:twitter "nishimotoatsush" ;
 -    ns1:候補名 "西本篤" ;
++    ns1:twitter "" ;
 +    ns1:候補名 "西本あつし" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" ;

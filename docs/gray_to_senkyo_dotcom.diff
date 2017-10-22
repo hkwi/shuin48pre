@@ -1176,15 +1176,6 @@
      ns1:候補名 "加藤鮎子" ;
      ns1:公式サイト "http://kato-ayuko.net/" ;
      ns1:前回 "前" ;
-@@ -2537,7 +2500,7 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "東北" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/Tatsuyoshi.Kato.HS" ;
-     ns1:twitter "tatsuyoshikato" ;
-     ns1:候補名 "加藤龍義" ;
-     ns1:公式サイト "http://kato-tatsuyoshi.com/" ;
 @@ -2578,7 +2541,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100002449220587" ;
@@ -1458,19 +1449,6 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/kazue.yoshitomi" ;
-@@ -3065,10 +3017,10 @@
-     ns1:政党 "幸福" ;
-     ns1:比例区 "九州" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/yoshioka.kenji" ;
-     ns1:twitter "yoshiokakenji" ;
-     ns1:候補名 "吉岡憲史" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "https://www.yoshiokakenji.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "憲史" ;
-     ns1:名前 "吉岡憲史" ;
 @@ -3088,12 +3040,14 @@
      ns1:姓 "吉川" ;
      ns1:小選挙区 "大分2区" ;
@@ -6014,12 +5992,9 @@
      ns1:前回 "前" ;
      ns1:名 "公也" ;
      ns1:名前 "西川公也" ;
-@@ -12785,9 +12715,9 @@
-     ns1:比例区 "" .
- 
+@@ -12787,7 +12717,7 @@
  [] ns1:facebook "https://www.facebook.com/Atsushi.Nishimoto7" ;
--    ns1:twitter "" ;
-+    ns1:twitter "nishimotoatsush" ;
+     ns1:twitter "nishimotoatsush" ;
      ns1:候補名 "西本篤" ;
 -    ns1:公式サイト "http://an7.sakura.ne.jp/" ;
 +    ns1:公式サイト "" ;
@@ -6230,15 +6205,6 @@
      ns1:前回 "前" ;
      ns1:名 "真由子" ;
      ns1:名前 "豊田真由子" ;
-@@ -13165,7 +13092,7 @@
-     ns1:政党 "無所属" ;
-     ns1:比例区 "" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/akaoy" ;
-     ns1:twitter "" ;
-     ns1:候補名 "赤尾由美" ;
-     ns1:公式サイト "" ;
 @@ -13180,7 +13107,7 @@
  
  [] ns1:facebook "https://www.facebook.com/akamineseiken" ;
