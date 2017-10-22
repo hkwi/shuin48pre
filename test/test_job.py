@@ -32,7 +32,7 @@ def test_jobs():
 		(shuin48pre.asahi.run, "docs/asahi.csv"),
 		(shuin48pre.mainichi.run, "docs/mainichi.csv"),
 		(shuin48pre.jimin_official.run, "docs/jimin_official.csv"),
-		(shuin48pre.kibou_official.run, "docs/kibou_official.yaml"),
+#		(shuin48pre.kibou_official.run, "docs/kibou_official.yaml"),
 	]
 	
 	ths = [spawn(*j) for j in jobs]
