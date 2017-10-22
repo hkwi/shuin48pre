@@ -568,15 +568,6 @@
      ns1:前回 "前" ;
      ns1:名 "喜四郎" ;
      ns1:名前 "中村喜四郎" ;
-@@ -941,7 +923,7 @@
-     ns1:比例区 "北海道" .
- 
- [] ns1:facebook "https://www.facebook.com/eitaro.chujo" ;
--    ns1:twitter "" ;
-+    ns1:twitter "ryu_no_kisi" ;
-     ns1:候補名 "中条栄太郎" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -953,7 +935,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
@@ -837,15 +828,6 @@
      ns1:前回 "新" ;
      ns1:名 "仁" ;
      ns1:名前 "今枝仁" ;
-@@ -1636,7 +1611,7 @@
-     ns1:比例区 "北海道" .
- 
- [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "imadomenao" ;
-     ns1:候補名 "今留尚人" ;
-     ns1:公式サイト "" ;
-     ns1:前回 "新" ;
 @@ -1648,8 +1623,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
@@ -1439,12 +1421,8 @@
      ns1:前回 "新" ;
      ns1:名 "裕三" ;
      ns1:名前 "古川裕三" ;
-@@ -2985,10 +2938,10 @@
-     ns1:政党 "幸福" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/furumoto.shinichiro" ;
+@@ -2988,7 +2941,7 @@
+ [] ns1:facebook "https://www.facebook.com/furumoto.shinichiro" ;
      ns1:twitter "furumoto_s11" ;
      ns1:候補名 "古本伸一郎" ;
 -    ns1:公式サイト "http://www.s-furumoto.net/" ;
@@ -1569,15 +1547,6 @@
      ns1:候補名 "吉田晴美" ;
      ns1:公式サイト "http://harumiyoshida.jp/harumi-site/" ;
      ns1:前回 "新" ;
-@@ -3251,7 +3202,7 @@
-     ns1:比例区 "東北" .
- 
- [] ns1:facebook "https://www.facebook.com/profile.php?id=100006068624077" ;
--    ns1:twitter "" ;
-+    ns1:twitter "yoshitune1aichi" ;
-     ns1:候補名 "吉田統彦" ;
-     ns1:公式サイト "http://www.yoshitsune-kai.jp/" ;
-     ns1:前回 "元" ;
 @@ -3276,8 +3227,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
@@ -1607,15 +1576,6 @@
      ns1:前回 "新" ;
      ns1:名 "美華" ;
      ns1:名前 "吉羽美華" ;
-@@ -3315,7 +3266,7 @@
-     ns1:政党 "希望" ;
-     ns1:比例区 "東京" .
- 
--[] ns1:facebook "https://www.facebook.com/anamiyoichi" ;
-+[] ns1:facebook "https://www.facebook.com/kirashuji" ;
-     ns1:twitter "" ;
-     ns1:候補名 "吉良州司" ;
-     ns1:公式サイト "http://www.kirashuji.com/" ;
 @@ -3330,7 +3281,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yoshino.tadao" ;
@@ -2932,15 +2892,6 @@
      ns1:公式サイト "http://shimazu-yukihiro.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "幸広" ;
-@@ -6360,7 +6311,7 @@
-     ns1:比例区 "東海" .
- 
- [] ns1:facebook "https://www.facebook.com/しまむら聖子-1733321246969453" ;
--    ns1:twitter "" ;
-+    ns1:twitter "seikoshimamura" ;
-     ns1:候補名 "嶋村聖子" ;
-     ns1:公式サイト "http://www.seikoshimamura.com/" ;
-     ns1:前回 "新" ;
 @@ -6374,8 +6325,8 @@
  
  [] ns1:facebook "" ;
@@ -3230,14 +3181,15 @@
      ns1:twitter "zengakuren" ;
      ns1:候補名 "斎藤郁真" ;
      ns1:公式サイト "http://www.zengakuren.jp/wp/" ;
-@@ -7075,10 +7023,10 @@
+@@ -7075,11 +7023,10 @@
      ns1:姓 "斎藤" ;
      ns1:小選挙区 "東京8区" ;
      ns1:年齢 "29" ;
 -    ns1:政党 "諸派" ;
 -    ns1:比例区 "" .
 -
--[] ns1:facebook "https://www.facebook.com/arasuppo" ;
+-[] ns1:facebook "https://www.facebook.com/araifumiko6ku",
+-        "https://www.facebook.com/arasuppo" ;
 +    ns1:政党 "無所属" ;
 +    ns1:比例区 "" .
 +
@@ -3245,7 +3197,7 @@
      ns1:twitter "" ;
      ns1:候補名 "新井富美子" ;
      ns1:公式サイト "http://www.araifumiko.jp/" ;
-@@ -7105,7 +7053,7 @@
+@@ -7106,7 +7053,7 @@
  
  [] ns1:facebook "https://www.facebook.com/makoto.arai.376" ;
      ns1:twitter "makoara0810" ;
@@ -3254,7 +3206,7 @@
      ns1:公式サイト "http://arai-makoto.com/" ;
      ns1:前回 "新" ;
      ns1:名 "真" ;
-@@ -7145,7 +7093,7 @@
+@@ -7146,7 +7093,7 @@
  [] ns1:facebook "https://www.facebook.com/shintani.officialpage" ;
      ns1:twitter "" ;
      ns1:候補名 "新谷正義" ;
@@ -3263,7 +3215,7 @@
      ns1:前回 "前" ;
      ns1:名 "正義" ;
      ns1:名前 "新谷正義" ;
-@@ -7183,7 +7131,7 @@
+@@ -7184,7 +7131,7 @@
  
  [] ns1:facebook "https://www.facebook.com/waseda.yuki" ;
      ns1:twitter "waseda_yuki" ;
@@ -3272,7 +3224,7 @@
      ns1:公式サイト "http://waseda-yuki.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "夕季" ;
-@@ -7195,9 +7143,10 @@
+@@ -7196,9 +7143,10 @@
      ns1:比例区 "南関東" .
  
  [] ns1:facebook "" ;
@@ -3286,7 +3238,7 @@
      ns1:前回 "新" ;
      ns1:名 "健太郎" ;
      ns1:名前 "星健太郎" ;
-@@ -7223,7 +7172,7 @@
+@@ -7224,7 +7172,7 @@
  [] ns1:facebook "https://www.facebook.com/hoshinotv" ;
      ns1:twitter "hossys" ;
      ns1:候補名 "星野剛士" ;
@@ -3295,7 +3247,7 @@
      ns1:前回 "前" ;
      ns1:名 "剛士" ;
      ns1:名前 "星野剛士" ;
-@@ -7246,10 +7195,10 @@
+@@ -7247,10 +7195,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -3308,18 +3260,16 @@
      ns1:前回 "新" ;
      ns1:名 "逸郎" ;
      ns1:名前 "曽我逸郎" ;
-@@ -7259,8 +7208,8 @@
+@@ -7260,7 +7208,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
 -[] ns1:facebook "https://www.facebook.com/hattoritaisuke1" ;
--    ns1:twitter "" ;
 +[] ns1:facebook "https://www.facebook.com/hattoritaisuke01" ;
-+    ns1:twitter "hattori_taisuke" ;
+     ns1:twitter "hattori_taisuke" ;
      ns1:候補名 "服部泰輔" ;
      ns1:公式サイト "" ;
-     ns1:前回 "新" ;
-@@ -7272,7 +7221,8 @@
+@@ -7273,7 +7221,8 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -3329,7 +3279,7 @@
      ns1:twitter "hattori_ryoichi" ;
      ns1:候補名 "服部良一" ;
      ns1:公式サイト "http://www.hattori-ryoichi.com/" ;
-@@ -7282,12 +7232,13 @@
+@@ -7283,12 +7232,13 @@
      ns1:姓 "服部" ;
      ns1:小選挙区 "大阪9区" ;
      ns1:年齢 "67" ;
@@ -3345,7 +3295,7 @@
      ns1:公式サイト "http://www.m-yoshio.com/" ;
      ns1:前回 "前" ;
      ns1:名 "義夫" ;
-@@ -7311,7 +7262,7 @@
+@@ -7312,7 +7262,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -3354,7 +3304,7 @@
          "https://www.facebook.com/木下智彦事務所-729959490489809" ;
      ns1:twitter "tommykun01" ;
      ns1:候補名 "木下智彦" ;
-@@ -7327,21 +7278,20 @@
+@@ -7328,21 +7278,20 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008594358938" ;
      ns1:twitter "" ;
@@ -3379,7 +3329,7 @@
      ns1:前回 "前" ;
      ns1:名 "均" ;
      ns1:名前 "木内均" ;
-@@ -7352,9 +7302,10 @@
+@@ -7353,9 +7302,10 @@
      ns1:比例区 "北陸信越" .
  
  [] ns1:facebook "https://www.facebook.com/takatane.kiuchi" ;
@@ -3392,7 +3342,7 @@
      ns1:前回 "前" ;
      ns1:名 "孝胤" ;
      ns1:名前 "木内孝胤" ;
-@@ -7380,7 +7331,7 @@
+@@ -7381,7 +7331,7 @@
  [] ns1:facebook "https://www.facebook.com/seiji.kihara" ;
      ns1:twitter "kihara_seiji" ;
      ns1:候補名 "木原誠二" ;
@@ -3401,7 +3351,7 @@
      ns1:前回 "前" ;
      ns1:名 "誠二" ;
      ns1:名前 "木原誠二" ;
-@@ -7392,7 +7343,7 @@
+@@ -7393,7 +7343,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kimurataketsuka" ;
      ns1:twitter "kimurataketsuka" ;
@@ -3410,7 +3360,7 @@
      ns1:公式サイト "http://www.kimutake.jp/" ;
      ns1:前回 "元" ;
      ns1:名 "剛司" ;
-@@ -7419,7 +7370,7 @@
+@@ -7420,7 +7370,7 @@
  [] ns1:facebook "https://www.facebook.com/kimuyayo",
          "https://www.facebook.com/yayoi.kimura.35" ;
      ns1:twitter "kimura841" ;
@@ -3419,7 +3369,7 @@
      ns1:公式サイト "http://www.kimuyayo.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "弥生" ;
-@@ -7430,8 +7381,7 @@
+@@ -7431,8 +7381,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
@@ -3429,7 +3379,7 @@
      ns1:twitter "jiro_k_tsugaru" ;
      ns1:候補名 "木村次郎" ;
      ns1:公式サイト "http://www.jiro-k.jp/" ;
-@@ -7457,11 +7407,10 @@
+@@ -7458,11 +7407,10 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "東京" .
  
@@ -3443,7 +3393,7 @@
      ns1:前回 "新" ;
      ns1:名 "精一" ;
      ns1:名前 "末次精一" ;
-@@ -7485,9 +7434,8 @@
+@@ -7486,9 +7434,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/hondahiranao" ;
@@ -3455,7 +3405,7 @@
      ns1:公式サイト "http://www.hiranao.com/" ;
      ns1:前回 "元" ;
      ns1:名 "平直" ;
-@@ -7500,8 +7448,8 @@
+@@ -7501,8 +7448,8 @@
  
  [] ns1:facebook "https://www.facebook.com/nobuko.motomura.3" ;
      ns1:twitter "motomura_nobuko" ;
@@ -3466,7 +3416,7 @@
      ns1:前回 "前" ;
      ns1:名 "伸子" ;
      ns1:名前 "本村伸子" ;
-@@ -7514,7 +7462,7 @@
+@@ -7515,7 +7462,7 @@
  [] ns1:facebook "https://www.facebook.com/motomura.kentarou" ;
      ns1:twitter "kentarou450417" ;
      ns1:候補名 "本村賢太郎" ;
@@ -3475,7 +3425,7 @@
      ns1:前回 "前" ;
      ns1:名 "賢太郎" ;
      ns1:名前 "本村賢太郎" ;
-@@ -7524,11 +7472,10 @@
+@@ -7525,11 +7472,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -3489,7 +3439,7 @@
      ns1:前回 "新" ;
      ns1:名 "太郎" ;
      ns1:名前 "本田太郎" ;
-@@ -7564,9 +7511,7 @@
+@@ -7565,9 +7511,7 @@
      ns1:政党 "支持政党なし" ;
      ns1:比例区 "東京" .
  
@@ -3500,7 +3450,7 @@
      ns1:twitter "qn93vr" ;
      ns1:候補名 "本間勝美" ;
      ns1:公式サイト "http://www.katumi.jp/" ;
-@@ -7582,7 +7527,7 @@
+@@ -7583,7 +7527,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "sugishitashigeo" ;
      ns1:候補名 "杉下茂雄" ;
@@ -3509,7 +3459,7 @@
      ns1:前回 "新" ;
      ns1:名 "茂雄" ;
      ns1:名前 "杉下茂雄" ;
-@@ -7594,8 +7539,8 @@
+@@ -7595,8 +7539,8 @@
  
  [] ns1:facebook "https://www.facebook.com/s755507" ;
      ns1:twitter "sugichannet" ;
@@ -3520,16 +3470,7 @@
      ns1:前回 "元" ;
      ns1:名 "和巳" ;
      ns1:名前 "杉本和巳" ;
-@@ -7608,7 +7553,7 @@
- [] ns1:facebook "https://www.facebook.com/sugimura.shinji.1976" ;
-     ns1:twitter "" ;
-     ns1:候補名 "杉村慎治" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "http://s-sugimura.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "慎治" ;
-     ns1:名前 "杉村慎治" ;
-@@ -7634,7 +7579,7 @@
+@@ -7635,7 +7579,7 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100011741872006" ;
      ns1:twitter "fumiyoshi610" ;
      ns1:候補名 "村上史好" ;
@@ -3538,7 +3479,7 @@
      ns1:前回 "元" ;
      ns1:名 "史好" ;
      ns1:名前 "村上史好" ;
-@@ -7659,7 +7604,7 @@
+@@ -7660,7 +7604,7 @@
  
  [] ns1:facebook "https://www.facebook.com/murakamitomonobu" ;
      ns1:twitter "" ;
@@ -3547,7 +3488,7 @@
      ns1:公式サイト "http://murakamitomonobu.rgr.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "智信" ;
-@@ -7675,9 +7620,9 @@
+@@ -7676,9 +7620,9 @@
      ns1:候補名 "村上知己" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
@@ -3559,7 +3500,7 @@
      ns1:小選挙区 "" ;
      ns1:年齢 "52" ;
      ns1:政党 "公明" ;
-@@ -7686,7 +7631,7 @@
+@@ -7687,7 +7631,7 @@
  [] ns1:facebook "https://www.facebook.com/murakamiseiichiro" ;
      ns1:twitter "" ;
      ns1:候補名 "村上誠一郎" ;
@@ -3568,7 +3509,7 @@
      ns1:前回 "前" ;
      ns1:名 "誠一郎" ;
      ns1:名前 "村上誠一郎" ;
-@@ -7698,8 +7643,8 @@
+@@ -7699,8 +7643,8 @@
  
  [] ns1:facebook "https://www.facebook.com/murakami.noriatsu" ;
      ns1:twitter "" ;
@@ -3579,7 +3520,7 @@
      ns1:前回 "新" ;
      ns1:名 "賀厚" ;
      ns1:名前 "村上賀厚" ;
-@@ -7712,7 +7657,7 @@
+@@ -7713,7 +7657,7 @@
  [] ns1:facebook "https://www.facebook.com/hideki.murai.5" ;
      ns1:twitter "muraihideki" ;
      ns1:候補名 "村井英樹" ;
@@ -3588,7 +3529,7 @@
      ns1:前回 "前" ;
      ns1:名 "英樹" ;
      ns1:名前 "村井英樹" ;
-@@ -7722,11 +7667,10 @@
+@@ -7723,11 +7667,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北関東" .
  
@@ -3603,7 +3544,7 @@
      ns1:前回 "新" ;
      ns1:名 "久美子" ;
      ns1:名前 "村口久美子" ;
-@@ -7739,7 +7683,7 @@
+@@ -7740,7 +7683,7 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100004262591354" ;
      ns1:twitter "muraoka_toshi" ;
      ns1:候補名 "村岡敏英" ;
@@ -3612,7 +3553,7 @@
      ns1:前回 "前" ;
      ns1:名 "敏英" ;
      ns1:名前 "村岡敏英" ;
-@@ -7752,7 +7696,7 @@
+@@ -7753,7 +7696,7 @@
  [] ns1:facebook "https://www.facebook.com/matsuihirofumifc" ;
      ns1:twitter "matsuirikken" ;
      ns1:候補名 "松井博史" ;
@@ -3621,7 +3562,7 @@
      ns1:前回 "新" ;
      ns1:名 "博史" ;
      ns1:名前 "松井博史" ;
-@@ -7762,8 +7706,7 @@
+@@ -7763,8 +7706,7 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "近畿" .
  
@@ -3631,7 +3572,7 @@
      ns1:twitter "" ;
      ns1:候補名 "松井秀明" ;
      ns1:公式サイト "" ;
-@@ -7776,8 +7719,7 @@
+@@ -7777,8 +7719,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "東北" .
  
@@ -3641,7 +3582,7 @@
      ns1:twitter "matsubarajin731" ;
      ns1:候補名 "松原仁" ;
      ns1:公式サイト "http://www.jin-m.com/" ;
-@@ -7792,7 +7734,7 @@
+@@ -7793,7 +7734,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "031004gogo" ;
@@ -3650,7 +3591,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "聡" ;
-@@ -7806,7 +7748,6 @@
+@@ -7807,7 +7748,6 @@
  [] ns1:facebook "https://www.facebook.com/matsuo.tsutomu.mirai" ;
      ns1:twitter "tsutomu_s2" ;
      ns1:候補名 "松尾勉" ;
@@ -3658,7 +3599,7 @@
      ns1:前回 "新" ;
      ns1:名 "勉" ;
      ns1:名前 "松尾勉" ;
-@@ -7844,7 +7785,7 @@
+@@ -7845,7 +7785,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100016365635786" ;
      ns1:twitter "matsuo_masanori" ;
@@ -3667,7 +3608,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "正利" ;
-@@ -7868,8 +7809,7 @@
+@@ -7869,8 +7809,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "九州" .
  
@@ -3677,7 +3618,7 @@
      ns1:twitter "matusimamidori" ;
      ns1:候補名 "松島みどり" ;
      ns1:公式サイト "http://www.matsushima-midori.jp/" ;
-@@ -7885,7 +7825,6 @@
+@@ -7886,7 +7825,6 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "松島弘典" ;
@@ -3685,7 +3626,7 @@
      ns1:前回 "新" ;
      ns1:名 "弘典" ;
      ns1:名前 "松島弘典" ;
-@@ -7910,7 +7849,7 @@
+@@ -7911,7 +7849,7 @@
  
  [] ns1:facebook "https://www.facebook.com/shuichiro.matsuki" ;
      ns1:twitter "matsuki_shu" ;
@@ -3694,7 +3635,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "秀一郎" ;
-@@ -7923,7 +7862,7 @@
+@@ -7924,7 +7862,7 @@
  
  [] ns1:facebook "https://www.facebook.com/松木けんこう-870688479616480" ;
      ns1:twitter "kenkou64865187" ;
@@ -3703,7 +3644,7 @@
      ns1:公式サイト "http://kenko-matsuki.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "謙公" ;
-@@ -7934,8 +7873,7 @@
+@@ -7935,8 +7873,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北海道" .
  
@@ -3713,7 +3654,7 @@
      ns1:twitter "" ;
      ns1:候補名 "松本剛明" ;
      ns1:公式サイト "http://www.m-takeaki.jp/" ;
-@@ -7974,8 +7912,7 @@
+@@ -7975,8 +7912,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東京" .
  
@@ -3723,7 +3664,7 @@
      ns1:twitter "" ;
      ns1:候補名 "松本昌之" ;
      ns1:公式サイト "https://matsumotomasayuki.jp/" ;
-@@ -7988,8 +7925,7 @@
+@@ -7989,8 +7925,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "近畿" .
  
@@ -3733,7 +3674,7 @@
      ns1:twitter "matsumoto_yohei" ;
      ns1:候補名 "松本洋平" ;
      ns1:公式サイト "http://www012.upp.so-net.ne.jp/yohei/" ;
-@@ -8015,9 +7951,9 @@
+@@ -8016,9 +7951,9 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -3746,7 +3687,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "顕治" ;
-@@ -8053,10 +7989,23 @@
+@@ -8054,10 +7989,23 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -3771,7 +3712,7 @@
      ns1:前回 "新" ;
      ns1:名 "大悟" ;
      ns1:名前 "松浦大悟" ;
-@@ -8068,7 +8017,7 @@
+@@ -8069,7 +8017,7 @@
  
  [] ns1:facebook "https://www.facebook.com/matsunami.kenta" ;
      ns1:twitter "matsunamikenta" ;
@@ -3780,7 +3721,7 @@
      ns1:公式サイト "http://www.kentakenta.org/" ;
      ns1:前回 "前" ;
      ns1:名 "健太" ;
-@@ -8079,15 +8028,15 @@
+@@ -8080,15 +8028,15 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -3800,7 +3741,7 @@
      ns1:年齢 "39" ;
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
-@@ -8131,8 +8080,7 @@
+@@ -8132,8 +8080,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -3810,7 +3751,7 @@
      ns1:twitter "" ;
      ns1:候補名 "松野博一" ;
      ns1:公式サイト "http://www.hiro-matsuno.net/" ;
-@@ -8141,15 +8089,16 @@
+@@ -8142,15 +8089,16 @@
      ns1:名前 "松野博一" ;
      ns1:姓 "松野" ;
      ns1:小選挙区 "千葉3区" ;
@@ -3830,7 +3771,7 @@
      ns1:前回 "前" ;
      ns1:名 "頼久" ;
      ns1:名前 "松野頼久" ;
-@@ -8160,9 +8109,8 @@
+@@ -8161,9 +8109,8 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "https://www.facebook.com/masafumi.itakura.5" ;
@@ -3842,7 +3783,7 @@
      ns1:公式サイト "http://jcpweb.net/itakura/" ;
      ns1:前回 "新" ;
      ns1:名 "正文" ;
-@@ -8189,7 +8137,6 @@
+@@ -8190,7 +8137,6 @@
  [] ns1:facebook "https://www.facebook.com/hayashi.kenji.353" ;
      ns1:twitter "" ;
      ns1:候補名 "林健二" ;
@@ -3850,7 +3791,7 @@
      ns1:前回 "新" ;
      ns1:名 "健二" ;
      ns1:名前 "林健二" ;
-@@ -8202,7 +8149,7 @@
+@@ -8203,7 +8149,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "林幹雄" ;
@@ -3859,7 +3800,7 @@
      ns1:前回 "前" ;
      ns1:名 "幹雄" ;
      ns1:名前 "林幹雄" ;
-@@ -8212,7 +8159,7 @@
+@@ -8213,7 +8159,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -3868,7 +3809,7 @@
      ns1:twitter "hayashijunoffic" ;
      ns1:候補名 "林潤" ;
      ns1:公式サイト "http://www.hayashi-jun.com/" ;
-@@ -8221,7 +8168,7 @@
+@@ -8222,7 +8168,7 @@
      ns1:名前 "林潤" ;
      ns1:姓 "林" ;
      ns1:小選挙区 "" ;
@@ -3877,7 +3818,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "四国" .
  
-@@ -8251,8 +8198,7 @@
+@@ -8252,8 +8198,7 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "北関東" .
  
@@ -3887,7 +3828,7 @@
      ns1:twitter "" ;
      ns1:候補名 "柏倉祐司" ;
      ns1:公式サイト "http://www.kashiwakurayuji.jp/" ;
-@@ -8265,7 +8211,7 @@
+@@ -8266,7 +8211,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
  
@@ -3896,7 +3837,7 @@
      ns1:twitter "atsutsuge" ;
      ns1:候補名 "柘植厚人" ;
      ns1:公式サイト "" ;
-@@ -8291,9 +8237,9 @@
+@@ -8292,9 +8237,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "中国" .
  
@@ -3908,7 +3849,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "昇" ;
-@@ -8304,7 +8250,7 @@
+@@ -8305,7 +8250,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -3917,7 +3858,7 @@
      ns1:twitter "shiba_masa" ;
      ns1:候補名 "柴山昌彦" ;
      ns1:公式サイト "http://www.shibamasa.net/" ;
-@@ -8332,7 +8278,7 @@
+@@ -8333,7 +8278,7 @@
  
  [] ns1:facebook "https://www.facebook.com/politician.takumi" ;
      ns1:twitter "" ;
@@ -3926,7 +3867,7 @@
      ns1:公式サイト "http://shibatatakumi.com/" ;
      ns1:前回 "新" ;
      ns1:名 "巧" ;
-@@ -8344,8 +8290,8 @@
+@@ -8345,8 +8290,8 @@
      ns1:比例区 "北陸信越" .
  
  [] ns1:facebook "https://www.facebook.com/shibatamiki.official" ;
@@ -3937,7 +3878,7 @@
      ns1:公式サイト "https://www.shibatamiki.com/" ;
      ns1:前回 "新" ;
      ns1:名 "未来" ;
-@@ -8383,8 +8329,8 @@
+@@ -8384,8 +8329,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/takanori.sakae.7" ;
@@ -3948,7 +3889,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "隆則" ;
-@@ -8424,7 +8370,7 @@
+@@ -8425,7 +8370,7 @@
  [] ns1:facebook "https://www.facebook.com/Nemoto.Official" ;
      ns1:twitter "" ;
      ns1:候補名 "根本匠" ;
@@ -3957,7 +3898,7 @@
      ns1:前回 "前" ;
      ns1:名 "匠" ;
      ns1:名前 "根本匠" ;
-@@ -8434,7 +8380,7 @@
+@@ -8435,7 +8380,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東北" .
  
@@ -3966,7 +3907,7 @@
      ns1:twitter "nemotoyukinori" ;
      ns1:候補名 "根本幸典" ;
      ns1:公式サイト "http://www.nemotoyukinori.jp/" ;
-@@ -8474,9 +8420,9 @@
+@@ -8475,9 +8420,9 @@
      ns1:比例区 "四国" .
  
  [] ns1:facebook "https://www.facebook.com/yoshitaka.sakurada" ;
@@ -3979,7 +3920,7 @@
      ns1:前回 "前" ;
      ns1:名 "義孝" ;
      ns1:名前 "桜田義孝" ;
-@@ -8502,8 +8448,7 @@
+@@ -8503,8 +8448,7 @@
  [] ns1:facebook "https://www.facebook.com/saeko.umemura.3",
          "https://www.facebook.com/umemurasaeko" ;
      ns1:twitter "umemura_saeko" ;
@@ -3989,7 +3930,7 @@
      ns1:公式サイト "http://www.jcp-umemura.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "早江子" ;
-@@ -8514,9 +8459,10 @@
+@@ -8515,9 +8459,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "北関東" .
  
@@ -4003,7 +3944,7 @@
      ns1:公式サイト "http://www.s-umemura.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "聡" ;
-@@ -8529,7 +8475,7 @@
+@@ -8530,7 +8475,7 @@
  
  [] ns1:facebook "https://www.facebook.com/mamoru.umetani.1" ;
      ns1:twitter "umetani_m" ;
@@ -4012,7 +3953,7 @@
      ns1:公式サイト "http://www.umetani.net/" ;
      ns1:前回 "新" ;
      ns1:名 "守" ;
-@@ -8556,7 +8502,7 @@
+@@ -8557,7 +8502,7 @@
  [] ns1:facebook "https://www.facebook.com/kajiyama.hiroshi" ;
      ns1:twitter "kajiyamahiroshi" ;
      ns1:候補名 "梶山弘志" ;
@@ -4021,7 +3962,7 @@
      ns1:前回 "前" ;
      ns1:名 "弘志" ;
      ns1:名前 "梶山弘志" ;
-@@ -8566,7 +8512,7 @@
+@@ -8567,7 +8512,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北関東" .
  
@@ -4030,7 +3971,7 @@
      ns1:twitter "" ;
      ns1:候補名 "梶護" ;
      ns1:公式サイト "" ;
-@@ -8580,9 +8526,9 @@
+@@ -8581,9 +8526,9 @@
      ns1:比例区 "東北" .
  
  [] ns1:facebook "" ;
@@ -4042,7 +3983,7 @@
      ns1:前回 "前" ;
      ns1:名 "泰文" ;
      ns1:名前 "棚橋泰文" ;
-@@ -8594,21 +8540,20 @@
+@@ -8595,21 +8540,20 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -4069,7 +4010,7 @@
      ns1:公式サイト "http://morinatsue.net/" ;
      ns1:前回 "新" ;
      ns1:名 "夏枝" ;
-@@ -8619,24 +8564,22 @@
+@@ -8620,24 +8564,22 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -4097,7 +4038,7 @@
      ns1:前回 "元" ;
      ns1:名 "浩行" ;
      ns1:名前 "森山浩行" ;
-@@ -8649,10 +8592,10 @@
+@@ -8650,10 +8592,10 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "森山裕" ;
@@ -4112,7 +4053,7 @@
      ns1:姓 "森山" ;
      ns1:小選挙区 "鹿児島4区" ;
      ns1:年齢 "72" ;
-@@ -8677,8 +8620,8 @@
+@@ -8678,8 +8620,8 @@
      ns1:候補名 "森村廣" ;
      ns1:公式サイト "http://m-hiromu.com/" ;
      ns1:前回 "新" ;
@@ -4123,7 +4064,7 @@
      ns1:姓 "森村" ;
      ns1:小選挙区 "" ;
      ns1:年齢 "26" ;
-@@ -8687,7 +8630,7 @@
+@@ -8688,7 +8630,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "morizakurafsys" ;
@@ -4132,7 +4073,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "房義" ;
-@@ -8726,21 +8669,19 @@
+@@ -8727,21 +8669,19 @@
  
  [] ns1:facebook "https://www.facebook.com/morita.kojihrp" ;
      ns1:twitter "" ;
@@ -4160,7 +4101,7 @@
      ns1:前回 "新" ;
      ns1:名 "貴行" ;
      ns1:名前 "森田貴行" ;
-@@ -8763,8 +8704,7 @@
+@@ -8764,8 +8704,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -4170,7 +4111,7 @@
      ns1:twitter "emikouematsu" ;
      ns1:候補名 "植松恵美子" ;
      ns1:公式サイト "http://e-uematsu.jp/" ;
-@@ -8792,8 +8732,8 @@
+@@ -8793,8 +8732,8 @@
  
  [] ns1:facebook "https://www.facebook.com/ishin.shiiki.tamotsu" ;
      ns1:twitter "shiiki_tamotsu_" ;
@@ -4181,7 +4122,7 @@
      ns1:前回 "前" ;
      ns1:名 "保" ;
      ns1:名前 "椎木保" ;
-@@ -8830,11 +8770,10 @@
+@@ -8831,11 +8770,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "九州" .
  
@@ -4197,7 +4138,7 @@
      ns1:前回 "新" ;
      ns1:名 "博" ;
      ns1:名前 "榛野博" ;
-@@ -8870,10 +8809,10 @@
+@@ -8871,10 +8809,10 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "南関東" .
  
@@ -4210,7 +4151,7 @@
      ns1:前回 "新" ;
      ns1:名 "舞" ;
      ns1:名前 "樋口舞" ;
-@@ -8886,7 +8825,7 @@
+@@ -8887,7 +8825,7 @@
  [] ns1:facebook "https://www.facebook.com/seikatsuouenpapa" ;
      ns1:twitter "hidaka_takeshi" ;
      ns1:候補名 "樋高剛" ;
@@ -4219,7 +4160,7 @@
      ns1:前回 "元" ;
      ns1:名 "剛" ;
      ns1:名前 "樋高剛" ;
-@@ -8896,7 +8835,7 @@
+@@ -8897,7 +8835,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -4228,7 +4169,7 @@
      ns1:twitter "yokomitsu_oita3" ;
      ns1:候補名 "横光克彦" ;
      ns1:公式サイト "" ;
-@@ -8912,7 +8851,7 @@
+@@ -8913,7 +8851,7 @@
  [] ns1:facebook "https://www.facebook.com/hiroyuki.yokoyama.12" ;
      ns1:twitter "yokoyamagogo" ;
      ns1:候補名 "横山博幸" ;
@@ -4237,7 +4178,7 @@
      ns1:前回 "前" ;
      ns1:名 "博幸" ;
      ns1:名前 "横山博幸" ;
-@@ -8960,7 +8899,7 @@
+@@ -8961,7 +8899,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -4246,7 +4187,7 @@
      ns1:twitter "" ;
      ns1:候補名 "横畑和幸" ;
      ns1:公式サイト "http://yokohatakazuyuki.net/" ;
-@@ -8988,7 +8927,7 @@
+@@ -8989,7 +8927,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tarutokoshinji" ;
      ns1:twitter "" ;
@@ -4255,7 +4196,7 @@
      ns1:公式サイト "http://www.tarutoko.jp/" ;
      ns1:前回 "元" ;
      ns1:名 "伸二" ;
-@@ -8999,9 +8938,9 @@
+@@ -9000,9 +8938,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "近畿" .
  
@@ -4267,7 +4208,7 @@
      ns1:公式サイト "http://hashimotokumi.com/" ;
      ns1:前回 "新" ;
      ns1:名 "久美" ;
-@@ -9027,7 +8966,7 @@
+@@ -9028,7 +8966,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hashimoto.masayuki80" ;
      ns1:twitter "1984urban" ;
@@ -4276,7 +4217,7 @@
      ns1:公式サイト "http://hashimoto-ishin.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "将之" ;
-@@ -9038,10 +8977,11 @@
+@@ -9039,10 +8977,11 @@
      ns1:政党 "維新" ;
      ns1:比例区 "北陸信越" .
  
@@ -4290,7 +4231,7 @@
      ns1:前回 "前" ;
      ns1:名 "岳" ;
      ns1:名前 "橋本岳" ;
-@@ -9051,7 +8991,7 @@
+@@ -9052,7 +8991,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "中国" .
  
@@ -4299,7 +4240,7 @@
      ns1:twitter "hashimotokotoe" ;
      ns1:候補名 "橋本琴絵" ;
      ns1:公式サイト "" ;
-@@ -9079,7 +9019,7 @@
+@@ -9080,7 +9019,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tachibana.keiichirou" ;
      ns1:twitter "" ;
@@ -4308,7 +4249,7 @@
      ns1:公式サイト "http://www.t-k1.net/" ;
      ns1:前回 "前" ;
      ns1:名 "慶一郎" ;
-@@ -9103,10 +9043,9 @@
+@@ -9104,10 +9043,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -4321,7 +4262,7 @@
      ns1:公式サイト "http://www.s-takei.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "俊輔" ;
-@@ -9117,10 +9056,10 @@
+@@ -9118,10 +9056,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "九州" .
  
@@ -4334,7 +4275,7 @@
      ns1:前回 "新" ;
      ns1:名 "則男" ;
      ns1:名前 "武内則男" ;
-@@ -9131,9 +9070,10 @@
+@@ -9132,9 +9070,10 @@
      ns1:比例区 "四国" .
  
  [] ns1:facebook "https://www.facebook.com/nobuhide.takemura" ;
@@ -4347,7 +4288,7 @@
      ns1:前回 "前" ;
      ns1:名 "展英" ;
      ns1:名前 "武村展英" ;
-@@ -9171,8 +9111,8 @@
+@@ -9172,8 +9111,8 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -4358,7 +4299,7 @@
      ns1:前回 "前" ;
      ns1:名 "良太" ;
      ns1:名前 "武田良太" ;
-@@ -9195,11 +9135,10 @@
+@@ -9196,11 +9135,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
@@ -4372,7 +4313,7 @@
      ns1:前回 "前" ;
      ns1:名 "新" ;
      ns1:名前 "武部新" ;
-@@ -9211,7 +9150,7 @@
+@@ -9212,7 +9150,7 @@
  
  [] ns1:facebook "https://www.facebook.com/natsumi.smile" ;
      ns1:twitter "" ;
@@ -4381,7 +4322,7 @@
      ns1:公式サイト "http://natsumi-smile.com/" ;
      ns1:前回 "前" ;
      ns1:名 "奈津美" ;
-@@ -9224,8 +9163,8 @@
+@@ -9225,8 +9163,8 @@
  
  [] ns1:facebook "https://www.facebook.com/eimouri" ;
      ns1:twitter "eimouri" ;
@@ -4392,7 +4333,7 @@
      ns1:前回 "新" ;
      ns1:名 "栄子" ;
      ns1:名前 "毛利栄子" ;
-@@ -9238,7 +9177,7 @@
+@@ -9239,7 +9177,7 @@
  [] ns1:facebook "https://www.facebook.com/mizukami.mika12" ;
      ns1:twitter "mizukamimika12" ;
      ns1:候補名 "水上美華" ;
@@ -4401,7 +4342,7 @@
      ns1:前回 "新" ;
      ns1:名 "美華" ;
      ns1:名前 "水上美華" ;
-@@ -9258,13 +9197,12 @@
+@@ -9259,13 +9197,12 @@
      ns1:姓 "水野" ;
      ns1:小選挙区 "広島2区" ;
      ns1:年齢 "26" ;
@@ -4416,7 +4357,7 @@
      ns1:前回 "元" ;
      ns1:名 "智彦" ;
      ns1:名前 "水野智彦" ;
-@@ -9287,8 +9225,7 @@
+@@ -9288,8 +9225,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
  
@@ -4426,7 +4367,7 @@
      ns1:twitter "keiko_nagaoka" ;
      ns1:候補名 "永岡桂子" ;
      ns1:公式サイト "http://keiko-nagaoka.jp/" ;
-@@ -9329,12 +9266,11 @@
+@@ -9330,12 +9266,11 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100022408416948" ;
      ns1:twitter "" ;
@@ -4442,7 +4383,7 @@
      ns1:姓 "江崎" ;
      ns1:小選挙区 "愛知10区" ;
      ns1:年齢 "74" ;
-@@ -9344,7 +9280,7 @@
+@@ -9345,7 +9280,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "eto_akinori" ;
      ns1:候補名 "江渡聡徳" ;
@@ -4451,7 +4392,7 @@
      ns1:前回 "前" ;
      ns1:名 "聡徳" ;
      ns1:名前 "江渡聡徳" ;
-@@ -9367,7 +9303,7 @@
+@@ -9368,7 +9303,7 @@
      ns1:政党 "公明" ;
      ns1:比例区 "九州" .
  
@@ -4460,7 +4401,7 @@
      ns1:twitter "edaoffice" ;
      ns1:候補名 "江田憲司" ;
      ns1:公式サイト "http://www.eda-k.net/" ;
-@@ -9383,7 +9319,7 @@
+@@ -9384,7 +9319,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "江藤拓" ;
@@ -4469,7 +4410,7 @@
      ns1:前回 "前" ;
      ns1:名 "拓" ;
      ns1:名前 "江藤拓" ;
-@@ -9395,7 +9331,7 @@
+@@ -9396,7 +9331,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tosimitu.egasira" ;
      ns1:twitter "egasiratosimitu" ;
@@ -4478,7 +4419,7 @@
      ns1:公式サイト "http://egashira-t.com/" ;
      ns1:前回 "新" ;
      ns1:名 "俊満" ;
-@@ -9406,11 +9342,9 @@
+@@ -9407,11 +9342,9 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "東海" .
  
@@ -4493,7 +4434,7 @@
      ns1:公式サイト "http://www.saori-ikeuchi.com/" ;
      ns1:前回 "前" ;
      ns1:名 "沙織" ;
-@@ -9421,7 +9355,7 @@
+@@ -9422,7 +9355,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "東京" .
  
@@ -4502,7 +4443,7 @@
      ns1:twitter "masayoikeda_sdp" ;
      ns1:候補名 "池田万佐代" ;
      ns1:公式サイト "http://ikeda.sdp-saitama.org/" ;
-@@ -9431,7 +9365,8 @@
+@@ -9432,7 +9365,8 @@
      ns1:姓 "池田" ;
      ns1:小選挙区 "埼玉13区" ;
      ns1:年齢 "58" ;
@@ -4512,7 +4453,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "https://www.facebook.com/yoshitaka.ikeda.902" ;
-@@ -9450,7 +9385,6 @@
+@@ -9451,7 +9385,6 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008285657728" ;
      ns1:twitter "" ;
      ns1:候補名 "池田博英" ;
@@ -4520,7 +4461,7 @@
      ns1:前回 "新" ;
      ns1:名 "博英" ;
      ns1:名前 "池田博英" ;
-@@ -9460,10 +9394,9 @@
+@@ -9461,10 +9394,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -4533,7 +4474,7 @@
      ns1:公式サイト "http://ikemaki.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "真紀" ;
-@@ -9503,7 +9436,7 @@
+@@ -9504,7 +9436,7 @@
  [] ns1:facebook "https://www.facebook.com/kawaikatsuyuki" ;
      ns1:twitter "katsukawai" ;
      ns1:候補名 "河井克行" ;
@@ -4542,7 +4483,7 @@
      ns1:前回 "前" ;
      ns1:名 "克行" ;
      ns1:名前 "河井克行" ;
-@@ -9515,15 +9448,14 @@
+@@ -9516,15 +9448,14 @@
  
  [] ns1:facebook "https://www.facebook.com/miwakohrp" ;
      ns1:twitter "miwako_hrp" ;
@@ -4560,7 +4501,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/tspark.net" ;
-@@ -9554,21 +9486,20 @@
+@@ -9555,21 +9486,20 @@
  
  [] ns1:facebook "https://www.facebook.com/kouno.ichirou" ;
      ns1:twitter "hrpkonoichiro" ;
@@ -4585,7 +4526,7 @@
      ns1:前回 "前" ;
      ns1:名 "太郎" ;
      ns1:名前 "河野太郎" ;
-@@ -9580,7 +9511,7 @@
+@@ -9581,7 +9511,7 @@
  
  [] ns1:facebook "https://www.facebook.com/MasamiKawano.MD.PhD" ;
      ns1:twitter "mkawano2416" ;
@@ -4594,7 +4535,7 @@
      ns1:公式サイト "https://www.kawano-masami.com/" ;
      ns1:前回 "前" ;
      ns1:名 "正美" ;
-@@ -9591,22 +9522,21 @@
+@@ -9592,22 +9522,21 @@
      ns1:政党 "維新" ;
      ns1:比例区 "九州" .
  
@@ -4624,7 +4565,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "頌子" ;
-@@ -9617,10 +9547,11 @@
+@@ -9618,10 +9547,11 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "近畿" .
  
@@ -4639,7 +4580,7 @@
      ns1:前回 "前" ;
      ns1:名 "健太" ;
      ns1:名前 "泉健太" ;
-@@ -9632,7 +9563,7 @@
+@@ -9633,7 +9563,7 @@
  
  [] ns1:facebook "https://www.facebook.com/泉田-裕彦-1510624319207568" ;
      ns1:twitter "izumidahirohiko" ;
@@ -4648,19 +4589,16 @@
      ns1:公式サイト "http://www.h-izumida.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "裕彦" ;
-@@ -9657,9 +9588,9 @@
-     ns1:比例区 "近畿" .
- 
+@@ -9660,7 +9590,7 @@
  [] ns1:facebook "https://www.facebook.com/hatano.rina" ;
--    ns1:twitter "hatano_rina" ;
-+    ns1:twitter "1hatanorina" ;
+     ns1:twitter "1hatanorina" ;
      ns1:候補名 "波多野里奈" ;
 -    ns1:公式サイト "http://hatanorina.com/" ;
 +    ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "里奈" ;
      ns1:名前 "波多野里奈" ;
-@@ -9669,8 +9600,7 @@
+@@ -9670,8 +9600,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -4670,7 +4608,7 @@
      ns1:twitter "tsushimajun" ;
      ns1:候補名 "津島淳" ;
      ns1:前回 "前" ;
-@@ -9682,7 +9612,7 @@
+@@ -9683,7 +9612,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東北" .
  
@@ -4679,7 +4617,7 @@
      ns1:twitter "tsumura_keisuke" ;
      ns1:候補名 "津村啓介" ;
      ns1:公式サイト "http://www.tsumura.org/" ;
-@@ -9737,8 +9667,8 @@
+@@ -9738,8 +9667,8 @@
  [] ns1:facebook "https://www.facebook.com/urano.yasuto",
          "https://www.facebook.com/yasuto.urano" ;
      ns1:twitter "uranoyasuto" ;
@@ -4690,7 +4628,7 @@
      ns1:前回 "前" ;
      ns1:名 "靖人" ;
      ns1:名前 "浦野靖人" ;
-@@ -9789,7 +9719,7 @@
+@@ -9790,7 +9719,7 @@
  
  [] ns1:facebook "https://www.facebook.com/seii.miho" ;
      ns1:twitter "mihotanii" ;
@@ -4699,7 +4637,7 @@
      ns1:公式サイト "http://seii-miho.net/" ;
      ns1:前回 "新" ;
      ns1:名 "美穂" ;
-@@ -9797,13 +9727,13 @@
+@@ -9798,13 +9727,13 @@
      ns1:姓 "清井" ;
      ns1:小選挙区 "東京14区" ;
      ns1:年齢 "54" ;
@@ -4715,7 +4653,7 @@
      ns1:公式サイト "http://www.shimizu-tadashi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "忠史" ;
-@@ -9814,7 +9744,7 @@
+@@ -9815,7 +9744,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "近畿" .
  
@@ -4724,7 +4662,7 @@
      ns1:twitter "" ;
      ns1:候補名 "清水誠一" ;
      ns1:公式サイト "" ;
-@@ -9827,10 +9757,9 @@
+@@ -9828,10 +9757,9 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北海道" .
  
@@ -4737,7 +4675,7 @@
      ns1:公式サイト "http://www.tokashiki.gr.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "奈緒美" ;
-@@ -9842,9 +9771,9 @@
+@@ -9843,9 +9771,9 @@
      ns1:比例区 "近畿" .
  
  [] ns1:facebook "https://www.facebook.com/kisaburo.tokai" ;
@@ -4749,7 +4687,7 @@
      ns1:前回 "前" ;
      ns1:名 "紀三朗" ;
      ns1:名前 "渡海紀三朗" ;
-@@ -9854,11 +9783,10 @@
+@@ -9855,11 +9783,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
@@ -4763,7 +4701,7 @@
      ns1:前回 "新" ;
      ns1:名 "典喜" ;
      ns1:名前 "渡辺典喜" ;
-@@ -9868,7 +9796,8 @@
+@@ -9869,7 +9796,8 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -4773,7 +4711,7 @@
      ns1:twitter "" ;
      ns1:候補名 "渡辺博道" ;
      ns1:公式サイト "http://www.hiromichi21.com/" ;
-@@ -9897,7 +9826,7 @@
+@@ -9898,7 +9826,7 @@
  [] ns1:facebook "https://www.facebook.com/watanabekoichi1957" ;
      ns1:twitter "" ;
      ns1:候補名 "渡辺孝一" ;
@@ -4782,7 +4720,7 @@
      ns1:前回 "前" ;
      ns1:名 "孝一" ;
      ns1:名前 "渡辺孝一" ;
-@@ -9917,7 +9846,8 @@
+@@ -9918,7 +9846,8 @@
      ns1:姓 "渡辺" ;
      ns1:小選挙区 "福島4区" ;
      ns1:年齢 "68" ;
@@ -4792,7 +4730,7 @@
      ns1:比例区 "東北" .
  
  [] ns1:facebook "https://www.facebook.com/watanabemiyukiw" ;
-@@ -9961,7 +9891,7 @@
+@@ -9962,7 +9891,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yui.watanabe.jcp.osk" ;
      ns1:twitter "yuiwatanabe_osk" ;
@@ -4801,7 +4739,7 @@
      ns1:公式サイト "http://www.watanabeyui.net/" ;
      ns1:前回 "新" ;
      ns1:名 "結" ;
-@@ -9988,7 +9918,6 @@
+@@ -9989,7 +9918,6 @@
  [] ns1:facebook "https://www.facebook.com/miw.wld" ;
      ns1:twitter "minatoyuko" ;
      ns1:候補名 "湊侑子" ;
@@ -4809,7 +4747,7 @@
      ns1:前回 "新" ;
      ns1:名 "侑子" ;
      ns1:名前 "湊侑子" ;
-@@ -10001,7 +9930,7 @@
+@@ -10002,7 +9930,7 @@
  [] ns1:facebook "https://www.facebook.com/shunji.yuhara.1" ;
      ns1:twitter "shunji_yuhara" ;
      ns1:候補名 "湯原俊二" ;
@@ -4818,7 +4756,7 @@
      ns1:前回 "元" ;
      ns1:名 "俊二" ;
      ns1:名前 "湯原俊二" ;
-@@ -10053,7 +9982,7 @@
+@@ -10054,7 +9982,7 @@
  [] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
      ns1:twitter "hamamurasusumu" ;
      ns1:候補名 "濱村進" ;
@@ -4827,7 +4765,7 @@
      ns1:前回 "前" ;
      ns1:名 "進" ;
      ns1:名前 "濱村進" ;
-@@ -10090,8 +10019,8 @@
+@@ -10091,8 +10019,8 @@
  
  [] ns1:facebook "https://www.facebook.com/kana.haioka" ;
      ns1:twitter "kana_628" ;
@@ -4838,7 +4776,7 @@
      ns1:前回 "新" ;
      ns1:名 "香奈" ;
      ns1:名前 "灰岡香奈" ;
-@@ -10103,7 +10032,7 @@
+@@ -10104,7 +10032,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -4847,7 +4785,7 @@
      ns1:公式サイト "http://blog.goo.ne.jp/tame15" ;
      ns1:前回 "新" ;
      ns1:名 "仁史" ;
-@@ -10116,7 +10045,7 @@
+@@ -10117,7 +10045,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -4856,7 +4794,7 @@
      ns1:公式サイト "http://www.terukan.com/" ;
      ns1:前回 "前" ;
      ns1:名 "寛徳" ;
-@@ -10124,13 +10053,14 @@
+@@ -10125,13 +10053,14 @@
      ns1:姓 "照屋" ;
      ns1:小選挙区 "沖縄2区" ;
      ns1:年齢 "72" ;
@@ -4873,7 +4811,7 @@
      ns1:前回 "前" ;
      ns1:名 "裕通" ;
      ns1:名前 "熊田裕通" ;
-@@ -10140,11 +10070,10 @@
+@@ -10141,11 +10070,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
@@ -4887,7 +4825,7 @@
      ns1:前回 "新" ;
      ns1:名 "智" ;
      ns1:名前 "熊谷智" ;
-@@ -10157,7 +10086,7 @@
+@@ -10158,7 +10086,7 @@
  [] ns1:facebook "https://www.facebook.com/HidekiMacky" ;
      ns1:twitter "hmakihara" ;
      ns1:候補名 "牧原秀樹" ;
@@ -4896,7 +4834,7 @@
      ns1:前回 "前" ;
      ns1:名 "秀樹" ;
      ns1:名前 "牧原秀樹" ;
-@@ -10193,11 +10122,10 @@
+@@ -10194,11 +10122,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -4910,7 +4848,7 @@
      ns1:前回 "前" ;
      ns1:名 "義夫" ;
      ns1:名前 "牧義夫" ;
-@@ -10207,8 +10135,8 @@
+@@ -10208,8 +10135,8 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東海" .
  
@@ -4921,7 +4859,7 @@
      ns1:候補名 "犬丸光加" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -10217,13 +10145,13 @@
+@@ -10218,13 +10145,13 @@
      ns1:姓 "犬丸" ;
      ns1:小選挙区 "東京1区" ;
      ns1:年齢 "57" ;
@@ -4937,7 +4875,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸子" ;
      ns1:名前 "猪口幸子" ;
-@@ -10248,8 +10176,8 @@
+@@ -10249,8 +10176,8 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -4948,7 +4886,7 @@
      ns1:前回 "新" ;
      ns1:名 "巧" ;
      ns1:名前 "猿橋巧" ;
-@@ -10301,7 +10229,7 @@
+@@ -10302,7 +10229,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "玉田憲勲" ;
@@ -4957,7 +4895,7 @@
      ns1:前回 "新" ;
      ns1:名 "憲勲" ;
      ns1:名前 "玉田憲勲" ;
-@@ -10314,7 +10242,7 @@
+@@ -10315,7 +10242,7 @@
  [] ns1:facebook "https://www.facebook.com/amariakiragenkikun" ;
      ns1:twitter "akira_amari" ;
      ns1:候補名 "甘利明" ;
@@ -4966,7 +4904,7 @@
      ns1:前回 "前" ;
      ns1:名 "明" ;
      ns1:名前 "甘利明" ;
-@@ -10340,13 +10268,13 @@
+@@ -10341,13 +10268,13 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "田上光徳" ;
@@ -4982,16 +4920,17 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
-@@ -10363,7 +10291,7 @@
+@@ -10364,8 +10291,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東海" .
  
--[] ns1:facebook "https://www.facebook.com/katsunori.tanaka.1010" ;
+-[] ns1:facebook "https://www.facebook.com/katsunori.tanaka.1010",
+-        "https://www.facebook.com/tanaka.katsunori.1010" ;
 +[] ns1:facebook "https://www.facebook.com/tanaka.katsunori.1010" ;
      ns1:twitter "k_tanaka_1010" ;
      ns1:候補名 "田中克典" ;
      ns1:公式サイト "https://tanakakatsunori.com/" ;
-@@ -10389,7 +10317,7 @@
+@@ -10391,7 +10317,7 @@
      ns1:政党 "公明" ;
      ns1:比例区 "近畿" .
  
@@ -5000,7 +4939,7 @@
      ns1:twitter "t_kazunori" ;
      ns1:候補名 "田中和徳" ;
      ns1:公式サイト "http://www.tanaka-kazunori.com/" ;
-@@ -10405,7 +10333,6 @@
+@@ -10407,7 +10333,6 @@
  [] ns1:facebook "https://www.facebook.com/jitsugen.takako" ;
      ns1:twitter "" ;
      ns1:候補名 "田中孝子" ;
@@ -5008,7 +4947,7 @@
      ns1:前回 "新" ;
      ns1:名 "孝子" ;
      ns1:名前 "田中孝子" ;
-@@ -10416,7 +10343,7 @@
+@@ -10418,7 +10343,7 @@
      ns1:比例区 "近畿" .
  
  [] ns1:facebook "https://www.facebook.com/mieko.tanaka.370" ;
@@ -5017,7 +4956,7 @@
      ns1:候補名 "田中美絵子" ;
      ns1:公式サイト "http://www.tanakamieko.jp/" ;
      ns1:前回 "元" ;
-@@ -10428,8 +10355,7 @@
+@@ -10430,8 +10355,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北陸信越" .
  
@@ -5027,7 +4966,7 @@
      ns1:twitter "tanaka_ryosei" ;
      ns1:候補名 "田中良生" ;
      ns1:公式サイト "http://www.tanaka-ryosei.com/" ;
-@@ -10445,7 +10371,7 @@
+@@ -10447,7 +10371,7 @@
  [] ns1:facebook "https://www.facebook.com/hideyuki.tanaka.790" ;
      ns1:twitter "tanaka_hide" ;
      ns1:候補名 "田中英之" ;
@@ -5036,7 +4975,7 @@
      ns1:前回 "前" ;
      ns1:名 "英之" ;
      ns1:名前 "田中英之" ;
-@@ -10481,8 +10407,7 @@
+@@ -10483,8 +10407,7 @@
      ns1:政党 "公明" ;
      ns1:比例区 "近畿" .
  
@@ -5046,7 +4985,7 @@
      ns1:twitter "tajimaissei" ;
      ns1:候補名 "田島一成" ;
      ns1:公式サイト "http://www.tajimaissei.com/" ;
-@@ -10524,7 +10449,7 @@
+@@ -10526,7 +10449,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "田村憲久" ;
@@ -5055,7 +4994,7 @@
      ns1:前回 "前" ;
      ns1:名 "憲久" ;
      ns1:名前 "田村憲久" ;
-@@ -10537,7 +10462,7 @@
+@@ -10539,7 +10462,7 @@
  [] ns1:facebook "https://www.facebook.com/tamuken.net" ;
      ns1:twitter "tamukenshizuoka" ;
      ns1:候補名 "田村謙治" ;
@@ -5064,7 +5003,7 @@
      ns1:前回 "元" ;
      ns1:名 "謙治" ;
      ns1:名前 "田村謙治" ;
-@@ -10561,9 +10486,9 @@
+@@ -10563,9 +10486,9 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "" ;
@@ -5076,7 +5015,7 @@
      ns1:前回 "新" ;
      ns1:名 "正文" ;
      ns1:名前 "田淵正文" ;
-@@ -10588,7 +10513,7 @@
+@@ -10590,7 +10513,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hiroaki.tabata.37" ;
      ns1:twitter "" ;
@@ -5085,7 +5024,7 @@
      ns1:公式サイト "http://www.tabatahiroaki.com/" ;
      ns1:前回 "前" ;
      ns1:名 "裕明" ;
-@@ -10601,21 +10526,20 @@
+@@ -10603,21 +10526,20 @@
  
  [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
@@ -5110,7 +5049,7 @@
      ns1:前回 "前" ;
      ns1:名 "太道" ;
      ns1:名前 "田野瀬太道" ;
-@@ -10628,7 +10552,7 @@
+@@ -10630,7 +10552,7 @@
  [] ns1:facebook "https://www.facebook.com/koji.hata.754" ;
      ns1:twitter "hata_kouji" ;
      ns1:候補名 "畑浩治" ;
@@ -5119,7 +5058,7 @@
      ns1:前回 "元" ;
      ns1:名 "浩治" ;
      ns1:名前 "畑浩治" ;
-@@ -10640,7 +10564,7 @@
+@@ -10642,7 +10564,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kimie.hatano.9" ;
      ns1:twitter "hatanokimie" ;
@@ -5128,7 +5067,7 @@
      ns1:公式サイト "http://www.hatano-kimie.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "君枝" ;
-@@ -10654,7 +10578,7 @@
+@@ -10656,7 +10578,7 @@
  [] ns1:facebook "https://www.facebook.com/hatanaka.mitsunari" ;
      ns1:twitter "hatanaka_mitsu" ;
      ns1:候補名 "畠中光成" ;
@@ -5137,7 +5076,7 @@
      ns1:前回 "元" ;
      ns1:名 "光成" ;
      ns1:名前 "畠中光成" ;
-@@ -10666,7 +10590,7 @@
+@@ -10668,7 +10590,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kazuya.hatayama.1" ;
      ns1:twitter "hatayama_kazuya" ;
@@ -5146,7 +5085,7 @@
      ns1:公式サイト "http://hatayamakazuya.com/" ;
      ns1:前回 "前" ;
      ns1:名 "和也" ;
-@@ -10679,7 +10603,7 @@
+@@ -10681,7 +10603,7 @@
  
  [] ns1:facebook "https://www.facebook.com/masaki.hatakeyama.7" ;
      ns1:twitter "dr_hatakeyama" ;
@@ -5155,7 +5094,7 @@
      ns1:公式サイト "http://hatakeyama-masaki.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "昌樹" ;
-@@ -10693,7 +10617,7 @@
+@@ -10695,7 +10617,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "畦元将吾" ;
@@ -5164,7 +5103,7 @@
      ns1:前回 "新" ;
      ns1:名 "将吾" ;
      ns1:名前 "畦元将吾" ;
-@@ -10706,7 +10630,7 @@
+@@ -10708,7 +10630,7 @@
  [] ns1:facebook "https://www.facebook.com/SirakawaYouko" ;
      ns1:twitter "youkosirakawa" ;
      ns1:候補名 "白川容子" ;
@@ -5173,7 +5112,7 @@
      ns1:前回 "新" ;
      ns1:名 "容子" ;
      ns1:名前 "白川容子" ;
-@@ -10732,7 +10656,7 @@
+@@ -10734,7 +10656,7 @@
  [] ns1:facebook "https://www.facebook.com/hiroki.siraishi" ;
      ns1:twitter "hiroki_shira" ;
      ns1:候補名 "白石寛樹" ;
@@ -5182,7 +5121,7 @@
      ns1:前回 "新" ;
      ns1:名 "寛樹" ;
      ns1:名前 "白石寛樹" ;
-@@ -10797,14 +10721,15 @@
+@@ -10799,14 +10721,15 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100014730821522" ;
      ns1:twitter "oh304o" ;
      ns1:候補名 "皆川眞一郎" ;
@@ -5200,7 +5139,7 @@
      ns1:比例区 "南関東" .
  
  [] ns1:facebook "https://www.facebook.com/masuda.jcp" ;
-@@ -10820,7 +10745,7 @@
+@@ -10822,7 +10745,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "九州" .
  
@@ -5209,7 +5148,7 @@
      ns1:twitter "moriyamamasahit" ;
      ns1:候補名 "盛山正仁" ;
      ns1:公式サイト "http://www.moriyama-hashiru.jp/" ;
-@@ -10848,7 +10773,7 @@
+@@ -10850,7 +10773,7 @@
  
  [] ns1:facebook "https://www.facebook.com/majimasyouzou.jcp" ;
      ns1:twitter "syouzoumajima" ;
@@ -5218,7 +5157,7 @@
      ns1:公式サイト "http://jcp-majimasyouzo.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "省三" ;
-@@ -10860,7 +10785,8 @@
+@@ -10862,7 +10785,8 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "https://www.facebook.com/mashiroryo" ;
@@ -5228,7 +5167,7 @@
      ns1:候補名 "真白リョウ" ;
      ns1:公式サイト "http://mashiroryo.com/" ;
      ns1:前回 "新" ;
-@@ -10872,7 +10798,7 @@
+@@ -10874,7 +10798,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "南関東" .
  
@@ -5237,7 +5176,7 @@
      ns1:twitter "" ;
      ns1:候補名 "矢上雅義" ;
      ns1:公式サイト "" ;
-@@ -10885,10 +10811,10 @@
+@@ -10887,10 +10811,10 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "九州" .
  
@@ -5250,7 +5189,7 @@
      ns1:前回 "新" ;
      ns1:名 "麻子" ;
      ns1:名前 "矢作麻子" ;
-@@ -10913,7 +10839,7 @@
+@@ -10915,7 +10839,7 @@
  
  [] ns1:facebook "https://www.facebook.com/tadasige.yano.7" ;
      ns1:twitter "yanotadasige" ;
@@ -5259,7 +5198,7 @@
      ns1:公式サイト "http://www.jcp-hannan.net/18ku/yano.html" ;
      ns1:前回 "新" ;
      ns1:名 "忠重" ;
-@@ -10952,7 +10878,7 @@
+@@ -10954,7 +10878,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hidetoshi.jisedai" ;
      ns1:twitter "ishii_hidetoshi" ;
@@ -5268,7 +5207,7 @@
      ns1:公式サイト "http://hidetoshi.asia/" ;
      ns1:前回 "新" ;
      ns1:名 "英俊" ;
-@@ -11002,10 +10928,9 @@
+@@ -11004,10 +10928,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -5281,7 +5220,7 @@
      ns1:公式サイト "http://www.ishiduka-sadamichi.net/" ;
      ns1:前回 "新" ;
      ns1:名 "貞通" ;
-@@ -11018,7 +10943,7 @@
+@@ -11020,7 +10943,7 @@
  
  [] ns1:facebook "https://www.facebook.com/ishizaki.tohru" ;
      ns1:twitter "tohruishizaki" ;
@@ -5290,7 +5229,7 @@
      ns1:公式サイト "http://www.tohru-ishizaki.com/" ;
      ns1:前回 "前" ;
      ns1:名 "徹" ;
-@@ -11038,14 +10963,13 @@
+@@ -11040,14 +10963,13 @@
      ns1:名前 "石嶋巌" ;
      ns1:姓 "石嶋" ;
      ns1:小選挙区 "茨城7区" ;
@@ -5306,7 +5245,7 @@
      ns1:前回 "新" ;
      ns1:名 "幹子" ;
      ns1:名前 "石川幹子" ;
-@@ -11057,7 +10981,7 @@
+@@ -11059,7 +10981,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008387827735" ;
      ns1:twitter "tukinokawasator" ;
@@ -5315,18 +5254,15 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "悟" ;
-@@ -11108,9 +11032,8 @@
-     ns1:比例区 "" .
- 
+@@ -11112,7 +11034,6 @@
  [] ns1:facebook "" ;
--    ns1:twitter "" ;
-+    ns1:twitter "taxombudsman" ;
+     ns1:twitter "taxombudsman" ;
      ns1:候補名 "石川英行" ;
 -    ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "英行" ;
      ns1:名前 "石川英行" ;
-@@ -11148,7 +11071,7 @@
+@@ -11150,7 +11071,7 @@
      ns1:比例区 "北海道" .
  
  [] ns1:facebook "" ;
@@ -5335,7 +5271,7 @@
      ns1:候補名 "石本憲一" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -11188,7 +11111,7 @@
+@@ -11190,7 +11111,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100014235768852" ;
      ns1:twitter "" ;
@@ -5344,7 +5280,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "剛" ;
-@@ -11196,13 +11119,13 @@
+@@ -11198,13 +11119,13 @@
      ns1:姓 "石渡" ;
      ns1:小選挙区 "栃木3区" ;
      ns1:年齢 "48" ;
@@ -5363,7 +5299,7 @@
      ns1:前回 "前" ;
      ns1:名 "真敏" ;
      ns1:名前 "石田真敏" ;
-@@ -11215,7 +11138,7 @@
+@@ -11217,7 +11138,7 @@
  [] ns1:facebook "https://www.facebook.com/noritoshi.ishida.komei" ;
      ns1:twitter "ishidanoritoshi" ;
      ns1:候補名 "石田祝稔" ;
@@ -5372,7 +5308,7 @@
      ns1:前回 "前" ;
      ns1:名 "祝稔" ;
      ns1:名前 "石田祝稔" ;
-@@ -11252,7 +11175,7 @@
+@@ -11254,7 +11175,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "" ;
@@ -5381,7 +5317,7 @@
      ns1:候補名 "石飛香織" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -11266,7 +11189,7 @@
+@@ -11268,7 +11189,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100015441914773" ;
      ns1:twitter "sobuemotoki" ;
@@ -5390,7 +5326,7 @@
      ns1:公式サイト "http://blog.goo.ne.jp/motokisobue" ;
      ns1:前回 "新" ;
      ns1:名 "元希" ;
-@@ -11278,8 +11201,8 @@
+@@ -11280,8 +11201,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "" ;
@@ -5401,7 +5337,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "光治" ;
-@@ -11368,10 +11291,10 @@
+@@ -11370,10 +11291,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北関東" .
  
@@ -5414,7 +5350,7 @@
      ns1:前回 "前" ;
      ns1:名 "昇" ;
      ns1:名前 "神谷昇" ;
-@@ -11409,7 +11332,7 @@
+@@ -11411,7 +11332,7 @@
  
  [] ns1:facebook "https://www.facebook.com/fukuzumih" ;
      ns1:twitter "fukuzumih" ;
@@ -5423,7 +5359,7 @@
      ns1:公式サイト "https://fukuzumihideyuki.jimdo.com/" ;
      ns1:前回 "新" ;
      ns1:名 "英行" ;
-@@ -11430,13 +11353,14 @@
+@@ -11432,13 +11353,14 @@
      ns1:姓 "福原" ;
      ns1:小選挙区 "島根2区" ;
      ns1:年齢 "70" ;
@@ -5440,7 +5376,7 @@
      ns1:前回 "前" ;
      ns1:名 "守" ;
      ns1:名前 "福山守" ;
-@@ -11447,22 +11371,21 @@
+@@ -11449,22 +11371,21 @@
      ns1:比例区 "四国" .
  
  [] ns1:facebook "https://www.facebook.com/masatoshi.fukuyama.1" ;
@@ -5459,15 +5395,14 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/fukuchanjapan" ;
--    ns1:twitter "" ;
-+    ns1:twitter "fukuchanjapan" ;
+     ns1:twitter "fukuchanjapan" ;
      ns1:候補名 "福島伸享" ;
 -    ns1:公式サイト "http://www.fukuchan-japan.com/" ;
 +    ns1:公式サイト "http://www.fukuchan-japan.com/seisaku/index.html" ;
      ns1:前回 "前" ;
      ns1:名 "伸享" ;
      ns1:名前 "福島伸享" ;
-@@ -11485,10 +11408,10 @@
+@@ -11487,10 +11408,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東海" .
  
@@ -5481,7 +5416,7 @@
      ns1:前回 "前" ;
      ns1:名 "峰之" ;
      ns1:名前 "福田峰之" ;
-@@ -11511,8 +11434,7 @@
+@@ -11513,8 +11434,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -5491,7 +5426,7 @@
      ns1:twitter "tatsuofukuda" ;
      ns1:候補名 "福田達夫" ;
      ns1:公式サイト "http://tatsuo-f.jp/" ;
-@@ -11534,7 +11456,8 @@
+@@ -11536,7 +11456,8 @@
      ns1:名前 "秋元司" ;
      ns1:姓 "秋元" ;
      ns1:小選挙区 "東京15区" ;
@@ -5501,7 +5436,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東京" .
  
-@@ -11617,10 +11540,9 @@
+@@ -11619,10 +11540,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -5514,7 +5449,7 @@
      ns1:公式サイト "http://www.inatsu.com/" ;
      ns1:前回 "前" ;
      ns1:名 "久" ;
-@@ -11657,7 +11579,8 @@
+@@ -11659,7 +11579,8 @@
      ns1:政党 "共産" ;
      ns1:比例区 "近畿" .
  
@@ -5524,7 +5459,7 @@
      ns1:twitter "" ;
      ns1:候補名 "穂坂泰" ;
      ns1:公式サイト "http://hosakayasushi.com/" ;
-@@ -11673,7 +11596,7 @@
+@@ -11675,7 +11596,7 @@
  [] ns1:facebook "https://www.facebook.com/anamiyoichi" ;
      ns1:twitter "" ;
      ns1:候補名 "穴見陽一" ;
@@ -5533,7 +5468,7 @@
      ns1:前回 "前" ;
      ns1:名 "陽一" ;
      ns1:名前 "穴見陽一" ;
-@@ -11685,7 +11608,7 @@
+@@ -11687,7 +11608,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100022329252387" ;
      ns1:twitter "soramoto_seiki" ;
@@ -5542,7 +5477,7 @@
      ns1:公式サイト "http://www.soramoto.com/" ;
      ns1:前回 "元" ;
      ns1:名 "誠喜" ;
-@@ -11735,7 +11658,7 @@
+@@ -11737,7 +11658,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "中国" .
  
@@ -5551,7 +5486,7 @@
      ns1:twitter "takeuchi_hibiki" ;
      ns1:候補名 "竹内今日生" ;
      ns1:公式サイト "" ;
-@@ -11750,15 +11673,16 @@
+@@ -11752,15 +11673,16 @@
  
  [] ns1:facebook "https://www.facebook.com/sdp.takeuchi" ;
      ns1:twitter "fwic9857" ;
@@ -5571,7 +5506,7 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "https://www.facebook.com/takeuchi.yuzuru" ;
-@@ -11777,7 +11701,7 @@
+@@ -11779,7 +11701,7 @@
  [] ns1:facebook "https://www.facebook.com/TakemotoNaokazu" ;
      ns1:twitter "naokazutakemoto" ;
      ns1:候補名 "竹本直一" ;
@@ -5580,7 +5515,7 @@
      ns1:前回 "前" ;
      ns1:名 "直一" ;
      ns1:名前 "竹本直一" ;
-@@ -11826,9 +11750,9 @@
+@@ -11828,9 +11750,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -5592,7 +5527,7 @@
      ns1:公式サイト "https://kasahara-reika.amebaownd.com/" ;
      ns1:前回 "新" ;
      ns1:名 "麗香" ;
-@@ -11836,13 +11760,13 @@
+@@ -11838,13 +11760,13 @@
      ns1:姓 "笠原" ;
      ns1:小選挙区 "新潟5区" ;
      ns1:年齢 "25" ;
@@ -5611,7 +5546,7 @@
      ns1:前回 "前" ;
      ns1:名 "浩史" ;
      ns1:名前 "笠浩史" ;
-@@ -11907,7 +11831,8 @@
+@@ -11909,7 +11831,8 @@
  [] ns1:facebook "https://www.facebook.com/Yanakazuo" ;
      ns1:twitter "" ;
      ns1:候補名 "簗和生" ;
@@ -5621,7 +5556,7 @@
      ns1:前回 "前" ;
      ns1:名 "和生" ;
      ns1:名前 "簗和生" ;
-@@ -11930,9 +11855,9 @@
+@@ -11932,9 +11855,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -5633,7 +5568,7 @@
      ns1:公式サイト "http://hosoda-kenichi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "健一" ;
-@@ -11984,7 +11909,7 @@
+@@ -11986,7 +11909,7 @@
  
  [] ns1:facebook "https://www.facebook.com/rintaro.ogata.official" ;
      ns1:twitter "" ;
@@ -5642,7 +5577,7 @@
      ns1:公式サイト "http://rinta.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "林太郎" ;
-@@ -11998,32 +11923,31 @@
+@@ -12000,32 +11923,31 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008449007902" ;
      ns1:twitter "" ;
      ns1:候補名 "縁田有紀" ;
@@ -5679,7 +5614,7 @@
      ns1:公式サイト "http://www.minobe-teruo.com/" ;
      ns1:前回 "新" ;
      ns1:名 "映夫" ;
-@@ -12060,7 +11984,7 @@
+@@ -12062,7 +11984,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -5688,7 +5623,7 @@
      ns1:twitter "" ;
      ns1:候補名 "羽田次郎" ;
      ns1:公式サイト "" ;
-@@ -12076,7 +12000,7 @@
+@@ -12078,7 +12000,7 @@
  [] ns1:facebook "https://www.facebook.com/funayama.yumi.haiji" ;
      ns1:twitter "" ;
      ns1:候補名 "舩山由美" ;
@@ -5697,7 +5632,7 @@
      ns1:前回 "新" ;
      ns1:名 "由美" ;
      ns1:名前 "舩山由美" ;
-@@ -12089,7 +12013,7 @@
+@@ -12091,7 +12013,7 @@
  [] ns1:facebook "https://www.facebook.com/funahashi.toshimitsu" ;
      ns1:twitter "t_funahashi" ;
      ns1:候補名 "船橋利実" ;
@@ -5706,7 +5641,7 @@
      ns1:前回 "元" ;
      ns1:名 "利実" ;
      ns1:名前 "船橋利実" ;
-@@ -12102,7 +12026,7 @@
+@@ -12104,7 +12026,7 @@
  [] ns1:facebook "https://www.facebook.com/hajime.funada" ;
      ns1:twitter "" ;
      ns1:候補名 "船田元" ;
@@ -5715,7 +5650,7 @@
      ns1:前回 "前" ;
      ns1:名 "元" ;
      ns1:名前 "船田元" ;
-@@ -12113,7 +12037,7 @@
+@@ -12115,7 +12037,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "" ;
@@ -5724,7 +5659,7 @@
      ns1:候補名 "花輪智史" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -12141,7 +12065,8 @@
+@@ -12143,7 +12065,8 @@
  [] ns1:facebook "https://www.facebook.com/wakamiyakenji" ;
      ns1:twitter "wakamiya7788" ;
      ns1:候補名 "若宮健嗣" ;
@@ -5734,7 +5669,7 @@
      ns1:前回 "前" ;
      ns1:名 "健嗣" ;
      ns1:名前 "若宮健嗣" ;
-@@ -12166,7 +12091,7 @@
+@@ -12168,7 +12091,7 @@
  
  [] ns1:facebook "https://www.facebook.com/wakabayashi8" ;
      ns1:twitter "wakayasu1985" ;
@@ -5743,7 +5678,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "靖久" ;
-@@ -12193,7 +12118,8 @@
+@@ -12195,7 +12118,8 @@
  [] ns1:facebook "https://www.facebook.com/moteging" ;
      ns1:twitter "moteging" ;
      ns1:候補名 "茂木敏充" ;
@@ -5753,7 +5688,7 @@
      ns1:前回 "前" ;
      ns1:名 "敏充" ;
      ns1:名前 "茂木敏充" ;
-@@ -12216,23 +12142,35 @@
+@@ -12218,23 +12142,35 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東北" .
  
@@ -5796,7 +5731,7 @@
      ns1:前回 "新" ;
      ns1:名 "章博" ;
      ns1:名前 "荒木章博" ;
-@@ -12271,7 +12209,7 @@
+@@ -12273,7 +12209,7 @@
  [] ns1:facebook "https://www.facebook.com/makoto.sugawara.33" ;
      ns1:twitter "sugawara_makoto" ;
      ns1:候補名 "菅原誠" ;
@@ -5805,7 +5740,7 @@
      ns1:前回 "新" ;
      ns1:名 "誠" ;
      ns1:名前 "菅原誠" ;
-@@ -12294,11 +12232,10 @@
+@@ -12296,11 +12232,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東北" .
  
@@ -5819,7 +5754,7 @@
      ns1:前回 "前" ;
      ns1:名 "直人" ;
      ns1:名前 "菅直人" ;
-@@ -12310,7 +12247,7 @@
+@@ -12312,7 +12247,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yoshihide.suga" ;
      ns1:twitter "sugawitter" ;
@@ -5828,7 +5763,7 @@
      ns1:公式サイト "http://www.sugayoshihide.gr.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "義偉" ;
-@@ -12321,10 +12258,8 @@
+@@ -12323,10 +12258,8 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -5841,7 +5776,7 @@
      ns1:候補名 "菊地憲之" ;
      ns1:公式サイト "http://hipeace.jugem.jp/" ;
      ns1:前回 "新" ;
-@@ -12338,7 +12273,7 @@
+@@ -12340,7 +12273,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "kikuta_official" ;
@@ -5850,7 +5785,7 @@
      ns1:公式サイト "http://www.kikuta-makiko.net/" ;
      ns1:前回 "前" ;
      ns1:名 "真紀子" ;
-@@ -12378,7 +12313,7 @@
+@@ -12380,7 +12313,7 @@
  [] ns1:facebook "https://www.facebook.com/kaita1964" ;
      ns1:twitter "yjochi" ;
      ns1:候補名 "落合洋司" ;
@@ -5859,7 +5794,7 @@
      ns1:前回 "新" ;
      ns1:名 "洋司" ;
      ns1:名前 "落合洋司" ;
-@@ -12388,7 +12323,7 @@
+@@ -12390,7 +12323,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -5868,7 +5803,7 @@
      ns1:twitter "ochiaitakayuki" ;
      ns1:候補名 "落合貴之" ;
      ns1:公式サイト "http://www.ochiaitakayuki.com/" ;
-@@ -12403,8 +12338,8 @@
+@@ -12405,8 +12338,8 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -5879,7 +5814,7 @@
      ns1:前回 "前" ;
      ns1:名 "康弘" ;
      ns1:名前 "葉梨康弘" ;
-@@ -12429,7 +12364,7 @@
+@@ -12431,7 +12364,7 @@
  
  [] ns1:facebook "https://www.facebook.com/fujimaru.satoshi" ;
      ns1:twitter "" ;
@@ -5888,7 +5823,7 @@
      ns1:公式サイト "http://www.fujimaru-satoshi.net/" ;
      ns1:前回 "前" ;
      ns1:名 "敏" ;
-@@ -12443,7 +12378,7 @@
+@@ -12445,7 +12378,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "藤井孝男" ;
@@ -5897,7 +5832,7 @@
      ns1:前回 "元" ;
      ns1:名 "孝男" ;
      ns1:名前 "藤井孝男" ;
-@@ -12466,8 +12401,7 @@
+@@ -12468,8 +12401,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
@@ -5907,7 +5842,7 @@
      ns1:twitter "iwate_fujiwara" ;
      ns1:候補名 "藤原崇" ;
      ns1:公式サイト "http://takasi.info/" ;
-@@ -12481,9 +12415,9 @@
+@@ -12483,9 +12415,9 @@
      ns1:比例区 "東北" .
  
  [] ns1:facebook "https://www.facebook.com/fujiokakayoco" ;
@@ -5919,7 +5854,7 @@
      ns1:前回 "新" ;
      ns1:名 "佳代子" ;
      ns1:名前 "藤岡佳代子" ;
-@@ -12493,8 +12427,7 @@
+@@ -12495,8 +12427,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "四国" .
  
@@ -5929,7 +5864,7 @@
      ns1:twitter "fujiokatakao" ;
      ns1:候補名 "藤岡隆雄" ;
      ns1:公式サイト "http://fujioka-takao.jp/" ;
-@@ -12509,7 +12442,7 @@
+@@ -12511,7 +12442,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -5938,7 +5873,7 @@
      ns1:公式サイト "http://fujimaki-kenta.com/" ;
      ns1:前回 "新" ;
      ns1:名 "健太" ;
-@@ -12523,7 +12456,7 @@
+@@ -12525,7 +12456,7 @@
  [] ns1:facebook "https://www.facebook.com/kazunori.fujimoto.587" ;
      ns1:twitter "1218fuji" ;
      ns1:候補名 "藤本一規" ;
@@ -5947,7 +5882,7 @@
      ns1:前回 "新" ;
      ns1:名 "一規" ;
      ns1:名前 "藤本一規" ;
-@@ -12535,7 +12468,7 @@
+@@ -12537,7 +12468,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yuri.fupo" ;
      ns1:twitter "fupo_cgsm" ;
@@ -5956,7 +5891,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "友里" ;
-@@ -12548,7 +12481,7 @@
+@@ -12550,7 +12481,7 @@
  
  [] ns1:facebook "https://www.facebook.com/jcp.fujimotosachiko" ;
      ns1:twitter "fujimotosachico" ;
@@ -5965,7 +5900,7 @@
      ns1:公式サイト "http://fujimoto.jcp-sakai.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "幸子" ;
-@@ -12561,7 +12494,7 @@
+@@ -12563,7 +12494,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100006891949363" ;
      ns1:twitter "" ;
@@ -5974,7 +5909,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "聡志" ;
-@@ -12575,7 +12508,7 @@
+@@ -12577,7 +12508,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "藤田一枝" ;
@@ -5983,7 +5918,7 @@
      ns1:前回 "元" ;
      ns1:名 "一枝" ;
      ns1:名前 "藤田一枝" ;
-@@ -12595,13 +12528,14 @@
+@@ -12597,13 +12528,14 @@
      ns1:姓 "藤田" ;
      ns1:小選挙区 "香川3区" ;
      ns1:年齢 "62" ;
@@ -6000,7 +5935,7 @@
      ns1:前回 "元" ;
      ns1:名 "大助" ;
      ns1:名前 "藤田大助" ;
-@@ -12611,8 +12545,7 @@
+@@ -12613,8 +12545,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東海" .
  
@@ -6010,7 +5945,7 @@
      ns1:twitter "fumi_fuji" ;
      ns1:候補名 "藤田文武" ;
      ns1:公式サイト "https://fumitakefujita.com/" ;
-@@ -12625,7 +12558,7 @@
+@@ -12627,7 +12558,7 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -6019,7 +5954,7 @@
      ns1:twitter "" ;
      ns1:候補名 "藤田時雄" ;
      ns1:公式サイト "" ;
-@@ -12641,7 +12574,7 @@
+@@ -12643,7 +12574,7 @@
  [] ns1:facebook "https://www.facebook.com/fujino.yasufumi" ;
      ns1:twitter "fujinofujinooo" ;
      ns1:候補名 "藤野保史" ;
@@ -6028,7 +5963,7 @@
      ns1:前回 "前" ;
      ns1:名 "保史" ;
      ns1:名前 "藤野保史" ;
-@@ -12654,7 +12587,7 @@
+@@ -12656,7 +12587,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "蜂谷弘美" ;
@@ -6037,7 +5972,7 @@
      ns1:前回 "新" ;
      ns1:名 "弘美" ;
      ns1:名前 "蜂谷弘美" ;
-@@ -12705,15 +12638,15 @@
+@@ -12707,15 +12638,15 @@
  
  [] ns1:facebook "https://www.facebook.com/nishihara.tada" ;
      ns1:twitter "nishihara_tada" ;
@@ -6056,18 +5991,16 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/jcp.yamaguti.seibu" ;
-@@ -12730,8 +12663,8 @@
-     ns1:比例区 "" .
+@@ -12733,7 +12664,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100012092833477" ;
--    ns1:twitter "" ;
+     ns1:twitter "nishioka_arata" ;
 -    ns1:候補名 "西岡あらた" ;
-+    ns1:twitter "nishioka_arata" ;
 +    ns1:候補名 "西岡新" ;
      ns1:公式サイト "http://nishioka-arata.jp/" ;
      ns1:前回 "元" ;
      ns1:名 "新" ;
-@@ -12755,11 +12688,10 @@
+@@ -12757,11 +12688,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "九州" .
  
@@ -6081,7 +6014,7 @@
      ns1:前回 "前" ;
      ns1:名 "公也" ;
      ns1:名前 "西川公也" ;
-@@ -12783,9 +12715,9 @@
+@@ -12785,9 +12715,9 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/Atsushi.Nishimoto7" ;
@@ -6093,7 +6026,7 @@
      ns1:前回 "新" ;
      ns1:名 "篤" ;
      ns1:名前 "西本篤" ;
-@@ -12823,7 +12755,7 @@
+@@ -12825,7 +12755,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "happymania28jp" ;
@@ -6102,7 +6035,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "恵美" ;
-@@ -12834,7 +12766,7 @@
+@@ -12836,7 +12766,7 @@
      ns1:政党 "維新" ;
      ns1:比例区 "東北" .
  
@@ -6111,7 +6044,7 @@
      ns1:twitter "" ;
      ns1:候補名 "西村明宏" ;
      ns1:公式サイト "http://www.a-nishimura.jp/" ;
-@@ -12849,8 +12781,8 @@
+@@ -12851,8 +12781,8 @@
  
  [] ns1:facebook "https://www.facebook.com/official.nishimura.chinami" ;
      ns1:twitter "chinami_niigata" ;
@@ -6122,7 +6055,7 @@
      ns1:前回 "前" ;
      ns1:名 "智奈美" ;
      ns1:名前 "西村智奈美" ;
-@@ -12860,8 +12792,7 @@
+@@ -12862,8 +12792,7 @@
      ns1:政党 "立憲民主" ;
      ns1:比例区 "北陸信越" .
  
@@ -6132,7 +6065,7 @@
      ns1:twitter "nissyzaaaawa" ;
      ns1:候補名 "西沢耕一" ;
      ns1:公式サイト "" ;
-@@ -12876,8 +12807,8 @@
+@@ -12878,8 +12807,8 @@
  
  [] ns1:facebook "https://www.facebook.com/hiroshi.nishizawa.3910" ;
      ns1:twitter "melf4511" ;
@@ -6143,7 +6076,7 @@
      ns1:前回 "新" ;
      ns1:名 "博" ;
      ns1:名前 "西澤博" ;
-@@ -12887,10 +12818,10 @@
+@@ -12889,10 +12818,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "北陸信越" .
  
@@ -6156,7 +6089,7 @@
      ns1:前回 "新" ;
      ns1:名 "主税" ;
      ns1:名前 "西田主税" ;
-@@ -12913,10 +12844,10 @@
+@@ -12915,10 +12844,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
@@ -6169,7 +6102,7 @@
      ns1:前回 "新" ;
      ns1:名 "敏子" ;
      ns1:名前 "西田敏子" ;
-@@ -12929,7 +12860,7 @@
+@@ -12931,7 +12860,7 @@
  [] ns1:facebook "https://www.facebook.com/nishida.syoji",
          "https://www.facebook.com/syoji.nishida.56" ;
      ns1:twitter "hatibe47" ;
@@ -6178,7 +6111,7 @@
      ns1:公式サイト "http://www.nishida-syoji.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "昭二" ;
-@@ -12955,15 +12886,14 @@
+@@ -12957,15 +12886,14 @@
  
  [] ns1:facebook "https://www.facebook.com/ai.nishiwaki.hrp" ;
      ns1:twitter "ainishiwaki" ;
@@ -6196,7 +6129,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/daisukenishino2016" ;
-@@ -12979,10 +12909,9 @@
+@@ -12981,10 +12909,9 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -6209,7 +6142,7 @@
      ns1:公式サイト "http://koichi-nishino.com/" ;
      ns1:前回 "元" ;
      ns1:名 "弘一" ;
-@@ -12995,7 +12924,7 @@
+@@ -12997,7 +12924,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kousaburou.nishime" ;
      ns1:twitter "" ;
@@ -6218,7 +6151,7 @@
      ns1:公式サイト "http://nishime-k.com/" ;
      ns1:前回 "前" ;
      ns1:名 "恒三郎" ;
-@@ -13009,7 +12938,7 @@
+@@ -13011,7 +12938,7 @@
  [] ns1:facebook "https://www.facebook.com/hideo.tsunoda.53" ;
      ns1:twitter "" ;
      ns1:候補名 "角田秀穂" ;
@@ -6227,7 +6160,7 @@
      ns1:前回 "前" ;
      ns1:名 "秀穂" ;
      ns1:名前 "角田秀穂" ;
-@@ -13045,10 +12974,10 @@
+@@ -13047,10 +12974,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -6240,7 +6173,7 @@
      ns1:前回 "前" ;
      ns1:名 "公一" ;
      ns1:名前 "谷公一" ;
-@@ -13074,7 +13003,8 @@
+@@ -13076,7 +13003,8 @@
  [] ns1:facebook "https://www.facebook.com/tanigawa.tom" ;
      ns1:twitter "tom_tanigawa" ;
      ns1:候補名 "谷川とむ" ;
@@ -6250,7 +6183,7 @@
      ns1:前回 "前" ;
      ns1:名 "とむ" ;
      ns1:名前 "谷川とむ" ;
-@@ -13097,11 +13027,10 @@
+@@ -13099,11 +13027,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "" .
  
@@ -6264,7 +6197,7 @@
      ns1:前回 "新" ;
      ns1:名 "智行" ;
      ns1:名前 "谷川智行" ;
-@@ -13114,7 +13043,7 @@
+@@ -13116,7 +13043,7 @@
  [] ns1:facebook "https://www.facebook.com/hajimeyatagawa" ;
      ns1:twitter "" ;
      ns1:候補名 "谷田川元" ;
@@ -6273,7 +6206,7 @@
      ns1:前回 "元" ;
      ns1:名 "元" ;
      ns1:名前 "谷田川元" ;
-@@ -13140,20 +13069,20 @@
+@@ -13142,20 +13069,20 @@
  [] ns1:facebook "" ;
      ns1:twitter "jmqrz1xewz0lj01" ;
      ns1:候補名 "豊巻絹子" ;
@@ -6297,7 +6230,7 @@
      ns1:前回 "前" ;
      ns1:名 "真由子" ;
      ns1:名前 "豊田真由子" ;
-@@ -13163,7 +13092,7 @@
+@@ -13165,7 +13092,7 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -6306,7 +6239,7 @@
      ns1:twitter "" ;
      ns1:候補名 "赤尾由美" ;
      ns1:公式サイト "" ;
-@@ -13178,7 +13107,7 @@
+@@ -13180,7 +13107,7 @@
  
  [] ns1:facebook "https://www.facebook.com/akamineseiken" ;
      ns1:twitter "akamineseiken" ;
@@ -6315,7 +6248,7 @@
      ns1:公式サイト "http://akamine-seiken.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "政賢" ;
-@@ -13205,7 +13134,7 @@
+@@ -13207,7 +13134,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "rikken_akamatsu" ;
      ns1:候補名 "赤松広隆" ;
@@ -6324,7 +6257,7 @@
      ns1:前回 "前" ;
      ns1:名 "広隆" ;
      ns1:名前 "赤松広隆" ;
-@@ -13221,18 +13150,17 @@
+@@ -13223,18 +13150,17 @@
      ns1:公式サイト "http://www.ryosei-akazawa.com/" ;
      ns1:前回 "前" ;
      ns1:名 "亮正" ;
@@ -6347,7 +6280,7 @@
      ns1:前回 "前" ;
      ns1:名 "一嘉" ;
      ns1:名前 "赤羽一嘉" ;
-@@ -13242,9 +13170,9 @@
+@@ -13244,9 +13170,9 @@
      ns1:政党 "公明" ;
      ns1:比例区 "" .
  
@@ -6360,7 +6293,7 @@
      ns1:公式サイト "http://www.akama.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "二郎" ;
-@@ -13255,8 +13183,7 @@
+@@ -13257,8 +13183,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
@@ -6370,7 +6303,7 @@
      ns1:twitter "ochitakao" ;
      ns1:候補名 "越智隆雄" ;
      ns1:公式サイト "http://ochi-takao.jp/" ;
-@@ -13284,7 +13211,7 @@
+@@ -13286,7 +13211,7 @@
  
  [] ns1:facebook "https://www.facebook.com/issue.net" ;
      ns1:twitter "adachiyasushi" ;
@@ -6379,7 +6312,7 @@
      ns1:公式サイト "http://adachiyasushi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "康史" ;
-@@ -13295,11 +13222,10 @@
+@@ -13297,11 +13222,10 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -6393,7 +6326,7 @@
      ns1:前回 "前" ;
      ns1:名 "恵一" ;
      ns1:名前 "輿水恵一" ;
-@@ -13323,8 +13249,7 @@
+@@ -13325,8 +13249,7 @@
      ns1:比例区 "近畿" .
  
  [] ns1:facebook "https://www.facebook.com/kiyototsujitokyo2nd" ;
@@ -6403,7 +6336,7 @@
      ns1:候補名 "辻清人" ;
      ns1:公式サイト "http://k-tsuji.jp/" ;
      ns1:前回 "前" ;
-@@ -13336,7 +13261,7 @@
+@@ -13338,7 +13261,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東京" .
  
@@ -6412,7 +6345,7 @@
      ns1:twitter "tsujijcp" ;
      ns1:候補名 "辻源巳" ;
      ns1:公式サイト "" ;
-@@ -13351,7 +13276,7 @@
+@@ -13353,7 +13276,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -6421,7 +6354,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "一宇" ;
-@@ -13364,7 +13289,7 @@
+@@ -13366,7 +13289,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kondokazuya3" ;
      ns1:twitter "kondokazuya" ;
@@ -6430,7 +6363,7 @@
      ns1:公式サイト "http://www.kondokazuya.com/" ;
      ns1:前回 "元" ;
      ns1:名 "和也" ;
-@@ -13378,7 +13303,7 @@
+@@ -13380,7 +13303,7 @@
  [] ns1:facebook "https://www.facebook.com/kondo.shoichi.giin" ;
      ns1:twitter "kondo_shoichi" ;
      ns1:候補名 "近藤昭一" ;
@@ -6439,7 +6372,7 @@
      ns1:前回 "前" ;
      ns1:名 "昭一" ;
      ns1:名前 "近藤昭一" ;
-@@ -13401,11 +13326,10 @@
+@@ -13403,11 +13326,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東北" .
  
@@ -6454,7 +6387,7 @@
      ns1:前回 "前" ;
      ns1:名 "誠二" ;
      ns1:名前 "逢坂誠二" ;
-@@ -13444,7 +13368,7 @@
+@@ -13446,7 +13368,7 @@
  [] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
      ns1:twitter "kiyohiko_toyama" ;
      ns1:候補名 "遠山清彦" ;
@@ -6463,7 +6396,7 @@
      ns1:前回 "前" ;
      ns1:名 "清彦" ;
      ns1:名前 "遠山清彦" ;
-@@ -13457,7 +13381,7 @@
+@@ -13459,7 +13381,7 @@
  [] ns1:facebook "https://www.facebook.com/endo.toshiaki0117" ;
      ns1:twitter "team_e_toshiaki" ;
      ns1:候補名 "遠藤利明" ;
@@ -6472,7 +6405,7 @@
      ns1:前回 "前" ;
      ns1:名 "利明" ;
      ns1:名前 "遠藤利明" ;
-@@ -13470,7 +13394,7 @@
+@@ -13472,7 +13394,7 @@
  [] ns1:facebook "https://www.facebook.com/ENDOUNOBUHIKO" ;
      ns1:twitter "endo_nobuhiko" ;
      ns1:候補名 "遠藤宣彦" ;
@@ -6481,7 +6414,7 @@
      ns1:前回 "元" ;
      ns1:名 "宣彦" ;
      ns1:名前 "遠藤宣彦" ;
-@@ -13482,7 +13406,7 @@
+@@ -13484,7 +13406,7 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100007432056229" ;
      ns1:twitter "" ;
@@ -6490,7 +6423,7 @@
      ns1:公式サイト "http://blog.livedoor.jp/akitadog/" ;
      ns1:前回 "前" ;
      ns1:名 "敬" ;
-@@ -13503,16 +13427,17 @@
+@@ -13505,16 +13427,17 @@
      ns1:姓 "遠藤" ;
      ns1:小選挙区 "福島5区" ;
      ns1:年齢 "67" ;
@@ -6514,7 +6447,7 @@
      ns1:姓 "郡" ;
      ns1:小選挙区 "山口4区" ;
      ns1:年齢 "56" ;
-@@ -13545,11 +13470,10 @@
+@@ -13547,11 +13470,10 @@
      ns1:政党 "幸福" ;
      ns1:比例区 "東京" .
  
@@ -6528,7 +6461,7 @@
      ns1:前回 "前" ;
      ns1:名 "和彦" ;
      ns1:名前 "重徳和彦" ;
-@@ -13562,7 +13486,6 @@
+@@ -13564,7 +13486,6 @@
  [] ns1:facebook "" ;
      ns1:twitter "koji_1951" ;
      ns1:候補名 "重村幸司" ;
@@ -6536,7 +6469,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸司" ;
      ns1:名前 "重村幸司" ;
-@@ -13575,7 +13498,7 @@
+@@ -13577,7 +13498,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "野々部尚昭" ;
@@ -6545,7 +6478,7 @@
      ns1:前回 "新" ;
      ns1:名 "尚昭" ;
      ns1:名前 "野々部尚昭" ;
-@@ -13588,7 +13511,7 @@
+@@ -13590,7 +13511,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "nonakajimusho" ;
      ns1:候補名 "野中厚" ;
@@ -6554,7 +6487,7 @@
      ns1:前回 "前" ;
      ns1:名 "厚" ;
      ns1:名前 "野中厚" ;
-@@ -13614,18 +13537,18 @@
+@@ -13616,18 +13537,18 @@
  [] ns1:facebook "https://www.facebook.com/norico.nohara" ;
      ns1:twitter "noharanoriko" ;
      ns1:候補名 "野原典子" ;
@@ -6579,7 +6512,7 @@
      ns1:候補名 "野口威光" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -13637,7 +13560,7 @@
+@@ -13639,7 +13560,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "近畿" .
  
@@ -6588,7 +6521,7 @@
      ns1:twitter "" ;
      ns1:候補名 "野呂正和" ;
      ns1:公式サイト "" ;
-@@ -13647,7 +13570,8 @@
+@@ -13649,7 +13570,8 @@
      ns1:姓 "野呂" ;
      ns1:小選挙区 "鹿児島4区" ;
      ns1:年齢 "66" ;
@@ -6598,7 +6531,7 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "" ;
-@@ -13673,7 +13597,7 @@
+@@ -13675,7 +13597,7 @@
      ns1:姓 "野村" ;
      ns1:小選挙区 "広島3区" ;
      ns1:年齢 "35" ;
@@ -6607,7 +6540,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "" ;
-@@ -13715,10 +13639,10 @@
+@@ -13717,10 +13639,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -6620,19 +6553,16 @@
      ns1:前回 "前" ;
      ns1:名 "佳彦" ;
      ns1:名前 "野田佳彦" ;
-@@ -13729,9 +13653,9 @@
-     ns1:比例区 "" .
- 
+@@ -13733,7 +13655,7 @@
  [] ns1:facebook "https://www.facebook.com/nodatakeshi.page" ;
--    ns1:twitter "" ;
-+    ns1:twitter "nodatakeshi1003" ;
+     ns1:twitter "nodatakeshi1003" ;
      ns1:候補名 "野田毅" ;
 -    ns1:公式サイト "http://www.nodatakeshi.com/" ;
 +    ns1:公式サイト "http://nodatakeshi.com/" ;
      ns1:前回 "前" ;
      ns1:名 "毅" ;
      ns1:名前 "野田毅" ;
-@@ -13741,8 +13665,7 @@
+@@ -13743,8 +13665,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "" .
  
@@ -6642,7 +6572,7 @@
      ns1:twitter "noda_seiko93" ;
      ns1:候補名 "野田聖子" ;
      ns1:公式サイト "http://www.noda-seiko.gr.jp/" ;
-@@ -13758,7 +13681,7 @@
+@@ -13760,7 +13681,7 @@
  [] ns1:facebook "https://www.facebook.com/noma.takeshi" ;
      ns1:twitter "" ;
      ns1:候補名 "野間健" ;
@@ -6651,7 +6581,7 @@
      ns1:前回 "前" ;
      ns1:名 "健" ;
      ns1:名前 "野間健" ;
-@@ -13770,12 +13693,12 @@
+@@ -13772,12 +13693,12 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -6668,7 +6598,7 @@
      ns1:小選挙区 "東京22区" ;
      ns1:年齢 "41" ;
      ns1:政党 "希望" ;
-@@ -13783,8 +13706,8 @@
+@@ -13785,8 +13706,8 @@
  
  [] ns1:facebook "https://www.facebook.com/kanakuramasatoshi" ;
      ns1:twitter "kanakuramasato" ;
@@ -6679,7 +6609,7 @@
      ns1:前回 "新" ;
      ns1:名 "昌俊" ;
      ns1:名前 "金倉昌俊" ;
-@@ -13797,7 +13720,7 @@
+@@ -13799,7 +13720,7 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100005810323550" ;
      ns1:twitter "jcp_555" ;
      ns1:候補名 "金元幸枝" ;
@@ -6688,7 +6618,7 @@
      ns1:前回 "新" ;
      ns1:名 "幸枝" ;
      ns1:名前 "金元幸枝" ;
-@@ -13821,8 +13744,8 @@
+@@ -13823,8 +13744,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/elmichiko" ;
@@ -6699,7 +6629,7 @@
      ns1:公式サイト "http://ishin0507.ti-da.net/" ;
      ns1:前回 "新" ;
      ns1:名 "竜郎" ;
-@@ -13830,7 +13753,7 @@
+@@ -13832,7 +13753,7 @@
      ns1:姓 "金城" ;
      ns1:小選挙区 "沖縄3区" ;
      ns1:年齢 "53" ;
@@ -6708,7 +6638,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/kanekomasuo" ;
-@@ -13848,7 +13771,7 @@
+@@ -13850,7 +13771,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kanekosyunpei.gifu" ;
      ns1:twitter "" ;
@@ -6717,7 +6647,7 @@
      ns1:公式サイト "https://kanekosyunpei.jimdo.com/" ;
      ns1:前回 "新" ;
      ns1:名 "俊平" ;
-@@ -13872,7 +13795,8 @@
+@@ -13874,7 +13795,8 @@
      ns1:政党 "自民" ;
      ns1:比例区 "" .
  
@@ -6727,7 +6657,7 @@
      ns1:twitter "kaneko_emi_",
          "megumi_kaneko4" ;
      ns1:候補名 "金子恵美" ;
-@@ -13892,8 +13816,8 @@
+@@ -13894,8 +13816,8 @@
  
  [] ns1:facebook "https://www.facebook.com/tooru.kanamori" ;
      ns1:twitter "mimu_kanamori" ;
@@ -6738,7 +6668,7 @@
      ns1:前回 "新" ;
      ns1:名 "亨" ;
      ns1:名前 "金森亨" ;
-@@ -13903,14 +13827,14 @@
+@@ -13905,14 +13827,14 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -6758,7 +6688,7 @@
      ns1:小選挙区 "" ;
      ns1:年齢 "52" ;
      ns1:政党 "自民" ;
-@@ -13944,8 +13868,7 @@
+@@ -13946,8 +13868,7 @@
  
  [] ns1:facebook "https://www.facebook.com/susumu.kugimaru" ;
      ns1:twitter "kugimarususumu" ;
@@ -6768,7 +6698,7 @@
      ns1:前回 "新" ;
      ns1:名 "進" ;
      ns1:名前 "釘丸進" ;
-@@ -13970,7 +13893,7 @@
+@@ -13972,7 +13893,7 @@
  
  [] ns1:facebook "https://www.facebook.com/chikachikagogo" ;
      ns1:twitter "chikachika_gogo" ;
@@ -6777,7 +6707,7 @@
      ns1:前回 "新" ;
      ns1:名 "千佳" ;
      ns1:名前 "鈴木千佳" ;
-@@ -13982,7 +13905,7 @@
+@@ -13984,7 +13905,7 @@
  
  [] ns1:facebook "https://www.facebook.com/kota.suzuki.1656" ;
      ns1:twitter "" ;
@@ -6786,7 +6716,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "宏太" ;
-@@ -13993,10 +13916,11 @@
+@@ -13995,10 +13916,11 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -6802,7 +6732,7 @@
      ns1:前回 "新" ;
      ns1:名 "宏治" ;
      ns1:名前 "鈴木宏治" ;
-@@ -14009,7 +13933,6 @@
+@@ -14011,7 +13933,6 @@
  [] ns1:facebook "https://www.facebook.com/鈴木宗男-322416504543497" ;
      ns1:twitter "" ;
      ns1:候補名 "鈴木宗男" ;
@@ -6810,7 +6740,7 @@
      ns1:前回 "元" ;
      ns1:名 "宗男" ;
      ns1:名前 "鈴木宗男" ;
-@@ -14019,8 +13942,7 @@
+@@ -14021,8 +13942,7 @@
      ns1:政党 "大地" ;
      ns1:比例区 "北海道" .
  
@@ -6820,7 +6750,7 @@
      ns1:twitter "suzukiyosuke1" ;
      ns1:候補名 "鈴木庸介" ;
      ns1:公式サイト "http://yosukesuzuki.net/" ;
-@@ -14062,7 +13984,7 @@
+@@ -14064,7 +13984,7 @@
  [] ns1:facebook "https://www.facebook.com/suzuki.jyunji" ;
      ns1:twitter "jyunji_suzuki" ;
      ns1:候補名 "鈴木淳司" ;
@@ -6829,7 +6759,7 @@
      ns1:前回 "前" ;
      ns1:名 "淳司" ;
      ns1:名前 "鈴木淳司" ;
-@@ -14076,7 +13998,7 @@
+@@ -14078,7 +13998,7 @@
          "https://www.facebook.com/yosihiro.suzuki.52" ;
      ns1:twitter "" ;
      ns1:候補名 "鈴木義弘" ;
@@ -6838,7 +6768,7 @@
      ns1:前回 "前" ;
      ns1:名 "義弘" ;
      ns1:名前 "鈴木義弘" ;
-@@ -14140,7 +14062,7 @@
+@@ -14142,7 +14062,7 @@
  
  [] ns1:facebook "https://www.facebook.com/marikokoro556" ;
      ns1:twitter "marikokoro556" ;
@@ -6847,7 +6777,7 @@
      ns1:公式サイト "http://marikokoro556.tokyo.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "麻理子" ;
-@@ -14177,10 +14099,9 @@
+@@ -14179,10 +14099,9 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -6860,7 +6790,7 @@
      ns1:公式サイト "http://senkyo.jcp-tokyo.net/osanai/" ;
      ns1:前回 "新" ;
      ns1:名 "史子" ;
-@@ -14204,7 +14125,7 @@
+@@ -14206,7 +14125,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -6869,7 +6799,7 @@
      ns1:twitter "" ;
      ns1:候補名 "長坂康正" ;
      ns1:公式サイト "http://nagasakayasumasa.mie1.net/" ;
-@@ -14243,8 +14164,7 @@
+@@ -14245,8 +14164,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "近畿" .
  
@@ -6879,7 +6809,7 @@
      ns1:twitter "takashinagao" ;
      ns1:候補名 "長尾敬" ;
      ns1:公式サイト "http://www.tnagao.org/" ;
-@@ -14259,7 +14179,7 @@
+@@ -14261,7 +14179,7 @@
  
  [] ns1:facebook "https://www.facebook.com/ながお秀樹-669747393123270" ;
      ns1:twitter "" ;
@@ -6888,7 +6818,7 @@
      ns1:公式サイト "http://nagaohideki.com/" ;
      ns1:前回 "新" ;
      ns1:名 "秀樹" ;
-@@ -14272,7 +14192,7 @@
+@@ -14274,7 +14192,7 @@
  
  [] ns1:facebook "https://www.facebook.com/nagaokayoshikazu" ;
      ns1:twitter "jcphigashiosaka" ;
@@ -6897,7 +6827,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "嘉一" ;
-@@ -14286,7 +14206,7 @@
+@@ -14288,7 +14206,7 @@
  [] ns1:facebook "https://www.facebook.com/kazuyoshi.nagashima.7" ;
      ns1:twitter "" ;
      ns1:候補名 "長島一由" ;
@@ -6906,7 +6836,7 @@
      ns1:前回 "元" ;
      ns1:名 "一由" ;
      ns1:名前 "長島一由" ;
-@@ -14309,8 +14229,7 @@
+@@ -14311,8 +14229,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
  
@@ -6916,7 +6846,7 @@
      ns1:twitter "kotaro_nagasaki" ;
      ns1:候補名 "長崎幸太郎" ;
      ns1:公式サイト "http://nagasakikotaro.jp/" ;
-@@ -14351,7 +14270,7 @@
+@@ -14353,7 +14270,7 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "yukiko_nagase" ;
@@ -6925,7 +6855,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "由希子" ;
-@@ -14390,7 +14309,7 @@
+@@ -14392,7 +14309,7 @@
  
  [] ns1:facebook "https://www.facebook.com/naoyuki.haseda" ;
      ns1:twitter "takijidakkan" ;
@@ -6934,7 +6864,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "直之" ;
-@@ -14415,7 +14334,7 @@
+@@ -14417,7 +14334,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
  
@@ -6943,7 +6873,7 @@
      ns1:twitter "" ;
      ns1:候補名 "門山宏哲" ;
      ns1:公式サイト "http://www.kadoyama.net/" ;
-@@ -14424,7 +14343,8 @@
+@@ -14426,7 +14343,8 @@
      ns1:名前 "門山宏哲" ;
      ns1:姓 "門山" ;
      ns1:小選挙区 "千葉1区" ;
@@ -6953,7 +6883,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "南関東" .
  
-@@ -14443,7 +14363,7 @@
+@@ -14445,7 +14363,7 @@
  
  [] ns1:facebook "https://www.facebook.com/shizuka.sekine.7" ;
      ns1:twitter "panpakapapico" ;
@@ -6962,7 +6892,7 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "静香" ;
-@@ -14457,7 +14377,7 @@
+@@ -14459,7 +14377,7 @@
  [] ns1:facebook "https://www.facebook.com/sekiyoshihiro" ;
      ns1:twitter "sekiyoshihiro" ;
      ns1:候補名 "関芳弘" ;
@@ -6971,7 +6901,7 @@
      ns1:前回 "前" ;
      ns1:名 "芳弘" ;
      ns1:名前 "関芳弘" ;
-@@ -14483,7 +14403,6 @@
+@@ -14485,7 +14403,6 @@
  [] ns1:facebook "" ;
      ns1:twitter "akutsuyukihiko" ;
      ns1:候補名 "阿久津幸彦" ;
@@ -6979,7 +6909,7 @@
      ns1:前回 "元" ;
      ns1:名 "幸彦" ;
      ns1:名前 "阿久津幸彦" ;
-@@ -14495,8 +14414,8 @@
+@@ -14497,8 +14414,8 @@
  
  [] ns1:facebook "" ;
      ns1:twitter "" ;
@@ -6990,7 +6920,7 @@
      ns1:前回 "元" ;
      ns1:名 "吉信" ;
      ns1:名前 "阿知波吉信" ;
-@@ -14508,8 +14427,8 @@
+@@ -14510,8 +14427,8 @@
  
  [] ns1:facebook "https://www.facebook.com/kazuyuki.atou" ;
      ns1:twitter "atoukazuyuki" ;
@@ -7001,7 +6931,7 @@
      ns1:前回 "新" ;
      ns1:名 "和之" ;
      ns1:名前 "阿藤和之" ;
-@@ -14519,11 +14438,10 @@
+@@ -14521,11 +14438,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -7015,7 +6945,7 @@
      ns1:前回 "前" ;
      ns1:名 "俊子" ;
      ns1:名前 "阿部俊子" ;
-@@ -14549,7 +14467,7 @@
+@@ -14551,7 +14467,7 @@
  [] ns1:facebook "https://www.facebook.com/Abejuichi1" ;
      ns1:twitter "abe_juichi" ;
      ns1:候補名 "阿部寿一" ;
@@ -7024,7 +6954,7 @@
      ns1:前回 "元" ;
      ns1:名 "寿一" ;
      ns1:名前 "阿部寿一" ;
-@@ -14559,11 +14477,10 @@
+@@ -14561,11 +14477,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東北" .
  
@@ -7038,7 +6968,7 @@
      ns1:前回 "新" ;
      ns1:名 "真" ;
      ns1:名前 "阿部真" ;
-@@ -14574,7 +14491,8 @@
+@@ -14576,7 +14491,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100004675156297" ;
@@ -7048,7 +6978,7 @@
      ns1:候補名 "阿部知子" ;
      ns1:公式サイト "http://www.abetomoko.jp/" ;
      ns1:前回 "前" ;
-@@ -14589,7 +14507,7 @@
+@@ -14591,7 +14507,7 @@
  [] ns1:facebook "https://www.facebook.com/takeshi.shina" ;
      ns1:twitter "shinatakeshi" ;
      ns1:候補名 "階猛" ;
@@ -7057,7 +6987,7 @@
      ns1:前回 "前" ;
      ns1:名 "猛" ;
      ns1:名前 "階猛" ;
-@@ -14600,7 +14518,7 @@
+@@ -14602,7 +14518,7 @@
      ns1:比例区 "東北" .
  
  [] ns1:facebook "https://www.facebook.com/namba.michiyo" ;
@@ -7066,7 +6996,7 @@
      ns1:候補名 "難波美智代" ;
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
-@@ -14612,8 +14530,7 @@
+@@ -14614,8 +14530,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
  
@@ -7076,7 +7006,7 @@
      ns1:twitter "" ;
      ns1:候補名 "霜鳥純一" ;
      ns1:公式サイト "" ;
-@@ -14626,7 +14543,7 @@
+@@ -14628,7 +14543,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -7085,7 +7015,7 @@
      ns1:twitter "aoyama_ryosuke" ;
      ns1:候補名 "青山了介" ;
      ns1:公式サイト "" ;
-@@ -14642,7 +14559,7 @@
+@@ -14644,7 +14559,7 @@
  [] ns1:facebook "https://www.facebook.com/aoyama.shuhei" ;
      ns1:twitter "ao_shu_office" ;
      ns1:候補名 "青山周平" ;
@@ -7094,7 +7024,7 @@
      ns1:前回 "前" ;
      ns1:名 "周平" ;
      ns1:名前 "青山周平" ;
-@@ -14652,8 +14569,7 @@
+@@ -14654,8 +14569,7 @@
      ns1:政党 "自民" ;
      ns1:比例区 "東海" .
  
@@ -7104,7 +7034,7 @@
      ns1:twitter "aoyamayamato" ;
      ns1:候補名 "青山大人" ;
      ns1:公式サイト "http://www.aoyamayamato.net/" ;
-@@ -14679,10 +14595,9 @@
+@@ -14681,10 +14595,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -7117,7 +7047,7 @@
      ns1:公式サイト "https://www.aoyama-masayuki.com/" ;
      ns1:前回 "新" ;
      ns1:名 "雅幸" ;
-@@ -14721,7 +14636,7 @@
+@@ -14723,7 +14636,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hitoshi.aoyagi.75" ;
      ns1:twitter "aoyagi_h" ;
@@ -7126,7 +7056,7 @@
      ns1:公式サイト "http://aoyagih.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "仁士" ;
-@@ -14736,7 +14651,7 @@
+@@ -14738,7 +14651,7 @@
          "https://www.facebook.com/yoichiro.aoyagi" ;
      ns1:twitter "aoyagy" ;
      ns1:候補名 "青柳陽一郎" ;
@@ -7135,7 +7065,7 @@
      ns1:前回 "前" ;
      ns1:名 "陽一郎" ;
      ns1:名前 "青柳陽一郎" ;
-@@ -14748,8 +14663,8 @@
+@@ -14750,8 +14663,8 @@
  
  [] ns1:facebook "https://www.facebook.com/a.blue.yoshiaki" ;
      ns1:twitter "aonoyoshiaki" ;
@@ -7146,7 +7076,7 @@
      ns1:前回 "新" ;
      ns1:名 "剛暁" ;
      ns1:名前 "青野剛暁" ;
-@@ -14759,7 +14674,7 @@
+@@ -14761,7 +14674,7 @@
      ns1:政党 "維新" ;
      ns1:比例区 "近畿" .
  
@@ -7155,7 +7085,7 @@
      ns1:twitter "" ;
      ns1:候補名 "額賀福志郎" ;
      ns1:公式サイト "http://www.nukaga-fukushiro.jp/" ;
-@@ -14786,16 +14701,16 @@
+@@ -14788,16 +14701,16 @@
      ns1:比例区 "南関東" .
  
  [] ns1:facebook "https://www.facebook.com/takeshi.iida.90" ;
@@ -7176,7 +7106,7 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/miyako.iida.9",
-@@ -14815,7 +14730,6 @@
+@@ -14817,7 +14730,6 @@
  [] ns1:facebook "https://www.facebook.com/katusuke.kouzai" ;
      ns1:twitter "kouzai2007" ;
      ns1:候補名 "香西克介" ;
@@ -7184,7 +7114,7 @@
      ns1:前回 "新" ;
      ns1:名 "克介" ;
      ns1:名前 "香西克介" ;
-@@ -14841,7 +14755,7 @@
+@@ -14843,7 +14755,7 @@
  [] ns1:facebook "https://www.facebook.com/mabuchisumio" ;
      ns1:twitter "mabuchi_sumio" ;
      ns1:候補名 "馬淵澄夫" ;
@@ -7193,7 +7123,7 @@
      ns1:前回 "前" ;
      ns1:名 "澄夫" ;
      ns1:名前 "馬淵澄夫" ;
-@@ -14851,10 +14765,9 @@
+@@ -14853,10 +14765,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "近畿" .
  
@@ -7207,7 +7137,7 @@
      ns1:公式サイト "http://hase-hiroshi.org/" ;
      ns1:前回 "前" ;
      ns1:名 "浩" ;
-@@ -14875,14 +14788,13 @@
+@@ -14877,14 +14788,13 @@
      ns1:姓 "駒村" ;
      ns1:小選挙区 "長野1区" ;
      ns1:年齢 "61" ;
@@ -7227,7 +7157,7 @@
      ns1:前回 "前" ;
      ns1:名 "崇志" ;
      ns1:名前 "高井崇志" ;
-@@ -14905,10 +14817,10 @@
+@@ -14907,10 +14817,10 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
  
@@ -7241,7 +7171,7 @@
      ns1:前回 "前" ;
      ns1:名 "早苗" ;
      ns1:名前 "高市早苗" ;
-@@ -14921,7 +14833,7 @@
+@@ -14923,7 +14833,7 @@
  [] ns1:facebook "https://www.facebook.com/Takagi.togi" ;
      ns1:twitter "" ;
      ns1:候補名 "高木啓" ;
@@ -7250,7 +7180,7 @@
      ns1:前回 "新" ;
      ns1:名 "啓" ;
      ns1:名前 "高木啓" ;
-@@ -14933,7 +14845,7 @@
+@@ -14935,7 +14845,7 @@
  
  [] ns1:facebook "https://www.facebook.com/takagi.hirohisa" ;
      ns1:twitter "takagi_hirohisa" ;
@@ -7259,7 +7189,7 @@
      ns1:公式サイト "http://www.hirohisa-takagi.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "宏壽" ;
-@@ -14946,7 +14858,7 @@
+@@ -14948,7 +14858,7 @@
  
  [] ns1:facebook "https://www.facebook.com/高木つよし支援のｗａ-732835663451367" ;
      ns1:twitter "" ;
@@ -7268,7 +7198,7 @@
      ns1:公式サイト "http://www.takagitsuyoshi.com/" ;
      ns1:前回 "前" ;
      ns1:名 "毅" ;
-@@ -14973,7 +14885,7 @@
+@@ -14975,7 +14885,7 @@
  [] ns1:facebook "https://www.facebook.com/michiyo.takagi.komei" ;
      ns1:twitter "" ;
      ns1:候補名 "高木美智代" ;
@@ -7277,7 +7207,7 @@
      ns1:前回 "前" ;
      ns1:名 "美智代" ;
      ns1:名前 "高木美智代" ;
-@@ -15037,8 +14949,8 @@
+@@ -15039,8 +14949,8 @@
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100004754730502" ;
      ns1:twitter "tak1381" ;
@@ -7288,7 +7218,7 @@
      ns1:前回 "新" ;
      ns1:名 "直也" ;
      ns1:名前 "高村直也" ;
-@@ -15051,7 +14963,7 @@
+@@ -15053,7 +14963,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "高松和夫" ;
@@ -7297,7 +7227,7 @@
      ns1:前回 "元" ;
      ns1:名 "和夫" ;
      ns1:名前 "高松和夫" ;
-@@ -15061,9 +14973,9 @@
+@@ -15063,9 +14973,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東北" .
  
@@ -7310,7 +7240,7 @@
      ns1:候補名 "高松智之" ;
      ns1:公式サイト "http://takamatsusatoshi.jp/" ;
      ns1:前回 "新" ;
-@@ -15088,19 +15000,6 @@
+@@ -15090,19 +15000,6 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -7330,7 +7260,7 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100006085722650" ;
      ns1:twitter "chiduko916" ;
      ns1:候補名 "高橋千鶴子" ;
-@@ -15124,7 +15023,8 @@
+@@ -15126,7 +15023,8 @@
      ns1:姓 "高橋" ;
      ns1:小選挙区 "群馬5区" ;
      ns1:年齢 "63" ;
@@ -7340,7 +7270,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "" ;
-@@ -15143,7 +15043,8 @@
+@@ -15145,7 +15043,8 @@
  [] ns1:facebook "https://www.facebook.com/takahashi.narihisa" ;
      ns1:twitter "narihisa804" ;
      ns1:候補名 "高橋斉久" ;
@@ -7350,7 +7280,7 @@
      ns1:前回 "新" ;
      ns1:名 "斉久" ;
      ns1:名前 "高橋斉久" ;
-@@ -15155,7 +15056,7 @@
+@@ -15157,7 +15056,7 @@
  
  [] ns1:facebook "https://www.facebook.com/TakahashiHinako" ;
      ns1:twitter "takahina7777" ;
@@ -7359,7 +7289,7 @@
      ns1:公式サイト "http://takahashihinako.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "比奈子" ;
-@@ -15179,8 +15080,7 @@
+@@ -15181,8 +15080,7 @@
      ns1:政党 "公明" ;
      ns1:比例区 "北陸信越" .
  
@@ -7369,7 +7299,7 @@
      ns1:twitter "mihojimukyoku" ;
      ns1:候補名 "高橋美穂" ;
      ns1:公式サイト "http://www.takahashi-miho.jp/" ;
-@@ -15193,10 +15093,9 @@
+@@ -15195,10 +15093,9 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北海道" .
  
@@ -7382,7 +7312,7 @@
      ns1:公式サイト "http://hide0906.com/contents/" ;
      ns1:前回 "新" ;
      ns1:名 "英明" ;
-@@ -15210,7 +15109,7 @@
+@@ -15212,7 +15109,7 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100022435924570",
          "https://www.facebook.com/takahashinoe" ;
      ns1:twitter "takahashinoe" ;
@@ -7391,7 +7321,7 @@
      ns1:公式サイト "https://noe-takahashi.site/" ;
      ns1:前回 "新" ;
      ns1:名 "野枝" ;
-@@ -15236,7 +15135,7 @@
+@@ -15238,7 +15135,7 @@
  
  [] ns1:facebook "https://www.facebook.com/shuichi.takatori" ;
      ns1:twitter "takatorishuichi" ;
@@ -7400,7 +7330,7 @@
      ns1:公式サイト "http://www.takatori.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "修一" ;
-@@ -15247,6 +15146,19 @@
+@@ -15249,6 +15146,19 @@
      ns1:政党 "自民" ;
      ns1:比例区 "北陸信越" .
  
@@ -7420,7 +7350,7 @@
  [] ns1:facebook "https://www.facebook.com/office.onikidon",
          "https://www.facebook.com/onikidon" ;
      ns1:twitter "" ;
-@@ -15276,8 +15188,8 @@
+@@ -15278,8 +15188,8 @@
  
  [] ns1:facebook "https://www.facebook.com/megumi.toba.5" ;
      ns1:twitter "toba_megumi" ;
@@ -7431,7 +7361,7 @@
      ns1:前回 "新" ;
      ns1:名 "恵" ;
      ns1:名前 "鳥羽恵" ;
-@@ -15288,8 +15200,8 @@
+@@ -15290,8 +15200,8 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/鳩山-二郎-611761022337730" ;
@@ -7442,7 +7372,7 @@
      ns1:公式サイト "https://www.hatoyamajiro.com/" ;
      ns1:前回 "前" ;
      ns1:名 "二郎" ;
-@@ -15314,7 +15226,7 @@
+@@ -15316,7 +15226,7 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
  
@@ -7451,7 +7381,7 @@
      ns1:twitter "" ;
      ns1:候補名 "鴇田敦" ;
      ns1:公式サイト "https://tokitaofficial.amebaownd.com/" ;
-@@ -15330,7 +15242,7 @@
+@@ -15332,7 +15242,7 @@
  [] ns1:facebook "https://www.facebook.com/かもした一郎-362335094179877" ;
      ns1:twitter "dr_kamo" ;
      ns1:候補名 "鴨下一郎" ;
@@ -7460,7 +7390,7 @@
      ns1:前回 "前" ;
      ns1:名 "一郎" ;
      ns1:名前 "鴨下一郎" ;
-@@ -15342,7 +15254,7 @@
+@@ -15344,7 +15254,7 @@
  
  [] ns1:facebook "https://www.facebook.com/yasusiro.kamosida" ;
      ns1:twitter "ky60954585" ;
@@ -7469,7 +7399,7 @@
      ns1:公式サイト "http://yasusiro.at.webry.info/" ;
      ns1:前回 "新" ;
      ns1:名 "安代" ;
-@@ -15353,9 +15265,9 @@
+@@ -15355,9 +15265,9 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -7481,7 +7411,7 @@
      ns1:公式サイト "http://www.washio-e.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "英一郎" ;
-@@ -15379,8 +15291,7 @@
+@@ -15381,8 +15291,7 @@
      ns1:政党 "公明" ;
      ns1:比例区 "近畿" .
  
@@ -7491,7 +7421,7 @@
      ns1:twitter "kanoakira1" ;
      ns1:候補名 "鹿野晃" ;
      ns1:公式サイト "http://kanoakira.jp/" ;
-@@ -15393,8 +15304,8 @@
+@@ -15395,8 +15304,8 @@
      ns1:政党 "希望" ;
      ns1:比例区 "東京" .
  
@@ -7502,7 +7432,7 @@
      ns1:候補名 "麻生太郎" ;
      ns1:公式サイト "http://www.aso-taro.jp/" ;
      ns1:前回 "前" ;
-@@ -15421,20 +15332,20 @@
+@@ -15423,20 +15332,20 @@
  
  [] ns1:facebook "https://www.facebook.com/takahiro.kuroiwa.94" ;
      ns1:twitter "kuroiwatakahir1" ;

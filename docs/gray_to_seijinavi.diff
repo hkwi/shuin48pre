@@ -771,11 +771,13 @@
      ns1:twitter "noriko_furuya" ;
      ns1:wikidata "Q7051265" ;
      ns1:名 "範子" ;
-@@ -795,7 +833,7 @@
+@@ -794,8 +832,8 @@
+     ns1:性別 "男性" ;
      ns1:生年月日 "1965-08-03" .
  
- [] ns1:facebook "" ;
+-[] ns1:facebook "https://www.facebook.com/furumoto.shinichiro" ;
 -    ns1:twitter "furumoto_s11" ;
++[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q7497524" ;
      ns1:名 "伸一郎" ;
@@ -841,7 +843,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1970-04-10" .
  
--[] ns1:facebook "https://www.facebook.com/anamiyoichi" ;
+-[] ns1:facebook "https://www.facebook.com/kirashuji" ;
 +[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:wikidata "Q7504802" ;
@@ -2739,15 +2741,17 @@
      ns1:wikidata "Q20039502" ;
      ns1:名 "昇" ;
      ns1:名前 "神谷昇" ;
-@@ -3021,7 +3091,7 @@
+@@ -3021,8 +3091,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1952-12-19" .
  
 -[] ns1:facebook "https://www.facebook.com/fukuchanjapan" ;
+-    ns1:twitter "fukuchanjapan" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q11593023" ;
      ns1:名 "伸享" ;
+     ns1:名前 "福島伸享" ;
 @@ -3039,7 +3109,7 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1964-04-08" .
@@ -3310,15 +3314,17 @@
      ns1:wikidata "Q57647" ;
      ns1:名 "佳彦" ;
      ns1:名前 "野田佳彦" ;
-@@ -3707,7 +3784,7 @@
+@@ -3707,8 +3784,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1957-05-20" .
  
 -[] ns1:facebook "https://www.facebook.com/nodatakeshi.page" ;
+-    ns1:twitter "nodatakeshi1003" ;
 +[] ns1:facebook "" ;
-     ns1:twitter "" ;
++    ns1:twitter "" ;
      ns1:wikidata "Q11646016" ;
      ns1:名 "毅" ;
+     ns1:名前 "野田毅" ;
 @@ -3716,9 +3793,8 @@
      ns1:性別 "男性" ;
      ns1:生年月日 "1941-10-03" .
