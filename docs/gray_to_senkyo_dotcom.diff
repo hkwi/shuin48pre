@@ -2630,12 +2630,8 @@
      ns1:前回 "前" ;
      ns1:名 "俊一" ;
      ns1:名前 "山口俊一" ;
-@@ -5766,10 +5716,10 @@
-     ns1:政党 "希望" ;
-     ns1:比例区 "中国" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/hatsuml.yamaguchl" ;
+@@ -5769,7 +5719,7 @@
+ [] ns1:facebook "https://www.facebook.com/hatsuml.yamaguchl" ;
      ns1:twitter "" ;
      ns1:候補名 "山口初實" ;
 -    ns1:公式サイト "" ;
@@ -3119,15 +3115,6 @@
      ns1:前回 "前" ;
      ns1:名 "鉄夫" ;
      ns1:名前 "斉藤鉄夫" ;
-@@ -7039,7 +6974,7 @@
-     ns1:政党 "公明" ;
-     ns1:比例区 "中国" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/saitokayo2017" ;
-     ns1:twitter "" ;
-     ns1:候補名 "斎藤佳代" ;
-     ns1:公式サイト "" ;
 @@ -7054,8 +6989,8 @@
  
  [] ns1:facebook "https://www.facebook.com/saitohiroaki2" ;
@@ -4116,12 +4103,8 @@
      ns1:前回 "新" ;
      ns1:名 "博" ;
      ns1:名前 "榛野博" ;
-@@ -8871,10 +8809,10 @@
-     ns1:政党 "立憲民主" ;
-     ns1:比例区 "南関東" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/higmai" ;
+@@ -8874,7 +8812,7 @@
+ [] ns1:facebook "https://www.facebook.com/higmai" ;
      ns1:twitter "higmaiku_mi_" ;
      ns1:候補名 "樋口舞" ;
 -    ns1:公式サイト "" ;
@@ -6051,12 +6034,8 @@
      ns1:前回 "新" ;
      ns1:名 "博" ;
      ns1:名前 "西澤博" ;
-@@ -12889,10 +12818,10 @@
-     ns1:政党 "共産" ;
-     ns1:比例区 "北陸信越" .
- 
--[] ns1:facebook "" ;
-+[] ns1:facebook "https://www.facebook.com/nishidachikara" ;
+@@ -12892,7 +12821,7 @@
+ [] ns1:facebook "https://www.facebook.com/nishidachikara" ;
      ns1:twitter "nishidachikara" ;
      ns1:候補名 "西田主税" ;
 -    ns1:公式サイト "" ;
