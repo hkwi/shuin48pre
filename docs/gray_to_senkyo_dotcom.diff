@@ -6966,6 +6966,15 @@
      ns1:twitter "" ;
      ns1:候補名 "不破弘樹" ;
      ns1:公式サイト "http://www.minshin-fuwa.com/" ;
+@@ -4714,7 +4888,7 @@
+     ns1:政党 "希望" ;
+     ns1:比例区 "北関東" .
+ 
+-[] ns1:facebook "https://www.facebook.com/与国秀行-100013473602579" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100013473602579" ;
+     ns1:twitter "yokunihideyuki" ;
+     ns1:候補名 "与国秀行" ;
+     ns1:公式サイト "" ;
 @@ -4730,7 +4904,7 @@
  [] ns1:facebook "https://www.facebook.com/yosanomakoto" ;
      ns1:twitter "makoto_yosano" ;
@@ -14661,6 +14670,15 @@
      ns1:twitter "kotaro_nagasaki" ;
      ns1:候補名 "長崎幸太郎" ;
      ns1:公式サイト "http://nagasakikotaro.jp/" ;
+@@ -14630,7 +13605,7 @@
+     ns1:政党 "無所属" ;
+     ns1:比例区 "" .
+ 
+-[] ns1:facebook "https://www.facebook.com/長村康博-100017183265706" ;
++[] ns1:facebook "https://www.facebook.com/profile.php?id=100017183265706" ;
+     ns1:twitter "" ;
+     ns1:候補名 "長村康博" ;
+     ns1:公式サイト "" ;
 @@ -14658,7 +13633,7 @@
  
  [] ns1:facebook "" ;
