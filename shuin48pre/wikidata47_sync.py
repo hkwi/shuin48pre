@@ -82,7 +82,7 @@ def term(fp):
 		gd.append((t["wikidata"],kaiha.get(t["party_ref"], "")))
 	
 	out = csv.writer(fp)
-	out.writerow(("db","qname"))
+	out.writerow(("db","qname","party"))
 	for t in sorted(set(wd)-set(gd)):
 		out.writerow(["wikidata"]+list(t))
 	for t in sorted(set(gd)-set(wd)):
