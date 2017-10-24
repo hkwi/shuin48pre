@@ -3757,16 +3757,12 @@
      ns1:twitter "" ;
      ns1:wikidata "Q11673487" ;
      ns1:名 "誠" ;
-@@ -4092,10 +4189,10 @@
-     ns1:名前 "鳩山二郎" ;
-     ns1:姓 "鳩山" ;
+@@ -4094,8 +4191,8 @@
      ns1:性別 "男性" ;
--    ns1:生年月日 "1979-01-13" .
--
+     ns1:生年月日 "1979-01-01" .
+ 
 -[] ns1:facebook "https://www.facebook.com/かもした一郎-362335094179877" ;
 -    ns1:twitter "dr_kamo" ;
-+    ns1:生年月日 "1979-01-01" .
-+
 +[] ns1:facebook "" ;
 +    ns1:twitter "" ;
      ns1:wikidata "Q730991" ;
