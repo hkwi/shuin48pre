@@ -88,11 +88,11 @@ def properties(fp):
 		
 		for v in r[fields.index("公式ブログ")].split("\n"):
 			if v and v!="-":
-				gd.add((s, WDT["1581"], rdflib.Literal(v.strip())))
+				gd.add((s, WDT["1581"], rdflib.URIRef(v.strip())))
 		
 		for v in r[fields.index("公式サイト")].split("\n"):
 			if v and v!="-":
-				gd.add((s, WDT["P856"], rdflib.Literal(v.strip())))
+				gd.add((s, WDT["P856"], rdflib.URIRef(v.strip())))
 	
 	for r in csv.DictReader(open("docs/fb.csv")):
 		if r["dst"] == "-":
@@ -136,7 +136,7 @@ def qualifiers(fp):
 	wd = set([tuple(r) for r in wd])
 
 	area_lut = dict(csv.reader(open("docs/areas.csv")))
-	party_lut = dict(csv.reader(open("docs/parties.csv")))
+	party_lut = {r[0]:r[1] for r in csv.reader(open("docs/parties.csv"))}
 	g = csv.reader(open("docs/gdoc_gray_db.csv"))
 	gd = []
 	fields = None
