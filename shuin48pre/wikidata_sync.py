@@ -5,6 +5,8 @@ import os.path
 import itertools
 import urllib.parse
 import logging
+import yaml
+import unicodedata
 
 ns={}
 for k,v in csv.reader(open(os.path.join(os.path.dirname(__file__), "ns.csv"))):
@@ -120,6 +122,13 @@ def properties(fp):
 			for o in sorted(w-g):
 				out.writerow(("wikidata", s[len(WD):], p[len(WDT):], o))
 
+def yaml_lut(filename):
+	lut = {}
+	for k,vs in yaml.load(open(filename)).items():
+		for v in vs:
+			lut[v] = k
+	return lut
+
 def qualifiers(fp):
 	w = rdflib.ConjunctiveGraph(store="SPARQLStore")
 	w.store.endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
@@ -134,9 +143,10 @@ def qualifiers(fp):
 	ks = "person area party".split()
 	wd = [[r[k][len(WD):] if r[k] else "" for k in ks] for r in res]
 	wd = set([tuple(r) for r in wd])
-
-	area_lut = dict(csv.reader(open("docs/areas.csv")))
-	party_lut = {r[0]:r[1] for r in csv.reader(open("docs/parties.csv"))}
+	
+	area_lut = yaml_lut("docs/area.yml")
+	party_lut = yaml_lut("docs/party.yml")
+	
 	g = csv.reader(open("docs/gdoc_gray_db.csv"))
 	gd = []
 	fields = None
@@ -171,5 +181,5 @@ def qualifiers(fp):
 
 if __name__=="__main__":
 	import sys
-	properties(sys.stdout)
+#	properties(sys.stdout)
 	qualifiers(sys.stdout)
