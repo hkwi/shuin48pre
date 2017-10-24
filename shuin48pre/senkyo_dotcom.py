@@ -43,13 +43,14 @@ def run(fp, hirei=True):
 		for p in doc.xpath('.//div[@class="list_peason"]'):
 			bulk = dict(
 				area = areas,
-				namel = p.xpath('.//p[@class="list_peason_name"]/text()'),
+				namel = p.xpath('.//p[contains(@class,"list_peason_name")]/text()'),
 				cls = p.xpath('.//p[@class="list_peason_txts_d_class"]/text()'),
 				age = p.xpath('.//p[@class="list_peason_txts_d_age"]/text()'),
 				bio = p.xpath('.//dl[@class="list_person_detail_upper"]/dd/p/text()'),
 				site = p.xpath('.//p[@class="list_person_detail_sites_site"]/a/@href'),
 				fb = p.xpath('.//p[@class="list_person_detail_sites_facebook"]/a/@href'),
 				tw = p.xpath('.//p[@class="list_person_detail_sites_twitter"]/a/@href'),
+				votes = p.xpath('.//p[@class="list_peason_txts_d_count"]/span/text()'),
 			)
 			if pc.path.startswith("/hirei/"):
 				bulk["party"] = doc.xpath('.//p[@class="hirei_sttl_party"]/text()')
