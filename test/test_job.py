@@ -19,7 +19,7 @@ def spawn(prog, file, *args):
 			prog(fp, *args)
 	return threading.Thread(target=wrap)
 
-def dtest_jobs():
+def test_jobs():
 	jobs = [
 		(shuin48pre.kyousanto_official.run, "docs/kyousanto_official.csv"),
 		(shuin48pre.senkyo_dotcom.run, "docs/senkyo_dotcom_hirei.csv", True),
@@ -39,7 +39,7 @@ def dtest_jobs():
 	[th.start() for th in ths]
 	[th.join() for th in ths]
 
-def dtest_gdoc():
+def test_gdoc():
 	with open("docs/database.csv", "w", encoding="utf-8-sig") as fp:
 		shuin48pre.gdoc.run(fp)
 
