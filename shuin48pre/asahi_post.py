@@ -36,7 +36,7 @@ def run(fp):
 					r["party"] = area_or_party.xpath('.//h2/text()')
 				else:
 					r["area"] = area_or_party.xpath('.//h2/text()')
-					r["party"] = p.xpath('.//td[@class="party"]/text()')
+					r["party"] = p.xpath('.//td[@class="party"]//text()')
 				
 				for k,v in r.items():
 					r[k] = " ".join([s.strip() for s in v if s.strip()])
