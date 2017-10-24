@@ -7,7 +7,7 @@ import urllib.request
 import requests
 
 def run(fp, hirei=True):
-	fieldnames = "namel name sei mei party area cls age_n tw fb site bio age url".split()
+	fieldnames = "namel name sei mei party area votes cls age_n tw fb site bio age url".split()
 	out = csv.writer(fp)
 	
 	d = lxml.etree.parse("http://shugiin.go2senkyo.com/sitemap.xml")
