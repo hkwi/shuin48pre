@@ -312,17 +312,17 @@ def gray_to_kyousanto():
 	open("docs/gray_to_kyousanto.diff", "w").writelines(lines)
 
 def gray_to_senkyo_dotcom():
-	ks1 = ["名前","候補名","姓","名","政党","小選挙区", "前回","年齢",
+	ks1 = ["名前","候補名","姓","名","政党","小選挙区","votes","前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db1 = [r for r in csv.reader(open("docs/senkyo_dotcom.csv")) if "".join(r)]
 	assert len(ks1) == len(db1[0])
 
-	ks2 = ["名前","候補名","姓","名","政党","比例区", "前回","年齢",
+	ks2 = ["名前","候補名","姓","名","政党","比例区","votes","前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db2 = [r for r in csv.reader(open("docs/senkyo_dotcom_hirei.csv")) if "".join(r)]
 	assert len(ks2) == len(db2[0])
 	
-	ks = ["名前","候補名","姓","名","政党","比例区","小選挙区","前回","年齢",
+	ks = ["名前","候補名","姓","名","政党","比例区","小選挙区","votes","前回","年齢",
 		"twitter","facebook","公式サイト","肩書","年齢（歳付き）", "url"]
 	db = [[dict(zip(ks1, n)).get(k, "") for k in ks] for n in db1
 		] + [[dict(zip(ks2, n)).get(k, "") for k in ks] for n in db2]
@@ -608,12 +608,12 @@ if __name__=="__main__":
 	gray_to_seijinavi()
 	gray_to_kyousanto()
 	gray_to_senkyo_dotcom()
-	gray_to_ishin()
+#	gray_to_ishin()
 	gray_to_koumei()
 	gray_to_jimin()
 	gray_to_ritsumin()
 	gray_to_koufuku()
 	gray_to_kibou_media()
-	gray_to_kibou()
+#	gray_to_kibou()
 	gray_to_asahi()
 	gray_to_mainichi()
