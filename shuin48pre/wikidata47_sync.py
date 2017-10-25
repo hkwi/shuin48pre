@@ -54,8 +54,8 @@ def general_election(fp):
 	
 	out = csv.writer(fp)
 	out.writerow("db person area party votes".split())
-	out.writerows([("codefor",)+r for r in sorted(gd-wd)])
-	out.writerows([("wikidata",)+r for r in sorted(wd-gd)])
+	out.writerows([("codefor",)+r for r in sorted(set(gd)-set(wd))])
+	out.writerows([("wikidata",)+r for r in sorted(set(wd)-set(gd))])
 
 def term(fp):
 	party_lut = yaml_lut("docs/party.yml")
