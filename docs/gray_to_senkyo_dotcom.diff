@@ -1824,7 +1824,7 @@
      ns1:公式サイト "http://shirotori-ryota.com/" ;
      ns1:前回 "新" ;
      ns1:名 "良太" ;
-@@ -3750,7 +3683,7 @@
+@@ -3750,13 +3683,13 @@
      ns1:姓 "城取" ;
      ns1:小選挙区 "山形3区" ;
      ns1:年齢 "40" ;
@@ -1833,6 +1833,13 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/jimusyo.horiimanabu" ;
+     ns1:twitter "" ;
+     ns1:候補名 "堀井学" ;
+-    ns1:公式サイト "http://horiimanabu.jp/" ;
++    ns1:公式サイト "https://horiimanabu.jp/" ;
+     ns1:前回 "前" ;
+     ns1:名 "学" ;
+     ns1:名前 "堀井学" ;
 @@ -3789,7 +3722,7 @@
      ns1:姓 "堀内" ;
      ns1:小選挙区 "山梨2区" ;
@@ -2161,7 +2168,7 @@
 +    ns1:twitter "okuno_hp",
 +        "sokuno2" ;
      ns1:候補名 "奥野総一郎" ;
--    ns1:公式サイト "http://www.s-okuno.jp/" ;
+-    ns1:公式サイト "https://www.s-okuno.jp/" ;
 +    ns1:公式サイト "https://s-okuno.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "総一郎" ;
@@ -2469,15 +2476,6 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "久" ;
-@@ -5199,7 +5135,7 @@
- [] ns1:facebook "https://www.facebook.com/komatsu.yutaka" ;
-     ns1:twitter "komatsu_yutaka" ;
-     ns1:候補名 "小松裕" ;
--    ns1:公式サイト "http://www.komatsuyutaka.com/index.html" ;
-+    ns1:公式サイト "http://www.komatsuyutaka.com/" ;
-     ns1:前回 "前" ;
-     ns1:名 "裕" ;
-     ns1:名前 "小松裕" ;
 @@ -5212,7 +5148,7 @@
  [] ns1:facebook "https://www.facebook.com/fumiaki.kobayashi0408" ;
      ns1:twitter "kb2474" ;
@@ -4656,15 +4654,18 @@
      ns1:公式サイト "http://www.tokashiki.gr.jp/" ;
      ns1:前回 "前" ;
      ns1:名 "奈緒美" ;
-@@ -9859,7 +9748,7 @@
+@@ -9859,9 +9748,9 @@
      ns1:比例区 "近畿" .
  
  [] ns1:facebook "https://www.facebook.com/kisaburo.tokai" ;
 -    ns1:twitter "" ;
 +    ns1:twitter "tokaikisaburo" ;
      ns1:候補名 "渡海紀三朗" ;
-     ns1:公式サイト "https://www.kisaburo.net/" ;
+-    ns1:公式サイト "http://www.kisaburo.net/" ;
++    ns1:公式サイト "https://www.kisaburo.net/" ;
      ns1:前回 "前" ;
+     ns1:名 "紀三朗" ;
+     ns1:名前 "渡海紀三朗" ;
 @@ -9871,11 +9760,10 @@
      ns1:政党 "自民" ;
      ns1:比例区 "近畿" .
