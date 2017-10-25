@@ -6637,22 +6637,20 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "宏太" ;
-@@ -14016,10 +13891,11 @@
+@@ -14016,9 +13891,10 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
 -[] ns1:facebook "https://www.facebook.com/koji.suzuki.fukui" ;
 -    ns1:twitter "" ;
 -    ns1:候補名 "鈴木こうじ" ;
--    ns1:公式サイト "" ;
 +[] ns1:facebook "https://www.facebook.com/koji.suzuki.fukui",
 +        "https://www.facebook.com/saikitakeshi1974" ;
 +    ns1:twitter "" ;
 +    ns1:候補名 "鈴木宏治" ;
-+    ns1:公式サイト "http://www.suzuki-koji.com/" ;
+     ns1:公式サイト "http://www.suzuki-koji.com/" ;
      ns1:前回 "新" ;
      ns1:名 "宏治" ;
-     ns1:名前 "鈴木宏治" ;
 @@ -14032,7 +13908,6 @@
  [] ns1:facebook "https://www.facebook.com/鈴木宗男-322416504543497" ;
      ns1:twitter "" ;
