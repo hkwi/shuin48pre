@@ -138,9 +138,10 @@ def qualifiers(fp):
 	  ?st ps:P3602 wd:Q20983100 .
 	  OPTIONAL { ?st pq:P768 ?area . }
 	  OPTIONAL { ?st pq:P1268 ?party . }
+	  OPTIONAL { ?st pq:P1111 ?votes . }
 	}
 	''')
-	ks = "person area party".split()
+	ks = "person area party votes".split()
 	wd = [[r[k][len(WD):] if r[k] else "" for k in ks] for r in res]
 	wd = set([tuple(r) for r in wd])
 	
@@ -153,7 +154,7 @@ def qualifiers(fp):
 	for r in g:
 		if fields is None:
 			if "wikidata" in r:
-				for k in "wikidata 公認政党 比例区 小選挙区".split():
+				for k in "wikidata 公認政党 比例区 小選挙区 得票数".split():
 					assert k in r, r
 				fields = r
 			continue
@@ -165,21 +166,22 @@ def qualifiers(fp):
 		area = r[fields.index("小選挙区")]
 		if area:
 			area = area_lut[area.replace(" ","第")]
-			gd.append((qname, area, party))
+			votes = r[fields.index("得票数")]
+			gd.append((qname, area, party, votes))
 		
 		area = r[fields.index("比例区")]
 		if area:
 			area = area_lut["比例%sブロック" % area]
-			gd.append((qname, area, party))
-
+			gd.append((qname, area, party, ""))
+	
 	gd = set(gd)
 	
 	out = csv.writer(fp)
-	out.writerow("db person area party".split())
-	out.writerows([("ours",)+r for r in sorted(gd-wd)])
+	out.writerow("db person area party votes".split())
+	out.writerows([("codefor",)+r for r in sorted(gd-wd)])
 	out.writerows([("wikidata",)+r for r in sorted(wd-gd)])
 
 if __name__=="__main__":
 	import sys
-#	properties(sys.stdout)
+	properties(sys.stdout)
 	qualifiers(sys.stdout)

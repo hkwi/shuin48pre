@@ -24,14 +24,20 @@ def general_election(fp):
 	  ?person p:P3602 ?st .
 	  ?st ps:P3602 wd:Q4638550 .
 	  OPTIONAL { ?st pq:P768 ?area . }
+	  OPTIONAL { ?st pq:P1268 ?party . }
+	  OPTIONAL { ?st pq:P1111 ?votes . }
 	}
 	''')
 	wd = []
 	for r in res:
+		s = [r["person"], "", "", ""]
+		
 		if r["area"]:
-			wd.append((r["person"][len(WD):], r["area"][len(WD):]))
-		else:
-			wd.append((r["person"][len(WD):], ""))
+			s[1] = r["area"][len(WD):]
+		if r["party"]:
+			s[2] = r["party"][len(WD):]
+		if r["votes"]:
+			s[3] = r["votes"].value
 	
 	gd = []
 	areas = yaml_lut("docs/area.yml")
@@ -41,17 +47,15 @@ def general_election(fp):
 		qname = t["wikidata"]
 		single = t["47回衆議院総選挙 小選挙区 結果"]
 		if single != "-":
-			gd.append((qname, areas[single]))
+			gd.append((qname, areas[single], "", ""))
 		hirei = t["47回衆議院総選挙 比例区 結果"]
 		if hirei != "-":
-			gd.append((qname, areas[hirei]))
+			gd.append((qname, areas[hirei], "", ""))
 	
 	out = csv.writer(fp)
-	out.writerow(("db","qname","area"))
-	for t in sorted(set(wd)-set(gd)):
-		out.writerow(["wikidata"]+list(t))
-	for t in sorted(set(gd)-set(wd)):
-		out.writerow(["codefor"]+list(t))
+	out.writerow("db person area party votes".split())
+	out.writerows([("codefor",)+r for r in sorted(gd-wd)])
+	out.writerows([("wikidata",)+r for r in sorted(wd-gd)])
 
 def term(fp):
 	party_lut = yaml_lut("docs/party.yml")
