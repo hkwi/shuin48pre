@@ -166,7 +166,8 @@ def qualifiers(fp):
 		area = r[fields.index("小選挙区")]
 		if area:
 			area = area_lut[area.replace(" ","第")]
-			votes = r[fields.index("得票数")]
+			vi = [i for i,v in enumerate(fields) if v=="得票数"]
+			votes = r[vi[-1]]
 			gd.append((qname, area, party, votes))
 		
 		area = r[fields.index("比例区")]
@@ -183,5 +184,5 @@ def qualifiers(fp):
 
 if __name__=="__main__":
 	import sys
-	properties(sys.stdout)
+#	properties(sys.stdout)
 	qualifiers(sys.stdout)
