@@ -3470,7 +3470,7 @@
      ns1:twitter "qn93vr" ;
      ns1:候補名 "本間勝美" ;
      ns1:公式サイト "http://www.katumi.jp/" ;
-@@ -7593,7 +7510,7 @@
+@@ -7593,20 +7510,20 @@
  [] ns1:facebook "" ;
      ns1:twitter "sugishitashigeo" ;
      ns1:候補名 "杉下茂雄" ;
@@ -3479,7 +3479,12 @@
      ns1:前回 "新" ;
      ns1:名 "茂雄" ;
      ns1:名前 "杉下茂雄" ;
-@@ -7605,8 +7522,8 @@
+     ns1:姓 "杉下" ;
+     ns1:小選挙区 "東京19区" ;
+-    ns1:年齢 "69" ;
++    ns1:年齢 "68" ;
+     ns1:政党 "共産" ;
+     ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/s755507" ;
      ns1:twitter "sugichannet" ;
