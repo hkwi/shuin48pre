@@ -210,7 +210,7 @@ wikidata,Q41770711,P1581,https://higuchi-hiroyasu.blogspot.jp/
 wikidata,Q41770724,P1581,http://yasusiro.at.webry.info/
 wikidata,Q41770734,P1581,http://sasakikatsumi.blog.fc2.com/
 wikidata,Q41770742,P1581,http://kugimaru.blogspot.jp/
-wikidata,Q41770792,P1581,https://ameblo.jp/ai-nishiwaki/
+wikidata,Q41770857,P1581,http://sakamotomakii.blog.fc2.com/
 wikidata,Q41770983,P1581,http://blog.livedoor.jp/kazushi53/
 wikidata,Q41777902,P1581,http://profile.ameba.jp/sato-hiroshi
 wikidata,Q7504756,P1581,https://takatori55jim.wordpress.com/
@@ -243,6 +243,7 @@ wikidata,Q11470608,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Miki%2
 wikidata,Q11470671,P18,http://commons.wikimedia.org/wiki/Special:FilePath/YAMADA%2C%20Kenji.jpg
 wikidata,Q11470885,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Ikuo%20Yamahana%20cropped%202%20Banri%20Kaieda%20Ikuo%20Yamahana%20and%20Takeshi%20Nakane%2020110620%201.jpg
 wikidata,Q11518222,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Seiji%20Kihara%20%28cropped%29.jpg
+wikidata,Q11519999,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Hiranao%20Honda%20cropped%201%20Hiranao%20Honda%20201210.jpg
 wikidata,Q11522313,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Miosugita.jpg
 wikidata,Q11535033,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Mito%20kakizawa.jpg
 wikidata,Q11536382,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E6%A0%B9%E6%9C%AC%E5%B9%B8%E5%85%B8%20Yukinori%20Nemoto.jpg
@@ -262,6 +263,7 @@ wikidata,Q11624673,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazue%
 wikidata,Q11634137,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Mayuko%20Toyota%20cropped%201%20Mayuko%20Toyota%20201510.jpg
 wikidata,Q11644760,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazuhiko%20Shigetoku%20%282014.03.23%29%203.jpg
 wikidata,Q11648868,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Norikazu%20Suzuki%2020150907%282%29.JPG
+wikidata,Q11657178,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Yukihiko%20Akutsu%20cropped%201%20Yukihiko%20Akutsu%20201101.jpg
 wikidata,Q11661236,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Shuhei%20Aoyama%20cropped%202%20Shuhei%20Aoyama%20%282014.03.23%29%203.jpg
 wikidata,Q11679075,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Saito%20ken.jpg
 wikidata,Q1207174,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Nukaga%20Fukushiro%201-2.jpg
@@ -456,8 +458,10 @@ ours,Q41770711,P2002,Higumon12
 ours,Q41770806,P2002,HrpNagano3
 ours,Q41770806,P2002,yukiatkanagawa
 ours,Q41770814,P2002,noharanoriko
+wikidata,Q41770820,P2002,tutomu_go
 ours,Q41770830,P2002,2b28a3370fae4f9
 ours,Q41770830,P2002,itakurama
+wikidata,Q41770904,P2002,nagaohideki_CDP
 ours,Q41770908,P2002,okushita_ishin
 ours,Q41770911,P2002,matsuirikken
 ours,Q41770924,P2002,funakawajiro
@@ -673,6 +677,7 @@ ours,Q382089,P2013,nakayamanariaki.official
 wikidata,Q382089,P2013,nariaki.nakayama
 ours,Q382311,P2013,tspark.net
 ours,Q388496,P2013,mabuchisumio
+ours,Q41693822,P2013,nambamichyo
 ours,Q41698739,P2013,harateruo
 ours,Q41768409,P2013,koichiyoshida.jcp
 ours,Q41769890,P2013,kishiyoshinobu
@@ -733,6 +738,7 @@ wikidata,Q41770785,P2013,金元幸枝-100005810323550
 ours,Q41770795,P2013,小林ひろゆき事務所立憲民主党衆院山梨2区総支部-1730017470570102
 ours,Q41770815,P2013,chikachikagogo
 ours,Q41770816,P2013,fukumuratakashi
+wikidata,Q41770820,P2013,matsuoshidahaigo
 ours,Q41770839,P2013,katsunori.tanaka.1010
 ours,Q41770863,P2013,100005211330715
 wikidata,Q41770863,P2013,Masashi-Arakawa-100005211330715
@@ -751,7 +757,6 @@ ours,Q41770898,P2013,yui.watanabe.jcp.osk
 ours,Q41770901,P2013,kitayamasupport
 ours,Q41770904,P2013,ながお秀樹-669747393123270
 ours,Q41770906,P2013,jcpsuitasettsukuntan
-ours,Q41770908,P2013,奥下-たけみつ-1446527018692794
 ours,Q41770911,P2013,matsuihirofumifc
 ours,Q41770920,P2013,池畑浩太朗-786153221516243
 ours,Q41770924,P2013,funakawajiro.office
@@ -767,6 +772,7 @@ ours,Q41770981,P2013,ouchikazuya1010
 ours,Q41770983,P2013,KazushiMatsuda53
 ours,Q41770988,P2013,100005512444252
 wikidata,Q41770988,P2013,山本千代子-100005512444252
+ours,Q41770996,P2013,tominagakiyo
 ours,Q41771005,P2013,oishi.shu
 ours,Q41771007,P2013,murakamitomonobu
 ours,Q41771018,P2013,araifumiko6ku
@@ -941,6 +947,7 @@ ours,Q992930,P2013,ishihara.nobuteru
 wikidata,Q11596723,P2397,UCMj6Ry4O5UXUWKMGiNxJg2A
 wikidata,Q41770647,P2397,UCTivk5i0rtvi3UUf7k2qVQw
 wikidata,Q41770734,P2397,UCC0P6_l4g1WYrE75oT5JiiA
+wikidata,Q41770820,P2397,UCmujh_OL7klAmGhsr7mIGeQ
 wikidata,Q418206,P2397,UCKsvywZF47i_2sVZTUgNaRw
 wikidata,Q8056290,P2397,UCirRDiDnAHxpeD71uVkX5uA
 ours,Q11411691,P856,http://kogaatsushi.com
@@ -1014,8 +1021,6 @@ ours,Q49988,P856,http://www.minorikawa.jp/
 wikidata,Q49988,P856,http://minorikawa.jp/
 ours,Q506730,P856,http://www.ishihara-hirotaka.com
 wikidata,Q506730,P856,http://www.ishihara-hirotaka.com/
-ours,Q5639964,P856,http://www.hirota1.com
-wikidata,Q5639964,P856,http://www.hirota1.com/index.html
 ours,Q5752395,P856,http://hmacky.net
 wikidata,Q5752395,P856,http://hmacky.net/
 ours,Q57647,P856,http://www.nodayoshi.gr.jp/
@@ -1044,6 +1049,7 @@ wikidata,Q11596723,P968,mailto:contact@inatsu.com
 wikidata,Q21655823,P968,mailto:staff.miyaji.takuma@gmail.com
 wikidata,Q41770647,P968,mailto:info@kunimitsu-ayano.jp
 wikidata,Q41770708,P968,mailto:oonotakasichiba1@gmail.com
+wikidata,Q41770846,P968,mailto:ryouhei1948@hotmail.com
 wikidata,Q58213,P968,mailto:g01748@shugiin.go.jp
 wikidata,Q21655823,P973,https://www.jimin.jp/member/member_list/legislator/126626.html
 wikidata,Q41693822,P973,http://japan-indepth.jp/?page_id=19443
@@ -1052,4 +1058,8 @@ wikidata,Q41770589,P973,http://www.jcp.or.jp/giin/senkyo/2007_sanin/profile/02-a
 wikidata,Q41770599,P973,http://blog.canpan.info/jcpmiyagi/archive/311
 wikidata,Q41770651,P973,https://www.mskj.or.jp/profile/watanabe.html
 wikidata,Q41770719,P973,https://o-ishin.jp/member/detail/hoshi_kentaro.html
+wikidata,Q41770820,P973,https://www.jiji.com/jc/2017syu?d=18805_h
+wikidata,Q41770848,P973,https://www.jiji.com/jc/2017syu?d=10386_h
+wikidata,Q41770857,P973,http://candidates.hr-party.net:57375/maki-sakamoto/
+wikidata,Q41770908,P973,https://o-ishin.jp/member/detail/okushita_takemitsu.html
 wikidata,Q49988,P973,https://www.jimin.jp/english/profile/members/120960.html
