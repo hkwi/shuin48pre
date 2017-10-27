@@ -466,7 +466,6 @@ ours,Q41770908,P2002,okushita_ishin
 ours,Q41770911,P2002,matsuirikken
 ours,Q41770924,P2002,funakawajiro
 ours,Q41770929,P2002,satoyasukinet
-ours,Q41770936,P2002,kikuchiouen
 ours,Q41770936,P2002,nkikucchi
 ours,Q41770983,P2002,JcpKazushi53
 ours,Q41771054,P2002,yuutakagoshima3
@@ -760,15 +759,13 @@ ours,Q41770906,P2013,jcpsuitasettsukuntan
 ours,Q41770911,P2013,matsuihirofumifc
 ours,Q41770920,P2013,池畑浩太朗-786153221516243
 ours,Q41770924,P2013,funakawajiro.office
-ours,Q41770929,P2013,Satoyasuki4Hyogo
 ours,Q41770936,P2013,kikuchi.ouen
 ours,Q41770938,P2013,inoueyoshiko122
-ours,Q41770939,P2013,yoshino.tadao
 ours,Q41770941,P2013,nara2shimotori
+wikidata,Q41770953,P2013,fukuhara.sentaijimusho
 ours,Q41770961,P2013,100005889727144
 wikidata,Q41770961,P2013,Hiroko-Ozaki-100005889727144
 ours,Q41770978,P2013,satohironoridp
-ours,Q41770981,P2013,ouchikazuya1010
 ours,Q41770983,P2013,KazushiMatsuda53
 ours,Q41770988,P2013,100005512444252
 wikidata,Q41770988,P2013,山本千代子-100005512444252
@@ -1008,6 +1005,7 @@ wikidata,Q41770740,P856,http://jcpoonuki.blogspot.jp
 wikidata,Q41770747,P856,http://yokoyama-seigo5.blogspot.jp/
 wikidata,Q41770887,P856,http://blog.goo.ne.jp/tame15
 wikidata,Q41770943,P856,http://kiihanto.exblog.jp/
+wikidata,Q41770969,P856,https://haioka-kana.jimdo.com/
 wikidata,Q41771008,P856,http://www.sdp-fukuoka.jpn.org/shuin48
 ours,Q41771058,P856,http://ishin0507.ti-da.net/
 ours,Q41805198,P856,https://www.yoshiokakenji.com
@@ -1050,6 +1048,7 @@ wikidata,Q21655823,P968,mailto:staff.miyaji.takuma@gmail.com
 wikidata,Q41770647,P968,mailto:info@kunimitsu-ayano.jp
 wikidata,Q41770708,P968,mailto:oonotakasichiba1@gmail.com
 wikidata,Q41770846,P968,mailto:ryouhei1948@hotmail.com
+wikidata,Q41770969,P968,mailto:haioka.kana@gmail.com
 wikidata,Q58213,P968,mailto:g01748@shugiin.go.jp
 wikidata,Q21655823,P973,https://www.jimin.jp/member/member_list/legislator/126626.html
 wikidata,Q41693822,P973,http://japan-indepth.jp/?page_id=19443
@@ -1062,4 +1061,6 @@ wikidata,Q41770820,P973,https://www.jiji.com/jc/2017syu?d=18805_h
 wikidata,Q41770848,P973,https://www.jiji.com/jc/2017syu?d=10386_h
 wikidata,Q41770857,P973,http://candidates.hr-party.net:57375/maki-sakamoto/
 wikidata,Q41770908,P973,https://o-ishin.jp/member/detail/okushita_takemitsu.html
+wikidata,Q41770953,P973,http://www.jsdpsmn.jp/
+wikidata,Q41770994,P973,http://www.sdp.or.jp/kagawa/member/div/fujitashinji.html
 wikidata,Q49988,P973,https://www.jimin.jp/english/profile/members/120960.html
