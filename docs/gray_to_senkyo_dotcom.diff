@@ -1924,15 +1924,6 @@
      ns1:前回 "前" ;
      ns1:名 "正樹" ;
      ns1:名前 "大串正樹" ;
-@@ -4017,7 +3949,7 @@
- [] ns1:facebook "https://www.facebook.com/ouchikazuya1010" ;
-     ns1:twitter "" ;
-     ns1:候補名 "大内一也" ;
--    ns1:公式サイト "" ;
-+    ns1:公式サイト "https://www.ouchikazuya.com/" ;
-     ns1:前回 "新" ;
-     ns1:名 "一也" ;
-     ns1:名前 "大内一也" ;
 @@ -4030,7 +3962,7 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
