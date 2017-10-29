@@ -5036,7 +5036,7 @@
      ns1:公式サイト "http://www.tabatahiroaki.com/" ;
      ns1:前回 "前" ;
      ns1:名 "裕明" ;
-@@ -10620,21 +10503,20 @@
+@@ -10620,15 +10503,14 @@
  
  [] ns1:facebook "https://www.facebook.com/yuji.tanabe.501" ;
      ns1:twitter "tanabe_yuji" ;
@@ -5054,13 +5054,6 @@
      ns1:比例区 "" .
  
  [] ns1:facebook "https://www.facebook.com/tanose.kashihara" ;
-     ns1:twitter "" ;
-     ns1:候補名 "田野瀬太道" ;
--    ns1:公式サイト "http://www.taido-tanose.com/" ;
-+    ns1:公式サイト "http://www.tanose.com/" ;
-     ns1:前回 "前" ;
-     ns1:名 "太道" ;
-     ns1:名前 "田野瀬太道" ;
 @@ -10647,7 +10529,7 @@
  [] ns1:facebook "https://www.facebook.com/koji.hata.754" ;
      ns1:twitter "hata_kouji" ;
@@ -7127,7 +7120,7 @@
      ns1:前回 "前" ;
      ns1:名 "崇志" ;
      ns1:名前 "高井崇志" ;
-@@ -14929,10 +14790,10 @@
+@@ -14929,8 +14790,8 @@
      ns1:政党 "希望" ;
      ns1:比例区 "北関東" .
  
@@ -7136,11 +7129,8 @@
 +[] ns1:facebook "https://www.facebook.com/profile.php?id=100005766810070" ;
 +    ns1:twitter "takaichi_sanae" ;
      ns1:候補名 "高市早苗" ;
--    ns1:公式サイト "http://rep.sanae.gr.jp/" ;
-+    ns1:公式サイト "https://www.sanae.gr.jp/" ;
+     ns1:公式サイト "https://www.sanae.gr.jp/" ;
      ns1:前回 "前" ;
-     ns1:名 "早苗" ;
-     ns1:名前 "高市早苗" ;
 @@ -14945,7 +14806,7 @@
  [] ns1:facebook "https://www.facebook.com/Takagi.togi" ;
      ns1:twitter "" ;
