@@ -213,6 +213,7 @@ wikidata,Q41770742,P1581,http://kugimaru.blogspot.jp/
 wikidata,Q41770857,P1581,http://sakamotomakii.blog.fc2.com/
 wikidata,Q41770983,P1581,http://blog.livedoor.jp/kazushi53/
 wikidata,Q41777902,P1581,http://profile.ameba.jp/sato-hiroshi
+wikidata,Q41777904,P1581,http://shumatsuki.blog.fc2.com/
 wikidata,Q7504756,P1581,https://takatori55jim.wordpress.com/
 wikidata,Q7677369,P1581,http://www.shinohara21.com/blog/
 wikidata,Q1039717,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Mitsuo%20Matayoshi.jpg
@@ -471,7 +472,6 @@ ours,Q41770983,P2002,JcpKazushi53
 wikidata,Q41771038,P2002,Team_WadaKaname
 wikidata,Q41771051,P2002,miyazaki6868
 ours,Q41771054,P2002,yuutakagoshima3
-ours,Q41777898,P2002,happymania28jp
 ours,Q41777904,P2002,matsuki_shu
 ours,Q41777971,P2002,Team_Koito2017
 ours,Q41777971,P2002,koitokensuke
@@ -779,6 +779,7 @@ ours,Q41771024,P2013,sagakoufukunakashima
 ours,Q41771033,P2013,すえつぐ精一-1116192441827009
 ours,Q41771042,P2013,kotemegu
 ours,Q41771060,P2013,tomikawayasumasa
+wikidata,Q41777897,P2013,100022412060203
 ours,Q41777900,P2013,takahashihideaki0906
 ours,Q41777910,P2013,100004194875932
 wikidata,Q41777910,P2013,喜多義典-100004194875932
@@ -960,6 +961,8 @@ wikidata,Q11461458,P856,https://fumiaki-kobayashi.jp/
 wikidata,Q11467842,P856,http://tatumaru1979.blog.jp/
 ours,Q11470238,P856,http://a-yamada.com
 wikidata,Q11470238,P856,http://a-yamada.com/
+ours,Q11500159,P856,http://saikitakeshi.jp/
+wikidata,Q11500159,P856,http://www.saiki-takeshi.com/
 ours,Q11518222,P856,http://www.kiharaseiji.com/
 wikidata,Q11518222,P856,http://www.kiharaseiji.com
 wikidata,Q11549401,P856,http://profile.ameba.jp/mizuno-tomo/
@@ -971,6 +974,8 @@ ours,Q11602573,P856,http://www.sasagawa-hiroyoshi.com/
 wikidata,Q11602573,P856,http://www.sasagawa-hiroyoshi.com/index.php
 ours,Q11603860,P856,http://www.yanakazuo.jp/
 wikidata,Q11603860,P856,http://www.yanakazuo.jp/index.html
+ours,Q11624750,P856,http://fujitadaisuke.com/
+wikidata,Q11624750,P856,http://www.f-daisuke.jp/
 ours,Q11629931,P856,http://nishime-k.com
 wikidata,Q11629931,P856,http://www.nishime-k.jp/
 ours,Q11633044,P856,http://www.hajime-yatagawa.com/
@@ -1010,6 +1015,8 @@ wikidata,Q41770969,P856,https://haioka-kana.jimdo.com/
 wikidata,Q41771008,P856,http://www.sdp-fukuoka.jpn.org/shuin48
 wikidata,Q41771033,P856,https://www.suetsugu.link/
 ours,Q41771058,P856,http://ishin0507.ti-da.net/
+ours,Q41777897,P856,http://www.sustainable-state-finance.net
+wikidata,Q41777897,P856,http://www.sustainable-state-finance.net/
 ours,Q41805198,P856,https://www.yoshiokakenji.com
 wikidata,Q418206,P856,http://akiko-kamei.home-p.info/
 ours,Q42290522,P856,http://www.tanaka-ken.jp/
@@ -1044,6 +1051,8 @@ ours,Q8056061,P856,http://www.3ku-seki.com
 wikidata,Q8056061,P856,http://www.3ku-seki.com/
 ours,Q8056290,P856,http://www.sakurada-yoshitaka.com
 wikidata,Q8056290,P856,http://sakurada-yoshitaka.jp/
+ours,Q926370,P856,http://www.hayashimotoo.jp/
+wikidata,Q926370,P856,http://park19.wakwak.com/~motoo/
 wikidata,Q11470238,P968,mailto:yamada.shimin@gmail.com
 wikidata,Q11596723,P968,mailto:contact@inatsu.com
 wikidata,Q21655823,P968,mailto:staff.miyaji.takuma@gmail.com
@@ -1070,4 +1079,9 @@ wikidata,Q41771008,P973,https://www.jiji.com/jc/2017syu?d=19319_h
 wikidata,Q41771036,P973,https://candidates.hr-party.jp/junko-kinoshita/
 wikidata,Q41771051,P973,http://miyazaki-k.net/profile.html
 wikidata,Q41771055,P973,http://syamin.chesuto.jp/e1427044.html
+wikidata,Q41777898,P973,https://o-ishin.jp/member/detail/nishimura_emi.html
+wikidata,Q41777904,P973,https://o-ishin.jp/member/detail/matsuki_shuichiro.html
+wikidata,Q41777907,P973,https://o-ishin.jp/member/detail/satou_akira.html
+wikidata,Q41777910,P973,https://o-ishin.jp/member/detail/kita_yoshinori.html
+wikidata,Q41777912,P973,http://wakayama-ishin.jp/member/?id=7
 wikidata,Q49988,P973,https://www.jimin.jp/english/profile/members/120960.html
