@@ -1,6 +1,6 @@
 --- GrayDB
 +++ 幸福公式
-@@ -9,657 +9,551 @@
+@@ -9,658 +9,551 @@
      ns1:候補名 "いき愛子" ;
      ns1:小選挙区 "神奈川3区" ;
      ns1:比例区 "" ;
@@ -526,7 +526,8 @@
 -        "(株)大林組",
 -        "幸福実現党東京都本部幹事長" .
 -
--[] ns1:facebook "https://www.facebook.com/tsune0024" ;
+-[] ns1:facebook "https://www.facebook.com/tsune0024",
+-        "https://www.facebook.com/tsuneki.ohnishi" ;
 -    ns1:twitter "tsune0024" ;
 -    ns1:候補名 "大西恒樹" ;
 -    ns1:小選挙区 "神奈川8区" ;
@@ -881,7 +882,7 @@
      ns1:職歴 "幸福実現党党首" .
  
  [] ns1:facebook "" ;
-@@ -667,68 +561,54 @@
+@@ -668,68 +561,54 @@
      ns1:候補名 "野市裕司" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北海道" ;
