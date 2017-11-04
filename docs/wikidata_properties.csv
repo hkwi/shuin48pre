@@ -1,4 +1,6 @@
 db,person,property,value
+ours,Q41768440,,
+wikidata,Q11656611,,
 ours,Q10856313,1581,http://www.tanakamieko.jp/category/blog/
 ours,Q1135729,1581,https://ameblo.jp/gohosono
 ours,Q11360320,1581,https://ameblo.jp/ueno-hiroshi/
@@ -410,10 +412,6 @@ wikidata,Q926370,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Motoo%20
 wikidata,Q978256,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Sakihito%20Ozawa%20cropped%201%20Members%20of%20the%20Global%20Legislators%20Organization%20for%20a%20Balanced%20Environment%20Edward%20Davey%20and%20Tim%20Hitchens%2020130530.jpg
 wikidata,Q992930,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Ishihara%20Nobuteru%20-%20Wakaba%20Station%20-%2020100703.JPG
 wikidata,Q1039717,P1814,またよし イエス
-ours,Q11364144,P1814,なかやま のりひろ
-wikidata,Q11364144,P1814,なかやま　のりひろ
-ours,Q11592023,P1814,ふくやま まもる
-wikidata,Q11592023,P1814,ふくやま　まもる
 ours,Q11629931,P1814,にしめ こうさぶろう
 wikidata,Q11629931,P1814,にしめ　こうざぶろう
 ours,Q18458881,P1814,げんま けんたろう
@@ -422,8 +420,7 @@ ours,Q18817877,P1814,なかざと としのぶ
 wikidata,Q18817877,P1814,なかさと としのぶ
 ours,Q20039110,P1814,おおにし ひろゆき
 wikidata,Q20039110,P1814,おおにし　ひろゆき
-ours,Q3547232,P1814,よこみつ かつひこ
-wikidata,Q3547232,P1814,よこみつ　かつひこ
+ours,Q41768440,P1814,いしかわ かおり
 ours,Q41805161,P1814,うえの かんじ
 wikidata,Q41805161,P1814,うえの　かんじ
 ours,Q42290522,P1814,たなか けん
@@ -456,7 +453,7 @@ wikidata,Q11646784,P2002,KanekoMegu
 ours,Q11649031,P2002,jyunji_suzuki
 ours,Q11661236,P2002,ao_shu_office
 ours,Q18669603,P2002,saorijimusyo
-ours,Q3547232,P2002,yokomitsu_oita3
+ours,Q41768440,P2002,IshikawaKaori11
 ours,Q41770463,P2002,YoshidaHarumi
 ours,Q41770463,P2002,tokyo8staff
 ours,Q41770585,P2002,okumotonaomi
@@ -526,14 +523,12 @@ ours,Q11399159,P2013,katokanji0424
 ours,Q11400147,P2013,100002449220587
 wikidata,Q11400147,P2013,Katsumata-Takaaki-100002449220587
 ours,Q11400372,P2013,勝沼かつぬま-栄明しげあき-1715011188806251
-ours,Q11412937,P2013,YoshikawaHajime.Oita
 ours,Q11413102,P2013,吉川たける-2197333243886935
 ours,Q11413941,P2013,yosamu.chan
 ours,Q11423241,P2013,tuchiyashinako
 ours,Q11423241,P2013,土屋品子つちや品子事務所-329738140769748
 ours,Q11425985,P2013,kiuchi0419
 wikidata,Q11428744,P2013,shiomuraAyaka
-ours,Q11433281,P2013,OguchiYoshinori
 ours,Q11438916,P2013,0024hideo
 ours,Q11446165,P2013,s.okuno2
 wikidata,Q11446165,P2013,1438111769749344
@@ -675,7 +670,6 @@ ours,Q3136350,P2013,hasehiroshi.kousiki
 ours,Q3435725,P2013,akio417fukuda
 ours,Q3482658,P2013,100016937237040
 wikidata,Q3482658,P2013,鈴木俊一-100016937237040
-ours,Q3547232,P2013,yokomitu10.22
 ours,Q359480,P2013,kishdafumio
 ours,Q369170,P2013,uematsuemiko
 wikidata,Q369170,P2013,emiko.uematsu.9
@@ -686,6 +680,8 @@ ours,Q388496,P2013,mabuchisumio
 ours,Q41693822,P2013,nambamichyo
 ours,Q41698739,P2013,harateruo
 ours,Q41768409,P2013,koichiyoshida.jcp
+ours,Q41768440,P2013,ishikawa.kaori.12
+ours,Q41768440,P2013,kaori.ishikawa.tokachi
 ours,Q41769890,P2013,kishiyoshinobu
 ours,Q41769947,P2013,maejun.jp
 ours,Q41769950,P2013,kitajo.tomohiko
@@ -791,6 +787,7 @@ wikidata,Q41777910,P2013,喜多義典-100004194875932
 ours,Q41777915,P2013,yakoukanji.jp
 ours,Q41777933,P2013,ota.masataka
 ours,Q41777960,P2013,horikoshi.keinin
+wikidata,Q41777962,P2013,rentarou.katayama
 ours,Q41794089,P2013,gifu.yoshidarie
 ours,Q41794096,P2013,kanekosyunpei.gifu
 ours,Q41794100,P2013,chisaka.takuaki
@@ -917,12 +914,10 @@ ours,Q784087,P2013,banno2000
 ours,Q7850337,P2013,tomioka2tom
 ours,Q7850389,P2013,高木つよし支援のｗａ-732835663451367
 ours,Q7862709,P2013,doitooru
-ours,Q7973013,P2013,komei.itowataru
 ours,Q8049965,P2013,iloveyatchan
 ours,Q8049988,P2013,ozato.yasuhiro
 ours,Q8050128,P2013,edayasuyuki.official
 ours,Q8054534,P2013,mutou.youji
-ours,Q8054597,P2013,yoko.wanibuchi
 ours,Q8055323,P2013,yorihisa.win
 ours,Q8055326,P2013,madokayoriko
 ours,Q8055970,P2013,Harada4192
@@ -940,14 +935,18 @@ ours,Q923428,P2013,matsunami.kenta
 ours,Q926287,P2013,komei.tetsuosaito
 ours,Q978256,P2013,小沢さきひと前衆議院議員-438694512855411
 ours,Q992930,P2013,ishihara.nobuteru
+ours,Q41768440,P21,http://www.wikidata.org/entity/Q6581072
 wikidata,Q11596723,P2397,UCMj6Ry4O5UXUWKMGiNxJg2A
 wikidata,Q41770647,P2397,UCTivk5i0rtvi3UUf7k2qVQw
 wikidata,Q41770734,P2397,UCC0P6_l4g1WYrE75oT5JiiA
 wikidata,Q41770820,P2397,UCmujh_OL7klAmGhsr7mIGeQ
 wikidata,Q418206,P2397,UCKsvywZF47i_2sVZTUgNaRw
+wikidata,Q7973013,P2397,UCUq_ku31Wv2BM7E2l9WOh2Q
 wikidata,Q8056290,P2397,UCirRDiDnAHxpeD71uVkX5uA
+ours,Q41768440,P569,1984-05-10T00:00:00+00:00
 ours,Q11411691,P856,http://kogaatsushi.com
 wikidata,Q11411691,P856,http://www.kogaatsushi.com
+wikidata,Q11412937,P856,http://yoshikawahajime.blog.fc2.com/
 ours,Q11446165,P856,https://www.s-okuno.jp
 wikidata,Q11446165,P856,https://s-okuno.jp
 ours,Q11458942,P856,http://ogura-m.jp/
@@ -956,6 +955,7 @@ ours,Q11461246,P856,http://www.komatsuyutaka.com
 wikidata,Q11461246,P856,http://www.komatsuyutaka.com/
 ours,Q11461458,P856,http://fumiaki-kobayashi.jp/
 wikidata,Q11461458,P856,https://fumiaki-kobayashi.jp/
+wikidata,Q11465449,P856,https://asako-omi.jp
 wikidata,Q11467842,P856,http://tatumaru1979.blog.jp/
 ours,Q11470238,P856,http://a-yamada.com
 wikidata,Q11470238,P856,http://a-yamada.com/
@@ -968,6 +968,7 @@ ours,Q1155448,P856,http://www.hhirano.jp/
 wikidata,Q1155448,P856,http://www.hhirano.jp
 ours,Q11572466,P856,http://d21tamaki.com
 wikidata,Q11572466,P856,http://www.d21tamaki.com/
+wikidata,Q11592023,P856,http://fukuyama-mamoru.com/index.html
 ours,Q11602573,P856,http://www.sasagawa-hiroyoshi.com/
 wikidata,Q11602573,P856,http://www.sasagawa-hiroyoshi.com/index.php
 ours,Q11603860,P856,http://www.yanakazuo.jp/
@@ -975,12 +976,13 @@ wikidata,Q11603860,P856,http://www.yanakazuo.jp/index.html
 ours,Q11624750,P856,http://fujitadaisuke.com/
 wikidata,Q11624750,P856,http://www.f-daisuke.jp/
 ours,Q11629931,P856,http://nishime-k.com
-wikidata,Q11629931,P856,http://www.nishime-k.jp/
+wikidata,Q11629931,P856,http://nishime-k.com/
 ours,Q11633044,P856,http://www.hajime-yatagawa.com/
 wikidata,Q11633044,P856,https://www.hajime-yatagawa.com/
 wikidata,Q11642258,P856,http://blog.livedoor.jp/akitadog/
 ours,Q11651021,P856,http://kamatasayuri.com
 ours,Q11654965,P856,http://www.warau-kado.jp
+wikidata,Q11654965,P856,http://warau-kado.jp/
 ours,Q11670038,P856,http://www.hirohisa-takagi.jp/
 wikidata,Q11670038,P856,http://www.hirohisa-takagi.jp/index.html
 ours,Q11679075,P856,https://www.saito-ken.jp/
@@ -999,6 +1001,8 @@ wikidata,Q24875305,P856,https://www.youtube.com/channel/UCf5EyC-MgfmBxTmtFbLGdjw
 ours,Q3482658,P856,http://www.suzukishunichi.jp
 wikidata,Q3482658,P856,http://www.suzukishunichi.jp/
 ours,Q41768312,P856,http://morinatsue.net
+wikidata,Q41768312,P856,http://morinatsue.net/
+ours,Q41768440,P856,http://ishikawa-kaori.jp/
 wikidata,Q41769948,P856,http://blog.goo.ne.jp/motokisobue
 wikidata,Q41770036,P856,http://overwash.blog7.fc2.com/
 ours,Q41770567,P856,www.mika-mizukami.jp
@@ -1049,12 +1053,14 @@ ours,Q57647,P856,http://www.nodayoshi.gr.jp/
 wikidata,Q57647,P856,http://www.nodayoshi.gr.jp
 ours,Q58213,P856,http://www.kgemba.com/
 wikidata,Q58213,P856,http://www.kgenba.com/
+wikidata,Q6144675,P856,http://kenpo9.com/
 ours,Q6203082,P856,http://www.akama.jp/
 wikidata,Q6203082,P856,http://akama.jp/
 ours,Q6381645,P856,http://www.kitagawa-sakai.jp/
 wikidata,Q6381645,P856,http://kitagawa-sakai.jp/
 ours,Q7385287,P856,http://www.hattori-ryoichi.com/
 wikidata,Q7385287,P856,https://ohsaka.jp/
+wikidata,Q7446719,P856,https://sei-murakami.jp/
 ours,Q7677226,P856,http://ochi-takao.jp/
 wikidata,Q7677226,P856,http://www.ochi-takao.jp/
 ours,Q7677366,P856,http://www.otsuka001.com
@@ -1076,6 +1082,8 @@ wikidata,Q41770708,P968,mailto:oonotakasichiba1@gmail.com
 wikidata,Q41770846,P968,mailto:ryouhei1948@hotmail.com
 wikidata,Q41770969,P968,mailto:haioka.kana@gmail.com
 wikidata,Q58213,P968,mailto:g01748@shugiin.go.jp
+wikidata,Q11468214,P973,https://cdp-japan.jp/members/detail.php?id=10
+wikidata,Q11585840,P973,https://www.jimin.jp/member/member_list/legislator/110527.html
 wikidata,Q21655823,P973,https://www.jimin.jp/member/member_list/legislator/126626.html
 wikidata,Q41693822,P973,http://japan-indepth.jp/?page_id=19443
 wikidata,Q41693822,P973,http://www.shibuya-univ.net/professor/detail/952/
@@ -1106,7 +1114,9 @@ wikidata,Q41777966,P973,https://cdp-japan.jp/members/detail.php?id=50
 wikidata,Q41777969,P973,https://www.minshin.or.jp/member/5261
 wikidata,Q41805191,P973,https://www.jimin.jp/member/member_list/legislator/135980.html
 wikidata,Q41805209,P973,http://oneosaka.jp/verde/member/detail_oosawa.html
+wikidata,Q41805216,P973,https://www.jimin.jp/member/member_list/legislator/135985.html
 wikidata,Q41805268,P973,http://jana47.com/announcer/%E7%9F%B3%E9%A3%9B%E3%80%80%E9%A6%99%E7%B9%94/
 wikidata,Q41805299,P973,http://dermatol-h.dept.med.gunma-u.ac.jp/room_staff_nagai.php
 wikidata,Q41805321,P973,http://hibikimental.com/doctor/
 wikidata,Q49988,P973,https://www.jimin.jp/english/profile/members/120960.html
+wikidata,Q8054597,P973,https://www.komei.or.jp/member/detail/27026137
