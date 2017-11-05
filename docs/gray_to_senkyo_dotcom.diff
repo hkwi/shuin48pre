@@ -5225,17 +5225,15 @@
      ns1:twitter "gemmakentaro" ;
      ns1:候補名 "源馬謙太郎" ;
      ns1:公式サイト "http://gemma-kentaro.com/" ;
-@@ -10121,8 +9958,8 @@
+@@ -10121,7 +9958,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
      ns1:twitter "hamamurasusumu" ;
 -    ns1:候補名 "浜村進" ;
--    ns1:公式サイト "http://hamamura-komei.jp/" ;
 +    ns1:候補名 "濱村進" ;
-+    ns1:公式サイト "http://sumuhama.com/" ;
+     ns1:公式サイト "http://sumuhama.com/" ;
      ns1:前回 "前" ;
      ns1:名 "進" ;
-     ns1:名前 "濱村進" ;
 @@ -10135,7 +9972,6 @@
  [] ns1:facebook "" ;
      ns1:twitter "" ;
