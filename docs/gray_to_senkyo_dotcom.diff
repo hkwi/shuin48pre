@@ -1909,12 +1909,20 @@
      ns1:前回 "新" ;
      ns1:名 "史子" ;
      ns1:名前 "坂本史子" ;
-@@ -3637,10 +3557,9 @@
-     ns1:政党 "自民" ;
-     ns1:比例区 "" .
- 
+@@ -3633,14 +3553,13 @@
+     ns1:名前 "坂本哲志" ;
+     ns1:姓 "坂本" ;
+     ns1:小選挙区 "熊本3区" ;
+-    ns1:年齢 "67" ;
+-    ns1:政党 "自民" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:facebook "https://www.facebook.com/55hiroshi",
 -        "https://www.facebook.com/hiskm" ;
++    ns1:年齢 "66" ;
++    ns1:政党 "自民" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/55hiroshi" ;
      ns1:twitter "hi_sakamoto" ;
 -    ns1:候補名 "坂本ひろし" ;
@@ -4563,7 +4571,7 @@
      ns1:twitter "yokomitsu_oita3" ;
      ns1:候補名 "横光克彦" ;
      ns1:公式サイト "" ;
-@@ -8960,14 +8825,14 @@
+@@ -8960,27 +8825,26 @@
      ns1:名前 "横光克彦" ;
      ns1:姓 "横光" ;
      ns1:小選挙区 "大分3区" ;
@@ -4580,7 +4588,13 @@
      ns1:前回 "前" ;
      ns1:名 "博幸" ;
      ns1:名前 "横山博幸" ;
-@@ -8980,7 +8845,6 @@
+     ns1:姓 "横山" ;
+     ns1:小選挙区 "愛媛2区" ;
+-    ns1:年齢 "67" ;
++    ns1:年齢 "66" ;
+     ns1:政党 "希望" ;
+     ns1:比例区 "四国" .
+ 
  [] ns1:facebook "https://www.facebook.com/seigo.yokoyama.1" ;
      ns1:twitter "yokoyamaseigo" ;
      ns1:候補名 "横山征吾" ;
@@ -7470,6 +7484,15 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "由希子" ;
+@@ -14471,7 +14265,7 @@
+     ns1:名前 "長谷川嘉一" ;
+     ns1:姓 "長谷川" ;
+     ns1:小選挙区 "群馬3区" ;
+-    ns1:年齢 "65" ;
++    ns1:年齢 "64" ;
+     ns1:政党 "立憲民主" ;
+     ns1:比例区 "北関東" .
+ 
 @@ -14490,7 +14284,7 @@
  
  [] ns1:facebook "https://www.facebook.com/naoyuki.haseda" ;
