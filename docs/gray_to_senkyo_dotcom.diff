@@ -2097,7 +2097,7 @@
      ns1:twitter "horikoshikeinin" ;
      ns1:候補名 "堀越啓仁" ;
      ns1:公式サイト "" ;
-@@ -3870,7 +3780,7 @@
+@@ -3870,13 +3780,13 @@
  [] ns1:facebook "https://www.facebook.com/shiozakiyasuhisa" ;
      ns1:twitter "yasu_shio" ;
      ns1:候補名 "塩崎恭久" ;
@@ -2106,6 +2106,13 @@
      ns1:前回 "前" ;
      ns1:名 "恭久" ;
      ns1:名前 "塩崎恭久" ;
+     ns1:姓 "塩崎" ;
+     ns1:小選挙区 "愛媛1区" ;
+-    ns1:年齢 "67" ;
++    ns1:年齢 "66" ;
+     ns1:政党 "自民" ;
+     ns1:比例区 "四国" .
+ 
 @@ -3896,7 +3806,7 @@
  [] ns1:facebook "https://www.facebook.com/ayaka.shiomura.7" ;
      ns1:twitter "shiomura" ;
@@ -7856,7 +7863,7 @@
      ns1:公式サイト "https://www.aoyama-masayuki.com/" ;
      ns1:前回 "新" ;
      ns1:名 "雅幸" ;
-@@ -14845,7 +14610,7 @@
+@@ -14845,22 +14610,21 @@
  
  [] ns1:facebook "https://www.facebook.com/hitoshi.aoyagi.75" ;
      ns1:twitter "aoyagi_h" ;
@@ -7865,7 +7872,11 @@
      ns1:公式サイト "http://aoyagih.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "仁士" ;
-@@ -14856,11 +14621,10 @@
+     ns1:名前 "青柳仁士" ;
+     ns1:姓 "青柳" ;
+     ns1:小選挙区 "埼玉4区" ;
+-    ns1:年齢 "39" ;
++    ns1:年齢 "38" ;
      ns1:政党 "維新" ;
      ns1:比例区 "北関東" .
  
