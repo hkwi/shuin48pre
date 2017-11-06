@@ -157,7 +157,7 @@
      ns1:小選挙区 "兵庫2区" ;
      ns1:比例区 "" .
  
-@@ -277,8 +268,7 @@
+@@ -277,15 +268,13 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" .
  
@@ -167,7 +167,15 @@
      ns1:twitter "koshimizu_k1" ;
      ns1:候補名 "輿水恵一" ;
      ns1:小選挙区 "" ;
-@@ -302,7 +292,7 @@
+     ns1:比例区 "北関東" .
+ 
+-[] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1",
+-        "https://www.facebook.com/toyamakiyohiko" ;
++[] ns1:facebook "https://www.facebook.com/toyama.kiyohiko1" ;
+     ns1:twitter "kiyohiko_toyama" ;
+     ns1:候補名 "遠山清彦" ;
+     ns1:小選挙区 "" ;
+@@ -303,7 +292,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" .
  
@@ -176,7 +184,7 @@
      ns1:twitter "" ;
      ns1:候補名 "高村宗男" ;
      ns1:小選挙区 "" ;
-@@ -320,13 +310,13 @@
+@@ -321,13 +310,13 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  
