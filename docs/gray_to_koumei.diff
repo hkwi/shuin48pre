@@ -68,7 +68,17 @@
      ns1:twitter "noriko_furuya" ;
      ns1:候補名 "古屋範子" ;
      ns1:小選挙区 "" ;
-@@ -134,8 +130,8 @@
+@@ -122,8 +118,7 @@
+     ns1:小選挙区 "" ;
+     ns1:比例区 "九州" .
+ 
+-[] ns1:facebook "https://www.facebook.com/OguchiYoshinori",
+-        "https://www.facebook.com/profile.php?id=100005027254255" ;
++[] ns1:facebook "https://www.facebook.com/OguchiYoshinori" ;
+     ns1:twitter "" ;
+     ns1:候補名 "大口善徳" ;
+     ns1:小選挙区 "" ;
+@@ -135,8 +130,8 @@
      ns1:小選挙区 "東京12区" ;
      ns1:比例区 "" .
  
@@ -79,7 +89,7 @@
      ns1:候補名 "太田昌孝" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "北陸信越" .
-@@ -153,7 +149,7 @@
+@@ -154,7 +149,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "" ;
@@ -88,16 +98,26 @@
      ns1:候補名 "布施正行" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
-@@ -182,7 +178,7 @@
+@@ -165,7 +160,7 @@
+     ns1:小選挙区 "" ;
+     ns1:比例区 "中国" .
+ 
+-[] ns1:facebook "https://www.facebook.com/profile.php?id=100011972597599" ;
++[] ns1:facebook "" ;
+     ns1:twitter "" ;
+     ns1:候補名 "日下正喜" ;
+     ns1:小選挙区 "" ;
+@@ -183,8 +178,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "北関東" .
  
--[] ns1:facebook "https://www.facebook.com/masuya.keigo.komei" ;
+-[] ns1:facebook "https://www.facebook.com/masuya.keigo.komei",
+-        "https://www.facebook.com/profile.php?id=100022038063539" ;
 +[] ns1:facebook "" ;
      ns1:twitter "" ;
      ns1:候補名 "桝屋敬悟" ;
      ns1:小選挙区 "" ;
-@@ -214,7 +210,7 @@
+@@ -216,7 +210,7 @@
  
  [] ns1:facebook "https://www.facebook.com/hamamurasusumu" ;
      ns1:twitter "hamamurasusumu" ;
@@ -106,7 +126,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  
-@@ -230,8 +226,7 @@
+@@ -232,8 +226,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  
@@ -116,7 +136,15 @@
      ns1:twitter "yuichi_mayama" ;
      ns1:候補名 "真山祐一" ;
      ns1:小選挙区 "" ;
-@@ -261,10 +256,9 @@
+@@ -257,17 +250,15 @@
+     ns1:小選挙区 "" ;
+     ns1:比例区 "近畿" .
+ 
+-[] ns1:facebook "https://www.facebook.com/hideo.tsunoda.33",
+-        "https://www.facebook.com/hideo.tsunoda.53" ;
++[] ns1:facebook "https://www.facebook.com/hideo.tsunoda.53" ;
+     ns1:twitter "" ;
+     ns1:候補名 "角田秀穂" ;
      ns1:小選挙区 "" ;
      ns1:比例区 "南関東" .
  
@@ -129,7 +157,7 @@
      ns1:小選挙区 "兵庫2区" ;
      ns1:比例区 "" .
  
-@@ -274,8 +268,7 @@
+@@ -277,8 +268,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東海" .
  
@@ -139,7 +167,7 @@
      ns1:twitter "koshimizu_k1" ;
      ns1:候補名 "輿水恵一" ;
      ns1:小選挙区 "" ;
-@@ -299,7 +292,7 @@
+@@ -302,7 +292,7 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "東京" .
  
@@ -148,7 +176,7 @@
      ns1:twitter "" ;
      ns1:候補名 "高村宗男" ;
      ns1:小選挙区 "" ;
-@@ -317,13 +310,13 @@
+@@ -320,13 +310,13 @@
      ns1:小選挙区 "" ;
      ns1:比例区 "近畿" .
  
