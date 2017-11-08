@@ -4335,7 +4335,7 @@
      ns1:twitter "" ;
      ns1:候補名 "柏倉祐司" ;
      ns1:公式サイト "http://www.kashiwakurayuji.jp/" ;
-@@ -8352,9 +8220,9 @@
+@@ -8352,21 +8220,20 @@
      ns1:政党 "希望" ;
      ns1:比例区 "中国" .
  
@@ -4347,12 +4347,19 @@
      ns1:公式サイト "" ;
      ns1:前回 "新" ;
      ns1:名 "昇" ;
-@@ -8365,8 +8233,7 @@
-     ns1:政党 "共産" ;
-     ns1:比例区 "" .
- 
+     ns1:名前 "柴山昇" ;
+     ns1:姓 "柴山" ;
+     ns1:小選挙区 "大阪1区" ;
+-    ns1:年齢 "64" ;
+-    ns1:政党 "共産" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:facebook "https://www.facebook.com/masahiko.shibayama",
 -        "https://www.facebook.com/shibayama.masahiko" ;
++    ns1:年齢 "63" ;
++    ns1:政党 "共産" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/shibayama.masahiko" ;
      ns1:twitter "shiba_masa" ;
      ns1:候補名 "柴山昌彦" ;
