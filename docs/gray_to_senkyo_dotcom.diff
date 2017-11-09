@@ -3482,7 +3482,7 @@
      ns1:候補名 "平川道也" ;
      ns1:公式サイト "http://www.cupolatown.net/" ;
      ns1:前回 "新" ;
-@@ -6777,11 +6664,10 @@
+@@ -6777,8 +6664,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
  
@@ -3491,11 +3491,7 @@
 +[] ns1:facebook "https://www.facebook.com/hirasawakatuei" ;
      ns1:twitter "katsueihirasawa" ;
      ns1:候補名 "平沢勝栄" ;
--    ns1:公式サイト "http://www.hirasawa.net/" ;
-+    ns1:公式サイト "http://hirasawa.net/" ;
-     ns1:前回 "前" ;
-     ns1:名 "勝栄" ;
-     ns1:名前 "平沢勝栄" ;
+     ns1:公式サイト "http://hirasawa.net/" ;
 @@ -6804,11 +6690,10 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
