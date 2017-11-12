@@ -1037,7 +1037,15 @@
      ns1:前回 "新" ;
      ns1:名 "正樹" ;
      ns1:名前 "伊藤正樹" ;
-@@ -1852,7 +1808,6 @@
+@@ -1845,14 +1801,13 @@
+     ns1:名前 "伊藤渉" ;
+     ns1:姓 "伊藤" ;
+     ns1:小選挙区 "" ;
+-    ns1:年齢 "48" ;
++    ns1:年齢 "47" ;
+     ns1:政党 "公明" ;
+     ns1:比例区 "東海" .
+ 
  [] ns1:facebook "" ;
      ns1:twitter "itou_makoto1974" ;
      ns1:候補名 "伊藤誠" ;
@@ -1836,7 +1844,12 @@
      ns1:比例区 "九州" .
  
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100004194875932" ;
-@@ -3430,9 +3349,8 @@
+@@ -3426,13 +3345,12 @@
+     ns1:名前 "喜多義典" ;
+     ns1:姓 "喜多" ;
+     ns1:小選挙区 "" ;
+-    ns1:年齢 "51" ;
++    ns1:年齢 "50" ;
      ns1:政党 "維新" ;
      ns1:比例区 "東海" .
  
@@ -3885,15 +3898,23 @@
      ns1:前回 "新" ;
      ns1:名 "精一" ;
      ns1:名前 "末次精一" ;
-@@ -7542,11 +7416,9 @@
-     ns1:政党 "共産" ;
-     ns1:比例区 "" .
- 
+@@ -7538,15 +7412,13 @@
+     ns1:名前 "本多信弘" ;
+     ns1:姓 "本多" ;
+     ns1:小選挙区 "愛知11区" ;
+-    ns1:年齢 "42" ;
+-    ns1:政党 "共産" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:facebook "https://www.facebook.com/hiranao.honda",
 -        "https://www.facebook.com/hondahiranao" ;
 -    ns1:twitter "office_hiranao",
 -        "pontapiranao" ;
 -    ns1:候補名 "ホンダ平直" ;
++    ns1:年齢 "41" ;
++    ns1:政党 "共産" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/hondahiranao" ;
 +    ns1:twitter "pontapiranao" ;
 +    ns1:候補名 "本多平直" ;
@@ -4637,6 +4658,15 @@
      ns1:twitter "emikouematsu" ;
      ns1:候補名 "植松恵美子" ;
      ns1:公式サイト "http://e-uematsu.jp/" ;
+@@ -8839,7 +8695,7 @@
+     ns1:名前 "植松恵美子" ;
+     ns1:姓 "植松" ;
+     ns1:小選挙区 "東京6区" ;
+-    ns1:年齢 "50" ;
++    ns1:年齢 "49" ;
+     ns1:政党 "希望" ;
+     ns1:比例区 "東京" .
+ 
 @@ -8858,8 +8714,8 @@
  
  [] ns1:facebook "https://www.facebook.com/ishin.shiiki.tamotsu" ;
@@ -7637,7 +7667,7 @@
      ns1:公式サイト "http://marikokoro556.tokyo.jp/" ;
      ns1:前回 "新" ;
      ns1:名 "麻理子" ;
-@@ -14300,10 +14074,9 @@
+@@ -14300,17 +14074,16 @@
      ns1:政党 "無所属" ;
      ns1:比例区 "" .
  
@@ -7650,6 +7680,14 @@
      ns1:公式サイト "http://senkyo.jcp-tokyo.net/osanai/" ;
      ns1:前回 "新" ;
      ns1:名 "史子" ;
+     ns1:名前 "長内史子" ;
+     ns1:姓 "長内" ;
+     ns1:小選挙区 "東京8区" ;
+-    ns1:年齢 "30" ;
++    ns1:年齢 "29" ;
+     ns1:政党 "共産" ;
+     ns1:比例区 "" .
+ 
 @@ -14327,7 +14100,7 @@
      ns1:政党 "共産" ;
      ns1:比例区 "" .
