@@ -2962,7 +2962,7 @@
      ns1:候補名 "小糸健介" ;
      ns1:公式サイト "https://www.koito.tokyo/" ;
      ns1:前回 "新" ;
-@@ -5530,14 +5428,14 @@
+@@ -5530,11 +5428,11 @@
      ns1:姓 "小糸" ;
      ns1:小選挙区 "東京21区" ;
      ns1:年齢 "35" ;
@@ -2976,11 +2976,7 @@
 +[] ns1:facebook "https://www.facebook.com/ozato.yasuhiro" ;
      ns1:twitter "" ;
      ns1:候補名 "小里泰弘" ;
--    ns1:公式サイト "http://yasuhiro.ozato.info/" ;
-+    ns1:公式サイト "http://ozato-yasuhiro.net/" ;
-     ns1:前回 "前" ;
-     ns1:名 "泰弘" ;
-     ns1:名前 "小里泰弘" ;
+     ns1:公式サイト "http://ozato-yasuhiro.net/" ;
 @@ -5601,7 +5499,7 @@
  
  [] ns1:facebook "" ;
