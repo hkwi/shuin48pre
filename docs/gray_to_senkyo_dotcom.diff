@@ -5122,7 +5122,7 @@
      ns1:比例区 "北関東" .
  
  [] ns1:facebook "https://www.facebook.com/yoshitaka.ikeda.902" ;
-@@ -9524,7 +9364,6 @@
+@@ -9524,21 +9364,18 @@
  [] ns1:facebook "https://www.facebook.com/profile.php?id=100008285657728" ;
      ns1:twitter "" ;
      ns1:候補名 "池田博英" ;
@@ -5130,13 +5130,19 @@
      ns1:前回 "新" ;
      ns1:名 "博英" ;
      ns1:名前 "池田博英" ;
-@@ -9534,11 +9373,9 @@
-     ns1:政党 "共産" ;
-     ns1:比例区 "" .
- 
+     ns1:姓 "池田" ;
+     ns1:小選挙区 "神奈川16区" ;
+-    ns1:年齢 "55" ;
+-    ns1:政党 "共産" ;
+-    ns1:比例区 "" .
+-
 -[] ns1:facebook "https://www.facebook.com/ikedamaki.rikken",
 -        "https://www.facebook.com/ikemakimakimaki",
 -        "https://www.facebook.com/ikemakitsukuru" ;
++    ns1:年齢 "54" ;
++    ns1:政党 "共産" ;
++    ns1:比例区 "" .
++
 +[] ns1:facebook "https://www.facebook.com/ikemakitsukuru" ;
      ns1:twitter "ikemakihonki" ;
 -    ns1:候補名 "池田まき" ;
