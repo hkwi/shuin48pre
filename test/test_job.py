@@ -40,8 +40,7 @@ def test_jobs():
 	[th.join() for th in ths]
 
 def test_gdoc():
-	with open("docs/database.csv", "w", encoding="utf-8-sig") as fp:
-		shuin48pre.gdoc.run(fp)
+	shuin48pre.gdoc.run("docs/database.csv")
 
 def test_wikidata():
 	shuin48pre.wikidata_sync.qualifiers(open("docs/wikidata_P3602_Q20983100.csv","w"))

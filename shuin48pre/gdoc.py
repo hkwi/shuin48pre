@@ -2,6 +2,7 @@ import csv
 import re
 import xlsxwriter
 import unicodedata
+import hashlib
 
 def normalize(k,v):
 	if v in ("-", ""):
@@ -105,24 +106,37 @@ def normalize(k,v):
 		v = re.sub("[　 ]+", "", v)
 	return k,v
 
-def run(fp):
+def run(filename):
+	out_before = hashlib.sha1()
+	[out_before.update(l) for l in open(filename, "rb")]
+	
 	rows = list(csv.reader(open("docs/gdoc_gray_db.csv")))
 	wd = [j for j,r in enumerate(rows) if "wikidata" in r]
-	if wd:
+	if not wd:
+		return
+	
+	with open(filename, "w", encoding="utf-8-sig") as fp:
 		hidx = wd[0]
 		skip = hidx+1
 		
 		rlim = rows[hidx].index("担当")
 		header = rows[hidx][:rlim]
 		out = csv.writer(fp)
+		
 		data = [header]+[[normalize(k,v)[1] for k,v in zip(header, r[:rlim])] for r in rows[skip:]]
 		out.writerows(data)
-		
-		wb = xlsxwriter.Workbook("docs/database.xlsx")
-		ws = wb.add_worksheet()
-		[[ws.write(i,j,c) for j,c in enumerate(r)] for i,r in enumerate(data)]
-		wb.close()
+	
+	out_after = hashlib.sha1()
+	[out_after.update(l) for l in open(filename, "rb")]
+	
+	if out_before.digest() == out_after.digest():
+		return
+	
+	wb = xlsxwriter.Workbook("docs/database.xlsx")
+	ws = wb.add_worksheet()
+	[[ws.write(i,j,c) for j,c in enumerate(r)] for i,r in enumerate(data)]
+	wb.close()
 
 if __name__=="__main__":
 	import sys
-	run(sys.stdout)
+	run("test.csv")
