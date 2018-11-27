@@ -1,5 +1,6 @@
 db,person,property,value
 ours,Q41768440,,
+ours,Q41770875,,
 wikidata,Q11656611,,
 ours,Q10856313,1581,http://www.tanakamieko.jp/category/blog/
 ours,Q1135729,1581,https://ameblo.jp/gohosono
@@ -439,6 +440,7 @@ wikidata,Q18817877,P1814,なかさと としのぶ
 ours,Q41768440,P1814,いしかわ かおり
 ours,Q41770873,P1814,ほんだ　たろう
 wikidata,Q41770873,P1814,ほんだ たろう
+ours,Q41770875,P1814,すずき まりこ
 ours,Q41805161,P1814,うえの かんじ
 wikidata,Q41805161,P1814,うえの　かんじ
 ours,Q42290522,P1814,たなか けん
@@ -488,6 +490,7 @@ ours,Q41770830,P2002,2b28a3370fae4f9
 ours,Q41770830,P2002,itakurama
 wikidata,Q41770844,P2002,sekikenichiro
 wikidata,Q41770869,P2002,koteranran
+ours,Q41770875,P2002,marikokoro556
 wikidata,Q41770904,P2002,nagaohideki_CDP
 ours,Q41770908,P2002,okushita_ishin
 wikidata,Q41770909,P2002,makoara0810
@@ -1057,6 +1060,7 @@ ours,Q978256,P2013,sakihito.ozawa
 ours,Q978256,P2013,小沢さきひと前衆議院議員-438694512855411
 ours,Q992930,P2013,ishihara.nobuteru
 ours,Q41768440,P21,http://www.wikidata.org/entity/Q6581072
+ours,Q41770875,P21,http://www.wikidata.org/entity/Q6581072
 wikidata,Q11596723,P2397,UCMj6Ry4O5UXUWKMGiNxJg2A
 wikidata,Q24875305,P2397,UCf5EyC-MgfmBxTmtFbLGdjw
 wikidata,Q41693423,P2397,UCNaBjanFg-TfYJpFTUdygkw
@@ -1068,6 +1072,7 @@ wikidata,Q6383909,P2397,UC8rxW5RfgCVdkQ4cH1BXNGw
 wikidata,Q7973013,P2397,UCUq_ku31Wv2BM7E2l9WOh2Q
 wikidata,Q8056290,P2397,UCirRDiDnAHxpeD71uVkX5uA
 ours,Q41768440,P569,1984-05-10T00:00:00+00:00
+ours,Q41770875,P569,1984-10-04T00:00:00+00:00
 ours,Q11411691,P856,http://kogaatsushi.com
 wikidata,Q11411691,P856,http://www.kogaatsushi.com
 wikidata,Q11412937,P856,http://yoshikawahajime.blog.fc2.com/
@@ -1124,7 +1129,6 @@ ours,Q1704924,P856,https://www.t-nemoto.com
 wikidata,Q1704924,P856,https://www.t-nemoto.com/
 ours,Q1995125,P856,http://www.kishi-jpn.com/
 wikidata,Q1995125,P856,http://www.kishi-jpn.com
-wikidata,Q24875305,P856,https://ameblo.jp/uttaetotatakai
 ours,Q3482658,P856,http://www.suzukishunichi.jp
 wikidata,Q3482658,P856,http://www.suzukishunichi.jp/
 ours,Q41768312,P856,http://morinatsue.net
@@ -1138,6 +1142,7 @@ ours,Q41770571,P856,http://www.kanakura.net/
 wikidata,Q41770726,P856,https://kazu-seto.blogspot.jp/
 wikidata,Q41770740,P856,http://jcpoonuki.blogspot.jp
 wikidata,Q41770747,P856,http://yokoyama-seigo5.blogspot.jp/
+ours,Q41770875,P856,http://marikokoro556.tokyo.jp/
 wikidata,Q41770887,P856,http://blog.goo.ne.jp/tame15
 wikidata,Q41770943,P856,http://kiihanto.exblog.jp/
 wikidata,Q41770969,P856,https://haioka-kana.jimdo.com/
