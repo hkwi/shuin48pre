@@ -1,5 +1,6 @@
 db,person,property,value
 ours,Q41768440,,
+ours,Q41770806,,
 ours,Q41770875,,
 wikidata,Q11656611,,
 ours,Q10856313,1581,http://www.tanakamieko.jp/category/blog/
@@ -459,6 +460,7 @@ wikidata,Q11629931,P1814,にしめ こうざぶろう
 ours,Q18817877,P1814,なかざと としのぶ
 wikidata,Q18817877,P1814,なかさと としのぶ
 ours,Q41768440,P1814,いしかわ かおり
+ours,Q41770806,P1814,おいかわ ゆきひさ
 ours,Q41770873,P1814,ほんだ　たろう
 wikidata,Q41770873,P1814,ほんだ たろう
 ours,Q41770875,P1814,すずき まりこ
@@ -1080,6 +1082,7 @@ ours,Q978256,P2013,sakihito.ozawa
 ours,Q978256,P2013,小沢さきひと前衆議院議員-438694512855411
 ours,Q992930,P2013,ishihara.nobuteru
 ours,Q41768440,P21,http://www.wikidata.org/entity/Q6581072
+ours,Q41770806,P21,http://www.wikidata.org/entity/Q6581097
 ours,Q41770875,P21,http://www.wikidata.org/entity/Q6581072
 wikidata,Q11596723,P2397,UCMj6Ry4O5UXUWKMGiNxJg2A
 wikidata,Q24875305,P2397,UCf5EyC-MgfmBxTmtFbLGdjw
@@ -1092,6 +1095,7 @@ wikidata,Q6383909,P2397,UC8rxW5RfgCVdkQ4cH1BXNGw
 wikidata,Q7973013,P2397,UCUq_ku31Wv2BM7E2l9WOh2Q
 wikidata,Q8056290,P2397,UCirRDiDnAHxpeD71uVkX5uA
 ours,Q41768440,P569,1984-05-10T00:00:00+00:00
+ours,Q41770806,P569,1960-06-18T00:00:00+00:00
 ours,Q41770875,P569,1984-10-04T00:00:00+00:00
 ours,Q11411691,P856,http://kogaatsushi.com
 wikidata,Q11411691,P856,http://www.kogaatsushi.com
@@ -1163,6 +1167,7 @@ ours,Q41770571,P856,http://www.kanakura.net/
 wikidata,Q41770726,P856,https://kazu-seto.blogspot.jp/
 wikidata,Q41770740,P856,http://jcpoonuki.blogspot.jp
 wikidata,Q41770747,P856,http://yokoyama-seigo5.blogspot.jp/
+ours,Q41770806,P856,http://yuki-oikawa.com
 ours,Q41770875,P856,http://marikokoro556.tokyo.jp/
 wikidata,Q41770887,P856,http://blog.goo.ne.jp/tame15
 wikidata,Q41770943,P856,http://kiihanto.exblog.jp/
