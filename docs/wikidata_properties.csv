@@ -251,7 +251,6 @@ wikidata,Q11434738,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4
 wikidata,Q11439619,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Keitaro%20Ohno.jpg
 wikidata,Q11450236,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%89%E4%BA%95%E7%BE%8E%E6%B2%99%E5%AD%90%E8%AD%B0%E5%93%A1.jpeg
 wikidata,Q11454333,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%AE%E5%B4%8E%E6%94%BF%E4%B9%85.jpg
-wikidata,Q11454668,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Noriko%20Miyagawa.jpg
 wikidata,Q11461458,P18,http://commons.wikimedia.org/wiki/Special:FilePath/S%2014934020.jpg
 wikidata,Q11461866,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E8%A1%97%E9%A0%AD.jpg
 wikidata,Q11462267,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E5%B0%8F%E6%B1%A0%E6%94%BF%E5%B0%B1.jpg
@@ -280,6 +279,7 @@ wikidata,Q11572647,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Yuichi
 wikidata,Q11580199,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E7%99%BD%E7%9F%B3%E6%B4%8B%E4%B8%80%20%E6%8F%A1%E6%89%8B%20%28%E5%B0%8F%29.JPG
 wikidata,Q11580448,P18,http://commons.wikimedia.org/wiki/Special:FilePath/IMG%20Takaki%20Shirasuka%20at%20Kashiwa.jpg
 wikidata,Q11597257,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E8%A1%86%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%20%E7%A9%B4%E8%A6%8B%E9%99%BD%E4%B8%80.jpg
+wikidata,Q11606064,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kenichi%20Hosoda%20at%20Nagaoka%20Niigata%202019%2C07.jpg
 wikidata,Q11609955,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Hiroyuki%20Yoshiie%20July%2020%2C%202007.jpg
 wikidata,Q1161024,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Taro%20Kono%20cropped%20Taro%20Kono%20201510.jpg
 wikidata,Q11616618,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Masaru%20Wakasa%20IMG%205348%2020130706.JPG
@@ -294,6 +294,7 @@ wikidata,Q11648868,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Norika
 wikidata,Q11653978,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Yutaka%20Hasegawa%202019.jpg
 wikidata,Q11657178,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Yukihiko%20Akutsu%20cropped%201%20Yukihiko%20Akutsu%20201101.jpg
 wikidata,Q11661236,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Shuhei%20Aoyama%20cropped%202%20Shuhei%20Aoyama%20%282014.03.23%29%203.jpg
+wikidata,Q11678114,P18,http://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E5%B2%A9%E5%AE%87%E6%B4%8B.jpg
 wikidata,Q11679075,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Saito%20ken.jpg
 wikidata,Q1207174,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Nukaga%20Fukushiro%201-2.jpg
 wikidata,Q122465,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Yoshihide%20Suga-1.jpg
@@ -397,7 +398,7 @@ wikidata,Q6378155,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Katsuno
 wikidata,Q6381578,P18,http://commons.wikimedia.org/wiki/Special:FilePath/2012-carender.jpg
 wikidata,Q6381615,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazunori-tanaka-kawasaki-dec2014-zoomin.jpg
 wikidata,Q6381645,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazuo%20Kitagawa%20%E5%8C%97%E5%81%B4%E4%B8%80%E9%9B%84%20%28USCG%20photo%20JARVIS%20JAPAN%20DEPLOYMENT%29.jpg
-wikidata,Q6381788,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazuyoshi%20Akaba%2C%20Dec.%202013.jpg
+wikidata,Q6381788,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kazuyoshi%20Akaba.jpg
 wikidata,Q6383911,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Keisuke%20Tsumura.jpg
 wikidata,Q6389323,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kenji%20Eda%20Sakado%2020141203.JPG
 wikidata,Q6389383,P18,http://commons.wikimedia.org/wiki/Special:FilePath/Kenji%20Wakamiya.jpg
@@ -1172,7 +1173,6 @@ ours,Q1704924,P856,https://www.t-nemoto.com
 wikidata,Q1704924,P856,https://www.t-nemoto.com/
 ours,Q1995125,P856,http://www.kishi-jpn.com/
 wikidata,Q1995125,P856,http://www.kishi-jpn.com
-wikidata,Q24875305,P856,https://ameblo.jp/uttaetotatakai
 ours,Q3482658,P856,http://www.suzukishunichi.jp
 wikidata,Q3482658,P856,http://www.suzukishunichi.jp/
 ours,Q405533,P856,http://www.kiyomi.gr.jp/
